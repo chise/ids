@@ -1,3 +1,25 @@
+2002-12-16  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-find.el (ideographic-structure-char=): Fix problem about
+	characters which does not have mappings for UCS code points.
+
+2002-11-29  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-JIS-X0208-1990.txt: Modify and/or fix some parts.
+
+2002-11-28  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* install-ids.el: Change order.
+
+2002-11-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-01.txt:
+	- Use utf-8-mcs-er instead of utf-8.
+	- Modify and/or fix some parts.
+
+	* ids-dump.el (ids-dump-insert-daikanwa): Fixed problem about null
+	definitions.
+
 2002-11-26  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* Makefile (install-ids): New target.
