@@ -1,0 +1,83 @@
+2002-04-16  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt, IDS-UCS-Ext-B-2.txt, IDS-UCS-Ext-B-3.txt,
+	IDS-UCS-Ext-B-4.txt, IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-6.txt,
+	README.en, IDS-UCS-Basic.txt, IDS-UCS-Compat-Supplement.txt,
+	IDS-UCS-Compat.txt, IDS-UCS-Ext-A.txt: New files.
+
+2002-04-05  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* iddef.el (iddef-check-mapping-buffer): Add `hanyu-dazidian' and
+	remove `hanyu-dazidian-{vol|page|char}'.
+
+2002-04-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids.el (ids-parse-string): Add DOC-string.
+	(ids-format-list): Likewise; add autoload cookie.
+
+	* ids-util.el (morohashi-char-replace-alist): Add some rules.
+
+2002-04-04  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids.el (ids-format-unit): New function.
+	(ids-format-list): New function.
+
+2002-04-03  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-util.el (ideographic-structure-convert-to-daikanwa): Try to
+	replace converted sub-tree with corresponding combined character.
+
+2002-04-03  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* iddef.el (iddef-read-buffer): Add new optional argument
+	`ucs-only'.
+	(iddef-read-file): Likewise.
+
+2002-03-31  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-util.el (morohashi-char-replace-alist): Use `decode-char'
+	for U+4EBD.
+
+2002-01-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* iddef.el (iddef-read-buffer): Fixed problem when corresponding
+	Daikanwa character is not found.
+
+2001-12-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* iddef.el (iddef-check-mapping-buffer): New function.
+	(iddef-check-mapping-file): New function.
+
+2001-12-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* iddef.el (iddef-read-buffer): Don't add `ideographic-structure'
+	into a character specified in `->same-ideograph' or `->identical'
+	if the character has `ucs'.
+
+	* ids-util.el: Add new character.
+
+2001-12-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-util.el: Add coding: magic cookie.
+	(morohashi-char-replace-alist): Add some rules.
+
+2001-12-15  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-util.el (morohashi-char-replace-alist): Add new character.
+
+2001-12-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* iddef.el (iddef-read-buffer): Don't add `ideographic-structure'
+	for Daikanwa character if the Daikanwa character has a different
+	`ucs' code point.
+
+2001-12-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* iddef.el: New file.
+
+	* ids.el (ids-read-buffer): Moved to iddef.el and renamed to
+	`iddef-read-buffer'; don't require `ids-util'.
+
+2001-12-14  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-util.el, ids.el: New file.
