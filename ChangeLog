@@ -1,3 +1,10 @@
+2002-11-26  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* Makefile (install-ids): New target.
+	(install): Call `install-ids'.
+
+	* install-ids.el: New file.
+
 2002-11-21  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* ids-find.el (ideographic-structure-char=): New function; check
