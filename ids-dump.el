@@ -71,8 +71,9 @@
 	(insert
 	 (format "M-%05d \t%c\t%s\n"
 		 i (decode-builtin-char 'ideograph-daikanwa i)
-		 (ids-format-list
-		  (get-char-attribute chr 'ideographic-structure)))))
+		 (or (ids-format-list
+		      (get-char-attribute chr 'ideographic-structure))
+		     ""))))
       (when (setq sal (assq i mdh-alist))
 	(setq sal (cdr sal))
 	(when (setq chr (assq 1 sal))
@@ -80,8 +81,9 @@
 	  (insert
 	   (format "M-%05d'\t%c\t%s\n"
 		   i chr
-		   (ids-format-list
-		    (get-char-attribute chr 'ideographic-structure)))))
+		   (or (ids-format-list
+			(get-char-attribute chr 'ideographic-structure))
+		       ""))))
 	(when (setq chr (assq 2 sal))
 	  (setq chr (cdr chr))
 	  (insert
