@@ -1,9 +1,9 @@
 ;;; ids-util.el --- Utilities about ideographic-structure -*- coding: utf-8 -*-
 
-;; Copyright (C) 2001,2002 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002,2003 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
-;; Keywords: ideographic-structure, UTF-2000, database
+;; Keywords: ideographic-structure, CHISE, IDS, IDC, UCS, database
 
 ;; This file is a part of Tomoyo Utilities.
 
