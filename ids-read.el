@@ -50,6 +50,13 @@
 				chs)
 		  (decode-char 'japanese-jisx0208-1990
 			       (string-to-int (match-string 1 chs) 16)))
+		 ((string-match
+		   "C\\([1-7]\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)"
+		   chs)
+		  (decode-char
+		   (intern
+		    (concat "chinese-cns11643-" (match-string 1 chs)))
+		   (string-to-int (match-string 2 chs) 16)))
 		 ((string-match "CDP-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)"
 				chs)
 		  (decode-char '=big5-cdp
