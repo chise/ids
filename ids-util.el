@@ -1,4 +1,4 @@
-;;; ids-util.el --- Utilities about ideographic-structure property
+;;; ids-util.el --- Utilities about ideographic-structure -*- coding: utf-8 -*-
 
 ;; Copyright (C) 2001 MORIOKA Tomohiko
 
@@ -71,6 +71,10 @@
    (cons (decode-char 'ucs #x2EBE)
 	 (decode-char 'ucs #x2EBF))
    (cons ?亽 (decode-char 'chinese-big5-cdp #x8AFC))
+   (cons ?亼 (decode-char 'chinese-big5-cdp #x8AFC))
+   (cons (decode-char 'chinese-big5-cdp #x8AFC)
+	 (decode-char 'chinese-big5-cdp #x8AFC))
+   '(?夂 . ?夂)
    (cons (decode-char 'ucs #x5922)
 	 (decode-char 'ideograph-daikanwa 05802))
    (cons (decode-char 'ucs #x656C)
@@ -119,6 +123,8 @@
 	 (decode-char 'ideograph-daikanwa 38902))
    (cons (decode-char 'ucs #x9752)
 	 (decode-char 'ucs #x9751))
+   (cons (decode-char 'japanese-jisx0213-2 #x2327)
+	 (decode-char 'japanese-jisx0213-2 #x2327))
    ))
 
 ;;;###autoload
