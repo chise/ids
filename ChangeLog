@@ -6,6 +6,8 @@
 	* ids-read.el (ids-read-buffer): Add setting for CDP-HHHH and
 	HZKdd-HHHH.
 
+	* IDS-JIS-X0208-1990.txt: Modify and add some IDSs.
+
 	* install-ids.el: Install IDS-CDP.txt.
 
 2003-08-05  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
