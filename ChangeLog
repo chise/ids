@@ -1,3 +1,14 @@
+2002-06-27  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-dump.el (ids-dump-file-specs-alist): Add `daikanwa-xx'
+	instead of `daikanwa'.
+	(ids-dump-insert-daikanwa): Add new argument `start' and `end';
+	don't dump MH-nnnn data.
+	(ids-dump-insert-daikanwa-hokan): New function.
+
+	* ids-read.el (ids-read-buffer): Read M-nnnnn', M-nnnnn" and
+	MH-nnnn.
+
 2002-06-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-01.txt, IDS-Daikanwa-02.txt, IDS-Daikanwa-03.txt,
