@@ -4,6 +4,8 @@
 
 2002-06-22  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
+	* IDS-UCS-Ext-B-2.txt: Fix IDS of some characters.
+
 	* IDS-UCS-Compat.txt (U+F902): Declare as an atom.
 
 	* IDS-UCS-Ext-A.txt: Fix IDS of some characters.
