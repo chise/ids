@@ -58,42 +58,43 @@
 	    (cons chr
 		  (substring string 1))))))
 
-(defun ids-parse-component (string)
-  (let ((ret (ids-parse-element string))
+(defun ids-parse-component (string simplify)
+  (let ((ret (ids-parse-element string simplify))
 	rret)
     (when ret
-      (if (and (listp (car ret))
+      (if (and simplify
+	       (listp (car ret))
 	       (setq rret (ideographic-structure-find-char
 			   (cdr (assq 'ideographic-structure (car ret))))))
 	  (cons rret (cdr ret))
 	ret))))
 
-(defun ids-parse-element (string)
+(defun ids-parse-element (string simplify)
   (let (ret op arg1 arg2 arg3)
     (cond ((ids-parse-terminal string))
 	  ((setq ret (ids-parse-op-2 string))
 	   (setq op (car ret))
-	   (when (setq ret (ids-parse-component (cdr ret)))
+	   (when (setq ret (ids-parse-component (cdr ret) simplify))
 	     (setq arg1 (car ret))
-	     (when (setq ret (ids-parse-component (cdr ret)))
+	     (when (setq ret (ids-parse-component (cdr ret) simplify))
 	       (setq arg2 (car ret))
 	       (cons (list (list 'ideographic-structure op arg1 arg2))
 		     (cdr ret)))))
 	  ((setq ret (ids-parse-op-3 string))
 	   (setq op (car ret))
-	   (when (setq ret (ids-parse-component (cdr ret)))
+	   (when (setq ret (ids-parse-component (cdr ret) simplify))
 	     (setq arg1 (car ret))
-	     (when (setq ret (ids-parse-component (cdr ret)))
+	     (when (setq ret (ids-parse-component (cdr ret) simplify))
 	       (setq arg2 (car ret))
-	       (when (setq ret (ids-parse-component (cdr ret)))
+	       (when (setq ret (ids-parse-component (cdr ret) simplify))
 		 (setq arg3 (car ret))
 		 (cons (list (list 'ideographic-structure op arg1 arg2 arg3))
 		       (cdr ret)))))))))
 
 ;;;###autoload
-(defun ids-parse-string (ids-string)
+(defun ids-parse-string (ids-string &optional simplify)
   "Parse IDS-STRING and return the result."
-  (let ((ret (ids-parse-element ids-string)))
+  (let ((ret (ids-parse-element ids-string simplify)))
     (if (= (length (cdr ret)) 0)
 	(car ret))))
 
