@@ -1,3 +1,7 @@
+2002-09-30  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-UCS-Basic.txt: Use utf-8-mcs-er instead of utf-8.
+
 2002-09-27  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-ELS (ids-modules-to-compile): Add `ids-find'.
