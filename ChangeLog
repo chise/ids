@@ -1,3 +1,9 @@
+2002-06-22  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-ELS (ids-modules-to-compile): Add `ids-dump'.
+
+	* ids-dump.el: New file.
+
 2002-06-21  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-UCS-Compat.txt: Fixed.
