@@ -145,10 +145,10 @@
 
 (defun ids-dump-range (file path func &rest args)
   (with-temp-buffer
-    (let* ((coding-system-for-write 'utf-8))
+    (let* ((coding-system-for-write 'utf-8-mcs-er))
       (if (file-directory-p path)
 	  (setq path (expand-file-name file path)))
-      (insert ";; -*- coding: utf-8 -*-\n")
+      (insert ";; -*- coding: utf-8-mcs-er -*-\n")
       (apply func args)
       (write-region (point-min)(point-max) path))))
 
