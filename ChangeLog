@@ -1,3 +1,11 @@
+2005-02-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt: Use "&GT-K05506;" instead of "⿱左⺼".
+
+2005-02-04  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-A.txt: Compact/modify/fix some IDSs.
+
 2005-02-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt: Compact/modify/fix some IDSs.
@@ -87,7 +95,7 @@
 
 2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Basic.txt (U+53E2): Use "&I-CDP-8AA8;" instead of "⿱业&RUI6-E00E;".
+	* IDS-UCS-Basic.txt (U+53E2): Use "丵" instead of "⿱业&RUI6-E00E;".
 	(U+549D): Use "⿱⿰&CDP-895C;&CDP-895C;一" instead of "⿱⿰幺幺一".
 	(U+9E36): Use "⿳⿰&CDP-895C;&CDP-895C;一" instead of "⿳⿰幺幺一".
 	(U+54C0): Modify IDS.
@@ -144,7 +152,7 @@
 	- Use U+5C27 (尧) instead of "⿱&CDP-89D9;兀".
 	- Use U+8D1E (贞) instead of "⿱⺊贝".
 	- Use U+4E3D (丽) instead of "⿱一⿰⿵冂丶⿵冂丶".
-	- Use U+8D23 (责) instead of "⿱&CDP-8B77;贝".
+	- Use U+8D23 (责) instead of "⿱龶贝".
 
 2005-01-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
