@@ -2,6 +2,11 @@
 
 	* IDS-JIS-X0208-1990.txt: Modify, fix and add some IDSs.
 
+2003-01-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-A.txt: Modify and/or fix some IDSs.
+	(U+3516): Completed.
+
 2003-01-27  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-Daikanwa-02.txt: Modify, fix and add some IDSs.
