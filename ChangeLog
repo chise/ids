@@ -1,5 +1,13 @@
 2005-01-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Basic.txt: - Use U+386F (㡯) instead of "⿸广乇".
+	- Use U+5C27 (尧) instead of "⿱&CDP-89D9;兀".
+	- Use U+8D1E (贞) instead of "⿱⺊贝".
+	- Use U+4E3D (丽) instead of "⿱一⿰⿵冂丶⿵冂丶".
+	- Use U+8D23 (责) instead of "⿱&CDP-8B77;贝".
+
+2005-01-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-UCS-Basic.txt (U+4EB7): Fixed.
 	(U+5700): Modify IDS.
 	- Use U+3749 (㝉) instead of "⿱宀一".
