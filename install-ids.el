@@ -23,6 +23,12 @@
     (setq i (1+ i))))
 
 (let ((i 1))
+  (while (<= i 2)
+    (install-ids-read-file (format "IDS-CNS-%d.txt" i)
+			   load-ids-simplify t)
+    (setq i (1+ i))))
+
+(let ((i 1))
   (while (<= i 12)
     (install-ids-read-file (format "IDS-Daikanwa-%02d.txt" i)
 			   load-ids-simplify t)
