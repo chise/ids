@@ -1,7 +1,20 @@
-;; -*- coding: utf-8 -*-
-This package contains data and utilities about structures of
-Han Ideographs (漢字).
+;; -*- coding: utf-8-jis-er -*-
+This directory holds the CHISE-IDS package which contains data and
+utilities about structures of Han Ideographs (漢字).
 
+
+* How to install
+
+Please install XEmacs CHISE before install this package.
+
+If XEmacs CHISE is installed in your system, please type
+
+    % make install
+
+in the directory of the CHISE-IDS distribution.
+
+
+* IDS files
 
 The following files contains the data about structures of Han
 Ideographs (漢字).
@@ -62,11 +75,7 @@ Each element means
     <COMMENTS>	comment
 
 
-The developing of the package was supported by the “Exploratory
-Software Project” of Information-technology Promotion Agency, Japan.
-Some data in the IDS-UCS* files are derived and expanded from the CDP
-database developped by C.C. Hsieh and his team at Academia Sinica in
-Taipei, Taiwan.
+* License
 
 This package is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -82,3 +91,12 @@ You should have received a copy of the GNU General Public License
 along with this package; see the file COPYING.  If not, write to
 the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 Boston, MA 02111-1307, USA.
+
+
+* Acknowledgment
+
+The developing of the package was supported by the “Exploratory
+Software Project” of Information-technology Promotion Agency, Japan.
+Some data in the IDS-UCS* files are derived and expanded from the CDP
+database developped by C.C. Hsieh and his team at Academia Sinica in
+Taipei, Taiwan.
