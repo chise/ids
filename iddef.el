@@ -34,7 +34,7 @@
 (require 'ids-util)
 
 ;;;###autoload
-(defun iddef-read-buffer (buffer)
+(defun iddef-read-buffer (buffer &optional ucs-only)
   (with-current-buffer buffer
     (goto-char (point-min))
     (let (ucs
@@ -52,7 +52,7 @@
 		   (consp
 		    (setq struct (cdr (assq 'ideographic-structure ret)))))
 	  (setq char (decode-char 'ucs ucs))
-	  (unless (get-char-attribute char 'ideograph-daikanwa)
+	  (unless (or ucs-only (get-char-attribute char 'ideograph-daikanwa))
 	    (when (and (setq morohashi
 			     (get-char-attribute char 'morohashi-daikanwa))
 		       (>= (length morohashi) 3))
@@ -87,12 +87,12 @@
 	  )))))
 
 ;;;###autoload
-(defun iddef-read-file (file)
-  (interactive "fIDDef file : ")
+(defun iddef-read-file (file &optional ucs-only)
+  (interactive "fIDDef file : \nP")
   (with-temp-buffer
     (let ((coding-system-for-read 'utf-8))
       (insert-file-contents file))
-    (iddef-read-buffer (current-buffer))))
+    (iddef-read-buffer (current-buffer) ucs-only)))
 
 ;;;###autoload
 (defun iddef-check-mapping-buffer (buffer)
