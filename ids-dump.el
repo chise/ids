@@ -127,8 +127,9 @@
        (format "MH-%04d \t%c\t%s\n"
 	       (car cell)
 	       chr
-	       (ids-format-list
-		(get-char-attribute chr 'ideographic-structure)))))))
+	       (or (ids-format-list
+		    (get-char-attribute chr 'ideographic-structure))
+		   ""))))))
 
 (defun ids-dump-insert-jis-x0208-1990 ()
   (let ((row 16)
