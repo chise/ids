@@ -1,4 +1,38 @@
+2003-01-27  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-Daikanwa-01.txt: Modify some IDSs.
+	(M-00339): Add IDS.
+	(M-00629'): Fixed.
+	(M-00862): Add IDS.
+	(M-00998): Add IDS.
+	(M-01368): Use U+FA32 instead of U-0002F80E.
+
 2003-01-22  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt: Modify some IDSs.
+	(U+5271): Fixed.
+	(U+8842): Fixed.
+	(U+8853): Fixed.
+	(U+88B0): Completed.
+	(U+8D12): Completed.
+	(U+8D4D): Completed.
+	(U+8D56): Completed.
+	(U+8DA1): Completed.
+	(U+8F73): Completed.
+	(U+9045): Completed.
+	(U+91FC): Completed.
+	(U+9459): Completed.
+	(U+954A): Fixed.
+	(U+9613): Fixed.
+	(U+9618): Completed.
+	(U+9771): Completed.
+	(U+98CA): Completed.
+	(U+98D1): Fixed.
+	(U+98D6): Completed.
+	(U+9B2A): Completed.
+	(U+9C5C): Completed.
+	(U+9CD0): Completed.
+	(U+9D49): Completed.
 
 	* IDS-JIS-X0208-1990.txt: Fix, modify and/or complete some IDSs.
 	(J90-3B3E): Add IDS.
