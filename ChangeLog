@@ -1,3 +1,118 @@
+2002-07-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: New file.
+
+	* ids-read.el (ids-read-buffer): Accept J90-hhhh.
+
+	* ids-dump.el (ids-dump-file-specs-alist): Deleted.
+	(ids-dump-ranges): Deleted.
+	(ids-dump-insert-jis-x0208-1990): New function.
+	(ids-dump-range): New function.
+	(ids-dump-ucs-basic): New implementation.
+	(ids-dump-ucs-ext-a): Likewise.
+	(ids-dump-ucs-compat): Likewise.
+	(ids-dump-ucs-ext-b-*): Likewise.
+	(ids-dump-ucs-compat-supplement): Likewise.
+	(ids-dump-daikanwa-nn): Likewise.
+	(ids-dump-daikanwa-index): New function.
+	(ids-dump-daikanwa-hokan): Renamed from `ids-dump-daikanwa-ho';
+	new implementation.
+	(ids-dump-cbeta): New implementation.
+	(ids-dump-jis-x0208-1990): New function.
+
+2002-07-01  Christian Wittern  <wittern@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-4.txt, IDS-UCS-Ext-B-3.txt,
+	IDS-UCS-Ext-B-2.txt, IDS-UCS-Ext-B-1.txt, IDS-UCS-Ext-A.txt,
+	IDS-UCS-Basic.txt: Replaced some CDP characters with Unicode
+	equivalents: U+624C; U+5FC4.
+
+2002-07-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-ho.txt (MH-0089): Add IDS.
+	(MH-0133): Modified.
+	(MH-0465): Modified.
+	(MH-0486): Modified.
+
+	* IDS-Daikanwa-dx.txt (M-48929): Modified.
+
+	* IDS-Daikanwa-12.txt (M-42211): Add IDS.
+
+	* IDS-Daikanwa-11.txt:
+	- Add IDS for some characters.
+	- Modify/fix IDS for some characters.
+
+	* IDS-Daikanwa-10.txt (M-32806): Add IDS.
+
+	* IDS-Daikanwa-09.txt (M-28120): Break.
+	(M-28126): Add IDS.
+	- Use M-07055 instead of U+5B81.
+
+	* IDS-Daikanwa-08.txt (M-25016): Break.
+	(M-25016'): Add IDS.
+
+	* IDS-Daikanwa-07.txt (M-17575): Add IDS.
+
+	* IDS-Daikanwa-06.txt (M-15637): Add IDS.
+
+	* IDS-Daikanwa-05.txt:
+	- Add IDS for some characters.
+	- Use M-01452 instead of U+516C.
+
+	* IDS-Daikanwa-04.txt:
+	- Add IDS for some characters.
+	- Use M-09221 instead of U+5E7F.
+
+	* IDS-Daikanwa-03.txt, IDS-Daikanwa-02.txt: Add IDS for some
+	characters.
+
+	* IDS-Daikanwa-01.txt: Use J0-5035 instead of U+4EA0.  Use J0-446B
+	instead of U+5E1D.  Use M-09373 instead of U+5EB6.
+	(M-00248): Delete IDS.
+	(M-00249): Delete IDS.
+	(M-00250): Delete IDS.
+	(M-00407): Add IDS.
+	(M-00612): Add IDS.
+	(M-00844): Simplified.
+	(M-00876): Add IDS.
+	(M-01009): Add IDS.
+	(M-01179): Add IDS.
+	(M-01312): Add IDS.
+	(M-01374): Modify structure.
+	(M-01375): Likewise.
+
+	* IDS-CBETA.txt (CB00104): Fixed.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A205): Fixed.
+	(U-0002A20B): Likewise.
+	(U-0002A6CD): Likewise.
+
+	* IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-4.txt: Fix and/or modify for
+	some characters.
+
+	* IDS-UCS-Ext-B-3.txt (U-00024013): Fixed.
+	(U-00024047): Fixed.
+	(U-00025F11): Fixed.
+	(U-00025F51): Fixed.
+	(U-00025FF4): Fixed.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023FF6): Fixed.
+
+	* IDS-UCS-Ext-B-1.txt (U-00020054): Fixed.
+	(U-00020075): Completed.
+
+	* IDS-UCS-Ext-A.txt (U+34D5): Completed.
+	(U+4B91): Likewise.
+	(U+4CF5): Fixed.
+	(U+FA23): Completed.
+
+	* IDS-UCS-Basic.txt (U+9EF1): Fixed.
+
+2002-07-01  Christian Wittern  <wittern@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt: Cleaned up some IDS sequences, especially
+	replacing cdp chars with their unicode counterparts of U+8BA0.
+
 2002-06-27  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* ids-dump.el (ids-dump-file-specs-alist): Add `daikanwa-xx'
