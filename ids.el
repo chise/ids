@@ -97,60 +97,6 @@
 	(car ret))))
 
 
-(require 'ids-util)
-
-;;;###autoload
-(defun ids-read-buffer (buffer)
-  (with-current-buffer buffer
-    (goto-char (point-min))
-    (let (ucs
-	  radical seq ret
-	  char struct
-	  morohashi m-chr)
-      (while (re-search-forward
-	      "^U\\+\\([0-9A-F]+\\)\t\\([0-9]+\\)\t[^\t]+\t\\([^\t\n]+\\)"
-	      nil t)
-	(setq ucs (string-to-int (match-string 1) 16)
-	      radical (string-to-int (match-string 2))
-	      seq (match-string 3))
-	(setq ret (ids-parse-string seq))
-	(when (and (consp ret)
-		   (consp
-		    (setq struct (cdr (assq 'ideographic-structure ret)))))
-	  (setq char (decode-char 'ucs ucs))
-	  (unless (get-char-attribute char 'ideograph-daikanwa)
-	    (when (and (setq morohashi
-			     (get-char-attribute char 'morohashi-daikanwa))
-		       (>= (length morohashi) 3))
-	      (setq m-chr
-		    (if (= (nth 1 morohashi) 0)
-			(decode-char 'ideograph-daikanwa
-				     (setq morohashi (car morohashi)))
-		      (setq morohashi (list (car morohashi)
-					    (nth 1 morohashi)))
-		      (map-char-attribute (lambda (char val)
-					    (if (equal morohashi val)
-						char))
-					  'morohashi-daikanwa)))
-	      (put-char-attribute
-	       m-chr
-	       'ideographic-structure
-	       (ideographic-structure-convert-to-daikanwa struct))))
-	  (put-char-attribute char 'ideographic-structure struct)
-	  (dolist (ref (union
-			(get-char-attribute char '->same-ideograph)
-			(get-char-attribute char '->identical)))
-	    (if (setq ret
-		      (cond ((characterp ref) ref)
-			    ((char-ref-p ref)
-			     (find-char (plist-get ref :char)))
-			    (t
-			     (find-char ref))))
-		(put-char-attribute ret 'ideographic-structure struct)))
-	  )))))
-
-;; (ids-read-buffer "IDDef1.txt")
-
 ;;; @ End.
 ;;;
 
