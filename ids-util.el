@@ -125,6 +125,8 @@
 	 (decode-char 'ucs #x9751))
    (cons (decode-char 'japanese-jisx0213-2 #x2327)
 	 (decode-char 'japanese-jisx0213-2 #x2327))
+   (cons (decode-char 'chinese-big5-cdp #x8BFA)
+	 (decode-char 'japanese-jisx0213-2 #x2327))
    ))
 
 ;;;###autoload
