@@ -66,7 +66,7 @@
 		   chs)
 		  (decode-char (intern
 				(format "=hanziku-%d"
-					(string-to-int (match-string 1))))
+					(string-to-int (match-string 1 chs))))
 			       (string-to-int (match-string 2 chs) 16)))
 		 ((string-match "M-\\([0-9]+\\)'" chs)
 		  (setq code (string-to-int (match-string 1 chs)))
