@@ -1,5 +1,9 @@
 2005-04-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-CNS-2.txt: Compact/modify/fix some IDSs.
+
+2005-04-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-HZK12.txt, IDS-HZK11.txt: Complete/compact/modify/fix some
 	IDSs.
 
@@ -14,6 +18,13 @@
 	Complete/compact/modify/fix some IDSs.
 
 2005-04-03  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-dump.el (ids-dump-format-list): New function; convert
+	`=ucs@unicode' or `=ucs@iso' characters to corresponding '=ucs'
+	characters.
+	(ids-dump-insert-line): Use `ids-dump-format-list' instead of
+	`ids-format-list'.
+	(ids-dump-insert-jis-x0208-1990): Likewise.
 
 	* IDS-Daikanwa-12.txt:
 	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
@@ -156,6 +167,22 @@
 	* IDS-Daikanwa-dx.txt: Use <CJK RADICAL EWE> instead of "⿱卝干".
 	(M-49516): Add IDS.
 	(M-49517): Likewise.
+
+2005-03-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* install-ids.el: Use `ids-update-index'.
+
+	* ids.el (ideographic-structure-find-char): New function [override
+	the same function defined in ideograph-util.el].
+
+	* ids-find.el (ids-index-store-char): New function.
+	(ids-index-store-structure): New function.
+	(ids-update-index): New command.
+	(ids-find-all-products): New function.
+	(char-component-variants): New function.
+	(ideographic-products-find): New function.
+	(ids-find-chars-including-components): New implementation; use
+	`ideographic-products-find'.
 
 2005-03-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
