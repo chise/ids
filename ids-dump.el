@@ -67,7 +67,19 @@
 			   ids-dump-insert-ccs-ranges
 			   ucs "U-%08X\t%c\t%s\n"
 			   (#x2F800 . #x2FA1D))
-    (daikanwa "IDS-Daikanwa.txt" ids-dump-insert-daikanwa)
+    (daikanwa-01 "IDS-Daikanwa-01.txt" ids-dump-insert-daikanwa 00001 01449)
+    (daikanwa-02 "IDS-Daikanwa-02.txt" ids-dump-insert-daikanwa 01450 04674)
+    (daikanwa-03 "IDS-Daikanwa-03.txt" ids-dump-insert-daikanwa 04675 07410)
+    (daikanwa-04 "IDS-Daikanwa-04.txt" ids-dump-insert-daikanwa 07411 11529)
+    (daikanwa-05 "IDS-Daikanwa-05.txt" ids-dump-insert-daikanwa 11530 14414)
+    (daikanwa-06 "IDS-Daikanwa-06.txt" ids-dump-insert-daikanwa 14415 17574)
+    (daikanwa-07 "IDS-Daikanwa-07.txt" ids-dump-insert-daikanwa 17575 22677)
+    (daikanwa-08 "IDS-Daikanwa-08.txt" ids-dump-insert-daikanwa 22678 28107)
+    (daikanwa-09 "IDS-Daikanwa-09.txt" ids-dump-insert-daikanwa 28108 32803)
+    (daikanwa-10 "IDS-Daikanwa-10.txt" ids-dump-insert-daikanwa 32804 38699)
+    (daikanwa-11 "IDS-Daikanwa-11.txt" ids-dump-insert-daikanwa 38700 42209)
+    (daikanwa-12 "IDS-Daikanwa-12.txt" ids-dump-insert-daikanwa 42210 48902)
+    (daikanwa-ho "IDS-Daikanwa-ho.txt" ids-dump-insert-daikanwa-hokan)
     (cbeta "IDS-CBETA.txt"
 	   ids-dump-insert-ccs-ranges
 	   ideograph-cbeta "CB%05d\t%c\t%s\n"
@@ -114,8 +126,8 @@
       (write-region (point-min)(point-max)
 		    filename))))
 
-(defun ids-dump-insert-daikanwa ()
-  (let ((i 1)
+(defun ids-dump-insert-daikanwa (start end)
+  (let ((i start)
 	mdh-alist
 	chr sal)
     (map-char-attribute
@@ -128,7 +140,7 @@
 			       (cdr (assq (car val) mdh-alist)))))
        nil)
      'morohashi-daikanwa)
-    (while (<= i 49964)
+    (while (<= i end)
       (when (setq chr (decode-char 'ideograph-daikanwa i))
 	(insert
 	 (format "M-%05d \t%c\t%s\n"
@@ -152,10 +164,18 @@
 		   (ids-format-list
 		    (get-char-attribute chr 'ideographic-structure)))))
 	)
-      (setq i (1+ i)))
-    (setq sal (sort (cdr (assq 'ho mdh-alist))
-		    (lambda (a b)
-		      (< (car a)(car b)))))
+      (setq i (1+ i)))))
+
+(defun ids-dump-insert-daikanwa-hokan ()
+  (let (chr sal)
+    (map-char-attribute
+     (lambda (key val)
+       (when (and (eq (car val) 'ho)
+		  (null (nthcdr 2 val)))
+	 (setq sal (cons (cons (nth 1 val) key) sal)))
+       nil)
+     'morohashi-daikanwa)
+    (setq sal (sort sal (lambda (a b) (< (car a)(car b)))))
     (dolist (cell sal)
       (setq chr (cdr cell))
       (insert
