@@ -1,5 +1,12 @@
 2003-06-16  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
+	* IDS-UCS-Ext-B-1.txt (U-000208F4): Modified.
+	(U-000208F7): Modified.
+	(U-000208FB): Completed.
+	(U-000208FC): Modified.
+
+2003-06-16  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
 	* IDS-Daikanwa-04.txt: Use utf-8-mcs-er instead of utf-8.
 
 2003-06-12  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
