@@ -1,5 +1,8 @@
 2002-06-22  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
+	* ids-read.el (ids-read-buffer): Accept CBnnnnn instead of
+	CB-nnnnn as CBETA characters.
+
 	* IDS-ELS (ids-modules-to-compile): Add `ids-dump'.
 
 	* ids-dump.el: New file.
