@@ -1,6 +1,30 @@
+2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+523E): Fixed.
+	- Use "贲" instead of "⿱卉贝".
+	- Use "尝" instead of "⿳⺌冖云".
+	- Use "竝" instead of "⿰立立".
+	- Use "宾" instead of "⿱宀兵".
+	- Use "诸" instead of "⿰讠者".
+	- Use "难" instead of "⿰又隹".
+	- Use "熈" instead of "⿱⿲丿臣巳灬".
+	- Use "⿰⿱山己" instead of "⿰⿱山己".
+	- Use "⿰己" instead of "⿰己".
+	- Use "𢀖" instead of "⿱&CDP-89E1;工".
+	- Use "朶" instead of "⿱乃木".
+	- Use "岁" instead of "⿱山夕".
+	- Use "贳" instead of "⿱世贝".
+	- Use "轨" instead of "⿰车九".
+	- Use "贵" instead of "⿱&CDP-8C48;贝".
+	- Use "䜌" instead of "⿲糹言糹".
+	- Use "岁" instead of "⿱山夕".
+	- Use "贲" instead of "⿱卉贝".
+	- Use "⿰⺶" instead of "⿰⺶".
+
 2005-01-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Basic.txt: - Use U+386F (㡯) instead of "⿸广乇".
+	* IDS-UCS-Basic.txt:
+	- Use U+386F (㡯) instead of "⿸广乇".
 	- Use U+5C27 (尧) instead of "⿱&CDP-89D9;兀".
 	- Use U+8D1E (贞) instead of "⿱⺊贝".
 	- Use U+4E3D (丽) instead of "⿱一⿰⿵冂丶⿵冂丶".
