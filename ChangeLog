@@ -1,3 +1,34 @@
+2003-02-21  Kouichirou Eto  <eto@aqua>
+
+	* IDS-JIS-X0208-1990.txt (J90-6243): fixed.
+
+	* IDS-UCS-Basic.txt: fix some unbalanced IDSes, add an IDS.
+
+2003-02-21  Tomohiko Morioka  <tomo@aqua>
+
+	* IDS-CBETA.txt (CB01462): Fixed.
+	(CB01463): Fix operator.
+	(CB01464): Modified.
+
+2003-02-20  Tomohiko Morioka  <tomo@aqua>
+
+	* ChangeLog: update.
+
+	* install-ids.el: Refer Daikanwa than CBETA.
+
+	* ChangeLog: update.
+
+	* IDS-UCS-Ext-A.txt: Modify and/or fix some IDSs.
+	(U+3516): Completed.
+
+	* ChangeLog: update.
+
+	* IDS-JIS-X0208-1990.txt: Modify, fix and add some IDSs.
+
+	* ChangeLog: update.
+
+	* IDS-Daikanwa-02.txt: Modify, fix and add some IDSs.
+
 2003-01-30  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-JIS-X0208-1990.txt: Modify, fix and add some IDSs.
