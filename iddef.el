@@ -81,7 +81,8 @@
 			     (find-char (plist-get ref :char)))
 			    (t
 			     (find-char ref))))
-		(put-char-attribute ret 'ideographic-structure struct)))
+		(unless (get-char-attribute ret 'ucs)
+		  (put-char-attribute ret 'ideographic-structure struct))))
 	  )))))
 
 ;;;###autoload
