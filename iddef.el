@@ -66,10 +66,11 @@
 					    (if (equal morohashi val)
 						char))
 					  'morohashi-daikanwa)))
-	      (put-char-attribute
-	       m-chr
-	       'ideographic-structure
-	       (ideographic-structure-convert-to-daikanwa struct))))
+	      (unless (get-char-attribute m-chr 'ucs)
+		(put-char-attribute
+		 m-chr
+		 'ideographic-structure
+		 (ideographic-structure-convert-to-daikanwa struct)))))
 	  (put-char-attribute char 'ideographic-structure struct)
 	  (dolist (ref (union
 			(get-char-attribute char '->same-ideograph)
