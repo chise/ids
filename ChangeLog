@@ -1,3 +1,9 @@
+2004-12-13  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt, IDS-HZK12.txt, IDS-HZK11.txt,
+	IDS-HZK10.txt, IDS-HZK09.txt, IDS-Daikanwa-09.txt,
+	IDS-Daikanwa-04.txt: Compact/fix/modify some IDSs.
+
 2004-11-11  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* README.en: Modify headers, add titles and modify some
