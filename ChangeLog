@@ -15,6 +15,13 @@
 	* IDS-UCS-Basic.txt (U+5313): Modified.
 	(U+753B): Modified.
 
+2003-02-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-03.txt (M-04866'): Modify representative glyph.
+	(M-04935): Modify IDS to use U-00020089.
+	(M-05811): Likewise.
+	(M-07017): Likewise.
+
 2003-02-22  MORIOKA Tomohiko  <tomo@m17n.org>
 
 	* IDS-Daikanwa-02.txt:
