@@ -41,9 +41,11 @@
 (install-ids-read-file "IDS-CBETA.txt" load-ids-simplify t)
 
 (install-ids-read-file "IDS-CDP.txt" load-ids-simplify t)
-;; (install-ids-read-file "IDS-HZK01.txt" load-ids-simplify t)
-;; (install-ids-read-file "IDS-HZK02.txt" load-ids-simplify t)
-;; (install-ids-read-file "IDS-HZK03.txt" load-ids-simplify t)
+(let ((i 1))
+  (while (<= i 12)
+    (install-ids-read-file (format "IDS-HZK%02d.txt" i)
+			   load-ids-simplify t)
+    (setq i (1+ i))))
 
 (princ "Updating char-feature `ideographic-structure'...")
 (save-char-attribute-table 'ideographic-structure)
