@@ -1,6 +1,6 @@
 ;;; ids.el --- Parser and utility for Ideographic Description Sequence.
 
-;; Copyright (C) 2001 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -91,8 +91,9 @@
 		       (cdr ret)))))))))
 
 ;;;###autoload
-(defun ids-parse-string (string)
-  (let ((ret (ids-parse-element string)))
+(defun ids-parse-string (ids-string)
+  "Parse IDS-STRING and return the result."
+  (let ((ret (ids-parse-element ids-string)))
     (if (= (length (cdr ret)) 0)
 	(car ret))))
 
@@ -107,7 +108,9 @@
 	  ((setq ret (assq 'ideographic-structure ids-char))
 	   (ids-format-list (cdr ret))))))
 
+;;;###autoload
 (defun ids-format-list (ids-list)
+  "Format ideographic-structure IDS-LIST as an IDS-string."
   (mapconcat (lambda (cell)
 	       (ids-format-unit
 		(if (char-ref-p cell)
