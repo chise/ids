@@ -1,6 +1,6 @@
 ;;; ids-dump.el --- Dump utility of IDS-* files
 
-;; Copyright (C) 2002 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -146,6 +146,42 @@
 		    (get-char-attribute chr 'ideographic-structure))
 		   "")))
       (setq cell (1+ cell)))))
+
+(defun ids-dump-insert-big5 (ccs prefix)
+  (let ((h #x81)
+	l code chr structure)
+    (while (<= h #xFE)
+      (setq l #x40)
+      (while (<= l #x7E)
+	(setq chr (make-char ccs h l))
+	(setq structure nil)
+	(when (setq structure
+		    (get-char-attribute chr 'ideographic-structure))
+	  (insert
+	   (format "%s%02X%02X\t%c\t%s\n"
+		   prefix h l
+		   (decode-builtin-char ccs
+					(logior (lsh h 8) l))
+		   (or (ids-format-list
+			(get-char-attribute chr 'ideographic-structure))
+		       ""))))
+	(setq l (1+ l)))
+      (setq l #xA1)
+      (while (<= l #xFE)
+	(setq chr (make-char ccs h l))
+	(setq structure nil)
+	(when (setq structure
+		    (get-char-attribute chr 'ideographic-structure))
+	  (insert
+	   (format "%s%02X%02X\t%c\t%s\n"
+		   prefix h l
+		   (decode-builtin-char ccs
+					(logior (lsh h 8) l))
+		   (or (ids-format-list
+			(get-char-attribute chr 'ideographic-structure))
+		       ""))))
+	(setq l (1+ l)))
+      (setq h (1+ h)))))
 
 (defun ids-dump-range (file path func &rest args)
   (with-temp-buffer
@@ -323,6 +359,13 @@
   (interactive "Fdump IDS-JIS-X0208-1990 : ")
   (ids-dump-range "IDS-JIS-X0208-1990.txt" filename
 		  #'ids-dump-insert-jis-x0208-1990))
+
+;;;###autoload
+(defun ids-dump-big5-cdp (filename)
+  (interactive "Fdump IDS-CDP : ")
+  (ids-dump-range "IDS-CDP.txt" filename
+		  #'ids-dump-insert-big5
+		  '=big5-cdp "CDP-"))
 
     
 ;;; @ End.
