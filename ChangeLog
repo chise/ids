@@ -7,6 +7,15 @@
 	* IDS-UCS-Basic.txt: Modify/fix/compact some IDSs.
 	(U+592A): Add IDS.
 
+2004-03-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* install-ids.el: Install IDS-HZK{01..12}.txt.
+
+	* IDS-HZK01.txt, IDS-HZK02.txt, IDS-HZK03.txt, IDS-HZK04.txt,
+	IDS-HZK05.txt, IDS-HZK06.txt, IDS-HZK07.txt, IDS-HZK08.txt,
+	IDS-HZK09.txt, IDS-HZK10.txt, IDS-HZK11.txt, IDS-HZK12.txt: New
+	files.
+
 2004-02-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-read.el (ids-read-buffer): Fix bug about HZKnn-hhhh.
