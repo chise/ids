@@ -46,6 +46,10 @@
 		 ((string-match "U[-+]\\([0-9A-F]+\\)" chs)
 		  (decode-char 'ucs
 			       (string-to-int (match-string 1 chs) 16)))
+		 ((string-match "J90-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)"
+				chs)
+		  (decode-char 'japanese-jisx0208-1990
+			       (string-to-int (match-string 1 chs) 16)))
 		 ((string-match "M-\\([0-9]+\\)'" chs)
 		  (setq code (string-to-int (match-string 1 chs)))
 		  (map-char-attribute
