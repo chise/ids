@@ -1,3 +1,30 @@
+2005-03-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-09.txt: Add/compact/modify/fix some IDSs.
+
+	* IDS-Daikanwa-08.txt:
+	- Add/compact/modify/fix some IDSs.
+	- "⿹⿰�����������x" instead of "⿰⿱������x�����".
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
+	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
+
+2005-03-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-06.txt, IDS-Daikanwa-05.txt:
+	- Add/compact/modify/fix some IDSs.
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
+
+	* IDS-Daikanwa-04.txt: Add/compact/modify/fix some IDSs.
+	(M-07572): Fixed.
+
+	* IDS-CNS-1.txt (C1-6938): Fixed.
+	(C1-7B4F): Fixed.
+	- Modify/fix some IDSs.
+	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
+	- Use "⿸⿰𠦝������" instead of "⿰𠦝⿱������".
+	- Use "⿸⿰�����𠂉" instead of "⿰�����⿱𠂉".
+	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
+
 2005-03-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020885): Modify operator.
@@ -7,7 +34,8 @@
 	"⿳�����⺿干".
 	(U-0002A237): Use "⿰𣀦" instead of "⿲⿳�����卝干攴".
 
-	* IDS-UCS-Ext-B-5.txt: - Compact/modify/fix some IDSs.
+	* IDS-UCS-Ext-B-5.txt:
+	- Compact/modify/fix some IDSs.
 	- Use "⿱⻗" instead of "⿱�����".
 	- Use "𦎧" instead of "⿱�����卝".
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
