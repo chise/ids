@@ -1,3 +1,7 @@
+2002-12-18  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-JIS-X0208-1990.txt: Simplify some subsequences.
+
 2002-12-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-find.el (ideographic-structure-member): Add autoload cookie
@@ -8,6 +12,10 @@
 
 	* ids-find.el (ideographic-structure-char=): Fix problem about
 	characters which does not have mappings for UCS code points.
+
+2002-12-07  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* cjk-4corner.el: New file.
 
 2002-11-29  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
