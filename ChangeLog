@@ -1,3 +1,36 @@
+2004-05-22  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-000223DF): Modify a glyph.
+
+2004-05-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+883F): Completed.
+	(U+884C): Add IDS.
+
+2004-05-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-HZK01.txt (HZK01-C949): Complete and compact IDS.
+	(HZK01-C968): Likewise.
+	(HZK01-C96D): Modify structure.
+	(HZK01-A6AC): Complete IDS.
+	(HZK01-C9CF): Complete and compact IDS.
+	(HZK01-A7AC): Modify glyph.
+	(HZK01-A7B1): Complete IDS.
+	(HZK01-A7B6): Likewise.
+	(HZK01-A7EE): Likewise.
+	(HZK01-A86E): Likewise.
+	(HZK01-CA6D): Likewise.
+	(HZK01-CAAC): Likewise.
+	(HZK01-CAAE): Likewise.
+	(HZK01-CAEF): Add IDS.
+	(HZK01-CB51): Modify structure.
+	(HZK01-A8F0): Complete and compact IDS.
+	(HZK01-A8F1): Complete IDS.
+	(HZK01-A950): Complete and compact IDS.
+	(HZK01-A952): Likewise.
+	(HZK01-AB7B): Modify glyph.
+	(HZK01-DBAD): Likewise.
+
 2004-05-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-CBETA.txt: Modify/fix some IDSs.
