@@ -1,3 +1,24 @@
+2003-01-22  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: Fix, modify and/or complete some IDSs.
+	(J90-3B3E): Add IDS.
+	(J90-3D43): Likewise.
+	(J90-4359): Likewise.
+	(J90-4768): Likewise.
+	(J90-4A4F): Likewise.
+	(J90-4C34): Likewise.
+	(J90-4C74): Likewise.
+	(J90-4F39): Likewise.
+	(J90-6576): Likewise.
+	(J90-663E): Likewise.
+	(J90-673E): Likewise.
+	(J90-6856): Likewise.
+	(J90-693F): Likewise.
+	(J90-6A45): Likewise.
+	(J90-6A5E): Likewise.
+	(J90-6F54): Likewise.
+	(J90-722C): Likewise.
+
 2003-01-21  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-UCS-Basic.txt: Fix, modify and/or complete some IDSs.
