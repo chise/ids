@@ -1,3 +1,9 @@
+2002-12-23  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-JIS-X0208-1990.txt (J90-4134): Use BC-8B5D instead of
+	U+5165.
+	(J90-4B71): Don't use &MCS-xxxxxxxx;.
+
 2002-12-22  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-JIS-X0208-1990.txt:
