@@ -1,3 +1,9 @@
+2004-11-11  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* README.en: Modify headers, add titles and modify some
+	structures.
+	(How to install): New section.
+
 2004-11-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-1.txt: Compact/fix/modify
