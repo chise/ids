@@ -50,7 +50,9 @@
 	  ((setq ret (get-char-attribute s-part 'ideographic-structure))
 	   (ideographic-structure-member part ret)))))
 
+;;;###autoload
 (defun ideographic-structure-member (part structure)
+  "Return non-nil if PART is included in STRUCTURE."
   (or (progn
 	(setq structure (cdr structure))
 	(ideographic-structure-member-compare-parts part (car structure)))
@@ -62,6 +64,32 @@
 	(and (car structure)
 	     (ideographic-structure-member-compare-parts
 	      part (car structure))))))
+
+
+;;;###autoload
+(defun ideographic-structure-repertoire-p (structure parts)
+  "Return non-nil if STRUCTURE can be constructed by a subset of PARTS."
+  (and structure
+       (let (ret s-part)
+	 (catch 'tag
+	   (while (setq structure (cdr structure))
+	     (setq s-part (car structure))
+	     (unless (characterp s-part)
+	       (if (setq ret (find-char s-part))
+		   (setq s-part ret)))
+	     (unless (cond
+		      ((listp s-part)
+		       (if (setq ret (assq 'ideographic-structure s-part))
+			   (ideographic-structure-repertoire-p
+			    (cdr ret) parts)))
+		      ((member* s-part parts
+				:test #'ideographic-structure-char=))
+		      ((setq ret
+			     (get-char-attribute s-part
+						 'ideographic-structure))
+		       (ideographic-structure-repertoire-p ret parts)))
+	       (throw 'tag nil)))
+	   t))))
 
 ;;;###autoload
 (defun ideographic-structure-search-chars (parts)
