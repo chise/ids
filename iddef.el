@@ -1,6 +1,6 @@
 ;;; iddef.el --- Parser and utility for IDDef format files.
 
-;; Copyright (C) 2001 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDDef, IDS, IDC, Ideographs, UCS, Unicode
@@ -66,11 +66,12 @@
 					    (if (equal morohashi val)
 						char))
 					  'morohashi-daikanwa)))
-	      (unless (get-char-attribute m-chr 'ucs)
-		(put-char-attribute
-		 m-chr
-		 'ideographic-structure
-		 (ideographic-structure-convert-to-daikanwa struct)))))
+	      (when m-chr
+		(unless (get-char-attribute m-chr 'ucs)
+		  (put-char-attribute
+		   m-chr
+		   'ideographic-structure
+		   (ideographic-structure-convert-to-daikanwa struct))))))
 	  (put-char-attribute char 'ideographic-structure struct)
 	  (dolist (ref (union
 			(get-char-attribute char '->same-ideograph)
@@ -92,6 +93,48 @@
     (let ((coding-system-for-read 'utf-8))
       (insert-file-contents file))
     (iddef-read-buffer (current-buffer))))
+
+;;;###autoload
+(defun iddef-check-mapping-buffer (buffer)
+  (with-current-buffer buffer
+    (goto-char (point-min))
+    (let (ucs radical plane code ccs chr ret)
+      (while (re-search-forward "^U\\+\\([0-9A-F]+\\)\t\\([0-9]+\\)\t[^\t]*\t[^\t]*\t[^\t]*\t\\([0-9A-C]\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)" nil t)
+	(setq ucs (string-to-int (match-string 1) 16)
+	      radical (string-to-int (match-string 2))
+	      plane (string-to-int (match-string 3) 16)
+	      code (string-to-int (match-string 4) 16))
+	(setq ccs
+	      (if (= plane 0)
+		  (progn
+		    (setq chr (decode-char 'chinese-big5 code))
+		    (if (and (setq ret (get-char-attribute chr 'ucs))
+			     (<= #xE000 ret)(<= ret #xF848))
+			'chinese-big5-cdp))
+		(intern (format "ideograph-hanziku-%d" plane))))
+	(when ccs
+	  (setq chr (decode-char ccs code))
+	  (if (setq ret (or (get-char-attribute chr 'ucs)
+			    (get-char-attribute chr '=>ucs)
+			    (get-char-attribute chr '->ucs)))
+	      (unless (= ret ucs)
+		(put-char-attribute chr 'ucs-cdp ucs))
+	    (if (eq (get-char-attribute chr ccs) code)
+		(put-char-attribute chr 'ucs ucs)
+	      (setq chr (define-char (list (cons 'ucs ucs)
+					   (cons ccs code)))))
+	    )
+	  (unless (get-char-attribute chr 'ideographic-radical)
+	    (put-char-attribute chr 'ideographic-radical radical))
+	  )))))
+
+;;;###autoload
+(defun iddef-check-mapping-file (file)
+  (interactive "fIDDef file : ")
+  (with-temp-buffer
+    (let ((coding-system-for-read 'utf-8))
+      (insert-file-contents file))
+    (iddef-check-mapping-buffer (current-buffer))))
 
 
 ;;; @ End.
