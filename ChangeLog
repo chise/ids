@@ -1,3 +1,12 @@
+2005-03-23  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (ideographic-structure-member): Add simplified
+	checking.
+
+2005-03-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt: Compact/modify/fix some IDSs.
+
 2005-03-11  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt (U+9762): Add IDS.
