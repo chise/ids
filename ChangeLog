@@ -1,3 +1,31 @@
+2004-11-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-1.txt: Compact/fix/modify
+	some IDSs.
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use <CJK RADICAL GRASS ONE>.
+	- Compact/fix/modify some IDSs.
+	- Add some IDSs.
+
+2004-09-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-HZK01.txt: Compact/modify/fix some IDSs.
+
+2004-08-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-read.el (ids-read-buffer): For each UCS code point, generate
+	a `ideographic-structure' of `unicode' domain form and add it into
+	the `unicode' domain variant character corresponding to the UCS
+	code point.
+
+	* ids-util.el (ideographic-structure-convert-to-domain): New
+	function.
+
+2004-08-04  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-HZK08.txt: Compact/modify/fix some IDSs.
+
 2004-08-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026AE3): Compact IDS.
