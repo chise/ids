@@ -1,3 +1,29 @@
+2005-01-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+4EB7): Fixed.
+	(U+5700): Modify IDS.
+	- Use U+3749 (㝉) instead of "⿱宀一".
+	- Use U+516B instead of UU+516B.
+
+2005-01-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+7D76): Modify IDS.
+	(U+7D9B): Likewise.
+	(U+7EAE): Fixed.
+	(U+7EB6): Fix operator.
+	(U+7EBB): Fixed.
+	(U+7EDF): Fix operator.
+	(U+7EE4): Fixed.
+	(U+7EEC): Fixed.
+	(U+7EF1): Fixed.
+	(U+7EF9): Fixed.
+	(U+7F0B): Fixed.
+	(U+7F0D): Fixed.
+	(U+7F0F): Fixed.
+	(U+7F10): Fixed.
+	- Use U+6267 (执) instead of "⿰⺘丸".
+	- Use "⿰糹" instead of "⿰糸".
+
 2004-12-13  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-1.txt, IDS-HZK12.txt, IDS-HZK11.txt,
