@@ -1,3 +1,14 @@
+2002-11-03  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-JIS-X0208-1990.txt: Add and modify IDSs of some characters.
+
+2002-10-26  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-dump.el (ids-dump-insert-jis-x0208-1990): Don't insert
+	`nil'.
+
+	* IDS-UCS-Basic.txt (U+7199): Fix typo.
+
 2002-10-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-CBETA.txt: Add and modify IDSs of some characters.
