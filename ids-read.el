@@ -1,6 +1,6 @@
 ;;; ids-read.el --- Reader for IDS-* files
 
-;; Copyright (C) 2002 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -50,6 +50,17 @@
 				chs)
 		  (decode-char 'japanese-jisx0208-1990
 			       (string-to-int (match-string 1 chs) 16)))
+		 ((string-match "CDP-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)"
+				chs)
+		  (decode-char '=big5-cdp
+			       (string-to-int (match-string 1 chs) 16)))
+		 ((string-match
+		   "HZK\\([0-9][0-9]\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)"
+		   chs)
+		  (decode-char (intern
+				(format "=hanziku-%d"
+					(string-to-int (match-string 1))))
+			       (string-to-int (match-string 2 chs) 16)))
 		 ((string-match "M-\\([0-9]+\\)'" chs)
 		  (setq code (string-to-int (match-string 1 chs)))
 		  (map-char-attribute
