@@ -32,7 +32,7 @@
   (save-excursion
     (set-buffer buffer)
     (goto-char (point-min))
-    (let (line chs ids char structure)
+    (let (line chs ids code char structure)
       (while (not (eobp))
 	(unless (looking-at ";")
 	  (setq line
@@ -46,9 +46,36 @@
 		 ((string-match "U[-+]\\([0-9A-F]+\\)" chs)
 		  (decode-char 'ucs
 			       (string-to-int (match-string 1 chs) 16)))
-		 ((string-match "M-\\([0-9]+\\)\\([^'\"]\\|$\\)" chs)
+		 ((string-match "M-\\([0-9]+\\)'" chs)
+		  (setq code (string-to-int (match-string 1 chs)))
+		  (map-char-attribute
+		   (lambda (key val)
+		     (if (and (eq (car val) code)
+			      (eq (nth 1 val) 1)
+			      (null (nthcdr 2 val)))
+			 key))
+		   'morohashi-daikanwa))
+		 ((string-match "M-\\([0-9]+\\)\"" chs)
+		  (setq code (string-to-int (match-string 1 chs)))
+		  (map-char-attribute
+		   (lambda (key val)
+		     (if (and (eq (car val) code)
+			      (eq (nth 1 val) 2)
+			      (null (nthcdr 2 val)))
+			 key))
+		   'morohashi-daikanwa))
+		 ((string-match "M-\\([0-9]+\\)" chs)
 		  (decode-char 'ideograph-daikanwa
 			       (string-to-int (match-string 1 chs))))
+		 ((string-match "MH-\\([0-9]+\\)" chs)
+		  (setq code (string-to-int (match-string 1 chs)))
+		  (map-char-attribute
+		   (lambda (key val)
+		     (if (and (eq (car val) 'ho)
+			      (eq (nth 1 val) code)
+			      (null (nthcdr 2 val)))
+			 key))
+		   'morohashi-daikanwa))
 		 ((string-match "CB\\([0-9]+\\)" chs)
 		  (decode-char 'ideograph-cbeta
 			       (string-to-int (match-string 1 chs))))
