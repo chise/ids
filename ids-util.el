@@ -1,6 +1,6 @@
 ;;; ids-util.el --- Utilities about ideographic-structure -*- coding: utf-8 -*-
 
-;; Copyright (C) 2001,2002,2003 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002,2003,2004 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: ideographic-structure, CHISE, IDS, IDC, UCS, database
@@ -25,6 +25,30 @@
 ;;; Commentary:
 
 ;;; Code:
+
+;;;###autoload
+(defun ideographic-structure-convert-to-domain (structure domain)
+  (let (dest cell ret)
+    (while structure
+      (setq cell (car structure))
+      (setq dest
+	    (cons
+	     (cond ((characterp cell)
+		    (char-representative-of-domain cell domain))
+		   ((and (consp cell)
+			 (symbolp (car cell)))
+		    cell)
+		   ((setq ret (find-char cell))
+		    (char-representative-of-domain cell domain))
+		   ((setq ret (assq 'ideographic-structure cell))
+		    (put-alist 'ideographic-structure
+			       (ideographic-structure-convert-to-domain
+				(cdr ret) domain)
+			       (copy-alist cell)))
+		   (t cell))
+	     dest))
+      (setq structure (cdr structure)))
+    (nreverse dest)))
 
 ;;;###autoload
 (defun ideographic-structure-convert-to-ucs (structure)
