@@ -1,3 +1,17 @@
+2003-06-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: Add or modify some IDSs.
+
+2003-06-18  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-Daikanwa-08.txt, IDS-Daikanwa-07.txt: Use utf-8-mcs-er
+	instead of utf-8.
+
+2003-06-17  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-Daikanwa-06.txt, IDS-Daikanwa-05.txt: Use utf-8-mcs-er
+	instead of utf-8.
+
 2003-06-16  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-UCS-Ext-B-1.txt (U-000208F4): Modified.
