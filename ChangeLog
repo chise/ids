@@ -1,3 +1,49 @@
+2005-03-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt: Compact/modify some IDSs.
+
+	* IDS-Daikanwa-10.txt: Compact/modify/fix some IDSs.
+
+2005-03-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-09.txt:
+	- Use <CJK RADICAL EWE> instead of "⿱卝干".
+	- Modify/fix some IDSs.
+	(M-29274): Add IDS.
+	(M-29539): Likewise.
+	(M-29966'): Likewise.
+	(M-32743): Likewise.
+
+	* IDS-Daikanwa-04.txt: Compact/modify/fix some IDSs.
+	(M-09444): Add IDS.
+	(M-09483): Likewise.
+
+	* IDS-Daikanwa-03.txt: Compact/modify/fix/add some IDSs.
+
+2005-03-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-01.txt:
+	- Use <CJK RADICAL PERSON> instead of U+4EBB.
+	- Compact/modify/fix some IDSs.
+
+2005-03-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CNS-2.txt: Compact/modify/fix some IDSs.
+
+	* IDS-Daikanwa-02.txt:
+	- Compact/modify/fix some IDSs.
+	- Add some IDSs.
+
+2005-03-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-dx.txt: Use <CJK RADICAL EWE> instead of "⿱卝干".
+	(M-49516): Add IDS.
+	(M-49517): Likewise.
+
+2005-03-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CNS-1.txt (C1-5437): Modify IDS.
+
 2005-03-23  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-find.el (ideographic-structure-member): Add simplified
