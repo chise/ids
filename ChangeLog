@@ -1,3 +1,17 @@
+2003-08-05  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-CDP.txt: New file.
+
+2003-08-04  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-Daikanwa-09.txt: Use utf-8-mcs-er instead of utf-8.
+
+2003-07-29  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: Modify, fix and add some IDSs.
+
+	* IDS-UCS-Basic.txt (U+7114): Modify IDS to simplify the sequence.
+
 2003-07-04  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt (U+87A6): Modified.
