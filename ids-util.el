@@ -1,6 +1,6 @@
 ;;; ids-util.el --- Utilities about ideographic-structure -*- coding: utf-8 -*-
 
-;; Copyright (C) 2001 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: ideographic-structure, UTF-2000, database
@@ -132,7 +132,7 @@
 
 ;;;###autoload
 (defun ideographic-structure-convert-to-daikanwa (structure)
-  (let (dest cell morohashi ret)
+  (let (dest cell morohashi ret ret2 ret3)
     (while structure
       (setq cell (car structure))
       (setq dest
@@ -177,10 +177,14 @@
 			  (decode-char 'ideograph-daikanwa (car morohashi))
 			cell)))
 		   ((setq ret (assq 'ideographic-structure cell))
-		    (put-alist 'ideographic-structure
-			       (ideographic-structure-convert-to-daikanwa
-				(cdr ret))
-			       (copy-alist cell)))
+		    (setq ret2
+			  (ideographic-structure-convert-to-daikanwa
+			   (cdr ret)))
+		    (if (setq ret3 (ideographic-structure-find-char ret2))
+			ret3
+		      (put-alist 'ideographic-structure
+				 ret2
+				 (copy-alist cell))))
 		   (t cell))
 	     dest))
       (setq structure (cdr structure)))
