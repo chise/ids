@@ -1,5 +1,7 @@
 2003-06-12  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-Daikanwa-03.txt: Use utf-8-mcs-er instead of utf-8.
+
 	* IDS-CBETA.txt (CB07990): Fixed.
 
 2003-06-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
