@@ -46,7 +46,7 @@
 		 ((string-match "U[-+]\\([0-9A-F]+\\)" chs)
 		  (decode-char 'ucs
 			       (string-to-int (match-string 1 chs) 16)))
-		 ((string-match "M-\\([0-9]+\\)" chs)
+		 ((string-match "M-\\([0-9]+\\)\\([^'\"]\\|$\\)" chs)
 		  (decode-char 'ideograph-daikanwa
 			       (string-to-int (match-string 1 chs))))
 		 ((string-match "CB\\([0-9]+\\)" chs)
