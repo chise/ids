@@ -1,3 +1,15 @@
+2002-11-21  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-find.el (ideographic-structure-char=): New function; check
+	`<-radical' attribute.
+	(ideographic-structure-member-compare-parts): Use
+	`ideographic-structure-char='.
+
+	* IDS-UCS-Basic.txt: Use <IDEOGRAPHIC DESCRIPTION CHARACTER LEFT
+	TO RIGHT> + <CJK RADICAL JADE> instead of <IDEOGRAPHIC DESCRIPTION
+	CHARACTER LEFT TO RIGHT> + U+738B.
+	(U+5168): Use BC-8B5D instead of U+5165.
+
 2002-11-03  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-JIS-X0208-1990.txt: Add and modify IDSs of some characters.
