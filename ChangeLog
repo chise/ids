@@ -1,3 +1,10 @@
+2002-05-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-ELS (ids-modules-to-compile): Add `ids-read'; delete
+	`iddef'.
+
+	* ids-read.el: New file.
+
 2002-04-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-4.txt, IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-6.txt,
