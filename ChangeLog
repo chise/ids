@@ -1,3 +1,13 @@
+2002-04-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Compat-Supplement.txt: Fixed.
+
+2002-04-18  Christian Wittern  <wittern@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt, IDS-UCS-Ext-B-1.txt: Removed some garbage.
+
+	* README.en: Changed some wording about the CDP database.
+
 2002-04-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-CFG, IDS-ELS, IDS-MK, Makefile: New files.
