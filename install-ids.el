@@ -34,6 +34,11 @@
 
 (install-ids-read-file "IDS-CBETA.txt" load-ids-simplify t)
 
+(install-ids-read-file "IDS-CDP.txt" load-ids-simplify t)
+;; (install-ids-read-file "IDS-HZK01.txt" load-ids-simplify t)
+;; (install-ids-read-file "IDS-HZK02.txt" load-ids-simplify t)
+;; (install-ids-read-file "IDS-HZK03.txt" load-ids-simplify t)
+
 (princ "Saving into ")
 (princ exec-directory)
 (princ "char-db/system-char-id/ideographic-structure...")
