@@ -145,23 +145,7 @@
       (map-char-attribute
        (lambda (c v)
 	 (when (ideographic-structure-repertoire-p v components)
-	   (insert
-	    (ids-find-format-line c v)
-            ;; (format "%c\t%s\t%s\n"
-            ;;         c
-            ;;         (or
-            ;;          (when (setq ucs (char-ucs c))
-            ;;            (or
-            ;;             (when (setq jis
-            ;;                         (encode-char
-            ;;                          (decode-char
-            ;;                           'ucs-jis (char-ucs c))
-            ;;                          'japanese-jisx0208-1990))
-            ;;               (format "J0-%04X" jis))))
-            ;;          "")
-            ;;         (or (ideographic-structure-to-ids v)
-            ;;             v))
-	    )))
+	   (insert (ids-find-format-line c v))))
        'ideographic-structure))
     (goto-char (point-min)))
   (view-buffer ids-find-result-buffer))
