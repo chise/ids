@@ -52,6 +52,23 @@
 	    (t (error 'wrong-type-argument range)))
       (setq ranges (cdr ranges)))))
 
+(defun ids-dump-insert-94x94-ccs-ranges (ccs line-spec &rest ranges)
+  (let (range code max-code l)
+    (while ranges
+      (setq range (car ranges))
+      (cond ((consp range)
+	     (setq code (car range)
+		   max-code (cdr range))
+	     (while (<= code max-code)
+	       (setq l (logand code 255))
+	       (if (and (<= #x21 l)(<= l #x7E))
+		   (ids-dump-insert-line ccs line-spec code))
+	       (setq code (1+ code))))
+	    ((integerp range)
+	     (ids-dump-insert-line ccs line-spec range))
+	    (t (error 'wrong-type-argument range)))
+      (setq ranges (cdr ranges)))))
+
 (defun ids-dump-insert-daikanwa (start end)
   (let ((i start)
 	mdh-alist
@@ -261,6 +278,30 @@
   (ids-dump-range "IDS-UCS-Compat-Supplement.txt" filename
 		  #'ids-dump-insert-ccs-ranges 'ucs "U-%08X\t%c\t%s\n"
 		  '(#x2F800 . #x2FA1D)))
+
+;;;###autoload
+(defun ids-dump-cns11643-1 (filename)
+  (interactive "Fdump IDS-CNS-1 : ")
+  (ids-dump-range "IDS-CNS-1.txt" filename
+		  #'ids-dump-insert-94x94-ccs-ranges
+		  'chinese-cns11643-1 "C1-%04X\t%c\t%s\n"
+		  '(#x4421 . #x7D4B)))
+
+;;;###autoload
+(defun ids-dump-cns11643-2 (filename)
+  (interactive "Fdump IDS-CNS-2 : ")
+  (ids-dump-range "IDS-CNS-2.txt" filename
+		  #'ids-dump-insert-94x94-ccs-ranges
+		  'chinese-cns11643-2 "C2-%04X\t%c\t%s\n"
+		  '(#x2121 . #x7244)))
+
+;;;###autoload
+(defun ids-dump-cns11643-3 (filename)
+  (interactive "Fdump IDS-CNS-3 : ")
+  (ids-dump-range "IDS-CNS-3.txt" filename
+		  #'ids-dump-insert-94x94-ccs-ranges
+		  'chinese-cns11643-3 "C3-%04X\t%c\t%s\n"
+		  '(#x2121 . #x6246)))
 
 ;;;###autoload
 (defun ids-dump-daikanwa-01 (filename)
