@@ -1,6 +1,16 @@
 2003-11-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
+	(J90-417D): Simplify IDS.
+
+	* IDS-UCS-Basic.txt (U+51EC): Modify IDS.
+	(U+9F3B): Add IDS.
+
+	* IDS-UCS-Ext-A.txt (U+346D): Simplify IDS.
+
+2003-11-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
 
 	* IDS-CDP.txt (CDP-8DBC): Simplify IDS.
 
