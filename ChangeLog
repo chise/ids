@@ -1,3 +1,7 @@
+2005-02-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt: Compact/modify/fix some IDSs.
+
 2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt (U+53AF): Complete IDS.
