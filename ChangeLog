@@ -6,6 +6,8 @@
 
 	* IDS-UCS-Compat.txt (U+F902): Declare as an atom.
 
+	* IDS-UCS-Ext-A.txt: Fix IDS of some characters.
+
 	* IDS-UCS-Basic.txt: Simplify IDS of some characters.
 
 	* ids-read.el (ids-read-buffer): Accept CBnnnnn instead of
