@@ -5,7 +5,7 @@
 ;;; Code:
 
 (setq ids-modules-to-compile
-      '(ids ids-util ids-read ids-dump))
+      '(ids ids-util ids-read ids-dump ids-find))
 
 (setq ids-modules-not-to-compile nil)
 
