@@ -1,5 +1,11 @@
 2003-11-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
+
+	* IDS-CDP.txt (CDP-8DBC): Simplify IDS.
+
+2003-11-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-UCS-Ext-A.txt (U+3A0A): Use GT-K05506 instead of CDP-8CA9.
 	(U+4643): Likewise.
 	(U+493B): Likewise.
