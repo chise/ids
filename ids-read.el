@@ -1,6 +1,6 @@
 ;;; ids-read.el --- Reader for IDS-* files
 
-;; Copyright (C) 2002,2003 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2004 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -32,7 +32,7 @@
   (save-excursion
     (set-buffer buffer)
     (goto-char (point-min))
-    (let (line chs ids code char structure)
+    (let (line chs ids code char u-char structure)
       (while (not (eobp))
 	(unless (looking-at ";")
 	  (setq line
@@ -40,12 +40,14 @@
 		 (buffer-substring (point-at-bol)(point-at-eol))
 		 "\t"))
 	  (setq chs (car line)
-		ids (nth 2 line))
+		ids (nth 2 line)
+		u-char nil)
 	  (setq char
 		(cond
 		 ((string-match "U[-+]\\([0-9A-F]+\\)" chs)
-		  (decode-char 'ucs
-			       (string-to-int (match-string 1 chs) 16)))
+		  (setq code (string-to-int (match-string 1 chs) 16))
+		  (setq u-char (decode-char '=ucs@unicode code))
+		  (decode-char 'ucs code))
 		 ((string-match "J90-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)"
 				chs)
 		  (decode-char 'japanese-jisx0208-1990
@@ -103,15 +105,26 @@
 			       (string-to-int (match-string 1 chs))))
 		 ))
 	  (when (and char
-		     (or (not soft)
-			 (null
-			  (get-char-attribute char 'ideographic-structure)))
 		     (>= (length ids) 3)
 		     (not (string-match "\\?" ids))
 		     (consp (setq structure (ids-parse-string ids simplify))))
-	    (put-char-attribute char
-				'ideographic-structure
-				(cdr (car structure))))
+	    (when (or (not soft)
+		      (null
+		       (get-char-attribute char 'ideographic-structure)))
+	      (put-char-attribute char
+				  'ideographic-structure
+				  (cdr (car structure))))
+	    (when (and u-char
+		       (not (eq char u-char))
+		       (or (not soft)
+			   (null
+			    (get-char-attribute
+			     u-char 'ideographic-structure))))
+	      (put-char-attribute
+	       u-char 'ideographic-structure
+	       (ideographic-structure-convert-to-domain
+		(cdr (car structure)) 'unicode)))
+	    )
 	  )
 	(forward-line)
 	))))
