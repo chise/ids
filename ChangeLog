@@ -1,5 +1,9 @@
 2003-12-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-Daikanwa-12.txt: Use utf-8-mcs-er instead of utf-8.
+
+2003-12-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* ids-find.el (ideographic-structure-char=): Refer
 	`<-ideographic-component-forms'.
 
