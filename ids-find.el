@@ -1,6 +1,6 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures
 
-;; Copyright (C) 2002,2003 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2005 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: Kanji, Ideographs, search, IDS, CHISE, UCS, Unicode
@@ -60,7 +60,8 @@
 ;;;###autoload
 (defun ideographic-structure-member (component structure)
   "Return non-nil if COMPONENT is included in STRUCTURE."
-  (or (progn
+  (or (memq component structure)
+      (progn
 	(setq structure (cdr structure))
 	(ideographic-structure-member-compare-components
 	 component (car structure)))
