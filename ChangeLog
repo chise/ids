@@ -1,5 +1,22 @@
 2003-11-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-CNS-1.txt, IDS-CNS-2.txt: New files.
+
+	* install-ids.el: Install IDS-CNS-[12].txt.
+
+	* ids-dump.el (ids-dump-insert-94x94-ccs-ranges): New function.
+	(ids-dump-cns11643-1): New function.
+	(ids-dump-cns11643-2): New function.
+	(ids-dump-cns11643-3): New function.
+
+	* ids-read.el (ids-read-buffer): Add setting for C[1-7]-HHHH.
+
+	* ids-util.el (char-cns11643-p): New function.
+	(char-representative-of-cns11643): New function.
+	(ideographic-structure-convert-to-cns11643): New function.
+
+2003-11-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-Daikanwa-10.txt: Use utf-8-mcs-er instead of utf-8.
 
 2003-11-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
