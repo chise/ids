@@ -62,6 +62,50 @@
       (setq structure (cdr structure)))
     (nreverse dest)))
 
+(defun char-cns11643-p (char &optional defined-only)
+  (some (lambda (n)
+	  (encode-char char
+		       (intern (format "=cns11643-%d" n))
+		       defined-only))
+	'(1 2 3 4 5 6 7)))
+
+(defun char-representative-of-cns11643 (char)
+  (if (char-cns11643-p char)
+      char
+    (let ((ucs (char-ucs char))
+	  variants)
+      (if (and ucs
+	       (setq variants
+		     (char-variants (decode-char 'ucs ucs))))
+	  (while (and variants
+		      (setq char (car variants))
+		      (not (char-cns11643-p char)))
+	    (setq variants (cdr variants))))
+      char)))
+
+(defun ideographic-structure-convert-to-cns11643 (structure)
+  (let (dest cell ucs ret)
+    (while structure
+      (setq cell (car structure))
+      (setq dest
+	    (cons
+	     (cond ((characterp cell)
+		    (char-representative-of-cns11643 cell))
+		   ((and (consp cell)
+			 (symbolp (car cell)))
+		    cell)
+		   ((setq ret (find-char cell))
+		    (char-representative-of-cns11643 ret))
+		   ((setq ret (assq 'ideographic-structure cell))
+		    (put-alist 'ideographic-structure
+			       (ideographic-structure-convert-to-cns11643
+				(cdr ret))
+			       (copy-alist cell)))
+		   (t cell))
+	     dest))
+      (setq structure (cdr structure)))
+    (nreverse dest)))
+
 (defvar morohashi-char-replace-alist
   (list
    (cons (decode-char 'chinese-big5-cdp #x8B42)
