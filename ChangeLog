@@ -4,6 +4,8 @@
 
 2002-06-22  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
+	* IDS-UCS-Basic.txt: Simplify IDS of some characters.
+
 	* ids-read.el (ids-read-buffer): Accept CBnnnnn instead of
 	CB-nnnnn as CBETA characters.
 
