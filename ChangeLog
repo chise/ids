@@ -1,3 +1,9 @@
+2002-12-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (ideographic-structure-member): Add autoload cookie
+	and DOC-string.
+	(ideographic-structure-repertoire-p): New function.
+
 2002-12-16  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* ids-find.el (ideographic-structure-char=): Fix problem about
