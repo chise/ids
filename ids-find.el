@@ -27,15 +27,19 @@
 (defun ideographic-structure-char= (c1 c2)
   (or (eq c1 c2)
       (and c1 c2
-	   (or (eq (char-ucs c1)(char-ucs c2))
-	       (let ((m1 (car (get-char-attribute c1 '<-radical)))
-		     (m2 (car (get-char-attribute c2 '<-radical))))
-		 (unless (characterp m1)
-		   (setq m1 (or (find-char m1))))
-		 (unless (characterp m2)
-		   (setq m2 (find-char m2)))
-		 (when (or m1 m2)
-		   (ideographic-structure-char= m1 m2)))))))
+	   (let ((m1 (char-ucs c1))
+		 (m2 (char-ucs c2)))
+	     (or (and m1 m2
+		      (eq m1 m2))
+		 (progn
+		   (setq m1 (car (get-char-attribute c1 '<-radical))
+			 m2 (car (get-char-attribute c2 '<-radical)))
+		   (unless (characterp m1)
+		     (setq m1 (or (find-char m1))))
+		   (unless (characterp m2)
+		     (setq m2 (find-char m2)))
+		   (when (or m1 m2)
+		     (ideographic-structure-char= m1 m2))))))))
 
 (defun ideographic-structure-member-compare-parts (part s-part)
   (let (ret)
