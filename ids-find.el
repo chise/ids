@@ -1,9 +1,9 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures
 
-;; Copyright (C) 2002 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
-;; Keywords: Kanji, Ideographs, search, IDS
+;; Keywords: Kanji, Ideographs, search, IDS, CHISE, UCS, Unicode
 
 ;; This file is a part of Tomoyo-Tools.
 
@@ -31,11 +31,18 @@
 		 (m2 (char-ucs c2)))
 	     (or (and m1 m2
 		      (eq m1 m2))
+		 (some (lambda (b2)
+			 (unless (characterp b2)
+			   (setq b2 (find-char b2)))
+			 (and b2
+			      (ideographic-structure-char= c1 b2)))
+		       (get-char-attribute
+			c2 '<-ideographic-component-forms))
 		 (progn
 		   (setq m1 (car (get-char-attribute c1 '<-radical))
 			 m2 (car (get-char-attribute c2 '<-radical)))
 		   (unless (characterp m1)
-		     (setq m1 (or (find-char m1))))
+		     (setq m1 (find-char m1)))
 		   (unless (characterp m2)
 		     (setq m2 (find-char m2)))
 		   (when (or m1 m2)
