@@ -125,8 +125,9 @@
 		 h l
 		 (decode-builtin-char 'japanese-jisx0208-1990
 				      (logior (lsh h 8) l))
-		 (ids-format-list
-		  (get-char-attribute chr 'ideographic-structure))))
+		 (or (ids-format-list
+		      (get-char-attribute chr 'ideographic-structure))
+		     "")))
 	(setq cell (1+ cell)))
       (setq row (1+ row)))
     (setq h (+ row 32))
@@ -139,8 +140,9 @@
 	       h l
 	       (decode-builtin-char 'japanese-jisx0208-1990
 				    (logior (lsh h 8) l))
-	       (ids-format-list
-		(get-char-attribute chr 'ideographic-structure))))
+	       (or (ids-format-list
+		    (get-char-attribute chr 'ideographic-structure))
+		   "")))
       (setq cell (1+ cell)))))
 
 (defun ids-dump-range (file path func &rest args)
