@@ -98,12 +98,13 @@
 (defun iddef-check-mapping-buffer (buffer)
   (with-current-buffer buffer
     (goto-char (point-min))
-    (let (ucs radical plane code ccs chr ret)
-      (while (re-search-forward "^U\\+\\([0-9A-F]+\\)\t\\([0-9]+\\)\t[^\t]*\t[^\t]*\t[^\t]*\t\\([0-9A-C]\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)" nil t)
+    (let (ucs radical hyd plane code ccs chr ret hyd-v hyd-p hyd-c)
+      (while (re-search-forward "^U\\+\\([0-9A-F]+\\)\t\\([0-9]+\\)\t[^\t]*\t[^\t]*\t\\([^\t]*\\)\t\\([0-9A-C]\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\)" nil t)
 	(setq ucs (string-to-int (match-string 1) 16)
 	      radical (string-to-int (match-string 2))
-	      plane (string-to-int (match-string 3) 16)
-	      code (string-to-int (match-string 4) 16))
+	      hyd (match-string 3)
+	      plane (string-to-int (match-string 4) 16)
+	      code (string-to-int (match-string 5) 16))
 	(setq ccs
 	      (if (= plane 0)
 		  (progn
@@ -123,6 +124,18 @@
 		(put-char-attribute chr 'ucs ucs)
 	      (setq chr (define-char (list (cons 'ucs ucs)
 					   (cons ccs code)))))
+	    )
+	  (when (and hyd
+		     (string-match "^\\([1-9]\\)\\([0-9][0-9][0-9][0-9]\\)\\.\\([0-9][0-9]\\)0$"
+				   hyd))
+	    (setq hyd-v (string-to-int (match-string 1 hyd))
+		  hyd-p (string-to-int (match-string 2 hyd))
+		  hyd-c (string-to-int (match-string 3 hyd)))
+	    (put-char-attribute chr 'hanyu-dazidian
+				(list hyd-v hyd-p hyd-c))
+	    (remove-char-attribute chr 'hanyu-dazidian-vol)
+            (remove-char-attribute chr 'hanyu-dazidian-page)
+            (remove-char-attribute chr 'hanyu-dazidian-char)
 	    )
 	  (unless (get-char-attribute chr 'ideographic-radical)
 	    (put-char-attribute chr 'ideographic-radical radical))
