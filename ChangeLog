@@ -1,3 +1,7 @@
+2005-02-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-A.txt: Compact/modify/fix some IDSs.
+
 2005-02-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt: Use "&GT-K05506;" instead of "⿱左⺼".
