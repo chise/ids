@@ -11,6 +11,8 @@
 
 	* IDS-Daikanwa-02.txt: Modify, fix and add some IDSs.
 
+	* install-ids.el: Prefer Daikanwa to CBETA.
+
 	* IDS-Daikanwa-01.txt: Modify some IDSs.
 	(M-00339): Add IDS.
 	(M-00629'): Fixed.
