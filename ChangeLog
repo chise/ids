@@ -1,3 +1,13 @@
+2003-08-06  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-dump.el (ids-dump-insert-big5): New function.
+	(ids-dump-big5-cdp): New function.
+
+	* ids-read.el (ids-read-buffer): Add setting for CDP-HHHH and
+	HZKdd-HHHH.
+
+	* install-ids.el: Install IDS-CDP.txt.
+
 2003-08-05  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-CDP.txt: New file.
