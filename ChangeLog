@@ -1,3 +1,14 @@
+2003-10-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CDP.txt (CDP-8AC7): Complete an operator.
+	(CDP-F8FD): Complete operators.
+
+2003-10-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* install-ids.el: Display "Updating char-feature
+	`ideographic-structure'..." instead of "Saving into
+	${exec-directory}/char-db/system-char-id/ideographic-structure...".
+
 2003-08-06  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* ids-dump.el (ids-dump-insert-big5): New function.
