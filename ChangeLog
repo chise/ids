@@ -1,5 +1,34 @@
 2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Basic.txt (U+53E2): Use "&I-CDP-8AA8;" instead of "⿱业&RUI6-E00E;".
+	(U+549D): Use "⿱⿰&CDP-895C;&CDP-895C;一" instead of "⿱⿰幺幺一".
+	(U+9E36): Use "⿳⿰&CDP-895C;&CDP-895C;一" instead of "⿳⿰幺幺一".
+	(U+54C0): Modify IDS.
+	(U+551F): Modify IDS.
+	(U+556D): Modify IDS.
+	(U+55ED): Modify IDS.
+	(U+5625): Fixed.
+	- Use "𠂋" instead of "⿸𠂆一".
+	- Use "艺" instead of "⿱艹乙".
+	- Use "毕" instead of "⿱比十".
+	- Use "约" instead of "⿰&CDP-895B;勺".
+	- Use "寽" instead of "⿱爫寸".
+	- Use "贡" instead of "⿱工贝".
+	- Use "抖" instead of "⿰⺘斗".
+	- Use "斦" instead of "⿰斤斤".
+	- Use "罗" instead of "⿱⺫夕".
+	- Use "呑" instead of "⿵夭口".
+	- Use "聂" instead of "⿱耳双".
+	- Use "爱" instead of "⿱&CDP-8BB8;友".
+	- Use "戞" instead of "⿱&CDP-8CD4;戈".
+	- Use "婴" instead of "⿱⿰贝贝女".
+	- Use "臯" instead of "⿱自𠦂".
+	- Use "鲁" instead of "⿱鱼日".
+	- Use "𤴡" instead of "⿳&CDP-8D52;田⿱厶&CDP-8B68;".
+	- Use "點" instead of "⿰黑占".
+
+2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-UCS-Basic.txt (U+523E): Fixed.
 	- Use "贲" instead of "⿱卉贝".
 	- Use "尝" instead of "⿳⺌冖云".
