@@ -1,4 +1,8 @@
-2003-02-21  Kouichirou Eto  <2003@eto.com>
+2003-02-21  MORIOKA Tomohiko  <tomo@m17n.org>
+
+	* IDS-Daikanwa-07.txt: Use M-22015 instead of U+7592.
+
+2003-02-21  Kouichirou Eto    <2003@eto.com>
 
 	* IDS-JIS-X0208-1990.txt (J90-6243): fixed.
 
