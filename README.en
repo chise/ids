@@ -64,9 +64,9 @@ Each element means
 
 The developing of the package was supported by the “Exploratory
 Software Project” of Information-technology Promotion Agency, Japan.
-Some data of IDS-UCS-Basic.txt are derived and expanded from the CDP
-database developped by C.C. Hsieh at Academia Sinica in Taipei,
-Taiwan.
+Some data in the IDS-UCS* files are derived and expanded from the CDP
+database developped by C.C. Hsieh and his team at Academia Sinica in
+Taipei, Taiwan.
 
 This package is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
