@@ -70,6 +70,7 @@
 	 (decode-char 'chinese-big5-cdp #x8AFC))
    (cons (decode-char 'ucs #x2EBE)
 	 (decode-char 'ucs #x2EBF))
+   (cons ?亽 (decode-char 'chinese-big5-cdp #x8AFC))
    (cons (decode-char 'ucs #x5922)
 	 (decode-char 'ideograph-daikanwa 05802))
    (cons (decode-char 'ucs #x656C)
