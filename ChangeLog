@@ -1,3 +1,11 @@
+2002-06-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-01.txt, IDS-Daikanwa-02.txt, IDS-Daikanwa-03.txt,
+	IDS-Daikanwa-04.txt, IDS-Daikanwa-05.txt, IDS-Daikanwa-06.txt,
+	IDS-Daikanwa-07.txt, IDS-Daikanwa-08.txt, IDS-Daikanwa-09.txt,
+	IDS-Daikanwa-10.txt, IDS-Daikanwa-11.txt, IDS-Daikanwa-12.txt,
+	IDS-Daikanwa-dx.txt, IDS-Daikanwa-ho.txt: New files.
+
 2002-06-24  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* ids-read.el (ids-read-buffer): Fix problem about M-nnnnn' and
