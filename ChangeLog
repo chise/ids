@@ -1,5 +1,88 @@
 2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Basic.txt (U+53AF): Complete IDS.
+	(U+56F6): Modify IDS.
+	(U+5719): Modify IDS.
+	(U+5719): Modify operator.
+	(U+5794): Modify IDS.
+	(U+5795): Modify operator.
+	(U+5A73): Fix operator.
+	(U+5B76): Fix IDS.
+	(U+5C2E): Fix IDS.
+	(U+5C46): Fix IDS.
+	(U+5C76): Fix operator.
+	(U+5C83): Fix operator.
+	(U+5F56): Fix IDS.
+	(U+5F6C): Fix IDS.
+	(U+603D): Fix IDS.
+	- Use "皐" instead of "⿱白𠦂".
+	- Use "貟" instead of "⿱厶貝".
+	- Use "乌" instead of "⿹&CDP-89DE;一".
+	- Use "队" instead of "⿰阝人".
+	- Use "卢" instead of "⿱⺊尸".
+	- Use "厽" instead of "⿱厶厸".
+	- Use "𠧗" instead of "⿱上下".
+	- Use "岂" instead of "⿱山己".
+	- Use "枋" instead of "⿰木方".
+	- Use "斩" instead of "⿰车斤".
+	- Use "昆" instead of "⿱日比".
+	- Use "敄" instead of "⿰矛攵".
+	- Use "啬" instead of "⿱&CDP-8A65;回".
+	- Use "䧘" instead of "⿰阝彖".
+	- Use "㕓" instead of "⿸厂墨".
+	- Use "𤳳" instead of "⿱⿰田田⿰田田".
+	- Use "𦋹" instead of "⿱⺫⿰⺫⺫".
+	- Use "奻" instead of "⿰女女".
+	- Use "审" instead of "⿱宀申".
+	- Use "𣬉" instead of "⿱囟比".
+	- Use "罓" instead of "⿵&CDP-8BC0;㐅".
+	- Use "悘" instead of "⿱医心".
+	- Use "麽" instead of "⿸麻么".
+	- Use "孖" instead of "⿰子子".
+	- Use "孨" instead of "⿱子⿰子子".
+	- Use "㼌" instead of "⿰瓜瓜".
+	- Use "珎" instead of "⿰⺩尔".
+	- Use "𢕪" instead of "⿰彳喬".
+	- Use "归" instead of "⿰&CDP-8968;彐".
+	- Use "𣢟" instead of "⿰甘欠".
+	- Use "荣" instead of "⿳艹冖木".
+	- Use "钦" instead of "⿰钅欠".
+	- Use "颠" instead of "⿰真页".
+	- Use "国" instead of "⿴囗玉".
+	- Use "枀" instead of "⿱公木".
+	- Use "顷" instead of "⿰匕页".
+	- Use "皀" instead of "⿱白匕".
+	- Use "𠬢" instead of "⿱屮又".
+	- Use "矤" instead of "⿰弓矢".
+	- Use "歨" instead of "⿱止&CDP-8B68;".
+	- Use "𢾰" instead of "⿰&CDP-8DD1;攵".
+	- Use "訔" instead of "⿱山言".
+	- Use "对" instead of "⿰又寸".
+	- Use "巩" instead of "⿰工凡".
+	- Use "厌" instead of "⿸厂犬".
+	- Use "军" instead of "⿱冖车".
+	- Use "医" instead of "医".
+	- Use "坚" instead of "⿱⿰&CDP-8969;又土".
+	- Use "闵" instead of "⿵门文".
+	- Use "贯" instead of "⿱毌贝".
+	- Use "㝁" instead of "⿱旬子".
+	- Use "昬" instead of "⿱民日".
+	- Use "𣪊" instead of "⿰&CDP-8D44;殳".
+	- Use "𠗦" instead of "⿰冫⿹&CDP-896A;廾".
+	- Use "徝" instead of "⿰彳直".
+	- Use "𢽟" instead of "⿰來攵".
+	- Use "赣" instead of "⿰章⿳夂工贝".
+	- Use "兰" instead of "⿱丷三".
+	- Use "𡿪" instead of "⿱巛夕".
+	- Use "寻" instead of "⿱彐寸".
+	- Use "贯" instead of "⿱毌贝".
+	- Use "厽" instead of "⿱厶厸".
+	- Use "㼌" instead of "⿰瓜瓜".
+	- Use "昬" instead of "⿱民日".
+	- Use "𣬉" instead of "⿱囟比".
+
+2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-UCS-Basic.txt (U+53E2): Use "&I-CDP-8AA8;" instead of "⿱业&RUI6-E00E;".
 	(U+549D): Use "⿱⿰&CDP-895C;&CDP-895C;一" instead of "⿱⿰幺幺一".
 	(U+9E36): Use "⿳⿰&CDP-895C;&CDP-895C;一" instead of "⿳⿰幺幺一".
