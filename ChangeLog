@@ -1,3 +1,11 @@
+2003-03-14  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids.el (ids-parse-terminal): Use `encode-char' instead of
+	`get-char-attribute'; use `=ucs' and `=big5-cdp' instead of `ucs'
+	and `chinese-big5-cdp'.
+	(ids-parse-op-2): Use `encode-char' instead of
+	`get-char-attribute'; use `=ucs' instead of `ucs'.
+
 2003-02-21  MORIOKA Tomohiko  <tomo@m17n.org>
 
 	* IDS-Daikanwa-07.txt: Use M-22015 instead of U+7592.
