@@ -27,7 +27,7 @@ elc:	package
 
 install-elc:	install-package
 
-install:	install-elc
+install:	install-elc install-ids
 
 
 package:
@@ -35,6 +35,9 @@ package:
 
 install-package:	package
 	$(XEMACS) $(FLAGS) -f install-ids-package $(PACKAGEDIR)
+
+install-ids:
+	$(XEMACS) $(FLAGS) -l install-ids.el
 
 
 clean:
