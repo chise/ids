@@ -24,6 +24,109 @@
 
 ;;; Code:
 
+(defun ids-index-store-char (product component)
+  (let ((ret (char-feature component 'ideographic-products)))
+    (unless (memq product ret)
+      (put-char-attribute component 'ideographic-products
+			  (cons product ret)))
+    (when (setq ret (char-feature component 'ideographic-structure))
+      (ids-index-store-structure product ret))))
+
+(defun ids-index-store-structure (product structure)
+  (let (ret)
+    (dolist (cell (cdr structure))
+      (if (char-ref-p cell)
+	  (setq cell (plist-get cell :char)))
+      (cond ((characterp cell)
+	     (ids-index-store-char product cell))
+	    ((setq ret (assq 'ideographic-structure cell))
+	     (ids-index-store-structure product (cdr ret)))
+	    ((setq ret (find-char cell))
+	     (ids-index-store-char product ret))))))
+
+;;;###autoload
+(defun ids-update-index ()
+  (interactive)
+  (map-char-attribute
+   (lambda (c v)
+     (ids-index-store-structure c v)
+     nil)
+   'ideographic-structure)
+  (save-char-attribute-table 'ideographic-products))
+
+
+(mount-char-attribute-table 'ideographic-products)
+
+;;;###autoload
+(defun ids-find-all-products (char)
+  (let (dest)
+    (dolist (cell (char-feature char 'ideographic-products))
+      (unless (memq cell dest)
+	(setq dest (cons cell dest)))
+      (setq dest (union dest (ids-find-all-products cell))))
+    dest))
+
+;;;###autoload
+(defun char-component-variants (char)
+  (let (dest ret uchr)
+    (cond
+     ((setq ret (char-feature char '<-ideographic-component-forms))
+      (dolist (c ret)
+	(setq dest (union dest (char-component-variants c)))))
+     ((setq ret (get-char-attribute char '->ucs-unified))
+      (setq dest (cons char ret))
+      (dolist (c dest)
+	(setq dest (union dest
+			  (get-char-attribute
+			   c '->ideographic-component-forms))))
+      )
+     ((and (setq ret (get-char-attribute char '=>ucs))
+	   (setq uchr (decode-char '=ucs ret)))
+      (setq dest (cons uchr (char-variants uchr)))
+      (dolist (c dest)
+	(setq dest (union dest
+			  (get-char-attribute
+			   c '->ideographic-component-forms))))
+      )
+     (t
+      (map-char-family (lambda (c)
+			 (unless (memq c dest)
+			   (setq dest (cons c dest)))
+			 (setq dest
+			       (union dest
+				      (get-char-attribute
+				       c '->ideographic-component-forms)))
+			 nil)
+		       char)))
+    dest))
+
+;;;###autoload
+(defun ideographic-products-find (&rest components)
+  (if (stringp (car components))
+      (setq components (car components)))
+  (let ((len (length components))
+	(i 1)
+	dest products)
+    (dolist (variant (char-component-variants (elt components 0)))
+      (dolist (product (get-char-attribute variant 'ideographic-products))
+	(unless (memq product products)
+	  (setq products (cons product products)))))
+    (setq dest products)
+    (while (and
+	    (< i len)
+	    (progn
+	      (setq products nil)
+	      (dolist (variant (char-component-variants (elt components i)))
+		(dolist (product (get-char-attribute
+				  variant 'ideographic-products))
+		  (unless (memq product products)
+		    (when (memq product dest)
+		      (setq products (cons product products))))))
+	      (setq dest products)))
+      (setq i (1+ i)))
+    dest))
+
+
 (defun ideographic-structure-char= (c1 c2)
   (or (eq c1 c2)
       (and c1 c2
@@ -125,16 +228,29 @@
   (with-current-buffer (get-buffer-create ids-find-result-buffer)
     (setq buffer-read-only nil)
     (erase-buffer)
-    (map-char-attribute
-     (lambda (c v)
-       (when (every (lambda (p)
-		      (ideographic-structure-member p v))
-		    components)
-         (insert (ids-find-format-line c v)))
-       nil)
-     'ideographic-structure)
+    (dolist (c (ideographic-products-find components))
+      (insert (ids-find-format-line
+	       c (char-feature c 'ideographic-structure)))
+      ;; (forward-line -1)
+      )
     (goto-char (point-min)))
   (view-buffer ids-find-result-buffer))
+;; (defun ids-find-chars-including-components (components)
+;;   "Search Ideographs whose structures have COMPONENTS."
+;;   (interactive "sComponents : ")
+;;   (with-current-buffer (get-buffer-create ids-find-result-buffer)
+;;     (setq buffer-read-only nil)
+;;     (erase-buffer)
+;;     (map-char-attribute
+;;      (lambda (c v)
+;;        (when (every (lambda (p)
+;;                       (ideographic-structure-member p v))
+;;                     components)
+;;          (insert (ids-find-format-line c v)))
+;;        nil)
+;;      'ideographic-structure)
+;;     (goto-char (point-min)))
+;;   (view-buffer ids-find-result-buffer))
 
 ;;;###autoload
 (define-obsolete-function-alias 'ideographic-structure-search-chars
