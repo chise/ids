@@ -1,3 +1,68 @@
+2003-11-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-A.txt (U+3A0A): Use GT-K05506 instead of CDP-8CA9.
+	(U+4643): Likewise.
+	(U+493B): Likewise.
+	(U+4B49): Likewise.
+	(U+4BDD): Likewise.
+
+2003-11-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-08.txt (M-24325): Use GT-K05506 instead of
+	CDP-8CA9.
+
+	* IDS-Daikanwa-07.txt (M-19249): Use GT-K05506 instead of
+	CDP-8CA9.
+	(M-21547): Likewise.
+
+	* IDS-Daikanwa-06.txt (M-15133): Use GT-K05506 instead of
+	CDP-8CA9.
+	(M-16899): Likewise.
+
+	* IDS-Daikanwa-05.txt (M-12328): Use GT-K05506 instead of
+	CDP-8CA9.
+
+	* IDS-Daikanwa-04.txt (M-10855): Use GT-K05506 instead of
+	CDP-8CA9.
+
+	* IDS-Daikanwa-03.txt (M-05280): Use GT-K05506 instead of
+	CDP-8CA9.
+	(M-06525): Likewise.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028C95): Use GT-K05506 instead of
+	CDP-8CA9.
+	(U-00028F15): Likewise.
+	(U-00028F4B): Likewise.
+	(U-000297DF): Likewise.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026766): Use GT-K05506 instead of
+	CDP-8CA9.
+	(U-00027A6D): Likewise.
+	(U-00027C6B): Likewise.
+	(U-00027C97): Likewise.
+
+	* IDS-UCS-Ext-B-3.txt (U-00024303): Use GT-K05506 instead of
+	CDP-8CA9.
+	(U-00024B68): Likewise.
+	(U-000254FF): Likewise.
+	(U-000256A8): Likewise.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023BB2): Use GT-K05506 instead of
+	CDP-8CA9.
+	(U-00023DFF): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-0002140F): Use GT-K05506 instead of
+	CDP-8CA9.
+	(U-000214F7): Likewise.
+
+	* IDS-UCS-Basic.txt (U+5836): Use GT-K05506 instead of CDP-8CA9.
+	(U+5AA0): Likewise.
+	(U+60F0): Likewise.
+	(U+6955): Likewise.
+	(U+6BFB): Likewise.
+
+	* IDS-JIS-X0208-1990.txt: Modify/add some IDSs.
+
 2003-10-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-CDP.txt (CDP-8AC7): Complete an operator.
