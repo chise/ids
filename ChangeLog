@@ -1,3 +1,13 @@
+2002-10-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-read.el (ids-read-buffer): Add new optional argument `soft'
+	to avoid to overwrite existing `ideographic-structure' properties.
+	(ids-read-file): Likewise.
+
+	* IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-4.txt:
+	- Use utf-8-mcs-er instead of utf-8.
+	- Modify and/or fix some parts.
+
 2002-10-04  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-UCS-Ext-B-3.txt:
