@@ -1,5 +1,9 @@
 2003-03-14  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
+	* IDS-JIS-X0208-1990.txt:
+	- Add some missing IDSs.
+	- Modify some IDSs.
+
 	* ids.el (ids-parse-terminal): Use `encode-char' instead of
 	`get-char-attribute'; use `=ucs' and `=big5-cdp' instead of `ucs'
 	and `chinese-big5-cdp'.
