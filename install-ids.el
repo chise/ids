@@ -51,4 +51,8 @@
 (save-char-attribute-table 'ideographic-structure)
 (princ "done.\n")
 
+(princ "Updating char-feature `ideographic-products'...")
+(ids-update-index)
+(princ "done.\n")
+
 ;;; install-ids.el ends hear
