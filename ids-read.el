@@ -27,7 +27,7 @@
 (require 'ids)
 
 ;;;###autoload
-(defun ids-read-buffer (buffer &optional simplify)
+(defun ids-read-buffer (buffer &optional simplify soft)
   (interactive "bBuffer = \nP")
   (save-excursion
     (set-buffer buffer)
@@ -85,6 +85,9 @@
 			       (string-to-int (match-string 1 chs))))
 		 ))
 	  (when (and char
+		     (or (not soft)
+			 (null
+			  (get-char-attribute char 'ideographic-structure)))
 		     (>= (length ids) 3)
 		     (not (string-match "\\?" ids))
 		     (consp (setq structure (ids-parse-string ids simplify))))
@@ -96,11 +99,11 @@
 	))))
 
 ;;;###autoload
-(defun ids-read-file (file &optional simplify)
+(defun ids-read-file (file &optional simplify soft)
   (interactive "fIDS file = \nP")
   (with-temp-buffer
     (insert-file-contents file)
-    (ids-read-buffer (current-buffer) simplify)))
+    (ids-read-buffer (current-buffer) simplify soft)))
 
 
 ;;; @ End.
