@@ -15,6 +15,12 @@
 	* IDS-UCS-Basic.txt (U+5313): Modified.
 	(U+753B): Modified.
 
+2003-02-22  MORIOKA Tomohiko  <tomo@m17n.org>
+
+	* IDS-Daikanwa-02.txt:
+	- Add some missing IDSs.
+	- Modify some IDSs.
+
 2003-02-21  MORIOKA Tomohiko  <tomo@m17n.org>
 
 	* IDS-Daikanwa-07.txt: Use M-22015 instead of U+7592.
