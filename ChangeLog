@@ -1,5 +1,12 @@
 2002-04-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-B-4.txt, IDS-UCS-Ext-B-5.txt, IDS-UCS-Ext-B-6.txt,
+	IDS-UCS-Compat-Supplement.txt, IDS-UCS-Ext-B-1.txt,
+	IDS-UCS-Ext-B-2.txt, IDS-UCS-Ext-B-3.txt: Use U-hhhhhhhh instead
+	of U+hhhhh.
+
+2002-04-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-UCS-Compat-Supplement.txt: Fixed.
 
 2002-04-18  Christian Wittern  <wittern@kanji.zinbun.kyoto-u.ac.jp>
