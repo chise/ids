@@ -1,5 +1,9 @@
 2002-12-25  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
+	* IDS-UCS-Basic.txt:
+	- Add some missing IDSs.
+	- Fix or modify some IDSs.
+
 	* ids-find.el (ideographic-structure-member-compare-components):
 	Renamed from `ideographic-structure-member-compare-parts'.
 	(ideographic-structure-member): Rename argument `part' to
