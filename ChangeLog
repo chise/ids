@@ -1,5 +1,14 @@
 2002-06-24  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
+	* ids-read.el (ids-read-buffer): Fix problem about M-nnnnn' and
+	M-nnnnn".
+
+2002-06-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+9AD8): Add IDS.
+
+2002-06-24  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
 	* IDS-CBETA.txt: New file.
 
 2002-06-22  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
