@@ -1,5 +1,17 @@
 2002-06-20  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* ids-read.el (ids-read-buffer): Add new optional argument
+	`simplify'; if `simplify' is nil, don't simplify a subtree; accept
+	CB-nnnnn.
+	(ids-read-file): Likewise.
+
+	* ids.el (ids-parse-component): Add new argument `simplify'; if
+	`simplify' is nil, don't simplify a subtree.
+	(ids-parse-element): Likewise.
+	(ids-parse-string): Likewise.
+
+2002-06-20  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* iddef.el: Deleted [moved to `cdp' package'].
 
 2002-05-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
