@@ -1,3 +1,14 @@
+2002-10-04  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use utf-8-mcs-er instead of utf-8.
+	- Modify and/or fix some parts.
+
+2002-10-03  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+883F): Marked an error.
+	(U+8840): Add IDS.
+
 2002-10-02  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-UCS-Ext-B-2.txt:
