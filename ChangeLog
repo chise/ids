@@ -1,3 +1,9 @@
+2002-09-27  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-ELS (ids-modules-to-compile): Add `ids-find'.
+
+	* ids-find.el: New file.
+
 2002-07-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids.el (ids-format-unit): Deleted.
