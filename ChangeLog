@@ -6,6 +6,11 @@
 	(ids-parse-op-2): Use `encode-char' instead of
 	`get-char-attribute'; use `=ucs' instead of `ucs'.
 
+2003-02-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+5313): Modified.
+	(U+753B): Modified.
+
 2003-02-21  MORIOKA Tomohiko  <tomo@m17n.org>
 
 	* IDS-Daikanwa-07.txt: Use M-22015 instead of U+7592.
