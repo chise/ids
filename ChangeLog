@@ -10,6 +10,8 @@
 
 	* IDS-UCS-Basic.txt: Simplify IDS of some characters.
 
+	* IDS-UCS-Ext-B-1.txt (U-00020003): Fixed.
+
 	* ids-read.el (ids-read-buffer): Accept CBnnnnn instead of
 	CB-nnnnn as CBETA characters.
 
