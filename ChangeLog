@@ -1,3 +1,8 @@
+2003-06-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020724): Fixed.
+	(U-000208F2): Modified.
+
 2003-03-14  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-JIS-X0208-1990.txt:
