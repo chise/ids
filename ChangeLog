@@ -1,3 +1,19 @@
+2002-12-25  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-find.el (ideographic-structure-member-compare-components):
+	Renamed from `ideographic-structure-member-compare-parts'.
+	(ideographic-structure-member): Rename argument `part' to
+	`component'.
+	(ideographic-structure-repertoire-p): Likewise.
+	(ids-find-result-buffer): New variable.
+	(ids-find-format-line): New function.
+	(ids-find-chars-including-components): Renamed from
+	`ideographic-structure-search-chars'; use `ids-find-result-buffer'
+	and `ids-find-format-line'.
+	(ideographic-structure-search-chars): New obsolete alias for
+	`ids-find-chars-including-components'.
+	(ids-find-chars-covered-by-components): New command.
+
 2002-12-23  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-JIS-X0208-1990.txt (J90-4134): Use BC-8B5D instead of
