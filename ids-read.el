@@ -27,8 +27,8 @@
 (require 'ids)
 
 ;;;###autoload
-(defun ids-read-buffer (buffer)
-  (interactive "bBuffer = ")
+(defun ids-read-buffer (buffer &optional simplify)
+  (interactive "bBuffer = \nP")
   (save-excursion
     (set-buffer buffer)
     (goto-char (point-min))
@@ -49,11 +49,14 @@
 		 ((string-match "M-\\([0-9]+\\)" chs)
 		  (decode-char 'ideograph-daikanwa
 			       (string-to-int (match-string 1 chs))))
+		 ((string-match "CB-\\([0-9]+\\)" chs)
+		  (decode-char 'ideograph-cbeta
+			       (string-to-int (match-string 1 chs))))
 		 ))
 	  (when (and char
 		     (>= (length ids) 3)
 		     (not (string-match "\\?" ids))
-		     (consp (setq structure (ids-parse-string ids))))
+		     (consp (setq structure (ids-parse-string ids simplify))))
 	    (put-char-attribute char
 				'ideographic-structure
 				(cdr (car structure))))
@@ -62,11 +65,11 @@
 	))))
 
 ;;;###autoload
-(defun ids-read-file (file)
-  (interactive "fIDS file = ")
+(defun ids-read-file (file &optional simplify)
+  (interactive "fIDS file = \nP")
   (with-temp-buffer
     (insert-file-contents file)
-    (ids-read-buffer (current-buffer))))
+    (ids-read-buffer (current-buffer) simplify)))
 
 
 ;;; @ End.
