@@ -96,6 +96,25 @@
     (if (= (length (cdr ret)) 0)
 	(car ret))))
 
+(defun ids-format-unit (ids-char)
+  (let (ret)
+    (cond ((characterp ids-char)
+	   (char-to-string ids-char))
+	  ((integerp ids-char)
+	   (char-to-string (decode-char 'ucs ids-char)))
+	  ((setq ret (find-char ids-char))
+	   (char-to-string ret))
+	  ((setq ret (assq 'ideographic-structure ids-char))
+	   (ids-format-list (cdr ret))))))
+
+(defun ids-format-list (ids-list)
+  (mapconcat (lambda (cell)
+	       (ids-format-unit
+		(if (char-ref-p cell)
+		    (plist-get cell :char)
+		  cell)))
+	     ids-list ""))
+		     
 
 ;;; @ End.
 ;;;
