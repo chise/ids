@@ -1,3 +1,25 @@
+2002-12-26  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-JIS-X0208-1990.txt: Use U+624C instead of <CJK RADICAL
+	HAND>.
+	(J90-302F): Use U+6C35 instead of BC-8AF6.
+	(J90-593E): Fix an operator.
+	(J90-596A): Fix a component.
+	(J90-5F66): Add IDS.
+	(J90-607E): Likewise.
+	(J90-6D68): Likewise.
+
+	* IDS-UCS-Basic.txt (U+6E81): Complete.
+	(U+6F4E): Fix an operator.
+	(U+7108): Fix typo.
+	(U+7155): Complete.
+	(U+73F1): Complete an operator.
+	(U+7476): Likewise.
+	(U+789B): Likewise.
+	(U+796F): Likewise.
+	(U+7E89): Fix typo.
+	(U+8FB7): Complete.
+
 2002-12-25  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-UCS-Basic.txt:
