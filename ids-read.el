@@ -49,7 +49,7 @@
 		 ((string-match "M-\\([0-9]+\\)" chs)
 		  (decode-char 'ideograph-daikanwa
 			       (string-to-int (match-string 1 chs))))
-		 ((string-match "CB-\\([0-9]+\\)" chs)
+		 ((string-match "CB\\([0-9]+\\)" chs)
 		  (decode-char 'ideograph-cbeta
 			       (string-to-int (match-string 1 chs))))
 		 ))
