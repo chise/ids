@@ -1,3 +1,7 @@
+2003-01-21  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* IDS-UCS-Basic.txt: Fix, modify and/or complete some IDSs.
+
 2003-01-19  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
 
 	* IDS-Daikanwa-02.txt: Use utf-8-mcs-er instead of utf-8.
