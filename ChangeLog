@@ -1,3 +1,22 @@
+2002-10-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CBETA.txt: Add and modify IDSs of some characters.
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use utf-8-mcs-er instead of utf-8.
+	- Modify and/or fix some parts.
+
+2002-10-10  MORIOKA Tomohiko  <tomo@mousai.as.wakwak.ne.jp>
+
+	* ids-dump.el (ids-dump-range): Use `utf-8-mcs-er' instead of
+	`utf-8'.
+
+2002-10-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-6.txt:
+	- Use utf-8-mcs-er instead of utf-8.
+	- Modify and/or fix some parts.
+
 2002-10-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-read.el (ids-read-buffer): Add new optional argument `soft'
