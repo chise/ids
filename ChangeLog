@@ -1,3 +1,23 @@
+2004-05-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CBETA.txt: Modify/fix some IDSs.
+
+2004-05-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt: Modify/fix/compact some IDSs.
+	(U+592A): Add IDS.
+
+2004-02-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-read.el (ids-read-buffer): Fix bug about HZKnn-hhhh.
+
+2004-02-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-dump.el (ids-dump-insert-big5-pua): New function.
+	(ids-dump-big5-cdp): Use `ids-dump-insert-big5-pua'.
+
+	* IDS-CDP.txt: Reformatted.
+
 2004-02-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-2.txt (U-000234EA): Fixed.
