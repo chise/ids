@@ -1,6 +1,6 @@
 ;;; ids.el --- Parser and utility for Ideographic Description Sequence.
 
-;; Copyright (C) 2001,2002 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002,2003 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -32,19 +32,19 @@
 (defun ids-parse-terminal (string)
   (if (>= (length string) 1)
       (let* ((chr (aref string 0))
-	     (ucs (get-char-attribute chr 'ucs))
+	     (ucs (encode-char chr '=ucs 'defined-only))
 	     big5)
 	(unless (and ucs (<= #x2FF0 ucs)(<= ucs #x2FFF))
 	  (if (and ucs (<= #xE000 ucs)(<= ucs #xF8FF)
-		   (setq big5 (get-char-attribute chr 'chinese-big5)))
-	      (setq chr (decode-char 'chinese-big5-cdp big5)))
+		   (setq big5 (encode-char chr 'chinese-big5)))
+	      (setq chr (decode-char '=big5-cdp big5)))
 	  (cons chr
 		(substring string 1))))))
 
 (defun ids-parse-op-2 (string)
   (if (>= (length string) 1)
       (let* ((chr (aref string 0))
-	     (ucs (get-char-attribute chr 'ucs)))
+	     (ucs (encode-char chr '=ucs 'defined-only)))
 	(if (or (eq ucs #x2FF0)
 		(eq ucs #x2FF1)
 		(and (<= #x2FF4 ucs)(<= ucs #x2FFB)))
