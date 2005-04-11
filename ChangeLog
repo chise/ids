@@ -1,3 +1,49 @@
+2005-04-11  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt:
+	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
+	- Use <CJK RADICAL PERSON> instead of U+4EBB.
+	- Use "⿱&GT-K01418;" instead of "⿳⺾冖".
+	- Use GT-K01443 instead of "⿱&CDP-89B2;冖".
+	- Use "⿰&CDP-8970;" instead of "⿰羊".
+	- Use "⿸朕" instead of "⿰月⿱&GT-K01769;".
+	- Use "⿰土" instead of "⿰土".
+	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
+	- Use <CJK RADICAL HEART ONE> instead of U+5FC4.
+	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
+	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
+	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
+	- Use "⿱⿳⺮目大" instead of "⿳竹目⿵大".
+	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿱大".
+	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
+	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
+	- Use "⿱⻗" instead of "⿱&GT-56689;".
+	- Use "⿱&GT-K01443;" instead of "⿳&CDP-89B2;冖".
+	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
+	- Use "𠂋" instead of "⿸𠂆一".
+	- Use "⿰土" instead of "⿰土".
+	- Use <CJK RADICAL MEAT> instead of U+6708 as ``meat''.
+	- Use "&UU+5C1A;" instead of "⿱⺌冖".
+	- Use "⿸⿰月&GT-K01769;" instead of "⿰月⿱&GT-K01769;".
+	- Use <CJK RADICAL PERSON> instead of U+4EBB.
+	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
+	- Use <CJK RADICAL HAND> instead of U+624C.
+	- Use "⿸⿰&GT-17214;𠂉" instead of "⿰&GT-17214;⿱𠂉".
+	- Use "⿸&I-J90-5A41;" instead of "⿰&CDP-8B7A;⿱攵".
+	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
+	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
+	- Add/compact/modify/fix some IDSs.
+
+2005-04-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CNS-2.txt:
+	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
+	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
+	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
+
 2005-04-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-CNS-2.txt: Compact/modify/fix some IDSs.
