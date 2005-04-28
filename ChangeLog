@@ -1,9 +1,50 @@
+2005-04-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-4.txt: Compact/modify/fix some IDSs.
+
+2005-04-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt: Complete/compact/modify/fix some IDSs.
+
+	* IDS-UCS-Ext-B-1.txt: Modify some IDSs.
+	(U-00020014): Complete IDS.
+	(U-00020015): Modify operator.
+	(U-00020020): Likewise.
+	(U-00020025): Modify structure.
+	(U-00020085): Complete IDS.
+	(U-0002008F): Likewise.
+	(U-0002032A): Use "⿸攸" instead of "⿰&CDP-8B7A;⿱⺙".
+	(U-00020403): Use "⿸⿰&CDP-8B7A;夂⿱" instead of "⿰&CDP-8B7A;⿳夂".
+	(U-000205F2): Use "⿸朕" instead of "⿰月⿱龹".
+	(U-00021D63): Use U+725C instead of U+725B.
+	(U-00021D66): Fixed.
+	(U-00021E8C): Compact IDS.
+	(U-00021E8E): Likewise.
+
+2005-04-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el: New file.
+
+2005-04-11  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-A.txt:
+	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
+	- Use "⿸朕" instead of "⿰月⿱龹".
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
+	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
+	- Use "⿰⺶" instead of "⿰羊".
+	- Add/ compact/modify/fix some IDSs.
+
+	* IDS-Daikanwa-09.txt:
+	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
+	- Add/compact/modify/fix some IDSs.
+
 2005-04-11  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt:
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 	- Use <CJK RADICAL PERSON> instead of U+4EBB.
-	- Use "⿱&GT-K01418;" instead of "⿳⺾冖".
+	- Use "⿱&GT-K01418;" instead of "⿳艹冖".
 	- Use GT-K01443 instead of "⿱&CDP-89B2;冖".
 	- Use "⿰&CDP-8970;" instead of "⿰羊".
 	- Use "⿸朕" instead of "⿰月⿱&GT-K01769;".
@@ -136,7 +177,7 @@
 	(U-00020887): Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A236): Use "𦎧" instead of
-	"⿳&CDP-8AA5;⺿干".
+	"⿳&CDP-8AA5;艹干".
 	(U-0002A237): Use "⿰𣀦" instead of "⿲⿳&CDP-8AA5;卝干攴".
 
 	* IDS-UCS-Ext-B-5.txt:
