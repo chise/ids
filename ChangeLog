@@ -1,3 +1,18 @@
+2005-04-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt: Use "⿸𠩵" instead of "⿸厂⿱林".
+	(U+5175): Modify IDS.
+
+	* IDS-JIS-X0208-1990.txt:
+	- Add/modify/fix some IDSs.
+	- Use "⿸𠩵" instead of "⿸厂⿱林".
+
+	* IDS-HZK04.txt: Complete/modify/fix some IDSs.
+
+	* IDS-HZK01.txt:
+	- Complete/modify/fix some IDSs.
+	- Use "⿸⿰&CDP-8B7A;夂" instead of "⿰&CDP-8B7A;⿱夂".
+
 2005-04-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-4.txt: Compact/modify/fix some IDSs.
@@ -46,10 +61,10 @@
 	- Use <CJK RADICAL PERSON> instead of U+4EBB.
 	- Use "⿱&GT-K01418;" instead of "⿳艹冖".
 	- Use GT-K01443 instead of "⿱&CDP-89B2;冖".
-	- Use "⿰&CDP-8970;" instead of "⿰羊".
-	- Use "⿸朕" instead of "⿰月⿱&GT-K01769;".
+	- Use "⿰⺶" instead of "⿰羊".
+	- Use "⿸朕" instead of "⿰月⿱龹".
 	- Use "⿰土" instead of "⿰土".
-	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
 	- Use <CJK RADICAL HEART ONE> instead of U+5FC4.
 	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
 	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
@@ -59,20 +74,20 @@
 	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
 
 	* IDS-JIS-X0208-1990.txt:
-	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
-	- Use "⿱⻗" instead of "⿱&GT-56689;".
+	- Use "⿱⻗" instead of "⿱雨".
 	- Use "⿱&GT-K01443;" instead of "⿳&CDP-89B2;冖".
 	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
 	- Use "𠂋" instead of "⿸𠂆一".
 	- Use "⿰土" instead of "⿰土".
 	- Use <CJK RADICAL MEAT> instead of U+6708 as ``meat''.
-	- Use "&UU+5C1A;" instead of "⿱⺌冖".
-	- Use "⿸⿰月&GT-K01769;" instead of "⿰月⿱&GT-K01769;".
+	- Use "尚" instead of "⿱⺌冖".
+	- Use "⿸⿰月龹" instead of "⿰月⿱龹".
 	- Use <CJK RADICAL PERSON> instead of U+4EBB.
 	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
 	- Use <CJK RADICAL HAND> instead of U+624C.
-	- Use "⿸⿰&GT-17214;𠂉" instead of "⿰&GT-17214;⿱𠂉".
+	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
 	- Use "⿸&I-J90-5A41;" instead of "⿰&CDP-8B7A;⿱攵".
 	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
 	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
@@ -114,16 +129,16 @@
 	(ids-dump-insert-jis-x0208-1990): Likewise.
 
 	* IDS-Daikanwa-12.txt:
-	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
 	- Add/compact/modify/fix some IDSs.
 
 	* IDS-Daikanwa-10.txt:
-	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
-	- "⿹⿰&CDP-8D44;&GT-21300;x" instead of "⿰⿱&CDP-8D44;x&GT-21300;".
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
+	- "⿹⿰&CDP-8D44;殳x" instead of "⿰⿱&CDP-8D44;x殳".
 	- Add/compact/modify/fix some IDSs.
 
 	* IDS-Daikanwa-02.txt:
-	- Use "⺜" instead of "&CDP-8A78;".
+	- Use "⺜" instead of "冃".
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 	- Add/compact/modify/fix some IDSs.
 
@@ -150,7 +165,7 @@
 
 	* IDS-Daikanwa-08.txt:
 	- Add/compact/modify/fix some IDSs.
-	- "⿹⿰&CDP-8D44;&GT-21300;x" instead of "⿰⿱&CDP-8D44;x&GT-21300;".
+	- "⿹⿰&CDP-8D44;殳x" instead of "⿰⿱&CDP-8D44;x殳".
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
 	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
 
@@ -167,8 +182,8 @@
 	(C1-7B4F): Fixed.
 	- Modify/fix some IDSs.
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
-	- Use "⿸⿰𠦝&GT-00458;" instead of "⿰𠦝⿱&GT-00458;".
-	- Use "⿸⿰&GT-17214;𠂉" instead of "⿰&GT-17214;⿱𠂉".
+	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
+	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
 	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
 
 2005-03-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
@@ -177,22 +192,22 @@
 	(U-00020887): Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A236): Use "𦎧" instead of
-	"⿳&CDP-8AA5;艹干".
-	(U-0002A237): Use "⿰𣀦" instead of "⿲⿳&CDP-8AA5;卝干攴".
+	"⿳亯艹干".
+	(U-0002A237): Use "⿰𣀦" instead of "⿲⿳亯卝干攴".
 
 	* IDS-UCS-Ext-B-5.txt:
 	- Compact/modify/fix some IDSs.
-	- Use "⿱⻗" instead of "⿱&GT-56689;".
-	- Use "𦎧" instead of "⿱&CDP-8AA5;卝".
+	- Use "⿱⻗" instead of "⿱雨".
+	- Use "𦎧" instead of "⿱亯卝".
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
-	- Use "⿸⿰&GT-17214;𠂉" instead of "⿰&GT-17214;⿱𠂉".
+	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
 
 	* IDS-UCS-Ext-B-4.txt: Compact/modify/fix some IDSs.
 
 	* IDS-UCS-Ext-B-3.txt: Compact/modify/fix some IDSs.
-	- Use "𦎧" instead of "⿱&CDP-8AA5;卝".
+	- Use "𦎧" instead of "⿱亯卝".
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
-	- Use "⿸⿰&GT-17214;𠂉" instead of "⿰&GT-17214;⿱𠂉".
+	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
 
 	* IDS-UCS-Ext-B-2.txt: Compact/modify/fix some IDSs.
 
