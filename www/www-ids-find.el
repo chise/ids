@@ -16,7 +16,7 @@
 	 coding-system))))
 
 (let ((components (car command-line-args-left))
-      is)
+      is ucs)
   (setq command-line-args-left (cdr command-line-args-left))
   (cond
    ((stringp components)
@@ -77,8 +77,40 @@
       (when (every (lambda (c)
 		     (ideographic-structure-member c is))
 		   components)
-	(princ (encode-coding-string (ids-find-format-line c is)
-				     'utf-8-jp-er))
+	(princ
+	 (encode-coding-string
+	  (format "%c" c)
+	  'utf-8-jp-er))
+	(princ
+	 (or (if (setq ucs (or (char-ucs c)
+			       (encode-char c 'ucs)))
+		 (format "<a href=\"http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%X\">%s</a>"
+			 ucs
+			 (cond ((<= ucs #xFFFF)
+				(format "    U+%04X" ucs))
+			       ((<= ucs #x10FFFF)
+				(format "U-%08X" ucs))))
+	       "          ")))
+	(princ " ")
+	(princ
+	 (encode-coding-string
+	  (ideographic-structure-to-ids is)
+	  'utf-8-jp-er))
+	(when (and ucs
+		   (with-current-buffer
+		       (find-file-noselect
+			"~tomo/projects/chise/ids/www/tang-chars.udd")
+		     (goto-char (point-min))
+		     (re-search-forward (format "^%d$" ucs) nil t)))
+	  (princ
+	   (format " <a href=\"http://coe21.zinbun.kyoto-u.ac.jp/djvuchar?query=%s\">"
+		   (mapconcat
+		    (lambda (c)
+		      (format "%%%02X" (char-int c)))
+		    (encode-coding-string (char-to-string c)
+					  'utf-8-jp)
+		    "")))
+	  (princ (encode-coding-string "⇒[唐代拓本]</a>" 'utf-8-jp-er)))
 	(princ "<br>\n")
 	))
     )
