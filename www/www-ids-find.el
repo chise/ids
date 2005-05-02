@@ -15,6 +15,9 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
+(defvar www-ids-find-tang-chars-file-name
+  "~tomo/projects/chise/ids/www/tang-chars.udd")
+
 (defun www-batch-ids-find ()
   (let ((components (car command-line-args-left))
 	is ucs)
@@ -85,10 +88,10 @@
 	  (princ
 	   (or (if (setq ucs (or (char-ucs c)
 				 (encode-char c 'ucs)))
-		   (format "<a href=\"http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%X\">%s</a>"
+		   (format " <a href=\"http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%X\">%s</a>"
 			   ucs
 			   (cond ((<= ucs #xFFFF)
-				  (format "    U+%04X" ucs))
+				  (format "U+%04X" ucs))
 				 ((<= ucs #x10FFFF)
 				  (format "U-%08X" ucs))))
 		 "          ")))
@@ -100,7 +103,7 @@
 	  (when (and ucs
 		     (with-current-buffer
 			 (find-file-noselect
-			  "~tomo/projects/chise/ids/www/tang-chars.udd")
+			  www-ids-find-tang-chars-file-name)
 		       (goto-char (point-min))
 		       (re-search-forward (format "^%d$" ucs) nil t)))
 	    (princ
