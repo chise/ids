@@ -13,6 +13,11 @@
 	- Complete/modify/fix some IDSs.
 	- Use "⿸⿰&CDP-8B7A;夂" instead of "⿰&CDP-8B7A;⿱夂".
 
+2005-04-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el: Add links for Unihan and
+	http://coe21.zinbun.kyoto-u.ac.jp/djvuchar?query=CHAR.
+
 2005-04-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-4.txt: Compact/modify/fix some IDSs.
