@@ -1,3 +1,14 @@
+2005-05-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-tang-chars-file-name): New
+	variable.
+	(www-batch-ids-find): Use `www-ids-find-tang-chars-file-name'.
+
+2005-05-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-batch-ids-find): Changed from top
+	level.
+
 2005-04-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt: Use "⿸𠩵" instead of "⿸厂⿱林".
