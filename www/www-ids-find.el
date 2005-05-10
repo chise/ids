@@ -20,7 +20,12 @@
 
 (defun www-batch-ids-find ()
   (let ((components (car command-line-args-left))
-	is ucs)
+	(coded-charset-entity-reference-alist
+	 (list*
+	  '((=cbeta      "CB" 5 d)
+	    (=jef-china3 "JC3-" 4 X))
+	  coded-charset-entity-reference-alist))
+	is ucs str code)
     (setq command-line-args-left (cdr command-line-args-left))
     (cond
      ((stringp components)
@@ -81,10 +86,17 @@
 	(when (every (lambda (c)
 		       (ideographic-structure-member c is))
 		     components)
-	  (princ
-	   (encode-coding-string
-	    (format "%c" c)
-	    'utf-8-jp-er))
+	  (setq str
+		(encode-coding-string (format "%c" c) 'utf-8-jp-er))
+	  (cond
+	   ((string-match "&CB\\([0-9]+\\);" str)
+	    (setq code (string-to-int (match-string 1 str)))
+	    (princ (format "<img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
+			   code (/ code 1000) code))
+	    (princ (format "CB%05d" code))
+	    )
+	   (t
+	    (princ str)))
 	  (princ
 	   (or (if (setq ucs (or (char-ucs c)
 				 (encode-char c 'ucs)))
@@ -97,9 +109,19 @@
 		 "          ")))
 	  (princ " ")
 	  (princ
-	   (encode-coding-string
-	    (ideographic-structure-to-ids is)
-	    'utf-8-jp-er))
+	   (with-temp-buffer
+	     (insert
+	      (encode-coding-string
+	       (ideographic-structure-to-ids is)
+	       'utf-8-jp-er))
+	     (goto-char (point-min))
+	     (while (re-search-forward "&CB\\([0-9]+\\);" nil t)
+	       (setq code (string-to-int (match-string 1)))
+	       (replace-match
+		(format "<img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">"
+			code (/ code 1000) code)
+		t 'literal))
+	     (buffer-string)))
 	  (when (and ucs
 		     (with-current-buffer
 			 (find-file-noselect
