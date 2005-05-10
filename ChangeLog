@@ -1,3 +1,12 @@
+2005-05-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-batch-ids-find): Display images of
+	=cbeta characters.
+
+2005-05-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CBETA.txt: Use utf-8-mcs-er instead of utf-8.
+
 2005-05-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-tang-chars-file-name): New
@@ -381,7 +390,7 @@
 	- Use "麽" instead of "⿸麻么".
 	- Use "孖" instead of "⿰子子".
 	- Use "孨" instead of "⿱子⿰子子".
-	- Use "㼌" instead of "⿰瓜瓜".
+	- Use "𤫲" instead of "⿰瓜瓜".
 	- Use "珎" instead of "⿰⺩尔".
 	- Use "𢕪" instead of "⿰彳喬".
 	- Use "归" instead of "⿰&CDP-8968;彐".
@@ -418,7 +427,7 @@
 	- Use "寻" instead of "⿱彐寸".
 	- Use "贯" instead of "⿱毌贝".
 	- Use "厽" instead of "⿱厶厸".
-	- Use "㼌" instead of "⿰瓜瓜".
+	- Use "𤫲" instead of "⿰瓜瓜".
 	- Use "昬" instead of "⿱民日".
 	- Use "𣬉" instead of "⿱囟比".
 
@@ -435,7 +444,7 @@
 	- Use "𠂋" instead of "⿸𠂆一".
 	- Use "艺" instead of "⿱艹乙".
 	- Use "毕" instead of "⿱比十".
-	- Use "约" instead of "⿰&CDP-895B;勺".
+	- Use "约" instead of "⿰⺰勺".
 	- Use "寽" instead of "⿱爫寸".
 	- Use "贡" instead of "⿱工贝".
 	- Use "抖" instead of "⿰⺘斗".
@@ -446,7 +455,7 @@
 	- Use "爱" instead of "⿱&CDP-8BB8;友".
 	- Use "戞" instead of "⿱&CDP-8CD4;戈".
 	- Use "婴" instead of "⿱⿰贝贝女".
-	- Use "臯" instead of "⿱自𠦂".
+	- Use "𦣲" instead of "⿱自𠦂".
 	- Use "鲁" instead of "⿱鱼日".
 	- Use "𤴡" instead of "⿳&CDP-8D52;田⿱厶&CDP-8B68;".
 	- Use "點" instead of "⿰黑占".
