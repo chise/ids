@@ -1,3 +1,12 @@
+2005-05-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-batch-ids-find): Display a brief
+	description when components are not specified.
+
+2005-05-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-08.txt: Add/compact/modify/fix some IDSs.
+
 2005-05-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-batch-ids-find): Display images of
