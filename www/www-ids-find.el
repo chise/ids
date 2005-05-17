@@ -18,6 +18,61 @@
 (defvar www-ids-find-tang-chars-file-name
   "~tomo/projects/chise/ids/www/tang-chars.udd")
 
+(defun www-ids-find-format-line (c is)
+  (let ((str (encode-coding-string (format "%c" c) 'utf-8-jp-er))
+	code ucs)
+    (cond
+     ((string-match "&CB\\([0-9]+\\);" str)
+      (setq code (string-to-int (match-string 1 str)))
+      (princ (format "<img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
+		     code (/ code 1000) code))
+      (princ (format "CB%05d" code))
+      )
+     (t
+      (princ str)))
+    (princ
+     (or (if (setq ucs (or (char-ucs c)
+			   (encode-char c 'ucs)))
+	     (format " <a href=\"http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%X\">%s</a>"
+		     ucs
+		     (cond ((<= ucs #xFFFF)
+			    (format "U+%04X" ucs))
+			   ((<= ucs #x10FFFF)
+			    (format "U-%08X" ucs))))
+	   "          ")))
+    (princ " ")
+    (when is
+      (princ
+       (with-temp-buffer
+	 (insert
+	  (encode-coding-string
+	   (ideographic-structure-to-ids is)
+	   'utf-8-jp-er))
+	 (goto-char (point-min))
+	 (while (re-search-forward "&CB\\([0-9]+\\);" nil t)
+	   (setq code (string-to-int (match-string 1)))
+	   (replace-match
+	    (format "<img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">"
+		    code (/ code 1000) code)
+	    t 'literal))
+	 (buffer-string))))
+    (when (and ucs
+	       (with-current-buffer
+		   (find-file-noselect
+		    www-ids-find-tang-chars-file-name)
+		 (goto-char (point-min))
+		 (re-search-forward (format "^%d$" ucs) nil t)))
+      (princ
+       (format " <a href=\"http://coe21.zinbun.kyoto-u.ac.jp/djvuchar?query=%s\">"
+	       (mapconcat
+		(lambda (c)
+		  (format "%%%02X" (char-int c)))
+		(encode-coding-string (char-to-string c)
+				      'utf-8-jp)
+		"")))
+      (princ (encode-coding-string "⇒[唐代拓本]</a>" 'utf-8-jp-er)))
+    (princ "<br>\n")))
+
 (defun www-batch-ids-find ()
   (let ((components (car command-line-args-left))
 	(coded-charset-entity-reference-alist
@@ -25,7 +80,7 @@
 	  '((=cbeta      "CB" 5 d)
 	    (=jef-china3 "JC3-" 4 X))
 	  coded-charset-entity-reference-alist))
-	is ucs str code)
+	is)
     (setq command-line-args-left (cdr command-line-args-left))
     (cond
      ((stringp components)
@@ -81,72 +136,22 @@
       ;;      )
       ;;    nil)
       ;;  'ideographic-structure)
+      (when (= (length components) 1)
+	(www-ids-find-format-line (aref components 0) nil))
       (dolist (c (ideographic-products-find components))
 	(setq is (char-feature c 'ideographic-structure))
 	;; to avoid problems caused by wrong indexes
 	(when (every (lambda (c)
 		       (ideographic-structure-member c is))
 		     components)
-	  (setq str
-		(encode-coding-string (format "%c" c) 'utf-8-jp-er))
-	  (cond
-	   ((string-match "&CB\\([0-9]+\\);" str)
-	    (setq code (string-to-int (match-string 1 str)))
-	    (princ (format "<img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
-			   code (/ code 1000) code))
-	    (princ (format "CB%05d" code))
-	    )
-	   (t
-	    (princ str)))
-	  (princ
-	   (or (if (setq ucs (or (char-ucs c)
-				 (encode-char c 'ucs)))
-		   (format " <a href=\"http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%X\">%s</a>"
-			   ucs
-			   (cond ((<= ucs #xFFFF)
-				  (format "U+%04X" ucs))
-				 ((<= ucs #x10FFFF)
-				  (format "U-%08X" ucs))))
-		 "          ")))
-	  (princ " ")
-	  (princ
-	   (with-temp-buffer
-	     (insert
-	      (encode-coding-string
-	       (ideographic-structure-to-ids is)
-	       'utf-8-jp-er))
-	     (goto-char (point-min))
-	     (while (re-search-forward "&CB\\([0-9]+\\);" nil t)
-	       (setq code (string-to-int (match-string 1)))
-	       (replace-match
-		(format "<img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">"
-			code (/ code 1000) code)
-		t 'literal))
-	     (buffer-string)))
-	  (when (and ucs
-		     (with-current-buffer
-			 (find-file-noselect
-			  www-ids-find-tang-chars-file-name)
-		       (goto-char (point-min))
-		       (re-search-forward (format "^%d$" ucs) nil t)))
-	    (princ
-	     (format " <a href=\"http://coe21.zinbun.kyoto-u.ac.jp/djvuchar?query=%s\">"
-		     (mapconcat
-		      (lambda (c)
-			(format "%%%02X" (char-int c)))
-		      (encode-coding-string (char-to-string c)
-					    'utf-8-jp)
-		      "")))
-	    (princ (encode-coding-string "⇒[唐代拓本]</a>" 'utf-8-jp-er)))
-	  (princ "<br>\n")
-	  ))
+	  (www-ids-find-format-line c is)))
       )
      (t
       (princ (encode-coding-string "<hr>
 <p>
 指定した部品を全て含む漢字の一覧を表示します。
 <p>
-CHISE で用いられる実態参照形式（例：&amp;M-00003;）で部品を指定する事もできます。" 'utf-8-jp-er))
+CHISE で用いられる実態参照形式（例：&amp;M-00256;）で部品を指定する事もできます。" 'utf-8-jp-er))
       ))
     (princ "<hr>")
     (princ
