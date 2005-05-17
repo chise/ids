@@ -1,5 +1,11 @@
 2005-05-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* www/www-ids-find.el (www-ids-find-format-line): New function.
+	(www-batch-ids-find): Use `www-ids-find-format-line'; if only one
+	character is specified as components, display the character.
+
+2005-05-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* www/www-ids-find.el (www-batch-ids-find): Display a brief
 	description when components are not specified.
 
