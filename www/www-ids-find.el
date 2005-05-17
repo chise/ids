@@ -59,7 +59,7 @@
     (princ (encode-coding-string "部品文字列" 'utf-8-jp-er))
     (princ " <input type=\"text\" name=\"components\" size=\"30\" maxlength=\"30\" value=\"")
     (if (> (length components) 0)
-	(princ (encode-coding-string components 'utf-8-er)))
+	(princ (encode-coding-string components 'utf-8-jp-er)))
     (princ "\">
 <input type=\"submit\" value=\"")
     (princ (encode-coding-string "検索開始" 'utf-8-jp-er))
@@ -67,7 +67,8 @@
 </form>
 
 ")
-    (when components
+    (cond
+     (components
       ;; (map-char-attribute
       ;;  (lambda (c v)
       ;;    (when (every (lambda (p)
@@ -140,6 +141,20 @@
 	  (princ "<br>\n")
 	  ))
       )
+     (t
+      (princ (encode-coding-string "<hr>
+<p>
+指定した部品を全て含む漢字の一覧を表示します。
+<p>
+CHISE で用いられる実態参照形式（例：&amp;M-00003;）で部品を指定する事もできます。" 'utf-8-jp-er))
+      ))
+    (princ "<hr>")
+    (princ
+     (format
+      "Powered by <a
+href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/xemacs/\"
+>XEmacs CHISE</a> %s."
+      xemacs-chise-version))
     (princ "
 </body>
 </html>
