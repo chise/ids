@@ -137,7 +137,9 @@
       ;;    nil)
       ;;  'ideographic-structure)
       (when (= (length components) 1)
-	(www-ids-find-format-line (aref components 0) nil))
+	(www-ids-find-format-line (aref components 0)
+				  (char-feature (aref components 0)
+						'ideographic-structure)))
       (dolist (c (ideographic-products-find components))
 	(setq is (char-feature c 'ideographic-structure))
 	;; to avoid problems caused by wrong indexes
