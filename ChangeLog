@@ -1,5 +1,13 @@
 2005-05-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* www/www-ids-find.el (www-ids-find-format-line): Add links for
+	http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?CHAR; display
+	glyphs of JC3-hhhh.
+	(www-batch-ids-find): Fix setting for
+	`coded-charset-entity-reference-alist'.
+
+2005-05-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* www/www-ids-find.el (www-batch-ids-find): If only one character
 	is specified as components, display the character's IDS.
 
