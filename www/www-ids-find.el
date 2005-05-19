@@ -19,17 +19,39 @@
   "~tomo/projects/chise/ids/www/tang-chars.udd")
 
 (defun www-ids-find-format-line (c is)
-  (let ((str (encode-coding-string (format "%c" c) 'utf-8-jp-er))
+  (let ((str (encode-coding-string (format "%c" c) 'utf-8-er))
 	code ucs)
-    (cond
-     ((string-match "&CB\\([0-9]+\\);" str)
-      (setq code (string-to-int (match-string 1 str)))
-      (princ (format "<img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
-		     code (/ code 1000) code))
-      (princ (format "CB%05d" code))
-      )
-     (t
-      (princ str)))
+    (princ
+     (with-temp-buffer
+       (cond
+	((string-match "&CB\\([0-9]+\\);" str)
+	 (setq code (string-to-int (match-string 1 str)))
+	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert str)
+	 (insert (format "\"><img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
+			 code (/ code 1000) code))
+	 (insert (format "CB%05d</a>" code))
+	 )
+	((string-match "&JC3-\\([0-9A-F]+\\);" str)
+	 (setq code (string-to-int (match-string 1 str) 16))
+	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert str)
+	 (insert (format "\"><img alt=\"JC3-%04X\" src=\"http://kanji.zinbun.kyoto-u.ac.jp/db/CHINA3/Gaiji/%04x.gif\">\n"
+			 code code))
+	 (insert (format "JC3-%04X</a>" code))
+	 )
+	(t
+	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert str)
+	 (insert "\">")
+	 (insert str)
+	 (insert "</a>")
+	 ))
+       (goto-char (point-min))
+       (while (search-forward "&" nil t)
+	 (replace-match "&amp;" t 'literal))
+       (buffer-string)
+       ))
     (princ
      (or (if (setq ucs (or (char-ucs c)
 			   (encode-char c 'ucs)))
@@ -77,8 +99,8 @@
   (let ((components (car command-line-args-left))
 	(coded-charset-entity-reference-alist
 	 (list*
-	  '((=cbeta      "CB" 5 d)
-	    (=jef-china3 "JC3-" 4 X))
+	  '(=cbeta      "CB" 5 d)
+	  '(=jef-china3 "JC3-" 4 X)
 	  coded-charset-entity-reference-alist))
 	is)
     (setq command-line-args-left (cdr command-line-args-left))
