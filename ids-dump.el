@@ -102,7 +102,7 @@
 	(insert
 	 (format "M-%05d \t%c\t%s\n"
 		 i (decode-builtin-char 'ideograph-daikanwa i)
-		 (or (ids-format-list
+		 (or (ids-dump-format-list
 		      (get-char-attribute chr 'ideographic-structure))
 		     ""))))
       (when (setq sal (assq i mdh-alist))
@@ -112,7 +112,7 @@
 	  (insert
 	   (format "M-%05d'\t%c\t%s\n"
 		   i chr
-		   (or (ids-format-list
+		   (or (ids-dump-format-list
 			(get-char-attribute chr 'ideographic-structure))
 		       ""))))
 	(when (setq chr (assq 2 sal))
@@ -120,7 +120,7 @@
 	  (insert
 	   (format "M-%05d\"\t%c\t%s\n"
 		   i chr
-		   (ids-format-list
+		   (ids-dump-format-list
 		    (get-char-attribute chr 'ideographic-structure)))))
 	)
       (setq i (1+ i)))))
@@ -141,7 +141,7 @@
        (format "MH-%04d \t%c\t%s\n"
 	       (car cell)
 	       chr
-	       (or (ids-format-list
+	       (or (ids-dump-format-list
 		    (get-char-attribute chr 'ideographic-structure))
 		   ""))))))
 
