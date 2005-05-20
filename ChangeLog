@@ -155,6 +155,12 @@
 
 2005-04-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* ids-dump.el (ids-dump-insert-daikanwa): Use
+	`ids-dump-format-list' instead of `ids-format-list'.
+	(ids-dump-insert-daikanwa-hokan): Likewise.
+
+2005-04-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-CNS-2.txt: Compact/modify/fix some IDSs.
 
 2005-04-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
