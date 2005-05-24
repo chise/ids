@@ -25,7 +25,8 @@
 ;;; Code:
 
 (defun ids-index-store-char (product component)
-  (let ((ret (char-feature component 'ideographic-products)))
+  (let ((ret (char-feature ; get-char-attribute
+	      component 'ideographic-products)))
     (unless (memq product ret)
       (put-char-attribute component 'ideographic-products
 			  (cons product ret)))
@@ -42,7 +43,8 @@
 	    ((setq ret (assq 'ideographic-structure cell))
 	     (ids-index-store-structure product (cdr ret)))
 	    ((setq ret (find-char cell))
-	     (ids-index-store-char product ret))))))
+	     (ids-index-store-char product ret))
+	    ))))
 
 ;;;###autoload
 (defun ids-update-index ()
@@ -124,7 +126,7 @@
 		      (setq products (cons product products))))))
 	      (setq dest products)))
       (setq i (1+ i)))
-    dest))
+    products))
 
 
 (defun ideographic-structure-char= (c1 c2)
@@ -228,9 +230,16 @@
   (with-current-buffer (get-buffer-create ids-find-result-buffer)
     (setq buffer-read-only nil)
     (erase-buffer)
-    (dolist (c (ideographic-products-find components))
-      (insert (ids-find-format-line
-	       c (char-feature c 'ideographic-structure)))
+    (let (is)
+      (dolist (c (ideographic-products-find components))
+	(setq is (char-feature c 'ideographic-structure))
+	;; to avoid problems caused by wrong indexes
+	(when (every (lambda (c)
+		       (ideographic-structure-member c is))
+		     components)
+	  (insert (ids-find-format-line c is))
+	  )
+	)
       ;; (forward-line -1)
       )
     (goto-char (point-min)))
