@@ -1,5 +1,8 @@
 2005-05-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* ids-find.el ((ids-find-chars-including-components): Add check
+	code to avoid problems caused by wrong indexes.
+
 	* IDS-UCS-Ext-B-5.txt:
 	- Complete/compact/modify/fix some IDSs.
 	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
