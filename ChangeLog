@@ -1,5 +1,10 @@
 2005-05-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-B-5.txt:
+	- Complete/compact/modify/fix some IDSs.
+	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
+	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
+
 	* IDS-UCS-Ext-B-4.txt (U-0002715D): Fixed.
 	(U-000277D4): Compacted.
 
