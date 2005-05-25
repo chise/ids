@@ -48,16 +48,16 @@ tar:
 	cvs commit
 	sh -c 'cvs tag -R $(PACKAGE)-`echo $(VERSION) | tr . _`; \
 	cd /tmp; \
-	cvs -d :pserver:anonymous@cvs.m17n.org:/cvs/root \
+	cvs -d :pserver:anonymous@cvs.m17n.org:/cvs/chise \
 		export -d $(PACKAGE)-$(VERSION) \
 		-r $(PACKAGE)-`echo $(VERSION) | tr . _` \
 		ids'
 	$(RM) /tmp/$(PACKAGE)-$(VERSION)/ftp.in
 	cd /tmp; $(TAR) cvzf $(PACKAGE)-$(VERSION).tar.gz $(PACKAGE)-$(VERSION)
 	cd /tmp; $(RM) -r $(PACKAGE)-$(VERSION)
-	sed "s/VERSION/$(VERSION)/" < ftp.in | sed "s/API/$(API)/" \
+	sed "s/VERSION/$(VERSION)/" < ftp.in \
 		| sed "s/PACKAGE/$(PACKAGE)/" \
-		| sed "s/FLIM_API/$(FLIM_API)/" > ftp
+		> ftp
 
 release:
 	-$(RM) $(ARC_DIR)/$(PACKAGE)-$(VERSION).tar.gz
