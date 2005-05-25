@@ -20,7 +20,7 @@
 
 (defun www-ids-find-format-line (c is)
   (let ((str (encode-coding-string (format "%c" c) 'utf-8-er))
-	code ucs)
+	plane code ucs)
     (princ
      (with-temp-buffer
        (cond
@@ -39,6 +39,37 @@
 	 (insert (format "\"><img alt=\"JC3-%04X\" src=\"http://kanji.zinbun.kyoto-u.ac.jp/db/CHINA3/Gaiji/%04x.gif\">\n"
 			 code code))
 	 (insert (format "JC3-%04X</a>" code))
+	 )
+	((string-match "&J\\(78\\|83\\|90\\|SP\\)-\\([0-9A-F]+\\);" str)
+	 (setq plane (match-string 1 str)
+	       code (string-to-int (match-string 2 str) 16))
+	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert str)
+	 (insert (format "\"><img alt=\"J%s-%04X\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/JIS-%s/%02d-%02d.gif\">\n"
+			 plane code plane
+			 (- (lsh code -8) 32)
+			 (- (logand code 255) 32)))
+	 (insert (format "J%s-%04X</a>" plane code))
+	 )
+	((string-match "&G\\([01]\\)-\\([0-9A-F]+\\);" str)
+	 (setq plane (string-to-int (match-string 1 str))
+	       code (string-to-int (match-string 2 str) 16))
+	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert str)
+	 (insert (format "\"><img alt=\"G%d-%04X\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/GB%d/%02d-%02d.gif\">\n"
+			 plane code plane
+			 (- (lsh code -8) 32)
+			 (- (logand code 255) 32)))
+	 (insert (format "G%d-%04X</a>" plane code))
+	 )
+	((string-match "&C\\([1-7]\\)-\\([0-9A-F]+\\);" str)
+	 (setq plane (string-to-int (match-string 1 str))
+	       code (string-to-int (match-string 2 str) 16))
+	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert str)
+	 (insert (format "\"><img alt=\"C%d-%04X\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/CNS%d/%04X.gif\">\n"
+			 plane code plane code))
+	 (insert (format "C%d-%04X</a>" plane code))
 	 )
 	(t
 	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
@@ -99,8 +130,22 @@
   (let ((components (car command-line-args-left))
 	(coded-charset-entity-reference-alist
 	 (list*
-	  '(=cbeta      "CB" 5 d)
-	  '(=jef-china3 "JC3-" 4 X)
+	  '(=cns11643-1		"C1-" 4 X)
+	  '(=cns11643-2		"C2-" 4 X)
+	  '(=cns11643-3		"C3-" 4 X)
+	  '(=cns11643-4		"C4-" 4 X)
+	  '(=cns11643-5		"C5-" 4 X)
+	  '(=cns11643-6		"C6-" 4 X)
+	  '(=cns11643-7		"C7-" 4 X)
+	  '(=gb2312		"G0-" 4 X)
+	  '(=gb12345		"G1-" 4 X)
+	  '(=jis-x0208@1990	"J90-" 4 X)
+	  '(=jis-x0212		"JSP-" 4 X)
+	  '(=cbeta		"CB" 5 d)
+	  '(=jef-china3		"JC3-" 4 X)
+	  '(=jis-x0208@1978	"J78-" 4 X)
+	  '(=jis-x0208@1983	"J83-" 4 X)
+	  '(=daikanwa		"M-" 5 d)
 	  coded-charset-entity-reference-alist))
 	is)
     (setq command-line-args-left (cdr command-line-args-left))
