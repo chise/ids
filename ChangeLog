@@ -42,6 +42,14 @@
 	- Use "𠂋" instead of "⿸𠂆一".
 	- Add/complete/modify/fix some IDSs.
 
+2005-05-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-format-line): Display glyphs
+	of JIS X0208, 0212, GB2312, 12345 and CNS 11643.
+	(www-batch-ids-find): Add settings for
+	`coded-charset-entity-reference-alist' to prefer CCSs that can be
+	displayed.
+
 2005-05-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-format-line): Add links for
