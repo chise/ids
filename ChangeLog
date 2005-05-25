@@ -2,6 +2,10 @@
 
 	* chise-ids 0.22 released.
 
+	* Makefile (tar): Modify for chise-ids.
+
+	* ftp.in: New file.
+
 	* Makefile (PACKAGE): Changed to chise-ids.
 	(VERSION): Update to 0.22.
 
