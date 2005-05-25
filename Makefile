@@ -1,9 +1,9 @@
 #
-# Makefile for IDS.
+# Makefile for CHISE IDS.
 #
 
-PACKAGE = ids
-VERSION	= 0.1
+PACKAGE = chise-ids
+VERSION	= 0.22
 
 TAR	= tar
 RM	= /bin/rm -f
