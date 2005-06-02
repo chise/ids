@@ -25,13 +25,15 @@
 ;;; Code:
 
 (defun ids-index-store-char (product component)
-  (let ((ret (char-feature ; get-char-attribute
+  (let ((ret (get-char-attribute ; char-feature
 	      component 'ideographic-products)))
     (unless (memq product ret)
       (put-char-attribute component 'ideographic-products
 			  (cons product ret)))
-    (when (setq ret (char-feature component 'ideographic-structure))
-      (ids-index-store-structure product ret))))
+    ;; (when ret (setq ret (get-char-attribute ; char-feature
+    ;;                      component 'ideographic-structure))
+    ;;   (ids-index-store-structure product ret))
+    ))
 
 (defun ids-index-store-structure (product structure)
   (let (ret)
@@ -42,8 +44,8 @@
 	     (ids-index-store-char product cell))
 	    ((setq ret (assq 'ideographic-structure cell))
 	     (ids-index-store-structure product (cdr ret)))
-	    ((setq ret (find-char cell))
-	     (ids-index-store-char product ret))
+            ;; ((setq ret (find-char cell))
+            ;;  (ids-index-store-char product ret))
 	    ))))
 
 ;;;###autoload
@@ -223,6 +225,26 @@
 	  (or (ideographic-structure-to-ids v)
 	      v)))
 
+(defun ids-insert-chars-including-components (components level)
+  (let (is dis i)
+    (dolist (c (ideographic-products-find components))
+      (setq is (char-feature c 'ideographic-structure))
+      ;; to avoid problems caused by wrong indexes
+      (when (every (lambda (cc)
+		     (ideographic-structure-member cc is))
+		   components)
+	;;(ids-insert-chars-including-components (char-to-string c) (1+ level))
+	(setq i 0)
+	(while (< i level)
+	  (insert "\t")
+	  (setq i (1+ i)))
+	(insert (ids-find-format-line c is))
+	;;(forward-line -1)
+	(ids-insert-chars-including-components
+	 (char-to-string c) (1+ level))
+	)
+      )))
+
 ;;;###autoload
 (defun ids-find-chars-including-components (components)
   "Search Ideographs whose structures have COMPONENTS."
@@ -230,18 +252,30 @@
   (with-current-buffer (get-buffer-create ids-find-result-buffer)
     (setq buffer-read-only nil)
     (erase-buffer)
-    (let (is)
-      (dolist (c (ideographic-products-find components))
-	(setq is (char-feature c 'ideographic-structure))
-	;; to avoid problems caused by wrong indexes
-	(when (every (lambda (c)
-		       (ideographic-structure-member c is))
-		     components)
-	  (insert (ids-find-format-line c is))
-	  )
-	)
-      ;; (forward-line -1)
-      )
+    (ids-insert-chars-including-components components 0)
+    ;; (let (is dis)
+    ;;   (dolist (c (ideographic-products-find components))
+    ;;     (setq is (char-feature c 'ideographic-structure))
+    ;;     ;; to avoid problems caused by wrong indexes
+    ;;     ;; (when (every (lambda (cc)
+    ;;     ;;                (ideographic-structure-member cc is))
+    ;;     ;;              components)
+    ;;     (dolist (dc (ideographic-products-find (char-to-string c)))
+    ;;       (setq dis (char-feature dc 'ideographic-structure))
+    ;;     ;;     ;; to avoid problems caused by wrong indexes
+    ;;     ;;     (when (every (lambda (dcc)
+    ;;     ;;                    (ideographic-structure-member dcc is))
+    ;;     ;;                  components)
+    ;;       (insert "\t")
+    ;;       (insert (ids-find-format-line dc dis))
+    ;;       (forward-line -1)
+    ;;     ;;       )
+    ;;       )
+    ;;     (insert (ids-find-format-line c is))
+    ;;     (forward-line -1)
+    ;;     ;;   )
+    ;;     )
+    ;;   )
     (goto-char (point-min)))
   (view-buffer ids-find-result-buffer))
 ;; (defun ids-find-chars-including-components (components)
