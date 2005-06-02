@@ -1,5 +1,11 @@
 2005-05-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* www/www-ids-find.el (www-ids-find-format-line): Add setting for
+	"&ZOB-dddd;".
+
+
+2005-05-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* chise-ids 0.22 released.
 
 	* Makefile (tar): Modify for chise-ids.
