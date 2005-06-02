@@ -1,3 +1,13 @@
+2005-05-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (ids-index-store-char): Use `get-char-attribute'
+	instead of `char-feature' to refer `ideographic-products' to avoid
+	infinite loop; ignore COMPONENT's substructure.
+	(ids-index-store-structure): Ignore char-ref format.
+	(ids-insert-chars-including-components): New function.
+	(ids-find-chars-including-components): Use
+	`ids-insert-chars-including-components'.
+
 2005-05-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-format-line): Add setting for
