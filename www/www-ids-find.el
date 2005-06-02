@@ -71,6 +71,14 @@
 			 plane code plane code))
 	 (insert (format "C%d-%04X</a>" plane code))
 	 )
+	((string-match "&ZOB-\\([0-9]+\\);" str)
+	 (setq code (string-to-int (match-string 1 str)))
+	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert str)
+	 (insert (format "\"><img alt=\"ZOB-%04d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/ZOB-1968/%04d.png\">\n"
+			 code code))
+	 (insert (format "ZOB-%04d</a>" code))
+	 )
 	(t
 	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
 	 (insert str)
