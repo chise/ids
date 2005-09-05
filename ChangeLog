@@ -1,3 +1,10 @@
+2005-06-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-insert-chars-including-components):
+	New function.
+	(www-batch-ids-find): Use
+	`www-ids-insert-chars-including-components'.
+
 2005-05-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-find.el (ids-index-store-char): Use `get-char-attribute'
