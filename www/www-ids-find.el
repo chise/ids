@@ -134,6 +134,22 @@
       (princ (encode-coding-string "⇒[唐代拓本]</a>" 'utf-8-jp-er)))
     (princ "<br>\n")))
 
+(defun www-ids-insert-chars-including-components (components)
+  (let (is)
+    (dolist (c (ideographic-products-find components))
+      (setq is (char-feature c 'ideographic-structure))
+      ;; to avoid problems caused by wrong indexes
+      (when (every (lambda (cc)
+		     (ideographic-structure-member cc is))
+		   components)
+	(princ "<li>")
+	(www-ids-find-format-line c is)
+	(princ "<ul>\n")
+	(www-ids-insert-chars-including-components (char-to-string c))
+	(princ "</ul>\n")
+	)
+      )))
+
 (defun www-batch-ids-find ()
   (let ((components (car command-line-args-left))
 	(coded-charset-entity-reference-alist
@@ -215,13 +231,16 @@
 	(www-ids-find-format-line (aref components 0)
 				  (char-feature (aref components 0)
 						'ideographic-structure)))
-      (dolist (c (ideographic-products-find components))
-	(setq is (char-feature c 'ideographic-structure))
-	;; to avoid problems caused by wrong indexes
-	(when (every (lambda (c)
-		       (ideographic-structure-member c is))
-		     components)
-	  (www-ids-find-format-line c is)))
+      ;; (dolist (c (ideographic-products-find components))
+      ;;   (setq is (char-feature c 'ideographic-structure))
+      ;;   ;; to avoid problems caused by wrong indexes
+      ;;   (when (every (lambda (c)
+      ;;                  (ideographic-structure-member c is))
+      ;;                components)
+      ;;     (www-ids-find-format-line c is)))
+      (princ "<ul>\n")
+      (www-ids-insert-chars-including-components components)
+      (princ "</ul>\n")
       )
      (t
       (princ (encode-coding-string "<hr>
