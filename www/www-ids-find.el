@@ -81,7 +81,13 @@
 	 )
 	(t
 	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
-	 (insert str)
+         ;; (insert str)
+	 (insert
+	  (mapconcat (lambda (c)
+		       (if (<= (char-int c) #x7F)
+			   (char-to-string c)
+			 (format "%%%02X" c)))
+		     str ""))
 	 (insert "\">")
 	 (insert str)
 	 (insert "</a>")
@@ -171,7 +177,7 @@
 	  '(=jis-x0208@1983	"J83-" 4 X)
 	  '(=daikanwa		"M-" 5 d)
 	  coded-charset-entity-reference-alist))
-	is)
+	)
     (setq command-line-args-left (cdr command-line-args-left))
     (cond
      ((stringp components)
@@ -185,7 +191,7 @@
      (t
       (setq components nil)
       ))
-    (princ "Content-Type: text/html; charset=\"UTF-8\"
+    (princ "Content-Type: text/html; charset=UTF-8
 
 <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"
             \"http://www.w3.org/TR/html4/loose.dtd\">
