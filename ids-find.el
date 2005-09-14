@@ -70,38 +70,68 @@
       (setq dest (union dest (ids-find-all-products cell))))
     dest))
 
+(defun of-component-features ()
+  (let (dest)
+    (dolist (feature (char-attribute-list))
+      (when (string-match "^<-.*[@/]component\\(/[^*/]+\\)*$"
+			  (symbol-name feature))
+	(push feature dest)))
+    (cons '<-ideographic-component-forms
+	  dest)))
+
+(defun to-component-features ()
+  (let (dest)
+    (dolist (feature (char-attribute-list))
+      (when (string-match "^->.*[@/]component\\(/[^*/]+\\)*$"
+			  (symbol-name feature))
+	(push feature dest)))
+    (cons '->ideographic-component-forms
+	  dest)))
+
 ;;;###autoload
 (defun char-component-variants (char)
-  (let (dest ret uchr)
+  (let ((dest (list char))
+	ret uchr)
     (cond
-     ((setq ret (char-feature char '<-ideographic-component-forms))
+     ((setq ret (some (lambda (feature)
+			(get-char-attribute char feature))
+		      (to-component-features)))
       (dolist (c ret)
-	(setq dest (union dest (char-component-variants c)))))
+	(setq dest (union dest (char-component-variants c))))
+      )
      ((setq ret (get-char-attribute char '->ucs-unified))
       (setq dest (cons char ret))
       (dolist (c dest)
 	(setq dest (union dest
-			  (get-char-attribute
-			   c '->ideographic-component-forms))))
+                          (some (lambda (feature)
+				  (get-char-attribute char feature))
+				(of-component-features))
+			  )))
       )
      ((and (setq ret (get-char-attribute char '=>ucs))
 	   (setq uchr (decode-char '=ucs ret)))
       (setq dest (cons uchr (char-variants uchr)))
       (dolist (c dest)
 	(setq dest (union dest
-			  (get-char-attribute
-			   c '->ideographic-component-forms))))
+                          (some (lambda (feature)
+				  (get-char-attribute char feature))
+				(of-component-features))
+			  )))
       )
      (t
-      (map-char-family (lambda (c)
-			 (unless (memq c dest)
-			   (setq dest (cons c dest)))
-			 (setq dest
-			       (union dest
-				      (get-char-attribute
-				       c '->ideographic-component-forms)))
-			 nil)
-		       char)))
+      (map-char-family
+       (lambda (c)
+	 (unless (memq c dest)
+	   (setq dest (cons c dest)))
+	 (setq dest
+	       (union dest
+		      (some (lambda (feature)
+			      (char-feature c feature))
+			    (of-component-features))
+		      ))
+	 nil)
+       char)
+      ))
     dest))
 
 ;;;###autoload
@@ -138,13 +168,17 @@
 		 (m2 (char-ucs c2)))
 	     (or (and m1 m2
 		      (eq m1 m2))
-		 (some (lambda (b2)
-			 (unless (characterp b2)
-			   (setq b2 (find-char b2)))
-			 (and b2
-			      (ideographic-structure-char= c1 b2)))
-		       (get-char-attribute
-			c2 '<-ideographic-component-forms))
+		 (some (lambda (feature)
+			 (some (lambda (b2)
+				 (unless (characterp b2)
+				   (setq b2 (find-char b2)))
+				 (and b2
+				      (ideographic-structure-char= c1 b2)))
+                               (char-feature c2 feature)
+			       ;; (get-char-attribute
+                               ;;  c2 '<-ideographic-component-forms)
+			       ))
+		       (of-component-features))
 		 (progn
 		   (setq m1 (car (get-char-attribute c1 '<-radical))
 			 m2 (car (get-char-attribute c2 '<-radical)))
