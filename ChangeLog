@@ -1,3 +1,10 @@
+2005-09-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (of-component-features): New function.
+	(to-component-features): New function.
+	(char-component-variants): Use `{of|to}-component-features'.
+	(ideographic-structure-char=): Use `of-component-features'.
+
 2005-09-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-format-line): Encode UTF-8
