@@ -33,6 +33,10 @@
 	* www/www-ids-find.el (www-ids-find-format-line): Add setting for
 	"&ZOB-dddd;".
 
+2005-04-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/tang-chars.udd: New file.
+
 
 2005-05-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
