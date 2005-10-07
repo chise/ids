@@ -1,3 +1,8 @@
+2005-10-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/tang-chars.udd: Sync up with the latest data [add 568
+	characters].
+
 2005-09-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-find.el (of-component-features): New function.
