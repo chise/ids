@@ -15,6 +15,16 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
+(defconst www-ids-find-version "0.22.1")
+
+(defvar www-ids-find-ideographic-products-file-name
+  (expand-file-name "ideographic-products"
+		    (expand-file-name
+		     "feature"
+		     (expand-file-name
+		      "character"
+		      chise-system-db-directory))))
+
 (defvar www-ids-find-tang-chars-file-name
   "~tomo/projects/chise/ids/www/tang-chars.udd")
 
@@ -204,7 +214,20 @@
 
 <h1>")
     (princ (encode-coding-string "CHISE IDS 漢字検索" 'utf-8-jp-er))
-    (princ "</h1>
+    (princ "</h1>")
+    (princ "
+<p>Version ")
+    (princ www-ids-find-version)
+    (princ (format-time-string
+	    " (Last-modified: %Y-%m-%d %H:%M:%S)"
+	    (nth 5
+		 (file-attributes
+		  www-ids-find-ideographic-products-file-name))))
+    (princ "
+<p>
+Copyright (C) 2005 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+>MORIOKA Tomohiko</a>
+<hr>
 <p>
 <form action=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/ids-find\" method=\"GET\">
 ")
@@ -219,6 +242,16 @@
 </form>
 
 ")
+    (unless (file-newer-than-file-p
+	     www-ids-find-ideographic-products-file-name
+	     (locate-file (car command-line-args) exec-path))
+      (princ (encode-coding-string "<hr>
+<p>
+現在、システムの更新作業中です。しばらくお待ちください。
+<hr>
+" 'utf-8-jp-er))
+      ;; (setq components nil)
+      )
     (cond
      (components
       ;; (map-char-attribute
@@ -254,6 +287,37 @@
 指定した部品を全て含む漢字の一覧を表示します。
 <p>
 CHISE で用いられる実態参照形式（例：&amp;M-00256;）で部品を指定する事もできます。" 'utf-8-jp-er))
+      (princ (encode-coding-string "
+<p>
+\[Links\]
+<ul>
+<li><a href=\"http://www.shuiren.org/chuden/toyoshi/syoseki/chise_ids.html\"
+>「CHISE IDS FINDで漢字を検索」</a> ― 山田崇仁さん（<a
+href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
+</ul>
+<ul>
+<li><a href=\"http://www.karitsu.org/tools/firefox_plugin.htm\"
+>Firefox 用 plugin</a> by 秋山陽一郎さん（<a href=\"http://www.karitsu.org/\"
+>過立齋</a>）
+</ul>
+<ul>
+<li><a href=\"http://cvs.m17n.org/viewcvs/chise/ids/www/www-ids-find.el?view=markup\"
+>www-ids-find.el (source file (Emacs Lisp part))
+<li><a href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/ids/\"
+>「CHISE 漢字構造情報データベース」</a>
+<li><a href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/\"
+>CHISE Project</a>
+</ul>
+<ul>
+<li><a href=\"http://coe21.zinbun.kyoto-u.ac.jp/djvuchar\"
+>「拓本文字データベース」</a> by
+<a href=\"http://coe21.zinbun.kyoto-u.ac.jp/\"
+>京都大学21世紀COE「東アジア世界の人文情報学研究教育拠点」</a>
+<li><a href=\"http://www.unicode.org/\"
+>Unicode</a>
+</ul>"
+ 'utf-8-jp-er))
+
       ))
     (princ "<hr>")
     (princ
