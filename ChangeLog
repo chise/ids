@@ -1,5 +1,13 @@
 2005-10-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* www/www-ids-find.el (www-ids-find-version): New constant.
+	(www-ids-find-ideographic-products-file-name): New variable.
+	(www-batch-ids-find): Display version, Last-modified, copyright;
+	display warning when updating the system; add links for related
+	sites.
+
+2005-10-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* www/tang-chars.udd: Sync up with the latest data [add 568
 	characters].
 
