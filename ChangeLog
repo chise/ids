@@ -1,3 +1,9 @@
+2005-10-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.22.2.
+	(www-ids-find-format-line): Add link for CHISE link-map.
+	(www-batch-ids-find): Add link for http://fonts.jp/chise_linkmap/.
+
 2005-10-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-version): New constant.
