@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.22.1")
+(defconst www-ids-find-version "0.22.2")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -110,13 +110,18 @@
     (princ
      (or (if (setq ucs (or (char-ucs c)
 			   (encode-char c 'ucs)))
-	     (format " <a href=\"http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%X\">%s</a>"
-		     ucs
-		     (cond ((<= ucs #xFFFF)
-			    (format "U+%04X" ucs))
-			   ((<= ucs #x10FFFF)
-			    (format "U-%08X" ucs))))
+	     (format
+	      " <a href=\"http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=%X\">%s</a>"
+	      ucs
+	      (cond ((<= ucs #xFFFF)
+		     (format "U+%04X" ucs))
+		    ((<= ucs #x10FFFF)
+		     (format "U-%08X" ucs))))
 	   "          ")))
+    (when ucs
+      (princ
+       (format " <a href=\"http://geta.mag.keio.ac.jp/chiseperl/map.cgi?code=%X\">(link map)</a>"
+	       ucs)))
     (princ " ")
     (when is
       (princ
@@ -305,6 +310,8 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 >www-ids-find.el (source file (Emacs Lisp part))
 <li><a href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/ids/\"
 >「CHISE 漢字構造情報データベース」</a>
+<li><a href=\"http://fonts.jp/chise_linkmap/\"
+>「chise_linkmap : CHISE 漢字連環図」</a> by 上地宏一さん
 <li><a href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/\"
 >CHISE Project</a>
 </ul>
