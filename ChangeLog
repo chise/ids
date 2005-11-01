@@ -1,3 +1,17 @@
+2005-10-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (ids-index-store-char): Revert to use `char-feature'
+	instead of `get-char-attribute'; revert to add component's
+	substructure.
+	(ideographic-products-find): New implementation.
+	(ids-insert-chars-including-components): Likewise; add new
+	optional argument `ignored-chars'; change `level' to an optional
+	argument.
+
+2005-10-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* install-ids.el: Add code to delete old `ideographic-products'.
+
 2005-10-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.22.2.
