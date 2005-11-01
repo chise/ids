@@ -11,6 +11,15 @@
   (ids-read-file file simplify soft)
   (princ "done.\n"))
 
+
+(mount-char-attribute-table 'ideographic-products)
+(map-char-attribute
+ (lambda (c v)
+   (remove-char-attribute c 'ideographic-products)
+   nil)
+ 'ideographic-products)
+
+
 (install-ids-read-file "IDS-JIS-X0208-1990.txt" load-ids-simplify t)
 
 (install-ids-read-file "IDS-UCS-Basic.txt" load-ids-simplify t)
