@@ -25,14 +25,14 @@
 ;;; Code:
 
 (defun ids-index-store-char (product component)
-  (let ((ret (get-char-attribute ; char-feature
+  (let ((ret (char-feature
 	      component 'ideographic-products)))
     (unless (memq product ret)
       (put-char-attribute component 'ideographic-products
 			  (cons product ret)))
-    ;; (when ret (setq ret (get-char-attribute ; char-feature
-    ;;                      component 'ideographic-structure))
-    ;;   (ids-index-store-structure product ret))
+    (when ret (setq ret (char-feature
+			 component 'ideographic-structure))
+	  (ids-index-store-structure product ret))
     ))
 
 (defun ids-index-store-structure (product structure)
@@ -137,28 +137,46 @@
 ;;;###autoload
 (defun ideographic-products-find (&rest components)
   (if (stringp (car components))
-      (setq components (car components)))
-  (let ((len (length components))
-	(i 1)
-	dest products)
-    (dolist (variant (char-component-variants (elt components 0)))
-      (dolist (product (get-char-attribute variant 'ideographic-products))
-	(unless (memq product products)
-	  (setq products (cons product products)))))
+      (setq components (string-to-char-list (car components))))
+  (let (dest products)
+    (dolist (variant (char-component-variants (car components)))
+      (setq products
+	    (union products
+		   (get-char-attribute variant 'ideographic-products))))
     (setq dest products)
-    (while (and
-	    (< i len)
-	    (progn
-	      (setq products nil)
-	      (dolist (variant (char-component-variants (elt components i)))
-		(dolist (product (get-char-attribute
-				  variant 'ideographic-products))
-		  (unless (memq product products)
-		    (when (memq product dest)
-		      (setq products (cons product products))))))
-	      (setq dest products)))
-      (setq i (1+ i)))
-    products))
+    (while (and dest
+		(setq components (cdr components)))
+      (setq products nil)
+      (dolist (variant (char-component-variants (car components)))
+      (setq products
+	    (union products
+		   (get-char-attribute variant 'ideographic-products))))
+      (setq dest (intersection dest products)))
+    dest))
+;; (defun ideographic-products-find (&rest components)
+;;   (if (stringp (car components))
+;;       (setq components (car components)))
+;;   (let ((len (length components))
+;;         (i 1)
+;;         dest products)
+;;     (dolist (variant (char-component-variants (elt components 0)))
+;;       (setq products
+;;             (union products
+;;                    (get-char-attribute variant 'ideographic-products))))
+;;     (setq dest products)
+;;     (while (and
+;;             (< i len)
+;;             (progn
+;;               (setq products nil)
+;;               (dolist (variant (char-component-variants (elt components i)))
+;;                 (dolist (product (get-char-attribute
+;;                                   variant 'ideographic-products))
+;;                   (unless (memq product products)
+;;                     (when (memq product dest)
+;;                       (setq products (cons product products))))))
+;;               (setq dest products)))
+;;       (setq i (1+ i)))
+;;     products))
 
 
 (defun ideographic-structure-char= (c1 c2)
@@ -259,25 +277,46 @@
 	  (or (ideographic-structure-to-ids v)
 	      v)))
 
-(defun ids-insert-chars-including-components (components level)
-  (let (is dis i)
-    (dolist (c (ideographic-products-find components))
-      (setq is (char-feature c 'ideographic-structure))
-      ;; to avoid problems caused by wrong indexes
-      (when (every (lambda (cc)
-		     (ideographic-structure-member cc is))
-		   components)
-	;;(ids-insert-chars-including-components (char-to-string c) (1+ level))
+(defun ids-insert-chars-including-components (components
+					      &optional level ignored-chars)
+  (unless level
+    (setq level 0))
+  (let (is dis i as bs)
+    (dolist (c (sort (ideographic-products-find components)
+		     (lambda (a b)
+		       (if (setq as (char-total-strokes a))
+			   (if (setq bs (char-total-strokes b))
+			       (if (= as bs)
+				   (ideograph-char< a b)
+				 (< as bs))
+			     t)
+			 (ideograph-char< a b)))))
+      (unless (memq c ignored-chars)
+	(setq is (char-feature c 'ideographic-structure))
 	(setq i 0)
 	(while (< i level)
 	  (insert "\t")
 	  (setq i (1+ i)))
 	(insert (ids-find-format-line c is))
-	;;(forward-line -1)
-	(ids-insert-chars-including-components
-	 (char-to-string c) (1+ level))
-	)
-      )))
+	(setq ignored-chars
+	      (ids-insert-chars-including-components
+	       (char-to-string c) (1+ level)
+	       (cons c ignored-chars))))
+      ))
+  ignored-chars)
+;; (defun ids-insert-chars-including-components (components level)
+;;   (let (is dis i)
+;;     (dolist (c (ideographic-products-find components))
+;;       (setq is (char-feature c 'ideographic-structure))
+;;       (setq i 0)
+;;       (while (< i level)
+;;         (insert "\t")
+;;         (setq i (1+ i)))
+;;       (insert (ids-find-format-line c is))
+;;       ;;(forward-line -1)
+;;       (ids-insert-chars-including-components
+;;        (char-to-string c) (1+ level))
+;;       )))
 
 ;;;###autoload
 (defun ids-find-chars-including-components (components)
