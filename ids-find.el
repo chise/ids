@@ -25,14 +25,12 @@
 ;;; Code:
 
 (defun ids-index-store-char (product component)
-  (let ((ret (char-feature
-	      component 'ideographic-products)))
+  (let ((ret (get-char-attribute component 'ideographic-products)))
     (unless (memq product ret)
       (put-char-attribute component 'ideographic-products
-			  (cons product ret)))
-    (when ret (setq ret (char-feature
-			 component 'ideographic-structure))
-	  (ids-index-store-structure product ret))
+			  (cons product ret))
+      (when (setq ret (char-feature component 'ideographic-structure))
+	(ids-index-store-structure product ret)))
     ))
 
 (defun ids-index-store-structure (product structure)
