@@ -5,6 +5,12 @@
 	recursions; don't check COMPONENT'S substructure if PRODUCT is
 	found in `ideographic-products' of COMPONENT.
 
+2005-11-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.22.3.
+	(www-ids-insert-chars-including-components): New implementation;
+	add new optional argument `ignored-chars'.
+
 2005-10-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-find.el (ids-index-store-char): Revert to use `char-feature'
