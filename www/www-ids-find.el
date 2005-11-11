@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.22.2")
+(defconst www-ids-find-version "0.22.3")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -155,21 +155,53 @@
       (princ (encode-coding-string "⇒[唐代拓本]</a>" 'utf-8-jp-er)))
     (princ "<br>\n")))
 
-(defun www-ids-insert-chars-including-components (components)
-  (let (is)
-    (dolist (c (ideographic-products-find components))
-      (setq is (char-feature c 'ideographic-structure))
-      ;; to avoid problems caused by wrong indexes
-      (when (every (lambda (cc)
-		     (ideographic-structure-member cc is))
-		   components)
+(defun www-ids-insert-chars-including-components (components
+						  &optional ignored-chars)
+  (let ((products (copy-list (ideographic-products-find components)))
+	is as bs) 
+    (dolist (c (cond
+		((> (length products) 10000)
+		 products)
+		((> (length products) 4096)
+		 (sort products
+		       (lambda (a b)
+			 (< (char-int a)(char-int b))))
+		 )
+		((> (length products) 512)
+		 (sort products
+		       (lambda (a b)
+			 (if (setq as (char-total-strokes a))
+			     (if (setq bs (char-total-strokes b))
+				 (if (= as bs)
+				     (< (char-int a)(char-int b))
+				   (< as bs))
+			       t)
+			   (< (char-int a)(char-int b)))))
+		 )
+		(t
+		 (sort products
+		       (lambda (a b)
+			 (if (setq as (char-total-strokes a))
+			     (if (setq bs (char-total-strokes b))
+				 (if (= as bs)
+				     (ideograph-char< a b)
+				   (< as bs))
+			       t)
+			   (ideograph-char< a b))))
+		 )))
+      (unless (memq c ignored-chars)
+	(setq is (char-feature c 'ideographic-structure))
 	(princ "<li>")
 	(www-ids-find-format-line c is)
 	(princ "<ul>\n")
-	(www-ids-insert-chars-including-components (char-to-string c))
+	(setq ignored-chars
+	      (www-ids-insert-chars-including-components
+	       (char-to-string c)
+	       (cons c ignored-chars)))
 	(princ "</ul>\n")
 	)
-      )))
+      ))
+  ignored-chars)
 
 (defun www-batch-ids-find ()
   (let ((components (car command-line-args-left))
