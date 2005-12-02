@@ -1,3 +1,8 @@
+2005-11-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* install-ids.el: Don't use `map-char-attribute' to eliminate
+	`ideographic-products'; delete the corresponding file instead.
+
 2005-11-03  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-find.el (ids-index-store-char): Don't use `char-feature' to
