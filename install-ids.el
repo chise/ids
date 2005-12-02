@@ -12,12 +12,12 @@
   (princ "done.\n"))
 
 
-(mount-char-attribute-table 'ideographic-products)
-(map-char-attribute
- (lambda (c v)
-   (remove-char-attribute c 'ideographic-products)
-   nil)
- 'ideographic-products)
+;; (mount-char-attribute-table 'ideographic-products)
+;; (map-char-attribute
+;;  (lambda (c v)
+;;    (remove-char-attribute c 'ideographic-products)
+;;    nil)
+;;  'ideographic-products)
 
 
 (install-ids-read-file "IDS-JIS-X0208-1990.txt" load-ids-simplify t)
@@ -61,7 +61,20 @@
 (princ "done.\n")
 
 (princ "Updating char-feature `ideographic-products'...")
-(ids-update-index)
+(let* ((feature-dir
+	(expand-file-name
+	 "feature"
+	 (expand-file-name
+	  "character" chise-system-db-directory)))
+       (p-file
+	(expand-file-name "ideographic-products" feature-dir))
+       old-p-file)
+  (when (file-exists-p p-file)
+    (setq old-p-file (make-temp-name p-file))
+    (rename-file p-file old-p-file))
+  (ids-update-index)
+  (when old-p-file
+    (delete-file old-p-file)))
 (princ "done.\n")
 
 ;;; install-ids.el ends hear
