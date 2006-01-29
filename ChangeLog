@@ -1,3 +1,7 @@
+2005-11-16  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+5F45): Compact IDS.
+
 2005-11-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* install-ids.el: Don't use `map-char-attribute' to eliminate
@@ -36,6 +40,13 @@
 	(www-ids-find-format-line): Add link for CHISE link-map.
 	(www-batch-ids-find): Add link for http://fonts.jp/chise_linkmap/.
 
+2005-10-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Modify some IDSs.
+	- Use "ø»‹°ž" instead of "â¿µå†‚ã…".
+	- Use "ø¸†¸«" instead of "â¿µå†‚â¿°ø½Š´»ø½Š´»".
+
 2005-10-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-version): New constant.
@@ -48,6 +59,28 @@
 
 	* www/tang-chars.udd: Sync up with the latest data [add 568
 	characters].
+
+2005-09-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use BC-8BAA instead of GT-K01444.
+	- Use K0-522E.
+	(J90-4743): Add IDS.
+	(J90-694D): Modify structure.
+	(J90-6953): Modify IDS.
+	(J90-6959): Likewise.
+
+2005-09-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029680): Modify structure.
+	(U-00029683): Likewise.
+
+2005-09-20  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt: Modify some IDSs.
+	(U-00020038): Fixed.
+	(U-0002019F): Modify structure.
+	(U-00020265): Use BC-8958 instead of U+6708.
 
 2005-09-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
