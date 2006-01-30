@@ -1,3 +1,26 @@
+2006-01-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-01.txt: Use GT-K01444 instead of BC-8BAA.
+	(M-00284): Compact IDS.
+	(M-00318): Modify IDS.
+	(M-00343): Add IDS.
+	(M-00395): Add IDS.
+	(M-00915): Add IDS.
+	(M-01417): Modify IDS.
+
+2005-11-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-02.txt (M-04164): Modify IDS.
+	(M-04167): Likewise.
+	(M-04173): Likewise.
+	(M-04181): Likewise.
+	(M-04182): Likewise.
+	(M-04193): Likewise.
+	(M-04196): Likewise.
+	(M-04198): Likewise.
+
+	* IDS-CNS-2.txt: Modify some IDSs.
+
 2005-11-16  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt (U+5F45): Compact IDS.
@@ -39,6 +62,20 @@
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.22.2.
 	(www-ids-find-format-line): Add link for CHISE link-map.
 	(www-batch-ids-find): Add link for http://fonts.jp/chise_linkmap/.
+
+2005-10-14  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CDP.txt (CDP-855D): Compact IDS.
+	(CDP-85BD): Add IDS.
+	(CDP-894B): Use <CJK RADICAL PERSON> instead of U+4EBB.
+	(CDP-8B7A): Likewise.
+
+2005-10-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-10.txt (M-35206): Add IDS.
+	(M-35207): Likewise.
+
+	* IDS-HZK01.txt: Use U+4EA0 instead of J0-5035.
 
 2005-10-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
