@@ -1,3 +1,30 @@
+2006-02-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
+	(J90-343F): Use "ý¡€°¬" instead of "â¿±ð ‚‰â¿±ý¢€ˆ£±ý¢€ˆ¥¥" to compact.
+	(J90-377B): Use "øº€‰" instead of "â¿³ø½‹ƒ’é¾¶ý¢€ˆ­ˆ" to compact.
+	(J90-4234): Compact IDS.
+	(J90-444F): Compact IDS.
+	(J90-462E): Compact IDS.
+	(J90-4843): Use "â¿´çŽ¨ø½Š²¡" instead of "â¿²çŽ‹ø½Š²¡çŽ‹".
+	(J90-4849): Use "â¿´çŽ¨x" instead of "â¿²âº©xçŽ‹".
+	(J90-4C5B): Fixed.
+	(J90-4D49): Compact IDS.
+	(J90-543B): Compact IDS.
+	(J90-544C): Fixed.
+	(J90-722C): Compact IDS.
+
+2006-02-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-01.txt (M-00999): Add IDS.
+	(M-01001): Likewise.
+
+2006-02-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-02.txt (M-03035): Modify.
+	(M-03042): Add IDS.
+	(M-03044): Add IDS.
+
 2006-01-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-01.txt: Use GT-K01444 instead of BC-8BAA.
@@ -7,6 +34,45 @@
 	(M-00395): Add IDS.
 	(M-00915): Add IDS.
 	(M-01417): Modify IDS.
+
+2006-01-29  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Modify some IDSs.
+	- Use "â¿µð£Ž†" instead of "â¿µó°¹˜".
+	(U-00026760): Modify IDS.
+	(U-000268BC): Use "â¿µý¢«…™x" instead of "â¿³ø½Š³»å£â¿²ø½Š—xä¸®".
+	(U-0002714B): Compact IDS.
+	(U-00027182): Compact IDS.
+	(U-00027183): Compact IDS.
+	(U-000277AC): Compact IDS.
+	(U-000277D6): Compact IDS.
+
+	* IDS-UCS-Basic.txt:
+	- Modify some IDSs.
+	- Use "â¿µð£Ž†" instead of "â¿µó°¹˜".
+	(U+5B34): Use "â¿µð£Ž†x" instead of "â¿³ø½Š³»å£â¿²ø½Š—xø½Š´¥".
+	(U+6BC0): Use "â¿¹â¿°è‡¼ø½‹Ž¸åœŸ" instead of "â¿°â¿±è‡¼åœŸø½‹Ž¸".
+	(U+6BC1): Use "â¿¹â¿°è‡¼ø½‹Ž¸x" instead of "â¿°â¿±è‡¼xø½‹Ž¸".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024157): Modify IDS.
+	(U-00024158): Modify structure.
+	(U-000258B5): Modify IDS.
+
+	* IDS-UCS-Ext-B-2.txt: Modify some IDSs.
+	(U-00022E86): Compact IDS.
+	(U-00023AB7): Use "â¿¹â¿°è‡¼ø½‹Ž¸x" instead of "â¿°â¿±è‡¼xø½‹Ž¸".
+	(U-00023ACF): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021CF4): Use "â¿µð£Ž†" instead of "â¿»ó°¹˜".
+
+	* IDS-UCS-Ext-A.txt (U+41D4): Use "â¿µð£Ž†" instead of "â¿»ó°¹˜".
+	(U+42A8): Use "â¿µó°¹˜ø½Š²¯" instead of "â¿±ø»‹â¿²ó°€‚ø½Š²¯å‡ ".
+
+	* IDS-UCS-Ext-B-5.txt: Modify some IDSs.
+	(U-00028C0A): Compact IDS.
+	(U-000299E3): Fix IDS.
+	(U-00029F0A): Modify structure.
 
 2005-11-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
