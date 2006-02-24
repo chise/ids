@@ -19,6 +19,11 @@
 	* IDS-Daikanwa-01.txt (M-00999): Add IDS.
 	(M-01001): Likewise.
 
+2006-02-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (ids-insert-chars-including-components): Must use
+	`copy-tree' for the result of `ideographic-products-find'.
+
 2006-02-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-02.txt (M-03035): Modify.
