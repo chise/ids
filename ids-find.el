@@ -280,7 +280,7 @@
   (unless level
     (setq level 0))
   (let (is dis i as bs)
-    (dolist (c (sort (ideographic-products-find components)
+    (dolist (c (sort (copy-tree (ideographic-products-find components))
 		     (lambda (a b)
 		       (if (setq as (char-total-strokes a))
 			   (if (setq bs (char-total-strokes b))
