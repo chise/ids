@@ -1,5 +1,14 @@
 2006-03-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-B-1.txt: Use "龸" instead of "⿱⺌冖" to compact
+	IDS.
+	(U-00020293): Compact IDS.
+	(U-0002091D): Use "⿵龸" instead of "⿱⺌⿵冖" to compact IDS.
+	(U-00020920): Use "󰁸" instead of "⿱⺌⿵冖口" to compact IDS.
+	(U-00021777): Use "龸" instead of "⿱������冖" to compact IDS.
+	(U-00021B75): Likewise.
+	(U-00021B9D): Likewise.
+
 	* ids-find.el (char-component-variants): Fixed.
 
 2006-02-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
