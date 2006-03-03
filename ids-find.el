@@ -42,8 +42,8 @@
 	     (ids-index-store-char product cell))
 	    ((setq ret (assq 'ideographic-structure cell))
 	     (ids-index-store-structure product (cdr ret)))
-            ;; ((setq ret (find-char cell))
-            ;;  (ids-index-store-char product ret))
+	    ((setq ret (find-char cell))
+	     (ids-index-store-char product ret))
 	    ))))
 
 ;;;###autoload
