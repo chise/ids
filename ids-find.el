@@ -1,11 +1,11 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures
 
-;; Copyright (C) 2002,2003,2005 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2005,2006 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: Kanji, Ideographs, search, IDS, CHISE, UCS, Unicode
 
-;; This file is a part of Tomoyo-Tools.
+;; This file is a part of CHISE IDS.
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -90,13 +90,17 @@
 (defun char-component-variants (char)
   (let ((dest (list char))
 	ret uchr)
+    (dolist (feature (to-component-features))
+      (if (setq ret (get-char-attribute char feature))
+	  (dolist (c ret)
+	    (setq dest (union dest (char-component-variants c))))))
     (cond
-     ((setq ret (some (lambda (feature)
-			(get-char-attribute char feature))
-		      (to-component-features)))
-      (dolist (c ret)
-	(setq dest (union dest (char-component-variants c))))
-      )
+     ;; ((setq ret (some (lambda (feature)
+     ;;                    (get-char-attribute char feature))
+     ;;                  (to-component-features)))
+     ;;  (dolist (c ret)
+     ;;    (setq dest (union dest (char-component-variants c))))
+     ;;  )
      ((setq ret (get-char-attribute char '->ucs-unified))
       (setq dest (cons char ret))
       (dolist (c dest)
