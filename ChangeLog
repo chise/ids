@@ -1,3 +1,25 @@
+2006-03-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (char-component-variants): Fixed.
+
+2006-02-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-A.txt:
+	- Use U+9FB9 instead of BC-8BFA.
+	- Modify some IDSs.
+	(U+3A0C): Fixed.
+	(U+3B4E): Compact IDS.
+	(U+47EB): Use "龸" instead of "⿱⺌冖" to compact IDS.
+
+2006-02-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-3.txt (U-000241D1): Use "龸" instead of "⿱⺌冖"
+	to compact IDS.
+
+	* IDS-UCS-Basic.txt:
+	- Use "⿱������" instead of "⿳������冖".
+	- Use "⿱龸" instead of "⿳⺌冖".
+
 2006-02-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
