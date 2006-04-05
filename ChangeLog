@@ -1,5 +1,8 @@
 2006-03-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-B-5.txt (U-00028006): Compact IDS.
+	(U-0002897B): Likewise.
+
 	* IDS-UCS-Ext-B-3.txt:
 	- Compact/modify some IDSs.
 	- Use "&GT-33217;" instead of "⿰&GT-33181;&GT-33181;".
