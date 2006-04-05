@@ -1,5 +1,9 @@
 2006-03-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-B-3.txt:
+	- Compact/modify some IDSs.
+	- Use "&GT-33217;" instead of "⿰&GT-33181;&GT-33181;".
+
 	* IDS-ELS (ids-modules-to-compile): Add `ids-rw'.
 
 2006-03-23  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
