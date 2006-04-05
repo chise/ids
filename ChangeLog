@@ -17,8 +17,8 @@
 	IDS.
 	(U-00020293): Compact IDS.
 	(U-0002091D): Use "⿵龸" instead of "⿱⺌⿵冖" to compact IDS.
-	(U-00020920): Use "󰁸" instead of "⿱⺌⿵冖口" to compact IDS.
-	(U-00021777): Use "龸" instead of "⿱������冖" to compact IDS.
+	(U-00020920): Use "&J97-5079;" instead of "⿱⺌⿵冖口" to compact IDS.
+	(U-00021777): Use "龸" instead of "⿱&GT-K00305;冖" to compact IDS.
 	(U-00021B75): Likewise.
 	(U-00021B9D): Likewise.
 
@@ -39,18 +39,18 @@
 	to compact IDS.
 
 	* IDS-UCS-Basic.txt:
-	- Use "⿱������" instead of "⿳������冖".
+	- Use "⿱&GT-K01443;" instead of "⿳&CDP-89B2;冖".
 	- Use "⿱龸" instead of "⿳⺌冖".
 
 2006-02-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
-	(J90-343F): Use "������" instead of "⿱𠂉⿱������������" to compact.
-	(J90-377B): Use "�����" instead of "⿳�����龶������" to compact.
+	(J90-343F): Use "&GT-56364;" instead of "⿱𠂉⿱&CDP-88F1;&CDP-8965;" to compact.
+	(J90-377B): Use "&RUI6-E009;" instead of "⿳&GT-08869;龶&GT-36329;" to compact.
 	(J90-4234): Compact IDS.
 	(J90-444F): Compact IDS.
 	(J90-462E): Compact IDS.
-	(J90-4843): Use "⿴玨�����" instead of "⿲王�����王".
+	(J90-4843): Use "⿴玨&GT-17008;" instead of "⿲王&GT-17008;王".
 	(J90-4849): Use "⿴玨x" instead of "⿲⺩x王".
 	(J90-4C5B): Fixed.
 	(J90-4D49): Compact IDS.
@@ -88,9 +88,9 @@
 
 	* IDS-UCS-Ext-B-4.txt:
 	- Modify some IDSs.
-	- Use "⿵𣎆" instead of "⿵󰹘".
+	- Use "⿵𣎆" instead of "⿵𦝠".
 	(U-00026760): Modify IDS.
-	(U-000268BC): Use "⿵������x" instead of "⿳�����口⿲�����x丮".
+	(U-000268BC): Use "⿵&HZK06-B159;x" instead of "⿳&GT-00378;口⿲&GT-18140;x丮".
 	(U-0002714B): Compact IDS.
 	(U-00027182): Compact IDS.
 	(U-00027183): Compact IDS.
@@ -99,10 +99,10 @@
 
 	* IDS-UCS-Basic.txt:
 	- Modify some IDSs.
-	- Use "⿵𣎆" instead of "⿵󰹘".
-	(U+5B34): Use "⿵𣎆x" instead of "⿳�����口⿲�����x�����".
-	(U+6BC0): Use "⿹⿰臼�����土" instead of "⿰⿱臼土�����".
-	(U+6BC1): Use "⿹⿰臼�����x" instead of "⿰⿱臼x�����".
+	- Use "⿵𣎆" instead of "⿵𦝠".
+	(U+5B34): Use "⿵𣎆x" instead of "⿳&GT-00378;口⿲&GT-18140;x&GT-02286;".
+	(U+6BC0): Use "⿹⿰臼&GT-21300;土" instead of "⿰⿱臼土&GT-21300;".
+	(U+6BC1): Use "⿹⿰臼&GT-21300;x" instead of "⿰⿱臼x&GT-21300;".
 
 	* IDS-UCS-Ext-B-3.txt (U-00024157): Modify IDS.
 	(U-00024158): Modify structure.
@@ -110,13 +110,13 @@
 
 	* IDS-UCS-Ext-B-2.txt: Modify some IDSs.
 	(U-00022E86): Compact IDS.
-	(U-00023AB7): Use "⿹⿰臼�����x" instead of "⿰⿱臼x�����".
+	(U-00023AB7): Use "⿹⿰臼&GT-21300;x" instead of "⿰⿱臼x&GT-21300;".
 	(U-00023ACF): Likewise.
 
-	* IDS-UCS-Ext-B-1.txt (U-00021CF4): Use "⿵𣎆" instead of "⿻󰹘".
+	* IDS-UCS-Ext-B-1.txt (U-00021CF4): Use "⿵𣎆" instead of "⿻𦝠".
 
-	* IDS-UCS-Ext-A.txt (U+41D4): Use "⿵𣎆" instead of "⿻󰹘".
-	(U+42A8): Use "⿵󰹘�����" instead of "⿱�����⿲󰀂�����几".
+	* IDS-UCS-Ext-A.txt (U+41D4): Use "⿵𣎆" instead of "⿻𦝠".
+	(U+42A8): Use "⿵𦝠&GT-34594;" instead of "⿱&M-03279;⿲&UU+2EBC;&GT-34594;几".
 
 	* IDS-UCS-Ext-B-5.txt: Modify some IDSs.
 	(U-00028C0A): Compact IDS.
@@ -196,8 +196,8 @@
 
 	* IDS-UCS-Ext-B-4.txt:
 	- Modify some IDSs.
-	- Use "�����" instead of "⿵冂㐅".
-	- Use "�����" instead of "⿵冂⿰����������".
+	- Use "&GT-K00882;" instead of "⿵冂㐅".
+	- Use "&M-28203;" instead of "⿵冂⿰&GT-03944;&GT-03944;".
 
 2005-10-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
