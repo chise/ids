@@ -13,6 +13,10 @@
 
 2006-03-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Basic.txt (U+4FE7): Fixed.
+
+2006-03-02  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* IDS-UCS-Ext-B-1.txt: Use "龸" instead of "⿱⺌冖" to compact
 	IDS.
 	(U-00020293): Compact IDS.
