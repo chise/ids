@@ -13,6 +13,20 @@
 
 	* ids-rw.el: New file.
 
+2006-03-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-01.txt: Use "&GT-K04733;" instead of "⿳亠&CDP-89CC;冖".
+	(M-00280): Compact IDS.
+	(M-00315): Add IDS.
+	(M-00468): Add IDS.
+	(M-00535): Add IDS.
+	(M-00537): Add IDS.
+	(M-00590): Compact IDS.
+	(M-00642): Add IDS.
+	(M-00643): Add IDS.
+	(M-00656): Add IDS.
+	(M-00713): Modify IDS.
+
 2006-03-03  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* ids-find.el (ids-index-store-structure): Support char-spec
