@@ -1,5 +1,22 @@
 2006-04-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-A.txt (U+3B3A): Fixed.
+	(U+4CA2): Likewise.
+
+	* IDS-UCS-Basic.txt (U+52DD): Fixed.
+	(U+584D): Likewise.
+	(U+5AB5): Likewise.
+	(U+5E50): Likewise.
+	(U+69BA): Likewise.
+	(U+6ED5): Likewise.
+	(U+7E22): Likewise.
+	(U+87A3): Likewise.
+	(U+8B04): Likewise.
+	(U+8CF8): Likewise.
+	(U+9A30): Likewise.
+	(U+9C27): Likewise.
+	(U+9EF1): Likewise.
+
 	* IDS-CNS-1.txt (C1-7A56): Fixed.
 
 2006-03-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
