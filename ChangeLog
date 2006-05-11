@@ -1,5 +1,18 @@
 2006-04-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-B-4.txt (U-0002771C): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt (U-00024458): Fixed.
+	(U-0002445C): Modified.
+	(U-00024468): Likewise.
+	(U-00024BC8): Likewise.
+
+	* IDS-UCS-Ext-B-2.txt (U-0002338E): Fixed.
+	(U-00023392): Likewise.
+	(U-00023E78): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-000205F2): Fixed.
+
 	* IDS-UCS-Ext-A.txt (U+3B3A): Fixed.
 	(U+4CA2): Likewise.
 
