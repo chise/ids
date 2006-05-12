@@ -3,7 +3,7 @@
 #
 
 PACKAGE = chise-ids
-VERSION	= 0.22
+VERSION	= 0.23
 
 TAR	= tar
 RM	= /bin/rm -f
@@ -20,7 +20,7 @@ VERSION_SPECIFIC_LISPDIR = NONE
 
 GOMI	= *.elc
 
-ARC_DIR = /home/tomo/public_html/comp/emacsen/lisp/ids/ids-$(API)-for-flim-$(FLIM_API)
+ARC_DIR = /home/kanji1/www/htdocs/projects/chise/dist/ids
 
 
 elc:	package
