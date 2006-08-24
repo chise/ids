@@ -1,3 +1,17 @@
+2006-08-23  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-A.txt (U+37B7): Modify a component.
+
+	* IDS-Daikanwa-04.txt (M-07840): Modify structure.
+
+2006-07-04  KAMICHI Koichi    <kamichi@fonts.jp>
+
+	* IDS-UCS-Ext-B-1.txt: Undo previous change.
+
+2006-07-04  KAMICHI Koichi    <kamichi@fonts.jp>
+
+	* IDS-UCS-Ext-B-1.txt: Swap (U-00021F12) and (U-00021F2C).
+
 2006-05-12  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* chise-ids 0.23 released.
