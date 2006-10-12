@@ -1,11 +1,11 @@
 ;;; cbeta.el --- Parser for CBETA Ideographs representation.
 
-;; Copyright (C) 2001,2002 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002,2006 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: CBETA, IDS, Ideographs, UCS, Unicode
 
-;; This file is a part of Tomoyo-Tools.
+;; This file is a part of the CHISE-IDS package.
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -23,8 +23,6 @@
 ;; Boston, MA 02111-1307, USA.
 
 ;;; Code:
-
-;; (require 'mojikyo)
 
 (defvar cbeta-replacement-char-alist
   (list '(?\u2502 . ?\u4E28)
