@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.22.3")
+(defconst www-ids-find-version "0.23.0")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -24,6 +24,9 @@
 		     (expand-file-name
 		      "character"
 		      chise-system-db-directory))))
+
+(defvar www-ids-find-chise-link-map-url-prefix
+  "http://geta.mag.keio.ac.jp/chiseperl/map.cgi?code=")
 
 (defvar www-ids-find-tang-chars-file-name
   "~tomo/projects/chise/ids/www/tang-chars.udd")
@@ -120,8 +123,8 @@
 	   "          ")))
     (when ucs
       (princ
-       (format " <a href=\"http://geta.mag.keio.ac.jp/chiseperl/map.cgi?code=%X\">(link map)</a>"
-	       ucs)))
+       (format " <a href=\"%s%X\">(link map)</a>"
+	       www-ids-find-chise-link-map-url-prefix ucs)))
     (princ " ")
     (when is
       (princ
@@ -262,7 +265,7 @@
 		  www-ids-find-ideographic-products-file-name))))
     (princ "
 <p>
-Copyright (C) 2005 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+Copyright (C) 2005, 2006 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
 >MORIOKA Tomohiko</a>
 <hr>
 <p>
