@@ -1,3 +1,11 @@
+2006-11-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.23.0.
+	(www-ids-find-chise-link-map-url-prefix): New variable.
+	(www-ids-find-format-line): Use
+	`www-ids-find-chise-link-map-url-prefix'.
+	(www-batch-ids-find): Update year of Copyright.
+
 2006-09-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-2.txt (U-000239A9): Compact IDS.
