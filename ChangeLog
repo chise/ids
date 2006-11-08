@@ -1,5 +1,12 @@
 2006-11-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.23.1.
+	(www-ids-find-chise-link-map-url-prefix): Use
+	"http://kamichi.jp/chise_linkmap/map.cgi?code=" instead of
+	"http://geta.mag.keio.ac.jp/chiseperl/map.cgi?code=".
+
+2006-11-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.23.0.
 	(www-ids-find-chise-link-map-url-prefix): New variable.
 	(www-ids-find-format-line): Use
