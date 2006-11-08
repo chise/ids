@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.23.0")
+(defconst www-ids-find-version "0.23.1")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -26,7 +26,7 @@
 		      chise-system-db-directory))))
 
 (defvar www-ids-find-chise-link-map-url-prefix
-  "http://geta.mag.keio.ac.jp/chiseperl/map.cgi?code=")
+  "http://kamichi.jp/chise_linkmap/map.cgi?code=")
 
 (defvar www-ids-find-tang-chars-file-name
   "~tomo/projects/chise/ids/www/tang-chars.udd")
