@@ -1,3 +1,13 @@
+2006-11-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029AC3): Fixed.
+
+2006-11-16  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-12.txt: Add/modify some IDSs.
+
+	* IDS-Daikanwa-11.txt (M-40142): Add IDS.
+
 2006-11-08  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.23.1.
@@ -12,6 +22,14 @@
 	(www-ids-find-format-line): Use
 	`www-ids-find-chise-link-map-url-prefix'.
 	(www-batch-ids-find): Update year of Copyright.
+
+2006-10-12  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023A56): Modify a component.
+	(U-00023A5A): Compact IDS.
+	(U-00023A6C): Likewise.
+	(U-00023A72): Likewise.
+	(U-00023FD9): Likewise.
 
 2006-09-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
