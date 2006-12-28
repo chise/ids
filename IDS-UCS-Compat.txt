@@ -74,7 +74,7 @@ U+FA58	縉	⿰糸晋	# =縉
 U+FA5A	署	⿱罒者
 U+FA5B	者	者
 U+FA5C	臭	⿱自犬	# =臭
-U+FA5D	艹	艹
+U+FA5D	艹	艹	# =卝
 U+FA5E	艹	艹
 U+FA5F	著	⿱艹者
 U+FA60	褐	⿰衤曷	# =褐
