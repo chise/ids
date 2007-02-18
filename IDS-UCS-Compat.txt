@@ -184,7 +184,7 @@ U+FACE	龜	龜
 U+FACF	𢡊	⿰忄⿱⿰夭夭心
 U+FAD0	𢡄	𢡄
 U+FAD1	𣏕	⿰木朮
-U+FAD2	㮝	⿰木郤
+U+FAD2	㮝	⿰木郤	# = 㮝
 U+FAD3	䀘	⿰目幵
 U+FAD4	䀹	⿰目㚒
 U+FAD5	𥉉	𥉉
