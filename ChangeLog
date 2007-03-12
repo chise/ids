@@ -18,6 +18,26 @@
 
 	* IDS-UCS-Ext-B-4.txt (U-000276B8): Compact IDS.
 
+2006-12-20  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+56F6): Use "⿴⿴囗八" instead of "⿴囗
+	⿱八".
+	(U+5700): Likewise.
+	(U+5719): Likewise.
+
+2006-11-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-12.txt (M-45317): Modify component.
+	(M-45322): Add IDS.
+	(M-45325): Modify component.
+	(M-45333): Likewise.
+	(M-45344): Likewise.
+	(M-46362): Likewise.
+	(M-46409): Modify component.
+	(M-46414): Modify component.
+	(M-47164): Modify component.
+	(M-47167): Modify component.
+
 2006-11-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029AC3): Fixed.
