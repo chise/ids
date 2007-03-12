@@ -1,3 +1,23 @@
+2007-03-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020D64): Modify structure.
+
+2007-02-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024BF3): Fix operator bug.
+
+2007-02-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028982): Fixed.
+	(U-00028983): Compact IDS.
+	(U-00028E43): Likewise.
+	(U-0002949C): Likewise.
+	(U-00029DB9): Likewise.
+
+2007-02-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-4.txt (U-000276B8): Compact IDS.
+
 2006-11-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029AC3): Fixed.
