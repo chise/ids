@@ -1,3 +1,21 @@
+2007-03-12  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002949C): Modify component.
+	(U-00029DA1): Compact subtree.
+	(U-00029DA8): Compact subtree.
+	(U-00029DAC): Modify component.
+	(U-00029DAE): Compact subtree.
+	(U-00029DB6): Compact subtree.
+	(U-00029DBA): Modify component.
+	(U-00029DBB): Modify component.
+
+	* IDS-UCS-Ext-B-3.txt (U-00025108): Modify component.
+	(U-0002521B): Likewise.
+	(U-0002530D): Likewise.
+	(U-00025940): Likewise.
+	(U-00025AF0): Likewise.
+	(U-00025FBB): Likewise.
+
 2007-03-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020D64): Modify structure.
