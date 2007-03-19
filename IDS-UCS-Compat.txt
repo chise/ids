@@ -21,42 +21,43 @@ U+FA19	神	⿰示申	# =神
 U+FA1A	祥	⿰示羊	# =祥
 U+FA1B	福	⿰示畐	# =福
 U+FA1C	靖	⿰立靑	# =靖
-U+FA1D	精	⿰米靑
-U+FA1E	羽	⿰⿹𠃌&CDP-89A6;⿹𠃌&CDP-89A6;
+U+FA1D	精	⿰米靑	# =精
+U+FA1E	羽	⿰⿹𠃌&CDP-89A6;⿹𠃌&CDP-89A6;	# =羽
 U+FA1F	﨟	⿱艹𦝲
 U+FA20	蘒	⿱艹龝
 U+FA21	﨡	⿰虫生
-U+FA22	諸	⿰言者
+U+FA22	諸	⿰言者	# =諸
 U+FA23	﨣	⿺走斗	# =𧺯
 U+FA24	﨤	⿺辶及
-U+FA25	逸	⿺辶兔
-U+FA26	都	⿰者阝
+U+FA25	逸	⿺辶兔	# =逸
+U+FA26	都	⿰者阝	# =都
 U+FA27	﨧	⿰釒孝
 U+FA28	﨨	⿰釒幸
 U+FA29	﨩	⿰阝島
-U+FA2A	飯	⿰𩙿反
-U+FA2B	飼	⿰𩙿司
-U+FA2C	館	⿰𩙿官
-U+FA2D	鶴	⿰寉鳥
+U+FA2A	飯	⿰𩙿反	# =飯
+U+FA2B	飼	⿰𩙿司	# =飼
+U+FA2C	館	⿰𩙿官	# =館
+U+FA2D	鶴	⿰寉鳥	# ≒鶴
 U+FA30	侮	⿰亻每	# =侮
 U+FA31	僧	⿰亻曾	# =僧
-U+FA32	免	⿱刀⿱&CDP-8BDE;儿
+U+FA32	免	⿱刀⿱&CDP-8BDE;儿	# ≒免
 U+FA39	塀	⿰土屛	# =塀
 U+FA3A	墨	⿱黑土	# =墨
-U+FA3B	層	⿸尸曾
-U+FA3C	屮	屮
+U+FA3B	層	⿸尸曾	# =層
+U+FA3C	屮	⿻凵丨	# =屮
 U+FA3D	悔	⿰忄每	# =悔
-U+FA3E	慨	⿰忄旣
-U+FA3F	憎	⿰忄曾
-U+FA40	懲	⿱徵心
-U+FA41	敏	⿰每攵
-U+FA42	既	# ≒旣
-U+FA43	暑	⿱日者
+U+FA3E	慨	⿰忄既	# =慨
+U+FA3F	憎	⿰忄曾	# =憎
+U+FA40	懲	⿱徵心	# =懲
+U+FA41	敏	⿰每攵	# =敏
+U+FA42	既	既	# ≒旣
+U+FA43	暑	⿱日者	# =暑
 U+FA44	梅	⿰木每	# =梅
 U+FA45	海	⿰氵每	# =海
-U+FA46	渚	⿰氵者
-U+FA48	煮	⿱者灬
-U+FA49	爫	# =爫[G]
+U+FA46	渚	⿰氵者	# =渚
+U+FA47	漢	⿰氵？	# =漢
+U+FA48	煮	⿱者灬	# =煮
+U+FA49	爫	⿱丿⺍	# =爫
 U+FA4A	琢	⿰王豖	# =琢
 U+FA4C	社	⿰示土	# =社
 U+FA4D	祉	⿰示止	# =祉
@@ -68,127 +69,127 @@ U+FA52	禍	⿰示咼	# =禍
 U+FA53	禎	⿰示貞	# =禎
 U+FA54	穀	⿰𥞤殳	# =穀
 U+FA55	突	⿱穴犬	# =突
-U+FA56	節	⿱竹即
+U+FA56	節	⿱竹即	# =節
 U+FA57	練	⿰糸柬	# =練
 U+FA58	縉	⿰糸晋	# =縉
-U+FA5A	署	⿱罒者
-U+FA5B	者	者
+U+FA5A	署	⿱罒者	# =署
+U+FA5B	者	者	# =者
 U+FA5C	臭	⿱自犬	# =臭
 U+FA5D	艹	艹	# =卝
-U+FA5E	艹	艹
-U+FA5F	著	⿱艹者
+U+FA5E	艹	艹	# =艹
+U+FA5F	著	⿱艹者	# =著
 U+FA60	褐	⿰衤曷	# =褐
 U+FA61	視	⿰示見	# =視
 U+FA62	謁	⿰言曷	# =謁
-U+FA64	賓	⿳宀⿱一𣥂貝
+U+FA64	賓	⿳宀⿱一𣥂貝	# =賓
 U+FA65	贈	⿰貝曾	# =贈
-U+FA66	辶	辶
-U+FA67	逸	⿺辶兔
-U+FA69	響	⿱鄕音
+U+FA66	辶	辶	# =辶
+U+FA67	逸	⿺辶兔	# =逸
+U+FA69	響	⿱鄕音	# =響
 U+FA6A	頻	⿰步頁	# =頻
 U+FA70	並	⿱䒑&CDP-8D6B;	# ≠並
 U+FA71	况	⿰二兄	# =况 ≠况
-U+FA72	全	⿱入王	# =全
+U+FA72	全	⿱𠆢王	# =全
 U+FA73	侀	⿰亻𠛬	# ≒侀
-U+FA74	充	充
-U+FA75	冀	⿱北異
+U+FA74	充	⿱𠫓儿	# =充
+U+FA75	冀	⿱北異	# ≒冀
 U+FA76	勇	⿱甬力	# =勇
 U+FA77	勺	⿹勹丶	# =勺
 U+FA78	喝	⿰口⿱日匂	# =喝
-U+FA79	啕	⿰口⿹勹𦈢
-U+FA7A	喙	⿰口⿱彐𧰨
+U+FA79	啕	⿰口⿹勹𦈢	# ≒啕
+U+FA7A	喙	⿰口⿱彐𧰨	# ≒喙
 U+FA7B	嗢	⿰口昷	# =嗢
 U+FA7C	塚	⿰土⿱冖豕	# =塚
-U+FA7D	墳	⿰土賁
-U+FA7E	奄	⿱大&CDP-8BE8;
-U+FA7F	奔	⿱大卉
-U+FA80	婢	⿰女𤰞
-U+FA81	嬨	⿰女⿱玆心
-U+FA82	廒	⿸广敖
-U+FA83	廙	⿸广異
-U+FA84	彩	⿰釆彡
-U+FA85	徭	⿰彳⿱爫𠙻
-U+FA86	惘	⿰忄㒺
-U+FA87	慎	⿰忄⿳十且八
-U+FA88	愈	⿱⿱𠓛刖心
-U+FA89	憎	⿰忄⿳八田日
-U+FA8A	慠	⿰忄敖
-U+FA8B	懲	懲	# (cf. U-2F8B0)
-U+FA8C	戴	⿹𢦏異
-U+FA8D	揄	⿰扌⿱𠓛刖
-U+FA8E	搜	⿰扌叟
-U+FA8F	摒	⿰土屛
-U+FA90	敖	⿰⿱𠀆万攵
-U+FA91	晴	⿰日青
-U+FA92	朗	⿰&CDP-8C42;月
-U+FA93	望	⿱⿰亡&CDP-8B5E;𡈼
-U+FA94	杖	⿰木𠀋
-U+FA95	歹	⿱一夂
-U+FA96	殺	⿰杀殳
-U+FA97	流	⿰氵⿱𠫓&CDP-8BED;
-U+FA98	滛	⿰氵⿱爫𠙻
-U+FA99	滋	⿰氵玆
-U+FA9A	漢	漢
-U+FA9B	瀞	⿰氵靜
-U+FA9C	煮	⿱者灬
-U+FA9D	瞧	⿱睢灬
-U+FA9E	爵	爵
-U+FA9F	犯	⿰犭巳
-U+FAA0	猪	⿰犭者
-U+FAA1	瑱	⿰王真
-U+FAA2	甆	⿱玆瓦
-U+FAA3	画	⿱一⿶凵由
-U+FAA4	瘝	⿸疒⿱罒水
-U+FAA5	瘟	⿸疒昷
-U+FAA6	益	⿳䒑八皿
-U+FAA7	盛	⿱成皿
-U+FAA8	直	⿱十&CDP-8BA5;
-U+FAA9	睊	⿰目䏍
-U+FAAA	着	着
-U+FAAB	磌	⿰石真
-U+FAAC	窱	⿱穴絛
-U+FAAD	節	節
-U+FAAE	类	⿱米犬
-U+FAAF	絛	絛
-U+FAB0	練	⿰糸東
-U+FAB1	缾	⿰缶幷
-U+FAB2	者	者
-U+FAB3	荒	⿱艹⿱兦&CDP-8BED;
-U+FAB4	華	華
-U+FAB5	蝹	⿰虫𥁕
-U+FAB6	襁	⿰衤強
-U+FAB7	覆	⿱襾復
-U+FAB8	視	⿰礻見
-U+FAB9	調	調
-U+FABA	諸	諸
-U+FABB	請	請
-U+FABC	謁	⿰言⿱日匂
-U+FABD	諾	諾
-U+FABE	諭	諭
-U+FABF	謹	謹
-U+FAC0	變	⿱⿻言絲攵
-U+FAC1	贈	贈
-U+FAC2	輸	輸
-U+FAC3	遲	⿺辶⿸尸⿱氺㐄
-U+FAC4	醙	醙
-U+FAC5	鉶	⿰釒𠛬
-U+FAC6	陼	陼
-U+FAC7	難	難
-U+FAC8	靖	⿰立青
-U+FAC9	韛	韛
-U+FACA	響	響
-U+FACB	頋	⿰⿸厂巳頁
-U+FACC	頻	⿰歩頁
-U+FACD	鬒	⿱髟真
-U+FACE	龜	龜
-U+FACF	𢡊	⿰忄⿱⿰夭夭心
-U+FAD0	𢡄	𢡄
-U+FAD1	𣏕	⿰木朮
-U+FAD2	㮝	⿰木郤	# = 㮝
-U+FAD3	䀘	⿰目幵
-U+FAD4	䀹	⿰目㚒
-U+FAD5	𥉉	𥉉
-U+FAD6	𥳐	⿱竹開
-U+FAD7	𧻓	⿺走幷
-U+FAD8	齃	⿰鼻⿱日匂
-U+FAD9	龎	龎
+U+FA7D	墳	⿰土賁	# ≒墳
+U+FA7E	奄	⿱大&CDP-8BE8;	# ≒奄
+U+FA7F	奔	⿱大卉	# ≒奔
+U+FA80	婢	⿰女𤰞	# ≒婢
+U+FA81	嬨	⿰女⿱玆心	# ≒嬨
+U+FA82	廒	⿸广敖	# ≒廒
+U+FA83	廙	⿸广異	# ≒廙
+U+FA84	彩	⿰釆彡	# ≒彩
+U+FA85	徭	⿰彳⿱爫𠙻	# ≒徭
+U+FA86	惘	⿰忄㒺	# ≒惘
+U+FA87	慎	⿰忄⿳十且八	# ≒慎
+U+FA88	愈	⿱⿱𠓛刖心	# ≒愈
+U+FA89	憎	⿰忄⿳八田日	# ≒憎
+U+FA8A	慠	⿰忄敖	# =慠
+U+FA8B	懲	⿱徴心	# =懲 =懲
+U+FA8C	戴	⿹𢦏異	# ≒戴
+U+FA8D	揄	⿰扌⿱𠓛刖	# ≒揄
+U+FA8E	搜	⿰扌⿱𦥔又	# =搜
+U+FA8F	摒	⿰土屏	# =摒
+U+FA90	敖	⿰⿱𠀆万攵	# =敖
+U+FA91	晴	⿰日青	# =晴
+U+FA92	朗	⿰&CDP-8C42;月	# =朗
+U+FA93	望	⿱⿰亡&CDP-8B5E;𡈼	# =聖
+U+FA94	杖	⿰木𠀋	# ≒杖
+U+FA95	歹	⿱一夂	# ≒歹
+U+FA96	殺	⿰杀殳	# =殺
+U+FA97	流	⿰氵⿱𠫓&CDP-8BED;	# =流
+U+FA98	滛	⿰氵⿱爫𠙻	# =滛
+U+FA99	滋	⿰氵玆	# ≒滋
+U+FA9A	漢	⿰氵𦰩	# =漢
+U+FA9B	瀞	⿰氵靜	# =瀞
+U+FA9C	煮	⿱者灬	# =煮
+U+FA9D	瞧	⿱睢灬	# ≒瞧
+U+FA9E	爵	爵	# =爵
+U+FA9F	犯	⿰犭巳	# ≒犯
+U+FAA0	猪	⿰犭者	# =猪
+U+FAA1	瑱	⿰王真	# ≒瑱
+U+FAA2	甆	⿱玆瓦	# ≒甆
+U+FAA3	画	⿱一⿶凵由	# =画
+U+FAA4	瘝	⿸疒⿱罒水	# ≒瘝 =𤸄
+U+FAA5	瘟	⿸疒昷	# =瘟
+U+FAA6	益	⿳䒑八皿	# =益
+U+FAA7	盛	⿱成皿	# ≒盛
+U+FAA8	直	⿱十&CDP-8BA5;	# =直
+U+FAA9	睊	⿰目䏍	# ≒睊
+U+FAAA	着	⿸⺶目	# =着
+U+FAAB	磌	⿰石真	# =磌
+U+FAAC	窱	⿱穴⿲亻丨⿱夂朩	# =窱
+U+FAAD	節	⿱竹即	# =節
+U+FAAE	类	⿱米犬	# ≒类
+U+FAAF	絛	⿲亻丨⿱夂糸	# =絛
+U+FAB0	練	⿰糸東	# =練
+U+FAB1	缾	⿰缶幷	# =缾
+U+FAB2	者	⿸耂日	# =者
+U+FAB3	荒	⿱艹⿱兦&CDP-8BED;	# ≒荒
+U+FAB4	華	華	# =華
+U+FAB5	蝹	⿰虫𥁕	# =蝹
+U+FAB6	襁	⿰衤強	# =襁
+U+FAB7	覆	⿱襾復	# ≒覆
+U+FAB8	視	⿰礻見	# =視
+U+FAB9	調	⿰言⿵⺆𠮷	# =調
+U+FABA	諸	⿰言者	# =諸
+U+FABB	請	⿰言青	# =請
+U+FABC	謁	⿰言⿱日匂	# =謁
+U+FABD	諾	⿰言⿱艹右	# =諾
+U+FABE	諭	⿰言俞	# =諭
+U+FABF	謹	⿰言⿱廿&CDP-8A6D;	# =謹
+U+FAC0	變	⿱⿻言絲夂	# ≒變
+U+FAC1	贈	⿰貝曽	# =贈
+U+FAC2	輸	⿰車俞	# =輸
+U+FAC3	遲	⿺辶⿸尸⿱氺㐄	# ≒遲
+U+FAC4	醙	⿰酉⿱𦥔又	# =醙
+U+FAC5	鉶	⿰釒𠛬	# =鉶
+U+FAC6	陼	⿰阝者	# =陼
+U+FAC7	難	⿰𦰩隹	# =難
+U+FAC8	靖	⿰立青	# =靖
+U+FAC9	韛	⿰韋𤰇	# =韛
+U+FACA	響	⿱郷音	# =響
+U+FACB	頋	⿰⿸厂巳頁	# =頋
+U+FACC	頻	⿰歩頁	# =頻
+U+FACD	鬒	⿱髟真	# =鬒
+U+FACE	龜	龜?	# =龜
+U+FACF	𢡊	⿰忄⿱⿰夭夭心	# ≒𢡊
+U+FAD0	𢡄	𢡄	# =𢡄 (? 勘違い)
+U+FAD1	𣏕	⿰木朮	# ≒𣏕 (??)
+U+FAD2	㮝	⿰木郤	# =㮝
+U+FAD3	䀘	⿰目幵	# ≒䀘
+U+FAD4	䀹	⿰目㚒	# =䀹
+U+FAD5	𥉉	⿰目⿲亻丨⿱夂朩	# =𥉉
+U+FAD6	𥳐	⿱竹開	# =𥳐
+U+FAD7	𧻓	⿺走幷	# ≒𧻓
+U+FAD8	齃	⿰鼻⿱日匂	# ≒齃
+U+FAD9	龎	⿸厂⿷龍丨	# ≒龎
