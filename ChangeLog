@@ -1,3 +1,48 @@
+2007-03-13  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-08.txt (M-23198): Add IDS.
+	(M-23199): Compact IDS.
+	(M-23201): Add IDS.
+	(M-23207): Add IDS.
+
+2007-03-12  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002188B): Compact IDS.
+
+	* IDS-UCS-Basic.txt (U+854B): Compact IDS.
+
+	* IDS-UCS-Ext-B-3.txt (U-0002439F): Modify a component.
+	(U-000243A0): Compact IDS.
+	(U-00024E7B): Compact IDS.
+	(U-00024E98): Fixed.
+	(U-00024E99): Compact IDS.
+	(U-0002558B): Likewise.
+	(U-000256DB): Modify a component.
+	(U-00025BD1): Likewise.
+	(U-00025EDB(: Likewise.
+
+	* IDS-JIS-X0208-1990.txt (J90-5F27): Compact IDS.
+	(J90-5F2A): Add IDS.
+	(J90-5F2D): Modify the structure and a component.
+	(J90-5F31): Compact IDS.
+	(J90-5F32): Modify a component.
+	(J90-5F37): Modify a component.
+	(J90-5F38): Modify a component.
+	(J90-5F3A): Modify a component.
+	(J90-5F40): Modify a component.
+	(J90-5F42): Add IDS.
+	(J90-5F43): Modify a component.
+	(J90-5F44): Modify a component.
+	(J90-5F47): Modify a component.
+	(J90-5F4A): Modify a component.
+	(J90-5F4B): Modify a component.
+	(J90-5F4C): Modify a component.
+	(J90-5F66): Compact IDS.
+	(J90-6065): Compact IDS.
+	(J90-6453): Modify a component.
+	(J90-6C23): Modify a component.
+	(J90-7226): Modify a component.
+
 2007-03-12  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002949C): Modify component.
