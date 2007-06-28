@@ -1,3 +1,59 @@
+2007-06-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-10.txt (M-36657): Add IDS.
+	(M-36660): Likewise.
+	(M-36661): Likewise.
+	(M-36662): Likewise.
+	(M-36663): Modify IDS.
+
+2007-06-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-4.txt (U-000261D0): Use U-00026951 instead of
+	BC-8B56.
+	(U-000263E7): Use "𠃨" instead of "⿹⺄&CDP-88C6;".
+	(U-0002684C): Use U-00026951 instead of BC-8B56.
+	(U-0002686D): Likewise.
+	(U-0002696F): Likewise.
+	(U-00026978): Likewise.
+	(U-00026989): Likewise.
+	(U-0002698D): Likewise.
+	(U-00026992): Likewise.
+	(U-000269A7): Likewise.
+	(U-000269A9): Likewise.
+	(U-000269B2): Likewise.
+	(U-000269C2): Likewise.
+	(U-00027116): Likewise.
+	(U-0002779C): Likewise.
+	(U-00027BB7): Use "𠃨" instead of "⿹⺄&CDP-88C6;".
+
+	* IDS-UCS-Ext-B-3.txt (U-0002413B): Use U-00026951 instead of
+	BC-8B56.
+	(U-00024311): Likewise.
+	(U-0002442B): Likewise.
+	(U-000244BE): Likewise.
+	(U-00024780): Modify IDS.
+	(U-00024781): Use "𠃨" instead of "⿹⺄&CDP-88C6;".
+	(U-00024F04): Use U-00026951 instead of BC-8B56.
+	(U-000250A4): Likewise.
+	(U-0002517B): Modify IDS.
+	(U-0002549D): Likewise.
+	(U-0002556D): Use U-00026951 instead of BC-8B56.
+	(U-000255F0): Likewise.
+	(U-000255F8): Likewise.
+	(U-00025748): Likewise.
+	(U-00025B31): Modify IDS.
+
+2007-03-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-08.txt (M-25031): Add IDS.
+	(M-25032): Likewise.
+	(M-25033): Likewise.
+	(M-25034): Likewise.
+	(M-25036): Likewise.
+	(M-25037): Likewise.
+	(M-25038): Likewise.
+	(M-25043): Modify IDS.
+
 2007-03-13  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-08.txt (M-23198): Add IDS.
