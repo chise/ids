@@ -30,7 +30,7 @@ CDP-857B	&CDP-857B;	⿻十昍
 CDP-857C	&CDP-857C;	⿻大𠈌	# =𡙫-𠆢,=𡚅-从,=𦹬-艹
 CDP-857D	&CDP-857D;	⿻⺸誩	# =𠑫-亻,=𡤮-女,=𨟪-阝
 CDP-85A1	&CDP-857F;	⿻𠀆𠈌	# =𡼀-山
-CDP-85A4	&CDP-85A4;	⿻土吅	# =喪-&CDP-8CC6;,=𡃟-哀,=𢒡-彡
+CDP-85A4	&CDP-85A4;	⿻土吅	# =喪-&CDP-8CC6;,=𡃟-哀
 CDP-85A5	&CDP-85A5;	⿻𠀆从	# =𡨔-宀,=𥙽-礻,=𥦑-穴
 CDP-85A6	&CDP-85A6;	幾
 CDP-85A7	&CDP-85A7;	艹
@@ -49,7 +49,7 @@ CDP-85B9	&CDP-85B9;	&CDP-85B9;	# =𡡋-女
 CDP-85BA	&CDP-85BA;	&CDP-85BA;	# =𡣣-女-目
 CDP-85BC	&CDP-85BC;	&CDP-85BC;
 CDP-85BD	&CDP-85BD;	⿱⿻千从凵	# 𠚏
-CDP-85BF	&CDP-85BF;	&CDP-85BF;
+CDP-85BF	&CDP-85BF;	𡿨
 CDP-85C0	&CDP-85C0;	&CDP-85C0;
 CDP-85C1	&CDP-85C1;	𡯎
 CDP-85C3	&CDP-85C3;	&CDP-85C3;
@@ -123,7 +123,7 @@ CDP-8664	&CDP-8664;	&CDP-8664;	# =𠤺-匚
 CDP-8665	&CDP-8665;	小
 CDP-8667	&CDP-8667;	&CDP-8667;	# =𨪖-金
 CDP-866D	&CDP-866D;	⿻羊⿰合合	# =𦏮-隹
-CDP-866E	&CDP-866E;	&CDP-866E;	# =𠮺-口,=𥫪-竹,=𨑝-辶
+CDP-866E	&CDP-866E;	⿰丨𡿨	# =𠮺-口,=𥫪-竹,=𨑝-辶
 CDP-866F	&CDP-866F;	&CDP-866F;	# =𥻔-米
 CDP-8670	&CDP-8670;	&CDP-8670;
 CDP-8671	&CDP-8671;	&CDP-8671;
@@ -150,7 +150,7 @@ CDP-86B0	&CDP-86B0;	&CDP-86B0;	# =𨱸-镸
 CDP-86B1	&CDP-86B1;	&CDP-86B1;
 CDP-86B2	&CDP-86B2;	&CDP-86B2;
 CDP-86B3	&CDP-86B3;	&CDP-86B3;	# =𧧚-言
-CDP-86B4	&CDP-86B4;	&CDP-86B4;	# =𧥨-言
+CDP-86B4	&CDP-86B4;	𠃒	# =𧥨-言
 CDP-86B5	&CDP-86B5;	&CDP-86B5;
 CDP-86B6	&CDP-86B6;	&CDP-86B6;
 CDP-86B7	&CDP-86B7;	&CDP-86B7;
@@ -334,7 +334,7 @@ CDP-886A	&CDP-886A;	&CDP-886A;	# =𤴗-屮,=𤴘-入
 CDP-886B	&CDP-886B;	&CDP-886B;	# =𠯶-口
 CDP-8872	&CDP-8872;	⿻口大	# =𠫪-厶
 CDP-8873	&CDP-8873;	&CDP-8873;	# =𠧤-卤,=𠧷-𠧪 ※㇉
-CDP-8875	&CDP-8875;	&CDP-8875;	# =𥥏-穴,=𩒌-頁
+CDP-8875	&CDP-8875;	⿻屮冂	# =𥥏-穴,=𩒌-頁
 CDP-8877	&CDP-8877;	𦏲
 CDP-887A	&CDP-887A;	𤕫
 CDP-887B	&CDP-887B;	臾
@@ -377,7 +377,7 @@ CDP-88D2	&CDP-88D2;	&CDP-88D2;	# =脊-月
 CDP-88D3	&CDP-88D3;	&CDP-88D3;
 CDP-88D4	&CDP-88D4;	里
 CDP-88D5	&CDP-88D5;	&CDP-88D5;
-CDP-88D6	&CDP-88D6;	&CDP-88D6;	# =爾-一
+CDP-88D6	&CDP-88D6;	&CDP-88D6;	# =爾-一,≒&CDP-85AE;
 CDP-88D7	&CDP-88D7;	&CDP-88D7;	# =𥛈-礻,=𧪀-言
 CDP-88D9	&CDP-88D9;	⿻十吅	# =𠷫-𧘇
 CDP-88DA	&CDP-88DA;	&CDP-88DA;	# =𡋨-土,=𢓩-彳,=𣳴-氵,=𥅸-目,=𥥲-穴,=𦥲-臼,=𩫔-高
@@ -440,7 +440,7 @@ CDP-89A6	&CDP-89A6;	&CDP-89A6;	# =勿-勹,=𣄭-旡,=𣥆-止
 CDP-89A7	&CDP-89A7;	卩	# (=𠬝-又)
 CDP-89AB	&CDP-89AB;	&CDP-8BF5;
 CDP-89AD	&CDP-89AD;	&CDP-89AD;	# =栆-⺀,=𣕤-束
-CDP-89AE	&CDP-89AE;	⿰冫&CDP-85BF;	# =軣-車,=𠦂-十
+CDP-89AE	&CDP-89AE;	⿰冫𡿨	# =軣-車,=𠦂-十
 CDP-89AF	&CDP-89AF;	龙
 CDP-89B0	&CDP-89B0;	&CDP-89B0;	# =㡣-帝,=𧱠-豕
 CDP-89B2	&CDP-89B2;	⺍
@@ -700,7 +700,7 @@ CDP-8C69	&CDP-8C69;	⿰𠂎刀	# =留-田,=貿-貝,=贸-贝,=𠝈-𠂡,=𥁚-皿
 CDP-8C6A	&CDP-8C6A;	⿱士示	# =款-欠,=隷-隶,=𥻳-籴,=𧎹-𧈡,=𧡘-見
 CDP-8C6B	&CDP-8C6B;	啇
 CDP-8C6C	&CDP-8C6C;	⿵冂古
-CDP-8C6D	&CDP-8C6D;	&CDP-8C6D;	# =縣-系
+CDP-8C6D	&CDP-8C6D;	&CDP-8C6D;	# =縣-系,𪃷-鳥
 CDP-8C6E	&CDP-8C6E;	𡰪
 CDP-8C6F	&CDP-8C6F;	巩
 CDP-8C72	&CDP-8C72;	𠀗
@@ -827,7 +827,7 @@ CDP-8D6D	&CDP-8D6D;	㥯
 CDP-8D6E	&CDP-8D6E;	𤔌
 CDP-8D6F	&CDP-8D6F;	⿱氺牛
 CDP-8D70	&CDP-8D70;	⿸尸示
-CDP-8D71	&CDP-8D71;	⿱𠆢氺	# =桼-木,=黎-𥝢,=𣿀-浦,=𪏭-利
+CDP-8D71	&CDP-8D71;	⿱𠆢氺	# =桼-木,=黎-𥝢,=𣿀-浦,=𪏭-利, =?氽
 CDP-8D73	&CDP-8D73;	雐
 CDP-8D74	&CDP-8D74;	⿱宀&CDP-8D75;
 CDP-8D75	&CDP-8D75;	⿱一𣥂
