@@ -37,7 +37,7 @@ CDP-85A7	&CDP-85A7;	艹
 CDP-85A8	&CDP-85A8;	⿻𠈌	# =𪍰-麥
 CDP-85A9	&CDP-85A9;	&CDP-85A9;	# =㞑-尸
 CDP-85AA	&CDP-85AA;	㻎
-CDP-85AB	&CDP-85AB;	&CDP-85AB;	# =𠮎-𠬞,=𢍮-廾
+CDP-85AB	&CDP-85AB;	⿻工⿰⿱人口⿱人口	# =𠮎-𠬞,=𢍮-廾
 CDP-85AE	&CDP-85AE;	&CDP-85AE;	# =𤕨-𠆢
 CDP-85AF	&CDP-85AF;	⿻土𠈌	# =𡍮-丿,=𡕲-夂
 CDP-85B0	&CDP-85B0;	⿻十𠈌	# =𢾶-攵,=𤲷-田
@@ -480,7 +480,7 @@ CDP-89E3	&CDP-89E3;	&CDP-89E3;	# =仺-𠆢,=𤰣-由,=𥘐-示,=𥤫-穴,=𩁿-�
 CDP-89E4	&CDP-89E4;	&CDP-89E4;	# =枾-木
 CDP-89E5	&CDP-89E5;	&CDP-89E5;	# =妻-女
 CDP-89E6	&CDP-89E6;	𦣝
-CDP-89E7	&CDP-89E7;	&CDP-89E7;	# =㤤-忄,=㻀-王,=䛕-言,=茰-艹,=𢈔-广,=𥒏-石,=𥬽-竹,=𨾳-隹,=𩢶-馬
+CDP-89E7	&CDP-89E7;	&CDP-89E7;	㬰	# =㤤-忄,=㻀-王,=䛕-言,=茰-艹,=𢈔-广,=𥒏-石,=𥬽-竹,=𨾳-隹,=𩢶-馬
 CDP-89EB	&CDP-89EB;	&CDP-89EB;
 CDP-89EC	&CDP-89EC;	&CDP-89EC;	# =制-刂
 CDP-89ED	&CDP-89ED;	&CDP-89ED;	# =乕-𠂆
@@ -557,7 +557,7 @@ CDP-8AE7	&CDP-8AE7;	䨣
 CDP-8AE8	&CDP-8AE8;	嚻
 CDP-8AEA	&CDP-8AEA;	&CDP-8AEA;	# =𢨋-或
 CDP-8AEB	&CDP-8AEB;	&CDP-8AEB;	# =𡚇-大
-CDP-8AEC	&CDP-8AEC;	&CDP-8AEC;	# =𡙷-大
+CDP-8AEC	&CDP-8AEC;	⿱罒⿸厂罒	# =𡙷-大
 CDP-8AEF	&CDP-8AEF;	氷
 CDP-8AF0	&CDP-8AF0;	&CDP-8AF0;	# =䣨-酉,=䤜-釒,=扥-扌,=𡆰-囗,=𡉒-土,=𢇠-广,=𣲃-氵,=𤆚-火,=𤘛-牜,=𤜨-犭,=𥤭-穴,=𥫬-竹,=𥾑-糸,=𦍓-羊,=𧥫-言,=𧰭-豕,=𨊯-車,=𨑞-辶,=𨙲-阝,=𩃌-雲,=𩚊-飠,=𪎴-黃,=𪐠-黑
 CDP-8AF2	&CDP-8AF2;	&CDP-8AF2;	# =臦-臣,=𦣩-臣
@@ -652,7 +652,7 @@ CDP-8BE9	&CDP-8BE9;	𡗗
 CDP-8BEA	&CDP-8BEA;	&CDP-8BEA;
 CDP-8BEB	&CDP-8BEB;	啚
 CDP-8BEC	&CDP-8BEC;	⿳亠丷冖
-CDP-8BED	&CDP-8BED;	&CDP-8BED;	# =㠩-亾,=巟-亡,=𠃤-𠀉,=𠫝-厶,=𡰭-尸,=𤽇-白,=𥾖-糸
+CDP-8BED	&CDP-8BED;	⿻儿丨	# =㠩-亾,=巟-亡,=𠃤-𠀉,=𠫝-厶,=𡰭-尸,=𤽇-白,=𥾖-糸
 CDP-8BEF	&CDP-8BEF;	臱
 CDP-8BF1	&CDP-8BF1;	𠀆
 CDP-8BF4	&CDP-8BF4;	⿲幺白幺	# =樂-木
@@ -899,5 +899,5 @@ CDP-8DE8	&CDP-8DE8;	&CDP-8DE8;	# =壺-士
 CDP-8DE9	&CDP-8DE9;	⿻十从	# =𡘖-大,=𢂯-巾
 CDP-8DEB	&CDP-8DEB;	⿱亠⿲刀丫&CDP-89CA;	# =䐡-肉,=韲-韭,=𠆗-合,=𠆜-妻,=𦦏-臼,=𧷔-貝,=𨢞-酉,=𩝦-食,=𪔉-鼎,=𪙔-齒,=𪚎-𪙹
 CDP-8DEC	&CDP-8DEC;	&CDP-8DEC;
-CDP-8DEE	&CDP-8DEE;	⿻一由	# =叀-厶,=専-寸,=恵-心,=曺-日,=𣌽-亚,=𩓏-頁
+CDP-8DEE	&CDP-8DEE;	𤰔
 CDP-8DEF	&CDP-8DEF;	尣
