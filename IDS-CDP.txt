@@ -652,7 +652,7 @@ CDP-8BE9	&CDP-8BE9;	𡗗
 CDP-8BEA	&CDP-8BEA;	&CDP-8BEA;
 CDP-8BEB	&CDP-8BEB;	啚
 CDP-8BEC	&CDP-8BEC;	⿳亠丷冖
-CDP-8BED	&CDP-8BED;	⿻儿丨	# =㠩-亾,=巟-亡,=𠃤-𠀉,=𠫝-厶,=𡰭-尸,=𤽇-白,=𥾖-糸
+CDP-8BED	&CDP-8BED;	⿲丿丨乚	⿻儿丨	# =㠩-亾,=巟-亡,=𠃤-𠀉,=𠫝-厶,=𡰭-尸,=𤽇-白,=𥾖-糸
 CDP-8BEF	&CDP-8BEF;	臱
 CDP-8BF1	&CDP-8BF1;	𠀆
 CDP-8BF4	&CDP-8BF4;	⿲幺白幺	# =樂-木

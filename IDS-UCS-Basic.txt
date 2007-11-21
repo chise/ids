@@ -9,7 +9,7 @@ U+2E8C	⺌	⺌
 U+2E8D	⺍	⺍
 U+2EAB	⺫	⺫	# =罒 (radical eye)
 U+2EB3	⺳	⿱冖八
-U+2EB6	⺶
+U+2EB6	⺶	⺶
 U+2EB8	⺸	⿱卝干
 U+2EBB	⺻	⿱肀一
 U+2EBC	⺼	⺼	# (radical meat)
