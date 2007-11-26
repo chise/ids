@@ -1,3 +1,71 @@
+2007-10-16  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt (J90-372C): Modify components.
+
+2007-08-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.23.2.
+	(www-batch-ids-find): Modify a little.
+
+2007-07-03  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* cbeta.el (cbeta-parse-element): Add new arguments `robust' and
+	`strict-component'; modify for `cbeta-parse-1'.
+	(cbeta-parse-component): Likewise.
+	(cbeta-parse-horizontal): Add new arguments `robust' and
+	`strict-component'; modify for `cbeta-parse-component'.
+	(cbeta-parse-vertical): Likewise.
+	(cbeta-parse-other): Likewise.
+	(cbeta-delete-char): Add new optional argument `strict-component'.
+	(cbeta-parse-substitution): Add new arguments `robust' and
+	`strict-component'; modify for `cbeta-parse-1'.
+	(cbeta-parse-elimination): Likewise; modify for
+	`cbeta-delete-char'.
+	(cbeta-parse-1): Add new optional argument `robust' and
+	`strict-component'; modify for `cbeta-parse-element',
+	`cbeta-parse-horizontal', `cbeta-parse-vertical',
+	`cbeta-parse-other', `cbeta-parse-substitution' and
+	`cbeta-parse-elimination'.
+
+2007-06-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* ids-find.el (char-component-variants): Fix typo.
+	(ideographic-structure-char=): Delete ad hoc operations about
+	variants.
+	(ids-insert-chars-including-components): Delete unused local
+	variable `dis'.
+
+	* IDS-UCS-Ext-B-4.txt: Convert isolated characters to ordinary
+	characters.
+	(U-0002632E): Fixed.
+	(U-00027048): Modify a component.
+	(U-0002704B): Compact IDS.
+	(U-0002704C): Compact IDS.
+	(U-0002704D): Compact IDS.
+	(U-0002704F): Compact IDS.
+	(U-00027053): Compact IDS.
+	(U-00027059): Modify a component.
+	(U-00027063): Fixed.
+	(U-00027064): Modify structure.
+	(U-00027066): Modify structure.
+	(U-00027068): Compact IDS.
+	(U-00027069): Compact IDS.
+	(U-0002706A): Compact IDS.
+	(U-0002706B): Compact IDS.
+	(U-0002706E): Modify a component.
+	(U-00027070): Compact IDS.
+
+	* IDS-UCS-Ext-B-1.txt (U-00020DD9): Compact IDS.
+	(U-00020DFE): Compact IDS.
+	(U-0002164B): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+657B): Compact IDS.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022F94): Compact IDS.
+	(U-00022FCC): Compact IDS.
+
+	* IDS-UCS-Ext-B-3.txt (U-00025197): Compact IDS.
+
 2007-06-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-10.txt (M-36657): Add IDS.
