@@ -1,6 +1,6 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures
 
-;; Copyright (C) 2002,2003,2005,2006 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2005,2006,2007 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: Kanji, Ideographs, search, IDS, CHISE, UCS, Unicode
@@ -106,7 +106,7 @@
       (dolist (c dest)
 	(setq dest (union dest
                           (some (lambda (feature)
-				  (get-char-attribute char feature))
+				  (get-char-attribute c feature))
 				(of-component-features))
 			  )))
       )
@@ -116,7 +116,7 @@
       (dolist (c dest)
 	(setq dest (union dest
                           (some (lambda (feature)
-				  (get-char-attribute char feature))
+				  (get-char-attribute c feature))
 				(of-component-features))
 			  )))
       )
@@ -188,26 +188,29 @@
 		 (m2 (char-ucs c2)))
 	     (or (and m1 m2
 		      (eq m1 m2))
-		 (some (lambda (feature)
-			 (some (lambda (b2)
-				 (unless (characterp b2)
-				   (setq b2 (find-char b2)))
-				 (and b2
-				      (ideographic-structure-char= c1 b2)))
-                               (char-feature c2 feature)
-			       ;; (get-char-attribute
-                               ;;  c2 '<-ideographic-component-forms)
-			       ))
-		       (of-component-features))
-		 (progn
-		   (setq m1 (car (get-char-attribute c1 '<-radical))
-			 m2 (car (get-char-attribute c2 '<-radical)))
-		   (unless (characterp m1)
-		     (setq m1 (find-char m1)))
-		   (unless (characterp m2)
-		     (setq m2 (find-char m2)))
-		   (when (or m1 m2)
-		     (ideographic-structure-char= m1 m2))))))))
+		 (memq c1 (char-component-variants c2))
+                 ;; (some (lambda (feature)
+                 ;;         (some (lambda (b2)
+                 ;;                 (unless (characterp b2)
+                 ;;                   (setq b2 (find-char b2)))
+                 ;;                 (and b2
+                 ;;                      (ideographic-structure-char= c1 b2)))
+                 ;;               (char-feature c2 feature)
+                 ;;               ;; (get-char-attribute
+                 ;;               ;;  c2 '<-ideographic-component-forms)
+                 ;;               ))
+                 ;;       (of-component-features))
+                 ;; (progn
+                 ;;   (setq m1 (car (get-char-attribute c1 '<-radical))
+                 ;;         m2 (car (get-char-attribute c2 '<-radical)))
+                 ;;   (unless (characterp m1)
+                 ;;     (setq m1 (find-char m1)))
+                 ;;   (unless (characterp m2)
+                 ;;     (setq m2 (find-char m2)))
+                 ;;   (when (or m1 m2)
+                 ;;     (ideographic-structure-char= m1 m2))
+                 ;;   )
+		 )))))
 
 (defun ideographic-structure-member-compare-components (component s-component)
   (let (ret)
@@ -283,7 +286,7 @@
 					      &optional level ignored-chars)
   (unless level
     (setq level 0))
-  (let (is dis i as bs)
+  (let (is i as bs)
     (dolist (c (sort (copy-tree (ideographic-products-find components))
 		     (lambda (a b)
 		       (if (setq as (char-total-strokes a))
