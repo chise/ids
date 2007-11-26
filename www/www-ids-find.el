@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.23.1")
+(defconst www-ids-find-version "0.23.2")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -264,9 +264,6 @@
 		 (file-attributes
 		  www-ids-find-ideographic-products-file-name))))
     (princ "
-<p>
-Copyright (C) 2005, 2006 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
->MORIOKA Tomohiko</a>
 <hr>
 <p>
 <form action=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/ids-find\" method=\"GET\">
@@ -362,9 +359,12 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 
       ))
     (princ "<hr>")
+    (princ "<p>
+Copyright (C) 2005, 2006, 2007 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+>MORIOKA Tomohiko</a>")
     (princ
      (format
-      "Powered by <a
+      "<p>Powered by <a
 href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/xemacs/\"
 >XEmacs CHISE</a> %s."
       xemacs-chise-version))
