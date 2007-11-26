@@ -1,6 +1,6 @@
 ;;; cbeta.el --- Parser for CBETA Ideographs representation.
 
-;; Copyright (C) 2001,2002,2006 MORIOKA Tomohiko
+;; Copyright (C) 2001,2002,2006,2007 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: CBETA, IDS, Ideographs, UCS, Unicode
@@ -37,12 +37,13 @@
 	'(?\u3120 . ?\u5E7A)
 	))
 
-(defun cbeta-parse-element (string simplify)
+(defun cbeta-parse-element (string simplify robust strict-component)
   (let ((chr (aref string 0))
 	ret)
     (cond ((eq chr ?\()
 	   (if (> (length string) 1)
-	       (let* ((ret (cbeta-parse-1 (substring string 1) simplify))
+	       (let* ((ret (cbeta-parse-1 (substring string 1) simplify
+					  robust strict-component))
 		      (str (cdr ret)))
 		 (if (and str
 			  (>= (length str) 1)
@@ -59,8 +60,8 @@
 		 (if (> (length string) 1)
 		     (substring string 1)))))))
 
-(defun cbeta-parse-component (string simplify)
-  (let ((ret (cbeta-parse-1 string simplify))
+(defun cbeta-parse-component (string simplify robust strict-component)
+  (let ((ret (cbeta-parse-1 string simplify robust strict-component))
 	rret)
     (when ret
       (if (and simplify
@@ -70,8 +71,10 @@
 	  (cons rret (cdr ret))
 	ret))))
 
-(defun cbeta-parse-horizontal (l-chr string simplify)
-  (let ((ret (cbeta-parse-component string simplify))
+(defun cbeta-parse-horizontal (l-chr string simplify
+				     robust strict-component)
+  (let ((ret (cbeta-parse-component
+	      string simplify robust strict-component))
 	rc)
     (when ret
       (if (and simplify
@@ -86,8 +89,10 @@
 		   l-chr (car ret)))
 	    (cdr ret)))))
 
-(defun cbeta-parse-vertical (u-chr string simplify)
-  (let ((ret (cbeta-parse-component string simplify))
+(defun cbeta-parse-vertical (u-chr string simplify
+				   robust strict-component)
+  (let ((ret (cbeta-parse-component
+	      string simplify robust strict-component))
 	rc)
     (when ret
       (if (and simplify
@@ -102,8 +107,10 @@
 		   u-chr (car ret)))
 	    (cdr ret)))))
 
-(defun cbeta-parse-other (u-chr string simplify)
-  (let ((ret (cbeta-parse-component string simplify))
+(defun cbeta-parse-other (u-chr string simplify
+				robust strict-component)
+  (let ((ret (cbeta-parse-component
+	      string simplify robust strict-component))
 	rc)
     (when ret
       (if (and simplify
@@ -155,23 +162,26 @@
 	      (t
 	       (setq dest (cons component dest))))))))
 
-(defun cbeta-delete-char (s-chr d-chr)
-  (let ((structure
+(defun cbeta-delete-char (s-chr d-chr &optional strict-component)
+  (let ((dcl (if strict-component
+		 (list d-chr)
+	       (char-component-variants d-chr)))
+	(structure
 	 (if (characterp s-chr)
-	     (get-char-attribute s-chr 'ideographic-structure)
+	     (char-feature s-chr 'ideographic-structure)
 	   (cdr (assq 'ideographic-structure s-chr))))
 	component dest ret)
     (catch 'tag
       (while structure
 	(setq component (car structure)
 	      structure (cdr structure))
-	(cond ((equal component d-chr)
+	(cond ((memq component dcl) ; (equal component d-chr)
 	       (setq ret (nconc (nreverse dest) structure))
 	       (throw 'tag
 		      (if (cdr (cdr ret))
 			  (list (cons 'ideographic-structure ret))
 			(car (cdr ret)))))
-	      ((setq ret (cbeta-delete-char component d-chr))
+	      ((setq ret (cbeta-delete-char component d-chr strict-component))
 	       (setq ret (nconc (nreverse dest)
 				(cons ret structure)))
 	       (throw 'tag
@@ -181,8 +191,9 @@
 	      (t
 	       (setq dest (cons component dest))))))))
 
-(defun cbeta-parse-substitution (s-chr string simplify)
-  (let ((ret (cbeta-parse-1 string simplify))
+(defun cbeta-parse-substitution (s-chr string simplify
+				       robust strict-component)
+  (let ((ret (cbeta-parse-1 string simplify robust strict-component))
 	old-chr new-chr str)
     (when ret
       (setq old-chr (car ret)
@@ -191,24 +202,28 @@
 		 (eq (aref str 0) ?+)
 		 (>= (length str) 2))
 	(setq str (substring str 1))
-	(setq ret (cbeta-parse-1 str simplify))
+	(setq ret (cbeta-parse-1 str simplify robust strict-component))
 	(when ret
 	  (setq new-chr (car ret)
 		str (cdr ret))
 	  (when (setq ret (cbeta-substitute-char s-chr old-chr new-chr))
 	    (cons ret str)))))))
 
-(defun cbeta-parse-elimination (s-chr string simplify)
-  (let ((ret (cbeta-parse-1 string simplify))
+(defun cbeta-parse-elimination (s-chr string simplify
+				      robust strict-component)
+  (let ((ret (cbeta-parse-1 string simplify robust strict-component))
 	old-chr str)
     (when ret
       (setq old-chr (car ret)
 	    str (cdr ret))
-      (when (setq ret (cbeta-delete-char s-chr old-chr))
-	(cons ret str)))))
+      (cond ((setq ret (cbeta-delete-char
+			s-chr old-chr strict-component))
+	     (cons ret str))
+	    (robust
+	     (cons s-chr str))))))
 
-(defun cbeta-parse-1 (string simplify)
-  (let ((ret (cbeta-parse-element string simplify))
+(defun cbeta-parse-1 (string simplify &optional robust strict-component)
+  (let ((ret (cbeta-parse-element string simplify robust strict-component))
 	c1 str
 	op)
     (when ret
@@ -219,14 +234,19 @@
 		   (> (length str) 1)
 		   (setq str (substring str 1)))
 	      (cond ((eq op ?*)
-		     (cbeta-parse-horizontal c1 str simplify))
+		     (cbeta-parse-horizontal
+		      c1 str simplify robust strict-component))
 		    ((eq op ?/)
-		     (cbeta-parse-vertical c1 str simplify))
+		     (cbeta-parse-vertical
+		      c1 str simplify robust strict-component))
 		    ((eq op ?@)
-		     (cbeta-parse-other c1 str simplify))
+		     (cbeta-parse-other
+		      c1 str simplify robust strict-component))
 		    ((eq op ?-)
-		     (or (cbeta-parse-substitution c1 str simplify)
-			 (cbeta-parse-elimination c1 str simplify)))))
+		     (or (cbeta-parse-substitution
+			  c1 str simplify robust strict-component)
+			 (cbeta-parse-elimination
+			  c1 str simplify robust strict-component)))))
 	  ret))))
 
 
