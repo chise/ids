@@ -1,5 +1,15 @@
 2008-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.24.1.
+	(www-ids-find-format-char): Add new optional argument `code-desc';
+	don't display description of code when `code-desc' is not
+	specified.
+	(www-ids-find-format-line): Use `www-ids-find-format-char' with
+	`code-desc' mode for a top character; use
+	`www-ids-find-format-char' for IDS.
+
+2008-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* www/www-ids-find.el (www-ids-find-format-char): New function.
 	(www-ids-find-format-line): Use `www-ids-find-format-char'.
 
