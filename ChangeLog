@@ -4,6 +4,13 @@
 	(www-batch-ids-find): Use `utf-8-er' instead of `utf-8-jp-er' to
 	decode input.
 
+2007-11-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-000221E5): Use "卆" instead of "⿱九十".
+	(U-00022A84): Ditto.
+	(U-00023162): Ditto.
+	(U-00023166): Structure change.
+
 2007-10-16  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt (J90-372C): Modify components.
