@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.23.2")
+(defconst www-ids-find-version "0.23.3")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -235,7 +235,8 @@
 	  (setq components (substring components (match-end 0))))
       (setq components
 	    (if (> (length components) 0)
-		(decode-url-string components 'utf-8-jp-er)
+		(decode-url-string components 'utf-8-er ;'utf-8-jp-er
+				   )
 	      nil))
       )
      (t
