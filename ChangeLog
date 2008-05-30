@@ -1,3 +1,9 @@
+2007-12-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.23.3.
+	(www-batch-ids-find): Use `utf-8-er' instead of `utf-8-jp-er' to
+	decode input.
+
 2007-10-16  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt (J90-372C): Modify components.
