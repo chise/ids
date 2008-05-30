@@ -31,9 +31,9 @@
 (defvar www-ids-find-tang-chars-file-name
   "~tomo/projects/chise/ids/www/tang-chars.udd")
 
-(defun www-ids-find-format-line (c is)
+(defun www-ids-find-format-char (c)
   (let ((str (encode-coding-string (format "%c" c) 'utf-8-er))
-	plane code ucs)
+	plane code)
     (princ
      (with-temp-buffer
        (cond
@@ -107,9 +107,12 @@
 	 ))
        (goto-char (point-min))
        (while (search-forward "&" nil t)
-	 (replace-match "&amp;" t 'literal))
-       (buffer-string)
-       ))
+         (replace-match "&amp;" t 'literal))
+       (buffer-string)))))
+  
+(defun www-ids-find-format-line (c is)
+  (let (code ucs)
+    (www-ids-find-format-char c)
     (princ
      (or (if (setq ucs (or (char-ucs c)
 			   (encode-char c 'ucs)))
