@@ -1,5 +1,7 @@
 2008-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* CHISE-IDS 0.24 released.
+
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.24.1.
 	(www-ids-find-format-char): Add new optional argument `code-desc';
 	don't display description of code when `code-desc' is not

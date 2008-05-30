@@ -3,7 +3,7 @@
 #
 
 PACKAGE = chise-ids
-VERSION	= 0.23
+VERSION	= 0.24
 
 TAR	= tar
 RM	= /bin/rm -f
