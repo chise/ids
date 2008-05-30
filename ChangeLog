@@ -1,3 +1,10 @@
+2008-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.24.0.
+	(www-ids-find-format-line): Use `utf-8-er' instead of
+	`utf-8-jp-er' to encode components.
+	(www-batch-ids-find): Likewise; update Copyright.
+
 2007-12-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.23.3.
