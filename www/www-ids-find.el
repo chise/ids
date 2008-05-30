@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.23.3")
+(defconst www-ids-find-version "0.24.0")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -132,7 +132,7 @@
 	 (insert
 	  (encode-coding-string
 	   (ideographic-structure-to-ids is)
-	   'utf-8-jp-er))
+	   'utf-8-er))
 	 (goto-char (point-min))
 	 (while (re-search-forward "&CB\\([0-9]+\\);" nil t)
 	   (setq code (string-to-int (match-string 1)))
@@ -235,8 +235,7 @@
 	  (setq components (substring components (match-end 0))))
       (setq components
 	    (if (> (length components) 0)
-		(decode-url-string components 'utf-8-er ;'utf-8-jp-er
-				   )
+		(decode-url-string components 'utf-8-er)
 	      nil))
       )
      (t
@@ -272,7 +271,7 @@
     (princ (encode-coding-string "部品文字列" 'utf-8-jp-er))
     (princ " <input type=\"text\" name=\"components\" size=\"30\" maxlength=\"30\" value=\"")
     (if (> (length components) 0)
-	(princ (encode-coding-string components 'utf-8-jp-er)))
+	(princ (encode-coding-string components 'utf-8-er)))
     (princ "\">
 <input type=\"submit\" value=\"")
     (princ (encode-coding-string "検索開始" 'utf-8-jp-er))
@@ -361,7 +360,7 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
       ))
     (princ "<hr>")
     (princ "<p>
-Copyright (C) 2005, 2006, 2007 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+Copyright (C) 2005, 2006, 2007, 2008 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
 >MORIOKA Tomohiko</a>")
     (princ
      (format
