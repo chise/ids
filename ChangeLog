@@ -1,3 +1,47 @@
+2008-08-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-09.txt (M-29464): Use BC-8CEA instead of "色".
+	(M-29465): Add IDS.
+	(M-29471): Add IDS.
+	(M-29472): Add IDS.
+	(M-30643): Add IDS.
+	(M-30646): Add IDS.
+	(M-30648): Add IDS.
+	(M-30649): Add IDS.
+	(M-30652): Add IDS.
+	(M-30653): Add IDS.
+	(M-30654): Add IDS.
+	(M-30658): Add IDS.
+	(M-30661): Add IDS.
+	(M-30662): Add IDS.
+	(M-30663): Add IDS.
+	(M-30666): Compacted.
+	(M-30667): Add IDS.
+	(M-30668): Add IDS.
+	(M-30669): Add IDS.
+	(M-30670): Add IDS.
+
+	* IDS-CNS-2.txt (C2-432E): Use "晉" instead of "晋".
+	(C2-4447): Likewise.
+	(C2-482D): Likewise.
+	(C2-4B25): Likewise.
+
+2008-06-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029450): Compacted.
+
+	* IDS-UCS-Basic.txt (U+53C9): Add IDS.
+	(U+7D01): Compacted.
+	(U+8286): Likewise.
+
+2008-06-23  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022B58): Compacted.
+	(U-000234BD): Likewise.
+	(U-000234BE): Fixed.
+	(U-000238C3): Compacted.
+
+
 2008-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* CHISE-IDS 0.24 released.
