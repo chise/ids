@@ -177,7 +177,7 @@ CDP-86CB	&CDP-86CB;	⿱一⿻冖糸	# =𦴃-艹
 CDP-86CC	&CDP-86CC;	&CDP-86CC;	# =𦱦-艹
 CDP-86CD	&CDP-86CD;	&CDP-86CD;	# =𦱥-艹
 CDP-86CE	&CDP-86CE;	⿱一&CDP-88AD;	# =𦮉-艹,丣/戼
-CDP-86CF	&CDP-86CF;	&CDP-86CF;	# =𦬝-艹
+CDP-86CF	&CDP-86CF;	&CDP-86CF;	# =𦬝-艹, 市
 CDP-86D0	&CDP-86D0;	𠔀
 CDP-86D1	&CDP-86D1;	𠕋	# =𥹤-米
 CDP-86D2	&CDP-86D2;	&CDP-86D2;	# =𧛦-衣
@@ -667,7 +667,7 @@ CDP-8D67	&CDP-8D67;	⿱廿灬
 CDP-8D68	&CDP-8D68;	⿱刀貝
 CDP-8D6A	&CDP-8D6A;	屮
 CDP-8D6B	&CDP-8D6B;	&CDP-8D6B;	# =虛-虍,=並-䒑,=𩣌-馬,=黹-㡀
-CDP-8D6F	&CDP-8D6F;	⿸尸⿲𠄠丨𠄠
+CDP-8D6F	&CDP-8D6F;	⿸尸⿲𠄠丨𠄠[JK]	⿸尸氺[GT]
 CDP-8D70	&CDP-8D70;	⿸尸示
 CDP-8D71	&CDP-8D71;	⿱𠆢氺	# =桼-木,=黎-𥝢,=𣿀-浦,=𪏭-利, =?氽
 CDP-8D74	&CDP-8D74;	⿱宀&CDP-8D75;
@@ -675,7 +675,7 @@ CDP-8D75	&CDP-8D75;	⿱一𣥂
 CDP-8D76	&CDP-8D76;	⿴北口	⿲&CDP-8BC5;口匕
 CDP-8D7C	&CDP-8D7C;	⿱丿⿵冂釆	# =奧-大,=𢍢-廾
 CDP-8D7E	&CDP-8D7E;	⿱䒑亡
-CDP-8DA1	&CDP-8D7F;	⿱&CDP-8D44;几
+CDP-8DA1	&CDP-8D7F;	壳
 CDP-8DA5	&CDP-8DA5;	⿱卝⿷見丶	# =𦏊-羊
 CDP-8DA6	&CDP-8DA6;	⿱𠂉疋	# =㳬-氵,=旋-方,=琁-王,=蜁-虫,=颴-風,=𢭀-扌,=𣒀-木,=𦀢-糸,=𦛔-月,=𦩂-舟,=𨁁-𧾷
 CDP-8DA7	&CDP-8DA7;	⿵⺇帀
