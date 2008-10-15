@@ -1,4 +1,18 @@
+2008-10-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-07.txt: - Modify some components.
+	- Use "畱" instead of "⿱&CDP-89B6;田".
+	- Use "叏" instead of "⿱&CDP-89B3;又".
+	- Use "𢆰" instead of "⿱一幺".
+	(M-17922): Use "晉" instead of "晋".
+	(M-17924): Add IDS.
+	(M-17934): Add IDS.
+	(M-17939): Add IDS.
+	(M-20923): Use "𡵄" instead of "⿱山&CDP-8BF1;".
+
 2008-08-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023E5D): Use "陗" instead of "⿰阝肖".
 
 	* IDS-Daikanwa-09.txt (M-29464): Use BC-8CEA instead of "色".
 	(M-29465): Add IDS.
