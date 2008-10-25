@@ -1,6 +1,14 @@
+2008-10-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022DE9): Fixed.
+	(U-00022DEB): Modify a component.
+	(U-00022DEC): Compact a subtree.
+	(U-00022DEF): Modify a component.
+
 2008-10-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-Daikanwa-07.txt: - Modify some components.
+	* IDS-Daikanwa-07.txt:
+	- Modify some components.
 	- Use "畱" instead of "⿱&CDP-89B6;田".
 	- Use "叏" instead of "⿱&CDP-89B3;又".
 	- Use "𢆰" instead of "⿱一幺".
@@ -9,6 +17,8 @@
 	(M-17934): Add IDS.
 	(M-17939): Add IDS.
 	(M-20923): Use "𡵄" instead of "⿱山&CDP-8BF1;".
+
+	* IDS-UCS-Ext-A.txt (U+45F4): Fixed.
 
 2008-08-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
