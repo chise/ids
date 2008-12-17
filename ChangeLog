@@ -1,3 +1,8 @@
+2008-10-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-02.txt, IDS-JIS-X0208-1990.txt, IDS-UCS-Basic.txt:
+	Use <CJK RADICAL KNIFE TWO> instead of U+5202.
+
 2008-10-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022DE9): Fixed.
