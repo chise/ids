@@ -1,3 +1,25 @@
+2008-12-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use <CJK RADICAL WATER ONE> instead of U+6C35.
+	- Use "⿰&GT-K00495;" instead of "⿰木".
+	- Use "⿰&GT-K00405;" instead of "⿰火".
+	(J90-3F39): Use "林" instead of "⿰木木".
+	(J90-3F3A): Modify components.
+	(J90-485A): Compact IDS.
+	(J90-5D44): Modify a component.
+	(J90-5E3E): Modify components.
+	(J90-5E74): Complete IDS.
+	(J90-5E75): Modify components.
+	(J90-5E76): Add IDS.
+	(J90-5E7A): Add IDS.
+	(J90-5F28): Modify components.
+	(J90-5F55): Modify a component.
+	(J90-5F72): Add IDS.
+
+	* IDS-UCS-Basic.txt: Use <CJK RADICAL WATER ONE> instead of
+	U+6C35.
+
 2008-10-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-02.txt, IDS-JIS-X0208-1990.txt, IDS-UCS-Basic.txt:
