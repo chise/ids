@@ -1,3 +1,53 @@
+2008-12-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use U-0002F836 instead of U+53CA.
+	- Use JU+4EA1 instead of U+4EA1.
+	- Use "𣢟" instead of "⿰甘欠".
+	(J90-3459): Use "臽" instead of "⿱⺈旧".
+	(J90-4B3C): Add IDS.
+	(J90-4B3D): Modify structure.
+	(J90-4B3E): Add IDS.
+	(J90-4B41): Add IDS.
+	(J90-4B42): Add IDS.
+	(J90-4E36): Add IDS.
+	(J90-4F4E): Add IDS.
+	(J90-5133): Use U+2F85E instead of U+5922.
+	(J90-5135): Use JX1-7D63 instead of U+FA68.
+	(J90-5148): Use GT-K00710 instead of BC-8C58.
+	(J90-524D): Use JU+5C28 instead of U+5C28.
+	(J90-5250): Use C3-3165 instead of U+6B2E.
+	(J90-536C): Add IDS.
+	(J90-5370): Use KU+7235 instead of U+7235.
+	(J90-5373): Add IDS.
+	(J90-544E): Complete IDS.
+	(J90-5475): Add IDS.
+	(J90-5476): Add IDS.
+	(J90-5478): Add IDS.
+	(J90-547A): Add IDS.
+	(J90-547B): Add IDS.
+	(J90-5624): Add IDS.
+	(J90-5629): Use K0-5060 instead of U+53CA.
+	(J90-5643): Add IDS.
+	(J90-5E6E): Add IDS.
+	(J90-5F26): Fix typo.
+	(J90-646D): Modify IDS.
+	(J90-6751): Add IDS.
+	(J90-6759): Add IDS.
+	(J90-6C57): Modify structure.
+	(J90-6C5E): Add IDS.
+	(J90-6C60): Add IDS.
+	(J90-6C64): Add IDS.
+	(J90-7351): Fix structure.
+	(J90-7352): Fix structure.
+
+2008-12-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025987): Use "臽" instead of "⿱⺈旧".
+	(U-00025BB1): Use "𡱅" instead of "⿸尸去".
+
+	* IDS-UCS-Basic.txt (U+9665): Use "臽" instead of "⿱⺈旧".
+
 2008-12-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt:
