@@ -1,3 +1,35 @@
+2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-6.txt: Use "�����" instead of "⿱⺤寸".
+
+	* IDS-UCS-Ext-B-5.txt: Use "�����" instead of "⿱⺤寸".
+	(U-00029770): Use "⿱⺤𣎼" instead of "⿳⺤龴木".
+	(U-00029B3D): Use "𣎼" instead of "⿱龴木".
+
+	* IDS-UCS-Ext-B-4.txt: Use "�����" instead of "⿱⺤寸".
+	(U-00026B3B): Modify a component.
+	(U-00026B3D): Modify a component.
+	(U-000276D9): Use "⿴�����⿱⺤𣎼" instead of "⿻�����⿳⺤龴木".
+
+	* IDS-UCS-Ext-B-3.txt: Use "�����" instead of "⿱⺤寸".
+	(U-00025B4D): Modify structure.
+	(U-00025B50): Use "⿱⺮�����" instead of "⿳⺮⺤寸".
+
+2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt: Use "�����" instead of "⿱⺤寸".
+	(U-00022279): Use "⿱�����𣎼" instead of "⿳�����龴木".
+
+	* IDS-UCS-Ext-B-1.txt: Use "�����" instead of "⿱⺤寸".
+	(U-000200ED): Modify a component.
+	(U-00020203): Use "𣎼" instead of "⿱龴木".
+	(U-000202BB): Use "朩" instead of "木".
+	(U-000213BD): Use "⿱⺤𣎼" instead of "⿳⺤龴木".
+
+	* IDS-Daikanwa-07.txt (M-19667): Add IDS.
+
+	* IDS-Daikanwa-01.txt (M-00193): Modify a component.
+
 2008-12-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt:
