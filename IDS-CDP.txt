@@ -1,7 +1,7 @@
 ;; -*- coding: utf-8-mcs-er -*-
 CDP-80B9	&CDP-80B9;	&CDP-80B9;	# reverse 虎
-CDP-80C3	&CDP-80C3;	&CDP-80C3;
-CDP-80C4	&CDP-80C4;	&CDP-80C4;
+CDP-80C3	&CDP-80C3;	⿱𠃬口	# ≒𠷎
+CDP-80C4	&CDP-80C4;	⿹&CDP-8AC2;口	# ≒𠷎
 CDP-8546	&CDP-8546;	&CDP-8546;	# =𠾃-⿵冂夻
 CDP-8547	&CDP-8547;	&CDP-8547;	# =𧿗-足,𧰧-一
 CDP-8548	&CDP-8548;	&CDP-8548;	# =𡃬-⿵冂夻
@@ -33,7 +33,7 @@ CDP-857B	&CDP-857B;	⿻十昍
 CDP-857C	&CDP-857C;	⿻大𠈌	# =𡙫-𠆢,=𡚅-从,=𦹬-艹
 CDP-857D	&CDP-857D;	⿻⺸誩	# =𠑫-亻,=𡤮-女,=𨟪-阝
 CDP-85A1	&CDP-857F;	⿻𠀆𠈌	# =𡼀-山
-CDP-85A4	&CDP-85A4;	⿻土吅	# =喪-&CDP-8CC6;,=𡃟-哀
+CDP-85A4	&CDP-85A4;	𡋑
 CDP-85A5	&CDP-85A5;	⿻𠀆从	# =𡨔-宀,=𥙽-礻,=𥦑-穴
 CDP-85A6	&CDP-85A6;	幾
 CDP-85A7	&CDP-85A7;	⿻又丷
@@ -344,7 +344,7 @@ CDP-887C	&CDP-887C;	⿻正一	# =𦦜-舂
 CDP-887D	&CDP-887D;	廾
 CDP-88A3	&CDP-88A3;	瓜
 CDP-88A4	&CDP-88A4;	&CDP-88A4;	# =𢧤-呈
-CDP-88A5	&CDP-88A5;	⿻土吅
+CDP-88A5	&CDP-88A5;	⿻土吅	# =喪-&CDP-8CC6;,=𡃟-哀
 CDP-88A6	&CDP-88A6;	⿻十𠈌	# =傘-𠆢,=𠦬-丿,=𡙹-𡗗,=𦶎-艹
 CDP-88A7	&CDP-88A7;	&CDP-88A7;	# =𢨀-圼,=𢨞-異,=𤎷-炅,=𥏛-矢,=𦁋-糸,=𧨺-言,=𧬣-𧦊
 CDP-88AA	&CDP-88AA;	𠕋	# =𠛹-刂,=𤽛-白,=𧱆-豕
@@ -481,9 +481,9 @@ CDP-8A78	&CDP-8A78;	冃
 CDP-8A7B	&CDP-8A7B;	𦫳
 CDP-8AB9	&CDP-8AB9;	⿱灭又	# =鋄-釒,=𤥙-王,=𦯘-艹,=𪑉-黑
 CDP-8ABB	&CDP-8ABB;	𡉚
-CDP-8AC2	&CDP-8AC2;	𢏚	# =𢏚（工→コ/匚）
+CDP-8AC2	&CDP-8AC2;	𢏚	# =𢏚（工→&CDP-8C78;/匚）
 CDP-8AC5	&CDP-8AC5;	⿱罒方
-CDP-8AC6	&CDP-8AC6;	⿰⿱⺊冊又
+CDP-8AC6	&CDP-8AC6;	⿰⿱⺊冊又	# =㕟
 CDP-8ACC	&CDP-8ACC;	𧴪
 CDP-8ACE	&CDP-8ACE;	&CDP-8ACE;
 CDP-8AD6	&CDP-8AD6;	⿸厂剡
@@ -642,7 +642,6 @@ CDP-8CF0	&CDP-8CF0;	⿱䒑八
 CDP-8CF8	&CDP-8CF8;	⿰臣⿱𠂉鹵
 CDP-8CF9	&CDP-8CF9;	⿱亼&CDP-89CE;
 CDP-8CFA	&CDP-8CFA;	⿰工口
-CDP-8CFC	&CDP-8CFC;	⿰𠂉其
 CDP-8CFD	&CDP-8CFD;	⿱𠂉品
 CDP-8D40	&CDP-8D40;	⿸广廿
 CDP-8D44	&CDP-8D44;	⿳士冖一	# =壳-几,=𡔾-&CDP-8555;,=𣪊-殳,=𥞤-禾
@@ -658,7 +657,6 @@ CDP-8D56	&CDP-8D56;	&CDP-8D56;	# =廌-&CDP-8DBF;,=𢉖-厸,=𢉺-且,=𢉻-加,=
 CDP-8D57	&CDP-8D57;	⿳乛心夂
 CDP-8D5A	&CDP-8D5A;	⿸厂彡
 CDP-8D5B	&CDP-8D5B;	⿻土从	# =䘮-&CDP-8CC6;,=嗇-回,=𠩟-厂,=𧶐-員
-CDP-8D5E	&CDP-8D5E;	⿱一田
 CDP-8D60	&CDP-8D60;	⿳卝罒冖	# =䠢-足,=夢-夕,=甍-瓦,=瞢-目,=薎-伐,=薨-死,=蘉-侵,=𣊔-日,=𥌱-眠,=𥕗-石,=𦒃-羽,=𦴋-又,=𦸑-戈,=𦾋-舛,=𦿛-伯,=𧀆-豆,=𧀧-夌,=𧁌-𠈇,=𧁣-果,=𧄯-𤕻,=𧄼-登,=𪅇-鳥
 CDP-8D61	&CDP-8D61;	⿻一曲	# =曹-日,=𡬭-寸,=𣊛-昍,=𨠷-酉
 CDP-8D62	&CDP-8D62;	⿱丿止
@@ -688,7 +686,7 @@ CDP-8DB3	&CDP-8DB3;	⿱𠂉巾	# =斾-方,=鉓-釒,=飾-飠,=饰-饣,=𥍦-矛,=
 CDP-8DB4	&CDP-8DB4;	⿱臼土
 CDP-8DB5	&CDP-8DB5;	⿰幺隹	# =㢕-广,=㿈-疒,=𠦼-十
 CDP-8DB8	&CDP-8DB8;	⿹弓土	# =疆-畺,=𠱣-口
-CDP-8DBA	&CDP-8DBA;	&CDP-8DBA;
+CDP-8DBA	&CDP-8DBA;	&CDP-8DBA;	# =羲-𦍌
 CDP-8DBC	&CDP-8DBC;	⿰氵刅	# =梁-木,=粱-米,=𥞹-禾
 CDP-8DBF	&CDP-8DBF;	⿹&CDP-8BBF;灬	# =焉-正,=舃-臼,=𠦮-夲,=𡋬-土,=𢚎-心,=𤉐-出,=𨓃-辶
 CDP-8DC1	&CDP-8DC1;	&CDP-8DC1;	# =疟-疒,=虐-虍,=虐-虍
@@ -698,7 +696,7 @@ CDP-8DC9	&CDP-8DC9;	⿹勹丿	# =䇖-竹,=𡉍-土,=𢁞-巾,=𢩶-扌,=𤜩-犭
 CDP-8DCB	&CDP-8DCB;	⿻肀月	⿻聿冂
 CDP-8DD1	&CDP-8DD1;	⿲彳⿱山一亍
 CDP-8DD3	&CDP-8DD3;	⿶臼丵	# =𣫞-殳
-CDP-8DD7	&CDP-8DD7;	⿺元攴	# =冦-冖,=寇-宀
+CDP-8DD7	&CDP-8DD7;	𠕻
 CDP-8DDC	&CDP-8DDC;	⿱卝⿵冂丨
 CDP-8DDD	&CDP-8DDD;	⿻一中	⿻十口	# =叓-又,=𡈋-𡆵
 CDP-8DDF	&CDP-8DDF;	&CDP-8DDF;	# =雋-隹,=𡊐-土,=𡶓-山,=𧰶-豕
