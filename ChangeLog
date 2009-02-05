@@ -1,26 +1,99 @@
+2009-01-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-HZK08.txt (HZK08-D854): Complemented.
+	(HZK08-D86B): Likewise.
+	(HZK08-D86D): Likewise.
+	(HZK08-D86F): Likewise.
+	(HZK08-D870): Likewise.
+	(HZK08-D8AD): Likewise.
+	(HZK08-D94D): Likewise.
+	(HZK08-D954): Likewise.
+	(HZK08-D96C): Likewise.
+	(HZK08-D96F): Likewise.
+	(HZK08-D972): Likewise.
+	(HZK08-D973): Likewise.
+	(HZK08-DA4F): Likewise.
+	(HZK08-DA72): Likewise.
+	(HZK08-DAF8): Likewise.
+	(HZK08-DB44): Likewise.
+	(HZK08-DB45): Likewise.
+	(HZK08-DB46): Likewise.
+	(HZK08-DB5E): Likewise.
+	(HZK08-DB63): Likewise.
+	(HZK08-DB73): Likewise.
+	(HZK08-DBBA): Likewise.
+	(HZK08-DBF7): Likewise.
+	(HZK08-DBFC): Likewise.
+	(HZK08-DCA6): Likewise.
+	(HZK08-DCA7): Likewise.
+	(HZK08-DCC6): Likewise.
+	(HZK08-DD5F): Likewise.
+	(HZK08-DD79): Likewise.
+	(HZK08-DD7A): Likewise.
+	(HZK08-DD7D): Likewise.
+	(HZK08-DDA3): Likewise.
+
+	* IDS-HZK04.txt (HZK04-D4DB): Completed.
+	(HZK04-D4F8): Likewise.
+	(HZK04-D55C): Likewise.
+	(HZK04-D577): Likewise.
+	(HZK04-D5D6): Likewise.
+	(HZK04-D5DA): Likewise.
+	(HZK04-D5DD): Likewise.
+	(HZK04-D5E8): Likewise.
+	(HZK04-D5F9): Likewise.
+	(HZK04-D657): Likewise.
+	(HZK04-D65B): Likewise.
+	(HZK04-D65E): Likewise.
+	(HZK04-D67C): Likewise.
+	(HZK04-D6A1): Likewise.
+	(HZK04-D6A2): Likewise.
+	(HZK04-D6A5): Likewise.
+	(HZK04-D6A6): Likewise.
+	(HZK04-D6BB): Likewise.
+	(HZK04-D6BD): Likewise.
+	(HZK04-D6BF): Likewise.
+	(HZK04-D75C): Likewise.
+	(HZK04-D7BC): Likewise.
+	(HZK04-D7C3): Likewise.
+	(HZK04-D7C8): Likewise.
+	(HZK04-D7E3): Likewise.
+
+2009-01-20  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029BA2): Use "𡋲" instead of "⿱&CDP-89B6;土".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022C96): Use "𡋲" instead of "⿱&CDP-89B6;土".
+
+	* IDS-UCS-Ext-B-1.txt (U-000200ED): Modify a component.
+	(U-00020106): Fixed (reported by KANOU Hiroki at 2009-01-20 12:26
+	<mixi-msg:id=df72941679c2f7f68f2e178a6529df65>).
+	(U-000202FF): Use "𡋲" instead of "⿱&CDP-89B6;土".
+	(U-00020300): Use "𤔍" instead of "⿱⺤⿳龴乛小".
+
 2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Ext-B-6.txt: Use "�����" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-6.txt: Use "寽" instead of "⿱⺤寸".
 
-	* IDS-UCS-Ext-B-5.txt: Use "�����" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-5.txt: Use "寽" instead of "⿱⺤寸".
 	(U-00029770): Use "⿱⺤𣎼" instead of "⿳⺤龴木".
 	(U-00029B3D): Use "𣎼" instead of "⿱龴木".
 
-	* IDS-UCS-Ext-B-4.txt: Use "�����" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-4.txt: Use "寽" instead of "⿱⺤寸".
 	(U-00026B3B): Modify a component.
 	(U-00026B3D): Modify a component.
-	(U-000276D9): Use "⿴�����⿱⺤𣎼" instead of "⿻�����⿳⺤龴木".
+	(U-000276D9): Use "⿴衣⿱⺤𣎼" instead of "⿻衣⿳⺤龴木".
 
-	* IDS-UCS-Ext-B-3.txt: Use "�����" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-3.txt: Use "寽" instead of "⿱⺤寸".
 	(U-00025B4D): Modify structure.
-	(U-00025B50): Use "⿱⺮�����" instead of "⿳⺮⺤寸".
+	(U-00025B50): Use "⿱⺮寽" instead of "⿳⺮⺤寸".
 
 2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Ext-B-2.txt: Use "�����" instead of "⿱⺤寸".
-	(U-00022279): Use "⿱�����𣎼" instead of "⿳�����龴木".
+	* IDS-UCS-Ext-B-2.txt: Use "寽" instead of "⿱⺤寸".
+	(U-00022279): Use "⿱宀𣎼" instead of "⿳宀龴木".
 
-	* IDS-UCS-Ext-B-1.txt: Use "�����" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-1.txt: Use "寽" instead of "⿱⺤寸".
 	(U-000200ED): Modify a component.
 	(U-00020203): Use "𣎼" instead of "⿱龴木".
 	(U-000202BB): Use "朩" instead of "木".
@@ -84,8 +157,8 @@
 
 	* IDS-JIS-X0208-1990.txt:
 	- Use <CJK RADICAL WATER ONE> instead of U+6C35.
-	- Use "⿰&GT-K00495;" instead of "⿰木".
-	- Use "⿰&GT-K00405;" instead of "⿰火".
+	- Use "⿰木" instead of "⿰木".
+	- Use "⿰火" instead of "⿰火".
 	(J90-3F39): Use "林" instead of "⿰木木".
 	(J90-3F3A): Modify components.
 	(J90-485A): Compact IDS.
