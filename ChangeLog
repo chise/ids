@@ -1,3 +1,11 @@
+2009-02-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-09.txt (M-31130): Add IDS.
+	(M-31132): Add IDS.
+	(M-31140): Modify a component.
+
+	* IDS-JIS-X0208-1990.txt (J90-684F): Modify structure.
+
 2009-01-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-HZK08.txt (HZK08-D854): Complemented.
