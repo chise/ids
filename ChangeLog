@@ -1,3 +1,71 @@
+2009-02-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt (J90-385D): Modify a component.
+	(J90-3D2A): Modify a component.
+	(J90-4922): Likewise.
+	(J90-4C4C): Add IDS.
+	(J90-5745): Modify a component.
+	(J90-5E61): Add IDS.
+	(J90-5E64): Compact IDS.
+	(J90-5E74): Fix typo.
+	(J90-5E7B): Modify a component.
+	(J90-6156): Modify a component.
+	(J90-6748): Add IDS.
+	(J90-6A2A): Modify a component.
+	(J90-6A2B): Add IDS.
+	(J90-6A2D): Likewise.
+	(J90-6C7C): Complete IDS.
+	(J90-6C7E): Complete IDS.
+	(J90-6D24): Complete IDS.
+	(J90-6D25): Complete IDS.
+	(J90-6D2A): Complete IDS.
+	(J90-6D2C): Modify a component.
+	(J90-6D2D): Complete IDS.
+	(J90-6D30): Complete IDS.
+	(J90-6D39): Complete IDS.
+	(J90-6F6C): Add IDS.
+	(J90-723C): Modify a component.
+	(J90-7369): Modify a component.
+
+2009-02-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+51FD): Add IDS.
+
+	* IDS-HZK04.txt: Modify some components.
+	(HZK04-A4AB): Complete IDS.
+	(HZK04-A4EE): Compact and complete IDS.
+	(HZK04-A4EF): Likewise.
+	(HZK04-A4F0): Likewise.
+	(HZK04-A54E): Likewise.
+	(HZK04-A552): Likewise.
+	(HZK04-A5AF): Complete IDS.
+	(HZK04-A5CF): Likewise.
+	(HZK04-A5D1): Likewise.
+	(HZK04-A5D4): Likewise.
+	(HZK04-A5D9): Likewise.
+
+	* IDS-HZK03.txt: Modify some components.
+	(HZK03-F6D9): Compact and complete IDS.
+	(HZK03-F6F7): Likewise.
+	(HZK03-F77B): Likewise.
+	(HZK03-F7A1): Complete IDS.
+	(HZK03-F7A2): Likewise.
+	(HZK03-C5CB): Likewise.
+	(HZK03-C5CC): Likewise.
+	(HZK03-C5D0): Likewise.
+	(HZK03-C5ED): Likewise.
+	(HZK03-C5EE): Likewise.
+	(HZK03-C5EF): Likewise.
+	(HZK03-F8BC): Likewise.
+	(HZK03-F8DD): Compact and complete IDS.
+	(HZK03-F8E0): Likewise.
+	(HZK03-F962): Likewise.
+	(HZK03-F964): Likewise.
+	(HZK03-F9A3): Complete IDS.
+	(HZK03-F9A6): Compact and complete IDS.
+	(HZK03-F9C1): Complete IDS.
+	(HZK03-F9C5): Likewise.
+
 2009-02-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-09.txt (M-31130): Add IDS.
