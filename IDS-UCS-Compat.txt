@@ -160,10 +160,10 @@ U+FAA8	直	⿱十&CDP-8BA5;
 U+FAA9	睊	⿰目䏍
 U+FAAA	着	⿸⺶目
 U+FAAB	磌	⿰石真
-U+FAAC	窱	⿱穴⿲亻丨⿱夂朩
+U+FAAC	窱	⿱穴⿰&CDP-8B7A;⿱夂朩
 U+FAAD	節	⿱竹即
 U+FAAE	类	⿱米犬
-U+FAAF	絛	⿲亻丨⿱夂糸
+U+FAAF	絛	⿰&CDP-8B7A;⿱夂糸
 U+FAB0	練	⿰糸東
 U+FAB1	缾	⿰缶幷
 U+FAB2	者	⿸耂日
@@ -201,7 +201,7 @@ U+FAD1	𣏕	⿰木朮
 U+FAD2	㮝	⿰木郤
 U+FAD3	䀘	⿰目幵
 U+FAD4	䀹	⿰目㚒
-U+FAD5	𥉉	⿰目⿲亻丨⿱夂朩
+U+FAD5	𥉉	⿰目⿰&CDP-8B7A;⿱夂朩
 U+FAD6	𥳐	⿱竹開
 U+FAD7	𧻓	⿺走幷
 U+FAD8	齃	⿰鼻⿱日匂
