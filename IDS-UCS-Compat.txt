@@ -183,7 +183,7 @@ U+FABF	謹	⿰言⿱廿⿻口土
 U+FAC0	變	⿱䜌夂
 U+FAC1	贈	⿰貝⿳八田日
 U+FAC2	輸	⿰車俞
-U+FAC3	遲	⿺辶⿸尸⿱氺㐄
+U+FAC3	遲	⿺辶⿸尸⿱&CDP-8C41;㐄
 U+FAC4	醙	⿰酉⿱𦥔又
 U+FAC5	鉶	⿰金𠛬
 U+FAC6	陼	⿰阝者
