@@ -1,3 +1,35 @@
+2009-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-HZK09.txt (HZK09-AD73): Complete IDS.
+	(HZK09-AD74): Likewise.
+	(HZK09-AD75): Likewise.
+	(HZK09-AD76): Likewise.
+	(HZK09-AD7A): Likewise.
+	(HZK09-AD7D): Modify a component.
+	(HZK09-ADB5): Likewise.
+	(HZK09-ADB6): Complete and compact IDS.
+	(HZK09-ADB9): Modify a component.
+	(HZK09-D777): Likewise.
+
+2009-05-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-12.txt (M-46912): Add IDS.
+	(M-46920): Likewise.
+	(M-46921): Likewise.
+	(M-46923): Likewise.
+	(M-46928): Likewise.
+	(M-46929): Likewise.
+	(M-46930): Modify a component.
+	(M-46931): Likewise.
+	(M-46932): Modify a component.
+	(M-46933): Add IDS.
+	(M-46935): Likewise.
+	(M-46946): Likewise.
+
+2009-05-04  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Basic.txt (U+5870): Fixed.
+
 2009-02-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt (J90-385D): Modify a component.
