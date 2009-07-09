@@ -39,16 +39,16 @@
        (cond
 	((string-match "&CB\\([0-9]+\\);" str)
 	 (setq code (string-to-int (match-string 1 str)))
-	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert "<a href=\"/char-desc?char=")
 	 (insert str)
-	 (insert (format "\"><img alt=\"CB%05d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
+	 (insert (format "\"><img alt=\"CB%05d\" src=\"/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
 			 code (/ code 1000) code))
 	 (when code-desc
 	   (insert (format "CB%05d</a>" code)))
 	 )
 	((string-match "&JC3-\\([0-9A-F]+\\);" str)
 	 (setq code (string-to-int (match-string 1 str) 16))
-	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert "<a href=\"/char-desc?char=")
 	 (insert str)
 	 (insert (format "\"><img alt=\"JC3-%04X\" src=\"http://kanji.zinbun.kyoto-u.ac.jp/db/CHINA3/Gaiji/%04x.gif\">\n"
 			 code code))
@@ -58,9 +58,9 @@
 	((string-match "&J\\(78\\|83\\|90\\|SP\\)-\\([0-9A-F]+\\);" str)
 	 (setq plane (match-string 1 str)
 	       code (string-to-int (match-string 2 str) 16))
-	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert "<a href=\"/char-desc?char=")
 	 (insert str)
-	 (insert (format "\"><img alt=\"J%s-%04X\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/JIS-%s/%02d-%02d.gif\">\n"
+	 (insert (format "\"><img alt=\"J%s-%04X\" src=\"/glyphs/JIS-%s/%02d-%02d.gif\">\n"
 			 plane code plane
 			 (- (lsh code -8) 32)
 			 (- (logand code 255) 32)))
@@ -70,9 +70,9 @@
 	((string-match "&G\\([01]\\)-\\([0-9A-F]+\\);" str)
 	 (setq plane (string-to-int (match-string 1 str))
 	       code (string-to-int (match-string 2 str) 16))
-	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert "<a href=\"/char-desc?char=")
 	 (insert str)
-	 (insert (format "\"><img alt=\"G%d-%04X\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/GB%d/%02d-%02d.gif\">\n"
+	 (insert (format "\"><img alt=\"G%d-%04X\" src=\"/glyphs/GB%d/%02d-%02d.gif\">\n"
 			 plane code plane
 			 (- (lsh code -8) 32)
 			 (- (logand code 255) 32)))
@@ -82,24 +82,24 @@
 	((string-match "&C\\([1-7]\\)-\\([0-9A-F]+\\);" str)
 	 (setq plane (string-to-int (match-string 1 str))
 	       code (string-to-int (match-string 2 str) 16))
-	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert "<a href=\"/char-desc?char=")
 	 (insert str)
-	 (insert (format "\"><img alt=\"C%d-%04X\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/CNS%d/%04X.gif\">\n"
+	 (insert (format "\"><img alt=\"C%d-%04X\" src=\"/glyphs/CNS%d/%04X.gif\">\n"
 			 plane code plane code))
 	 (when code-desc
 	   (insert (format "C%d-%04X</a>" plane code)))
 	 )
 	((string-match "&ZOB-\\([0-9]+\\);" str)
 	 (setq code (string-to-int (match-string 1 str)))
-	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert "<a href=\"/char-desc?char=")
 	 (insert str)
-	 (insert (format "\"><img alt=\"ZOB-%04d\" src=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/ZOB-1968/%04d.png\">\n"
+	 (insert (format "\"><img alt=\"ZOB-%04d\" src=\"/glyphs/ZOB-1968/%04d.png\">\n"
 			 code code))
 	 (when code-desc
 	   (insert (format "ZOB-%04d</a>" code)))
 	 )
 	(t
-	 (insert "<a href=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=")
+	 (insert "<a href=\"/char-desc?char=")
          ;; (insert str)
 	 (insert
 	  (mapconcat (lambda (c)
@@ -267,7 +267,7 @@
     (princ "
 <hr>
 <p>
-<form action=\"http://mousai.kanji.zinbun.kyoto-u.ac.jp/ids-find\" method=\"GET\">
+<form action=\"/ids-find\" method=\"GET\">
 ")
     (princ (encode-coding-string "部品文字列" 'utf-8-jp-er))
     (princ " <input type=\"text\" name=\"components\" size=\"30\" maxlength=\"30\" value=\"")
