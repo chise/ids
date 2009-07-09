@@ -11,6 +11,16 @@
 	(HZK09-ADB9): Modify a component.
 	(HZK09-D777): Likewise.
 
+2009-05-18  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-format-char): Link to
+	`/char-desc?char=...' instead of
+	`http://mousai.kanji.zinbun.kyoto-u.ac.jp/char-desc?char=...'; use
+	`/glyphs/' instead of
+	`http://mousai.kanji.zinbun.kyoto-u.ac.jp/glyphs/'.
+	(www-batch-ids-find): Use `/ids-find' instead of
+	`http://mousai.kanji.zinbun.kyoto-u.ac.jp/ids-find'.
+
 2009-05-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-12.txt (M-46912): Add IDS.
