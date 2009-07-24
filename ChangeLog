@@ -4,6 +4,14 @@
 	(www-ids-insert-chars-including-components): Modify for heavy
 	access.
 
+2009-06-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-06.txt (M-14751): Add IDS.
+
+2009-06-22  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-04.txt (M-11491): Add IDS.
+
 2009-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-HZK09.txt (HZK09-AD73): Complete IDS.
@@ -45,6 +53,11 @@
 2009-05-04  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Basic.txt (U+5870): Fixed.
+
+2009-02-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: Modify some components.
+	(J90-4D40): Use "&GT-K02290;" instead of "⿳&CDP-89B2;一八".
 
 2009-02-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
