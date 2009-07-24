@@ -1,3 +1,9 @@
+2009-07-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.24.2.
+	(www-ids-insert-chars-including-components): Modify for heavy
+	access.
+
 2009-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-HZK09.txt (HZK09-AD73): Complete IDS.
