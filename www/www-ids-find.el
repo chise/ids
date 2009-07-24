@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.24.1")
+(defconst www-ids-find-version "0.24.2")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -162,16 +162,18 @@
 (defun www-ids-insert-chars-including-components (components
 						  &optional ignored-chars)
   (let ((products (copy-list (ideographic-products-find components)))
-	is as bs) 
+	is as bs len ignore-children)
+    (setq len (length products))
     (dolist (c (cond
-		((> (length products) 10000)
+		((> len 8192)
+		 (setq ignore-children t)
 		 products)
-		((> (length products) 4096)
+		((> len 4096)
 		 (sort products
 		       (lambda (a b)
 			 (< (char-int a)(char-int b))))
 		 )
-		((> (length products) 512)
+		((> len 512)
 		 (sort products
 		       (lambda (a b)
 			 (if (setq as (char-total-strokes a))
@@ -197,12 +199,13 @@
 	(setq is (char-feature c 'ideographic-structure))
 	(princ "<li>")
 	(www-ids-find-format-line c is)
-	(princ "<ul>\n")
-	(setq ignored-chars
-	      (www-ids-insert-chars-including-components
-	       (char-to-string c)
-	       (cons c ignored-chars)))
-	(princ "</ul>\n")
+	(unless ignore-children
+	  (princ "<ul>\n")
+	  (setq ignored-chars
+		(www-ids-insert-chars-including-components
+		 (char-to-string c)
+		 (cons c ignored-chars)))
+	  (princ "</ul>\n"))
 	)
       ))
   ignored-chars)
@@ -361,7 +364,7 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
       ))
     (princ "<hr>")
     (princ "<p>
-Copyright (C) 2005, 2006, 2007, 2008 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+Copyright (C) 2005, 2006, 2007, 2008, 2009 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
 >MORIOKA Tomohiko</a>")
     (princ
      (format
