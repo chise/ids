@@ -12,6 +12,18 @@
 
 	* IDS-Daikanwa-04.txt (M-11491): Add IDS.
 
+2009-06-17  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026F93): Fix component.
+	(U-00026F95): Modify component.
+	(U-00026FAB): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-000200B9): Add IDS.
+
+	* IDS-UCS-Ext-B-2.txt (U-000223DA): Add IDS.
+	(U-000223DB): Modify component.
+	(U-00022472): Likewise.
+
 2009-05-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-HZK09.txt (HZK09-AD73): Complete IDS.
