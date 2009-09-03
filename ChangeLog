@@ -71,6 +71,9 @@
 	* IDS-JIS-X0208-1990.txt: Modify some components.
 	(J90-4D40): Use "&GT-K02290;" instead of "⿳&CDP-89B2;一八".
 
+	* ids-dump.el (ids-dump-insert-jis-x0208-1990): Use
+	`ideographic-structure-to-ids' instead of `ids-dump-format-list'.
+
 2009-02-19  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt (J90-385D): Modify a component.
