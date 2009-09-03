@@ -1,6 +1,6 @@
 ;;; ids-dump.el --- Dump utility of IDS-* files
 
-;; Copyright (C) 2002,2003,2004,2005 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2004,2005,2009 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -159,7 +159,7 @@
 		 h l
 		 (decode-builtin-char 'japanese-jisx0208-1990
 				      (logior (lsh h 8) l))
-		 (or (ids-dump-format-list
+		 (or (ideographic-structure-to-ids
 		      (get-char-attribute chr 'ideographic-structure))
 		     "")))
 	(setq cell (1+ cell)))
@@ -174,7 +174,7 @@
 	       h l
 	       (decode-builtin-char 'japanese-jisx0208-1990
 				    (logior (lsh h 8) l))
-	       (or (ids-dump-format-list
+	       (or (ideographic-structure-to-ids
 		    (get-char-attribute chr 'ideographic-structure))
 		   "")))
       (setq cell (1+ cell)))))
