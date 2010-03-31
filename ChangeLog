@@ -1,3 +1,28 @@
+2010-09-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.24.3.
+	(www-ids-find-chise-link-map-url-prefix): Link to
+	http://fonts.jp/chise_linkmap/ instead of
+	http://kamichi.jp/chise_linkmap/.	
+	(www-ids-insert-chars-including-components):
+	- Change threshold to omit recursive search: use num >= 1024
+	  instead of num > 8192 [`num' means number of results].
+	- If num >= 2048, omit character sorting and formatting.
+	- Change threshold to omit total-strokes based character sorting:
+	  use num >= 1024 instead of num > 4096.
+	(www-batch-ids-find): Modify for
+	`www-ids-insert-chars-including-components': there are no needs to
+	print <ul> and </ul>.
+
+2009-07-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021450): Compact IDS.
+	(U-00021F36): Likewise.
+
+	* IDS-UCS-Ext-A.txt (U+3D55): Compact IDS.
+
+	* IDS-UCS-Basic.txt (U+64A1): Compact IDS.
+
 2009-07-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-Daikanwa-10.txt (M-33563): Add IDS.
