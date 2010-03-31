@@ -1,3 +1,7 @@
+2010-02-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-01.txt (M-01272): Add IDS.
+
 2009-09-09  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.24.3.
@@ -14,7 +18,31 @@
 	`www-ids-insert-chars-including-components': there are no needs to
 	print <ul> and </ul>.
 
+2009-09-04  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-03.txt (M-06494): Modify IDS.
+
 2009-07-25  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "叅" instead of "⿱⿱厽人㣺".
+	(U-00028F4E): Use "𠇍" instead of "⿱人㣺".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "叅" instead of "⿱厽⿱人㣺".
+	- Use "𠇍" instead of "⿱人㣺".
+	(U-00023F79): Use "𡩋" instead of "⿳宀心冉".
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "叅" instead of "⿱厽⿱人㣺" or "⿱厶⿰厶厶⿱人㣺".
+	- Use "𠇍" instead of "⿱人㣺".
+	- Use "䖝" instead of "⿱丿虫".
+	(U-000273E5): Use "𦮕" instead of "⿳⺿人㣺".
+	(U-0002742C): Modify IDS.
+	(U-00027475): Complete IDS.
+	(U-00027476): Fix IDS.
+	(U-00027477): Fix IDS.
+	(U-00027581): Complete IDS.
 
 	* IDS-UCS-Ext-B-1.txt (U-00021450): Compact IDS.
 	(U-00021F36): Likewise.
@@ -22,6 +50,11 @@
 	* IDS-UCS-Ext-A.txt (U+3D55): Compact IDS.
 
 	* IDS-UCS-Basic.txt (U+64A1): Compact IDS.
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "叅" instead of "⿱厽𠇍".
+	(U-0002487A): Use "𡩋" instead of "⿳宀心冉".
+	(U-00024E91): Use "叅" instead of "⿳厽人㣺".
 
 2009-07-24  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
