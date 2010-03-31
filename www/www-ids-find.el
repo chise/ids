@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.24.2")
+(defconst www-ids-find-version "0.24.3")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -26,7 +26,7 @@
 		      chise-system-db-directory))))
 
 (defvar www-ids-find-chise-link-map-url-prefix
-  "http://kamichi.jp/chise_linkmap/map.cgi?code=")
+  "http://fonts.jp/chise_linkmap/map.cgi?code=")
 
 (defvar www-ids-find-tang-chars-file-name
   "~tomo/projects/chise/ids/www/tang-chars.udd")
@@ -161,52 +161,66 @@
 
 (defun www-ids-insert-chars-including-components (components
 						  &optional ignored-chars)
-  (let ((products (copy-list (ideographic-products-find components)))
+  (let ((products (ideographic-products-find components))
 	is as bs len ignore-children)
     (setq len (length products))
-    (dolist (c (cond
-		((> len 8192)
-		 (setq ignore-children t)
-		 products)
-		((> len 4096)
-		 (sort products
-		       (lambda (a b)
-			 (< (char-int a)(char-int b))))
-		 )
-		((> len 512)
-		 (sort products
-		       (lambda (a b)
-			 (if (setq as (char-total-strokes a))
-			     (if (setq bs (char-total-strokes b))
-				 (if (= as bs)
-				     (< (char-int a)(char-int b))
-				   (< as bs))
-			       t)
-			   (< (char-int a)(char-int b)))))
-		 )
-		(t
-		 (sort products
-		       (lambda (a b)
-			 (if (setq as (char-total-strokes a))
-			     (if (setq bs (char-total-strokes b))
-				 (if (= as bs)
-				     (ideograph-char< a b)
-				   (< as bs))
-			       t)
-			   (ideograph-char< a b))))
-		 )))
-      (unless (memq c ignored-chars)
-	(setq is (char-feature c 'ideographic-structure))
-	(princ "<li>")
-	(www-ids-find-format-line c is)
-	(unless ignore-children
-	  (princ "<ul>\n")
-	  (setq ignored-chars
-		(www-ids-insert-chars-including-components
-		 (char-to-string c)
-		 (cons c ignored-chars)))
-	  (princ "</ul>\n"))
+    (when (>= len 1024)
+      (setq ignore-children t)
+      (princ
+       (encode-coding-string
+	"<p>結果が多すぎるため、再帰的検索を省略しました。</p>"
+	'utf-8-jp-er)))
+    (if (>= len 2048)
+	(dolist (c products)
+	  (www-ids-find-format-char c))
+      (princ "<ul>\n")
+      (dolist (c (cond
+                  ;; ((>= len 2048)
+                  ;;  (setq ignore-children t)
+                  ;;  products)
+                  ;; ((>= len 1024)
+                  ;;  products)
+		  ((>= len 1024)
+		   (sort (copy-list products)
+			 (lambda (a b)
+			   (< (char-int a)(char-int b))))
+		   )
+		  ((>= len 512)
+		   (sort (copy-list products)
+			 (lambda (a b)
+			   (if (setq as (char-total-strokes a))
+			       (if (setq bs (char-total-strokes b))
+				   (if (= as bs)
+				       (< (char-int a)(char-int b))
+				     (< as bs))
+				 t)
+			     (< (char-int a)(char-int b)))))
+		   )
+		  (t
+		   (sort (copy-list products)
+			 (lambda (a b)
+			   (if (setq as (char-total-strokes a))
+			       (if (setq bs (char-total-strokes b))
+				   (if (= as bs)
+				       (ideograph-char< a b)
+				     (< as bs))
+				 t)
+			     (ideograph-char< a b))))
+		   )))
+	(unless (memq c ignored-chars)
+	  (setq is (char-feature c 'ideographic-structure))
+	  (princ "<li>")
+	  (www-ids-find-format-line c is)
+	  (unless ignore-children
+            ;; (princ "<ul>\n")
+	    (setq ignored-chars
+		  (www-ids-insert-chars-including-components
+		   (char-to-string c)
+		   (cons c ignored-chars)))
+            ;; (princ "</ul>\n")
+	    ))
 	)
+      (princ "</ul>\n")
       ))
   ignored-chars)
 
@@ -318,9 +332,9 @@
       ;;                  (ideographic-structure-member c is))
       ;;                components)
       ;;     (www-ids-find-format-line c is)))
-      (princ "<ul>\n")
+      ;; (princ "<ul>\n")
       (www-ids-insert-chars-including-components components)
-      (princ "</ul>\n")
+      ;; (princ "</ul>\n")
       )
      (t
       (princ (encode-coding-string "<hr>
