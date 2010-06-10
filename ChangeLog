@@ -1,5 +1,13 @@
 2010-06-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
+	* IDS-UCS-Ext-C.txt: New file.
+
+2009-03-26  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* install-ids.el: Install IDS-UCS-Ext-C.txt.
+
+2010-06-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
 	* www-ids-find.el (www-ids-find-version): Update to 0.25.0.
 	(www-batch-ids-find): Use http://chise.zinbun.kyoto-u.ac.jp/chise/
 	instead of http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/ as
