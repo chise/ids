@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.24.3")
+(defconst www-ids-find-version "0.25.0")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -358,11 +358,11 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 <ul>
 <li><a href=\"http://cvs.m17n.org/viewcvs/chise/ids/www/www-ids-find.el?view=markup\"
 >www-ids-find.el (source file (Emacs Lisp part))
-<li><a href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/ids/\"
+<li><a href=\"http://chise.zinbun.kyoto-u.ac.jp/chise/ids/\"
 >「CHISE 漢字構造情報データベース」</a>
 <li><a href=\"http://fonts.jp/chise_linkmap/\"
 >「chise_linkmap : CHISE 漢字連環図」</a> by 上地宏一さん
-<li><a href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/\"
+<li><a href=\"http://chise.zinbun.kyoto-u.ac.jp/chise/\"
 >CHISE Project</a>
 </ul>
 <ul>
@@ -378,14 +378,14 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
       ))
     (princ "<hr>")
     (princ "<p>
-Copyright (C) 2005, 2006, 2007, 2008, 2009 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
 >MORIOKA Tomohiko</a>")
     (princ
      (format
       "<p>Powered by <a
-href=\"http://kanji.zinbun.kyoto-u.ac.jp/projects/chise/xemacs/\"
+href=\"http://chise.zinbun.kyoto-u.ac.jp/chise/xemacs/\"
 >XEmacs CHISE</a> %s."
-      xemacs-chise-version))
+      (encode-coding-string xemacs-chise-version 'utf-8-jp-er)))
     (princ "
 </body>
 </html>
