@@ -25,11 +25,14 @@
 (install-ids-read-file "IDS-UCS-Basic.txt" load-ids-simplify t)
 
 (install-ids-read-file "IDS-UCS-Ext-A.txt" load-ids-simplify t)
+
 (let ((i 1))
   (while (<= i 6)
     (install-ids-read-file (format "IDS-UCS-Ext-B-%d.txt" i)
 			   load-ids-simplify t)
     (setq i (1+ i))))
+
+(install-ids-read-file "IDS-UCS-Ext-C.txt" load-ids-simplify t)
 
 (let ((i 1))
   (while (<= i 2)
