@@ -3,7 +3,7 @@
 #
 
 PACKAGE = chise-ids
-VERSION	= 0.24
+VERSION	= 0.25
 
 TAR	= tar
 RM	= /bin/rm -f
@@ -20,7 +20,7 @@ VERSION_SPECIFIC_LISPDIR = NONE
 
 GOMI	= *.elc
 
-ARC_DIR = /home/kanji1/www/htdocs/projects/chise/dist/ids
+ARC_DIR = /var/www/chise/dist/ids
 
 
 elc:	package
