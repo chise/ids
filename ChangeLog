@@ -1,3 +1,22 @@
+2010-07-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-HZK01.txt (HZK01-C3AA): Completed.
+	(HZK01-C3BF): Completed.
+	(HZK01-C3C3): Add IDS.
+	(HZK01-F2AC): Modify component.
+
+2010-07-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020191): Fixed.
+
+	* IDS-Daikanwa-01.txt (M-00336): Add IDS.
+
+2010-07-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-CNS-3.txt (C3-4045): Modify component.
+
+	* install-ids.el: Install IDS-CNS-3.txt.
+
 2005-03-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-CNS-3.txt: New file.
