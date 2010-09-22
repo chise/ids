@@ -15,7 +15,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.25.0")
+(defconst www-ids-find-version "0.25.1")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -24,6 +24,9 @@
 		     (expand-file-name
 		      "character"
 		      chise-system-db-directory))))
+
+(defvar www-ids-find-char-viewer-url
+  "/chisewiki/view.cgi?char=")
 
 (defvar www-ids-find-chise-link-map-url-prefix
   "http://fonts.jp/chise_linkmap/map.cgi?code=")
@@ -39,7 +42,8 @@
        (cond
 	((string-match "&CB\\([0-9]+\\);" str)
 	 (setq code (string-to-int (match-string 1 str)))
-	 (insert "<a href=\"/char-desc?char=")
+	 (insert (format "<a href=\"%s"
+			 www-ids-find-char-viewer-url))
 	 (insert str)
 	 (insert (format "\"><img alt=\"CB%05d\" src=\"/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
 			 code (/ code 1000) code))
@@ -48,7 +52,8 @@
 	 )
 	((string-match "&JC3-\\([0-9A-F]+\\);" str)
 	 (setq code (string-to-int (match-string 1 str) 16))
-	 (insert "<a href=\"/char-desc?char=")
+	 (insert (format "<a href=\"%s"
+			 www-ids-find-char-viewer-url))
 	 (insert str)
 	 (insert (format "\"><img alt=\"JC3-%04X\" src=\"http://kanji.zinbun.kyoto-u.ac.jp/db/CHINA3/Gaiji/%04x.gif\">\n"
 			 code code))
@@ -58,7 +63,8 @@
 	((string-match "&J\\(78\\|83\\|90\\|SP\\)-\\([0-9A-F]+\\);" str)
 	 (setq plane (match-string 1 str)
 	       code (string-to-int (match-string 2 str) 16))
-	 (insert "<a href=\"/char-desc?char=")
+	 (insert (format "<a href=\"%s"
+			 www-ids-find-char-viewer-url))
 	 (insert str)
 	 (insert (format "\"><img alt=\"J%s-%04X\" src=\"/glyphs/JIS-%s/%02d-%02d.gif\">\n"
 			 plane code plane
@@ -70,7 +76,8 @@
 	((string-match "&G\\([01]\\)-\\([0-9A-F]+\\);" str)
 	 (setq plane (string-to-int (match-string 1 str))
 	       code (string-to-int (match-string 2 str) 16))
-	 (insert "<a href=\"/char-desc?char=")
+	 (insert (format "<a href=\"%s"
+			 www-ids-find-char-viewer-url))
 	 (insert str)
 	 (insert (format "\"><img alt=\"G%d-%04X\" src=\"/glyphs/GB%d/%02d-%02d.gif\">\n"
 			 plane code plane
@@ -82,7 +89,8 @@
 	((string-match "&C\\([1-7]\\)-\\([0-9A-F]+\\);" str)
 	 (setq plane (string-to-int (match-string 1 str))
 	       code (string-to-int (match-string 2 str) 16))
-	 (insert "<a href=\"/char-desc?char=")
+	 (insert (format "<a href=\"%s"
+			 www-ids-find-char-viewer-url))
 	 (insert str)
 	 (insert (format "\"><img alt=\"C%d-%04X\" src=\"/glyphs/CNS%d/%04X.gif\">\n"
 			 plane code plane code))
@@ -91,7 +99,8 @@
 	 )
 	((string-match "&ZOB-\\([0-9]+\\);" str)
 	 (setq code (string-to-int (match-string 1 str)))
-	 (insert "<a href=\"/char-desc?char=")
+	 (insert (format "<a href=\"%s"
+			 www-ids-find-char-viewer-url))
 	 (insert str)
 	 (insert (format "\"><img alt=\"ZOB-%04d\" src=\"/glyphs/ZOB-1968/%04d.png\">\n"
 			 code code))
@@ -99,7 +108,8 @@
 	   (insert (format "ZOB-%04d</a>" code)))
 	 )
 	(t
-	 (insert "<a href=\"/char-desc?char=")
+	 (insert (format "<a href=\"%s"
+			 www-ids-find-char-viewer-url))
          ;; (insert str)
 	 (insert
 	  (mapconcat (lambda (c)
@@ -358,11 +368,11 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 <ul>
 <li><a href=\"http://cvs.m17n.org/viewcvs/chise/ids/www/www-ids-find.el?view=markup\"
 >www-ids-find.el (source file (Emacs Lisp part))
-<li><a href=\"http://chise.zinbun.kyoto-u.ac.jp/chise/ids/\"
+<li><a href=\"http://www.chise.org/ids/\"
 >「CHISE 漢字構造情報データベース」</a>
 <li><a href=\"http://fonts.jp/chise_linkmap/\"
 >「chise_linkmap : CHISE 漢字連環図」</a> by 上地宏一さん
-<li><a href=\"http://chise.zinbun.kyoto-u.ac.jp/chise/\"
+<li><a href=\"http://www.chise.org/\"
 >CHISE Project</a>
 </ul>
 <ul>
@@ -383,7 +393,7 @@ Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 <a href=\"http://kanji.zinbun.k
     (princ
      (format
       "<p>Powered by <a
-href=\"http://chise.zinbun.kyoto-u.ac.jp/chise/xemacs/\"
+href=\"http://www.chise.org/xemacs/\"
 >XEmacs CHISE</a> %s."
       (encode-coding-string xemacs-chise-version 'utf-8-jp-er)))
     (princ "
