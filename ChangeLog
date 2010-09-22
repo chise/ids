@@ -1,3 +1,12 @@
+2010-09-22  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.25.1.
+	(www-ids-find-char-viewer-url): New variable; use CHISE-wiki
+	instead of CHISE char-desc.
+	(www-ids-find-format-char): Use `www-ids-find-char-viewer-url'.
+	(www-batch-ids-find): Use http://www.chise.org/ instead of
+	http://chise.zinbun.kyoto-u.ac.jp/chise/.
+
 2010-07-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-HZK01.txt (HZK01-C3AA): Completed.
