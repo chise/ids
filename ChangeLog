@@ -7,6 +7,14 @@
 	(www-batch-ids-find): Use http://www.chise.org/ instead of
 	http://chise.zinbun.kyoto-u.ac.jp/chise/.
 
+2010-09-10  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt: Modify some components.
+
+2010-08-05  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023068): Fixed.
+
 2010-07-28  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-HZK01.txt (HZK01-C3AA): Completed.
