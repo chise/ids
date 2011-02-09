@@ -1,3 +1,17 @@
+2011-02-01  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-Daikanwa-dx.txt (M-49556): Add IDS.
+
+	* IDS-CDP.txt (CDP-887A): Add IDS.
+
+2010-12-01  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020CD1): Fixed.
+	(U-00020CD2): Modify a component.
+	(U-00020CD4): Compacted.
+	(U-00020CDB): Compacted.
+	(U-00020CDC): Completed.
+
 2010-11-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027B1F): Fixed.
