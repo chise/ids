@@ -1,4 +1,14 @@
+2011-02-18  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt (J90-476E): Fixed.
+
 2011-02-09  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026FD9): Fixed.
+	(U-00026FDB): Compacted.
+	(U-00026FDC): Compacted.
+	(U-00026FDD): Compacted.
+	(U-00026FDE): Compacted.
 
 	* README.en (How to install): Add [Note].
 
