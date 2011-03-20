@@ -1,3 +1,46 @@
+2011-02-28  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-CBETA.txt: Use "厶" instead of "ㄙ".
+	(CB00857): Add IDS.
+	(CB00868): Ditto.
+	(CB00873): Ditto.
+	(CB00903): Ditto.
+	(CB00932): Ditto.
+	(CB00935): Ditto.
+	(CB01005): Ditto.
+	(CB01008): Ditto.
+	(CB02191): Modify IDS.
+	(CB02972): Likewise.
+	(CB03273): Likewise.
+	(CB06165): Likewise.
+	(CB07704): Likewise.
+	(CB07726): Likewise.
+	(CB08677): Likewise.
+	(CB08693): Likewise.
+	(CB09181): Likewise.
+	(CB11472): Likewise.
+	(CB12725): Likewise.
+
+	* IDS-Daikanwa-07.txt (M-17786): Add IDS.
+	(M-17787): Modify IDS.
+	(M-17789): Modify IDS.
+	(M-17790): Add IDS.
+	(M-17791): Complete IDS.
+	(M-17792): Modify IDS.
+	(M-17793): Add IDS.
+	(M-17794): Modify IDS.
+	(M-17795): Modify IDS.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028EA5): Fixed.
+	(U-000293C8): Fixed.
+	(U-0002960D): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026CC6): Fixed.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022BFB): Fixed.
+
+	* IDS-UCS-Basic.txt (U+6E37): Complete IDS.
+
 2011-02-18  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt (J90-476E): Fixed.
