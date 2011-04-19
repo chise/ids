@@ -1,3 +1,8 @@
+2011-03-20  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024360): Compact IDS.
+	(U-00024361): Complete IDS.
+
 2011-02-28  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
 
 	* IDS-CBETA.txt: Use "厶" instead of "ㄙ".
