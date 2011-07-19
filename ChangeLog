@@ -1,3 +1,24 @@
+2011-07-19  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-JIS-X0208-1990.txt:
+	- Modify some components.
+	- Use "尭" instead of "⿳十⺾兀".
+	- Add some IDSes.
+
+2011-07-07  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020D73): Compact and fix IDS.
+
+2011-05-22  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* ids-dump.el (ids-dump-ucs-basic@unicode): New command.
+
+2011-05-11  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* install-ids.el: Install IDS-UCS-Ext-D.txt.
+
+	* IDS-UCS-Ext-D.txt: New file.
+
 2011-03-20  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024360): Compact IDS.
