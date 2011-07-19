@@ -274,6 +274,14 @@
 		  '(#x4E00 . #x9FA5)))
 
 ;;;###autoload
+(defun ids-dump-ucs-basic@unicode (filename)
+  (interactive "Fdump IDS-UCS-Basic : ")
+  (ids-dump-range "IDS-UCS-Basic_u.txt" filename
+		  #'ids-dump-insert-ccs-ranges '=ucs@unicode
+		  "UU+%04X\t%c\t%s\n"
+		  '(#x4E00 . #x9FA5)))
+
+;;;###autoload
 (defun ids-dump-ucs-ext-a (filename)
   (interactive "Fdump IDS-UCS-Ext-A : ")
   (ids-dump-range "IDS-UCS-Ext-A.txt" filename
