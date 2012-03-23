@@ -1,4 +1,11 @@
+2012-03-09  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-3.txt: Convert some builtin characters to defined
+	characters.
+
 2011-07-19  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002212E): Fixed typo.
 
 	* IDS-JIS-X0208-1990.txt:
 	- Modify some components.
