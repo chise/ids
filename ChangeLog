@@ -1,3 +1,14 @@
+2012-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt: Fix or modify some components.
+	(J90-5B5C): Add IDS.
+	(J90-6640): Add IDS.
+	(J90-6643): Add IDS.
+	(J90-666B): Add IDS.
+	(J90-6D6D): Add IDS.
+	(J90-6D76): Add IDS.
+	(J90-7227): Complete IDS.
+
 2012-03-26  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022188): Modify a component.
