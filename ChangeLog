@@ -1,3 +1,9 @@
+2012-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat-Supplement.txt: Updated.
+
+	* IDS-UCS-Ext-D.txt: fixed.
+
 2012-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-JIS-X0208-1990.txt: Fix or modify some components.
