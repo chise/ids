@@ -1,3 +1,83 @@
+2013-05-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022591): Fixed.
+	(U-00022595): Compacted.
+	(U-00022596): Likewise.
+	(U-0002259A): Likewise.
+
+2013-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026882): Fixed.
+	(U-000269FD): Fixed.
+	(U-000269FE): Compacted.
+	(U-000269FF): Compacted.
+	(U-00026AC9): Fixed.
+	(U-00026D20): Fixed.
+	(U-00026D23): Compacted.
+	(U-00026D26): Fixed.
+	(U-00026D28): Compacted.
+	(U-00026D2D): Compacted.
+	(U-00026D2E): Compacted.
+	(U-00026D31): Completed.
+	(U-00026D37): Compacted.
+	(U-00026D3E): Compacted.
+	(U-00026D4E): Compacted.
+	(U-00026D51): Compacted.
+	(U-00026D52): Compacted.
+	(U-00026D59): Compacted.
+	(U-0002719C): Compacted.
+	(U-000271B6): Compacted.
+	(U-000271CA): Compacted.
+	(U-000271EA): Compacted.
+	(U-00027A04): Compacted.
+	(U-00027BD6): Compacted.
+	(U-00027FC9): Compacted.
+
+2013-03-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Avoid IVS.
+	(U-00025678): Completed.
+
+2013-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use "⿰女" instead of "⿰女".
+	- Use "⿰釒" instead of "⿰金".
+	- Modify some components.
+	- Avoid IVS.
+	(J90-317C): Fixed.
+	(J90-3554): Add IDS.
+	(J90-3632): Compacted.
+	(J90-3A35): Add IDS.
+	(J90-494B): Fixed.
+	(J90-4950): Add IDS.
+	(J90-495F): Add IDS.
+	(J90-5677): Add IDS.
+	(J90-5679..5724): Add IDSes.
+	(J90-5726..5728): Add IDSes.
+	(J90-572B..572D): Add IDSes.
+	(J90-577C): Add IDS.
+	(J90-5821): Add IDS.
+	(J90-5822): Add IDS.
+	(J90-582B): Add IDS.
+	(J90-582F): Add IDS.
+	(J90-5833): Add IDS.
+	(J90-6D65..6D67): Add IDSes.
+	(J90-6D6A): Add IDS.
+	(J90-6D6B): Add IDS.
+	(J90-6D6F..6D74): Add IDSes.
+	(J90-6D78..6D7A): Add IDSes.
+	(J90-6D7C): Add IDS.
+	(J90-6D7E): Add IDS.
+	(J90-6E21): Add IDS.
+	(J90-6E23): Add IDS.
+	(J90-6E26): Add IDS.
+	(J90-6E27): Add IDS.
+	(J90-6E2A): Add IDS.
+	(J90-6E2C..6E32): Add IDSes.
+	(J90-6E34): Add IDS.
+
 2012-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Compat-Supplement.txt: Updated.
