@@ -7,6 +7,11 @@
 
 2013-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A097): Fixed.
+	(U-0002A6B4): Fixed.
+	(U-0002A6BA): New IDS.
+	(U-0002A6C0): Fixed.
+
 	* IDS-UCS-Ext-B-4.txt (U-00026882): Fixed.
 	(U-000269FD): Fixed.
 	(U-000269FE): Compacted.
