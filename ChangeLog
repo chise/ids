@@ -1,3 +1,20 @@
+2013-06-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029B23): Compacted.
+	(U-00029C30): Likewise.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023413): Compacted.
+	(U-00023415): Likewise.
+	(U-0002341B): Likewise.
+	(U-0002341F): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-000201C3): Modify a component.
+	(U-000201C4): Likewise.
+	(U-000201E2): Fixed.
+	(U-000201E5): Modify a component.
+	(U-000201EB): Fixed.
+	(U-000201F9): Compacted.
+
 2013-05-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022591): Fixed.
