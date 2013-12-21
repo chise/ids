@@ -1,3 +1,7 @@
+2013-08-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020AB9): Compact IDS.
+
 2013-06-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029B23): Compacted.
@@ -1683,7 +1687,7 @@
 	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
 	- Use <CJK RADICAL HAND> instead of U+624C.
 	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
-	- Use "⿸&I-J90-5A41;" instead of "⿰&CDP-8B7A;⿱攵".
+	- Use "⿸攸" instead of "⿰&CDP-8B7A;⿱攵".
 	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
 	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
 	- Add/compact/modify/fix some IDSs.
