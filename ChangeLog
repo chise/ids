@@ -1,3 +1,22 @@
+2014-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-3.txt: Modify some components and/or compact IDSes.
+
+	* install-ids.el: Install IDS-UCS-Ext-E.txt.
+
+	* IDS-UCS-Ext-E.txt: New file.
+
+2014-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+903A): Completed.
+
+2014-02-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021502): Use "㠭" instead of
+	"⿱⿰工工⿰工工".
+	(U-00021785): Modify a component.
+	(U-00021ADF): Use "㠭" instead of "⿱⿰工工⿰工工".
+
 2013-12-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022A40): Fixed.
@@ -621,14 +640,14 @@
 
 2009-01-20  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Ext-B-5.txt (U-00029BA2): Use "𡋲" instead of "⿱&CDP-89B6;土".
+	* IDS-UCS-Ext-B-5.txt (U-00029BA2): Use "𡋲" instead of "⿱丣土".
 
-	* IDS-UCS-Ext-B-2.txt (U-00022C96): Use "𡋲" instead of "⿱&CDP-89B6;土".
+	* IDS-UCS-Ext-B-2.txt (U-00022C96): Use "𡋲" instead of "⿱丣土".
 
 	* IDS-UCS-Ext-B-1.txt (U-000200ED): Modify a component.
 	(U-00020106): Fixed (reported by KANOU Hiroki at 2009-01-20 12:26
 	<mixi-msg:id=df72941679c2f7f68f2e178a6529df65>).
-	(U-000202FF): Use "𡋲" instead of "⿱&CDP-89B6;土".
+	(U-000202FF): Use "𡋲" instead of "⿱丣土".
 	(U-00020300): Use "𤔍" instead of "⿱⺤⿳龴乛小".
 
 2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
@@ -751,7 +770,7 @@
 
 	* IDS-Daikanwa-07.txt:
 	- Modify some components.
-	- Use "畱" instead of "⿱&CDP-89B6;田".
+	- Use "畱" instead of "⿱丣田".
 	- Use "叏" instead of "⿱&CDP-89B3;又".
 	- Use "𢆰" instead of "⿱一幺".
 	(M-17922): Use "晉" instead of "晋".
@@ -1918,7 +1937,7 @@
 
 2005-02-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Basic.txt: Use "&GT-K05506;" instead of "⿱左⺼".
+	* IDS-UCS-Basic.txt: Use "&CDP-8CA9;" instead of "⿱左⺼".
 
 2005-02-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
