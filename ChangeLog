@@ -1,3 +1,7 @@
+2014-07-20  Andrew Pantyukhin <infofarmer@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+7A32): Fixed.
+
 2014-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CNS-3.txt: Modify some components and/or compact IDSes.
