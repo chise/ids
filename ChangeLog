@@ -1,10 +1,10 @@
-2014-08-09  MORIOKA Tomohiko  <tomo.git@chise.org>
-
-	* IDS-CNS-2.txt (C2-334D): Fixed (cf. [CHISE-ja:1002]).
-
 2014-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-JIS-X0208-1990.txt (J90-722E): Fixed (cf. [CHISE-ja:1002]).
+
+2014-08-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-2.txt (C2-334D): Fixed (cf. [CHISE-ja:1002]).
 
 2014-07-20  Andrew Pantyukhin <infofarmer@gmail.com>
 
