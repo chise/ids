@@ -1,3 +1,11 @@
+2014-08-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-2.txt (C2-334D): Fixed (cf. [CHISE-ja:1002]).
+
+2014-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt (J90-722E): Fixed (cf. [CHISE-ja:1002]).
+
 2014-07-20  Andrew Pantyukhin <infofarmer@gmail.com>
 
 	* IDS-UCS-Basic.txt (U+7A32): Fixed.
@@ -500,7 +508,7 @@
 2009-02-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt: Modify some components.
-	(J90-4D40): Use "&GT-K02290;" instead of "⿳&CDP-89B2;一八".
+	(J90-4D40): Use "&GT-K02290;" instead of "⿳小一八".
 
 	* ids-dump.el (ids-dump-insert-jis-x0208-1990): Use
 	`ideographic-structure-to-ids' instead of `ids-dump-format-list'.
@@ -1273,7 +1281,7 @@
 	to compact IDS.
 
 	* IDS-UCS-Basic.txt:
-	- Use "⿱&GT-K01443;" instead of "⿳&CDP-89B2;冖".
+	- Use "⿱&GT-K01443;" instead of "⿳小冖".
 	- Use "⿱龸" instead of "⿳⺌冖".
 
 2006-02-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
@@ -1686,7 +1694,7 @@
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 	- Use <CJK RADICAL PERSON> instead of U+4EBB.
 	- Use "⿱&GT-K01418;" instead of "⿳艹冖".
-	- Use GT-K01443 instead of "⿱&CDP-89B2;冖".
+	- Use GT-K01443 instead of "⿱小冖".
 	- Use "⿰⺶" instead of "⿰羊".
 	- Use "⿸朕" instead of "⿰月⿱龹".
 	- Use "⿰土" instead of "⿰土".
@@ -1703,7 +1711,7 @@
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 	- Use "⿱⻗" instead of "⿱雨".
-	- Use "⿱&GT-K01443;" instead of "⿳&CDP-89B2;冖".
+	- Use "⿱&GT-K01443;" instead of "⿳小冖".
 	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
 	- Use "𠂋" instead of "⿸𠂆一".
 	- Use "⿰土" instead of "⿰土".
@@ -2040,7 +2048,7 @@
 
 2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Basic.txt (U+53E2): Use "丵" instead of "⿱业&RUI6-E00E;".
+	* IDS-UCS-Basic.txt (U+53E2): Use "丵" instead of "⿱业𢆉".
 	(U+549D): Use "⿱⿰&CDP-895C;&CDP-895C;一" instead of "⿱⿰幺幺一".
 	(U+9E36): Use "⿳⿰&CDP-895C;&CDP-895C;一" instead of "⿳⿰幺幺一".
 	(U+54C0): Modify IDS.
