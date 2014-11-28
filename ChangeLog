@@ -1,3 +1,14 @@
+2014-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002AEAE): Fixed.
+	(U-0002B4BB): Use "𪺮" instead of "⿳𠫓冖牛".
+
+	* IDS-UCS-Ext-D.txt (U-0002B740): Add IDS.
+
+2014-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2CAB9): Complete IDS.
+
 2014-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-JIS-X0208-1990.txt (J90-722E): Fixed (cf. [CHISE-ja:1002]).
