@@ -1,3 +1,42 @@
+2014-12-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use <CJK RADICAL KNIFE ONE> or U-0002008A instead of BC-8B5B.
+	(U-00028A3D): Compacted.
+	(U-00028DDF): Compacted.
+	(U-00029719): Compacted.
+	(U-00029FFF): Compacted.
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use <CJK RADICAL KNIFE ONE> or U-0002008A instead of BC-8B5B.
+	(U-00022C3A): Fixed.
+	(U-00022CCE): Compacted.
+	(U-000234E4): Compacted.
+	(U-00023D65): Compacted.
+	(U-00023DDD): Compacted.
+
+2014-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000200AE): Completed.
+	(U-000200BB): Completed.
+	(U-00020132): Completed.
+	(U-00020151): Completed.
+	(U-000202D0): Completed.
+	(U-0002030B): Completed.
+	(U-00020351): Completed.
+	(U-00020396): Completed.
+	(U-0002042B): Completed.
+	(U-000212AE): Completed.
+
+	* IDS-UCS-Basic.txt (U+83B5): Completed.
+	(U+83EB): Completed.
+	(U+989F): Completed.
+	(U+9B2C): Completed.
+
+	* IDS-UCS-Ext-A.txt (U+3E14): Completed.
+	(U+418B): Completed.
+	(U+4733): Completed.
+
 2014-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CDP.txt (CDP-86F7): Add IDS.
