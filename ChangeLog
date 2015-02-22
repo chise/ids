@@ -1,3 +1,25 @@
+2015-01-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023C85): Use "工" instead of
+	"⿳一&CDP-89F5;一".
+
+2015-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C899): Use "⿵𣎆角" instead of "⿱吂⿰𦛲凡.
+
+2015-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000261FD): Use "⿵⿳亡口⿰⺼月x" instead
+	of "⿳亡口⿲&GT-37857;x月".
+	(U-0002713F): Use "⿵𣎆x" instead of "⿱亡口⿲&GT-37857;x凡".
+	(U-0002718D): Use "⿵𦝠x" instead of "⿱亡口⿲&GT-37857;x卂".
+
+	* IDS-UCS-Ext-B-5.txt (U-000283E9): Use "𣎆" instead of
+	"⿳亡口⿰⺼凡".
+	(U-00028B5E): Likewise.
+	(U-00029F0A): Likewise.
+	(U-00029F0D): Fixed.
+
 2015-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020525): Fixed.
