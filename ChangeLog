@@ -1,3 +1,18 @@
+2015-02-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022EE3): Use "⿱圼&GT-K01160;" instead of "⿳日
+	工⿱口十".
+	(U-00023189): Use "&GT-K01160;" instead of "⿱口十".
+	(U-0002348B): Use "圼" instead of "⿱日工".
+	(U-00023D40): Likewise.
+
+	* IDS-UCS-Ext-B-4.txt (U-00027A24): Use "圼" instead of "⿱日工".
+
+	* IDS-UCS-Ext-B-3.txt (U-0002424A): Use "圼" instead of "⿱日工".
+	(U-000247BE): Likewise.
+
+	* IDS-UCS-Ext-E.txt (U+2C898): Use "&CDP-8BB0;" instead of "⿱从龰".
+
 2015-01-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023C85): Use "工" instead of
