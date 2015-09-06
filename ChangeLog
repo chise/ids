@@ -1,3 +1,52 @@
+2015-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+731F): Use "鼡" instead of "⿱小&GT-K01457;".
+	(U+874B): Likewise.
+
+2015-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000201EC): Fixed.
+	(U-0002059C): Use "𡍯" instead of "⿹弓⿱⿴囗&CDP-89D5;土".
+	(U-0002136F): Use "⿹㢴x" instead of "⿹弓⿱⿴囗&CDP-89D5;x".
+	(U-00021432): Use "㢴" instead of "⿹弓⿴囗&CDP-89D5;".
+	(U-00021B00): Fixed.
+	(U-00021B39): Use "𩠐" instead of "⿱巛𦣻".
+	(U-00021B4E): Likewise.
+	(U-00021B51): Likewise.
+
+2015-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000223E9): Use "㢴" instead of "⿹弓⿴囗
+	&CDP-89D5;".
+	(U-00022C15): Fixed.
+	(U-00023BD0): Use "𩠐" instead of "⿱巛𦣻".
+	(U-00023E4D): Use "㢴" instead of "⿹弓⿴囗&CDP-89D5;".
+	(U-00023F54): Use "𡍯" instead of "⿹弓⿱⿴囗&CDP-89D5;土".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028565): Use "𩠐" instead of "⿱巛𦣻".
+	(U-00028581): Likewise.
+	(U-00029812): Likewise.
+	(U-00029816): Likewise.
+	(U-0002981C): Likewise.
+	(U-0002981D): Likewise.
+	(U-0002981E): Likewise.
+	(U-00029821): Likewise.
+	(U-00029822): Likewise.
+	(U-00029823): Likewise.
+	(U-0002982A): Likewise.
+	(U-0002982B): Likewise.
+
+	* IDS-HZK12.txt (HZK12-ABBF): Completed.
+	(HZK12-ECDB): Completed.
+	(HZK12-EEC5): Completed.
+	(HZK12-EEC7): Completed.
+
+	* IDS-UCS-Ext-B-3.txt (U-000243EF): Fixed.
+	(U-000256FF): Use "㢴" instead of "⿹弓⿴囗&CDP-89D5;".
+
+	* IDS-Daikanwa-dx.txt (M-49253): Use "㢴" instead of "⿹弓⿴囗&CDP-89D5;".
+	(M-49513): Likewise.
+
 2015-02-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022EE3): Use "⿱圼&GT-K01160;" instead of "⿳日
