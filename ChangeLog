@@ -1,3 +1,14 @@
+2015-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000263CD): Use "㢴" instead of
+	"⿹弓⿴囗&CDP-89D5;".
+	(U-000263DA): Likewise.
+	(U-00026A7D): Use "𩠐" instead of "⿱巛𦣻".
+	(U-00026D1B): Use "㢴" instead of "⿹弓⿴囗&CDP-89D5;".
+	(U-00027604): Use "⿱𩠐x" instead of "⿳巛𦣻x".
+
+	* IDS-CNS-3.txt (C3-5367): Use "𩠐" instead of "⿱巛𦣻".
+l
 2015-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+731F): Use "鼡" instead of "⿱小&GT-K01457;".
@@ -16,8 +27,8 @@
 
 2015-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-2.txt (U-000223E9): Use "㢴" instead of "⿹弓⿴囗
-	&CDP-89D5;".
+	* IDS-UCS-Ext-B-2.txt (U-000223E9): Use "㢴" instead of
+	"⿹弓⿴囗&CDP-89D5;".
 	(U-00022C15): Fixed.
 	(U-00023BD0): Use "𩠐" instead of "⿱巛𦣻".
 	(U-00023E4D): Use "㢴" instead of "⿹弓⿴囗&CDP-89D5;".
