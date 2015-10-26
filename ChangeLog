@@ -1,4 +1,24 @@
+2015-09-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028BBD): Use "麨" instead of "⿺麥少".
+	(U-00028BBE): Use "𡔽" instead of "⿳⿱士乛𠀐吋".
+
+	* IDS-UCS-Ext-B-1.txt (U-000206F4): Fixed.
+	(U-0002153D): Use "𠀐" instead of "⿱中一".
+
+2015-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000260B6): Use "竒" instead of "⿱&CDP-8BAE;可".
+
+	* IDS-UCS-Ext-B-3.txt (U-00025ABC): Use "竒" instead of "⿱&CDP-8BAE;可".
+	(U-00025BFD): Ditto.
+
+	* IDS-UCS-Basic.txt: Use "&CDP-8BAE;" instead of "⿱亠丷".
+
 2015-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt (J90-3065): Apply new conventions for
+	glyph granularity for component "矢".
 
 	* IDS-UCS-Ext-B-4.txt (U-000263CD): Use "㢴" instead of
 	"⿹弓⿴囗&CDP-89D5;".
@@ -8,7 +28,7 @@
 	(U-00027604): Use "⿱𩠐x" instead of "⿳巛𦣻x".
 
 	* IDS-CNS-3.txt (C3-5367): Use "𩠐" instead of "⿱巛𦣻".
-l
+
 2015-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+731F): Use "鼡" instead of "⿱小&GT-K01457;".
@@ -2251,7 +2271,7 @@ l
 	- Use "岁" instead of "⿱山夕".
 	- Use "贳" instead of "⿱世贝".
 	- Use "轨" instead of "⿰车九".
-	- Use "贵" instead of "⿱&CDP-8C48;贝".
+	- Use "贵" instead of "⿱𠀐贝".
 	- Use "䜌" instead of "⿲糹言糹".
 	- Use "岁" instead of "⿱山夕".
 	- Use "贲" instead of "⿱卉贝".
