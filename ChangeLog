@@ -1,3 +1,22 @@
+2015-10-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use "畨" instead of "⿱米田".
+
+	* IDS-UCS-Ext-B-3.txt: Use "畨" instead of "⿱米田".
+	(U-00025F59): Fixed.
+
+	* IDS-UCS-Ext-B-2.txt: Use "畨" instead of "⿱米田".
+
+2015-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-3.txt:
+	- Use "𢆰" instead of "⿱一幺".
+	- Use "&GT-K01443;" instead of "⿱小冖".
+	- Use "⿱&GT-K01418;x" instead of "⿳⺾冖x".
+	(C3-255D): Modify operator.
+	(C3-255E): Modify component.
+	(C3-274D): Likewise.
+
 2015-09-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028BBD): Use "麨" instead of "⿺麥少".
