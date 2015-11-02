@@ -1,3 +1,33 @@
+2015-10-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022324): Use "⿸聿丶" instead of "⿻聿
+	丶".
+	(U-00022327): Use "𣥜" instead of "⿱止日".
+	(U-00022478): Use "⿱x&I-CB12952;" instead of "⿳x彐⿰夕巾".
+	(U-00022635): Use "𡖉" instead of "⿰夕卪".
+
+	* IDS-CBETA.txt (CB12952): Use "彐" instead of "⿻┐一⿱一"; use
+	"𪤷" instead of "⿰夕巾".
+	(CB13274): Use "彐" instead of "⿻┐一⿱一".
+	(CB13335): Likewise.
+
+	* IDS-UCS-Ext-B-5.txt (U-000295E0): Completed.
+	(U-00029937): Fixed.
+
+	* IDS-UCS-Ext-B-1.txt (U-000206A0): Use "𠣏" instead of "⿹勹止".
+	(U-00020EF2): Use "赦" instead of "⿰赤⺙".
+	(U-000214A7): Use "𠣏" instead of "⿹勹止".
+	(U-0002182C): Use "赦" instead of "⿰赤⺙".
+
+	* IDS-UCS-Ext-B-3.txt (U-000241D8): Use "夗" instead of "⿰夕㔾".
+	(U-000248A0): Use "𠣏" instead of "⿹勹止".
+	(U-00024ADD): Likewise.
+	(U-00024ADE): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026B58): Use "夘" instead of "⿰夕卩".
+
+	* IDS-UCS-Basic.txt (U+6801): Use "⿰x夘" instead of "⿲x夕卩".
+
 2015-10-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use "畨" instead of "⿱米田".
