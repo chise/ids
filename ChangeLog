@@ -1,5 +1,7 @@
 2015-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* www/www-hng-ids-find.el: New file.
+
 	* www/www-ids-find.el: Require `cwiki-common' of EsT.
 	(www-ids-find-version): Update to 0.26.
 	(www-ids-find-char-viewer-url): Use "/est/view/character/" instead
