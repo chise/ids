@@ -1,3 +1,33 @@
+2015-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el: Require `cwiki-common' of EsT.
+	(www-ids-find-version): Update to 0.26.
+	(www-ids-find-char-viewer-url): Use "/est/view/character/" instead
+	of "/chisewiki/view.cgi?char=".
+	(www-ids-find-format-char): New implementation; use
+	`www-uri-encode-object' and `www-format-encode-string'.
+
+2015-11-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CBETA.txt (CB03246): Use "𪠲" instead of "⿱口又".
+	(CB07068): Likewise.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028C6E): Use "𪠲" instead of "⿱口又".
+
+	* IDS-UCS-Ext-B-3.txt (U-000253CF): Use "𪠲" instead of "⿱口又".
+
+	* IDS-UCS-Ext-B-1.txt (U-0002051B): Use "𪠲" instead of "⿱口又".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002282C): Use "𪠲" instead of "⿱口又".
+	(U-00022919): Likewise.
+	(U-00022936): Likewise.
+	(U-00023CDA): Likewise.
+	(U-00023FDF): Likewise.
+
+2015-11-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6483): Fixed operator bug.
+
 2015-10-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022324): Use "⿸聿丶" instead of "⿻聿
