@@ -1,6 +1,8 @@
 (require 'ids-find)
 (require 'cwiki-common)
 
+(setq www-format-char-img-style "vertical-align:middle;")
+
 (defvar hng-ccs-list
   (let (dest)
     (dolist (ccs (charset-list))
@@ -156,7 +158,9 @@
   
 (defun www-ids-find-format-line (c is)
   (let (ucs len i ids)
+    (princ "<span class=\"entry\">")
     (www-ids-find-format-char c 'code-desc)
+    (princ "</span>")
     (princ
      (or (if (setq ucs (or (char-ucs c)
 			   (encode-char c 'ucs)))
@@ -177,9 +181,11 @@
       (setq ids (ideographic-structure-to-ids is))
       (setq i 0
 	    len (length ids))
+      (princ "<span class=\"ids\">")      
       (while (< i len)
 	(www-ids-find-format-char (aref ids i))
-	(setq i (1+ i))))
+	(setq i (1+ i)))
+      (princ "</span>"))
     (when (and ucs
 	       (with-current-buffer
 		   (find-file-noselect
@@ -308,6 +314,18 @@
 <html lang=\"ja\">
 <head>
 <title>CHISE IDS Find</title>
+<style type=\"text/css\">
+<!--
+.entry { font-size: 36px; }
+.entry a img { height: 36px; }
+.ids { font-size: 24px; }
+.ids a img { height: 24px; }
+img { vertical-align:middle; }
+a { text-decoration:none; }
+ul { margin: 0 0; }
+li { margin: 0 0 -0.2em; }
+-->
+</style>
 </head>
 
 <body>
