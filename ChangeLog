@@ -1,3 +1,27 @@
+2016-03-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-hng-ids-find.el (www-format-char-img-style): New
+	variable.
+	(www-ids-find-format-line):
+	- Enclose the first column with <span class=\"entry\"> tag.
+	- Enclose IDS with <span class=\"ids\"> tag.
+	(www-batch-ids-find): Setup styles.
+
+2016-03-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-format-char-img-style): New variable.
+	(www-ids-find-format-line):
+	- Enclose the first column with <span class=\"entry\"> tag.
+	- Enclose IDS with <span class=\"ids\"> tag.
+	(www-batch-ids-find): Setup styles.
+
+2016-02-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000248C9): Complete IDS.
+	(U-000248CF): Use "𫊣" instead of "⿸虍魚".
+
+	* IDS-UCS-Ext-A.txt (U+4C77): Use "𫊣" instead of "⿸虍魚".
+
 2015-12-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-000287BF): Use "羮" instead of
@@ -83,7 +107,7 @@
 	* IDS-CNS-3.txt:
 	- Use "𢆰" instead of "⿱一幺".
 	- Use "&GT-K01443;" instead of "⿱小冖".
-	- Use "⿱&GT-K01418;x" instead of "⿳⺾冖x".
+	- Use "⿱𫇦x" instead of "⿳⺾冖x".
 	(C3-255D): Modify operator.
 	(C3-255E): Modify component.
 	(C3-274D): Likewise.
@@ -1962,7 +1986,7 @@
 	* IDS-UCS-Basic.txt:
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 	- Use <CJK RADICAL PERSON> instead of U+4EBB.
-	- Use "⿱&GT-K01418;" instead of "⿳艹冖".
+	- Use "⿱𫇦" instead of "⿳艹冖".
 	- Use GT-K01443 instead of "⿱小冖".
 	- Use "⿰⺶" instead of "⿰羊".
 	- Use "⿸朕" instead of "⿰月⿱龹".
