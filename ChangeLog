@@ -1,3 +1,25 @@
+2016-04-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-HZK01.txt: Use "&MJ057582;" instead of "⿰&CDP-8B7A;攵".
+
+2016-04-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025295): Use "𠋛" instead of "⿰&CDP-8B7A;⿱攴
+	月".
+	(U-00025891): Use "&CB08298;" instead of "⿰禾尤".
+
+	* IDS-UCS-Ext-B-5.txt (U-000289B7): Use "&MJ057582;" instead of "⿰&CDP-8B7A;攴".
+
+	* IDS-UCS-Ext-B-2.txt: Use "⿸&MJ057582;x" instead of "⿰&CDP-8B7A;⿱攴x".
+
+	* IDS-UCS-Ext-B-1.txt: Use "⿸&MJ057582;x" instead of "⿰&CDP-8B7A;⿱攴x".
+
+	* IDS-UCS-Ext-B-4.txt (U-00026C1E): Use "&MJ057582;" instead of "⿰&CDP-8B7A;攴".
+
+2016-04-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+36F7): Use "&CB08298;" instead of "⿰禾尤".
+
 2016-03-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* www/www-hng-ids-find.el (www-format-char-img-style): New
