@@ -1,3 +1,13 @@
+2016-04-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2CB7F): Use U+2585E-var-001 instead of
+	U+7A3D.
+
+	* IDS-UCS-Basic.txt:
+	- Use "&CB08298;" instead of "⿰禾尤".
+	- Use U+226F3 instead of IU+226F3.
+	(U+9459): Use U+2585E-var-001 instead of "⿱⿰禾尤旨".
+
 2016-04-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-HZK01.txt: Use "&MJ057582;" instead of "⿰&CDP-8B7A;攵".
