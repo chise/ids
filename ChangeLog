@@ -1,3 +1,9 @@
+2016-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002B4D7): Use "&GT-K11538;" instead of "⿸虍幸".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028608): Use "&GT-K11538;" instead of "⿸虍幸".
+
 2016-04-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2CB7F): Use U+2585E-var-001 instead of
@@ -2333,7 +2339,7 @@
 	- Use "𤫲" instead of "⿰瓜瓜".
 	- Use "珎" instead of "⿰⺩尔".
 	- Use "𢕪" instead of "⿰彳喬".
-	- Use "归" instead of "⿰&CDP-8968;彐".
+	- Use "归" instead of "⿰刂彐".
 	- Use "𣢟" instead of "⿰甘欠".
 	- Use "荣" instead of "⿳艹冖木".
 	- Use "钦" instead of "⿰钅欠".
@@ -2352,7 +2358,7 @@
 	- Use "厌" instead of "⿸厂犬".
 	- Use "军" instead of "⿱冖车".
 	- Use "医" instead of "医".
-	- Use "坚" instead of "⿱⿰&CDP-8969;又土".
+	- Use "坚" instead of "⿱⿰刂又土".
 	- Use "闵" instead of "⿵门文".
 	- Use "贯" instead of "⿱毌贝".
 	- Use "㝁" instead of "⿱旬子".
