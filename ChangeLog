@@ -1,3 +1,92 @@
+2016-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "怱" instead of "⿱匆心".
+	(U-0002521E): Use "⿱艹両" instead of "⿱卄両".
+	(U-0002581E): Fixed.
+	(U-00025CFA): Use "揔" instead of "⿰扌⿱匆心".
+	(U-00025D02): Completed.
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "怱" instead of "⿱匆心".
+	(U-0002293B): Fixed.
+	(U-00022B7E): Use "芃" instead of "⿱卄凡".
+	(U-00022BD2): Use "芣" instead of "⿱卄不".
+	(U-00022BE5): Use "芫" instead of "⿱卄元".
+	(U-00022D1D): Use "𦰟" instead of "⿱卄阮".
+	(U-00022FEF): Use "⿱艹畀" instead of "⿳卄田丌".
+	(U-00023300): Fixed.
+	(U-00023733): Use "葻" instead of "⿱卄風".
+	(U-00023758): Use "⿱艹逄" instead of "⿱卄⿺辶夅".
+	(U-0002378E): Use "蓝" instead of "⿱卄监".
+	(U-000237C3): Use "⿱⿳艹⺫冖歹" instead of "⿳卄⺫⿱冖歹".
+	(U-000237EB): Use "蕑" instead of "⿱卄閒".
+	(U-00023BE3): Fixed.
+	(U-00023E28): Use "荧" instead of "⿳卄冖火".
+
+	* IDS-JIS-X0208-1990.txt (J90-447E): Use "乕" instead of "⿸𠂆&CDP-89ED;";
+	use "⻌" instead of "辶".
+	(J90-452C): Use "⻌" instead of "辶".
+	(J90-4533): Likewise.
+	(J90-4553): Likewise.
+	(J90-4628): Likewise.
+	(J90-4629): Likewise.
+	(J90-463B): Likewise.
+	(J90-465B): Likewise; use "尓" instead of "尔".
+	(J90-4676): Use "尓" instead of "尔".
+	(J90-472A): Likewise.
+	(J90-4767): Use "⻌" instead of "辶".
+	(J90-4777): Likewise.
+	(J90-4872): Likewise.
+	(J90-492F): Likewise.
+	(J90-4A55): Likewise.
+	(J90-4A56): Likewise.
+	(J90-4A57): Likewise.
+	(J90-4B78): Likewise.
+	(J90-4C42): Likewise.
+	(J90-4C6F): Use "尓" instead of "尔".
+	(J90-4D37): Use "⻌" instead of "辶".
+	(J90-4D5A): Likewise.
+	(J90-4E44): Use "鼡" instead of "⿱小&GT-K01457;".
+	(J90-4E4B): Use "⻌" instead of "辶".
+	(J90-4F22): Likewise.
+	(J90-4F39): Use "鼡" instead of "⿱小&GT-K01457;".
+	(J90-605F): Use "尓" instead of "尔".
+	(J90-6D6C): Use "⻌" instead of "辶".
+
+	* IDS-UCS-Ext-B-1.txt (U-000203E8): Use "䆫" instead of
+	"⿳穴匆心".
+	(U-000203F1): Fixed.
+	(U-00020B85): Use "⿱紅𦫿" instead of "⿳紅卄又".
+	(U-00020C16): Use "𦫼" instead of "⿱卄了".
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "怱" instead of "⿱匆心".
+	(U-0002680D): Use "㖾" instead of "⿱⿰口口屰".
+	(U-00027D90): Fixed.
+	(U-00027D91): Use "⿸𠃜貝" instead of "⿸眉八".
+
+2016-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "怱" instead of "⿱匆心".
+	(U-00028534): Use "苕" instead of "⿱卄召".
+	(U-000285F2): Use "萵" instead of "⿱卄咼".
+	(U-000288ED): Use "䆫" instead of "⿳穴匆心".
+	(U-00029886): Fixed.
+	(U-00029BCD): Use "菆" instead of "⿱卄取".
+	(U-00029ED9): Use "㖾" instead of "⿱⿰口口屰".
+
+	* IDS-HZK07.txt (HZK07-C968): Fixed [old version of CDP-85BD was
+	used].
+
+	* IDS-UCS-Ext-C.txt (U-0002AF2F): Fixed.
+
+	* IDS-CNS-2.txt (C2-5A7E): Use "㖾" instead of "⿱吅屰".
+
+	* IDS-UCS-Basic.txt (U+9013): Use "乕" instead of "⿸𠂆&CDP-89ED;".
+	(U+950E): Use "𫔭" instead of "⿵门开".
+
 2016-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002B4D7): Use "&GT-K11538;" instead of "⿸虍幸".
