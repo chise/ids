@@ -24,6 +24,9 @@
 	(U-00023BE3): Fixed.
 	(U-00023E28): Use "荧" instead of "⿳卄冖火".
 
+	* IDS-UCS-Ext-A.txt (U+367D): Use "奭" instead of "⿻大皕".
+	(U+367F): Fixed.
+
 	* IDS-JIS-X0208-1990.txt (J90-447E): Use "乕" instead of "⿸𠂆&CDP-89ED;";
 	use "⻌" instead of "辶".
 	(J90-452C): Use "⻌" instead of "辶".
