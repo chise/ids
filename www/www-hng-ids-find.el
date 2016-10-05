@@ -324,6 +324,13 @@ img { vertical-align:middle; }
 a { text-decoration:none; }
 ul { margin: 0 0; }
 li { margin: 0 0 -0.2em; }
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    display: none;
+}
 -->
 </style>
 </head>
