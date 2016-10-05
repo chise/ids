@@ -102,6 +102,14 @@
 
 	* IDS-UCS-Ext-B-5.txt (U-00028608): Use "&GT-K11538;" instead of "⿸虍幸".
 
+2016-06-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-hng-ids-find.el (www-batch-ids-find): Add CSS setting
+	for ".tooltip" and ".tooltip .  tooltiptext".
+
+	* www/www-ids-find.el (www-batch-ids-find): Add CSS setting for
+	".tooltip" and ".tooltip .  tooltiptext".
+
 2016-04-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2CB7F): Use U+2585E-var-001 instead of
