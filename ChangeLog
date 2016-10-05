@@ -1,3 +1,9 @@
+2016-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C75C): Use "&CB03389;" instead of "⿰朿欠".
+
+	* IDS-UCS-Basic.txt (U+8D56): Use "负" instead of "⿱𠂊贝".
+
 2016-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
