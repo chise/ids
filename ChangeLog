@@ -1,3 +1,13 @@
+2016-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3D1E): Use "&GT-K06065;" instead of "⿱爫旧".
+	(U+3DD4): Likewise.
+	(U+4049): Use "𫼉" instead of "⿰户戈".
+	(U+42EF): Likewise.
+
+	* IDS-UCS-Basic.txt (U+5554): Use "𫼉" instead of "⿰户戈".
+	(U+8088): Likewise.
+
 2016-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2C75C): Use "&CB03389;" instead of "⿰朿欠".
