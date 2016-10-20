@@ -1,3 +1,22 @@
+2016-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt:
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	- Use U+4EBB instead of <CJK RADICAL PERSON>.
+	- Use U+5FC4 instead of <CJK RADICAL HEART ONE>.
+	- Use U+706B instead of GT-K00405 as left component.
+	- Use U+571F instead of GT-K00199 as left component.
+	- Use <CJK RADICAL MOUND TWO> instead of U+961D as left component.
+	(J90-3070): Use "&GT-K06065;" instead of "⿱爫旧".
+	(J90-322B): Add IDS.
+	(J90-323A): Use "𢚩" instead of "⿳爫彐心".
+	(J90-3249): Use "𪟊" instead of "⿱&CDP-8DE0;分".
+	(J90-3275): Use "&U-i004+8931;" instead of "⿳十⺫衣".
+	(J90-327B): Likewise.
+	(J90-3354): Use <CJK RADICAL CITY> instead of U+961D.
+	(J90-373C): Use "𢼄" instead of "⿰戸攵".
+	(J90-3747): Use "曷" instead of "⿱日匂".
+
 2016-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt: Use "䀠" instead of "⿰目目".
