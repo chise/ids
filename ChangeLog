@@ -1,3 +1,13 @@
+2016-11-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000274B1): Use "雍" instead of
+	"⿱亠⿰乡隹".
+
+	* IDS-UCS-Ext-A.txt (U+4528): Use "&CDP-8DB5;" instead of "⿰乡隹".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028FC4): Use "&CDP-8DB5;" instead of "⿰乡隹".
+	(U-000297A0): Likewise.
+
 2016-11-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022608): Modify structure.
