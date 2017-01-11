@@ -1,3 +1,7 @@
+2017-01-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use "𢆶" instead of "⿰幺幺".
+
 2016-12-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029D91): Fixed.
@@ -1800,7 +1804,7 @@
 2006-02-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
-	(J90-343F): Use "&GT-56364;" instead of "⿱𠂉⿱&CDP-88F1;&CDP-8965;" to compact.
+	(J90-343F): Use "&MJ058978;" instead of "⿱𠂉⿱&CDP-88F1;&CDP-8965;" to compact.
 	(J90-377B): Use "𡩜" instead of "⿳宀龶⺫" to compact.
 	(J90-4234): Compact IDS.
 	(J90-444F): Compact IDS.
