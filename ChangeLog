@@ -1,3 +1,24 @@
+2017-01-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5ABA): Use "𢼸" instead of "⿰⿳山一几攵".
+	(U+5B0D): Use "𢽠" instead of "⿰𡴍攵".
+	(U+6F82): Use "𢽠" instead of "⿰𡴍攵".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028B20): Use "𢽠" instead of
+	"⿰⿳山一王⺙".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024826): Use "𣁋" instead of
+	"⿰⿳山一儿⺙".
+	(U-00024A96): Use "𢾰" instead of "⿰⿳山一糸⺙".
+	(U-00025C19): Use "𣁋" instead of "⿰𡵉攵".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002240D): Use "𣁋" instead of
+	"⿰⿳山一儿⺙".
+	(U-00022F38): Use "𡵂" instead of "⿳山一几".
+
+	* IDS-UCS-Ext-B-4.txt (U-000275EC): Use "𡵂" instead of
+	"⿳山一几".
+
 2017-01-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use "𢆶" instead of "⿰幺幺".
