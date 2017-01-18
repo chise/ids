@@ -1,3 +1,12 @@
+2017-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt: Use "&MJ058270;" instead of "⿳⺮目大".
+
+	* IDS-UCS-Ext-B-5.txt (U-000283C9): Use "&MJ058270;" instead of
+	"⿳⺮目大".
+
+	* IDS-UCS-Ext-B-3.txt: Use "&MJ058270;" instead of "⿳⺮目大".
+
 2017-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025102): Use "𥃭" instead of "⿱十目".
