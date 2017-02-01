@@ -1,3 +1,13 @@
+2017-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt: Use "攸" instead of "⿰&CDP-8B7A;夂".
+	(U+982F): Use "𢌳" instead of "⿱&CDP-88F0;廾".
+
+	* IDS-CDP.txt (CDP-85A8): Add IDS.
+
+	* IDS-UCS-Ext-A.txt: Use "攸" instead of "⿰&CDP-8B7A;夂".
+	(U+3D96): Use "儵" instead of "⿰&CDP-8B7A;⿱夂魚".
+
 2017-01-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt: Use "&GT-K01085;" instead of "⿱厶大".
