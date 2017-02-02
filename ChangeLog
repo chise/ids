@@ -1,3 +1,21 @@
+2017-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use "忩" instead of "⿱公心".
+	(U-00026E57): Completed.
+	(U-00026EF5): Use "堇" instead of "⿱廿&CDP-88BA;".
+	(U-00026EF6): Use "閗" instead of "⿵門斗".
+	(U-00026EFD): Fixed.
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "忩" instead of "⿱公心".
+	- Use "堇" instead of "⿱廿&CDP-88BA;".
+
+	* IDS-UCS-Ext-B-1.txt: Use "堇" instead of "⿱廿&CDP-88BA;".
+	(U-00020403): Use "⿸翛x" instead of "⿸⿰&CDP-8B7A;夂⿱羽x".
+	(U-00020405): Use "𦖑" instead of "⿰耳宜".
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A1FC): Use "堇" instead of "⿱廿&CDP-88BA;".
+
 2017-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt: Use "攸" instead of "⿰&CDP-8B7A;夂".
