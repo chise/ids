@@ -1,3 +1,17 @@
+2017-02-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use "忩" instead of "⿱公心".
+	(U-00024019): Fixed.
+	(U-00024DFE): Use "匧" instead of "⿷匚夾".
+	(U-00025BB4): Use "𠗆" instead of "⿰&CDP-8B7A;冬".
+
+	* IDS-UCS-Ext-B-2.txt: Use "忩" instead of "⿱公心".
+	(U-000220E8): Use "𢇻" instead of "⿸广矢".
+	(U-000220EB): Use "匧" instead of "⿷匚夾".
+	(U-000226F3): Use "&CDP-8BB2;" instead of "⿳十⺫一".
+	(U-000227A3): Use "倐" instead of "⿸⿰&CDP-8B7A;夂火".
+	(U-000230B7): Use "堇" instead of "⿱廿&CDP-88BA;".
+
 2017-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use "忩" instead of "⿱公心".
