@@ -1,3 +1,37 @@
+2017-02-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "从" instead of "⿰人人".
+	- Use "𠈌" instead of "⿱⿰人人⿰人人".
+	(U-00020385): Use "尋" instead of "⿳彐⿰工口寸".
+	(U-00021050): Fixed.
+	(U-00021616): Use "⿸⿹十人人" instead of "⿻十⿰人人".
+	(U-000217E2): Use "𠚏" instead of "⿶凵⿻千⿰人人".
+	(U-000218FC): Use "𠅃" instead of "⿱亠⿰人人".
+	(U-00021CD1): Use "𡍮" instead of "⿻壬⿱从从".
+
+2017-02-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use "从" instead of "⿰人人".
+	(U-000245E0): Use "𠚏" instead of "⿱⿸⿹千人人山".
+	(U-0002500F): Use "&CDP-8D4F;" instead of "⿳亠⿰人人木".
+	(U-000255E3): Use "皼" instead of "⿰壹皮".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "从" instead of "⿰人人".
+	- Use "𠈌" instead of "⿱⿰人人⿰人人".
+	- Use "㫺" instead of "⿱⿱⿰人人⿰人人日".
+	- Use "𣦵" instead of "⿱⺊𠔼".
+	(U-00022548): Use "耸" instead of "⿱⿰人人耳".
+	(U-00023C3A): Use "皼" instead of "⿰壹皮".
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "从" instead of "⿰人人".
+	- Use "𠈌" instead of "⿱⿰人人⿰人人".
+	- Use "㫺" instead of "⿱⿱⿰人人⿰人人日".
+	- Use "𣦵" instead of "⿱⺊𠔼".
+	- Use "𠍳" instead of "⿳⿱⺿一⿰人人⿰个个".
+
 2017-02-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use "忩" instead of "⿱公心".
