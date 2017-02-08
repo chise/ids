@@ -1,5 +1,10 @@
 2017-02-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt: Use "从" instead of "⿰人人".
+	(U-00028701): Use "𣥐" instead of "⿱止⿰人人".
+	(U-0002892B): Use "⿱𠅃x" instead of "⿳亠⿰人人x".
+	(U-00028E4A): Use "众" instead of "⿱𠆢⿰人人".
+
 	* IDS-UCS-Ext-B-1.txt:
 	- Use "从" instead of "⿰人人".
 	- Use "𠈌" instead of "⿱⿰人人⿰人人".
