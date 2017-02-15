@@ -1,3 +1,10 @@
+2017-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CDP.txt (CDP-857E): Add IDS.
+	(CDP-8856): Likewise.
+
+	* IDS-Daikanwa-05.txt: Use "&CB12073;" instead of "⿰方𠂉".
+
 2017-02-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use "从" instead of "⿰人人".
@@ -35,7 +42,7 @@
 	- Use "𠈌" instead of "⿱⿰人人⿰人人".
 	- Use "㫺" instead of "⿱⿱⿰人人⿰人人日".
 	- Use "𣦵" instead of "⿱⺊𠔼".
-	- Use "𠍳" instead of "⿳⿱⺿一⿰人人⿰个个".
+	- Use "𠍳" instead of "⿳⿱艹一⿰人人⿰个个".
 
 2017-02-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -491,7 +498,7 @@
 	* IDS-CNS-3.txt:
 	- Use "𢆰" instead of "⿱一幺".
 	- Use "&GT-K01443;" instead of "⿱小冖".
-	- Use "⿱𫇦x" instead of "⿳⺾冖x".
+	- Use "⿱𫇦x" instead of "⿳艹冖x".
 	(C3-255D): Modify operator.
 	(C3-255E): Modify component.
 	(C3-274D): Likewise.
@@ -890,7 +897,7 @@
 
 	* IDS-JIS-X0208-1990.txt:
 	- Modify some components.
-	- Use "尭" instead of "⿳十⺾兀".
+	- Use "尭" instead of "⿳十艹兀".
 	- Add some IDSes.
 
 2011-07-07  MORIOKA Tomohiko  <tomo@zinbun.kyoto-u.ac.jp>
@@ -1090,7 +1097,7 @@
 	- Use "叅" instead of "⿱厽⿱人㣺" or "⿱厶⿰厶厶⿱人㣺".
 	- Use "𠇍" instead of "⿱人㣺".
 	- Use "䖝" instead of "⿱丿虫".
-	(U-000273E5): Use "𦮕" instead of "⿳⺿人㣺".
+	(U-000273E5): Use "𦮕" instead of "⿳艹人㣺".
 	(U-0002742C): Modify IDS.
 	(U-00027475): Complete IDS.
 	(U-00027476): Fix IDS.
