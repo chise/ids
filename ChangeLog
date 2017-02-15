@@ -1,3 +1,33 @@
+2017-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
+	- Use "&CB12073;" instead of "⿰方𠂉".
+	- Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U-0002284D): Use "鬲" instead of "⿳一&CDP-89CC;⿵&CDP-8C58;丅".
+	(U-00022864): Use "&U-i002+9B32;" instead of "⿳一&CDP-89CC;⿵𦉪干".
+	(U-000230F3): Use "㘝" instead of "⿴囗又".
+	(U-000230FF): Use "𡉵" instead of "⿰&CDP-8BC5;⿺⺃匕".
+	(U-000231AA): Fixed; use "𠯃" instead of "⿰⿶凵口丨".
+	(U-00023810): Use "𩫖" instead of "⿳&CDP-8BAA;回⿱⿶凵口丨".
+	(U-00023A26): Use "&MJ057538;" instead of "⿱从戈".
+	(U-00023F50): Use "&U-i001+9B32;" instead of "⿳一&CDP-89CC;&CDP-8BDC;".
+	(U-00023F51): Use "逩" instead of "⿺辶奔".
+
+2017-02-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U-00020510): Use GT-K01370 instead of "一" + BC-89CC.
+	(U-0002068F): Use "&CDP-8856;" instead of "⿻千从".
+	(U-00020DA9): Use "𫞕" instead of "⿻氏丶".
+	(U-00021AA2): Use "㑴" instead of "⿰⺅⿱帚又".
+	(U-00021ACF): Use "𣹰" instead of "⿰⺡⿱帚又".
+
+2017-02-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt: Use "&CB12073;" instead of "⿰方𠂉".
+	(U+6FC5): Use "𡩠" instead of "⿳宀帚又".
+
 2017-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CDP.txt (CDP-857E): Add IDS.
