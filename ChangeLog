@@ -1,4 +1,37 @@
+2017-02-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use "𤐫" instead of "⿱⿻𦥑囟⿱一火" or
+	"⿳⿻𦥑囟一火".
+	(U-00020457): Use "𠨧" instead of "⿱⿻𦥑囟⿵大巳".
+	(U-00020A27): Use "⿵𦦉x" instead of "⿱⿻𦥑囟⿵大x".
+	(U-00021897): Use "&GT-K11083;" instead of "⿻𦥑囟".
+	(U-000218A3): Completed.
+
+2017-02-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "&GT-K11083;" instead of "⿻𦥑囟".
+	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
+	(U-0002296F): Use "䢉" instead of "⿱⿻𦥑囟辰".
+	(U-00023128): Use "&CB12143;" instead of "⿰單斤".
+
 2017-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt: Use "&CB12073;" instead of "⿰方𠂉".
+	(U+3474): Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U+34A8): Use "𠨧" instead of "⿳⿻𦥑囟大㔾".
+	(U+4889): Use "&GT-K11083;" instead of "⿻𦥑囟".
+
+	* IDS-UCS-Basic.txt (U+8604): Use "&CB12143;" instead of "⿰單斤".
+
+2017-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-09.txt: Use "罓" instead of "⿵冂㐅".
+	(M-28194): Add IDS.
+	(M-28206): Ditto.
+	(M-28217): Add IDS.
+	(M-28218): Use "𦉳" instead of "⿵冂⿰又又".
+	(M-29675): Add IDS.
 
 	* IDS-UCS-Ext-B-2.txt:
 	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
