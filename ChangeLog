@@ -1,3 +1,8 @@
+2017-02-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt: Use "&U-i003+76D1;" instead of "⿰刂&CDP-89BC;".
+	(U+4768): Use "&U-i001+81E4;" instead of "⿰刂又".
+
 2017-02-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt:
@@ -395,8 +400,8 @@
 	(U+367F): Fixed.
 
 	* IDS-JIS-X0208-1990.txt (J90-447E): Use "乕" instead of "⿸𠂆&CDP-89ED;";
-	use "⻌" instead of "辶".
-	(J90-452C): Use "⻌" instead of "辶".
+	use "辶" instead of "辶".
+	(J90-452C): Use "辶" instead of "辶".
 	(J90-4533): Likewise.
 	(J90-4553): Likewise.
 	(J90-4628): Likewise.
@@ -405,7 +410,7 @@
 	(J90-465B): Likewise; use "尓" instead of "尔".
 	(J90-4676): Use "尓" instead of "尔".
 	(J90-472A): Likewise.
-	(J90-4767): Use "⻌" instead of "辶".
+	(J90-4767): Use "辶" instead of "辶".
 	(J90-4777): Likewise.
 	(J90-4872): Likewise.
 	(J90-492F): Likewise.
@@ -415,14 +420,14 @@
 	(J90-4B78): Likewise.
 	(J90-4C42): Likewise.
 	(J90-4C6F): Use "尓" instead of "尔".
-	(J90-4D37): Use "⻌" instead of "辶".
+	(J90-4D37): Use "辶" instead of "辶".
 	(J90-4D5A): Likewise.
 	(J90-4E44): Use "鼡" instead of "⿱小&GT-K01457;".
-	(J90-4E4B): Use "⻌" instead of "辶".
+	(J90-4E4B): Use "辶" instead of "辶".
 	(J90-4F22): Likewise.
 	(J90-4F39): Use "鼡" instead of "⿱小&GT-K01457;".
 	(J90-605F): Use "尓" instead of "尔".
-	(J90-6D6C): Use "⻌" instead of "辶".
+	(J90-6D6C): Use "辶" instead of "辶".
 
 	* IDS-UCS-Ext-B-1.txt (U-000203E8): Use "䆫" instead of
 	"⿳穴匆心".
@@ -1587,7 +1592,7 @@
 	(M-17924): Add IDS.
 	(M-17934): Add IDS.
 	(M-17939): Add IDS.
-	(M-20923): Use "𡵄" instead of "⿱山&CDP-8BF1;".
+	(M-20923): Use "𡵄" instead of "⿱山𠀆".
 
 	* IDS-UCS-Ext-A.txt (U+45F4): Fixed.
 
