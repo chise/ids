@@ -1,7 +1,34 @@
 2017-02-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt: Use "&U-i001+81E4;" instead of "⿰〢又".
+	(U+2C126): Use "&U-i003+76D1;" instead of "⿰〢&CDP-89BC;".
+
+	* IDS-UCS-Ext-C.txt: Use "&U-i001+81E4;" instead of "⿰〢又".
+	(U-0002B3E0): Use "&U-i003+76D1;" instead of "〢&CDP-89BC;".
+
 	* IDS-UCS-Ext-A.txt: Use "&U-i003+76D1;" instead of "⿰刂&CDP-89BC;".
 	(U+4768): Use "&U-i001+81E4;" instead of "⿰刂又".
+
+	* IDS-UCS-Ext-D.txt (U-0002B74B): Use "&U-i001+81E4;" instead of "⿰〢又".
+
+	* IDS-UCS-Ext-B-5.txt: Use "𪾋" instead of "⿱⿰刂又皿".
+
+2017-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "&CB12073;" instead of "⿸⿰方𠂉".
+	- Use "&GT-K11083;" instead of "⿻𦥑囟".
+	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
+	- Use "䢉" instead of "⿱⿻𦥑囟辰".
+	- Use "㘝" instead of "⿴囗又".
+	(U-0002413B): Use "𠨧" instead of "⿱⿻𦥑囟⿵大巳".
+	(U-0002414C): Use "&U-i001+4889;" [fix bug].
+	(U-00024157): Use "𦝠" instead of "⿳亡口⿰月卂".
+	(U-0002417B): Use "𩫖" instead of "⿻𠅠回".
+	(U-0002517F): Use "执" instead of "⿰⺘丸".
+	(U-000256C6): Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U-00025CAC): Use "𫞕" instead of "⿻氏丶".
+	(U-00025DCB): Use "&CB12143;" instead of "⿰單斤".
 
 2017-02-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
