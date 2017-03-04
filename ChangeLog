@@ -1,3 +1,20 @@
+2017-03-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt:
+	- Use U+4EBB instead of <CJK RADICAL PERSON>.
+	- Use U+5202 instead of <CJK RADICAL KNIFE TWO>.
+	- Use U+571F instead of GT-K00199.
+	- Use U+7F8A instead of BC-8970.
+	- Use "岂" instead of "⿱山己".
+	- Use "双" instead of "⿰又又".
+	- Use "叕" instead of "⿱⿰又又⿰又又".
+	- Use "&U-i001+81E4;" instead of "⿰刂又".
+	- Use "&U-i003+76D1;" instead of "⿰刂&CDP-89BC;".
+	(U+4E34): Use "⿸&U-i003+76D1;x" instead of "⿰刂⿱&CDP-89BC;x".
+	(U+52E7): Use "&MJ058978;" instead of "⿻⿱𠂉一隹".
+	(U+5352): Use "𠅃" instead of "⿱亠从".
+	(U+5433): Fixed.
+
 2017-02-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt: Use "&U-i001+81E4;" instead of "⿰〢又".
