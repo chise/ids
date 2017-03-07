@@ -1,6 +1,6 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures
 
-;; Copyright (C) 2002,2003,2005,2006,2007 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2005,2006,2007,2017 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: Kanji, Ideographs, search, IDS, CHISE, UCS, Unicode
@@ -150,35 +150,55 @@
 		(setq components (cdr components)))
       (setq products nil)
       (dolist (variant (char-component-variants (car components)))
-      (setq products
-	    (union products
-		   (get-char-attribute variant 'ideographic-products))))
+	(setq products
+	      (union products
+		     (get-char-attribute variant 'ideographic-products))))
       (setq dest (intersection dest products)))
     dest))
-;; (defun ideographic-products-find (&rest components)
-;;   (if (stringp (car components))
-;;       (setq components (car components)))
-;;   (let ((len (length components))
-;;         (i 1)
-;;         dest products)
-;;     (dolist (variant (char-component-variants (elt components 0)))
-;;       (setq products
-;;             (union products
-;;                    (get-char-attribute variant 'ideographic-products))))
-;;     (setq dest products)
-;;     (while (and
-;;             (< i len)
-;;             (progn
-;;               (setq products nil)
-;;               (dolist (variant (char-component-variants (elt components i)))
-;;                 (dolist (product (get-char-attribute
-;;                                   variant 'ideographic-products))
-;;                   (unless (memq product products)
-;;                     (when (memq product dest)
-;;                       (setq products (cons product products))))))
-;;               (setq dest products)))
-;;       (setq i (1+ i)))
-;;     products))
+
+(defun ideograph-find-products-with-variants (components &optional ignored-chars)
+  (if (stringp components)
+      (setq components (string-to-char-list components)))
+  (let (dest products)
+    (dolist (variant (char-component-variants (car components)))
+      (setq products
+	    (union products
+		   (set-difference
+		    (get-char-attribute variant 'ideographic-products)
+		    ignored-chars))))
+    (setq dest products)
+    (while (and dest
+		(setq components (cdr components)))
+      (setq products nil)
+      (dolist (variant (char-component-variants (car components)))
+	(setq products
+	      (union products
+		     (set-difference
+		      (get-char-attribute variant 'ideographic-products)
+		      ignored-chars))))
+      (setq dest (intersection dest products)))
+    dest))
+
+(defun ideograph-find-products (components &optional ignored-chars)
+  (if (stringp components)
+      (setq components (string-to-char-list components)))
+  (let (dest products)
+    ;; (dolist (variant (char-component-variants (car components)))
+    ;;   (setq products
+    ;;         (union products
+    ;;                (get-char-attribute variant 'ideographic-products))))
+    ;; (setq dest products)
+    (setq dest (get-char-attribute (car components) 'ideographic-products))
+    (while (and dest
+		(setq components (cdr components)))
+      ;; (setq products nil)
+      ;; (dolist (variant (char-component-variants (car components)))
+      ;;   (setq products
+      ;;         (union products
+      ;;                (get-char-attribute variant 'ideographic-products))))
+      (setq products (get-char-attribute (car components) 'ideographic-products))
+      (setq dest (intersection dest products)))
+    dest))
 
 
 (defun ideographic-structure-char= (c1 c2)
@@ -188,29 +208,7 @@
 		 (m2 (char-ucs c2)))
 	     (or (and m1 m2
 		      (eq m1 m2))
-		 (memq c1 (char-component-variants c2))
-                 ;; (some (lambda (feature)
-                 ;;         (some (lambda (b2)
-                 ;;                 (unless (characterp b2)
-                 ;;                   (setq b2 (find-char b2)))
-                 ;;                 (and b2
-                 ;;                      (ideographic-structure-char= c1 b2)))
-                 ;;               (char-feature c2 feature)
-                 ;;               ;; (get-char-attribute
-                 ;;               ;;  c2 '<-ideographic-component-forms)
-                 ;;               ))
-                 ;;       (of-component-features))
-                 ;; (progn
-                 ;;   (setq m1 (car (get-char-attribute c1 '<-radical))
-                 ;;         m2 (car (get-char-attribute c2 '<-radical)))
-                 ;;   (unless (characterp m1)
-                 ;;     (setq m1 (find-char m1)))
-                 ;;   (unless (characterp m2)
-                 ;;     (setq m2 (find-char m2)))
-                 ;;   (when (or m1 m2)
-                 ;;     (ideographic-structure-char= m1 m2))
-                 ;;   )
-		 )))))
+		 (memq c1 (char-component-variants c2)))))))
 
 (defun ideographic-structure-member-compare-components (component s-component)
   (let (ret)
@@ -282,12 +280,13 @@
 	  (or (ideographic-structure-to-ids v)
 	      v)))
 
-(defun ids-insert-chars-including-components (components
+(defun ids-insert-chars-including-components* (components
 					      &optional level ignored-chars)
   (unless level
     (setq level 0))
   (let (is i as bs)
-    (dolist (c (sort (copy-tree (ideographic-products-find components))
+    (dolist (c (sort (copy-tree (ideograph-find-products components
+							 ignored-chars))
 		     (lambda (a b)
 		       (if (setq as (char-total-strokes a))
 			   (if (setq bs (char-total-strokes b))
@@ -304,24 +303,59 @@
 	  (setq i (1+ i)))
 	(insert (ids-find-format-line c is))
 	(setq ignored-chars
-	      (ids-insert-chars-including-components
+	      (ids-insert-chars-including-components*
 	       (char-to-string c) (1+ level)
 	       (cons c ignored-chars))))
-      ))
+      )
+    )
   ignored-chars)
-;; (defun ids-insert-chars-including-components (components level)
-;;   (let (is dis i)
-;;     (dolist (c (ideographic-products-find components))
-;;       (setq is (char-feature c 'ideographic-structure))
-;;       (setq i 0)
-;;       (while (< i level)
-;;         (insert "\t")
-;;         (setq i (1+ i)))
-;;       (insert (ids-find-format-line c is))
-;;       ;;(forward-line -1)
-;;       (ids-insert-chars-including-components
-;;        (char-to-string c) (1+ level))
-;;       )))
+
+(defun ids-insert-chars-including-components (components
+					      &optional level ignored-chars)
+  (unless level
+    (setq level 0))
+  (setq ignored-chars
+	(nreverse
+	 (ids-insert-chars-including-components* components
+						 level ignored-chars)))
+  (let (is i as bs)
+    (dolist (c ignored-chars)
+      (dolist (vc (char-component-variants c))
+	(unless (memq vc ignored-chars)
+	  (when (setq is (get-char-attribute vc 'ideographic-structure))
+	    (setq i 0)
+	    (while (< i level)
+	      (insert "\t")
+	      (setq i (1+ i)))
+	    (insert (ids-find-format-line vc is))
+	    (setq ignored-chars
+		  (ids-insert-chars-including-components*
+		   (char-to-string vc) (1+ level)
+		   (cons vc ignored-chars)))))))
+    (dolist (c (sort (copy-tree (ideograph-find-products-with-variants
+				 components ignored-chars))
+		     (lambda (a b)
+		       (if (setq as (char-total-strokes a))
+			   (if (setq bs (char-total-strokes b))
+			       (if (= as bs)
+				   (ideograph-char< a b)
+				 (< as bs))
+			     t)
+			 (ideograph-char< a b)))))
+      (unless (memq c ignored-chars)
+	(setq is (get-char-attribute c 'ideographic-structure))
+	(setq i 0)
+	(while (< i level)
+	  (insert "\t")
+	  (setq i (1+ i)))
+	(insert (ids-find-format-line c is))
+	(setq ignored-chars
+	      (ids-insert-chars-including-components*
+	       (char-to-string c) (1+ level)
+	       (cons c ignored-chars))))
+      )
+    )
+  ignored-chars)
 
 ;;;###autoload
 (defun ids-find-chars-including-components (components)
@@ -330,48 +364,23 @@
   (with-current-buffer (get-buffer-create ids-find-result-buffer)
     (setq buffer-read-only nil)
     (erase-buffer)
-    (ids-insert-chars-including-components components 0)
-    ;; (let (is dis)
-    ;;   (dolist (c (ideographic-products-find components))
-    ;;     (setq is (char-feature c 'ideographic-structure))
-    ;;     ;; to avoid problems caused by wrong indexes
-    ;;     ;; (when (every (lambda (cc)
-    ;;     ;;                (ideographic-structure-member cc is))
-    ;;     ;;              components)
-    ;;     (dolist (dc (ideographic-products-find (char-to-string c)))
-    ;;       (setq dis (char-feature dc 'ideographic-structure))
-    ;;     ;;     ;; to avoid problems caused by wrong indexes
-    ;;     ;;     (when (every (lambda (dcc)
-    ;;     ;;                    (ideographic-structure-member dcc is))
-    ;;     ;;                  components)
-    ;;       (insert "\t")
-    ;;       (insert (ids-find-format-line dc dis))
-    ;;       (forward-line -1)
-    ;;     ;;       )
-    ;;       )
-    ;;     (insert (ids-find-format-line c is))
-    ;;     (forward-line -1)
-    ;;     ;;   )
-    ;;     )
-    ;;   )
+    (ids-insert-chars-including-components components 0 nil)
+    ;; (let ((ignored-chars
+    ;;        (nreverse
+    ;;         (ids-insert-chars-including-components components 0 nil
+    ;;                                                #'ideograph-find-products)))
+    ;;       rest)
+    ;;   (setq rest ignored-chars)
+    ;;   ;; (dolist (c rest)
+    ;;   ;;   (setq ignored-chars
+    ;;   ;;         (union ignored-chars
+    ;;   ;;                (ids-insert-chars-including-components
+    ;;   ;;                 (list c) 0 ignored-chars
+    ;;   ;;                 #'ideograph-find-products-with-variants))))
+    ;;   (ids-insert-chars-including-components components 0 ignored-chars
+    ;;                                          #'ideograph-find-products-with-variants))
     (goto-char (point-min)))
   (view-buffer ids-find-result-buffer))
-;; (defun ids-find-chars-including-components (components)
-;;   "Search Ideographs whose structures have COMPONENTS."
-;;   (interactive "sComponents : ")
-;;   (with-current-buffer (get-buffer-create ids-find-result-buffer)
-;;     (setq buffer-read-only nil)
-;;     (erase-buffer)
-;;     (map-char-attribute
-;;      (lambda (c v)
-;;        (when (every (lambda (p)
-;;                       (ideographic-structure-member p v))
-;;                     components)
-;;          (insert (ids-find-format-line c v)))
-;;        nil)
-;;      'ideographic-structure)
-;;     (goto-char (point-min)))
-;;   (view-buffer ids-find-result-buffer))
 
 ;;;###autoload
 (define-obsolete-function-alias 'ideographic-structure-search-chars
