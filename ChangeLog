@@ -161,6 +161,14 @@
 	(U-0002A222): Use "䉅" instead of "⿱⺮執".
 	(U-0002A223): Use "⿱𠅃x" instead of "⿳亠⿰人人x".
 
+2017-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ideograph-find-products-with-variants): New
+	function.
+	(ideograph-find-products): New function.
+	(ids-insert-chars-including-components*): New function.
+	(ids-insert-chars-including-components): New implementation.
+
 2017-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CDP.txt (CDP-857E): Add IDS.
