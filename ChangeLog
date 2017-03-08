@@ -1,3 +1,7 @@
+2017-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000240F3): Use "&U-i001+65DB;" instead of "⿸&CB12073;畨".
+
 2017-03-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt:
