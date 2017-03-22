@@ -281,7 +281,7 @@
 	      v)))
 
 (defun ids-insert-chars-including-components* (components
-					      &optional level ignored-chars)
+					       &optional level ignored-chars)
   (unless level
     (setq level 0))
   (let (is i as bs)
