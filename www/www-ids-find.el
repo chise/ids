@@ -18,7 +18,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.26")
+(defconst www-ids-find-version "0.90.1")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -182,9 +182,57 @@
       (princ (encode-coding-string "⇒[唐代拓本]</a>" 'utf-8-jp-er)))
     (princ "<br>\n")))
 
+(defun www-ids-insert-chars-including-components* (components
+						   &optional ignored-chars products)
+  (unless products
+    (setq products (ideograph-find-products components ignored-chars)))
+  (let (is as bs len)
+    (setq len (length products))
+    (princ "<ul>\n")
+    (dolist (c (cond
+		((>= len 1024)
+		 (sort (copy-list products)
+		       (lambda (a b)
+			 (< (char-int a)(char-int b))))
+		 )
+		((>= len 512)
+		 (sort (copy-list products)
+		       (lambda (a b)
+			 (if (setq as (char-total-strokes a))
+			     (if (setq bs (char-total-strokes b))
+				 (if (= as bs)
+				     (< (char-int a)(char-int b))
+				   (< as bs))
+			       t)
+			   (< (char-int a)(char-int b)))))
+		 )
+		(t
+		 (sort (copy-list products)
+		       (lambda (a b)
+			 (if (setq as (char-total-strokes a))
+			     (if (setq bs (char-total-strokes b))
+				 (if (= as bs)
+				     (ideograph-char< a b)
+				   (< as bs))
+			       t)
+			   (ideograph-char< a b))))
+		 )))
+      (unless (memq c ignored-chars)
+	(setq is (char-feature c 'ideographic-structure))
+	(princ "<li>")
+	(www-ids-find-format-line c is)
+	(setq ignored-chars
+	      (www-ids-insert-chars-including-components*
+	       (char-to-string c) (cons c ignored-chars)))
+	)
+      )
+    (princ "</ul>\n")
+    )
+  ignored-chars)
+
 (defun www-ids-insert-chars-including-components (components
 						  &optional ignored-chars)
-  (let ((products (ideographic-products-find components))
+  (let ((products (ideograph-find-products components ignored-chars))
 	is as bs len ignore-children)
     (setq len (length products))
     (when (>= len 1024)
@@ -196,31 +244,31 @@
     (if (>= len 2048)
 	(dolist (c products)
 	  (www-ids-find-format-char c))
-      (princ "<ul>\n")
-      (dolist (c (cond
-                  ;; ((>= len 2048)
-                  ;;  (setq ignore-children t)
-                  ;;  products)
-                  ;; ((>= len 1024)
-                  ;;  products)
-		  ((>= len 1024)
-		   (sort (copy-list products)
-			 (lambda (a b)
-			   (< (char-int a)(char-int b))))
-		   )
-		  ((>= len 512)
-		   (sort (copy-list products)
-			 (lambda (a b)
-			   (if (setq as (char-total-strokes a))
-			       (if (setq bs (char-total-strokes b))
-				   (if (= as bs)
-				       (< (char-int a)(char-int b))
-				     (< as bs))
-				 t)
-			     (< (char-int a)(char-int b)))))
-		   )
-		  (t
-		   (sort (copy-list products)
+      (setq ignored-chars
+	    (nreverse
+	     (www-ids-insert-chars-including-components* components ignored-chars products)))
+      (dolist (c ignored-chars)
+	(dolist (vc (char-component-variants c))
+	  (unless (memq vc ignored-chars)
+	    (when (setq is (get-char-attribute vc 'ideographic-structure))
+	      (princ "<li>")
+	      (www-ids-find-format-line vc is)
+	      (setq ignored-chars
+		    (www-ids-insert-chars-including-components*
+		     (char-to-string vc)
+		     (cons vc ignored-chars)))))))
+      (setq products (ideograph-find-products-with-variants components ignored-chars))
+      (setq len (length products))
+      (when (>= len 512)
+	(setq ignore-children t)
+	(princ
+	 (encode-coding-string
+	  "<p>結果が多すぎるため、関連字の再帰的検索を省略しました。</p>"
+	  'utf-8-jp-er)))
+      (if (>= len 1024)
+	  (dolist (c products)
+	    (www-ids-find-format-char c))
+	(dolist (c (sort (copy-tree products)
 			 (lambda (a b)
 			   (if (setq as (char-total-strokes a))
 			       (if (setq bs (char-total-strokes b))
@@ -228,23 +276,19 @@
 				       (ideograph-char< a b)
 				     (< as bs))
 				 t)
-			     (ideograph-char< a b))))
-		   )))
-	(unless (memq c ignored-chars)
-	  (setq is (char-feature c 'ideographic-structure))
-	  (princ "<li>")
-	  (www-ids-find-format-line c is)
-	  (unless ignore-children
-            ;; (princ "<ul>\n")
-	    (setq ignored-chars
-		  (www-ids-insert-chars-including-components
-		   (char-to-string c)
-		   (cons c ignored-chars)))
-            ;; (princ "</ul>\n")
+			     (ideograph-char< a b)))))
+	  (unless (memq c ignored-chars)
+	    (setq is (get-char-attribute c 'ideographic-structure))
+	    (princ "<li>")
+	    (www-ids-find-format-line c is)
+	    (unless ignore-children
+	      (setq ignored-chars
+		    (www-ids-insert-chars-including-components*
+		     (char-to-string c)
+		     (cons c ignored-chars))))
 	    ))
-	)
-      (princ "</ul>\n")
-      ))
+	))
+    )
   ignored-chars)
 
 (defun www-batch-ids-find ()
@@ -398,7 +442,7 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 >過立齋</a>）
 </ul>
 <ul>
-<li><a href=\"http://cvs.m17n.org/viewcvs/chise/ids/www/www-ids-find.el?view=markup\"
+<li><a href=\"http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=www/www-ids-find.el\"
 >www-ids-find.el (source file (Emacs Lisp part))
 <li><a href=\"http://www.chise.org/ids/\"
 >「CHISE 漢字構造情報データベース」</a>
@@ -420,7 +464,7 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
       ))
     (princ "<hr>")
     (princ "<p>
-Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015, 2016, 2017 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
 >MORIOKA Tomohiko</a>")
     (princ
      (format
