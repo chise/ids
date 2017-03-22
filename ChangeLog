@@ -1,3 +1,112 @@
+2017-03-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7319): Fixed.
+	(U+76EB): Use "⿱𨠭x" instead of "⿳合酉x".
+	(U+775C): Fixed.
+
+2017-03-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	(U-00026F3E): Use "㨨" instead of "⿰扌留".
+	(U-00027C1A): Use "盇" instead of "⿱太皿".
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	- Use U-000248E9 instead of <CJK RADICAL JADE>.
+	- Use "盇" instead of "⿱太皿".
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "盇" instead of "⿱太皿".
+	- Use A-GT-K06065 instead of GT-06065.
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	(U-00028D7C): Use "𠁭" instead of "⿱个⿰个个".
+	(U-00029179): Use "湄" instead of "⿰⺡眉".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	- Use U-000248E9 instead of <CJK RADICAL JADE>.
+	- Use "盇" instead of "⿱太皿".
+	(U-00022691): Use "㳉" instead of "⿰⺡月".
+	(U-00022811): Use "&CDP-8CFD;" instead of "⿱𠂉品".
+	(U-00022BDD): Use "泮" instead of "⿰⺡半".
+	(U-0002333B): Use "𫂱" instead of "⿻&CDP-8BF5;米".
+	(U-000235D9): Use "难" instead of "又隹".
+	(U-000235DC): Use "玨" instead of "⿰⺩王".
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "&CDP-8CFD;" instead of "⿱𠂉品".
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	(U-00020E21): Use "洫" instead of "⿰⺡血".
+	(U-0002138C): Use "盇" instead of "⿱太皿".
+	(U-00021A7B): Use "㴆" instead of "⿰⺡帚".
+	(U-00021C64): Use "𣲭" instead of "⿰⺡毛".
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A10A): Use "䀠" instead of "⿰目目".
+
+	* IDS-UCS-Ext-A.txt:
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	- Use U-000248E9 instead of <CJK RADICAL JADE>.
+	- Use "䀠" instead of "⿰目目".
+	(U+3659): Use "浝" instead of "⿰⺡尨".
+	(U+4A30): Use "㴖" instead of "⿰⺡革".
+
+	* IDS-UCS-Basic.txt:
+	- Use "亦" instead of "⿱亠&CDP-89BB;".
+	- Use "旣" instead of "⿰⿱白匕旡".
+	- Use "叒" instead of "⿱又双".
+	- Use "&MJ058978;" instead of "⿱𠂉⿸&CDP-88F1;&CDP-8965;".
+	- Use "䀠" instead of "⿰目目".
+	- Use "𬜯" instead of "⿱艹两".
+	- Use U+72AD instead of <CJK RADICAL DOG>.
+	- Use U+5FC4 instead of <CJK RADICAL HEART ONE>.
+	- Use U+624C instead of <CJK RADICAL HAND>.
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	- Use U+72AD instead of <CJK RADICAL DOG>.
+	- Use U-000248E9 instead of <CJK RADICAL JADE>.
+	(U+4ECA): Change structure.
+	(U+57D1): Use "折" instead of "⿰⺘斤".
+	(U+5869): Use "𬐚" instead of "⿳𠂉口皿".
+	(U+588D): Fixed.
+	(U+5965): Use BC-8D7C-var-002 instead of BC-8D7C.
+	(U+5967): Use BC-8D7C instead of "⿵&CDP-8BD6;釆".
+	(U+5B90): Use U+5F51 instead of BC-8BC8.
+	(U+5BAB): Use "吕" instead of "呂".
+	(U+5BE1): Use "𪟊" instead of "⿱&CDP-8DE0;分".
+	(U+5C6C): Change structure.
+	(U+5D90): Fixed.
+	(U+5E42): Use "𠖇" instead of "⿱冖旲".
+	(U+5ECF): Use "𣪘" instead of "⿰皀殳".
+	(U+64DE): Fixed.
+	(U+65C1): Use "&CDP-8BEC;" instead of "⿳亠丷冖".
+	(U+66B4): Use "㳟" instead of "⿱共氺".
+	(U+6803): Use "厉" instead of "⿸𠂆万".
+	(U+6AF7): Use U+9F9C instead of UU+FACE.
+	(U+7A32): Use "&A-GT-K06065;" instead of "⿱爫旧".
+	(U+7C40): Use "㨨" instead of "⿰⺘留".
+	(U+7E92): Fixed.
+
+2017-03-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-D.txt (U-0002B7A9): Use "𬜯" instead of "⿱艹两".
+
+2017-03-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-HZK02.txt (HZK02-AB5A): Complete operators.
+	(HZK02-AB5B): Likewise.
+	(HZK02-AB60): Likewise.
+	(HZK02-AB69): Likewise.
+
+2017-03-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.90.1.
+	(www-ids-insert-chars-including-components*): New function.
+	(www-ids-insert-chars-including-components): New implementation;
+	use `ideograph-find-products' instead of
+	`ideographic-products-find'; use
+	`www-ids-insert-chars-including-components*'.
+	(www-batch-ids-find): Update URL of www-ids-find.el.
+
 2017-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-000240F3): Use "&U-i001+65DB;" instead of "⿸&CB12073;畨".
