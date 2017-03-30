@@ -1,3 +1,38 @@
+2017-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use "仌" instead of "⿱人人".
+	(U-0002238D): Use "刍" instead of "⿱⺈彐".
+	(U-00022F56): Use "𠬶" instead of "⿳彐冖又".
+	(U-00023579): Use GT-K06360 instead of (?⿳ ?⺊ ?AJ1-15391 ?龰).
+	(U-00023FF1): Use BC-8C40-itaiji-001 instead of (?⿹ ?BC-8873
+	?⺣).
+
+2017-03-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use "仌" instead of "⿱人人".
+	(U-00020E1D): Use GT-K06360 instead of (?⿳ ?⺊ ?AJ1-15391 ?龰).
+	(U-00021B13): Fixed.
+	(U-00021EA7): Use "刍" instead of "⿱⺈彐".
+
+	* IDS-UCS-Basic.txt:
+	- Use GT-K06360 instead of (?⿳ ?⺊ ?AJ1-15391 ?龰).
+	- Use "𠬶" instead of "⿳彐冖又".
+
+2017-03-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "仌" instead of "⿱人人".
+	- Use "𠬶" instead of "⿳彐冖又".
+
+	* IDS-UCS-Ext-A.txt:
+	- Use "刍" instead of "⿱⺈彐".
+	- Use "𠬶" instead of "⿳彐冖又".
+
+2017-03-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2BEBC): Use A-U+65E7-itaiji-001 instead of
+	"旧".
+
 2017-03-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+7319): Fixed.
