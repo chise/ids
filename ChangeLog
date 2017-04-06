@@ -1,3 +1,28 @@
+2017-04-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020198): Use U+5546-itaiji-002 and
+	GT-K01369.
+	(U-00020397): Use U+9F4A-itaiji-005.
+	(U-000211F4): Use "𣥏" instead of "⿱止𧘇".
+	(U-00021860): Use "育" instead of "⿱𠫓⺼".
+
+	* IDS-UCS-Ext-B-5.txt (U-000286F7): Use "𣥏" instead of "⿱止𧘇".
+	(U-00029A36): Use GT-K01340 instead of "⿱丿𧘇".
+	(U-00029BA6): Use "脊" instead of "⿱&CDP-88D2;月".
+	(U-00029E75): Use U+9F4A-itaiji-005.
+
+2017-04-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use "𣥏" instead of "⿱止𧘇".
+	(U-0002228C): Use "脊" instead of "⿱&CDP-88D2;⺼".
+	(U-000239B2): Use "𣦒" instead of "⿳止&CDP-88D2;⺼".
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "仌" instead "⿱人人".
+	- Use GT-K06360 instead of (?⿳ ?⺊ ?AJ1-15391 龰).
+	(U-00026860): Use "脊" instead of "⿱&CDP-88D2;⺼".
+	(U-00026EF4): Use "㨗".
+
 2017-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use "仌" instead of "⿱人人".
@@ -929,9 +954,9 @@
 2015-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000261FD): Use "⿵⿳亡口⿰⺼月x" instead
-	of "⿳亡口⿲&GT-37857;x月".
-	(U-0002713F): Use "⿵𣎆x" instead of "⿱亡口⿲&GT-37857;x凡".
-	(U-0002718D): Use "⿵𦝠x" instead of "⿱亡口⿲&GT-37857;x卂".
+	of "⿳亡口⿲⺼x月".
+	(U-0002713F): Use "⿵𣎆x" instead of "⿱亡口⿲⺼x凡".
+	(U-0002718D): Use "⿵𦝠x" instead of "⿱亡口⿲⺼x卂".
 
 	* IDS-UCS-Ext-B-5.txt (U-000283E9): Use "𣎆" instead of
 	"⿳亡口⿰⺼凡".
