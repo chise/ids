@@ -1,3 +1,28 @@
+2017-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt:
+	- Use "吅" instead of "⿰口口".
+	- Use GT-K09590.
+	(U+3BEF): Use GT-K11071.
+
+	* IDS-UCS-Basic.txt (U+6319): Use "兴".
+	(U+66D3): Use GT-K09590.
+	(U+7758): Use GT-K04958.
+	(U+841D): Use "⿱𦭝x" instead of "⿳艹⺫x".
+	(U+8511): Likewise.
+	(U+85A8): Use A-BC-8D60.
+	(U+8609): Likewise.
+	(U+8A89): Use "兴".
+	(U+8D1B): Use GT-K10656.
+
+2017-04-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-3.txt (C3-607C): Add IDS.
+
+2017-04-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CDP.txt (CDP-88CB): Use GT-K02381.
+
 2017-04-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020198): Use U+5546-itaiji-002 and
@@ -1536,7 +1561,7 @@
 2009-02-27  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt: Modify some components.
-	(J90-4D40): Use "&GT-K02290;" instead of "⿳小一八".
+	(J90-4D40): Use "兴" instead of "⿳小一八".
 
 	* ids-dump.el (ids-dump-insert-jis-x0208-1990): Use
 	`ideographic-structure-to-ids' instead of `ids-dump-format-list'.
