@@ -35,6 +35,11 @@
 
 2017-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt:
+	- Use "㬥" instead of "⿳日出⿵大米".
+	- Use "吅" instead of "⿰口口".
+	(U-0002A524): Use "𦙃" instead of "⿱⿺𠃊口⺼".
+
 	* IDS-UCS-Ext-A.txt:
 	- Use "吅" instead of "⿰口口".
 	- Use GT-K09590.
