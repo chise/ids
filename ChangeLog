@@ -1,3 +1,38 @@
+2017-04-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "吅" instead of "⿰口口".
+	- Use "仌" instead of "⿱人人".
+	- Use GT-K09590 instead of "⿳日出大".
+	- Use "㬥" instead of "⿳日出⿱大米" or "⿳日出⿵大米".
+	- Use "𡵶" instead of "⿱勿山".
+	- Use GT-K00724 instead of "⿺𠃊口".
+	- Use "𦙃" instead of "⿱⿺𠃊口⺼".
+	(U-0002405C): Use BC-8DEB instead of "⿲刀丫&CDP-89CA;".
+	(U-00024161): Use "𩕍" instead of "⿰⿱自𠦂頁".
+	(U-0002416D): Use "𧞻" instead of "⿳⿱亠吅⿰&CDP-86C9;爻𧘇".
+	(U-0002426F): Use "𧢲" instead of "⿱⺈⿵冂⿱人人".
+	(U-000244CA): Use "𧬉" instead of "⿳日出⿵大言".
+	(U-00024B25): Fixed.
+	(U-00024D70): Use "刍" instead of "⿱⺈彐".
+	(U-00025224): Use GT-K06360 instead of "⿳⺊⺕龰".
+	(U-00025E02): Use "𡃫" instead of "⿱⿰口口⿸厂⿰⿱彐月殳".
+	(U-00025E91): Use "𠬶" instead of "⿱彐⿱冖又".
+
+2017-04-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "吅" instead of "⿰口口".
+	- Use "𦚏" instead of "⿱立月" or "⿱立⺼".
+	- Use "㬥" instead of "⿳日出⿱大米" or "⿳日出⿵大米".
+	- Use GT-K09590 instead of "⿱𣅽大".
+	- Use "𦙃" instead of "⿱⿺𠃊口⺼".
+	(U-000222DA): Use "肎" instead of "⿱冖⺼".
+	(U-00022543): Use GT-K00724 instead of "⿺𠃊口".
+	(U-00022DA6): Use "&GT-K10656;" instead of "⿳夂工貝".
+	(U-0002382F): Use U+7758-itaiji-007 instead of "⿳⺫𠫔𧘇".
+	(U-00023F4E): Use "臯" instead of "⿱自𠦂".
+
 2017-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt:
