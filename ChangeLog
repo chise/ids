@@ -1,3 +1,21 @@
+2017-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt: Use "𢆶" instead of "⿰幺幺".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "亐" instead of "⿻丂一".
+	- Use BC-8BAE instead of "⿱亠丷".
+	- Use "𢀩" instead of "⿱𠂹⿸丆工".
+	- Use "𡬠" instead of "⿰艮寸".
+	(U-000226B9): Fixed.
+	(U-00023398): Fixed.
+	(U-000233CE): Use "丫" instead of "⿱丷丨".
+	(U-0002386E): Use "𣠵" instead of "⿳⿲木夕木冖⿰艮寸".
+	(U-00023871): Use "𡬠" instead of "⿰艮寸".
+	(U-00023CCD): Completed.
+
+	* IDS-UCS-Ext-A.txt (U+3898): Use "𠔥" instead of "⿳䒑&CDP-88BB;灬".
+
 2017-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt:
