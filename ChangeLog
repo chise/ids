@@ -1,3 +1,24 @@
+2017-05-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "炏" instead of "⿰火火".
+	- Use "㫺" instead of "⿱𠈌日".
+	- Use "𢀩" instead of "⿱𠂹⿸丆工".
+	- Use U+21B20-itaiji-001 instead of "⿰鬯寸".
+	(U-000244ED): Use "欝" instead of "⿳&I-CDP-8AD7;⺫𡬠".
+	(U-00024538): Use "𡬠" instead of "⿰艮寸".
+	(U-00024678): Completed.
+	(U-0002467A): Use BC-8BEC.
+	(U-000253C3): Use "亐" instead of "⿻丂一".
+	(U-0002555A): Use "㷀" instead of "⿱⿰火火卂".
+	(U-000258F9): Use "𤎉" instead of "⿸产⿱&CDP-88BB;灬".
+	(U-000258FA): Use "⿱𠔥x" instead of "⿱⿱䒑&CDP-88BB;⿱灬x".
+	(U-000259C1): Use "总" instead of "⿳&I-CDP-8B55;口心".
+	(U-00025A88): Use BC-8BAE instead of "⿳亠&I-CDP-8B55;".
+	(U-00025AB6): Fixed.
+	(U-00025D36): Fixed.
+	(U-00025DAA): Use "𢵄" instead of "⿰扌⿱&I-C4-2535;日".
+
 2017-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt: Use "𢆶" instead of "⿰幺幺".
@@ -13,6 +34,11 @@
 	(U-0002386E): Use "𣠵" instead of "⿳⿲木夕木冖⿰艮寸".
 	(U-00023871): Use "𡬠" instead of "⿰艮寸".
 	(U-00023CCD): Completed.
+
+	* IDS-UCS-Ext-B-4.txt (U-000261C8): Use "𢀩" instead of
+	"⿱𠂹⿸丆工".
+	(U-00026BFA): Use BC-8BAE instead of "⿱亠丷".
+	(U-000279D1): Use "⿸产x" instead of "⿱&CDP-8BAE;⿸厂x".
 
 	* IDS-UCS-Ext-A.txt (U+3898): Use "𠔥" instead of "⿳䒑&CDP-88BB;灬".
 
