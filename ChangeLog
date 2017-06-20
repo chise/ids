@@ -1,3 +1,19 @@
+2017-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-04.txt (M-07446): Add IDS.
+
+2017-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use "爫" instead of <CJK RADICAL PAW ONE>.
+	(U-000202BB): Use "𤓽" instead of "⿱⺤⿱&CDP-8BA2;朩".
+	(U-00020461): Use "𪺏" instead of "⿱⺤豕".
+	(U-00021193): Fixed.
+	(U-00021223): Use "𡬳" instead of "⿳⺤⺫寸".
+	(U-000213DF): Use "䍃" instead of "⿱⺤缶".
+	(U-00021A74): Likewise.
+
+	* IDS-UCS-Ext-A.txt (U+3A4A): Use "𡬳" instead of "⿳爫⺫寸".
+
 2017-06-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-Daikanwa-07.txt (M-19690): Add IDS.
