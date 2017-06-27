@@ -1,4 +1,64 @@
+2017-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Replace &I-<foo>; to &<foo>;.
+	- Use "吅" instead of "⿰口口".
+	- Use "𠙻" instead of "⿶凵干".
+	- Use "𢁅" instead of "⿱⿰巳巳&I-CDP-8B6F;".
+	- Use "亐" instead of "⿻丂一".
+	- Use "𡬳" instead of "⿳⺤⺫寸".
+	- Use "𢀩" instead of "⿱𠂹⿸&I-CDP-896C;工".
+	- Use "𦙃" instead of "⿱⿺𠃊口⺼".
+	(U-00028234): Use "𠮦" instead of "⿱&I-CDP-8B55;口".
+	(U-000282E6): Use "𠬦" instead of "⿵&CDP-8BD6;又".
+	(U-000285A1): Use "𪺏" instead of "⿱⺤豕".
+	(U-00028725): Use "𠀷" instead of "⿱&I-CDP-8B53;𠕁".
+	(U-000288AB): Fixed.
+	(U-00028A92): Use "𠳯" instead of "⿰&I-CDP-8C4C;&I-CDP-8C4C;".
+	(U-00028B2D): Use "凿" instead of "⿱业⿶凵&I-C4-2178;".
+	(U-00028CC2): Fixed.
+	(U-00028E50): Fixed.
+	(U-00028E6F): Fixed.
+	(U-000293DB): Fixed.
+	(U-00029445): Use GT-K10656 instead of "⿱夂貢".
+	(U-0002950D): Use "𦚏" instead of "⿱立月".
+	(U-000297A3): Use "乕" instead of "⿸𠂆&CDP-89ED;".
+	(U-000297F4): Use "𢿨" instead of "⿰⿱林月攴".
+	(U-00029916): Use "𠒆" instead of "⿱囟儿".
+	(U-00029A02): Use "总" instead of "⿳&I-CDP-8B55;口心".
+	(U-00029AFE): Use "丫" instead of "⿱&I-CDP-8B55;丨".
+	(U-00029C29): Use U+21B20-itaiji-001 instead of "⿰鬯寸".
+
+2017-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-03.txt (M-06802): Add IDS.
+
+	* IDS-UCS-Ext-B-1.txt (U-00020C06): Use U-0002CF16 instead of
+	BC-89E3.
+	(U-000218AF): Likewise.
+
+2017-06-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-02.txt (M-03224): Add IDS.
+	(M-03225): Ditto.
+	(M-03508): Ditto.
+
+2017-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024931): Use "𠬦" instead of "⿵&CDP-8BD6;又".
+	(U-00024971): Use U+56DF-itaiji-001 instead of "⿵&CDP-8BD6;㐅".
+	(U-00024A5E): Fixed.
+	(U-00024A64): Use "𠧠" instead of "⿺𠃊卣".
+	(U-000253C8): Fixed.
+	(U-0002545A): Use U+56DF-itaiji-005 instead of "⿵&CDP-8BD6;人".
+	(U-00025468): Use U+56DF-itaiji-001 instead of "⿵&CDP-8BD6;㐅".
+	(U-00025469): Use "𠬦" instead of "⿵&CDP-8BD6;又".
+	(U-000255F8): Fixed.
+	(U-00025DF8): Use "𦔡" instead of "⿰耒㫺".
+
 2017-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023926): Use "𠧠" instead of "⿺𠃊卣".
 
 	* IDS-Daikanwa-04.txt (M-07446): Add IDS.
 
@@ -13,6 +73,11 @@
 	(U-00021A74): Likewise.
 
 	* IDS-UCS-Ext-A.txt (U+3A4A): Use "𡬳" instead of "⿳爫⺫寸".
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A14A): Use "𪺏" instead of "⿱⺤豕".
+
+	* IDS-UCS-Ext-B-4.txt (U-00026118): Use "𪺏" instead of "⿱⺤豕".
+	(U-00027937): Likewise.
 
 2017-06-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -30,6 +95,10 @@
 	(U-00023CBF): Use "𠬦" instead of "⿵&CDP-8BD6;又".
 
 2017-05-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2B92D): Use U+56DF-itaiji-001 instead of
+	"⿱丿冈"; use GT-K00264 instead of "⿱一八".
+	(U+2B930): Use GT-K00264 instead of "⿱一八"; change structure.
 
 	* IDS-UCS-Ext-B-6.txt:
 	- Replace &I-<foo>; to &<foo>;
