@@ -35,6 +35,8 @@
 	(U-00029AFE): Use "丫" instead of "⿱&I-CDP-8B55;丨".
 	(U-00029C29): Use U+21B20-itaiji-001 instead of "⿰鬯寸".
 
+	* IDS-CDP.txt (CDP-8AC2): Add IDS.
+
 2017-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-Daikanwa-03.txt (M-06802): Add IDS.
