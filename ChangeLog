@@ -1,3 +1,29 @@
+2017-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use BC-8C78 instead of <KATAKANA LETTER KO>.
+	- Use BC-8C79 instead of "⿱コ又".
+	- Use BC-8BAB instead of "⿻コ一".
+	- Use BC-88B4 instead of "⿻コ〢".
+	- Use BC-8D56 instead of "⿸广⿻コ〢".
+	(U+2CEB6): Completed.
+	(U+2CEC8): Completed.
+	(U+2CED1): Completed.
+	(U+2CED4): Completed.
+	(U+2CED8): Completed.
+	(U+2CEE5): Completed.
+	(U+2CEEB): Completed; use BC-8DDD instead of "⿻一中".
+	(U+2CEF5): Completed.
+	(U+2CEF7): Completed.
+	(U+2CFB9): Completed.
+	(U+2D050): Completed.
+	(U+2D24D): Use BC-8DE2 instead of "⿻⿻コ一人".
+	(U+2D667): Use BC-884D instead of "⿻⿻コ一丨".
+	(U+2D724): Use BC-88B3 instead of "⿴コ丨".
+	(U+2EBC6): Use GT-K02332 instead of "⿻木コ".
+
+	* IDS-CDP.txt (CDP-8DDD): Add IDS.
+
 2017-06-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* install-ids.el: Install IDS-UCS-Ext-F.txt.
