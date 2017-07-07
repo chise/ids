@@ -1,6 +1,13 @@
+2017-07-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use GT-K00880 instead of "⿱⺊&CDP-88E2;".
+	(U-0002345B): Fixed.
+
 2017-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-Daikanwa-05.txt (M-12372): Add IDS.
+
+	* IDS-UCS-Ext-B-1.txt: Use GT-K00880 instead of "⿱⺊&CDP-88E2;".
 
 2017-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
