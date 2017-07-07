@@ -1,3 +1,7 @@
+2017-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-05.txt (M-12372): Add IDS.
+
 2017-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt:
@@ -21,6 +25,12 @@
 	(U+2D667): Use BC-884D instead of "⿻⿻コ一丨".
 	(U+2D724): Use BC-88B3 instead of "⿴コ丨".
 	(U+2EBC6): Use GT-K02332 instead of "⿻木コ".
+
+2017-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CDP.txt (CDP-8D56): Add IDS.
+
+2017-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CDP.txt (CDP-8DDD): Add IDS.
 
@@ -454,7 +464,7 @@
 	- Use "亦" instead of "⿱亠&CDP-89BB;".
 	- Use "旣" instead of "⿰⿱白匕旡".
 	- Use "叒" instead of "⿱又双".
-	- Use "&MJ058978;" instead of "⿱𠂉⿸&CDP-88F1;&CDP-8965;".
+	- Use "𮥶" instead of "⿱𠂉⿸&CDP-88F1;&CDP-8965;".
 	- Use "䀠" instead of "⿰目目".
 	- Use "𬜯" instead of "⿱艹两".
 	- Use U+72AD instead of <CJK RADICAL DOG>.
@@ -523,7 +533,7 @@
 	- Use "&U-i001+81E4;" instead of "⿰刂又".
 	- Use "&U-i003+76D1;" instead of "⿰刂&CDP-89BC;".
 	(U+4E34): Use "⿸&U-i003+76D1;x" instead of "⿰刂⿱&CDP-89BC;x".
-	(U+52E7): Use "&MJ058978;" instead of "⿻⿱𠂉一隹".
+	(U+52E7): Use "𮥶" instead of "⿻⿱𠂉一隹".
 	(U+5352): Use "𠅃" instead of "⿱亠从".
 	(U+5433): Fixed.
 
@@ -799,18 +809,18 @@
 
 	* IDS-UCS-Basic.txt:
 	- Use "么" instead of "⿰丿厶".
-	- Use "&MJ058270;" instead of "⿳⺮目大".
+	- Use "𮅕" instead of "⿳⺮目大".
 	(U+98ED): Modify structure.
 	(U+98FE): Likewise.
 
 2017-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-A.txt: Use "&MJ058270;" instead of "⿳⺮目大".
+	* IDS-UCS-Ext-A.txt: Use "𮅕" instead of "⿳⺮目大".
 
-	* IDS-UCS-Ext-B-5.txt (U-000283C9): Use "&MJ058270;" instead of
+	* IDS-UCS-Ext-B-5.txt (U-000283C9): Use "𮅕" instead of
 	"⿳⺮目大".
 
-	* IDS-UCS-Ext-B-3.txt: Use "&MJ058270;" instead of "⿳⺮目大".
+	* IDS-UCS-Ext-B-3.txt: Use "𮅕" instead of "⿳⺮目大".
 
 2017-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -1046,31 +1056,31 @@
 	U+7A3D.
 
 	* IDS-UCS-Basic.txt:
-	- Use "&CB08298;" instead of "⿰禾尤".
+	- Use "𮂱" instead of "⿰禾尤".
 	- Use U+226F3 instead of IU+226F3.
 	(U+9459): Use U+2585E-var-001 instead of "⿱⿰禾尤旨".
 
 2016-04-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-HZK01.txt: Use "&MJ057582;" instead of "⿰&CDP-8B7A;攵".
+	* IDS-HZK01.txt: Use "𭣢" instead of "⿰&CDP-8B7A;攵".
 
 2016-04-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025295): Use "𠋛" instead of "⿰&CDP-8B7A;⿱攴
 	月".
-	(U-00025891): Use "&CB08298;" instead of "⿰禾尤".
+	(U-00025891): Use "𮂱" instead of "⿰禾尤".
 
-	* IDS-UCS-Ext-B-5.txt (U-000289B7): Use "&MJ057582;" instead of "⿰&CDP-8B7A;攴".
+	* IDS-UCS-Ext-B-5.txt (U-000289B7): Use "𭣢" instead of "⿰&CDP-8B7A;攴".
 
-	* IDS-UCS-Ext-B-2.txt: Use "⿸&MJ057582;x" instead of "⿰&CDP-8B7A;⿱攴x".
+	* IDS-UCS-Ext-B-2.txt: Use "⿸𭣢x" instead of "⿰&CDP-8B7A;⿱攴x".
 
-	* IDS-UCS-Ext-B-1.txt: Use "⿸&MJ057582;x" instead of "⿰&CDP-8B7A;⿱攴x".
+	* IDS-UCS-Ext-B-1.txt: Use "⿸𭣢x" instead of "⿰&CDP-8B7A;⿱攴x".
 
-	* IDS-UCS-Ext-B-4.txt (U-00026C1E): Use "&MJ057582;" instead of "⿰&CDP-8B7A;攴".
+	* IDS-UCS-Ext-B-4.txt (U-00026C1E): Use "𭣢" instead of "⿰&CDP-8B7A;攴".
 
 2016-04-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-A.txt (U+36F7): Use "&CB08298;" instead of "⿰禾尤".
+	* IDS-UCS-Ext-A.txt (U+36F7): Use "𮂱" instead of "⿰禾尤".
 
 2016-03-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -2654,7 +2664,7 @@
 2006-02-21  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
 	* IDS-JIS-X0208-1990.txt: Add/modify some IDSs.
-	(J90-343F): Use "&MJ058978;" instead of "⿱𠂉⿱&CDP-88F1;&CDP-8965;" to compact.
+	(J90-343F): Use "𮥶" instead of "⿱𠂉⿱&CDP-88F1;&CDP-8965;" to compact.
 	(J90-377B): Use "𡩜" instead of "⿳宀龶⺫" to compact.
 	(J90-4234): Compact IDS.
 	(J90-444F): Compact IDS.
