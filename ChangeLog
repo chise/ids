@@ -1,3 +1,52 @@
+2017-07-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+37A1): Use "㠭" instead of
+	"⿱⿰工工⿰工工".
+	(U+3BF1): Use U+675F-itaiji-001.
+	(U+3BFB): Likewise.
+	(U+3C06): Likewise.
+	(U+3C8A): Use A-IWDSU+777F instead of "⿸⿱⺊&CDP-88E2;⿱⿳一八𠆢目".
+	(U+4774): Use GT-K03592 instead of "⿱&CDP-8DDD;冖".
+	(U+4967): Use A-IWDSU+777F instead of "⿸⿱⺊&CDP-88E2;⿱⿳一八𠆢目".
+
+	* IDS-Daikanwa-12.txt (M-44831): Add IDS.
+
+2017-07-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt: Use GT-K03322 instead of "⿱⺈罒".
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use GT-K03592 instead of "⿱&CDP-8DDD;冖".
+	- Use GT-K03322 instead of "⿱⺈⺫".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use GT-K03592 instead of "⿱&CDP-8DDD;冖".
+	- Use GT-K03322 instead of "⿱⺈⺫".
+	- Use BC-8C4F-var-004 instead of "⿰&CDP-88D3;&CDP-8C4E;".
+	(U-00023F4A): Use "䜭" instead of "⿱⿳⺊冖一谷".
+
+	* IDS-UCS-Ext-F.txt: Use GT-K00724 instead of "⿺𠃊口".
+	(U+2D42C): Use GT-K03322 instead of "⿱⺈罒".
+	(U+2D44F): Use (⿱ GT-K03322 大) instead of "⿱𠂊𦉼".
+	(U+2D693): Completed.
+	(U+2D6C4): Completed.
+	(U+2D7E9): Completed.
+	(U+2D7F7): Completed.
+	(U+2D981): Completed.
+	(U+2D997): Use BC-8B6C instead of "⿰丿𠃌".
+	(U+2DF3F): Completed.
+	(U+2E094): Completed.
+	(U+2EBDF): Completed.
+
+	* IDS-UCS-Ext-C.txt: Use GT-K03322 instead of "⿱⺈罒".
+
+2017-07-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use BC-8C4F-var-004 instead of "⿰&CDP-88D3;&CDP-8C4E;".
+	(U-00028AF6): Use GT-K00880 instead of "⿱⺊&CDP-88E2;".
+	(U-00029792): Use "𠀐" instead of "⿱中一".
+	(U-00029917): Fixed.
+
 2017-07-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use GT-K00880 instead of "⿱⺊&CDP-88E2;".
