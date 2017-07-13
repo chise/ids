@@ -1,5 +1,33 @@
 2017-07-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt: Use U+8279 instead of <CJK RADICAL GRASS
+	TWO>.
+	(U-00022D4E): Fixed.
+
+2017-07-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+8279 instead of <CJK RADICAL GRASS
+	TWO>.
+	(U-00020281): Fixed.
+	(U-000203D2): Completed.
+	(U-00021904): Fixed.
+
+	* IDS-UCS-Ext-F.txt (U+2E4D6): Use U+8279 instead of <CJK RADICAL
+	GRASS TWO>.
+	(U+2E4D7): Completed.
+
+	* IDS-UCS-Ext-B-6.txt: Use U+8279 instead of <CJK RADICAL GRASS
+	TWO>.
+
+	* IDS-UCS-Ext-B-4.txt: Use U+8279 instead of <CJK RADICAL GRASS
+	TWO>.
+
+2017-07-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-2.txt (C2-5066): Use GT-K01554 instead of "⿱⿱⺊冖一".
+
+	* IDS-Daikanwa-09.txt (M-32646): Add IDS.
+
 	* IDS-UCS-Ext-B-4.txt:
 	- Use GT-K00859 instead of "⿱八𠆢".
 	- Use GT-K00880 instead of "⿱⺊&CDP-88E2;".
