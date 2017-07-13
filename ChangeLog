@@ -1,3 +1,49 @@
+2017-07-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use GT-K00859 instead of "⿱八𠆢".
+	- Use GT-K00880 instead of "⿱⺊&CDP-88E2;".
+	- Use "䖵" instead of "⿰虫虫".
+	- Use GT-K03592 instead of "⿱&CDP-8DDD;冖".
+	- Use GT-K00877 instead of "⿱⺊冖".
+	(U-00026AC6): Fixed.
+	(U-000270DC): Use GT-K03322 instead of "⿱⺈⺫".
+	(U-00027203): Use "𧇖" instead of "⿸虍⿳八𠆢目".
+	(U-0002759A): Use "㯱" instead of "⿱⿱&CDP-8DDD;冖⿱缶木".
+	(U-00027895): Use U+777F-itaiji-001 instead of "⿳⿱⺊冖⿱八𠆢目".
+	(U-00027E29): Use A-IWDSU+777F instead of "⿱⺊⿸厂⿱⿳一八𠆢目".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028910): Use GT-K00877 instead of
+	"⿱⺊冖".
+	(U-00028B34): Use GT-K01554 instead of "⿳⺊冖一".
+	(U-00028F73): Use "䖵" instead of "⿰虫虫".
+
+2017-07-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use GT-K00880 instead of "⿱⺊&CDP-88E2;".
+	- Use GT-K00859 instead of "⿱八𠆢".
+	- Use GT-K00877 instead of "⿱⺊冖".
+	- Use GT-K03322 instead of "⿱⺈⺫".
+	(U-00024039): Use "𥈠" instead of "⿱⺊⿸&CDP-88E2;⿳一⿱八𠆢目".
+	(U-00024A45): Use "䜭" instead of "⿱⺊⿳冖一谷".
+	(U-00024A77): Use "𫳤" instead of "⿳宀⿳一八𠆢目".
+	(U-00025304): Use GT-K01554 instead of "⿱⿱⺊冖一".
+
+	* IDS-UCS-Ext-A.txt: Use GT-K01554 instead of "⿳⺊冖一".
+	(U+3561): Use "䜭" instead of "⿱⿳⺊冖一谷".
+
+	* IDS-UCS-Ext-B-2.txt: Use GT-K00877 instead of "⿱⺊冖".
+	(U-00022FE1): Use GT-K01554 instead of "⿱⺊⿵冖一".
+	(U-00023927): Use U+777F-itaiji-001 instead of "⿳⿱⺊冖𠔁目".
+	(U-00023D38): Use GT-K01554 instead of "⿱⺊⿱冖一".
+	(U-00023FF0): Use U+777F-itaiji-001 instead of "⿳⿳⺊冖八𠆢目".
+
+	* IDS-UCS-Basic.txt (U+6579): Use "𥹄" instead of "⿱⿱⺊冖釆".
+	(U+777F): Use GT-K01554 instead of "⿳⺊冖一"; use GT-K00859
+	instead of "⿱八𠆢".
+	(U+80BB): Use GT-K00877 instead of "⿱⺊冖".
+
 2017-07-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+37A1): Use "㠭" instead of
