@@ -1,3 +1,24 @@
+2017-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use U+8279 instead of <CJK RADICAL GRASS
+	TWO>.
+	(U-00028752): Completed.
+	(U-0002891E): Fixed.
+	(U-00028C17): Fixed.
+	(U-00029437): Use "桒" instead of "⿳十艹木".
+	(U-00029621): Fixed.
+	(U-00029D49): Use "𧃰" instead of "⿳艹⿲止自巳⿱八夂".
+	(U-00029D4A): Fixed.
+	(U-00029F6D): Use "藍" instead of "⿱艹監".
+
+	* IDS-UCS-Ext-B-3.txt: Use U+8279 instead of <CJK RADICAL GRASS
+	TWO>.
+	(U-000245E5): Use "桒" instead of "⿳十艹木".
+	(U-00024828): Completed.
+	(U-00024829): Fixed.
+	(U-00024BA1): Fixed.
+	(U-00024CD9): Fixed.
+
 2017-07-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use U+8279 instead of <CJK RADICAL GRASS
