@@ -1,3 +1,63 @@
+2017-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	- Use "𣬉" instead of "⿱囟比".
+	- Use "㠭" instead of "⿱⿰工工⿰工工".
+	(U-00025C4D): Use "𣀔" instead of "⿰⿳⺮目丌攴".
+	(U-00024112): Use "𥳑" instead of "⿱⺮閒".
+	(U-00025C4D): Fixed.
+	(U-00025D1A): Fixed.
+	(U-00025D1D): Fixed.
+	(U-00025D6D): Use GT-K02128 instead of [⿱ 亠 BC-89CC].
+	(U-00025D79): Fixed.
+	(U-00025DAD): Use "𠏉" instead of "⿰𠦝余".
+	(U-00025DFA): Fixed.
+	(U-00025E05): Fixed.
+	(U-00025E20): Fixed.
+	(U-00025F67): Use "籴" instead of "⿱𠆢米".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	- Use "𣬉" instead of "⿱囟比".
+	(U-00022C6C): Use GT-K02057 instead of "⿹勹手".
+	(U-00023818): Fixed.
+
+2017-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt:
+	- Use "𣬉" instead of "⿱囟比".
+	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	- Use "𣬉" instead of "⿱囟比".
+	- Use "𥳑" instead of "⿱⺮閒".
+
+	* IDS-UCS-Ext-B-1.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	(U-0002180C): Use "𣬉" instead of "⿱囟比".
+	(U-00021CAE): Likewise.
+
+	* IDS-UCS-Basic.txt:
+	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	- Use "𣬉" instead of "⿱囟比".
+
+	* IDS-CNS-3.txt:
+	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	- Use UU+51FD instead of U+51FD.
+
+	* IDS-CNS-1.txt:
+	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	- Use "倝" instead of "⿰𠦝𠆢".
+	(C1-5C49): Use "𢎨" instead of "⿹丿弔".
+
+	* IDS-CNS-2.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+
+	* IDS-UCS-Ext-B-4.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+	(U-000277C9): Use "𥳑" instead of "⿱⺮閒".
+
+	* IDS-UCS-Ext-A.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
+
 2017-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use U+8279 instead of <CJK RADICAL GRASS
