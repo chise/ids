@@ -1,7 +1,20 @@
 2017-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-00028326): Use "𤰞" instead of
+	"⿱田⿰丿十".
+	(U-00028670): Use U+624C instead of <CJK RADICAL HAND>.
+	(U-00029A59): Use "𤰞" instead of "⿱田⿰丿十".
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+624C instead of <CJK RADICAL HAND>.
+	- Use "𤰞" instead of "⿱田⿰丿十".
+	(U-00024DD2): Use "𤰞" instead of "⿱田⿻𠂉十".
+	(U-000254D3): Use "𤰞" instead of "⿱田⿻十丿".
+
 	* IDS-UCS-Ext-A.txt: Use U+624C instead of <CJK RADICAL HAND>.
 	(U+3A79): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt: Use U+624C instead of <CJK RADICAL HAND>.
 
 	* IDS-UCS-Ext-B-1.txt: Use U+624C instead of <CJK RADICAL HAND>.
 
