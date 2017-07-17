@@ -1,5 +1,19 @@
 2017-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt: Use U+4EBB instead of <CJK RADICAL PERSON>.
+
+	* IDS-UCS-Ext-B-5.txt: Use U+4EBB instead of <CJK RADICAL PERSON>.
+
+	* IDS-UCS-Ext-B-4.txt: Use U+4EBB instead of <CJK RADICAL PERSON>.
+
+	* IDS-UCS-Ext-B-3.txt: Use U+4EBB instead of <CJK RADICAL PERSON>.
+
+	* IDS-UCS-Ext-B-2.txt: Use U+4EBB instead of <CJK RADICAL PERSON>.
+
+	* IDS-UCS-Ext-B-1.txt: Use U+4EBB instead of <CJK RADICAL PERSON>.
+
+2017-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt:
 	- Use U+624C instead of <CJK RADICAL HAND>.
 	- Use BC-8DC9 instead of "⿹勹丿".
