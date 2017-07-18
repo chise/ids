@@ -1,5 +1,18 @@
 2017-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt:
+	- Use U+7CF8 instead of U+7CF9.
+	- Use GT-K02281 instead of "⿱䒑巾".
+	- Use "𧴦" instead of "⿱匕貝".
+	(U+2C606): Use "𤲥" instead of "⿻申⿱𠔽月".
+
+2017-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt:
+	- Use U+7CF8 instead of U+7CF9.
+	- Use U+396F instead of CU+396F.
+	(U+42F2): Use "黾" instead of [⿱ 口 BC-8BE8].
+
 	* IDS-CDP.txt (CDP-8BE7): Use U+7CF8 instead of U+7CF9.
 
 	* IDS-CNS-3.txt: Use U+7CF8 instead of U+7CF9.
@@ -11,6 +24,20 @@
 	* IDS-UCS-Basic.txt: Use U+7CF8 instead of U+7CF9.
 	(U+7E4C): Fixed.
 	(U+9DE5): Use "絲" instead of "⿰糹糸".
+
+2017-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use U+7CF8 instead of U+7CF9.
+
+	* IDS-UCS-Ext-C.txt (U-0002B0F1): Fixed.
+
+	* IDS-UCS-Ext-B-5.txt (U-00029E7E): Use "納" instead of "⿰糹內".
+
+	* IDS-UCS-Ext-B-4.txt: Use U+7CF8 instead of U+7CF9.
+
+	* IDS-UCS-Ext-B-2.txt: Use U+7CF8 instead of U+7CF9.
+
+	* IDS-UCS-Ext-B-1.txt: Use U+7CF8 instead of U+7CF9.
 
 2017-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
