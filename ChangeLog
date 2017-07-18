@@ -1,3 +1,17 @@
+2017-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CDP.txt (CDP-8BE7): Use U+7CF8 instead of U+7CF9.
+
+	* IDS-CNS-3.txt: Use U+7CF8 instead of U+7CF9.
+
+	* IDS-CNS-2.txt: Use U+7CF8 instead of U+7CF9.
+
+	* IDS-CNS-1.txt: Use U+7CF8 instead of U+7CF9.
+
+	* IDS-UCS-Basic.txt: Use U+7CF8 instead of U+7CF9.
+	(U+7E4C): Fixed.
+	(U+9DE5): Use "絲" instead of "⿰糹糸".
+
 2017-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt: Use U+4EBB instead of <CJK RADICAL PERSON>.
