@@ -1,4 +1,27 @@
+2017-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U-00027FB7 instead of <CJK RADICAL FOOT>.
+	- Use "𢆰" instead of "⿱一幺".
+	(U-00026342): Use "䠣" instead of "⿰⻊巽".
+	(U-00026345): Ditto.
+	(U-00027DE5): Use "䟝" instead of "⿰⻊殳".
+	(U-00027FCF): Use "𭅲" instead of "⿴㔾丶".
+
+	* IDS-UCS-Basic.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
+	(U+8E6E): Use "䙴" instead of "⿳覀大巳".
+
 2017-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-3.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
+
+	* IDS-CNS-2.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
+
+	* IDS-CNS-1.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
+
+	* IDS-UCS-Ext-B-3.txt (U-00025E19): Use "躘" instead of "⿰⻊龍".
+
+	* IDS-UCS-Ext-A.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
 
 	* IDS-UCS-Ext-E.txt:
 	- Use U+7CF8 instead of U+7CF9.
