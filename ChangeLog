@@ -1,5 +1,25 @@
 2017-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U-00027FB7 instead of <CJK RADICAL FOOT>.
+	- Use "𢆰" instead of "⿱一幺".
+	- Use "㢲" instead of "⿳⿰弓弓一八".
+	- Use "𣏋" instead of "⿱𠫓木".
+	- Use "𢍃" instead of "⿱夭卉".
+	- Use "𢉖" instead of "⿸&CDP-8D56;⿰厶厶".
+	- Use "𢆶" instead of "⿰幺幺".
+	- Use "爕" instead of "⿱⿲火言火火".
+	(U-0002801D): Use "叒" instead of "⿱又⿰又又".
+	(U-000280AB): Use "㡿" instead of "⿸广屰".
+	(U-000280AD): Use "毒" instead of "⿱龶母".
+	(U-00028148): Use "𦰧" instead of "⿳龷厶木".
+	(U-00028209): Use "𡖂" instead of "⿱卝夒".
+	(U-00028D7F): Use "𢇂" instead of "⿱⿰幺幺廾".
+	(U-00028ECB): Use "𡌥" instead of "⿳一⿰幺幺土".
+	(U-00029706): Use "𢆻" instead of "⿱⿰幺幺几".
+
+2017-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-4.txt:
 	- Use U-00027FB7 instead of <CJK RADICAL FOOT>.
 	- Use "𢆰" instead of "⿱一幺".
