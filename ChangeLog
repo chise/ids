@@ -1,5 +1,17 @@
 2017-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2DC59): Use GT-K02281 instead of "⿱䒑巾".
+
+	* IDS-UCS-Ext-C.txt (U-0002AC8D): Use GT-K02281 instead of
+	"⿱䒑巾".
+	(U-0002B253): Ditto.
+
+	* IDS-UCS-Ext-B-4.txt (U-000266BF): Use GT-K02281 instead of
+	"⿱䒑巾".
+
+	* IDS-UCS-Ext-B-1.txt (U-000212C1): Use GT-K02281 instead of
+	"⿱䒑巾".
+
 	* IDS-UCS-Ext-B-5.txt:
 	- Use U-00027FB7 instead of <CJK RADICAL FOOT>.
 	- Use "𢆰" instead of "⿱一幺".
