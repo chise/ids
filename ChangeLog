@@ -1,5 +1,24 @@
 2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt (U+2C8BA): Use "𠦝" instead of U+9FBA.
+	(U+2C8BB): Completed.
+
+	* IDS-UCS-Ext-B-5.txt (U-00029C92): Use "长" instead of <CJK
+	RADICAL C-SIMPLIFIED LONG>.
+	(U-00029C94): Use "𣂑" instead of "⿸⺁十".
+
+	* IDS-UCS-Ext-B-2.txt (U-000233F8): Use "𣂑" instead of "⿸⺁十".
+
+	* IDS-UCS-Ext-A.txt (U+37AE): Use "𠚤" instead of <IDEOGRAPHIC
+	ITERATION MARK>.
+
+	* IDS-UCS-Ext-F.txt (U+2E5D9): Completed.
+
+	* IDS-CBETA.txt (CB09686): Use "𠂭" instead of <REFERENCE MARK>.
+	(CB09847): Use BC-88B9 instead of "⿱┌⿱┌─".
+
+2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-F.txt (U+2E9C2): Completed.
 
 	* IDS-UCS-Ext-E.txt (U+2C2E2): Completed.
