@@ -1,5 +1,9 @@
 2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2E9C2): Completed.
+
+	* IDS-UCS-Ext-E.txt (U+2C2E2): Completed.
+
 	* IDS-UCS-Ext-B-5.txt (U-0002916B): Use "㥞" instead of "⿰⺖㒸".
 
 	* IDS-UCS-Ext-B-3.txt (U-00025592): Use "惸" instead of
