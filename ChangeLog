@@ -1,3 +1,28 @@
+2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002916B): Use "㥞" instead of "⿰⺖㒸".
+
+	* IDS-UCS-Ext-B-3.txt (U-00025592): Use "惸" instead of
+	"⿰⺖⿱旬子".
+	(U-00025B42): Use "忛" instead of "⿰⺖凡".
+
+	* IDS-UCS-Ext-A.txt: Use U+5FC4 instead of <CJK RADICAL HEART
+	ONE>.
+	(U+3957): Use "旻" instead of "⿱日文".
+	(U+3958): Use "刼" instead of "⿰去刃".
+	(U+3988): Use "盖" instead of "⿱𦍌皿".
+
+2017-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-3.txt: Use U+5FC4 instead of <CJK RADICAL HEART ONE>.
+
+	* IDS-CNS-2.txt: Use U+5FC4 instead of <CJK RADICAL HEART ONE>.
+
+	* IDS-CNS-1.txt: Use U+5FC4 instead of <CJK RADICAL HEART ONE>.
+
+	* IDS-UCS-Ext-B-2.txt: Use U+5FC4 instead of <CJK RADICAL HEART
+	ONE>.
+
 2017-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DC59): Use GT-K02281 instead of "⿱䒑巾".
