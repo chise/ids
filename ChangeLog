@@ -1,5 +1,15 @@
 2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-CDP.txt: Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+
+	* IDS-CNS-3.txt: Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+
+	* IDS-CNS-2.txt: Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+
+	* IDS-CNS-1.txt: Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+
+2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-E.txt (U+2C8BA): Use "𠦝" instead of U+9FBA.
 	(U+2C8BB): Completed.
 
