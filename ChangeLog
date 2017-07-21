@@ -1,3 +1,73 @@
+2017-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+96E8 instead of <CJK RADICAL RAIN>.
+	- Use "厸" instead of "⿰厶厶".
+	- Use "竝" instead of "⿰立立".
+	- Use "畱" instead of [⿱ BC-89B6 田].
+	(U-0002859B): Use "𩁹" instead of "⿱⻗于".
+	(U-000285D2): Use "𨑳" instead of "⿺辶𡈼".
+	(U-00029080): Fixed.
+	(U-000290CA): Completed.
+	(U-000290CD): Use "㳂" instead of "⿰氵公".
+	(U-000290DE): Use "𢨯" instead of "⿰戶戶".
+	(U-00029167): Fixed.
+	(U-0002916F): Use "䎜" instead of "⿰老老".
+	(U-000291C7): Use "𦓈" instead of "⿱老⿰老老".
+	(U-000291D3): Use "𤴐" instead of "⿳⿰田田⿰回回⿰田田".
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+96E8 instead of <CJK RADICAL RAIN>.
+	- Use "畱" instead of [⿱ BC-89B6 田].
+	(U-00024149): Use "𩅜" instead of "⿱⻗朗".
+	(U-00024A39): Use "𩁹" instead of "⿱⻗于".
+	(U-000255E4): Use GT-K03592 instead of [⿱ BC-8DDD 冖].
+	(U-00025F6E): Use "霛" instead of "⿱⻗⿲弓弓弓".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use GT-K03592 instead of [⿱ BC-8DDD 冖].
+	- Use [⿴ U+675F-itaiji-001 x] instead of [⿳ GT-K03592 x 木].
+	- Use U+96E8 instead of <CJK RADICAL RAIN>.
+	(U-000235DE): Fixed.
+	(U-00023788): Use [⿴ U+675F-itaiji-002 x] instead of
+	[⿳ BC-8DDD "⿴囗x" 木].
+	(U-000237CF): Fixed.
+	(U-0002383B): Use "㰆" instead of [⿳ BC-8DDD 冖 棐].
+
+2017-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt:
+	- Use "𠱠" instead of "⿲口口口".
+	- Use U+96E8 instead of <CJK RADICAL RAIN>.
+
+	* IDS-Daikanwa-dx.txt: Use U+6C35 instead of <CJK RADICAL WATER
+	ONE>.
+
+	* IDS-Daikanwa-12.txt: Use U+6C35 instead of <CJK RADICAL WATER
+	ONE>.
+
+	* IDS-Daikanwa-10.txt (M-34033): Use U+6C35 instead of <CJK
+	RADICAL WATER ONE>.
+
+	* IDS-Daikanwa-08.txt: Use U+6C35 instead of <CJK RADICAL WATER
+	ONE>.
+
+	* IDS-Daikanwa-07.txt: Use U+6C35 instead of <CJK RADICAL WATER
+	ONE>.
+
+	* IDS-Daikanwa-06.txt: Use U+6C35 instead of <CJK RADICAL WATER
+	ONE>.
+
+	* IDS-Daikanwa-04.txt: Use U+6C35 instead of <CJK RADICAL WATER
+	ONE>.
+
+	* IDS-Daikanwa-03.txt (M-05318): Use U+6C35 instead of <CJK
+	RADICAL WATER ONE>.
+
+	* IDS-Daikanwa-02.txt (M-02685): Use "汵" instead of "⿰⺡今".
+
+	* IDS-UCS-Ext-A.txt: Use U+96E8 instead of <CJK RADICAL RAIN>.
+
 2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CDP.txt: Use U+6C35 instead of <CJK RADICAL WATER ONE>.
