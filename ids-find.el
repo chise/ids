@@ -74,7 +74,7 @@
       (when (string-match "^<-.*[@/]component\\(/[^*/]+\\)*$"
 			  (symbol-name feature))
 	(push feature dest)))
-    (cons '<-ideographic-component-forms
+    (cons '<-mistakable
 	  dest)))
 
 (defun to-component-features ()
@@ -83,7 +83,7 @@
       (when (string-match "^->.*[@/]component\\(/[^*/]+\\)*$"
 			  (symbol-name feature))
 	(push feature dest)))
-    (cons '->ideographic-component-forms
+    (cons '->formed
 	  dest)))
 
 ;;;###autoload
@@ -395,12 +395,11 @@
   (with-current-buffer (get-buffer-create ids-find-result-buffer)
     (setq buffer-read-only nil)
     (erase-buffer)
-    (let (ucs jis)
-      (map-char-attribute
-       (lambda (c v)
-	 (when (ideographic-structure-repertoire-p v components)
-	   (insert (ids-find-format-line c v))))
-       'ideographic-structure))
+    (map-char-attribute
+     (lambda (c v)
+       (when (ideographic-structure-repertoire-p v components)
+	 (insert (ids-find-format-line c v))))
+     'ideographic-structure)
     (goto-char (point-min)))
   (view-buffer ids-find-result-buffer))
 
