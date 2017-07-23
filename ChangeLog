@@ -1,9 +1,20 @@
 2017-07-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-Daikanwa-02.txt (M-02767): Use "獁" instead of "⿰⺨馬".
+
+	* IDS-Daikanwa-dx.txt: Use U+72AD instead of <CJK RADICAL DOG>.
+	(M-49293): Use U+2F803 instead of "⿳一⿵冂巳一".
+
 	* IDS-Daikanwa-09.txt: Use U+72AD instead of <CJK RADICAL DOG>.
 	(M-30996): Use "㹞" instead of "⿰⺨斤".
 
 2017-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use U+72AD instead of <CJK RADICAL DOG>.
+	(U-000291E5): Use "𫉬" instead of "⿱艹⿰⺨隻".
+
+	* IDS-UCS-Ext-B-4.txt: Use U+72AD instead of <CJK RADICAL DOG>.
+	(U-00026DC8): Use "狹" instead of "⿰⺨夾".
 
 	* IDS-UCS-Ext-B-3.txt: Use U+72AD instead of <CJK RADICAL DOG>.
 	(U-00024725): Completed.
