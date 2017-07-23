@@ -98,6 +98,15 @@
 
 2017-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-find.el (of-component-features): Don't refer
+	`<-ideographic-component-forms' because it has been already
+	abolished; refer `<-mistakable'.
+	(to-component-features): Don't refer
+	`->ideographic-component-forms' because it has been already
+	abolished; refer `->formed'.
+	(ids-find-chars-covered-by-components): Delete unused local
+	variables `ucs' and `jis'.
+
 	* IDS-UCS-Ext-E.txt (U+2C8BA): Use "𠦝" instead of U+9FBA.
 	(U+2C8BB): Completed.
 
