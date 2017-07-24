@@ -74,8 +74,9 @@
       (when (string-match "^<-.*[@/]component\\(/[^*/]+\\)*$"
 			  (symbol-name feature))
 	(push feature dest)))
-    (cons '<-mistakable
-	  dest)))
+    (list* '<-mistakable '->mistakable
+	   '<-formed '->formed
+	   dest)))
 
 (defun to-component-features ()
   (let (dest)
@@ -83,8 +84,7 @@
       (when (string-match "^->.*[@/]component\\(/[^*/]+\\)*$"
 			  (symbol-name feature))
 	(push feature dest)))
-    (cons '->formed
-	  dest)))
+    dest))
 
 ;;;###autoload
 (defun char-component-variants (char)
