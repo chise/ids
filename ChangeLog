@@ -1,5 +1,13 @@
 2017-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-CNS-3.txt: Use U+624C instead of <CJK RADICAL HAND>.
+
+	* IDS-CNS-2.txt: Use U+624C instead of <CJK RADICAL HAND>.
+
+	* IDS-CNS-1.txt: Use U+624C instead of <CJK RADICAL HAND>.
+
+	* IDS-CBETA.txt: Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+
 	* ids-find.el (of-component-features): Add `->mistakable',
 	`<-formed' and `->formed'.
 	(to-component-features): Don't add `->formed'.
