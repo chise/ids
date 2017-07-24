@@ -1,6 +1,19 @@
+2017-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (of-component-features): Add `->mistakable',
+	`<-formed' and `->formed'.
+	(to-component-features): Don't add `->formed'.
+
 2017-07-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-Daikanwa-02.txt (M-02767): Use "獁" instead of "⿰⺨馬".
+
+	* IDS-UCS-Ext-B-2.txt: Use U+72AD instead of <CJK RADICAL DOG>.
+	(U-0002253E): Completed.
+	(U-00022803): Use "猄" instead of "⿰⺨京".
+	(U-00022B3A): Use "狇" instead of "⿰⺨木".
+	(U-00023609): Completed.
+	(U-0002360B): Completed.
 
 	* IDS-Daikanwa-dx.txt: Use U+72AD instead of <CJK RADICAL DOG>.
 	(M-49293): Use U+2F803 instead of "⿳一⿵冂巳一".
@@ -34,6 +47,11 @@
 	* IDS-Daikanwa-07.txt: Use U+72AD instead of <CJK RADICAL DOG>.
 
 	* IDS-Daikanwa-05.txt: Use U+72AD instead of <CJK RADICAL DOG>.
+
+	* IDS-Daikanwa-04.txt: Use U+72AD instead of <CJK RADICAL DOG>.
+
+	* IDS-Daikanwa-01.txt (M-00985): Use U+72AD instead of <CJK
+	RADICAL DOG>.
 
 	* IDS-CNS-3.txt: Use U+72AD instead of <CJK RADICAL DOG>.
 
