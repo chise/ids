@@ -1,5 +1,54 @@
 2017-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-CNS-3.txt:
+	- Use "𤣩" instead of <CJK RADICAL JADE>.
+	- Use "⿰𤣩x" instead of "⿰王x".
+
+	* IDS-CNS-2.txt:
+	- Use "𤣩" instead of <CJK RADICAL JADE>.
+	- Use "⿰𤣩x" instead of "⿰王x".
+
+	* IDS-CNS-1.txt: Use "𤣩" instead of <CJK RADICAL JADE>.
+
+	* IDS-UCS-Ext-F.txt:
+	- Use "⿰𤣩x" instead of "⿰王x".
+	- Use "⿴玨x" instead of "⿲王x王".
+
+	* IDS-UCS-Ext-E.txt: Use "⿰𤣩x" instead of "⿰王x".
+
+	* IDS-UCS-Ext-D.txt: Use "⿰𤣩x" instead of "⿰王x".
+
+	* IDS-UCS-Ext-C.txt:
+	- Use "⿰𤣩x" instead of "⿰王x".
+	- Use "⿴玨x" instead of "⿲王x王".
+
+	* IDS-UCS-Ext-B-5.txt: Use "⿰𤣩x" instead of "⿰王x".
+	(U-00028600): Use "頊" instead of "⿰王頁".
+	(U-00028605): Completed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026FF0): Use "瑪" instead of "⿰王馬".
+	(U-00027010): Use "瑰" instead of "⿰王鬼".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002270D): Use "𤤅" instead of "⿰王勿".
+	(U-0002298B): Use "珀" instead of "⿰王白".
+	(U-0002310B): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-0002177A): Use "玫" instead of "⿰王⺙".
+	(U-0002177D): Completed.
+	(U-00021AAA): Use "珎" instead of "⿰王尔".
+	(U-00021AF7): Likewise.
+	(U-00021AFF): Use "珤" instead of "⿰王缶".
+	(U-00021EC2): Use "珀" instead of "⿰王白".
+	(U-00021F1C): Use "㻚" instead of "⿰王朋".
+
+	* IDS-UCS-Ext-A.txt: Use "⿰𤣩x" instead of "⿰王x".
+
+	* IDS-UCS-Basic.txt (U+6591): Use "⿴玨x" instead of "⿲王x王".
+	(U+73ED): Likewise.
+	(U+740E): Fixed.
+
+2017-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-CNS-3.txt: Use U+624C instead of <CJK RADICAL HAND>.
 
 	* IDS-CNS-2.txt: Use U+624C instead of <CJK RADICAL HAND>.
@@ -614,12 +663,12 @@
 	- Use "𠙻" instead of "⿶凵干".
 	- Use "𢁅" instead of "⿱⿰巳巳&I-CDP-8B6F;".
 	- Use "亐" instead of "⿻丂一".
-	- Use "𡬳" instead of "⿳⺤⺫寸".
+	- Use "𡬳" instead of "⿳爫⺫寸".
 	- Use "𢀩" instead of "⿱𠂹⿸&I-CDP-896C;工".
 	- Use "𦙃" instead of "⿱⿺𠃊口⺼".
 	(U-00028234): Use "𠮦" instead of "⿱&I-CDP-8B55;口".
 	(U-000282E6): Use "𠬦" instead of "⿵&CDP-8BD6;又".
-	(U-000285A1): Use "𪺏" instead of "⿱⺤豕".
+	(U-000285A1): Use "𪺏" instead of "⿱爫豕".
 	(U-00028725): Use "𠀷" instead of "⿱&I-CDP-8B53;𠕁".
 	(U-000288AB): Fixed.
 	(U-00028A92): Use "𠳯" instead of "⿰&I-CDP-8C4C;&I-CDP-8C4C;".
@@ -675,18 +724,18 @@
 2017-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use "爫" instead of <CJK RADICAL PAW ONE>.
-	(U-000202BB): Use "𤓽" instead of "⿱⺤⿱&CDP-8BA2;朩".
-	(U-00020461): Use "𪺏" instead of "⿱⺤豕".
+	(U-000202BB): Use "𤓽" instead of "⿱爫⿱&CDP-8BA2;朩".
+	(U-00020461): Use "𪺏" instead of "⿱爫豕".
 	(U-00021193): Fixed.
-	(U-00021223): Use "𡬳" instead of "⿳⺤⺫寸".
-	(U-000213DF): Use "䍃" instead of "⿱⺤缶".
+	(U-00021223): Use "𡬳" instead of "⿳爫⺫寸".
+	(U-000213DF): Use "䍃" instead of "⿱爫缶".
 	(U-00021A74): Likewise.
 
 	* IDS-UCS-Ext-A.txt (U+3A4A): Use "𡬳" instead of "⿳爫⺫寸".
 
-	* IDS-UCS-Ext-B-6.txt (U-0002A14A): Use "𪺏" instead of "⿱⺤豕".
+	* IDS-UCS-Ext-B-6.txt (U-0002A14A): Use "𪺏" instead of "⿱爫豕".
 
-	* IDS-UCS-Ext-B-4.txt (U-00026118): Use "𪺏" instead of "⿱⺤豕".
+	* IDS-UCS-Ext-B-4.txt (U-00026118): Use "𪺏" instead of "⿱爫豕".
 	(U-00027937): Likewise.
 
 2017-06-11  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -1477,8 +1526,8 @@
 
 	* IDS-UCS-Ext-B-5.txt:
 	- Use "䀠" instead of "⿰目目".
-	- Use "&U-v001+8200;" instead of "⿱⺤⿰丨日".
-	(U-000280BB): Use "&U-v001+8200;" instead of "⿱⺤旧".
+	- Use "&U-v001+8200;" instead of "⿱爫⿰丨日".
+	(U-000280BB): Use "&U-v001+8200;" instead of "⿱爫旧".
 	(U-00029657): Use "斦" instead of "⿰斤斤".
 
 	* IDS-UCS-Ext-B-2.txt:
@@ -2603,35 +2652,35 @@
 	(U-00020106): Fixed (reported by KANOU Hiroki at 2009-01-20 12:26
 	<mixi-msg:id=df72941679c2f7f68f2e178a6529df65>).
 	(U-000202FF): Use "𡋲" instead of "⿱丣土".
-	(U-00020300): Use "𤔍" instead of "⿱⺤⿳龴乛小".
+	(U-00020300): Use "𤔍" instead of "⿱爫⿳龴乛小".
 
 2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Ext-B-6.txt: Use "寽" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-6.txt: Use "寽" instead of "⿱爫寸".
 
-	* IDS-UCS-Ext-B-5.txt: Use "寽" instead of "⿱⺤寸".
-	(U-00029770): Use "⿱⺤𣎼" instead of "⿳⺤龴木".
+	* IDS-UCS-Ext-B-5.txt: Use "寽" instead of "⿱爫寸".
+	(U-00029770): Use "⿱爫𣎼" instead of "⿳爫龴木".
 	(U-00029B3D): Use "𣎼" instead of "⿱龴木".
 
-	* IDS-UCS-Ext-B-4.txt: Use "寽" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-4.txt: Use "寽" instead of "⿱爫寸".
 	(U-00026B3B): Modify a component.
 	(U-00026B3D): Modify a component.
-	(U-000276D9): Use "⿴衣⿱⺤𣎼" instead of "⿻衣⿳⺤龴木".
+	(U-000276D9): Use "⿴衣⿱爫𣎼" instead of "⿻衣⿳爫龴木".
 
-	* IDS-UCS-Ext-B-3.txt: Use "寽" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-3.txt: Use "寽" instead of "⿱爫寸".
 	(U-00025B4D): Modify structure.
-	(U-00025B50): Use "⿱⺮寽" instead of "⿳⺮⺤寸".
+	(U-00025B50): Use "⿱⺮寽" instead of "⿳⺮爫寸".
 
 2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Ext-B-2.txt: Use "寽" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-2.txt: Use "寽" instead of "⿱爫寸".
 	(U-00022279): Use "⿱宀𣎼" instead of "⿳宀龴木".
 
-	* IDS-UCS-Ext-B-1.txt: Use "寽" instead of "⿱⺤寸".
+	* IDS-UCS-Ext-B-1.txt: Use "寽" instead of "⿱爫寸".
 	(U-000200ED): Modify a component.
 	(U-00020203): Use "𣎼" instead of "⿱龴木".
 	(U-000202BB): Use "朩" instead of "木".
-	(U-000213BD): Use "⿱⺤𣎼" instead of "⿳⺤龴木".
+	(U-000213BD): Use "⿱爫𣎼" instead of "⿳爫龴木".
 
 	* IDS-Daikanwa-07.txt (M-19667): Add IDS.
 
