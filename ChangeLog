@@ -1,3 +1,42 @@
+2017-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "弜" instead of "⿰弓弓".
+	- Use "㢲" instead of "⿱⿰弓弓⿱一八" or "⿳⿰弓弓一八".
+	(U-0002601E): Use "𠄢" instead of "⿳一⿵冂巳一".
+	(U-00027B9C): Fixed.
+	(U-00027C56): Use "𠄢" instead of "⿳一⿵冂巳一".
+	(U-00027F09): Likewise.
+
+	* IDS-UCS-Ext-B-3.txt: Use "弜" instead of "⿰弓弓".
+	(U-00024251): Use "𠄢" instead of "⿳一⿵冂巳一".
+	(U-000247B8): Use "𠄢" instead of "⿳一⿵冂巳一".
+	(U-000249FA): Use "𡨈" instead of "⿱宀⿳一⿵冂巳一".
+	(U-00024ACB): Use "珎" instead of "⿰𤣩尔".
+	(U-00024ACD): Completed.
+	(U-00025B66): Use "㹞" instead of "⿰犭斤".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "弜" instead of "⿰弓弓".
+	- Use "㢲" instead of "⿳⿰弓弓一八".
+	(U-000234AF): Use "𠄢" instead of "⿳一⿵冂巳一".
+	(U-00023D68): Use U-0002F803 instead of "⿳一⿵冂巳一".
+
+2017-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-09.txt (M-28445): Use "牛" instead of "牜".
+
+2017-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A2D3): Use "𠱠" instead of
+	"⿲口口口".
+
+	* IDS-UCS-Ext-A.txt (U+3BBA): Use "𠱠" instead of "⿲口口口".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028556): Use "㢲" instead of
+	"⿱⿰弓弓&GT-K00264;".
+	(U-00029C32): Use "弜" instead of "⿰弓弓".
+
 2017-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CNS-3.txt:
