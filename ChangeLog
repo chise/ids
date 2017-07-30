@@ -1,4 +1,18 @@
+2017-07-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6351): Use "𣅳" instead of "⿺日夨".
+
 2017-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "弜" instead of "⿰弓弓".
+	- Use "𠱠" instead of "⿲口口口"
+	(U-0002078D): Fixed.
+	(U-00020E03): Use "㢲" instead of "⿳⿰弓弓一八".
+	(U-00020EF0): Use "⿸丂x" instead of "⿱一⿰&CDP-88CD;x".
+	(U-000214FA): Fixed.
+	(U-000214FB): Completed.
+	(U-00021E2C): Fixed.
 
 	* IDS-UCS-Ext-B-4.txt:
 	- Use "弜" instead of "⿰弓弓".
