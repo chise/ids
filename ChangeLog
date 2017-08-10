@@ -1,3 +1,26 @@
+2017-08-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use A-compU+793A instead of <CJK RADICAL SPIRIT TWO>.
+	- Use "𢆰" instead of "⿱一幺".
+	- Use "卆" instead of "⿱九十".
+	- Use "𢆶" instead of "⿰幺幺".
+	(U-00024B73): Use "𡇟" instead of "⿴囗⿰幺幺".
+	(U-00025212): Use "𢇂" instead of "⿱⿰幺幺廾".
+	(U-0002560D): Completed.
+	(U-0002561D): Use "冈" instead of "⿵⺆㐅".
+	(U-00025653): Fixed.
+	(U-0002565B): Completed.
+	(U-000256EA): Use "𢉖" instead of "⿸&CDP-8D56;⿰厶厶".
+	(U-000256F6): Use "善" instead of "⿳𦍌䒑口".
+	(U-0002570A): Use "粵" instead of "粤".
+	(U-0002570C): Use "奧" instead of "⿱⿵&CDP-8BD6;釆大".
+	(U-00025722): Fixed.
+
+	* IDS-UCS-Basic.txt: Use A-compU+793A instead of <CJK RADICAL
+	SPIRIT TWO>.
+	(U+7985): Fixed.
+
 2017-07-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020A67): Fixed.
