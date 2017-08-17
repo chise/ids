@@ -1,4 +1,32 @@
+2017-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use "𢉖" instead of "⿸&CDP-8D56;⿰厶厶".
+	(U-000260FE): Use "烈" instead of "⿱列⺣".
+	(U-000260FF): Fixed.
+	(U-00026648): Use "卆" instead of "⿱九十".
+	(U-00026B21): Likewise.
+
+	* IDS-UCS-Ext-B-3.txt (U-00025548): Fixed.
+	(U-00025F0B): Fixed.
+
+2017-08-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022FC4): Fixed.
+	(U-00023AC2): Fixed.
+
+2017-08-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7CA4): Fixed.
+
 2017-08-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3E48): Fixed.
+
+	* IDS-UCS-Ext-B-5.txt (U-00029BBA): Fixed.
+
+2017-08-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use "𢆰" instead of "⿱一幺".
 
 	* IDS-UCS-Ext-B-3.txt:
 	- Use A-compU+793A instead of <CJK RADICAL SPIRIT TWO>.
