@@ -1,3 +1,22 @@
+2017-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use GT-K01253 instead of "⿰夕&CDP-8C4E;".
+	(U+2D1B1): Completed.
+	(U+2D2B0): Completed.
+	(U+2D4D5): Completed.
+	(U+2D525): Completed.
+	(U+2DB9F): Completed.
+	(U+2DD1A): Completed.
+
+	* IDS-UCS-Ext-B-2.txt: Use GT-K01253 instead of "⿰夕&CDP-8C4E;".
+
+	* IDS-UCS-Ext-B-4.txt: Use GT-K01253 instead of "⿰夕&CDP-8C4E;".
+
+2017-08-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028F50): Use "𠒶" instead of
+	"⿱圥⿰圥圥".
+
 2017-08-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+8C73): Add IDS.
