@@ -1,3 +1,18 @@
+2017-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025F4A): Use BC-8C4F-var-004 instead of
+	"⿰&CDP-88D3;&CDP-8C4E;".
+
+2017-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D592): Modified.
+
+2017-09-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029109): Use "𭼿" instead of
+	"⿱⿰夕&CDP-8C4E;日".
+	(U-00029F43): Use GT-K01253 instead of "⿰夕&CDP-8C4E;".
+
 2017-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use GT-K01253 instead of "⿰夕&CDP-8C4E;".
