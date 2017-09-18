@@ -1,3 +1,20 @@
+2017-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CDP.txt (CDP-8BCB): Add IDS.
+
+2017-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7588): Use "⿴㽬x" instead of "⿲畐x畐".
+	(U+8C61): Use GT-K02380 instead of "⿱⺈𫩏".
+
+	* IDS-UCS-Ext-E.txt (U+2C29F): Use GT-K02380 instead of "⿱𠂊𫩏".
+	(U+2CAB9): Use "𭯍" instead of "⿳𠂊𫩏比".
+	(U+2CAF9): Ditto.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023800): Use U+7676-itaiji-004 instead
+	of "⿰夕&CDP-88D5;".
+	(U-00023B14): Use "𭯍" instead of "⿳⺈𫩏比".
+
 2017-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025F4A): Use BC-8C4F-var-004 instead of
