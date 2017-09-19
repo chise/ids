@@ -1,3 +1,28 @@
+2017-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use "𭥭" instead of "⿱日𠣏".
+	(U-00024262): Use GT-K02380 instead of "⿱⺈𫩏".
+	(U-000247DD): Use "𧆞" instead of "⿸虍巾".
+	(U-000252EE): Use U+7676-itaiji-004 instead of "⿰夕&CDP-88D5;".
+
+2017-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use "𧆞" instead of "⿸虍巾".
+
+2017-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U+7676-itaiji-004 instead of "⿰夕&CDP-88D5;".
+	- Use "𭥭" instead of "⿱日𠣏".
+	- Use "𧆞" instead of "⿸虍巾".
+	(U-0002069E): Add IDS.
+	(U-000206A0): Fixed.
+	(U-000206A1): Completed.
+	(U-00020824): Use "𭯍" instead of "⿳⺈𫩏比"; use "免" instead of
+	"⿳⺈𫩏儿".
+	(U-00020826): Modify structure.
+	(U-000208B0): Use GT-K02380 instead of "⿱⺈𫩏".
+
 2017-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CDP.txt (CDP-8BCB): Add IDS.
