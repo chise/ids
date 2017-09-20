@@ -1,11 +1,22 @@
 2017-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+5B14): Fixed.
+
+2017-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-3.txt: Use "𭥭" instead of "⿱日𠣏".
 	(U-00024262): Use GT-K02380 instead of "⿱⺈𫩏".
 	(U-000247DD): Use "𧆞" instead of "⿸虍巾".
 	(U-000252EE): Use U+7676-itaiji-004 instead of "⿰夕&CDP-88D5;".
 
 2017-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A477): Use "𧆞" instead of "⿸虍巾".
+
+	* IDS-UCS-Ext-B-4.txt: Use "𧆞" instead of "⿸虍巾".
+	(U-000269C1): Use U+7676-itaiji-004 instead of "⿰夕&CDP-88D5;".
+	(U-00027212): Use "兔" instead of "⿻免丶".
+	(U-0002774C): Use "𤉢" instead of "⿳⺈𫩏&CDP-8C40;".
 
 	* IDS-UCS-Ext-B-2.txt: Use "𧆞" instead of "⿸虍巾".
 
@@ -22,6 +33,11 @@
 	"⿳⺈𫩏儿".
 	(U-00020826): Modify structure.
 	(U-000208B0): Use GT-K02380 instead of "⿱⺈𫩏".
+
+2017-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E77E): Use BC-8CC6 instead of
+	"⿰𠄌⿺乀丿".
 
 2017-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
