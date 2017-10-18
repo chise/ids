@@ -1,3 +1,23 @@
+2017-10-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-0002690D): Use "𠙻" instead of "⿶凵干".
+	(U-0002699D): Fixed.
+	(U-00026D17): Fixed.
+	(U-00026EC5): Fixed.
+	(U-00027183): Fixed.
+	(U-0002741B): Use "𡕨" instead of "⿳亠⿱口口夂".
+	(U-00027730): Likewise.
+	(U-0002777E): Use GT-K36228 instead of "⿱爫⿶凵干".
+
+2017-09-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use GT-36228 instead of "⿱爫𠙻".
+
+	* IDS-UCS-Ext-B-1.txt: Use "𡕨" instead of "⿳⿱亠口口夂".
+	(U-00020698): Fixed.
+	(U-00020F79): Use "𧦴" instead of "⿱癶言".
+	(U-0002175B): Use "𠙻" instead of "⿶凵干".
+
 2017-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5B14): Fixed.
