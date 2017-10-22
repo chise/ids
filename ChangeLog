@@ -41,6 +41,8 @@
 
 2017-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.90.2.
+
 	* ids-find.el (of-component-features): Add `<-same', `->same',
 	`<-original', `->original', `<-ancient' and `->ancient'.
 
