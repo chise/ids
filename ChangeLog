@@ -1,5 +1,11 @@
 2017-10-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt: Use "𠧴" instead of "⿺𠃊𠧪".
+	(U-00026BEF): Use GT-K03131 instead of "⿴囗仌".
+
+	* IDS-UCS-Ext-B-2.txt: Use GT-K03131 instead of "⿴囗仌".
+	(U-000238F8): Use "𠧴" instead of "⿺𠃊𠧪".
+
 	* IDS-UCS-Ext-B-1.txt: Use GT-K03131 instead of "⿴囗仌".
 	(U-0002091C): Completed.
 
@@ -14,7 +20,17 @@
 	(U-00027730): Likewise.
 	(U-0002777E): Use GT-K36228 instead of "⿱爫⿶凵干".
 
+2017-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use "𡕨" instead of "⿳亠⿱口口夂".
+	(U-000285FD): Use GT-36228 instead of "⿱爫⿶凵干".
+	(U-00028AF4): Completed.
+	(U-00028AF6): Use U+864D-itaiji-003.
+
 2017-09-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C8BA): Use "⿸⿰𠦝𠂉x" instead of
+	"⿰𠦝⿱𠂉x".
 
 	* IDS-UCS-Ext-B-2.txt: Use GT-36228 instead of "⿱爫𠙻".
 
