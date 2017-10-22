@@ -76,6 +76,9 @@
 	(push feature dest)))
     (list* '<-mistakable '->mistakable
 	   '<-formed '->formed
+	   '<-same '->same
+	   '<-original '->original
+	   '<-ancient '->ancient
 	   dest)))
 
 (defun to-component-features ()
