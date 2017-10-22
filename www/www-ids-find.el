@@ -18,7 +18,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.90.1")
+(defconst www-ids-find-version "0.90.2")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
