@@ -1,3 +1,10 @@
+2017-10-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use GT-K03131 instead of "⿴囗仌".
+	(U-00024A8E): Use "𣣸" instead of "⿰⿺𠃊𠧪欠".
+	(U-000250C2): Use "𠙼" instead of "⿶凵口".
+	(U-000253F0): Use U+20917-itaiji-002 instead of "⿲土矢匕".
+
 2017-10-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use "𠧴" instead of "⿺𠃊𠧪".
