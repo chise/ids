@@ -1,3 +1,13 @@
+2017-11-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2CFEC): Completed.
+	(U+2DACD): Completed.
+	(U+2E296): Completed.
+
+2017-11-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C38A): Use "⿳亠口衣" instead of "⿱亠𧘗".
+
 2017-10-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use GT-K03131 instead of "⿴囗仌".
