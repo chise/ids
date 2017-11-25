@@ -1227,7 +1227,7 @@ U+2BCE8	𫳨	⿱宀⿰皃阝
 U+2BCE9	𫳩	⿱宀⿰彳告
 U+2BCEA	𫳪	⿱宀殷
 U+2BCEB	𫳫	⿱宀祜
-U+2BCEC	𫳬	⿳宀心再
+U+2BCEC	𫳬	⿱𫲽再
 U+2BCED	𫳭	⿱宀竜
 U+2BCEE	𫳮	⿱宀⿰女𠬶
 U+2BCEF	𫳯	⿱宀彗
