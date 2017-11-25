@@ -1,3 +1,7 @@
+2017-11-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2BCEC): Use "⿱𫲽x" instead of "⿳宀心x".
+
 2017-11-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027851): Use "𠧢" instead of "⿱⺊㫐".
