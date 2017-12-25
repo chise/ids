@@ -1,3 +1,16 @@
+2017-12-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "⿱𫲽x" instead of "⿳宀心x" or "⿱宀⿱心x".
+	- Use "⿱寍x" instead of "⿱宀⿳心皿x".
+	- Use GT-K00876 instead of "⿱⺊冂".
+	- Use "𦓈" instead of "⿱老⿰老老".
+	(U-00020A07): Use "叒" instead of "⿱又⿰又又".
+
+2017-12-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-02.txt (M-02835): Add IDS.
+
 2017-11-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5BCD): Use "⿱𫲽x" instead of "⿳宀心x".
