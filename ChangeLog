@@ -1,3 +1,8 @@
+2017-12-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000271F3): Use GT-K01443 instead of
+	"⿱𭕄冖".
+
 2017-12-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt:
