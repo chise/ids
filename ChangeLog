@@ -1,3 +1,12 @@
+2018-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use GT-K05805 instead of "⿴囗𠂭".
+
+	* IDS-UCS-Ext-B-4.txt: Use GT-K05805 instead of "⿴囗𠂭".
+
+	* IDS-UCS-Ext-B-5.txt (U-0002964A): Use "𦞅" instead of
+	"⿱⿴囗𠂭⺼".
+
 2017-12-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000271F3): Use GT-K01443 instead of
