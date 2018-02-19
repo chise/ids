@@ -1,3 +1,25 @@
+2018-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use "𭗼" instead of "⿱巛山".
+
+	* IDS-UCS-Ext-B-4.txt (U-000266C1): Use "𭗼" instead of "⿱巛山".
+	(U-0002714B): Fixed.
+	(U-00027183): Use U+26760 instead of CU+26760.
+	(U-00027CC0): Use "𭗼" instead of "⿱巛山".
+
+2018-02-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002320E): Fixed; use "𦊋".
+
+2018-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-09.txt (M-32650): Add IDS.
+
+2018-02-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+347E): Use "䚻" instead of "⿱&CDP-88F0;言".
+	(U+3A31): Likewise.
+
 2018-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use GT-K05805 instead of "⿴囗𠂭".
@@ -1049,7 +1071,7 @@
 2017-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use "爫" instead of <CJK RADICAL PAW ONE>.
-	(U-000202BB): Use "𤓽" instead of "⿱爫⿱&CDP-8BA2;朩".
+	(U-000202BB): Use "𤓽" instead of "⿱爫⿱㇇朩".
 	(U-00020461): Use "𪺏" instead of "⿱爫豕".
 	(U-00021193): Fixed.
 	(U-00021223): Use "𡬳" instead of "⿳爫⺫寸".
