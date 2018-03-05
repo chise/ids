@@ -1,3 +1,15 @@
+2018-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022911): Use "㠭" instead of
+	"⿱⿰工工⿰工工".
+	(U-0002295B): Use "⿱𡫟x" instead of "⿳宀⿱⿰工工⿰工工⿱大x".
+	(U-0002295C): Likewise.
+	(U-00023D08): Use "𠤏" instead of "⿱匕十".
+
+2018-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt: Use GT-K02425 instead of "⿱厶心".
+
 2018-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use "𭗼" instead of "⿱巛山".
