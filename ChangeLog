@@ -1,3 +1,12 @@
+2018-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002267B): Fixed.
+
+2018-03-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020B57): Use U+239BB-itaiji-002.
+	(U-00021AFC): Use "⿵𡫟x" instead of "⿱宀⿳⿰工工⿰工工⿵大x".
+
 2018-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022911): Use "㠭" instead of
@@ -7,6 +16,17 @@
 	(U-00023D08): Use "𠤏" instead of "⿱匕十".
 
 2018-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use BC-8969 instead of U+3022.
+	- Use BC-8B7A instead of "⿰亻丨".
+	- Use GT-K00264 instead of "⿱一八".
+	- Use BC-8BF5 instead of "⿰丿丨".
+	- Use BC-8BC8 instead of "ユ".
+	- Use BC-89E1 instead of "ス".
+	- Use U+8201-itaiji-001 instead of "⿳𦥑一八".
+	(U+2D37B): Completed.
+	(U+2D57F): Completed.
 
 	* IDS-UCS-Ext-E.txt: Use GT-K02425 instead of "⿱厶心".
 
