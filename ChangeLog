@@ -1,3 +1,12 @@
+2018-04-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use "𭗼" instead of "⿱巛山".
+	(U-0002416F): Use U+2EAD7-itaiji-001 instead of
+	"⿱木⿸&CDP-8766;⿰⿱⿴囗𠂭匕又".
+	(U-00024C56): Completed.
+	(U-000250C8): Use GT-K05805 instead of "⿴囗𠂭".
+	(U-00025DE0): Fixed.
+
 2018-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002267B): Fixed.
