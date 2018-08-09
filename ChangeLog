@@ -1,3 +1,10 @@
+2018-05-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020993): Fixed; use "灭" instead of
+	"⿱一火".
+	(U-0002111B): Fixed; use "㗊" instead of "⿱吅吅".
+	(U-00021171): Likewise.
+
 2018-04-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use "𭗼" instead of "⿱巛山".
