@@ -1,3 +1,12 @@
+2018-08-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020351): Use "𠬞" instead of "⿰𠂈&CDP-8C4E;".
+
+2018-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024D11): Use "𤳳" instead of
+	"⿱⿰田田⿰田田".
+
 2018-05-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020993): Fixed; use "灭" instead of
