@@ -1,3 +1,7 @@
+2018-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002858D): Use "𠵦" instead of "⿰吾午".
+
 2018-08-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020351): Use "𠬞" instead of "⿰𠂈&CDP-8C4E;".
