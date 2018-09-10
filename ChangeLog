@@ -1,3 +1,7 @@
+2018-09-06  Wang Yifan        <747.neutron@gmail.com>
+
+	* IDS-UCS-Ext-A.txt (U+3516): ㇕ for 𠃌
+
 2018-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000279D9): Use "䚻" instead of "⿱&CDP-8B5E;言".
