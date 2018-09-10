@@ -1,8 +1,10 @@
-2018-09-06  Wang Yifan        <747.neutron@gmail.com>
-
-	* IDS-UCS-Ext-A.txt (U+3516): ㇕ for 𠃌
-
 2018-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028588): Use "䚻" instead of "⿱&CDP-88F0;言".
+	(U-00028629): Use "𡭨" instead of "⿱目小"; use "系" instead of
+	"⿱丿糸".
+	(U-00028DF4): Use "𧪬" instead of "⿰⿱&CDP-88F0;言糸".
+	(U-00028DF8): Use "䌛" instead of "⿰⿱&CDP-8B5E;言⿱丿糸".
 
 	* IDS-UCS-Ext-B-4.txt (U-000279D9): Use "䚻" instead of "⿱&CDP-8B5E;言".
 	(U-00027AAC): Ditto.
@@ -20,6 +22,10 @@
 
 	* IDS-UCS-Ext-B-4.txt (U-0002710E): Use "䌛" instead of
 	"⿰⿱&CDP-88F0;言系".
+
+2018-09-06  Wang Yifan        <747.neutron@gmail.com>
+
+	* IDS-UCS-Ext-A.txt (U+3516): ㇕ for 𠃌
 
 2018-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
