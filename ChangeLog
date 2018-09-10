@@ -1,3 +1,19 @@
+2018-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024127): Use "䚻" instead of "⿱&CDP-88F0;言".
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "䚻" instead of "⿱&CDP-88F0;言".
+	- Use "䌛" instead of "⿰⿱&CDP-88F0;言系".
+
+2018-09-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021238): Use "䌛" instead of
+	"⿰⿱&CDP-88F0;言系".
+
+	* IDS-UCS-Ext-B-4.txt (U-0002710E): Use "䌛" instead of
+	"⿰⿱&CDP-88F0;言系".
+
 2018-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002858D): Use "𠵦" instead of "⿰吾午".
