@@ -1,3 +1,7 @@
+2018-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002AECC): Fixed.
+
 2018-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-000285B9): Use "𬛳" instead of "⿱至至".
