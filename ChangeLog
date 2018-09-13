@@ -1,3 +1,9 @@
+2018-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000285B9): Use "𬛳" instead of "⿱至至".
+
+	* IDS-UCS-Basic.txt (U+90FB): Use "𥄉" instead of "⿳目𠃊巛".
+
 2018-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028588): Use "䚻" instead of "⿱&CDP-88F0;言".
