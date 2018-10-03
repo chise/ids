@@ -39,6 +39,10 @@
 
 2018-09-06  Wang Yifan        <747.neutron@gmail.com>
 
+	* IDS-UCS-Ext-B-5.txt: Substitute 阜 for ⿱𠂤十
+
+	* IDS-UCS-Ext-B-3.txt (U-0002499E): Substitute 阜 for ⿱𠂤十
+
 	* IDS-UCS-Ext-B-2.txt (U-00023763): Corrected
 
 	* IDS-UCS-Ext-F.txt (U+2E3EC): Wrong structure
