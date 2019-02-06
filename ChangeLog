@@ -1,3 +1,8 @@
+2019-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2EAD8): Use A-U+8207-itaiji-006 instead of
+	"⿶⿱𦥑冖⿹②丿".
+
 2018-10-04  Wang Yifan        <747.neutron@gmail.com>
 
 	* IDS-UCS-Ext-A.txt (U+452B): Corrected
@@ -494,7 +499,7 @@
 	* IDS-UCS-Ext-A.txt (U+3BBA): Use "𠱠" instead of "⿲口口口".
 
 	* IDS-UCS-Ext-B-5.txt (U-00028556): Use "㢲" instead of
-	"⿱⿰弓弓&GT-K00264;".
+	"⿱⿰弓弓兀".
 	(U-00029C32): Use "弜" instead of "⿰弓弓".
 
 2017-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
