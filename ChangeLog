@@ -1,3 +1,25 @@
+2019-02-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000244E3): Fixed.
+	(U-00024A26): Fixed.
+	(U-00024BF4): Completed.
+
+	* IDS-UCS-Ext-B-2.txt (U-000224B6): Fixed.
+	(U-00022802): Fixed.
+	(U-000231DB): Fixed.
+	(U-000231ED): Fixed.
+	(U-00023501): Fixed.
+	(U-00023815): Fixed.
+	(U-00023BF0): Fixed.
+
+	* IDS-UCS-Ext-B-1.txt (U-000203E5): Fixed.
+	(U-00020EF3): Fixed.
+	(U-00021DB9): Fixed.
+
+	* IDS-UCS-Basic.txt (U+989E): Use "聂" instead of "⿱耳双".
+
+	* IDS-UCS-Ext-A.txt (U+34C6): Fixed.
+
 2019-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2EAD8): Use A-U+8207-itaiji-006 instead of
