@@ -1,3 +1,18 @@
+2019-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C69B): Fixed.
+	(U+2C838): Use "𮙥" instead of "⿸豸𡿨".
+
+	* IDS-UCS-Ext-C.txt (U-0002AA8C): Use "巿" instead of "市".
+	(U-0002B443): Fixed.
+	(U-0002B718): Use "巿" instead of "市".
+
+	* IDS-UCS-Ext-B-5.txt (U-000280BC): Use "𮙥" instead of "⿸豸&GT-K00042;".
+	(U-0002952C): Fixed.
+	(U-00029DB5): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00027F2E): Fixed.
+
 2019-02-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026650): Use "𠆦" instead of "⿻亾一".
