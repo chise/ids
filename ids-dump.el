@@ -1,6 +1,6 @@
 ;;; ids-dump.el --- Dump utility of IDS-* files
 
-;; Copyright (C) 2002,2003,2004,2005,2009 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2004,2005,2009,2011,2019 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -271,7 +271,7 @@
   (interactive "Fdump IDS-UCS-Basic : ")
   (ids-dump-range "IDS-UCS-Basic.txt" filename
 		  #'ids-dump-insert-ccs-ranges 'ucs "U+%04X\t%c\t%s\n"
-		  '(#x4E00 . #x9FA5)))
+		  '(#x4E00 . #x9FEA)))
 
 ;;;###autoload
 (defun ids-dump-ucs-basic@unicode (filename)
