@@ -1,3 +1,8 @@
+2019-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-dump.el (ids-dump-ucs-basic): Use #x9FEA instead of #x9FA5
+	as the end of the range.
+
 2019-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+8B8F): Fixed.
