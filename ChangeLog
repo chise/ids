@@ -1,3 +1,22 @@
+2019-02-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000200D7): Fixed.
+
+	* IDS-UCS-Basic.txt (U+4EB0): Modify structure.
+	(U+4EB2): Use "木" instead of "朩".
+	(U+9CCF): Use "眔" instead of "⿱⺫&CDP-8977;".
+	(U+9E75): Add IDS.
+	(U+9EBB): Add IDS.
+	(U+9EFE): Add IDS.
+	(U+9F21): Add IDS.
+	(U+9F4A): Add IDS.
+	(U+9FA6): Add IDS.
+	(U+9FA7): Add IDS.
+	(U+9FA8): Add IDS.
+	(U+9FAC): Add IDS.
+	(U+9FB1): Add IDS.
+	(U+9FB8): Add IDS.
+
 2019-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-dump.el (ids-dump-ucs-basic): Use #x9FEA instead of #x9FA5
