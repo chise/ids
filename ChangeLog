@@ -1,3 +1,17 @@
+2019-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A205): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt (U-00025B36): Fixed.
+	(U-00025B83): Fixed.
+	(U-00025B84): Fixed.
+	(U-00025D7B): Fixed.
+	(U-00025E0A): Fixed.
+	(U-00025E0E): Fixed.
+
+	* IDS-UCS-Ext-A.txt (U+41FF): Fixed.
+	(U+4264): Fixed.
+
 2019-02-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028AD7): Use "𮫬" instead of
