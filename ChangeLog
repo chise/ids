@@ -1,3 +1,12 @@
+2019-04-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D129): Completed.
+	(U+2E579): Completed.
+	(U+2E662): Completed.
+	(U+2EA74): Completed.
+	(U+2EA75): Completed.
+	(U+2EA78): Completed.
+
 2019-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A205): Fixed.
