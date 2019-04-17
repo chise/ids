@@ -1,3 +1,25 @@
+2019-04-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt:
+	- Use "𦰩" instead of BC-8BD3.
+	- Use "𡕰" instead of "⿳𠚍八夂".
+	- Use "⿸𪧇x" instead of "⿱宀⿰爿x".
+	- Use "匿" instead of CU+533F.
+	(U+4E3E): Use "兴" instead of "⿳𭕄一八".
+	(U+50BB): Use "𡕩" instead of "⿳囟八夂".
+	(U+5313): Use "𣪘" instead of "⿰&CDP-8B7C;⿱几又".
+	(U+537F): Modify structure.
+	(U+54F6): Use "𦍋" instead of "⿱卝干".
+	(U+55A6): Modify operator.
+	(U+56F6): Modify structure.
+	(U+57CA): Use "汖" instead of "⿱山水".
+	(U+590D): Use "𭥍" instead of "⿱𠂉日".
+	(U+5B0E): Use "⿺娩x" instead of "⿰女⿺免x".
+	(U+5B14): Use "⿺婏x" instead of "⿰女⿺兔x".
+	(U+5BB3): Use "𫲸" instead of "⿱宀丰".
+	(U+5BC7): Modify structure.
+	(U+5BDB): Use "莧" instead of "⿱艹見".
+
 2019-04-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2D129): Completed.
@@ -4377,7 +4399,7 @@
 
 	* IDS-Daikanwa-10.txt:
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
-	- "⿹⿰&CDP-8D44;殳x" instead of "⿰⿱&CDP-8D44;x殳".
+	- "⿹⿰𡉉殳x" instead of "⿰⿱𡉉x殳".
 	- Add/compact/modify/fix some IDSs.
 
 	* IDS-Daikanwa-02.txt:
@@ -4408,7 +4430,7 @@
 
 	* IDS-Daikanwa-08.txt:
 	- Add/compact/modify/fix some IDSs.
-	- "⿹⿰&CDP-8D44;殳x" instead of "⿰⿱&CDP-8D44;x殳".
+	- "⿹⿰𡉉殳x" instead of "⿰⿱𡉉x殳".
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
 	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
 
@@ -4635,7 +4657,7 @@
 	- Use "贯" instead of "⿱毌贝".
 	- Use "㝁" instead of "⿱旬子".
 	- Use "昬" instead of "⿱民日".
-	- Use "𣪊" instead of "⿰&CDP-8D44;殳".
+	- Use "𣪊" instead of "⿰𡉉殳".
 	- Use "𠗦" instead of "⿰冫⿹&CDP-896A;廾".
 	- Use "徝" instead of "⿰彳直".
 	- Use "𢽟" instead of "⿰來攵".
