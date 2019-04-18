@@ -677,7 +677,7 @@ U+2BAC2	𫫂	⿰口孩
 U+2BAC3	𫫃	⿰口挨
 U+2BAC4	𫫄	⿰口挾
 U+2BAC5	𫫅	⿰口鬥
-U+2BAC6	𫫆	⿰口⿹&CDP-896A;中
+U+2BAC6	𫫆	⿰口𮩸
 U+2BAC7	𫫇	⿰口恶
 U+2BAC8	𫫈	⿰步合
 U+2BAC9	𫫉	⿰口缼
