@@ -1,5 +1,18 @@
 2019-04-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-000299AB): Use "裊" instead of "⿱&CDP-8CBB;衣".
+
+	* IDS-UCS-Ext-B-4.txt (U-000262F1): Use "𮩸" instead of "⿹&CDP-896A;中".
+	(U-00026CD3): Use "鳬" instead of "⿱&CDP-8CBB;几".
+
+	* IDS-UCS-Ext-E.txt (U+2BAC6): Use "𮩸" instead of "⿹&CDP-896A;中".
+
+	* IDS-UCS-Ext-B-1.txt (U-000205E6): Use "𮩴" instead of "⿹&CDP-896A;廾".
+
+	* IDS-UCS-Ext-B-3.txt (U-000247E8): Use "𮩴" instead of "⿹&CDP-896A;廾".
+
+2019-04-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-000293FD): Use "𠬤" instead of "⿱又𠀆".
 
 	* IDS-UCS-Ext-B-3.txt (U-00024762): Use "𠬤" instead of "⿱又𠀆".
