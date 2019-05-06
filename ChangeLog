@@ -1,3 +1,8 @@
+2019-05-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt: Use U+820C instead of <KANGXI RADICAL
+	TONGUE>.
+
 2019-04-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028559): Use "𭄩" instead of "⿹&CDP-8CBB;力".
