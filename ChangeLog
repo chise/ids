@@ -1,3 +1,31 @@
+2019-05-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C8AB): Fixed.
+
+2019-05-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024A7E): Fixed.
+	(U-00024D32): Fixed.
+	(U-0002546A): Fixed.
+	(U-00025ABE): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026727): Fixed.
+	(U-00026F4D): Fixed.
+	(U-0002794E): Fixed.
+
+	* IDS-UCS-Basic.txt (U+62BF): Fixed.
+	(U+9F0E): Add IDS.
+
+	* IDS-UCS-Ext-A.txt (U+3A24): Fixed.
+	(U+47B6): Fixed.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022173): Fixed.
+	(U-000227B6): Fixed.
+	(U-00022CE1): Fixed.
+
+	* IDS-UCS-Ext-B-5.txt (U-0002820D): Fixed.
+	(U-0002871D): Fixed.
+
 2019-05-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt: Use U+820C instead of <KANGXI RADICAL
@@ -1497,7 +1525,7 @@
 	(U-00025A88): Use BC-8BAE instead of "⿳亠&I-CDP-8B55;".
 	(U-00025AB6): Fixed.
 	(U-00025D36): Fixed.
-	(U-00025DAA): Use "𢵄" instead of "⿰扌⿱&I-C4-2535;日".
+	(U-00025DAA): Use "𢵄" instead of "⿰扌⿱𠈌日".
 
 2017-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
