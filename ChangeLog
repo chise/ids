@@ -1,5 +1,12 @@
 2019-05-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022201): Fixed.
+
+	* IDS-UCS-Ext-B-1.txt: Use U+4EA1 instead of UU+4EA1.
+	(U-00020862): Fixed.
+	(U-00021DA8): Fixed.
+	(U-00021FEB): Fixed.
+
 	* IDS-UCS-Ext-E.txt (U+2C8AB): Fixed.
 
 2019-05-07  MORIOKA Tomohiko  <tomo.git@chise.org>
