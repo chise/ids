@@ -1,3 +1,31 @@
+2019-05-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028930): Fixed.
+	(U-00028B15): Fixed.
+	(U-000295C2): Fixed.
+
+	* IDS-UCS-Basic.txt (U+5009): Use A-IWDSU+4EBC instead of U+4EBD.
+	(U+7A52): Fix IDC.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022930): Fixed.
+	(U-00022B56): Fixed.
+	(U-00022EAC): Fixed.
+	(U-00022F99): Fixed.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A1C3): Fixed.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021BB3): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt (U-00024413): Fixed.
+	(U-000252DF): Fixed.
+
+	* IDS-UCS-Ext-A.txt (U+37E5): Fix IDC.
+	(U+3EAF): Likewise.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026DB1): Fixed.
+	(U-00026DEA): Fixed.
+	(U-00026F7C): Fixed.
+
 2019-05-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022201): Fixed.
