@@ -1,3 +1,24 @@
+2019-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E953): Fixed.
+
+2019-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+5C23 instead of <CJK RADICAL LAME
+	TWO>.
+	(U-000200FC): Use "𠃟" instead of "⿱廿⺃".
+	(U-00021C02): Fixed.
+	(U-00021C0A): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt (U-00024E83): Fixed.
+
+2019-05-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3D0F): Fixed.
+	(U+4790): Fixed.
+
+	* IDS-UCS-Basic.txt (U+84E4): Fixed.
+
 2019-05-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025ABD): Modify structure.
