@@ -1,3 +1,38 @@
+2019-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022165): Fixed.
+
+2019-06-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002074F): Fixed.
+	(U-00020AB1): Fixed; use "⿸厤x" instead of "⿸厂⿱秝x".
+	(U-00020ABE): Use "⿸厤x" instead of "⿸厂⿱秝x".
+	(U-00021155): Use "𠶮" instead of "⿱吉古".
+	(U-0002115B): Fixed.
+	(U-00021400): Fixed.
+	(U-00021403): Completed.
+	(U-00021E5E): Fixed.
+	(U-00021EA9): Fixed.
+
+	* IDS-UCS-Ext-B-2.txt (U-000231C0): Fixed.
+
+2019-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A3C3): Fixed.
+	(U-0002A5F1): Fixed.
+	(U-0002A5F2): Completed.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028B27): Completed.
+	(U-00028B28): Fixed.
+	(U-00029413): Fixed.
+	(U-00029ACF): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026173): Fixed.
+	(U-00026631): Fixed.
+	(U-00026B86): Fixed.
+	(U-00026C01): Fixed.
+	(U-000273CA): Fixed.
+
 2019-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+8DC4): Fixed.
@@ -5,6 +40,10 @@
 	* IDS-UCS-Ext-B-3.txt (U-00024021): Fixed.
 	(U-00024455): Fixed.
 	(U-00025C0D): Fixed.
+
+	* IDS-UCS-Ext-F.txt (U+2DB31): Fixed.
+	(U+2DBBA): Fixed.
+	(U+2E482): Fixed.
 
 	* IDS-UCS-Ext-B-2.txt (U-00022938): Fixed.
 	(U-00023330): Fixed.
