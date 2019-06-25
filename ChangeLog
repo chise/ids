@@ -1,3 +1,11 @@
+2019-06-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020A76): Use "𤰞" instead of "⿻&CDP-8BD9;丿".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028621): Use "𤰞" instead of "⿻&CDP-8BD9;丿".
+
+	* IDS-UCS-Ext-B-2.txt: Use "𤰞" instead of "⿻&CDP-8BD9;丿".
+
 2019-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000232B3): Fixed.
