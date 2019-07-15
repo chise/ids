@@ -1,5 +1,9 @@
 2019-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-0002292A): Fixed.
+
+2019-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+6465): Fixed.
 
 	* IDS-UCS-Ext-F.txt (U+2CEF8): Fixed.
