@@ -1,3 +1,18 @@
+2019-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000217E6): Fixed.
+	(U-0002181F): Fixed.
+
+2019-07-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+6535 instead of <CJK RADICAL RAP>.
+	- Use "𢼂" instead of "⿰⿱㐅㐅⺙".
+	(U-00022574): Use "𠦝" instead of "⿳十日十".
+	(U-00022F75): Use "冐" instead of "⿱日⺼".
+	(U-0002300B): Completed.
+	(U-00023E8F): Completed.
+
 2019-07-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026477): Fixed.
