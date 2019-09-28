@@ -1,3 +1,9 @@
+2019-09-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D8F2): Use BC-8B5E instead of "⿴𠂊⺀".
+	(U+2DC57): Likewise.
+	(U+2E6F7): Likewise; completed.
+
 2019-09-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-000217FD): Completed.
@@ -1688,7 +1694,7 @@
 	(U-00028725): Use "𠀷" instead of "⿱&I-CDP-8B53;𠕁".
 	(U-000288AB): Fixed.
 	(U-00028A92): Use "𠳯" instead of "⿰&I-CDP-8C4C;&I-CDP-8C4C;".
-	(U-00028B2D): Use "凿" instead of "⿱业⿶凵&I-C4-2178;".
+	(U-00028B2D): Use "凿" instead of "⿱业⿶凵𢆉".
 	(U-00028CC2): Fixed.
 	(U-00028E50): Fixed.
 	(U-00028E6F): Fixed.
