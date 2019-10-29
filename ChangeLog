@@ -1,3 +1,12 @@
+2019-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2CF52): Completed.
+	(U+2E2E1): Completed.
+	(U+2E530): Completed.
+	(U+2EBBA): Completed.
+	(U+2EBBB): Completed.
+	(U+2EBBC): Completed.
+
 2019-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+3540): Fixed.
@@ -2297,7 +2306,7 @@
 	(U-000230FF): Use "𡉵" instead of "⿰&CDP-8BC5;⿺⺃匕".
 	(U-000231AA): Fixed; use "𠯃" instead of "⿰⿶凵口丨".
 	(U-00023810): Use "𩫖" instead of "⿳&CDP-8BAA;回⿱⿶凵口丨".
-	(U-00023A26): Use "&MJ057538;" instead of "⿱从戈".
+	(U-00023A26): Use "𭟲" instead of "⿱从戈".
 	(U-00023F50): Use "&U-i001+9B32;" instead of "⿳一&CDP-89CC;&CDP-8BDC;".
 	(U-00023F51): Use "逩" instead of "⿺辶奔".
 
