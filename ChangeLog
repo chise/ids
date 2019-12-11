@@ -1,3 +1,7 @@
+2019-12-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000223AF): Add IDS.
+
 2019-12-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-000247D2): Fixed.
@@ -2447,29 +2451,29 @@
 
 2017-01-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-E.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Ext-E.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 
-	* IDS-UCS-Ext-C.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Ext-C.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 
-	* IDS-UCS-Ext-B-4.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Ext-B-4.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 	(U-00026E3C): Use "𠫭" instead of "⿱厶⿵大小".
 
-	* IDS-UCS-Ext-B-2.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Ext-B-2.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 	(U-000222B9): Use "貵" instead of "⿱⿱厶大貝".
 	(U-00022BA5): Use "𠫭" instead of "⿳厶大小".
 
-	* IDS-UCS-Ext-B-1.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Ext-B-1.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 	(U-00020AFD): Use "叁" instead of "⿵⿱厶大三".
 	(U-00020B01): Use "⿱𠫯x" instead of "⿱⿱厶⿰厶厶⿵大x".
 	(U-00020B05): Likewise.
 
-	* IDS-UCS-Ext-B-3.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Ext-B-3.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 	(U-00025829): Use "𠫵" instead of "⿳厶大㣺".
 
-	* IDS-UCS-Ext-B-5.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Ext-B-5.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 	(U-00029E67): Use "𠫵" instead of "⿳厶大㣺".
 
-	* IDS-UCS-Basic.txt: Use "&GT-K01085;" instead of "⿱厶大".
+	* IDS-UCS-Basic.txt: Use "&U-i001+5F01;" instead of "⿱厶大".
 
 2017-01-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
