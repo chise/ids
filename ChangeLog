@@ -1,3 +1,7 @@
+2020-01-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026487): Fixed.
+
 2019-12-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024208): Fixed.
@@ -1935,7 +1939,7 @@
 	(U-000265E4): Use "𦚏" instead of "⿱立月".
 	(U-000267DD): Use "⿱𠂹一" instead of "𠦬".
 	(U-00026892): Use "賫" instead of "⿳&CDP-8DE9;冖貝".
-	(U-0002714D): Use "𡄉" instead of "⿱⿰口口⿰&CDP-88D7;爻".
+	(U-0002714D): Use "𡄉" instead of "⿱⿰口口⿰𠃬爻".
 	(U-00027B09): Use GT-K09590 instead of "⿱⿱日出⿱大x".
 
 	* IDS-UCS-Ext-B-1.txt:
