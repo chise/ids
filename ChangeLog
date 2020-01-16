@@ -1,5 +1,9 @@
 2020-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-00028020): Use "𢇛" instead of "⿸广干".
+
+	* IDS-UCS-Ext-B-4.txt (U-00027EE7): Use "𢇛" instead of "⿸广干".
+
 	* IDS-UCS-Ext-B-2.txt (U-00023436): Completed.
 	(U-00023437): Completed.
 	(U-0002343C): Completed; use "𢇛" instead of "⿸广干".
