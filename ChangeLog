@@ -1,3 +1,10 @@
+2020-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023436): Completed.
+	(U-00023437): Completed.
+	(U-0002343C): Completed; use "𢇛" instead of "⿸广干".
+	(U-00023D14): Use "𢇛" instead of "⿸广干".
+
 2020-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002336B): Completed.
