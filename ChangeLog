@@ -1,5 +1,13 @@
 2020-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022187): Use "槖" instead of
+	"⿱⿱士冖⿱石木".
+	(U-00022DCC): Use "槖" instead of "⿳士⿱冖石木".
+	(U-000234F7): Use "⿴⿳士冖木x" instead of "⿳士⿵冖x木".
+	(U-00023754): Use "槖" instead of "⿳⿱士冖石木".
+
+2020-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-000293EE): Use "槖" instead of
 	"⿳⿱士冖石木".
 
