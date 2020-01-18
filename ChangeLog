@@ -1,5 +1,17 @@
 2020-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt (U+2B83E): Use "⿴⿱&CDP-8DDD;囗x" instead of
+	"⿱&CDP-8DDD;⿴囗x".
+
+	* IDS-UCS-Ext-B-5.txt (U-00029198): Use "⿴⿱&CDP-8DDD;囗x" instead of
+	"⿱&CDP-8DDD;⿴囗x".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002376F): Use "棘" instead of "⿰朿朿".
+	(U-0002384D): Ditto.
+	(U-0002384F): Fixed.
+
+2020-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-000214A9): Use "⿴⿳士冖&A-IWDSU+6728;咎" instead of
 	"⿳⿱士冖⿰夂卜呆".
 
