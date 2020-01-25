@@ -1,3 +1,17 @@
+2020-01-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "厸" instead of "⿰厶厶".
+	- Use "厽" instead of "⿱厶⿰厶厶".
+	(U-000202AB): Use "㝁" instead of "⿱旬子".
+	(U-00020529): Fixed.
+	(U-00020AEC): Modify structure.
+	(U-00020B01): Fixed.
+	(U-000214F8): Use "垒" instead of "⿱⿱厶⿰厶厶土".
+	(U-000217A6): Use "㝁" instead of "⿱旬子".
+	(U-00021810): Use "𠫹" instead of "⿱⿰厶厶&CDP-8BD9;".
+	(U-00021B9F): Modify structure.
+
 2020-01-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-0002468C): Fixed.
