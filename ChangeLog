@@ -1,3 +1,25 @@
+2020-01-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7A74): Add IDS.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028755): Use "盖" instead of "⿱𦍌皿".
+	(U-000288B8): Ditto.
+	(U-00028DA9): Ditto.
+	(U-00028EF9): Ditto.
+	(U-00029EBB): Ditto.
+
+	* IDS-UCS-Ext-B-4.txt (U-00027721): Use "盖" instead of "⿱𦍌皿".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024E7A): Use "盖" instead of "⿱𦍌皿".
+	(U-000250D9): Ditto.
+	(U-000250E3): Ditto.
+	(U-00025564): Ditto.
+
+	* IDS-UCS-Ext-B-2.txt (U-0002327C): Use "盖" instead of "⿱𦍌皿".
+	(U-00023665): Ditto.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021ED8): Use "盖" instead of "⿱𦍌皿".
+
 2020-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024CC0): Fixed.
