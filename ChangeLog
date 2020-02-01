@@ -1,3 +1,31 @@
+2020-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000243A7): Use "𠷎" instead of "⿹𢏚口".
+	(U-000246F4): Ditto.
+	(U-00024A48): Ditto.
+	(U-00024E9C): Ditto.
+	(U-00024FA6): Ditto.
+	(U-00025723): Use "𦓃" instead of "⿱耂⿹𢏚口".
+
+2020-01-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022142): Use "𠷎" instead of "⿹𢏚口".
+	(U-00022170): Fixed.
+	(U-00022171): Use "𠷎" instead of "⿹𢏚口".
+	(U-000228A7): Ditto.
+	(U-00022D88): Ditto.
+	(U-00022FDF): Ditto.
+	(U-00023691): Ditto.
+	(U-00023ABE): Ditto.
+	(U-00023FAD): Ditto.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A187): Use "𠷎" instead of "⿹𢏚口".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028161): Use "𠷎" instead of "⿹𢏚口".
+	(U-000288CA): Ditto.
+	(U-0002963F): Ditto.
+	(U-00029991): Ditto.
+
 2020-01-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+7A74): Add IDS.
