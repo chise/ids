@@ -1,5 +1,18 @@
 2020-02-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Compat-Supplement.txt (U-0002F9D6): Add IDS.
+
+	* IDS-UCS-Ext-C.txt (U-0002B06F): Use "⿸𥪴x" instead of
+	"⿰章⿱夅x".
+
+	* IDS-UCS-Ext-B-4.txt (U-000275DB): Use "𥪴" instead of "⿰章夅".
+
+	* IDS-UCS-Ext-B-2.txt (U-00023AE1): Use "𥪴" instead of "⿰章夅".
+
+	* IDS-UCS-Ext-A.txt (U+4917): Use "𥪴" instead of "⿰章夅".
+
+	* IDS-UCS-Basic.txt (U+7AF7): Use "⿸𥪴x" instead of "⿰章⿱夅x".
+
 	* IDS-UCS-Ext-B-3.txt (U-00025AD4): Use "⿸𥪴x" instead of
 	"⿰章⿱夅x".
 
