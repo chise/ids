@@ -1,3 +1,7 @@
+2020-02-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026E41): Fixed.
+
 2020-02-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026D01): Fixed; use "𥄁" instead of
