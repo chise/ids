@@ -1,5 +1,10 @@
 2020-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-00026E58): Fixed.
+	(U-00026E5A): Completed.
+
+2020-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-4.txt (U-00026E49): Completed.
 	(U-00026E4A): Fixed.
 
