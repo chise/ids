@@ -1,5 +1,10 @@
 2020-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-00026FC7): Use "𫑨" instead of "⿰魚阝".
+	(U-00026FC8): Fixed; use "𠎤" instead of "⿱⿵亼吅𠕁".
+
+2020-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-4.txt (U-00026EEA): Completed.
 
 2020-03-02  MORIOKA Tomohiko  <tomo.git@chise.org>
