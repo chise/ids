@@ -1,5 +1,17 @@
 2020-03-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022BC3): Use "丢" instead of "⿱丿去".
+	(U-000236FA): Use "厀" instead of "⿰桼卩".
+	(U-000238DD): Use "卽" instead of "⿰⿱白匕卩".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020C31): Use "节" instead of "⿱艹卩".
+	(U-00020D37): Use "㕁" instead of "⿰𠫤卩".
+
+2020-03-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000278B2): Use "⿱⺈𠕎" instead of
+	"⿵⿱⺈冂仌".
+
 	* IDS-UCS-Ext-C.txt (U-0002B55D): Use "𰆊" instead of "卩".
 
 	* IDS-UCS-Basic.txt (U+5381): Use "𰆊" instead of "卩".
