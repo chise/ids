@@ -1,3 +1,17 @@
+2020-03-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002A800): Use "⿸𰇀土" instead of
+	"⿰⿱𣦵贝圣".
+
+	* IDS-UCS-Ext-B-4.txt (U-00027DCE): Completed.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022FE1): Use "⿹⿰𣦵攴x" instead of
+	"⿰⿱𣦵x攴".
+
+	* IDS-UCS-Ext-A.txt (U+3561): Use "⿹𣦻&A-IWDSU+8C37;" instead of "⿰䜭又".
+	(U+3562): Use "⿹𣦻x" instead of "⿰⿱𣦵x又".
+	(U+4AA5): Use "⿸㕢x" instead of "⿰⿱𣦵貝⿱又x".
+
 2020-03-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029897): Use "卭" instead of "⿰工卩".
