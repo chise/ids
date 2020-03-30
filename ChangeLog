@@ -1,5 +1,57 @@
 2020-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A0DF): Completed.
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+4E29 instead of UU+4E29.
+	- Use U+5204 instead of UU+5204.
+	- Use U+5203 instead of U+2F81E.
+	- Use U+5206 instead of UU+5206.
+	- Use U+5177 instead of U+2F811.
+	- Use U+51E1 instead of UU+51E1.
+	- Use U+53F1 instead of UU+53F1.
+	- Use U+5904 instead of UU+5904.
+	- Use U+8001 instead of UU+8001.
+	- Use U+7FBD instead of UU+7FBD.
+	- Use U+8A25 instead of UU+8A25.
+	- Use U+516A instead of UU+516A.
+	- Use U+5721 instead of UU+5721.
+	- Use U+752C instead of UU+752C.
+	- Use U+8012 instead of JU+8012.
+	- Use U+9F13 instead of UU+9F13.
+	(U+2CEFC): Completed.
+	(U+2D0AA): Completed.
+	(U+2D0CE): Use "⿹𠃌𠂇" instead of U+2F81E.
+	(U+2D0F1): Use GT-K03607 instead of "⿱𦍌丿".
+	(U+2D177): Use "𰆊" instead of "⿱𠃌丨".
+	(U+2D178): Ditto.
+	(U+2D17A): Completed.
+	(U+2D17E): Use "𰆊" instead of "⿱𠃌丨".
+	(U+2D17F): Ditto.
+	(U+2D1E2): Completed.
+	(U+2D248): Use "𭅒" instead of "⿱䒑老".
+	(U+2D2AC): Use U+44C1 instead of UU+44C1.
+	(U+2D310): Fixed.
+	(U+2D66B): Completed.
+	(U+2D790): Completed.
+	(U+2D7FE): Completed.
+	(U+2DE23): Completed.
+	(U+2DE2E): Completed.
+	(U+2DF90): Completed.
+	(U+2E295): Use "⿱罒⿱羽𣄼" instead of "⿳罒羽𣄼".
+	(U+2E2DE): Use "⿸耂乚" instead of "老".
+	(U+2E4D8): Completed.
+	(U+2E4D9): Completed.
+	(U+2E4DC): Completed.
+	(U+2E4DE): Use U+864D-itaiji-001.
+	(U+2E4E0): Likewise.
+	(U+2E4E1): Completed.
+	(U+2E4E5): Completed.
+	(U+2E5C7): Completed.
+	(U+2E65F): Completed.
+	(U+2E71F): Completed.
+	(U+2EA0D): Use "⿹頃x" instead of "⿰⿱匕x頁".
+
 	* IDS-UCS-Ext-B-5.txt (U-000299D1): Completed.
 
 2020-03-27  MORIOKA Tomohiko  <tomo.git@chise.org>
