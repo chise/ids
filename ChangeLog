@@ -1,5 +1,17 @@
 2020-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-C.txt (U-0002A859): Use "𭅺" instead of "⿰良卩".
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A003): Use "卭" instead of "⿰工卩".
+
+	* IDS-UCS-Ext-B-5.txt (U-000289DE): Use "卬" instead of "⿰&CDP-8CBD;卩".
+
+	* IDS-UCS-Ext-B-4.txt (U-00026869): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+7237): Use "𰆊" instead of "卩".
+
+2020-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-6.txt (U-0002A10D): Completed.
 
 2020-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
