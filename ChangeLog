@@ -1,3 +1,33 @@
+2020-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-G.txt: New file.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023CF9): Use "𭑃" instead of "⿱大于".
+
+	* IDS-UCS-Ext-B-5.txt (U-0002863F): Use "𮥿" instead of
+	"⿳亠吅隹".
+	(U-00028DA7): Use "𭦌" instead of "⿱⿱⺈田日".
+
+	* IDS-UCS-Ext-F.txt (U+2D7FC): Chose representative IDS based on
+	the abstract structure.
+
+2020-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Install IDS-UCS-Ext-G.txt.
+
+2020-03-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026753): Use "𭁨" instead of "⿵冂米".
+
+	* IDS-UCS-Ext-B-3.txt (U-00025BAB): Use "𭁨" instead of "⿵冂米".
+
+	* IDS-UCS-Basic.txt: Use "⿱𫇦x" instead of "⿳艹冖x".
+	(U+685C): Use "𰋷" instead of "⿱𭕄女".
+	(U+73F1): Ditto.
+	(U+8227): Use "𭂫" instead of "⿱丿凡".
+
+	* IDS-UCS-Ext-A.txt (U+42DD): Use "𰋷" instead of "⿱𭕄女".
+
 2020-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002A859): Use "𭅺" instead of "⿰良卩".
@@ -3207,7 +3237,7 @@
 
 	* IDS-UCS-Ext-B-3.txt: Use "从" instead of "⿰人人".
 	(U-000245E0): Use "𠚏" instead of "⿱⿸⿹千人人山".
-	(U-0002500F): Use "&CDP-8D4F;" instead of "⿳亠⿰人人木".
+	(U-0002500F): Use "𰗣" instead of "⿳亠⿰人人木".
 	(U-000255E3): Use "皼" instead of "⿰壹皮".
 
 	* IDS-UCS-Ext-B-2.txt:
