@@ -1,5 +1,11 @@
 2020-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt (U+3BFA): Use "𰯲" instead of "⿰臣⿱&CDP-89BC;⺫".
+	(U+3F49): Likewise.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A38D): Completed.
+	(U-0002A38E): Completed.
+
 	* IDS-UCS-Ext-G.txt: New file.
 
 	* IDS-UCS-Ext-B-2.txt (U-00023CF9): Use "𭑃" instead of "⿱大于".
