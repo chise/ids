@@ -1,5 +1,9 @@
 2020-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A4C6): Fixed.
+
+2020-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-A.txt (U+3BFA): Use "𰯲" instead of "⿰臣⿱&CDP-89BC;⺫".
 	(U+3F49): Likewise.
 
