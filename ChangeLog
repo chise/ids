@@ -1,3 +1,21 @@
+2020-04-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023284): Use "⿱彗x" instead of
+	"⿳⿰丰丰⺕x".
+	(U-00023348): Use "⿱x𣅋" instead of "⿳x曰䒑".
+
+2020-04-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027399): Use "𠨚" instead of "⿰希卩".
+	(U-0002739B): Fixed.
+	(U-0002739F): Fixed.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021FBF): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt (U-00025728): Use "𧯽" instead of
+	"⿱⿶凵⿰丰丰豆".
+	(U-0002572A): Fixed.
+
 2020-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A4C6): Fixed.
