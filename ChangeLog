@@ -1,5 +1,30 @@
 2020-04-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A0EF): Use "昬" instead of "⿱民日".
+
+	* IDS-UCS-Ext-B-5.txt (U-0002834C): Use "昬" instead of "⿱民日".
+	(U-00028488): Use "𡰥" instead of "⿸尸二"; use U+8FB6 instead of
+	<CJK RADICAL SIMPLIFIED WALK>.
+	(U-00028D7D): Use "昬" instead of "⿱民日".
+	(U-00029003): Ditto.
+	(U-00029509): Ditto.
+	(U-000295BE): Use "𡰥" instead of "⿸尸二".
+
+	* IDS-UCS-Ext-B-3.txt (U-000241BE): Use "𡰥" instead of "⿸尸二".
+	(U-00024E05): Use "昬" instead of "⿱民日".
+	(U-00024EEE): Use "⿸𤸰x" instead of "⿸疒⿱倠x".
+	(U-00024F21): Ditto.
+	(U-00025097): Use "朙" instead of "⿰囧月".
+	(U-0002513F): Use "𡰥" instead of "⿸尸二".
+	(U-00025731): Use "⿱眞夊" instead of "⿳匕⿺𠃊目⿱八夊".
+	(U-00025737): Ditto.
+	(U-00025739): Ditto.
+	(U-00025793): Use "𡰥" instead of "⿸尸二".
+
+	* IDS-UCS-Ext-B-1.txt (U-000202BD): Use "昬" instead of "⿱民日".
+
+2020-04-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-6.txt (U-0002A18C): Use "⿰朙x" instead of
 	"⿲囧月x".
 	(U-0002A1FF): Use "𨿳" instead of "⿸𤕫倠".
