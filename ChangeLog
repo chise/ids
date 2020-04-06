@@ -1,3 +1,45 @@
+2020-04-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000265AB): Use "昬" instead of "⿱民日".
+	(U-0002676E): Ditto.
+	(U-0002696F): Use "爻" instead of "⿱㐅㐅".
+	(U-000269A0): Use "⿱𦥯x" instead of "⿳⿻𦥑⿱㐅㐅冖x".
+	(U-00026B93): Use "𠛄" instead of "⿰⿱㐅㐅刂".
+	(U-00026C60): Use "⿴茻丩" instead of "⿳艸丩艸".
+	(U-00026D54): Use "爼" instead of "⿰⿱㐅㐅且".
+	(U-00026D79): Use U+8279 instead of <CJK RADICAL GRASS ONE>.
+	(U-00026DB0): Use "𣬈" instead of "⿰囟比".
+	(U-00026DF1): Modify structure.
+	(U-00026E33): Use "⿴𦬠x" instead of "⿳艹辰廾".
+	(U-00026E69): Use "朙" instead of "⿰囧月"; use U+8279 instead of
+	<CJK RADICAL GRASS ONE>.
+	(U-00027087): Modify structure.
+	(U-000270E3): Use "⿱x𥊽" instead of "⿳x𥄳弟".
+	(U-00027178): Modify structure.
+	(U-000274F9): Use "昬" instead of "⿱民日".
+	(U-00027814): Use "爻" instead of "⿱㐅㐅".
+	(U-00027B6D): Use "⿸𨿳x" instead of "⿸𤕫⿱倠x".
+
+2020-04-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-0002464D): Use "𣎵" instead of "⿻屮几".
+
+	* IDS-UCS-Basic.txt (U+846C): Use "⿴𦬇x" instead of "⿳艹x廾".
+
+2020-04-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022A57): Use "𡰥" instead of "⿸尸二";
+	use "𢨳" instead of "⿱户户".
+	(U-00022A59): Use U+542F instead of JU+542F.
+	(U-00022A5D): Likewise; use "𢨳" instead of "⿱户户".
+	(U-00022F9E): Use "昬" instead of "⿱民日".
+	(U-000231EF): Use "𢨯" instead of "⿰戶戶".
+	(U-000232BD): Ditto.
+	(U-000234E0): Ditto.
+	(U-0002363C): Use U+542F instead of JU+542F.
+	(U-00023645): Likewise.
+	(U-000238E4): Use "昬" instead of "⿱民日".
+
 2020-04-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A0EF): Use "昬" instead of "⿱民日".
