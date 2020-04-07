@@ -1,3 +1,20 @@
+2020-04-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000200FE): Use "𬼆" instead of "⿱㐅㐅".
+	(U-000206C4): Ditto.
+	(U-000206C7): Confirmed.
+	(U-000206DD): Use U+5203 instead of U+2F81E.
+	(U-0002073D): Use "⿱㐅杀" instead of "⿱⿱㐅㐅木".
+	(U-00020B10): Use "⿵𠫼x" instead of "⿱厽⿻&CDP-8BF5;⿱二x".
+	(U-00020B18): Ditto.
+	(U-00020D82): Use "⿰x𢼂" instead of "⿲x⿱㐅㐅⺙".
+	(U-000210CE): Use "樊" instead of "⿱⿲木⿱㐅㐅木大".
+	(U-0002163B): Use "𬼆" instead of "⿱㐅㐅".
+	(U-000217C2): Use U+5203 instead of U+2F81E.
+	(U-00021B8A): Use "刼" instead of "⿰去刃".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002363C): Use "啟" instead of "⿰启攵".
+
 2020-04-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000265AB): Use "昬" instead of "⿱民日".
