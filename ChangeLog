@@ -1,4 +1,14 @@
+2020-04-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002247F): Modify structure.
+
 2020-04-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+4E34): Use U-00030022 instead of
+	U+76D1-itaiji-003.
+	(U+76D1): Ditto.
+	(U+89C8): Ditto.
+	(U+9274): Ditto.
 
 	* IDS-UCS-Ext-B-5.txt (U-000287E9): Use "𪉷" instead of "⿱鹵𣆪".
 	(U-000287EC): Ditto.
