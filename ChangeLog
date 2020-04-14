@@ -1,3 +1,11 @@
+2020-04-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000289C8): Use "芌" instead of "⿱艹亏".
+	(U-000289CB): Completed.
+	(U-00028E6F): Use "芌" instead of "⿱艹亐".
+
+	* IDS-UCS-Ext-B-4.txt (U-00027A04): Use "芌" instead of "⿱艹亐".
+
 2020-04-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002247F): Modify structure.
