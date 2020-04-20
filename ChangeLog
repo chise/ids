@@ -1,3 +1,7 @@
+2020-04-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3AC1): Use "𢆶" instead of "⿰幺幺".
+
 2020-04-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-000289C8): Use "芌" instead of "⿱艹亏".
