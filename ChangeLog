@@ -1,4 +1,18 @@
+2020-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000267A5): Use "𡌥" instead of
+	"⿳一⿰幺幺土".
+	(U-00026C73): Use "𢆶" instead of "⿰幺幺".
+	(U-0002790B): Use "𢇂" instead of "⿱⿰幺幺廾".
+	(U-00027C01): Use "𡌥" instead of "⿳一⿰幺幺土".
+
 2020-04-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023253): Use "𡌥" instead of
+	"⿳一𢆶土".
+	(U-000235AD): Ditto.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A028): Use "𢆶" instead of "⿰幺幺".
 
 	* IDS-UCS-Ext-A.txt (U+3AC1): Use "𢆶" instead of "⿰幺幺".
 
