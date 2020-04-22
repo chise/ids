@@ -6,6 +6,9 @@
 	(U-0002790B): Use "𢇂" instead of "⿱⿰幺幺廾".
 	(U-00027C01): Use "𡌥" instead of "⿳一⿰幺幺土".
 
+	* IDS-UCS-Ext-C.txt (U-0002A706): Use "𫠩" instead of "⿱一𢆶".
+	(U-0002ABB5): Use "⿱𫠩x" instead of "⿳一𢆶x".
+
 2020-04-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023253): Use "𡌥" instead of
