@@ -1,3 +1,8 @@
+2020-05-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.99.0.
+	(www-batch-ids-find): Use Bootstrap v4.5.0.
+
 2020-04-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-0002012D): Use "⿴" instead of "⿻".
