@@ -18,7 +18,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.90.2")
+(defconst www-ids-find-version "0.99.0")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -332,7 +332,9 @@
             \"http://www.w3.org/TR/html4/loose.dtd\">
 <html lang=\"ja\">
 <head>
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 <title>CHISE IDS Find</title>
+<link href=\"/css/bootstrap-4.5.0.min.css\" rel=\"stylesheet\">
 <style type=\"text/css\">
 <!--
 .entry { font-size: 36px; }
@@ -356,31 +358,40 @@ li { margin: 0 0 -0.2em; }
 
 <body>
 
-<h1>")
+<div class=\"jumbotron jumbotron-fluid mb-0\">
+<h1 class=\"display-4 text-center\">")
     (princ (encode-coding-string "CHISE IDS 漢字検索" 'utf-8-jp-er))
     (princ "</h1>")
     (princ "
-<p>Version ")
+<p class=\"text-center\">Version ")
     (princ www-ids-find-version)
     (princ (format-time-string
-	    " (Last-modified: %Y-%m-%d %H:%M:%S)"
+	    " (Last-modified: %Y-%m-%d %H:%M:%S)</p>"
 	    (nth 5
 		 (file-attributes
 		  www-ids-find-ideographic-products-file-name))))
     (princ "
-<hr>
-<p>
+</div>
+<div class=\"container mt-0 mw-100 d-inline-block align-top bg-dark\">
+<p />
+<div class=\"input-group mb-3 h3 my-4\">
+<div class=\"input-group-prepend mw-75 ml-3\">
 <form action=\"/ids-find\" method=\"GET\">
+<span class=\"input-group-text\" id=\"basic-addon1\">
 ")
     (princ (encode-coding-string "部品文字列" 'utf-8-jp-er))
-    (princ " <input type=\"text\" name=\"components\" size=\"30\" maxlength=\"30\" value=\"")
+    (princ "</span>
+</div>
+<input type=\"text\" class=\"form-control\" aria-describedby=\"basic-addon1\" name=\"components\" size=\"30\" maxlength=\"30\" value=\"")
     (if (> (length components) 0)
 	(princ (encode-coding-string components 'utf-8-er)))
     (princ "\">
-<input type=\"submit\" value=\"")
+<input class=\"mr-3\" type=\"submit\" value=\"")
     (princ (encode-coding-string "検索開始" 'utf-8-jp-er))
     (princ "\">
 </form>
+</div>
+</div>
 
 ")
     (unless (file-newer-than-file-p
@@ -395,6 +406,8 @@ li { margin: 0 0 -0.2em; }
       )
     (cond
      (components
+      (princ "<div class=\"container\">
+")
       ;; (map-char-attribute
       ;;  (lambda (c v)
       ;;    (when (every (lambda (p)
@@ -421,15 +434,21 @@ li { margin: 0 0 -0.2em; }
       ;; (princ "<ul>\n")
       (www-ids-insert-chars-including-components components)
       ;; (princ "</ul>\n")
+      (princ "</div>\n")
       )
      (t
-      (princ (encode-coding-string "<hr>
+      (princ (encode-coding-string "<div class=\"container mt-4\">
+<div class=\"ml-3\">
 <p>
 指定した部品を全て含む漢字の一覧を表示します。
+</p>
 <p>
-CHISE で用いられる実態参照形式（例：&amp;M-00256;）で部品を指定する事もできます。" 'utf-8-jp-er))
+CHISE で用いられる実態参照形式（例：&amp;M-00256;）で部品を指定する事もできます。
+</p>
+</div>
+" 'utf-8-jp-er))
       (princ (encode-coding-string "
-<p>
+<p  class=\"ml-0\">
 \[Links\]
 <ul>
 <li><a href=\"http://www.shuiren.org/chuden/toyoshi/syoseki/chise_ids.html\"
@@ -458,21 +477,27 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 >京都大学21世紀COE「東アジア世界の人文情報学研究教育拠点」</a>
 <li><a href=\"http://www.unicode.org/\"
 >Unicode</a>
-</ul>"
+</ul>
+</p>
+</div>
+"
  'utf-8-jp-er))
 
       ))
-    (princ "<hr>")
-    (princ "<p>
-Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015, 2016, 2017 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
->MORIOKA Tomohiko</a>")
+    (princ "<hr>
+<div class=\"container\">
+")
+    (princ "<div class=\"ml-0\">
+Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015, 2016, 2017, 2020 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+>MORIOKA Tomohiko</a></div>")
     (princ
      (format
-      "<p>Powered by <a
+      "<div>Powered by <a
 href=\"http://www.chise.org/xemacs/\"
->XEmacs CHISE</a> %s."
+>XEmacs CHISE</a> %s.</div>"
       (encode-coding-string xemacs-chise-version 'utf-8-jp-er)))
     (princ "
+</div>
 </body>
 </html>
 ")))
