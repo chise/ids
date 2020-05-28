@@ -1,3 +1,12 @@
+2020-05-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6989): Use "举" instead of
+	"⿱⿱⿱𭕄一八𰀁".
+	(U+9646): Use "击" instead of "⿶𰀁凵".
+
+	* IDS-UCS-Ext-B-2.txt (U-00023B9A): Use "𢪙" instead of
+	"⿰手⿱一𰀁".
+
 2020-05-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+6579): Fixed.
