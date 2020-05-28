@@ -1,3 +1,7 @@
+2020-05-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6579): Fixed.
+
 2020-05-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* www/www-ids-find.el (www-ids-find-version): Update to 0.99.0.
@@ -2403,9 +2407,9 @@
 	* IDS-UCS-Ext-B-4.txt:
 	- Use U-00027FB7 instead of <CJK RADICAL FOOT>.
 	- Use "𢆰" instead of "⿱一幺".
-	(U-00026342): Use "䠣" instead of "⿰⻊巽".
+	(U-00026342): Use "䠣" instead of "⿰𧾷巽".
 	(U-00026345): Ditto.
-	(U-00027DE5): Use "䟝" instead of "⿰⻊殳".
+	(U-00027DE5): Use "䟝" instead of "⿰𧾷殳".
 	(U-00027FCF): Use "𭅲" instead of "⿴㔾丶".
 
 	* IDS-UCS-Basic.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
@@ -2419,7 +2423,7 @@
 
 	* IDS-CNS-1.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
 
-	* IDS-UCS-Ext-B-3.txt (U-00025E19): Use "躘" instead of "⿰⻊龍".
+	* IDS-UCS-Ext-B-3.txt (U-00025E19): Use "躘" instead of "⿰𧾷龍".
 
 	* IDS-UCS-Ext-A.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
 
