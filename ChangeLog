@@ -1,3 +1,9 @@
+2020-05-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+60A4): Use "⿱囱x" instead of
+	"⿳丿⿴口タx".
+	(U+6F9A): Use "粵" instead of "⿱⿵𰃦米丂".
+
 2020-05-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+6989): Use "举" instead of
