@@ -1,5 +1,7 @@
 2020-05-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-0002748B): Fixed.
+
 	* IDS-UCS-Basic.txt (U+60A4): Use "⿱囱x" instead of
 	"⿳丿⿴口タx".
 	(U+6F9A): Use "粵" instead of "⿱⿵𰃦米丂".
