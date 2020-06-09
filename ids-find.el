@@ -1,6 +1,6 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures
 
-;; Copyright (C) 2002,2003,2005,2006,2007,2017 MORIOKA Tomohiko
+;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: Kanji, Ideographs, search, IDS, CHISE, UCS, Unicode
