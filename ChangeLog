@@ -1,5 +1,10 @@
 2020-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+53C6): Use "爱" instead of "⿰&CDP-8BB8;友" [merge
+	commit '7bb4063b8816681d57c2d2c77177c49604c22757'].
+
+2020-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+5171): Use "兀" instead of "⿱一八";
 	preserve the previous structure in @apparent.
 	(U+5174): Use "兀" instead of "⿱一八".
