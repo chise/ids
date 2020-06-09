@@ -54,6 +54,11 @@
      (ids-index-store-structure c v)
      nil)
    'ideographic-structure)
+  (map-char-attribute
+   (lambda (c v)
+     (ids-index-store-structure c v)
+     nil)
+   'ideographic-structure@apparent)
   (save-char-attribute-table 'ideographic-products))
 
 
