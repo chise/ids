@@ -1,4 +1,22 @@
+2020-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5171): Use "兀" instead of "⿱一八";
+	preserve the previous structure in @apparent.
+	(U+5174): Use "兀" instead of "⿱一八".
+	(U+5175): Add @apparent.
+	(U+5176): Use "兀" instead of "⿱一八"; preserve the previous
+	structure in @apparent.
+	(U+5177): Likewise.
+	(U+5178): Likewise.
+	(U+757A): Modify structure; preserve the previous structure in
+	@apparent.
+
 2020-06-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ids-update-index): Support
+	`ideographic-structure@apparent'.
+
+	* ids-read.el (ids-read-buffer): Support `@apparent=' field.
 
 	* IDS-UCS-Basic.txt (U+5175): Delete `?'.
 
