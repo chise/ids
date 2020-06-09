@@ -1,6 +1,6 @@
 ;;; ids-read.el --- Reader for IDS-* files
 
-;; Copyright (C) 2002,2003,2004 MORIOKA Tomohiko
+;; Copyright (C) 2002, 2003, 2004, 2020 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -32,7 +32,7 @@
   (save-excursion
     (set-buffer buffer)
     (goto-char (point-min))
-    (let (line chs ids code char u-char structure)
+    (let (line chs ids apparent-ids code char u-char structure)
       (while (not (eobp))
 	(unless (looking-at ";")
 	  (setq line
@@ -41,7 +41,12 @@
 		 "\t"))
 	  (setq chs (car line)
 		ids (nth 2 line)
+		apparent-ids (nth 3 line)
 		u-char nil)
+	  (setq apparent-ids
+		(if (and apparent-ids
+			 (string-match "^@apparent=" apparent-ids))
+		    (substring apparent-ids (match-end 0))))
 	  (setq char
 		(cond
 		 ((string-match "U[-+]\\([0-9A-F]+\\)" chs)
@@ -124,6 +129,15 @@
 	       u-char 'ideographic-structure
 	       (ideographic-structure-convert-to-domain
 		(cdr (car structure)) 'unicode)))
+	    (when (and (>= (length apparent-ids) 3)
+		       (consp (setq structure
+				    (ids-parse-string apparent-ids simplify))))
+	      (when (or (not soft)
+			(null
+			 (get-char-attribute char 'ideographic-structure@apparent)))
+		(put-char-attribute char
+				    'ideographic-structure@apparent
+				    (cdr (car structure)))))
 	    )
 	  )
 	(forward-line)
