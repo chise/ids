@@ -1,3 +1,16 @@
+2020-06-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+9FA9): Add IDS.
+	(U+9FAA): Add IDS.
+	(U+9FAB): Add IDS.
+	(U+9FAD): Add IDS.
+	(U+9FAE): Add IDS.
+	(U+9FAF): Add IDS.
+	(U+9FB2): Add IDS.
+	(U+9FB3): Add IDS.
+	(U+9FB7): Add IDS.
+	(U+9FBC): Add IDS.
+
 2020-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+53C6): Use "爱" instead of "⿰&CDP-8BB8;友" [merge
