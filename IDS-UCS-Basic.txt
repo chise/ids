@@ -20909,7 +20909,7 @@ U+9FAA	龪	⿺走人
 U+9FAB	龫	⿰車𫢉
 U+9FAC	龬	⿰金罔
 U+9FAD	龭	⿰馬異
-U+9FAE	龮	⿰馬&MJ020741;
+U+9FAE	龮	⿰馬翼
 U+9FAF	龯	⿰金戊
 U+9FB0	龰	龰
 U+9FB1	龱	⿴囗㐅
@@ -20924,10 +20924,10 @@ U+9FB9	龹	龹
 U+9FBA	龺	龺
 U+9FBB	龻	龻
 U+9FBC	龼	⿰土睿
-U+9FBD	龽	龽
-U+9FBE	龾	龾
-U+9FBF	龿	龿
-U+9FC0	鿀	鿀
+U+9FBD	龽	⿰火魚
+U+9FBE	龾	⿰皮匊
+U+9FBF	龿	⿱艹佳
+U+9FC0	鿀	⿱艹醫
 U+9FC1	鿁	鿁
 U+9FC2	鿂	鿂
 U+9FC3	鿃	鿃
