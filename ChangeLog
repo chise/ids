@@ -1,5 +1,13 @@
 2020-06-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+9FC1): Add IDS.
+	(U+9FC2): Add IDS.
+	(U+9FC3): Add IDS.
+	(U+9FC4): Add IDS.
+	(U+9FC5): Add IDS.
+	(U+9FC6): Add IDS.
+	(U+9FC7): Add IDS.
+
 	* IDS-UCS-Ext-B-3.txt (U-00025E38): Fixed.
 
 2020-06-11  MORIOKA Tomohiko  <tomo.git@chise.org>
