@@ -1,4 +1,21 @@
+2020-06-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002258A): Use "⿰x䛣" instead of
+	"⿲x言甹".
+	(U-0002259C): Use "⿰x𰕕" instead of "⿲x童攵".
+
+	* IDS-UCS-Ext-B-1.txt (U-000203EC): Use "⿰亻䛣" instead of
+	"⿰信甹".
+
 2020-06-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+9FC8): Add IDS.
+	(U+9FC9): Add IDS.
+	(U+9FCA): Add IDS.
+	(U+9FCB): Add IDS.
+	(U+9FCC): Add IDS.
+	(U+9FCD): Add IDS.
+	(U+9FCE): Add IDS.
 
 	* IDS-UCS-Ext-B-4.txt (U-00026FA1): Fixed.
 
