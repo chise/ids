@@ -81,6 +81,8 @@
 
 2020-06-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* install-ids.el: Save `ideographic-structure@apparent'.
+
 	* ids-find.el (ids-update-index): Support
 	`ideographic-structure@apparent'.
 
