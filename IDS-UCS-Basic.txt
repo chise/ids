@@ -20942,9 +20942,9 @@ U+9FCB	鿋	⿰衤喜
 U+9FCC	鿌	⿰氵亰
 U+9FCD	鿍	⿰土夅
 U+9FCE	鿎	⿰石达
-U+9FCF	鿏	鿏
-U+9FD0	鿐	鿐
-U+9FD1	鿑	鿑
+U+9FCF	鿏	⿰钅麦
+U+9FD0	鿐	⿰魚酒
+U+9FD1	鿑	⿰冫玉
 U+9FD2	鿒	鿒
 U+9FD3	鿓	鿓
 U+9FD4	鿔	鿔
