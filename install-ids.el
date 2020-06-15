@@ -69,6 +69,7 @@
 
 (princ "Updating char-feature `ideographic-structure'...")
 (save-char-attribute-table 'ideographic-structure)
+(save-char-attribute-table 'ideographic-structure@apparent)
 (princ "done.\n")
 
 (princ "Updating char-feature `ideographic-products'...")
