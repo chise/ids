@@ -1,5 +1,14 @@
 2020-06-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt (U+38F8): Use "㽔" instead of "⿺⿱&CDP-85F0;豕生".
+	(U+3D8B): Likewise.
+
+2020-06-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+9FCF): Add IDS.
+	(U+9FD0): Add IDS.
+	(U+9FD1): Add IDS.
+
 	* IDS-UCS-Ext-B-2.txt (U-0002258A): Use "⿰x䛣" instead of
 	"⿲x言甹".
 	(U-0002259C): Use "⿰x𰕕" instead of "⿲x童攵".
