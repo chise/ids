@@ -1,3 +1,27 @@
+2020-06-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000230F7): Use "𠧚" instead of "⿱⺊囚".
+
+	* IDS-UCS-Ext-B-1.txt (U-000209F5): Use "𠧚" instead of "⿱⺊囚".
+	(U-00021313): Ditto.
+
+	* IDS-UCS-Ext-F.txt (U+2DB0D): Completed.
+	(U+2DC50): Completed.
+	(U+2E4DD): Completed.
+	(U+2E4E2): Completed.
+
+	* IDS-UCS-Basic.txt (U+7F97): Fixed.
+	(U+9FD2): Add IDS.
+	(U+9FD3): Add IDS.
+	(U+9FD4): Add IDS.
+	(U+9FD5): Add IDS.
+	(U+9FD6): Add IDS.
+	(U+9FD7): Add IDS.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A2BB): Fixed.
+
+	* IDS-UCS-Ext-A.txt (U+4747): Fixed.
+
 2020-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025DF6): Use "⿱x𫲓" instead of
