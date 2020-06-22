@@ -1,3 +1,28 @@
+2020-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7742): Fixed.
+	(U+9FD8): Add IDS.
+	(U+9FD9): Add IDS.
+	(U+9FDA): Add IDS.
+	(U+9FDB): Add IDS.
+	(U+9FDC): Add IDS.
+	(U+9FDD): Add IDS.
+	(U+9FDE): Add IDS.
+	(U+9FDF): Add IDS.
+	(U+9FE0): Add IDS.
+
+2020-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020121): Use "⿴𠄠x" instead of
+	"⿻𠄠x".
+	(U-00020122): Ditto.
+	(U-00020123): Ditto.
+	(U-000209D6): Modify structure.
+
+	* IDS-UCS-Ext-F.txt (U+2D63E): Use "⿴午x" instead of "⿻午x".
+
+	* IDS-UCS-Ext-E.txt (U+2B930): Fixed.
+
 2020-06-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000230F7): Use "𠧚" instead of "⿱⺊囚".
