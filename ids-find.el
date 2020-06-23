@@ -5,7 +5,7 @@
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: Kanji, Ideographs, search, IDS, CHISE, UCS, Unicode
 
-;; This file is a part of CHISE IDS.
+;; This file is a part of CHISE-IDS.
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -410,6 +410,168 @@
      'ideographic-structure)
     (goto-char (point-min)))
   (view-buffer ids-find-result-buffer))
+
+
+(defun ideographic-structure-merge-components-alist (ca1 ca2)
+  (let ((dest-alist ca1)
+	ret)
+    (dolist (cell ca2)
+      (if (setq ret (assq (car cell) dest-alist))
+	  (setcdr ret (+ (cdr ret)(cdr cell)))
+	(setq dest-alist (cons cell dest-alist))))
+    dest-alist))
+
+(defun ideographic-structure-to-components-alist (structure)
+  (apply #'ideographic-structure-to-components-alist* structure))
+
+(defun ideographic-structure-to-components-alist* (operator component1 component2
+							    &optional component3
+							    &rest opts)
+  (let (dest-alist ret)
+    (setq dest-alist
+	  (cond ((characterp component1)
+		 (unless (encode-char component1 'ascii)
+		   (list (cons component1 1)))
+		 )
+		((setq ret (assq 'ideographic-structure component1))
+		 (ideographic-structure-to-components-alist (cdr ret))
+		 )
+		((setq ret (find-char component1))
+		 (list (cons ret 1))
+		 )))
+    (setq dest-alist
+	  (ideographic-structure-merge-components-alist
+	   dest-alist
+	   (cond ((characterp component2)
+		  (unless (encode-char component2 'ascii)
+		    (list (cons component2 1)))
+		  )
+		 ((setq ret (assq 'ideographic-structure component2))
+		  (ideographic-structure-to-components-alist (cdr ret))
+		  )
+		 ((setq ret (find-char component2))
+		  (list (cons ret 1))
+		  ))))
+    (if (memq operator '(?\u2FF2 ?\u2FF3))
+	(ideographic-structure-merge-components-alist
+	 dest-alist
+	 (cond ((characterp component3)
+		(unless (encode-char component3 'ascii)
+		  (list (cons component3 1)))
+		)
+	       ((setq ret (assq 'ideographic-structure component3))
+		(ideographic-structure-to-components-alist (cdr ret))
+		)
+	       ((setq ret (find-char component3))
+		(list (cons ret 1))
+		)))
+      dest-alist)))
+
+;;;###autoload
+(defun ideographic-structure-equal (structure1 structure2)
+  (and (eq (car structure1)(car structure2))
+       (ideographic-structure-character= (nth 1 structure1)(nth 1 structure2))
+       (ideographic-structure-character= (nth 2 structure1)(nth 2 structure2))
+       (if (memq (car structure1) '(?\u2FF2 ?\u2FF3))
+	   (ideographic-structure-character= (nth 3 structure1)(nth 3 structure2))
+	 t)))
+
+;;;###autoload
+(defun ideographic-structure-character= (c1 c2)
+  (let (ret ret2)
+    (cond ((characterp c1)
+	   (cond ((encode-char c1 'ascii)
+		  )
+		 ((characterp c2)
+		  (or (eq c1 c2)
+		      (encode-char c2 'ascii))
+		  )
+		 ((setq ret2 (find-char c2))
+		  (eq c1 ret2)
+		  )
+		 ((setq ret2 (assq 'ideographic-structure c2))
+		  (and (setq ret (get-char-attribute c1 'ideographic-structure))
+		       (ideographic-structure-equal ret (cdr ret2)))
+		  ))
+	   )
+	  ((setq ret (assq 'ideographic-structure c1))
+	   (cond ((characterp c2)
+		  (or (encode-char c2 'ascii)
+		      (and (setq ret2 (get-char-attribute c2 'ideographic-structure))
+			   (ideographic-structure-equal (cdr ret) ret2)))
+		  )
+		 ((setq ret2 (find-char c2))
+		  (and (setq ret2 (get-char-attribute c2 'ideographic-structure))
+		       (ideographic-structure-equal (cdr ret) ret2))
+		  )
+		 ((setq ret2 (assq 'ideographic-structure c2))
+		  (ideographic-structure-equal (cdr ret)(cdr ret2))
+		  ))
+	   )
+	  ((setq ret (find-char c1))
+	   (cond ((characterp c2)
+		  (or (eq ret c2)
+		      (encode-char c2 'ascii))
+		  )
+		 ((setq ret2 (find-char c2))
+		  (eq ret ret2)
+		  )
+		 ((setq ret2 (assq 'ideographic-structure c2))
+		  (and (setq ret (get-char-attribute c1 'ideographic-structure))
+		       (ideographic-structure-equal ret (cdr ret2))
+		       )))))))
+
+;;;###autoload
+(defun ideographic-structure-find-chars (structure)
+  (apply #'ideographic-structure-find-chars* structure))
+
+(defun ideographic-structure-find-chars* (operator component1 component2
+						   &optional component3)
+  (let ((comp-alist (ideographic-structure-to-components-alist*
+		     operator component1 component2 component3))
+	c1 c2 c3
+	ret pl str)
+    (dolist (pc (caar
+		 (sort (mapcar (lambda (cell)
+				 (if (setq ret (get-char-attribute
+						(car cell) 'ideographic-products))
+				     (cons ret (length ret))
+				   (cons nil 0)))
+			       comp-alist)
+		       (lambda (a b)
+			 (< (cdr a)(cdr b))))))
+      (when (and (setq str (get-char-attribute pc 'ideographic-structure))
+		 (eq (car str) operator)
+		 (setq c1 (nth 1 str))
+		 (ideographic-structure-character= c1 component1)
+		 (setq c2 (nth 2 str))
+		 (ideographic-structure-character= c2 component2)
+		 (cond ((memq (car str) '(?\u2FF2 ?\u2FF3))
+			(setq c3 (nth 3 str))
+			(ideographic-structure-character= c3 component3)
+			)
+		       (t)))
+	(setq pl (cons pc pl))
+	))
+    pl))
+
+;;;###autoload
+(defun ideographic-char-count-components (char component)
+  (let ((dest 0)
+	structure)
+    (cond ((eq char component)
+	   1)
+	  ((setq structure (get-char-attribute char 'ideographic-structure))
+	   (dolist (cell (ideographic-structure-to-components-alist structure))
+	     (setq dest
+		   (+ dest
+		      (if (eq (car cell) char)
+			  (cdr cell)
+			(* (ideographic-char-count-components (car cell) component)
+			   (cdr cell))))))
+	   dest)
+	  (t
+	   0))))
 
 
 ;;; @ End.
