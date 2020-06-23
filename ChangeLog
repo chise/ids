@@ -1,3 +1,29 @@
+2020-06-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ideographic-structure-merge-components-alist): New
+	function.
+	(ideographic-structure-to-components-alist): New function.
+	(ideographic-structure-to-components-alist*): New function.
+	(ideographic-structure-equal): New function.
+	(ideographic-structure-character=): New function.
+	(ideographic-structure-find-chars): New function.
+	(ideographic-structure-find-chars*): New function.
+	(ideographic-char-count-components): New function.
+
+	* ids.el: Require `ids-find'.
+	(ideographic-structure-find-char): New implementation; use
+	`ideographic-structure-find-chars'.
+
+2020-06-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002028D): Modify structure.
+
+	* IDS-CBETA.txt (CB10350): Use "⿵菛x" instead of "⿻菛x".
+	(CB11311): Ditto.
+	(CB12215): Ditto.
+
+	* IDS-UCS-Ext-B-3.txt (U-00025AD6): Fixed.
+
 2020-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+7742): Fixed.
