@@ -467,24 +467,53 @@
 		)))
       dest-alist)))
 
+(defun ids-find-merge-variables (ve1 ve2)
+  (cond ((eq ve1 t)
+	 ve2)
+	((eq ve2 t)
+	 ve1)
+	(t
+	 (let ((dest-alist ve1)
+	       (rest ve2)
+	       cell ret)
+	   (while (and rest
+		       (setq cell (car rest))
+		       (if (setq ret (assq (car cell) ve1))
+			   (eq (cdr ret)(cdr cell))
+			 (setq dest-alist (cons cell dest-alist))))
+	     (setq rest (cdr rest)))
+	   (if rest
+	       nil
+	     dest-alist)))))
+
 ;;;###autoload
 (defun ideographic-structure-equal (structure1 structure2)
-  (and (eq (car structure1)(car structure2))
-       (ideographic-structure-character= (nth 1 structure1)(nth 1 structure2))
-       (ideographic-structure-character= (nth 2 structure1)(nth 2 structure2))
-       (if (memq (car structure1) '(?\u2FF2 ?\u2FF3))
-	   (ideographic-structure-character= (nth 3 structure1)(nth 3 structure2))
-	 t)))
+  (let (dest-alist ret)
+    (and (setq dest-alist (ideographic-structure-character=
+			   (car structure1)(car structure2)))
+	 (setq ret (ideographic-structure-character=
+		    (nth 1 structure1)(nth 1 structure2)))
+	 (setq dest-alist (ids-find-merge-variables dest-alist ret))
+	 (setq ret (ideographic-structure-character=
+		    (nth 2 structure1)(nth 2 structure2)))
+	 (setq dest-alist (ids-find-merge-variables dest-alist ret))
+	 (if (memq (car structure1) '(?\u2FF2 ?\u2FF3))
+	     (and (setq ret (ideographic-structure-character=
+			     (nth 3 structure1)(nth 3 structure2)))
+		  (setq dest-alist (ids-find-merge-variables dest-alist ret)))
+	   dest-alist))))
 
 ;;;###autoload
 (defun ideographic-structure-character= (c1 c2)
   (let (ret ret2)
     (cond ((characterp c1)
 	   (cond ((encode-char c1 'ascii)
+		  (list (cons c1 c2))
 		  )
 		 ((characterp c2)
-		  (or (eq c1 c2)
-		      (encode-char c2 'ascii))
+		  (if (encode-char c2 'ascii)
+		      (list (cons c2 c1))
+		    (eq c1 c2))
 		  )
 		 ((setq ret2 (find-char c2))
 		  (eq c1 ret2)
@@ -496,9 +525,10 @@
 	   )
 	  ((setq ret (assq 'ideographic-structure c1))
 	   (cond ((characterp c2)
-		  (or (encode-char c2 'ascii)
-		      (and (setq ret2 (get-char-attribute c2 'ideographic-structure))
-			   (ideographic-structure-equal (cdr ret) ret2)))
+		  (if (encode-char c2 'ascii)
+		      (list (cons c2 c1))
+		    (and (setq ret2 (get-char-attribute c2 'ideographic-structure))
+			 (ideographic-structure-equal (cdr ret) ret2)))
 		  )
 		 ((setq ret2 (find-char c2))
 		  (and (setq ret2 (get-char-attribute c2 'ideographic-structure))
@@ -510,8 +540,9 @@
 	   )
 	  ((setq ret (find-char c1))
 	   (cond ((characterp c2)
-		  (or (eq ret c2)
-		      (encode-char c2 'ascii))
+		  (if (encode-char c2 'ascii)
+		      (list (cons c2 c1))
+		    (eq ret c2))
 		  )
 		 ((setq ret2 (find-char c2))
 		  (eq ret ret2)
@@ -530,7 +561,8 @@
   (let ((comp-alist (ideographic-structure-to-components-alist*
 		     operator component1 component2 component3))
 	c1 c2 c3
-	ret pl str)
+	ret pl str
+	var-alist)
     (dolist (pc (caar
 		 (sort (mapcar (lambda (cell)
 				 (if (setq ret (get-char-attribute
@@ -541,16 +573,21 @@
 		       (lambda (a b)
 			 (< (cdr a)(cdr b))))))
       (when (and (setq str (get-char-attribute pc 'ideographic-structure))
-		 (eq (car str) operator)
+		 (setq var-alist
+		       (ideographic-structure-character= (car str) operator))
 		 (setq c1 (nth 1 str))
-		 (ideographic-structure-character= c1 component1)
+		 (setq ret (ideographic-structure-character= c1 component1))
+		 (setq var-alist (ids-find-merge-variables var-alist ret))
 		 (setq c2 (nth 2 str))
-		 (ideographic-structure-character= c2 component2)
+		 (setq ret (ideographic-structure-character= c2 component2))
+		 (setq var-alist (ids-find-merge-variables var-alist ret))
 		 (cond ((memq (car str) '(?\u2FF2 ?\u2FF3))
 			(setq c3 (nth 3 str))
-			(ideographic-structure-character= c3 component3)
+			(and (setq ret (ideographic-structure-character=
+					c3 component3))
+			     (ids-find-merge-variables var-alist ret))
 			)
-		       (t)))
+		       (t var-alist)))
 	(setq pl (cons pc pl))
 	))
     pl))
