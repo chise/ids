@@ -1,11 +1,11 @@
 ;;; ids.el --- Parser and utility for Ideographic Description Sequence.
 
-;; Copyright (C) 2001,2002,2003,2005 MORIOKA Tomohiko
+;; Copyright (C) 2001, 2002, 2003, 2005, 2020 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
 
-;; This file is a part of Tomoyo-Tools.
+;; This file is a part of CHISE-IDS.
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -30,12 +30,15 @@
 ;;; Code:
 
 (require 'ideograph-util)
+(require 'ids-find)
 
 (defun ideographic-structure-find-char (structure)
-  (dolist (product (char-feature (nth 1 structure) 'ideographic-products))
-    (if (equal structure
-	       (char-feature product 'ideographic-structure))
-	(return product))))
+  (car (ideographic-structure-find-chars structure))
+  ;; (dolist (product (char-feature (nth 1 structure) 'ideographic-products))
+  ;;   (if (equal structure
+  ;;              (char-feature product 'ideographic-structure))
+  ;;       (return product)))
+  )
 
 (defun ids-parse-terminal (string)
   (if (>= (length string) 1)
