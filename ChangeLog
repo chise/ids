@@ -1,5 +1,15 @@
 2020-06-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-find.el (ids-find-merge-variables): New function.
+	(ideographic-structure-equal): Use `ids-find-merge-variables';
+	return variable-biding alist.
+	(ideographic-structure-character=): Return variable-biding alist.
+	(ideographic-structure-find-chars*): Use
+	`ideographic-structure-character=' for operators; use
+	`ids-find-merge-variables' to check variable-biding alist.
+
+2020-06-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* ids-find.el (ideographic-structure-merge-components-alist): New
 	function.
 	(ideographic-structure-to-components-alist): New function.
