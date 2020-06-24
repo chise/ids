@@ -1,3 +1,17 @@
+2020-06-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024458): Use "滕" instead of
+	"⿸⿰月龹⺢".
+
+	* IDS-UCS-Basic.txt: Use "𰮤" instead of "⿰月龹".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002338E): Use "𰮤" instead of "⿰月龹".
+	(U-00023392): Ditto.
+	(U-00023E78): Ditto.
+
+	* IDS-UCS-Ext-A.txt (U+3B3A): Use "𰮤" instead of "⿰月龹".
+	(U+4CA2): Ditto.
+
 2020-06-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el (ids-find-merge-variables): New function.
