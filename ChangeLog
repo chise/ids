@@ -1,3 +1,38 @@
+2020-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use "⿴衣x" instead of "⿻衣x".
+	(U-00026144): Use "𰕎" instead of "⿰育攵".
+	(U-0002651E): Ditto.
+	(U-00026712): Use "𠔁" instead of "⿱八八".
+	(U-00026823): Use "𰕎" instead of "⿰育攵".
+	(U-0002762B): Fixed; use "㞢" instead of "⿱屮一".
+	(U-00027633): Use "𠔁" instead of "⿱八八".
+	(U-000276BE): Fixed.
+	(U-000276C5): Fixed.
+	(U-00027708): Use "𰮤" instead of "⿰⺼龹".
+	(U-00027738): Completed.
+	(U-00027BA8): Use "𧞻" instead of "⿻衣𤕦".
+
+	* ids-find.el (ideographic-structure-character=): Fixed.
+
+2020-06-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002814A): Use "𰕎" instead of "⿰育攵".
+	(U-000283E3): Ditto.
+	(U-00029352): Likewise.
+
+	* IDS-UCS-Ext-C.txt (U-0002AE72): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+5FB9): Use "𰕎" instead of "⿰育攵".
+	(U+64A4): Ditto.
+	(U+6F88): Use "⿰x𰕎" instead of "⿲x育攵".
+	(U+77AE): Ditto.
+	(U+8F4D): Ditto.
+	(U+8F99): Ditto.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021860): Use "𰕎" instead of "⿰育⺙".
+	(U-000218D1): Use "𧶉" instead of "⿱完貝".
+
 2020-06-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024458): Use "滕" instead of
@@ -3462,7 +3497,7 @@
 
 2017-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-3.txt (U-000240F3): Use "&U-i001+65DB;" instead of "⿸&U-i001+3AC3;畨".
+	* IDS-UCS-Ext-B-3.txt (U-000240F3): Use "&U-i001+65DB;" instead of "⿸𭤨畨".
 
 2017-03-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -3499,7 +3534,7 @@
 2017-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
-	- Use "&U-i001+3AC3;" instead of "⿸⿰方𠂉".
+	- Use "𭤨" instead of "⿸⿰方𠂉".
 	- Use "&GT-K11083;" instead of "⿻𦥑囟".
 	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
 	- Use "䢉" instead of "⿱⿻𦥑囟辰".
@@ -3522,7 +3557,7 @@
 	- Use "⿱䔘x" instead of "⿳艹⿰缶且x".
 	(U-000260CC): Use "&A-U-i001+20B36;" instead of "⿱帚又".
 	(U-000260CD): Use "𢍍" instead of "⿱囱廾".
-	(U-00026E6D): Use "&U-i001+3AC3;" instead of "⿸⿰方𠂉".
+	(U-00026E6D): Use "𭤨" instead of "⿸⿰方𠂉".
 	(U-00026EAD): Use "㑴" instead of "⿰⺅⿱帚又".
 	(U-000277D2): Use "䢉" instead of "⿱⿻𦥑囟辰".
 
@@ -3539,7 +3574,7 @@
 
 	* IDS-UCS-Ext-E.txt:
 	- Use "⿵𣎆x" instead of "⿱吂⿲月x凡".
-	- Use "⿸&U-i001+3AC3;x" instead of "⿰方⿱𠂉x"
+	- Use "⿸𭤨x" instead of "⿰方⿱𠂉x"
 	(U+2BD69): Use U+9B32-itaiji-001 instead of "⿳一&CDP-89CC;&CDP-8BDC;".
 	(U+2C022): Use CB04718 instead of "⿰米舀".
 	(U+2CD18): Fixed; use GT-K02128 instead of "⿱亠&CDP-89CC;".
@@ -3552,7 +3587,7 @@
 	(U-0002296F): Use "䢉" instead of "⿱⿻𦥑囟辰".
 	(U-00023128): Use "&U-i002+7948;" instead of "⿰單斤".
 
-	* IDS-UCS-Ext-C.txt: Use "⿸&U-i001+3AC3;x" instead of "⿰方⿱𠂉x".
+	* IDS-UCS-Ext-C.txt: Use "⿸𭤨x" instead of "⿰方⿱𠂉x".
 	(U-0002AF99): Use "&GT-K11083;" instead of "⿴𦥑囟".
 	(U-0002AF9A): Use "𬖥" instead of "⿰米帚".
 
@@ -3560,7 +3595,7 @@
 
 	* IDS-UCS-Ext-B-5.txt:
 	- Use "𠨧" instead of "⿱⿻𦥑囟⿱大㔾".
-	- Use "&U-i001+3AC3;" instead of "⿰方𠂉".
+	- Use "𭤨" instead of "⿰方𠂉".
 	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
 	- Use GT-K08880 instead of "⿱&CDP-8BAA;回".
 	(U-00028053): Use BC-857E instead of "⿰&CDP-8BC5;⿺⺃匕".
@@ -3574,7 +3609,7 @@
 	(U-00029AEE): Use "𩫖" instead of "⿱高⿱⿶凵口丨".
 	(U-00029C3D): Use U+9B32-itaiji-001 instead of "⿳一&CDP-89CC;&CDP-8BDC;".
 
-	* IDS-UCS-Ext-A.txt: Use "&U-i001+3AC3;" instead of "⿰方𠂉".
+	* IDS-UCS-Ext-A.txt: Use "𭤨" instead of "⿰方𠂉".
 	(U+3474): Use "&A-U-i001+20B36;" instead of "⿱帚又".
 	(U+34A8): Use "𠨧" instead of "⿳⿻𦥑囟大㔾".
 	(U+4889): Use "&GT-K11083;" instead of "⿻𦥑囟".
@@ -3592,7 +3627,7 @@
 
 	* IDS-UCS-Ext-B-2.txt:
 	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
-	- Use "&U-i001+3AC3;" instead of "⿰方𠂉".
+	- Use "𭤨" instead of "⿰方𠂉".
 	- Use "&A-U-i001+20B36;" instead of "⿱帚又".
 	(U-0002284D): Use "鬲" instead of "⿳一&CDP-89CC;⿵&CDP-8C58;丅".
 	(U-00022864): Use "&U-i002+9B32;" instead of "⿳一&CDP-89CC;⿵𦉪干".
@@ -3615,7 +3650,7 @@
 
 2017-02-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Basic.txt: Use "&U-i001+3AC3;" instead of "⿰方𠂉".
+	* IDS-UCS-Basic.txt: Use "𭤨" instead of "⿰方𠂉".
 	(U+6FC5): Use "𡩠" instead of "⿳宀帚又".
 
 2017-02-11  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -3640,7 +3675,7 @@
 	* IDS-CDP.txt (CDP-857E): Add IDS.
 	(CDP-8856): Likewise.
 
-	* IDS-Daikanwa-05.txt: Use "&U-i001+3AC3;" instead of "⿰方𠂉".
+	* IDS-Daikanwa-05.txt: Use "𭤨" instead of "⿰方𠂉".
 
 2017-02-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
