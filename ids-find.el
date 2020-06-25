@@ -548,7 +548,7 @@
 		  (eq ret ret2)
 		  )
 		 ((setq ret2 (assq 'ideographic-structure c2))
-		  (and (setq ret (get-char-attribute c1 'ideographic-structure))
+		  (and (setq ret (get-char-attribute ret 'ideographic-structure))
 		       (ideographic-structure-equal ret (cdr ret2))
 		       )))))))
 
