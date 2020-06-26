@@ -1,5 +1,9 @@
 2020-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-G.txt (U+3005C): Use "&CDP-89BB;" instead of "⿲丿⿰丨丨丶".
+
+	* IDS-CDP.txt (CDP-89BB): Add IDS.
+
 	* IDS-UCS-Ext-B-4.txt: Use "⿴衣x" instead of "⿻衣x".
 	(U-00026144): Use "𰕎" instead of "⿰育攵".
 	(U-0002651E): Ditto.
@@ -12,6 +16,10 @@
 	(U-00027708): Use "𰮤" instead of "⿰⺼龹".
 	(U-00027738): Completed.
 	(U-00027BA8): Use "𧞻" instead of "⿻衣𤕦".
+
+	* IDS-UCS-Ext-A.txt (U+3B1A): Fixed.
+	(U+3BD9): Use "⿰x𰕎" instead of "⿲x育攵".
+	(U+4486): Use "𰕎" instead of "⿰育攵".
 
 	* ids-find.el (ideographic-structure-character=): Fixed.
 
