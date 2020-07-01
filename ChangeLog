@@ -1,3 +1,8 @@
+2020-07-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000218C7): Use "㥷" instead of
+	"⿸广⿱夾心".
+
 2020-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-G.txt (U+3005C): Use "&CDP-89BB;" instead of "⿲丿⿰丨丨丶".
