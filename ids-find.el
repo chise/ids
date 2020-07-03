@@ -531,7 +531,7 @@
 			 (ideographic-structure-equal (cdr ret) ret2)))
 		  )
 		 ((setq ret2 (find-char c2))
-		  (and (setq ret2 (get-char-attribute c2 'ideographic-structure))
+		  (and (setq ret2 (get-char-attribute ret2 'ideographic-structure))
 		       (ideographic-structure-equal (cdr ret) ret2))
 		  )
 		 ((setq ret2 (assq 'ideographic-structure c2))
