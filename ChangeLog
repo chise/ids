@@ -1,3 +1,11 @@
+2020-07-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000219B1): Modify component.
+	(U-000219B2): Modify component.
+	(U-000219B3): Use "𢊁" instead of "⿸&CDP-8D56;&CDP-8C40;".
+	(U-000219B4): Likewise; use "𡥈" instead of "⿱爻子".
+	(U-000219B5): Use "廌" instead of "⿸&CDP-8D56;&CDP-8C40;".
+
 2020-07-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el (ideographic-structure-character=): Fixed.
