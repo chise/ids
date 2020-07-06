@@ -1,3 +1,13 @@
+2020-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002AAD2): Use "𰙡" instead of "⿱止它".
+
+2020-07-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A65A): Use "卨" instead of "⿱⺊咼".
+
+	* IDS-UCS-Ext-G.txt (U+3029E): Fixed.
+
 2020-07-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-000219B1): Modify component.
