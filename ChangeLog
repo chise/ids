@@ -1,3 +1,24 @@
+2020-07-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000278AE): Use "𪋘" instead of
+	"⿱⿰丙丙鹿".
+	(U-00027957): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021519): Use "𱋁" instead of "⿰鹿鹿".
+	(U-0002151A): Likewise; fixed.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A239): Use "𪋘" instead of
+	"⿱⿰丙丙鹿".
+
+2020-07-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000287EB): Use "𪋘" instead of
+	"⿱⿰丙丙鹿".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022312): Use "𪋘" instead of
+	"⿱⿰丙丙鹿".
+	(U-00022571): Use "𣥶" instead of "⿳止日少".
+
 2020-07-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+9EA4): Use "𱋁" instead of "⿰鹿鹿".
