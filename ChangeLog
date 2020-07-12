@@ -1,3 +1,11 @@
+2020-07-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024AB1): Use "𥱤" instead of "⿱竹修".
+
+2020-07-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D138): Use U+65C5 instead of UU+65C5.
+
 2020-07-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027BA0): Use "黁" instead of "⿸麻香".
@@ -6502,7 +6510,7 @@
 	- Use "𠂋" instead of "⿸𠂆一".
 	- Use "艺" instead of "⿱艹乙".
 	- Use "毕" instead of "⿱比十".
-	- Use "约" instead of "⿰⺰勺".
+	- Use "约" instead of "⿰纟勺".
 	- Use "寽" instead of "⿱爫寸".
 	- Use "贡" instead of "⿱工贝".
 	- Use "抖" instead of "⿰⺘斗".
