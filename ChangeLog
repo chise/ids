@@ -1,5 +1,17 @@
 2020-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-0002336E): Use "屰" instead of "⿱䒑屮".
+	(U-00023DAD): Use "虏" instead of "⿸虍力".
+	(U-00023DAE): Use "𠩋" instead of "⿸厂屰".
+	(U-00023DB5): Use "歨" instead of "⿱止龰".
+	(U-00023DBF): Completed.
+	(U-00023DC6): Use "𥤧" instead of "⿱穴土".
+
+	* IDS-UCS-Ext-B-4.txt (U-0002729C): Use "屰" instead of "⿱䒑屮".
+	(U-00027F1E): Use "𠩋" instead of "⿸厂屰".
+
+2020-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-00021C5E): Use "屰" instead of "⿱䒑屮".
 
 	* IDS-UCS-Ext-B-4.txt (U-00026604): Use "𧱏" instead of "⿱辛豕".
