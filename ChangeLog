@@ -1,5 +1,7 @@
 2020-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00021C5E): Use "屰" instead of "⿱䒑屮".
+
 	* IDS-UCS-Ext-B-4.txt (U-00026604): Use "𧱏" instead of "⿱辛豕".
 	(U-00027118): Use "𣫖" instead of "⿰⿱辛豕殳".
 	(U-00027188): Use "𩕺" instead of "⿰⿱辛豕頁".
