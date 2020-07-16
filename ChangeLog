@@ -1,3 +1,11 @@
+2020-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7B3E): Use "边" instead of "⿺辶力".
+	(U+8FC9): Fixed.
+	(U+8FF3): Use "辶" instead of "辶".
+
+	* IDS-UCS-Ext-A.txt (U+48AD): Use "羡" instead of "⿱𦍌次".
+
 2020-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002336E): Use "屰" instead of "⿱䒑屮".
