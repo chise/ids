@@ -1,5 +1,23 @@
 2020-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt (U+4C1E): Use "⿶𩰲x" instead of
+	"⿱⿲弓x弓鬲".
+
+	* IDS-UCS-Ext-E.txt (U+2CD38): Use "⿶𩰲x" instead of
+	"⿱⿲弓x弓鬲".
+	(U+2CD39): Ditto.
+	(U+2CD3A): Ditto.
+	(U+2CD3B): Ditto.
+	(U+2CD3C): Ditto.
+
+	* IDS-UCS-Ext-C.txt (U-0002B646): Use "⿶𩰲x" instead of
+	"⿱⿲弓x弓鬲".
+	(U-0002B647): Ditto.
+
+	* IDS-UCS-Basic.txt (U+9B3B): Use "⿶𩰲米" instead of "⿱粥鬲".
+
+2020-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+762A): Fixed.
 
 2020-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
