@@ -1,3 +1,40 @@
+2020-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024637): Use "𠘬" instead of "⿰几几".
+	(U-000253AB): Use "𠚪" instead of "⿰刀刀".
+	(U-000254A2): Use "刕" instead of "⿱刀⿰刀刀".
+	(U-000257AE): Ditto.
+	(U-00025F9E): Use "𠚪" instead of "⿰刀刀".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022199): Use "𠚪" instead of "⿰刀刀".
+	(U-0002244B): Use "兓" instead of "⿰旡旡"; use "䰜" instead of
+	"⿲弓鬲弓".
+	(U-0002299D): Use "𠚪" instead of "⿰刀刀".
+	(U-00023974): Ditto.
+	(U-00023FA4): Use "兓" instead of "⿰旡旡".
+
+2020-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-G.txt (U+302E9): Use "𭑈" instead of "⿰天天".
+	(U+31190): Use "⿶𩰲x" instead of "⿱⿲弓x弓鬲".
+	(U+31191): Likewise; use "𭑈" instead of "⿰天天".
+	(U+31192): Use "⿶𩰲x" instead of "⿱⿲弓x弓鬲".
+	(U+31194): Likewise; use "𰋣" instead of "⿰失失".
+	(U+31195): Use "⿶𩰲x" instead of "⿱⿲弓x弓鬲".
+
+	* IDS-UCS-Ext-F.txt (U+2D020): Completed.
+	(U+2D023): Likewise.
+	(U+2D025): Likewise.
+	(U+2D029): Use "㸒" instead of "⿱爫王".
+	(U+2DDAC): Likewise.
+	(U+2E3F8): Completed.
+	(U+2E469): Completed.
+	(U+2EAD7): Completed; modify structure.
+
+	* IDS-UCS-Ext-B-1.txt (U-0002195C): Use "⿱x㜽" instead of
+	"⿳x巛子".
+	(U-00021C5F): Use "㜽" instead of "⿱巛子".
+
 2020-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+4C1E): Use "⿶𩰲x" instead of
