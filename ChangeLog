@@ -1,5 +1,30 @@
 2020-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-0002614B): Use "㚘" instead of "⿰夫夫".
+	(U-00026D18): Use "刕" instead of "⿱刀⿰刀刀".
+	(U-00027A94): Use "𠚪" instead of "⿰刀刀"; fixed.
+	(U-00027B43): Use "㚘" instead of "⿰夫夫".
+	(U-00027B7F): Use "𠚪" instead of "⿰刀刀".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024135): Use "𩰿" instead of
+	"⿱⿰夫夫鬲".
+	(U-000258C6): Use "㚘" instead of "⿰夫夫".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020374): Use "𭑈" instead of "⿰天天".
+	(U-0002039D): Use "㚘" instead of "⿰夫夫".
+	(U-0002164E): Use "𭑈" instead of "⿰天天".
+	(U-0002168C): Ditto.
+
+2020-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002284A): Use "𭑈" instead of "⿰天天".
+	(U-000234C1): Ditto.
+
+2020-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8745): Use "𭑈" instead of "⿰天天".
+	(U+883A): Ditto.
+
 	* IDS-UCS-Ext-B-3.txt (U-00024637): Use "𠘬" instead of "⿰几几".
 	(U-000253AB): Use "𠚪" instead of "⿰刀刀".
 	(U-000254A2): Use "刕" instead of "⿱刀⿰刀刀".
