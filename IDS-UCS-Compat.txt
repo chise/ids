@@ -299,3 +299,4 @@ U+FA2A	飯	⿰食
 U+FA2B	飼	⿰食
 U+FA2C	館	⿰食
 U+FA2D	鶴	⿰鳥
+U+FACF	𢡊	⿰忄⿱⿰夭夭心
