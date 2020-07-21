@@ -1,3 +1,9 @@
+2020-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Install IDS-UCS-Compat.txt.
+
+	* IDS-UCS-Compat.txt (U+FACF): Add IDS.
+
 2020-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-0002614B): Use "㚘" instead of "⿰夫夫".
