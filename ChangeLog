@@ -1,5 +1,10 @@
 2020-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt (U+342C): Use "𠫓" instead of "⿱亠厶".
+	(U+3CFF): Use "𣏋" instead of "⿱⿱亠厶木".
+
+2020-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* install-ids.el: Install IDS-UCS-Compat.txt.
 
 	* IDS-UCS-Compat.txt (U+FACF): Add IDS.
