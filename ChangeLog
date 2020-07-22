@@ -1,3 +1,22 @@
+2020-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020189): Use "𠫓" instead of "⿱亠厶".
+	(U-0002026A): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-0002051A): Use "𠫓" instead of "⿱亠厶".
+	(U-000205DB): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-00020B46): Use "⿱㞢x" instead of "⿳屮一x".
+	(U-00020D2C): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-0002125A): Use "⿱㞢x" instead of "⿳屮一x".
+	(U-00021355): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-0002143D): Use "𦯧" instead of "⿱艹⿱⿱亠厶木".
+	(U-00021765): Use "𣏋" instead of "⿱𠫓木".
+	(U-000219F5): Use "⿱𠫓x" instead of "⿳亠厶x".
+	(U-00021D2A): Use "⿱㞢x" instead of "⿳[屮/屮]一x".
+	(U-00021FEE): Use "𠫓" instead of "⿱亠厶".
+
+	* IDS-UCS-Basic.txt (U+5923): Use "𠫓" instead of "⿱亠厶".
+	(U+9F52): Add IDS.
+
 2020-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+342C): Use "𠫓" instead of "⿱亠厶".
