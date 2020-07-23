@@ -1,3 +1,41 @@
+2020-07-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000241B4): Use "𠫓" instead of "⿱亠厶".
+	(U-0002426C): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-000245CA): Likewise.
+	(U-0002468A): Likewise.
+	(U-00024C11): Use "𠫓" instead of "⿱亠厶"; modify structure.
+	(U-00024C2B): Use "⿱㞢x" instead of "⿳屮一x".
+	(U-00024C38): Use "𠫓" instead of "⿱亠厶".
+	(U-0002500B): Use "𤰫" instead of "⿱⿱屮一田".
+	(U-000251F1): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-000257CB): Use "弃" instead of "⿱⿱亠厶廾".
+	(U-00025BA7): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-00025DBA): Use "𣏋" instead of "⿱⿱亠厶木"; modify structure.
+	(U-00025E7B): Use "弃" instead of "⿱⿱亠厶廾".
+
+2020-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A458): Use "𣏋" instead of "⿱𠫓木".
+	(U-0002A45E): Use "𣏼" instead of "⿱廿木".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022104): Use "⿱㞢x" instead of
+	"⿳屮一x".
+	(U-000223F2): Use "𣏋" instead of "⿱𠫓木".
+	(U-00022406): Modify structure.
+	(U-00022552): Use "𡕨" instead of "⿳亠⿱口口夂".
+	(U-000225CD): Use "㞢" instead of "⿱屮一".
+	(U-000226D0): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-000228D2): Use "䰟" instead of "⿱云鬼".
+	(U-00022B35): Use "弃" instead of "⿱⿱亠厶廾".
+	(U-00022B95): Use "𣏋" instead of "⿱⿱亠厶木".
+	(U-00023551): Modify structure.
+	(U-0002355B): Use "𠫓" instead of "⿱亠厶".
+	(U-00023742): Use "䰟" instead of "⿱⿱亠厶鬼".
+	(U-00023891): Use "㞢" instead of "⿱屮一".
+	(U-00023CEE): Use "吕" instead of "⿱口口".
+	(U-00023D6D): Use "𡉚" instead of "⿳屮一土".
+
 2020-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020189): Use "𠫓" instead of "⿱亠厶".
