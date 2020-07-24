@@ -1,5 +1,58 @@
 2020-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "弃" instead of "⿱𠫓廾".
+	- Use "𣏼" instead of "⿱廿木".
+	- Use U+8FB6 instead of <CJK RADICAL SIMPLIFIED WALK>.
+	- Use "𠚪" instead of "⿰刀刀".
+	- Use "𠘬" instead of "⿰几几".
+	- Use "双" instead of "⿰又又".
+	- Use "㚘" instead of "⿰夫夫".
+	- Use "歨" instead of "⿱止龰".
+	- Use "𣏋" instead of "⿱⿱亠厶木".
+	- Use "刕" instead of "⿱刀⿰刀刀".
+	- Use "⿶𩰲x" instead of "⿱⿲弓x弓鬲".
+	(U-000283C1): Use "𤰸" instead of "⿱𠫓田".
+	(U-0002844E): Use "𰛄" instead of "⿰㇇亅".
+	(U-00028458): Completed.
+	(U-00028486): Use "宂" instead of "⿱宀几".
+	(U-000284A2): Use "&A-CDP-8845;" instead of "⿱𠂈&CDP-8CC6;".
+	(U-000284AF): Use "𡴂" instead of "⿰屮𡳾".
+	(U-000284B0): Use "㜽" instead of "⿱巛子".
+	(U-000284CA): Use "𦔮" instead of "耴".
+	(U-000284CD): Use "𭙕" instead of "⿸广龵".
+	(U-000284CF): Use "㞷" instead of "⿱山王".
+	(U-000284D9): Use "㫒" instead of "⿱日廾".
+	(U-000284E3): Use "𬂝" instead of "⿱木寸".
+	(U-000284E5): Use "甬" instead of "⿱龴田".
+	(U-000284F1): Use "𡊥" instead of "⿱丿⿰土⿺⺃土".
+	(U-000284F5): Use "𠈪" instead of "⿰亻关".
+	(U-000284F7): Use "𡿱" instead of "⿳一巛𡈼".
+	(U-000284F9): Use "𭖒" instead of "⿱山主".
+	(U-00028500): Use "歨" instead of "⿱止龰".
+	(U-00028501): Use "卥" instead of "⿱⺊⿴囗夂".
+	(U-00028503): Use "𠈉" instead of "⿰亻⿱口巛".
+	(U-0002850D): Completed.
+	(U-00028522): Use "𧈪" instead of "⿱屮虫".
+	(U-0002852E): Use "㑞" instead of "⿰亻灷".
+	(U-0002855B): Completed.
+	(U-00028593): Use "𢉙" instead of "⿸广⿱廿火".
+	(U-00028636): Completed.
+	(U-0002882A): Use "⿱𠫓x" instead of "⿳亠厶x".
+	(U-00028B18): Use "𦯧" instead of "⿳艹⿱亠厶木".
+	(U-00028B45): Use "𠫓" instead of "⿱亠厶".
+	(U-00028DE5): Use "𰋣" instead of "⿰失失".
+	(U-00028E97): Use "歨" instead of "⿱止龰".
+	(U-00028F19): Use "𦯧" instead of "⿳艹⿱亠厶木".
+	(U-00028F1B): Completed.
+	(U-000290BB): Use "𦔮" instead of "耴".
+	(U-000293CE): Use "𠫓" instead of "⿱亠厶".
+	(U-000298D8): Use "𦔮" instead of "耴".
+	(U-00029C52): Use "⿶䰜x" instead of "⿲弓⿱x鬲弓".
+	(U-00029C60): Likewise.
+
+2020-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+7F54): Modify structure.
 
 	* IDS-UCS-Ext-F.txt (U+2DCD8): Completed.
