@@ -1,5 +1,7 @@
 2020-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+7F54): Modify structure.
+
 	* IDS-UCS-Ext-F.txt (U+2DCD8): Completed.
 	(U+2E0DE): Completed.
 	(U+2E8E8): Completed.
