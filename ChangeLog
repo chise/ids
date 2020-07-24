@@ -1,5 +1,12 @@
 2020-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2DCD8): Completed.
+	(U+2E0DE): Completed.
+	(U+2E8E8): Completed.
+	(U+2EAC8): Completed.
+	(U+2EADB): Fixed.
+	(U+2EADC): Fixed.
+
 	* IDS-UCS-Ext-B-3.txt (U-00024D1D): Use "⿱叀x" instead of
 	"⿳𤰔厶x".
 	(U-00025B93): Use "㳎" instead of "⿰氵弁".
