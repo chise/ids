@@ -1,3 +1,38 @@
+2020-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024D1D): Use "⿱叀x" instead of
+	"⿳𤰔厶x".
+	(U-00025B93): Use "㳎" instead of "⿰氵弁".
+	(U-00025B94): Use "叀" instead of "⿱𤰔厶".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002217F): Use "𣏼" instead of "⿱廿木".
+	(U-000223FB): Completed [temporary].
+	(U-000223FD): Completed.
+	(U-00022E8C): Use "𣏼" instead of "⿱廿木".
+	(U-000234E7): Use "⿱叀x" instead of "⿳𤰔厶x".
+	(U-00023643): Use "𢉙" instead of "⿸广⿱廿火".
+	(U-000236A2): Use "𰺿" instead of "⿺辶⿱𤰔厶".
+	(U-00023DA3): Use "叀" instead of "⿱𤰔厶".
+	(U-00023DDE): Use "𣏼" instead of "⿱廿木".
+
+	* IDS-UCS-Ext-B-1.txt (U-0002188C): Use "𥦴" instead of
+	"⿱穴⿳&CDP-865E;𠃊八".
+	(U-00021891): Use "⿱罬x" instead of "⿳⺫叕x".
+
+2020-07-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D14A): Completed.
+	(U+2D14D): Completed.
+	(U+2D3CD): Completed.
+	(U+2D422): Completed.
+	(U+2D423): Completed.
+	(U+2D425): Completed.
+	(U+2DB61): Completed.
+	(U+2DEBA): Completed.
+	(U+2E749): Completed.
+	(U+2EAD9): Completed.
+	(U+2EADB): Completed.
+
 2020-07-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-000241B4): Use "𠫓" instead of "⿱亠厶".
