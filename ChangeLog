@@ -1,5 +1,8 @@
 2020-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A1E0): Use "𡏳" instead of
+	"⿳廿&CDP-85B2;土".
+
 	* IDS-UCS-Ext-A.txt (U+3BF4): Use "蓉" instead of "⿱艹容".
 	(U+3BF5): Use "董" instead of "⿱艹重".
 	(U+3BF6): Use "𡕰" instead of "⿳⿶凵𠂭儿夂".
