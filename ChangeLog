@@ -1,3 +1,37 @@
+2020-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "叀" instead of "⿱𤰔厶".
+	- Use "𣏋" instead of "⿱𠫓木".
+	- Use "𣏼" instead of "⿱廿木".
+	- Use "朶" instead of "⿱乃木".
+	- Use U+8864 instead of <CJK RADICAL CLOTHES>.
+	(U-00026047): Use "𫝹" instead of "⿱⿵𠆢二心".
+	(U-00026052): Use "⿵𦉰x" instead of "⿵冂⿱䒑x".
+	(U-00026057): Use "歩" instead of "⿱止少".
+	(U-00026059): Use "兖" instead of "⿳亠八允".
+	(U-0002605A): Use "&U-i001+386D;" instead of "⿺⿲𠃊幺丨幺".
+	(U-0002605F): Use "𮝾" instead of "⿸𠂆⿱工&CDP-8CC6;".
+	(U-00026409): Use "㞢" instead of "⿱屮一".
+	(U-00026C57): Use "⿱x旹" instead of "⿳x⿱屮一日".
+	(U-00026E81): Use "㳿" instead of "⿰氵⿱𠫓木".
+	(U-00026EAF): Use "𤗊" instead of "⿰片⿱𠫓木".
+	(U-00027351): Use "㒺" instead of "⿵冂⿱䒑亾".
+	(U-000273EC): Use "蚩" instead of "⿳屮一虫".
+	(U-0002741A): Use "𢉙" instead of "⿸广⿱廿火".
+	(U-00027616): Use "刄" instead of "⿻刀&CDP-89C7;".
+	(U-00027627): Fixed.
+	(U-0002763A): Use "凤" instead of "⿵⺇又".
+	(U-00027647): Use "宂" instead of "⿱宀儿".
+	(U-00027675): Use "⿱㞢x" instead of "⿳屮一x".
+	(U-0002768A): Use "𦔮" instead of "耴".
+	(U-00027697): Fixed.
+	(U-00027711): Completed.
+	(U-00027798): Completed [temporary].
+	(U-00027973): Use "㞢" instead of "⿱屮一".
+	(U-00027AFD): Use "𢉙" instead of "⿸广⿱廿火".
+	(U-00027DF7): Use "㞢" instead of "⿱屮一".
+
 2020-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
