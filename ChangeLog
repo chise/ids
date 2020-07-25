@@ -1,5 +1,21 @@
 2020-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-000274CB): Use "𠪨" instead of "⿸厂&CDP-8DC3;".
+	(U-000274CD): Use "賔" instead of "⿱宀⿸𠃜貝".
+	(U-0002750A): Use "廛" instead of "⿸广⿳里八土".
+	(U-00027E2A): Use "𠪨" instead of "⿸厂&CDP-8DC3;".
+	(U-00027E33): Use "廛" instead of "⿸广⿳里八土".
+
+	* IDS-UCS-Ext-B-3.txt (U-00025323): Use "緜" instead of "⿰帛系".
+	(U-00025324): Use "𨽻" instead of "⿰⿱匕示隶".
+	(U-0002532C): Use "廛" instead of "⿸广⿳里八土".
+
+	* IDS-UCS-Ext-B-1.txt (U-000210DA): Use "廛" instead of
+	"⿸广⿱里⿱八土".
+	(U-000210DB): Use "𬢱" instead of "⿰言⿱𦍌又".
+
+2020-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-00028DE0): Fixed.
 	(U-00028DE1): Fixed.
 	(U-00028DE2): Fixed.
