@@ -1,5 +1,14 @@
 2020-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt (U+3BF4): Use "蓉" instead of "⿱艹容".
+	(U+3BF5): Use "董" instead of "⿱艹重".
+	(U+3BF6): Use "𡕰" instead of "⿳⿶凵𠂭儿夂".
+	(U+3BF9): Modify structure.
+	(U+3BFC): Use "蓋" instead of "⿱艹盍".
+	(U+3C03): Modify structure.
+
+2020-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-4.txt (U-000274CB): Use "𠪨" instead of "⿸厂&CDP-8DC3;".
 	(U-000274CD): Use "賔" instead of "⿱宀⿸𠃜貝".
 	(U-0002750A): Use "廛" instead of "⿸广⿳里八土".
