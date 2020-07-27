@@ -1,3 +1,27 @@
+2020-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000261FE): Use "䦲" instead of "⿵門詹".
+	(U-00026941): Use "𦉴" instead of "⿱⺫十".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020CB7): Use "𦔮" instead of "耴".
+	(U-00020CBE): Use "䀏" instead of "⿹勹目".
+	(U-00020CE0): Use "𠑿" instead of "⿱&CDP-884A;兀".
+	(U-00020CE3): Use "𦉴" instead of "⿱⺫十".
+	(U-00020F25): Use "䖏" instead of "⿸虍匆".
+	(U-0002172F): Use "𦔮" instead of "耴".
+	(U-00021C77): Ditto.
+	(U-00021DDD): Ditto.
+	(U-00021FFC): Use "⿱x𦉴" instead of "⿳x⺫十".
+
+	* IDS-UCS-Ext-B-5.txt (U-000283E7): Use "盧" instead of
+	"⿸虍⿱田皿".
+	(U-00028F5C): Ditto.
+	(U-000291B1): Use "𧇨" instead of "⿺虎林".
+	(U-000291B4): Use "盧" instead of "⿸虍⿱田皿".
+
+	* IDS-CDP.txt (CDP-894A): Fixed.
+	(CDP-8C52): Completed.
+
 2020-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024049): Use "𡏳" instead of
