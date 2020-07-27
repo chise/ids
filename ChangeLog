@@ -1,5 +1,19 @@
 2020-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00024049): Use "𡏳" instead of
+	"⿳廿&CDP-85B2;土".
+	(U-0002404A): Use "⿱𦭝x" instead of "⿳卝⺫x".
+	(U-0002417C): Use "⿰x𪇠" instead of "⿲x⿳廿&CDP-85B2;土鳥".
+	(U-0002417D): Use "⿰x𪇼" instead of "⿲x⿱𦰩土鳥".
+	(U-000242C2): Use "⿱𦭝x" instead of "⿳卝⺫x".
+	(U-00024446): Use "𡏳" instead of "⿳廿&CDP-85B2;土".
+	(U-00024A9C): Use "蓉" instead of "⿱艹容".
+	(U-00024A9D): Use "毓" instead of "⿰每⿱𠫓𫶧".
+	(U-00024AA3): Use "𡏳" instead of "⿳廿&CDP-85B2;土".
+	(U-00024AE7): Use "⿱𦭝x" instead of "⿳卝⺫x".
+	(U-00025284): Ditto; use "䀏" instead of "⿹勹目".
+	(U-0002539A): Use "𡏳" instead of "⿳廿&CDP-85B2;土".
+
 	* IDS-UCS-Ext-A.txt (U+4576): Fixed.
 	(U+4577): Use "縻" instead of "⿸麻糸".
 
