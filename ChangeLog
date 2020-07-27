@@ -1,5 +1,19 @@
 2020-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-0002953A): Use "𧆭" instead of "⿸虍由".
+
+	* IDS-UCS-Ext-B-1.txt (U-000213AA): Use "𮓛" instead of "⿸虍土".
+
+	* IDS-UCS-Ext-B-4.txt (U-00026EEC): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt (U-000247DC): Use "𫊝" instead of "⿸虍口".
+	(U-00024A41): Use "䖏" instead of "⿸虍匆".
+
+	* IDS-UCS-Ext-B-2.txt (U-000227F6): Use "䖏" instead of "⿸虍匆".
+	(U-0002385E): Use "䦲" instead of "⿵門詹".
+
+2020-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-4.txt (U-000261FE): Use "䦲" instead of "⿵門詹".
 	(U-00026941): Use "𦉴" instead of "⿱⺫十".
 
