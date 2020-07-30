@@ -2,6 +2,10 @@
 
 	* IDS-UCS-Ext-B-3.txt (U-0002441A): Fixed.
 
+2020-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+555A): Modify structure.
+
 2020-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002953A): Use "𧆭" instead of "⿸虍由".
