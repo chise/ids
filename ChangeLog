@@ -3,6 +3,23 @@
 	* IDS-UCS-Ext-B-2.txt (U-00023365): Use "宂" instead of "⿱宀儿".
 	(U-00023CBD): Ditto.
 
+	* IDS-UCS-Basic.txt (U+62AD): Use "宂" instead of "⿱宀儿".
+	(U+9FE1): Add IDS.
+	(U+9FE2): Add IDS.
+	(U+9FE3): Add IDS.
+	(U+9FE4): Add IDS.
+	(U+9FE5): Add IDS.
+	(U+9FE6): Add IDS.
+	(U+9FE7): Add IDS.
+	(U+9FE8): Add IDS.
+	(U+9FE9): Add IDS.
+	(U+9FEA): Add IDS.
+	(U+9FEB): Add IDS.
+	(U+9FEC): Add IDS.
+	(U+9FED): Add IDS.
+	(U+9FEE): Add IDS.
+	(U+9FEF): Add IDS.
+
 2020-08-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-000213C2): Use "㢆" instead of "⿸广里".
