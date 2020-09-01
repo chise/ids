@@ -1,3 +1,15 @@
+2020-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+8C55 instead of UU+8C55.
+	(U+2D247): Use "冢" instead of "⿱冖豕".
+	(U+2DE63): Likewise.
+	(U+2DFBD): Completed.
+	(U+2E20F): Completed.
+	(U+2E4BF): Completed.
+	(U+2E665): Completed.
+	(U+2E8C5): Completed.
+
 2020-08-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023365): Use "宂" instead of "⿱宀儿".
