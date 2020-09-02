@@ -109,26 +109,26 @@
 		  (decode-char 'ideograph-cbeta
 			       (string-to-int (match-string 1 chs))))
 		 ))
-	  (when (and char
-		     (>= (length ids) 3)
-		     (not (string-match "\\?" ids))
-		     (consp (setq structure (ids-parse-string ids simplify))))
-	    (when (or (not soft)
-		      (null
-		       (get-char-attribute char 'ideographic-structure)))
-	      (put-char-attribute char
-				  'ideographic-structure
-				  (cdr (car structure))))
-	    (when (and u-char
-		       (not (eq char u-char))
-		       (or (not soft)
-			   (null
-			    (get-char-attribute
-			     u-char 'ideographic-structure))))
-	      (put-char-attribute
-	       u-char 'ideographic-structure
-	       (ideographic-structure-convert-to-domain
-		(cdr (car structure)) 'unicode)))
+	  (when char
+	    (when (and (>= (length ids) 3)
+		       (not (string-match "\\?" ids))
+		       (consp (setq structure (ids-parse-string ids simplify))))
+	      (when (or (not soft)
+			(null
+			 (get-char-attribute char 'ideographic-structure)))
+		(put-char-attribute char
+				    'ideographic-structure
+				    (cdr (car structure))))
+	      (when (and u-char
+			 (not (eq char u-char))
+			 (or (not soft)
+			     (null
+			      (get-char-attribute
+			       u-char 'ideographic-structure))))
+		(put-char-attribute
+		 u-char 'ideographic-structure
+		 (ideographic-structure-convert-to-domain
+		  (cdr (car structure)) 'unicode))))
 	    (when (and (>= (length apparent-ids) 3)
 		       (consp (setq structure
 				    (ids-parse-string apparent-ids simplify))))
