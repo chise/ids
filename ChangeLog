@@ -1,3 +1,17 @@
+2020-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002099D): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+6701): Use "兓" instead of "⿰旡旡".
+	(U+8836): Use "⿱朁x" instead of "⿳⿰旡旡日x".
+	(U+9B35): Use "兓" instead of "⿰旡旡".
+	(U+9FB9): Add @apparent.
+	(U+9FBA): Add IDS.
+	(U+9FBB): Add IDS.
+
+	* ids-read.el (ids-read-buffer): Read apparent IDS field even if
+	IDS is not specified.
+
 2020-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000223AC): Fixed.
