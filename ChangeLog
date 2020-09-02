@@ -12,6 +12,11 @@
 	* ids-read.el (ids-read-buffer): Read apparent IDS field even if
 	IDS is not specified.
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A0AB): Use "兓" instead of "⿰旡旡".
+
+	* IDS-UCS-Ext-B-4.txt (U-00027329): Use "兓" instead of "⿰旡旡".
+	(U-0002757D): Ditto.
+
 2020-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000223AC): Fixed.
