@@ -1,5 +1,15 @@
 2020-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+9834): Use "⿹頃x" instead of "⿰⿱匕x頁".
+	(U+9895): Use "⿹顷x" instead of "⿰⿱匕x页".
+	(U+9896): Ditto.
+
+	* IDS-UCS-Ext-B-2.txt (U-000238BE): Use "𥘈" instead of "⿱匕示".
+	(U-00023903): Use "𣢾" instead of "⿰⿱匕示欠".
+	(U-00023A91): Use "𥘈" instead of "⿱匕示".
+
+2020-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-0002099D): Modify structure.
 
 	* IDS-UCS-Basic.txt (U+6701): Use "兓" instead of "⿰旡旡".
