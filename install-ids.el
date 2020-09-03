@@ -63,18 +63,13 @@
 (install-ids-read-file "IDS-CBETA.txt" load-ids-simplify t)
 
 (install-ids-read-file "IDS-CDP.txt" load-ids-simplify t)
-(let ((i 1))
-  (while (<= i 12)
-    (install-ids-read-file (format "IDS-HZK%02d.txt" i)
-			   load-ids-simplify t)
-    (setq i (1+ i))))
+;; (let ((i 1))
+;;   (while (<= i 12)
+;;     (install-ids-read-file (format "IDS-HZK%02d.txt" i)
+;;                            load-ids-simplify t)
+;;     (setq i (1+ i))))
 
-(princ "Updating char-feature `ideographic-structure'...")
-(save-char-attribute-table 'ideographic-structure)
-(save-char-attribute-table 'ideographic-structure@apparent)
-(princ "done.\n")
-
-(princ "Updating char-feature `ideographic-products'...")
+(princ "Generating apparent-structure...")
 (let* ((feature-dir
 	(expand-file-name
 	 "feature"
@@ -82,10 +77,29 @@
 	  "character" chise-system-db-directory)))
        (p-file
 	(expand-file-name "ideographic-products" feature-dir))
-       old-p-file)
+       old-p-file
+       a-str)
   (when (file-exists-p p-file)
     (setq old-p-file (make-temp-name p-file))
     (rename-file p-file old-p-file))
+  (ids-update-index 'in-memory)
+
+  (map-char-attribute
+   (lambda (c v)
+     (unless (setq a-str (get-char-attribute c 'ideographic-structure@apparent))
+       (when (setq a-str (functional-ideographic-structure-to-apparent-structure v))
+	 (put-char-attribute c 'ideographic-structure@apparent
+			     (ideographic-structure-compact a-str))))
+     nil)
+   'ideographic-structure)
+  (princ "done.\n")
+
+  (princ "Updating char-feature `ideographic-structure'...")
+  (save-char-attribute-table 'ideographic-structure)
+  (save-char-attribute-table 'ideographic-structure@apparent)
+  (princ "done.\n")
+
+  (princ "Updating char-feature `ideographic-products'...")
   (ids-update-index)
   (when old-p-file
     (delete-file old-p-file)))
