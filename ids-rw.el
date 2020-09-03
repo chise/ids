@@ -1,6 +1,6 @@
 ;;; ids-rw.el --- Rewriting utility for ideographic-structure.
 
-;; Copyright (C) 2006 MORIOKA Tomohiko
+;; Copyright (C) 2006, 2020 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, TRS, IDC, Ideographs, UCS, Unicode
@@ -23,6 +23,8 @@
 ;; Boston, MA 02111-1307, USA.
 
 ;;; Code:
+
+(require 'ids-find)
 
 (defun ideographic-structure-unify-char (structure pattern &optional env)
   (if (char-ref-p structure)
@@ -144,28 +146,6 @@
 		(setq structure ret)))))
     structure))
 
-;;;###autoload
-(defun ideographic-structure-compact (structure)
-  (let ((rest structure)
-	cell
-	ret dest sub)
-    (while rest
-      (setq cell (car rest))
-      (cond
-       ((and (consp cell)
-	     (cond ((setq ret (assq 'ideographic-structure cell))
-		    (setq sub (cdr ret))
-		    )
-		   ((atom (car cell))
-		    (setq sub cell)
-		    )))
-	(setq cell
-	      (if (setq ret (ideographic-structure-find-char sub))
-		  ret
-		(list (cons 'ideographic-structure sub))))
-	))
-      (setq dest (cons cell dest)))
-    (nreverse dest)))
 					       
 
 ;;; @ End.
