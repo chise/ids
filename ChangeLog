@@ -1,3 +1,46 @@
+2020-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el:
+	- Don't install Install IDS-HZK{01..12}.txt.
+	- Use `functional-ideographic-structure-to-apparent-structure' to
+	  generate `ideographic-structure@apparent' from
+	  `ideographic-structure'.
+
+	* ids-find.el (ids-update-index): New optional argument
+	`in-memory'; if it is specified, don't save
+	`ideographic-products'.
+	(ideographic-character-get-structure): New function.
+	(ideographic-char-match-component): New function.
+	(ideographic-structure-char<): New function.
+	(ideographic-chars-to-is-a-tree): New function.
+	(ids-find-chars-including-ids*): New function.
+	(ids-find-chars-including-ids): New function.
+	(functional-ideographic-structure-to-apparent-structure): New
+	function.
+	(ideographic-structure-compact): Moved from ids-rw.el; use
+	`ideographic-structure-find-chars' instead of
+	`ideographic-structure-find-char'.
+
+	* ids-rw.el: Require `ids-find'.
+	(ideographic-structure-compact): Moved to ids-find.el.
+
+	* IDS-UCS-Ext-B-4.txt (U-0002721B): Use "虒" instead of "⿸𠂆⻁".
+	(U-000273D5): Use "𰲚" instead of "⿸𠂆⿸虍人".
+	(U-0002792B): Ditto.
+
+	* IDS-UCS-Ext-B-5.txt (U-000287ED): Use "𰪠" instead of "⿱竹膚".
+	(U-00028ABE): Use "𰲚" instead of "⿸𠂆⿸虍人".
+	(U-00028F6F): Ditto.
+
+	* IDS-UCS-Ext-B-3.txt (U-000240AF): Use "𮚋" instead of
+	"⿱⿰旡旡貝".
+	(U-000240B0): Use "𫕙" instead of "⿰⿱匕禾隶".
+	(U-00024FB6): Use "𮚋" instead of "⿱⿰旡旡貝".
+	(U-000256D5): Use "𰲚" instead of "⿸𠂆⿸虍人".
+	(U-000258F6): Use "𮚋" instead of "⿱⿰旡旡貝".
+	(U-000259FE): Use "𣢾" instead of "⿰𥘈欠".
+	(U-00025C3D): Use "𰲚" instead of "⿸𠂆⿸虍人".
+
 2020-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+9834): Use "⿹頃x" instead of "⿰⿱匕x頁".
