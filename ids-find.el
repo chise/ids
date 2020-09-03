@@ -1,4 +1,4 @@
-;;; ids-find.el --- search utility based on Ideographic-structures
+;;; ids-find.el --- search utility based on Ideographic-structures ;; -*- coding: utf-8-mcs-er -*-
 
 ;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020 MORIOKA Tomohiko
 
@@ -47,7 +47,7 @@
 	    ))))
 
 ;;;###autoload
-(defun ids-update-index ()
+(defun ids-update-index (&optional in-memory)
   (interactive)
   (map-char-attribute
    (lambda (c v)
@@ -59,7 +59,8 @@
      (ids-index-store-structure c v)
      nil)
    'ideographic-structure@apparent)
-  (save-char-attribute-table 'ideographic-products))
+  (unless in-memory
+    (save-char-attribute-table 'ideographic-products)))
 
 
 (mount-char-attribute-table 'ideographic-products)
@@ -609,6 +610,515 @@
 	   dest)
 	  (t
 	   0))))
+
+
+;;;###autoload
+(defun ideographic-character-get-structure (character)
+  "Return ideographic-structure of CHARACTER.
+CHARACTER can be a character or char-spec."
+  (let (ret)
+    (cond ((characterp character)
+	   (get-char-attribute character 'ideographic-structure)
+	   )
+	  ((setq ret (assq 'ideographic-structure character))
+	   (cdr ret)
+	   )
+	  ((setq ret (find-char character))
+	   (get-char-attribute ret 'ideographic-structure)
+	   ))))
+
+;;;###autoload
+(defun ideographic-char-match-component (char component)
+  "Return non-nil if character CHAR has COMPONENT in ideographic-structure.
+COMPONENT can be a character or char-spec."
+  (or (ideographic-structure-character= char component)
+      (let ((str (ideographic-character-get-structure char)))
+	(and str
+	     (or (ideographic-char-match-component (nth 1 str) component)
+		 (ideographic-char-match-component (nth 2 str) component)
+		 (if (memq (car str) '(?\u2FF2 ?\u2FF3))
+		     (ideographic-char-match-component (nth 3 str) component)))))))
+
+(defun ideographic-structure-char< (a b)
+  (let ((sa (get-char-attribute a 'ideographic-structure))
+	(sb (get-char-attribute b 'ideographic-structure))
+	tsa tsb)
+    (cond (sa
+	   (cond (sb
+		  (setq tsa (char-total-strokes a)
+			tsb (char-total-strokes b))
+		  (if tsa
+		      (if tsb
+			  (or (< tsa tsb)
+			      (and (= tsa tsb)
+				   (ideograph-char< a b)))
+			t)
+		    (if tsb
+			nil
+		      (ideograph-char< a b))))
+		 (t
+		  nil))
+	   )
+	  (t
+	   (cond (sb
+		  t)
+		 (t
+		  (setq tsa (char-total-strokes a)
+			tsb (char-total-strokes b))
+		  (if tsa
+		      (if tsb
+			  (or (< tsa tsb)
+			      (and (= tsa tsb)
+				   (ideograph-char< a b)))
+			t)
+		    (if tsb
+			nil
+		      (ideograph-char< a b)))
+		  ))
+	   ))
+    ))
+
+(defun ideographic-chars-to-is-a-tree (chars)
+  (let (comp char products others dest rest
+	     la lb)
+    (setq chars (sort chars #'ideographic-structure-char<))
+    (while chars
+      (setq comp (pop chars)
+	    rest chars
+	    products nil
+	    others nil)
+      (while rest
+	(setq char (pop rest))
+	(cond
+	 ((ideographic-char-match-component char comp)
+	  (push char products)
+	  )
+	 (t
+	  (push char others)
+	  )))
+      (push (cons comp
+                  ;; (nreverse products)
+		  (if products
+		      (sort (ideographic-chars-to-is-a-tree products)
+			    (lambda (a b)
+			      (setq la (length (cdr a))
+				    lb (length (cdr b)))
+			      (or (> la lb)
+				  (and (= la lb)
+				       (ideograph-char< (car a) (car b))
+                                       ;; (progn
+                                       ;;   (setq tsa (char-total-strokes (car a))
+                                       ;;         tsb (char-total-strokes (car b)))
+                                       ;;   (if tsa
+                                       ;;       (if tsb
+                                       ;;           (or (< tsa tsb)
+                                       ;;               (and (= tsa tsb)
+                                       ;;                    (ideograph-char<
+                                       ;;                     (car a) (car b))))
+                                       ;;         t)
+                                       ;;     (if tsb
+                                       ;;         nil
+                                       ;;       (ideograph-char< (car a) (car b)))))
+				       ))))
+		    nil)
+		  )
+	    dest)
+      (setq chars others))
+    dest))
+
+(defun ids-find-chars-including-ids* (operator component1 component2
+					       &optional component3)
+  (let ((comp-alist (ideographic-structure-to-components-alist*
+		     operator component1 component2 component3))
+	(comp-spec
+	 (list (list* 'ideographic-structure
+		      operator component1 component2
+		      (if component3
+			  (list component3)))))
+	ret str rest)
+    (dolist (pc (caar
+		 (sort (mapcar (lambda (cell)
+				 (if (setq ret (get-char-attribute
+						(car cell) 'ideographic-products))
+				     (cons ret (length ret))
+				   (cons nil 0)))
+			       comp-alist)
+		       (lambda (a b)
+			 (< (cdr a)(cdr b))))))
+      (when (and (every (lambda (cell)
+			  (>= (ideographic-char-count-components pc (car cell))
+			      (cdr cell)))
+			comp-alist)
+		 (or (ideographic-char-match-component pc comp-spec)
+		     (and (setq str (get-char-attribute pc 'ideographic-structure))
+			  (ideographic-char-match-component
+			   (list
+			    (cons
+			     'ideographic-structure
+			     (functional-ideographic-structure-to-apparent-structure
+			      str)))
+			   comp-spec))))
+	(push pc rest)))
+    (ideographic-chars-to-is-a-tree rest)))
+
+(defun ids-find-chars-including-ids (structure)
+  (if (characterp structure)
+      (setq structure (get-char-attribute structure 'ideographic-structure)))
+  (apply #'ids-find-chars-including-ids* structure))
+
+(defun functional-ideographic-structure-to-apparent-structure (structure)
+  (let (enc enc-str enc2-str new-str)
+    (cond
+     ((eq (car structure) ?⿸)
+      (setq enc (nth 1 structure))
+      (when (setq enc-str
+		  (cond ((characterp enc)
+			 (get-char-attribute enc 'ideographic-structure)
+			 )
+			((consp enc)
+			 (cdr (assq 'ideographic-structure enc))
+			 )))
+	(cond
+	 ((eq (car enc-str) ?⿰)
+	  (list ?⿰ (nth 1 enc-str)
+		(list (list 'ideographic-structure
+			    ?⿱
+			    (nth 2 enc-str)
+			    (nth 2 structure))))
+	  )
+	 ((and (eq (car enc-str) ?⿲)
+	       (memq (char-ucs (nth 1 enc-str)) '(#x4EBB #x2E85))
+	       (eq (nth 2 enc-str) ?丨))
+	  (list ?⿰
+		(decode-char '=big5-cdp #x8B7A)
+		(list (list 'ideographic-structure
+			    ?⿱
+			    (nth 3 enc-str)
+			    (nth 2 structure))))
+	  )
+	 ((eq (car enc-str) ?⿱)
+	  (list ?⿱ (nth 1 enc-str)
+		(list
+		 (cons 'ideographic-structure
+		       (or (functional-ideographic-structure-to-apparent-structure
+			    (setq new-str
+				  (list
+				   (cond
+				    ((characterp (nth 2 enc-str))
+				     (if (or (eq (encode-char
+						  (nth 2 enc-str)
+						  '=>ucs@component)
+						 #x20087)
+					     (eq (encode-char
+						  (nth 2 enc-str)
+						  '=>ucs@component)
+						 #x5382)
+					     (eq (encode-char
+						  (nth 2 enc-str)
+						  '=>ucs@component)
+						 #x4E06)
+					     (eq (encode-char
+						  (nth 2 enc-str)
+						  '=big5-cdp)
+						 #x89CE)
+					     (eq (encode-char
+						  (nth 2 enc-str)
+						  '=>big5-cdp)
+						 #x88E2)
+					     (eq (encode-char
+						  (nth 2 enc-str)
+						  '=big5-cdp)
+						 #x88AD)
+					     (eq (or (encode-char
+						      (nth 2 enc-str)
+						      '=>big5-cdp)
+						     (encode-char
+						      (nth 2 enc-str)
+						      '=big5-cdp-itaiji-001))
+						 #x8766)
+					     (eq (car
+						  (get-char-attribute
+						   (nth 2 enc-str)
+						   'ideographic-structure))
+						 ?⿸))
+					 ?⿸
+				       ?⿰))
+				    ((eq (car
+					  (cdr
+					   (assq 'ideographic-structure
+						 (nth 2 enc-str))))
+					 ?⿸)
+				     ?⿸)
+				    (t
+				     ?⿰))
+				   (nth 2 enc-str)
+				   (nth 2 structure)
+				   )))
+			   new-str))))
+	  )
+	 ((eq (car enc-str) ?⿸)
+	  (list ?⿸ (nth 1 enc-str)
+		(list (list 'ideographic-structure
+			    ?⿱
+			    (nth 2 enc-str)
+			    (nth 2 structure))))
+	  )))
+      )
+     ((eq (car structure) ?⿹)
+      (setq enc (nth 1 structure))
+      (when (setq enc-str
+		  (cond ((characterp enc)
+			 (get-char-attribute enc 'ideographic-structure)
+			 )
+			((consp enc)
+			 (cdr (assq 'ideographic-structure enc))
+			 )))
+	(cond
+	 ((eq (car enc-str) ?⿰)
+	  (list ?⿰
+		(list (list 'ideographic-structure
+			    ?⿱
+			    (nth 1 enc-str)
+			    (nth 2 structure)))
+		(nth 2 enc-str))
+	  )))
+      )
+     ((eq (get-char-attribute (car structure) '=ucs-itaiji-001) #x2FF6)
+      (setq enc (nth 1 structure))
+      (when (setq enc-str
+		  (cond ((characterp enc)
+			 (get-char-attribute enc 'ideographic-structure)
+			 )
+			((consp enc)
+			 (cdr (assq 'ideographic-structure enc))
+			 )))
+	(cond
+	 ((eq (car enc-str) ?⿺)
+	  (list ?⿺
+		(list (list 'ideographic-structure
+			    ?⿱
+			    (nth 2 structure)
+			    (nth 1 enc-str)))
+		(nth 2 enc-str))
+	  )
+	 ((eq (car enc-str) ?⿱)
+	  (list ?⿱
+		(list (list 'ideographic-structure
+			    ?⿰
+			    (nth 2 structure)
+			    (nth 1 enc-str)))
+		(nth 2 enc-str))
+	  ))
+	)
+      )
+     ((eq (car structure) ?⿴)
+      (setq enc (nth 1 structure))
+      (when (setq enc-str
+		  (cond ((characterp enc)
+			 (get-char-attribute enc 'ideographic-structure)
+			 )
+			((consp enc)
+			 (cdr (assq 'ideographic-structure enc))
+			 )))
+	(cond
+	 ((eq (car enc-str) ?⿱)
+	  (cond
+	   ((and (characterp (nth 2 enc-str))
+		 (or (memq (char-ucs (nth 2 enc-str)) '(#x56D7 #x5F51 #x897F))
+		     (eq (char-feature (nth 2 enc-str) '=>big5-cdp)
+			 #x87A5)))
+	    (list ?⿱
+		  (nth 1 enc-str)
+		  (list (list 'ideographic-structure
+			      ?⿴
+			      (nth 2 enc-str)
+			      (nth 2 structure)))
+		  )
+	    )
+	   ((and (characterp (nth 2 enc-str))
+		 (eq (char-ucs (nth 2 enc-str)) #x51F5))
+	    (list ?⿱
+		  (nth 1 enc-str)
+		  (list (list 'ideographic-structure
+			      ?⿶
+			      (nth 2 enc-str)
+			      (nth 2 structure)))
+		  )
+	    )	    
+	   ((and (characterp (nth 1 enc-str))
+		 (eq (char-feature (nth 1 enc-str) '=>ucs@component)
+		     #x300E6))
+	    (list ?⿱
+		  (list (list 'ideographic-structure
+			      ?⿵
+			      (nth 1 enc-str)
+			      (nth 2 structure)))
+		  (nth 2 enc-str))
+	    )
+	   (t
+	    (list ?⿳
+		  (nth 1 enc-str)
+		  (nth 2 structure)
+		  (nth 2 enc-str))
+	    ))
+	  ))
+	)
+      )
+     ((eq (car structure) ?⿶)
+      (setq enc (nth 1 structure))
+      (when (setq enc-str
+		  (cond ((characterp enc)
+			 (get-char-attribute enc 'ideographic-structure)
+			 )
+			((consp enc)
+			 (cdr (assq 'ideographic-structure enc))
+			 )))
+	(cond
+	 ((eq (car enc-str) ?⿱)
+	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+	  (when (and enc2-str
+		     (eq (car enc2-str) ?⿰))
+	    (list ?⿱
+		  (list (list 'ideographic-structure
+			      ?⿲
+			      (nth 1 enc2-str)
+			      (nth 2 structure)
+			      (nth 2 enc2-str)))
+		  (nth 2 enc-str)))
+	  )
+	 ((eq (car enc-str) ?⿳)
+	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+	  (when (and enc2-str
+		     (eq (car enc2-str) ?⿰))
+	    (list ?⿳
+		  (list (list 'ideographic-structure
+			      ?⿲
+			      (nth 1 enc2-str)
+			      (nth 2 structure)
+			      (nth 2 enc2-str)))
+		  (nth 2 enc-str)
+		  (nth 3 enc-str)))
+	  )
+	 ((eq (car enc-str) ?⿲)
+	  (list ?⿲
+		(nth 1 enc-str)
+		(list (list 'ideographic-structure
+			    ?⿱
+			    (nth 2 structure)
+			    (nth 2 enc-str)))
+		(nth 3 enc-str))
+	  )
+	 ((eq (car enc-str) ?⿴)
+	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+	  (when (and enc2-str
+		     (eq (car enc2-str) ?⿰))
+	    (list ?⿲
+		  (nth 1 enc2-str)
+		  (list (list 'ideographic-structure
+			      ?⿱
+			      (nth 2 structure)
+			      (nth 2 enc-str)))
+		  (nth 2 enc2-str)))
+	  )))
+      )
+     ((eq (car structure) ?⿵)
+      (setq enc (nth 1 structure))
+      (when (setq enc-str
+		  (cond ((characterp enc)
+			 (get-char-attribute enc 'ideographic-structure)
+			 )
+			((consp enc)
+			 (cdr (assq 'ideographic-structure enc))
+			 )))
+	(cond
+	 ((eq (car enc-str) ?⿱)
+	  (setq enc2-str (ideographic-character-get-structure (nth 2 enc-str)))
+	  (when (and enc2-str
+		     (eq (car enc2-str) ?⿰))
+	    (list ?⿱
+		  (nth 1 enc-str)
+		  (list (list 'ideographic-structure
+			      ?⿲
+			      (nth 1 enc2-str)
+			      (nth 2 structure)
+			      (nth 2 enc2-str)))))
+	  )
+	 ((eq (car enc-str) ?⿳)
+	  (setq enc2-str (ideographic-character-get-structure (nth 3 enc-str)))
+	  (when (and enc2-str
+		     (eq (car enc2-str) ?⿰))
+	    (list ?⿳
+		  (nth 1 enc-str)
+		  (nth 2 enc-str)
+		  (list (list 'ideographic-structure
+			      ?⿲
+			      (nth 1 enc2-str)
+			      (nth 2 structure)
+			      (nth 2 enc2-str)))))
+	  )
+	 ((eq (car enc-str) ?⿲)
+	  (list ?⿲
+		(nth 1 enc-str)
+		(list (list 'ideographic-structure
+			    ?⿱
+			    (nth 2 enc-str)
+			    (nth 2 structure)))
+		(nth 3 enc-str))
+	  )
+	 ((eq (car enc-str) ?⿴)
+	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+	  (when (and enc2-str
+		     (eq (car enc2-str) ?⿰))
+	    (list ?⿲
+		  (nth 1 enc2-str)
+		  (list (list 'ideographic-structure
+			      ?⿱
+			      (nth 2 enc-str)
+			      (nth 2 structure)))
+		  (nth 2 enc2-str)))
+	  )))
+      )
+     ((eq (car structure) ?⿻)
+      (setq enc (nth 1 structure))
+      (when (setq enc-str
+		  (cond ((characterp enc)
+			 (get-char-attribute enc 'ideographic-structure)
+			 )
+			((consp enc)
+			 (cdr (assq 'ideographic-structure enc))
+			 )))
+	(cond
+	 ((eq (car enc-str) ?⿱)
+	  (list ?⿳
+		(nth 1 enc-str)
+		(nth 2 structure)
+		(nth 2 enc-str))
+	  )))
+      ))
+    ))
+
+;;;###autoload
+(defun ideographic-structure-compact (structure)
+  (let ((rest structure)
+	cell
+	ret dest sub)
+    (while rest
+      (setq cell (pop rest))
+      (cond
+       ((and (consp cell)
+	     (cond ((setq ret (assq 'ideographic-structure cell))
+		    (setq sub (cdr ret))
+		    )
+		   ((atom (car cell))
+		    (setq sub cell)
+		    )))
+	(setq cell
+	      (if (setq ret (ideographic-structure-find-chars sub))
+		  (car ret)
+		(list (cons 'ideographic-structure sub))))
+	))
+      (setq dest (cons cell dest)))
+    (nreverse dest)))
 
 
 ;;; @ End.
