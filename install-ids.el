@@ -70,7 +70,8 @@
 ;;     (setq i (1+ i))))
 
 (princ "Generating apparent-structure...")
-(let* ((feature-dir
+(let* ((terminal-coding-system 'utf-8-mcs-er)
+       (feature-dir
 	(expand-file-name
 	 "feature"
 	 (expand-file-name
@@ -78,7 +79,7 @@
        (p-file
 	(expand-file-name "ideographic-products" feature-dir))
        old-p-file
-       a-str)
+       a-str ret)
   (when (file-exists-p p-file)
     (setq old-p-file (make-temp-name p-file))
     (rename-file p-file old-p-file))
@@ -86,6 +87,13 @@
 
   (map-char-attribute
    (lambda (c v)
+     (unless (equal (setq ret (ideographic-structure-compact v)) v)
+       (princ (format "Compact %c : %s -> %s\n"
+		      c
+		      (ideographic-structure-to-ids v)
+		      (ideographic-structure-to-ids ret)))
+       (put-char-attribute c 'ideographic-structure ret)
+       (setq v ret))
      (unless (setq a-str (get-char-attribute c 'ideographic-structure@apparent))
        (when (setq a-str (functional-ideographic-structure-to-apparent-structure v))
 	 (put-char-attribute c 'ideographic-structure@apparent
