@@ -1,5 +1,13 @@
 2020-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): New
+	function.
+
+	* install-ids.el: Compact ideographic-structures.
+
+2020-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* install-ids.el:
 	- Don't install Install IDS-HZK{01..12}.txt.
 	- Use `functional-ideographic-structure-to-apparent-structure' to
