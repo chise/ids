@@ -1,3 +1,9 @@
+2020-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002097D): Add IDS.
+
+	* IDS-UCS-Basic.txt (U+9F7F): Add IDS.
+
 2020-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el
