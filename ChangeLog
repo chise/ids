@@ -1,3 +1,33 @@
+2020-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+357E): Use "叱" instead of "⿰口匕".
+	(U+358B): Ditto.
+	(U+358C): Ditto.
+	(U+358D): Ditto.
+	(U+358E): Ditto.
+	(U+3599): Ditto.
+	(U+359A): Ditto.
+	(U+359B): Ditto.
+	(U+359C): Ditto.
+	(U+359D): Ditto.
+	(U+35AF): Ditto.
+	(U+35B0): Ditto.
+	(U+35B2): Ditto.
+	(U+35B3): Ditto.
+	(U+35DF): Ditto.
+	(U+35E0): Ditto.
+	(U+35E1): Ditto.
+	(U+35EF): Ditto.
+	(U+360F): Ditto.
+	(U+3612): Ditto.
+
+	* IDS-UCS-Basic.txt (U+517A): Use "叱" instead of "⿰口匕".
+	(U+551F): Ditto.
+	(U+55ED): Ditto.
+	(U+65D5): Ditto.
+	(U+83BB): Use "⿱艿叱" instead of "⿳艹乃⿰口匕".
+	(U+848A): Use "叱" instead of "⿰口匕".
+
 2020-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2CF17): Completed.
@@ -5,9 +35,19 @@
 	(U+2DA69): Completed.
 	(U+2E4E9): Completed.
 
+	* IDS-UCS-Ext-B-4.txt (U-000268EA): Use "𬐚" instead of
+	"⿳𠂉口皿".
+	(U-00027FEA): Use "𠔃" instead of "⿱丷丂".
+
 	* IDS-UCS-Ext-B-1.txt (U-00020635): Use "𠔃" instead of "⿱丷丂".
 
 2020-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002AB9D): Use "𬐚" instead of "⿳𠂉口皿".
+	(U-0002B5D8): Ditto.
+
+	* install-ids.el: When ideographic-structure is compacted, display
+	system-char-id of the character object.
 
 	* IDS-UCS-Ext-B-1.txt (U-0002097D): Add IDS.
 
