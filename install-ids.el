@@ -88,7 +88,8 @@
   (map-char-attribute
    (lambda (c v)
      (unless (equal (setq ret (ideographic-structure-compact v)) v)
-       (princ (format "Compact %c : %s -> %s\n"
+       (princ (format "Compact %04X (%c) : %s -> %s\n"
+		      (char-int c)
 		      c
 		      (ideographic-structure-to-ids v)
 		      (ideographic-structure-to-ids ret)))
