@@ -1,5 +1,14 @@
 2020-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2CF17): Completed.
+	(U+2DA67): Use one column.
+	(U+2DA69): Completed.
+	(U+2E4E9): Completed.
+
+	* IDS-UCS-Ext-B-1.txt (U-00020635): Use "𠔃" instead of "⿱丷丂".
+
+2020-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-0002097D): Add IDS.
 
 	* IDS-UCS-Basic.txt (U+9F7F): Add IDS.
