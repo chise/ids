@@ -1,3 +1,22 @@
+2020-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000253BF): Modify structure.
+
+	* IDS-UCS-Ext-B-5.txt (U-000288AE): Use "𥎿" instead of "⿰知于".
+
+2020-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+4DB6): Add IDS.
+	(U+4DB7): Add IDS.
+	(U+4DB8): Add IDS.
+	(U+4DB9): Add IDS.
+	(U+4DBA): Add IDS.
+	(U+4DBB): Add IDS.
+	(U+4DBC): Add IDS.
+	(U+4DBD): Add IDS.
+	(U+4DBE): Add IDS.
+	(U+4DBF): Add IDS.
+
 2020-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+357E): Use "叱" instead of "⿰口匕".
