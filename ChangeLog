@@ -1,3 +1,35 @@
+2020-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026030): Use "𡉤" instead of "⿱不土".
+	(U-00026054): Use "㤁" instead of "⿱天心".
+	(U-00026065): Completed.
+	(U-00026068): Use "栆" instead of "⿱&CDP-89AD;&CDP-8971;".
+	(U-00026070): Use "𢍁" instead of "⿱由廾".
+	(U-00026096): Use "𢍉" instead of "⿱甶廾".
+	(U-00026098): Use "𭩢" instead of "⿱巨木".
+	(U-000260A5): Use "泵" instead of "⿱石水".
+	(U-000260AF): Use "𫥎" instead of "⿱⿳⺈𫩏𠆢&CDP-8971;".
+	(U-000260B4): Use "𡶬" instead of "⿵网山".
+	(U-000260CE): Use "聀" instead of "⿰耳戈".
+	(U-000260DD): Use "䒺" instead of "⿱艹糸".
+	(U-00026603): Use "萠" instead of "⿱艹朋".
+	(U-00026E0E): Use "畤" instead of "⿰田⿱士寸".
+	(U-00026E24): Use "㝡" instead of "⿱宀取".
+	(U-00026E26): Use "㪍" instead of "⿰孛攵".
+	(U-00026E2D): Use "⿱x𠵥" instead of "⿳x五吾".
+	(U-00026E2E): Use "减" instead of "⿰冫咸".
+	(U-00026E34): Use "戜" instead of "⿹戈呈".
+	(U-00026E35): Use "䖏" instead of "⿸虍匆".
+	(U-0002706F): Fixed; use "𦂱" instead of "⿰糸風".
+	(U-0002772E): Use "㝡" instead of "⿱宀取".
+	(U-00027F6E): Use "戜" instead of "⿹戈呈".
+	(U-00027F73): Use "𮥶" instead of "⿳𠂉&CDP-88F1;&CDP-8965;".
+	(U-00027F79): Use "萠" instead of "⿱艹朋".
+	(U-00027F7E): Fixed.
+	(U-00027F81): Use "䨿" instead of "⿱夭非".
+	(U-00027F86): Use "萌" instead of "⿱卝明".
+	(U-00027F91): Fixed.
+
 2020-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el
