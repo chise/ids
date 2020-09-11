@@ -1,5 +1,13 @@
 2020-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-find.el
+	(functional-ideographic-structure-to-apparent-structure):
+	Implement
+	- ⿸⿸ELR -> ⿸E⿰LR if L = 彳
+	- ⿸⿸EAB -> ⿸E⿱AB if B = non 彳
+	(ideographic-structure-compare-functional-and-apparent): Likewise;
+	add rule-code.
+
 	* IDS-UCS-Ext-B-3.txt (U-000253BF): Modify structure.
 
 	* IDS-UCS-Ext-B-5.txt (U-000288AE): Use "𥎿" instead of "⿰知于".
