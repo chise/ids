@@ -1,3 +1,14 @@
+2020-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(functional-ideographic-structure-to-apparent-structure): New
+	implementation; use
+	`ideographic-structure-compare-functional-and-apparent'.	
+	(ideographic-structure-compare-functional-and-apparent):
+	- Add new optional argument `conversion-only'.
+	- Use ⿴⿱ABM -> ⿱A⿱MB instead of ⿴⿱ABM -> ⿳AMB as the definition
+	  of rule-414.
+
 2020-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el
