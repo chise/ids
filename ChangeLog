@@ -1,5 +1,14 @@
 2020-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-find.el
+	(functional-ideographic-structure-to-apparent-structure): Use
+	`ideographic-structure-compact' for the return value.
+	(ideographic-structure-compare-functional-and-apparent): Change
+	format of the third field [converted apparent-component] of each
+	element: if it can be compacted to a character, return the
+	character.  Otherwise, use char-spec format instead of parsed-IDS
+	format.
+
 	* IDS-UCS-Ext-B-4.txt (U-00026030): Use "𡉤" instead of "⿱不土".
 	(U-00026054): Use "㤁" instead of "⿱天心".
 	(U-00026065): Completed.
