@@ -767,347 +767,350 @@ COMPONENT can be a character or char-spec."
   (apply #'ids-find-chars-including-ids* structure))
 
 (defun functional-ideographic-structure-to-apparent-structure (structure)
-  (ideographic-structure-compact
-   (let (enc enc-str enc2-str new-str)
-     (cond
-      ((eq (car structure) ?⿸)
-       (setq enc (nth 1 structure))
-       (when (setq enc-str
-		   (cond ((characterp enc)
-			  (get-char-attribute enc 'ideographic-structure)
-			  )
-			 ((consp enc)
-			  (cdr (assq 'ideographic-structure enc))
-			  )))
-	 (cond
-	  ((eq (car enc-str) ?⿰)
-	   (list ?⿰ (nth 1 enc-str)
-		 (list (list 'ideographic-structure
-			     ?⿱
-			     (nth 2 enc-str)
-			     (nth 2 structure))))
-	   )
-	  ((and (eq (car enc-str) ?⿲)
-		(memq (char-ucs (nth 1 enc-str)) '(#x4EBB #x2E85))
-		(eq (nth 2 enc-str) ?丨))
-	   (list ?⿰
-		 (decode-char '=big5-cdp #x8B7A)
-		 (list (list 'ideographic-structure
-			     ?⿱
-			     (nth 3 enc-str)
-			     (nth 2 structure))))
-	   )
-	  ((eq (car enc-str) ?⿱)
-	   (list ?⿱ (nth 1 enc-str)
-		 (list
-		  (cons 'ideographic-structure
-			(or (functional-ideographic-structure-to-apparent-structure
-			     (setq new-str
-				   (list
-				    (cond
-				     ((characterp (nth 2 enc-str))
-				      (if (or (eq (encode-char
-						   (nth 2 enc-str)
-						   '=>ucs@component)
-						  #x20087)
-					      (eq (encode-char
-						   (nth 2 enc-str)
-						   '=>ucs@component)
-						  #x5382)
-					      (eq (encode-char
-						   (nth 2 enc-str)
-						   '=>ucs@component)
-						  #x4E06)
-					      (eq (encode-char
-						   (nth 2 enc-str)
-						   '=big5-cdp)
-						  #x89CE)
-					      (eq (encode-char
-						   (nth 2 enc-str)
-						   '=>big5-cdp)
-						  #x88E2)
-					      (eq (encode-char
-						   (nth 2 enc-str)
-						   '=big5-cdp)
-						  #x88AD)
-					      (eq (or (encode-char
-						       (nth 2 enc-str)
-						       '=>big5-cdp)
-						      (encode-char
-						       (nth 2 enc-str)
-						       '=big5-cdp-itaiji-001))
-						  #x8766)
-					      (eq (car
-						   (get-char-attribute
-						    (nth 2 enc-str)
-						    'ideographic-structure))
-						  ?⿸))
-					  ?⿸
-					?⿰))
-				     ((eq (car
-					   (cdr
-					    (assq 'ideographic-structure
-						  (nth 2 enc-str))))
-					  ?⿸)
-				      ?⿸)
-				     (t
-				      ?⿰))
-				    (nth 2 enc-str)
-				    (nth 2 structure)
-				    )))
-			    new-str))))
-	   )
-	  ((eq (car enc-str) ?⿸)
-	   (list ?⿸ (nth 1 enc-str)
-		 (list
-		  (cons 'ideographic-structure
-			(setq new-str
-			      (list
-			       (cond
-				((characterp (nth 2 enc-str))
-				 (if (memq (char-ucs (nth 2 enc-str))
-					   '(#x5F73))
-				     ?⿰
-				   ?⿱)
-				 )
-				(t
-				 ?⿱))
-			       (nth 2 enc-str)
-			       (nth 2 structure))))))
-	   )))
-       )
-      ((eq (car structure) ?⿹)
-       (setq enc (nth 1 structure))
-       (when (setq enc-str
-		   (cond ((characterp enc)
-			  (get-char-attribute enc 'ideographic-structure)
-			  )
-			 ((consp enc)
-			  (cdr (assq 'ideographic-structure enc))
-			  )))
-	 (cond
-	  ((eq (car enc-str) ?⿰)
-	   (list ?⿰
-		 (list (list 'ideographic-structure
-			     ?⿱
-			     (nth 1 enc-str)
-			     (nth 2 structure)))
-		 (nth 2 enc-str))
-	   )))
-       )
-      ((eq (get-char-attribute (car structure) '=ucs-itaiji-001) #x2FF6)
-       (setq enc (nth 1 structure))
-       (when (setq enc-str
-		   (cond ((characterp enc)
-			  (get-char-attribute enc 'ideographic-structure)
-			  )
-			 ((consp enc)
-			  (cdr (assq 'ideographic-structure enc))
-			  )))
-	 (cond
-	  ((eq (car enc-str) ?⿺)
-	   (list ?⿺
-		 (list (list 'ideographic-structure
-			     ?⿱
-			     (nth 2 structure)
-			     (nth 1 enc-str)))
-		 (nth 2 enc-str))
-	   )
-	  ((eq (car enc-str) ?⿱)
-	   (list ?⿱
-		 (list (list 'ideographic-structure
-			     ?⿰
-			     (nth 2 structure)
-			     (nth 1 enc-str)))
-		 (nth 2 enc-str))
-	   ))
-	 )
-       )
-      ((eq (car structure) ?⿴)
-       (setq enc (nth 1 structure))
-       (when (setq enc-str
-		   (cond ((characterp enc)
-			  (get-char-attribute enc 'ideographic-structure)
-			  )
-			 ((consp enc)
-			  (cdr (assq 'ideographic-structure enc))
-			  )))
-	 (cond
-	  ((eq (car enc-str) ?⿱)
-	   (cond
-	    ((and (characterp (nth 2 enc-str))
-		  (or (memq (char-ucs (nth 2 enc-str)) '(#x56D7 #x5F51 #x897F))
-		      (eq (char-feature (nth 2 enc-str) '=>big5-cdp)
-			  #x87A5)))
-	     (list ?⿱
-		   (nth 1 enc-str)
-		   (list (list 'ideographic-structure
-			       ?⿴
-			       (nth 2 enc-str)
-			       (nth 2 structure)))
-		   )
-	     )
-	    ((and (characterp (nth 2 enc-str))
-		  (eq (char-ucs (nth 2 enc-str)) #x51F5))
-	     (list ?⿱
-		   (nth 1 enc-str)
-		   (list (list 'ideographic-structure
-			       ?⿶
-			       (nth 2 enc-str)
-			       (nth 2 structure)))
-		   )
-	     )	    
-	    ((and (characterp (nth 1 enc-str))
-		  (eq (char-feature (nth 1 enc-str) '=>ucs@component)
-		      #x300E6))
-	     (list ?⿱
-		   (list (list 'ideographic-structure
-			       ?⿵
-			       (nth 1 enc-str)
-			       (nth 2 structure)))
-		   (nth 2 enc-str))
-	     )
-	    (t
-	     (list ?⿳
-		   (nth 1 enc-str)
-		   (nth 2 structure)
-		   (nth 2 enc-str))
-	     ))
-	   ))
-	 )
-       )
-      ((eq (car structure) ?⿶)
-       (setq enc (nth 1 structure))
-       (when (setq enc-str
-		   (cond ((characterp enc)
-			  (get-char-attribute enc 'ideographic-structure)
-			  )
-			 ((consp enc)
-			  (cdr (assq 'ideographic-structure enc))
-			  )))
-	 (cond
-	  ((eq (car enc-str) ?⿱)
-	   (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
-	   (when (and enc2-str
-		      (eq (car enc2-str) ?⿰))
-	     (list ?⿱
-		   (list (list 'ideographic-structure
-			       ?⿲
-			       (nth 1 enc2-str)
-			       (nth 2 structure)
-			       (nth 2 enc2-str)))
-		   (nth 2 enc-str)))
-	   )
-	  ((eq (car enc-str) ?⿳)
-	   (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
-	   (when (and enc2-str
-		      (eq (car enc2-str) ?⿰))
-	     (list ?⿳
-		   (list (list 'ideographic-structure
-			       ?⿲
-			       (nth 1 enc2-str)
-			       (nth 2 structure)
-			       (nth 2 enc2-str)))
-		   (nth 2 enc-str)
-		   (nth 3 enc-str)))
-	   )
-	  ((eq (car enc-str) ?⿲)
-	   (list ?⿲
-		 (nth 1 enc-str)
-		 (list (list 'ideographic-structure
-			     ?⿱
-			     (nth 2 structure)
-			     (nth 2 enc-str)))
-		 (nth 3 enc-str))
-	   )
-	  ((eq (car enc-str) ?⿴)
-	   (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
-	   (when (and enc2-str
-		      (eq (car enc2-str) ?⿰))
-	     (list ?⿲
-		   (nth 1 enc2-str)
-		   (list (list 'ideographic-structure
-			       ?⿱
-			       (nth 2 structure)
-			       (nth 2 enc-str)))
-		   (nth 2 enc2-str)))
-	   )))
-       )
-      ((eq (car structure) ?⿵)
-       (setq enc (nth 1 structure))
-       (when (setq enc-str
-		   (cond ((characterp enc)
-			  (get-char-attribute enc 'ideographic-structure)
-			  )
-			 ((consp enc)
-			  (cdr (assq 'ideographic-structure enc))
-			  )))
-	 (cond
-	  ((eq (car enc-str) ?⿱)
-	   (setq enc2-str (ideographic-character-get-structure (nth 2 enc-str)))
-	   (when (and enc2-str
-		      (eq (car enc2-str) ?⿰))
-	     (list ?⿱
-		   (nth 1 enc-str)
-		   (list (list 'ideographic-structure
-			       ?⿲
-			       (nth 1 enc2-str)
-			       (nth 2 structure)
-			       (nth 2 enc2-str)))))
-	   )
-	  ((eq (car enc-str) ?⿳)
-	   (setq enc2-str (ideographic-character-get-structure (nth 3 enc-str)))
-	   (when (and enc2-str
-		      (eq (car enc2-str) ?⿰))
-	     (list ?⿳
-		   (nth 1 enc-str)
-		   (nth 2 enc-str)
-		   (list (list 'ideographic-structure
-			       ?⿲
-			       (nth 1 enc2-str)
-			       (nth 2 structure)
-			       (nth 2 enc2-str)))))
-	   )
-	  ((eq (car enc-str) ?⿲)
-	   (list ?⿲
-		 (nth 1 enc-str)
-		 (list (list 'ideographic-structure
-			     ?⿱
-			     (nth 2 enc-str)
-			     (nth 2 structure)))
-		 (nth 3 enc-str))
-	   )
-	  ((eq (car enc-str) ?⿴)
-	   (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
-	   (when (and enc2-str
-		      (eq (car enc2-str) ?⿰))
-	     (list ?⿲
-		   (nth 1 enc2-str)
-		   (list (list 'ideographic-structure
-			       ?⿱
-			       (nth 2 enc-str)
-			       (nth 2 structure)))
-		   (nth 2 enc2-str)))
-	   )))
-       )
-      ((eq (car structure) ?⿻)
-       (setq enc (nth 1 structure))
-       (when (setq enc-str
-		   (cond ((characterp enc)
-			  (get-char-attribute enc 'ideographic-structure)
-			  )
-			 ((consp enc)
-			  (cdr (assq 'ideographic-structure enc))
-			  )))
-	 (cond
-	  ((eq (car enc-str) ?⿱)
-	   (list ?⿳
-		 (nth 1 enc-str)
-		 (nth 2 structure)
-		 (nth 2 enc-str))
-	   )))
-       ))
-     )))
+  (ideographic-structure-compare-functional-and-apparent
+   structure nil 'conversion-only)
+  ;; (ideographic-structure-compact
+  ;;  (let (enc enc-str enc2-str new-str)
+  ;;    (cond
+  ;;     ((eq (car structure) ?⿸)
+  ;;      (setq enc (nth 1 structure))
+  ;;      (when (setq enc-str
+  ;;                  (cond ((characterp enc)
+  ;;                         (get-char-attribute enc 'ideographic-structure)
+  ;;                         )
+  ;;                        ((consp enc)
+  ;;                         (cdr (assq 'ideographic-structure enc))
+  ;;                         )))
+  ;;        (cond
+  ;;         ((eq (car enc-str) ?⿰)
+  ;;          (list ?⿰ (nth 1 enc-str)
+  ;;                (list (list 'ideographic-structure
+  ;;                            ?⿱
+  ;;                            (nth 2 enc-str)
+  ;;                            (nth 2 structure))))
+  ;;          )
+  ;;         ((and (eq (car enc-str) ?⿲)
+  ;;               (memq (char-ucs (nth 1 enc-str)) '(#x4EBB #x2E85))
+  ;;               (eq (nth 2 enc-str) ?丨))
+  ;;          (list ?⿰
+  ;;                (decode-char '=big5-cdp #x8B7A)
+  ;;                (list (list 'ideographic-structure
+  ;;                            ?⿱
+  ;;                            (nth 3 enc-str)
+  ;;                            (nth 2 structure))))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿱)
+  ;;          (list ?⿱ (nth 1 enc-str)
+  ;;                (list
+  ;;                 (cons 'ideographic-structure
+  ;;                       (or (functional-ideographic-structure-to-apparent-structure
+  ;;                            (setq new-str
+  ;;                                  (list
+  ;;                                   (cond
+  ;;                                    ((characterp (nth 2 enc-str))
+  ;;                                     (if (or (eq (encode-char
+  ;;                                                  (nth 2 enc-str)
+  ;;                                                  '=>ucs@component)
+  ;;                                                 #x20087)
+  ;;                                             (eq (encode-char
+  ;;                                                  (nth 2 enc-str)
+  ;;                                                  '=>ucs@component)
+  ;;                                                 #x5382)
+  ;;                                             (eq (encode-char
+  ;;                                                  (nth 2 enc-str)
+  ;;                                                  '=>ucs@component)
+  ;;                                                 #x4E06)
+  ;;                                             (eq (encode-char
+  ;;                                                  (nth 2 enc-str)
+  ;;                                                  '=big5-cdp)
+  ;;                                                 #x89CE)
+  ;;                                             (eq (encode-char
+  ;;                                                  (nth 2 enc-str)
+  ;;                                                  '=>big5-cdp)
+  ;;                                                 #x88E2)
+  ;;                                             (eq (encode-char
+  ;;                                                  (nth 2 enc-str)
+  ;;                                                  '=big5-cdp)
+  ;;                                                 #x88AD)
+  ;;                                             (eq (or (encode-char
+  ;;                                                      (nth 2 enc-str)
+  ;;                                                      '=>big5-cdp)
+  ;;                                                     (encode-char
+  ;;                                                      (nth 2 enc-str)
+  ;;                                                      '=big5-cdp-itaiji-001))
+  ;;                                                 #x8766)
+  ;;                                             (eq (car
+  ;;                                                  (get-char-attribute
+  ;;                                                   (nth 2 enc-str)
+  ;;                                                   'ideographic-structure))
+  ;;                                                 ?⿸))
+  ;;                                         ?⿸
+  ;;                                       ?⿰))
+  ;;                                    ((eq (car
+  ;;                                          (cdr
+  ;;                                           (assq 'ideographic-structure
+  ;;                                                 (nth 2 enc-str))))
+  ;;                                         ?⿸)
+  ;;                                     ?⿸)
+  ;;                                    (t
+  ;;                                     ?⿰))
+  ;;                                   (nth 2 enc-str)
+  ;;                                   (nth 2 structure)
+  ;;                                   )))
+  ;;                           new-str))))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿸)
+  ;;          (list ?⿸ (nth 1 enc-str)
+  ;;                (list
+  ;;                 (cons 'ideographic-structure
+  ;;                       (setq new-str
+  ;;                             (list
+  ;;                              (cond
+  ;;                               ((characterp (nth 2 enc-str))
+  ;;                                (if (memq (char-ucs (nth 2 enc-str))
+  ;;                                          '(#x5F73))
+  ;;                                    ?⿰
+  ;;                                  ?⿱)
+  ;;                                )
+  ;;                               (t
+  ;;                                ?⿱))
+  ;;                              (nth 2 enc-str)
+  ;;                              (nth 2 structure))))))
+  ;;          )))
+  ;;      )
+  ;;     ((eq (car structure) ?⿹)
+  ;;      (setq enc (nth 1 structure))
+  ;;      (when (setq enc-str
+  ;;                  (cond ((characterp enc)
+  ;;                         (get-char-attribute enc 'ideographic-structure)
+  ;;                         )
+  ;;                        ((consp enc)
+  ;;                         (cdr (assq 'ideographic-structure enc))
+  ;;                         )))
+  ;;        (cond
+  ;;         ((eq (car enc-str) ?⿰)
+  ;;          (list ?⿰
+  ;;                (list (list 'ideographic-structure
+  ;;                            ?⿱
+  ;;                            (nth 1 enc-str)
+  ;;                            (nth 2 structure)))
+  ;;                (nth 2 enc-str))
+  ;;          )))
+  ;;      )
+  ;;     ((eq (get-char-attribute (car structure) '=ucs-itaiji-001) #x2FF6)
+  ;;      (setq enc (nth 1 structure))
+  ;;      (when (setq enc-str
+  ;;                  (cond ((characterp enc)
+  ;;                         (get-char-attribute enc 'ideographic-structure)
+  ;;                         )
+  ;;                        ((consp enc)
+  ;;                         (cdr (assq 'ideographic-structure enc))
+  ;;                         )))
+  ;;        (cond
+  ;;         ((eq (car enc-str) ?⿺)
+  ;;          (list ?⿺
+  ;;                (list (list 'ideographic-structure
+  ;;                            ?⿱
+  ;;                            (nth 2 structure)
+  ;;                            (nth 1 enc-str)))
+  ;;                (nth 2 enc-str))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿱)
+  ;;          (list ?⿱
+  ;;                (list (list 'ideographic-structure
+  ;;                            ?⿰
+  ;;                            (nth 2 structure)
+  ;;                            (nth 1 enc-str)))
+  ;;                (nth 2 enc-str))
+  ;;          ))
+  ;;        )
+  ;;      )
+  ;;     ((eq (car structure) ?⿴)
+  ;;      (setq enc (nth 1 structure))
+  ;;      (when (setq enc-str
+  ;;                  (cond ((characterp enc)
+  ;;                         (get-char-attribute enc 'ideographic-structure)
+  ;;                         )
+  ;;                        ((consp enc)
+  ;;                         (cdr (assq 'ideographic-structure enc))
+  ;;                         )))
+  ;;        (cond
+  ;;         ((eq (car enc-str) ?⿱)
+  ;;          (cond
+  ;;           ((and (characterp (nth 2 enc-str))
+  ;;                 (or (memq (char-ucs (nth 2 enc-str)) '(#x56D7 #x5F51 #x897F))
+  ;;                     (eq (char-feature (nth 2 enc-str) '=>big5-cdp)
+  ;;                         #x87A5)))
+  ;;            (list ?⿱
+  ;;                  (nth 1 enc-str)
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿴
+  ;;                              (nth 2 enc-str)
+  ;;                              (nth 2 structure)))
+  ;;                  )
+  ;;            )
+  ;;           ((and (characterp (nth 2 enc-str))
+  ;;                 (eq (char-ucs (nth 2 enc-str)) #x51F5))
+  ;;            (list ?⿱
+  ;;                  (nth 1 enc-str)
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿶
+  ;;                              (nth 2 enc-str)
+  ;;                              (nth 2 structure)))
+  ;;                  )
+  ;;            )      
+  ;;           ((and (characterp (nth 1 enc-str))
+  ;;                 (eq (char-feature (nth 1 enc-str) '=>ucs@component)
+  ;;                     #x300E6))
+  ;;            (list ?⿱
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿵
+  ;;                              (nth 1 enc-str)
+  ;;                              (nth 2 structure)))
+  ;;                  (nth 2 enc-str))
+  ;;            )
+  ;;           (t
+  ;;            (list ?⿳
+  ;;                  (nth 1 enc-str)
+  ;;                  (nth 2 structure)
+  ;;                  (nth 2 enc-str))
+  ;;            ))
+  ;;          ))
+  ;;        )
+  ;;      )
+  ;;     ((eq (car structure) ?⿶)
+  ;;      (setq enc (nth 1 structure))
+  ;;      (when (setq enc-str
+  ;;                  (cond ((characterp enc)
+  ;;                         (get-char-attribute enc 'ideographic-structure)
+  ;;                         )
+  ;;                        ((consp enc)
+  ;;                         (cdr (assq 'ideographic-structure enc))
+  ;;                         )))
+  ;;        (cond
+  ;;         ((eq (car enc-str) ?⿱)
+  ;;          (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+  ;;          (when (and enc2-str
+  ;;                     (eq (car enc2-str) ?⿰))
+  ;;            (list ?⿱
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿲
+  ;;                              (nth 1 enc2-str)
+  ;;                              (nth 2 structure)
+  ;;                              (nth 2 enc2-str)))
+  ;;                  (nth 2 enc-str)))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿳)
+  ;;          (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+  ;;          (when (and enc2-str
+  ;;                     (eq (car enc2-str) ?⿰))
+  ;;            (list ?⿳
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿲
+  ;;                              (nth 1 enc2-str)
+  ;;                              (nth 2 structure)
+  ;;                              (nth 2 enc2-str)))
+  ;;                  (nth 2 enc-str)
+  ;;                  (nth 3 enc-str)))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿲)
+  ;;          (list ?⿲
+  ;;                (nth 1 enc-str)
+  ;;                (list (list 'ideographic-structure
+  ;;                            ?⿱
+  ;;                            (nth 2 structure)
+  ;;                            (nth 2 enc-str)))
+  ;;                (nth 3 enc-str))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿴)
+  ;;          (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+  ;;          (when (and enc2-str
+  ;;                     (eq (car enc2-str) ?⿰))
+  ;;            (list ?⿲
+  ;;                  (nth 1 enc2-str)
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿱
+  ;;                              (nth 2 structure)
+  ;;                              (nth 2 enc-str)))
+  ;;                  (nth 2 enc2-str)))
+  ;;          )))
+  ;;      )
+  ;;     ((eq (car structure) ?⿵)
+  ;;      (setq enc (nth 1 structure))
+  ;;      (when (setq enc-str
+  ;;                  (cond ((characterp enc)
+  ;;                         (get-char-attribute enc 'ideographic-structure)
+  ;;                         )
+  ;;                        ((consp enc)
+  ;;                         (cdr (assq 'ideographic-structure enc))
+  ;;                         )))
+  ;;        (cond
+  ;;         ((eq (car enc-str) ?⿱)
+  ;;          (setq enc2-str (ideographic-character-get-structure (nth 2 enc-str)))
+  ;;          (when (and enc2-str
+  ;;                     (eq (car enc2-str) ?⿰))
+  ;;            (list ?⿱
+  ;;                  (nth 1 enc-str)
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿲
+  ;;                              (nth 1 enc2-str)
+  ;;                              (nth 2 structure)
+  ;;                              (nth 2 enc2-str)))))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿳)
+  ;;          (setq enc2-str (ideographic-character-get-structure (nth 3 enc-str)))
+  ;;          (when (and enc2-str
+  ;;                     (eq (car enc2-str) ?⿰))
+  ;;            (list ?⿳
+  ;;                  (nth 1 enc-str)
+  ;;                  (nth 2 enc-str)
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿲
+  ;;                              (nth 1 enc2-str)
+  ;;                              (nth 2 structure)
+  ;;                              (nth 2 enc2-str)))))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿲)
+  ;;          (list ?⿲
+  ;;                (nth 1 enc-str)
+  ;;                (list (list 'ideographic-structure
+  ;;                            ?⿱
+  ;;                            (nth 2 enc-str)
+  ;;                            (nth 2 structure)))
+  ;;                (nth 3 enc-str))
+  ;;          )
+  ;;         ((eq (car enc-str) ?⿴)
+  ;;          (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
+  ;;          (when (and enc2-str
+  ;;                     (eq (car enc2-str) ?⿰))
+  ;;            (list ?⿲
+  ;;                  (nth 1 enc2-str)
+  ;;                  (list (list 'ideographic-structure
+  ;;                              ?⿱
+  ;;                              (nth 2 enc-str)
+  ;;                              (nth 2 structure)))
+  ;;                  (nth 2 enc2-str)))
+  ;;          )))
+  ;;      )
+  ;;     ((eq (car structure) ?⿻)
+  ;;      (setq enc (nth 1 structure))
+  ;;      (when (setq enc-str
+  ;;                  (cond ((characterp enc)
+  ;;                         (get-char-attribute enc 'ideographic-structure)
+  ;;                         )
+  ;;                        ((consp enc)
+  ;;                         (cdr (assq 'ideographic-structure enc))
+  ;;                         )))
+  ;;        (cond
+  ;;         ((eq (car enc-str) ?⿱)
+  ;;          (list ?⿳
+  ;;                (nth 1 enc-str)
+  ;;                (nth 2 structure)
+  ;;                (nth 2 enc-str))
+  ;;          )))
+  ;;      ))
+  ;;    ))
+  )
 
 ;;;###autoload
 (defun ideographic-structure-compact (structure)
@@ -1133,7 +1136,8 @@ COMPONENT can be a character or char-spec."
     (nreverse dest)))
 
 (defun ideographic-structure-compare-functional-and-apparent (structure
-							      &optional char)
+							      &optional char
+							      conversion-only)
   (let (enc enc-str enc2-str new-str new-str-c f-res a-res code ret)
     (cond
      ((eq (car structure) ?⿸)
@@ -1147,7 +1151,8 @@ COMPONENT can be a character or char-spec."
 			 )))
 	(cond
 	 ((eq (car enc-str) ?⿰)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list ?⿱
 			      (nth 2 enc-str)
 			      (nth 2 structure)))
@@ -1155,18 +1160,21 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿰ (nth 1 enc-str) new-str-c)
-		111)
+	  (if conversion-only
+	      (list ?⿰ (nth 1 enc-str) new-str-c)
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿰ (nth 1 enc-str) new-str-c)
+		  111))
 	  )
 	 ((and (eq (car enc-str) ?⿲)
 	       (memq (char-ucs (nth 1 enc-str)) '(#x4EBB #x2E85))
 	       (eq (nth 2 enc-str) ?丨))
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list ?⿱
 			      (nth 3 enc-str)
 			      (nth 2 structure)))
@@ -1174,16 +1182,19 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿰ (decode-char '=big5-cdp #x8B7A) new-str-c)
-		112)
+	  (if conversion-only
+	      (list ?⿰ (decode-char '=big5-cdp #x8B7A) new-str-c)
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿰ (decode-char '=big5-cdp #x8B7A) new-str-c)
+		  112))
 	  )
 	 ((eq (car enc-str) ?⿱)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str
 		(list
 		 (cond
@@ -1219,18 +1230,21 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿱ (nth 1 enc-str) new-str-c)
-		(if (eq (car new-str) ?⿸)
-		    121
-		  122))
+	  (if conversion-only
+	      (list ?⿱ (nth 1 enc-str) new-str-c)
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿱ (nth 1 enc-str) new-str-c)
+		  (if (eq (car new-str) ?⿸)
+		      121
+		    122)))
 	  )
 	 ((eq (car enc-str) ?⿸)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list (cond
 			       ((characterp (nth 2 enc-str))
 				(if (memq (char-ucs (nth 2 enc-str))
@@ -1246,15 +1260,17 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿸ (nth 1 enc-str) new-str-c)
-		(if (eq (car new-str) ?⿰)
-		    131
-		  132))
+	  (if conversion-only
+	      (list ?⿸ (nth 1 enc-str) new-str-c)
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿸ (nth 1 enc-str) new-str-c)
+		  (if (eq (car new-str) ?⿰)
+		      131
+		    132)))
 	  )))
       )
      ((eq (car structure) ?⿹)
@@ -1268,7 +1284,8 @@ COMPONENT can be a character or char-spec."
 			 )))
 	(cond
 	 ((eq (car enc-str) ?⿰)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list ?⿱
 			      (nth 1 enc-str)
 			      (nth 2 structure)))
@@ -1276,13 +1293,15 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿰ new-str-c (nth 2 enc-str))
-		210)
+	  (if conversion-only
+	      (list ?⿰ new-str-c (nth 2 enc-str))
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿰ new-str-c (nth 2 enc-str))
+		  210))
 	  )))
       )
      ((eq (get-char-attribute (car structure) '=ucs-itaiji-001) #x2FF6)
@@ -1296,7 +1315,8 @@ COMPONENT can be a character or char-spec."
 			 )))
 	(cond
 	 ((eq (car enc-str) ?⿺)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list ?⿱
 			      (nth 2 structure)
 			      (nth 1 enc-str)))
@@ -1304,16 +1324,19 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿺ new-str-c (nth 2 enc-str))
-		310)
+	  (if conversion-only
+	      (list ?⿺ new-str-c (nth 2 enc-str))
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿺ new-str-c (nth 2 enc-str))
+		  310))
 	  )
 	 ((eq (car enc-str) ?⿱)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list ?⿰
 			      (nth 2 structure)
 			      (nth 1 enc-str)))
@@ -1321,13 +1344,15 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿱ new-str-c (nth 2 enc-str))
-		320)
+	  (if conversion-only
+	      (list ?⿱ new-str-c (nth 2 enc-str))
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿱ new-str-c (nth 2 enc-str))
+		  320))
 	  ))
 	)
       )
@@ -1347,7 +1372,8 @@ COMPONENT can be a character or char-spec."
 		 (or (memq (char-ucs (nth 2 enc-str)) '(#x56D7 #x5F51 #x897F))
 		     (eq (char-feature (nth 2 enc-str) '=>big5-cdp)
 			 #x87A5)))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿴
 				(nth 2 enc-str)
 				(nth 2 structure)))
@@ -1355,17 +1381,20 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿱ (nth 1 enc-str) new-str-c)
-		  411)
+	    (if conversion-only
+		(list ?⿱ (nth 1 enc-str) new-str-c)
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿱ (nth 1 enc-str) new-str-c)
+		    411))
 	    )
 	   ((and (characterp (nth 2 enc-str))
 		 (eq (char-ucs (nth 2 enc-str)) #x51F5))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿶
 				(nth 2 enc-str)
 				(nth 2 structure)))
@@ -1373,18 +1402,21 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿱ (nth 1 enc-str) new-str-c)
-		  412)
+	    (if conversion-only
+		(list ?⿱ (nth 1 enc-str) new-str-c)
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿱ (nth 1 enc-str) new-str-c)
+		    412))
 	    )	    
 	   ((and (characterp (nth 1 enc-str))
 		 (eq (char-feature (nth 1 enc-str) '=>ucs@component)
 		     #x300E6))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿵
 				(nth 1 enc-str)
 				(nth 2 structure)))
@@ -1392,25 +1424,33 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿱ new-str-c (nth 2 enc-str))
-		  413)
+	    (if conversion-only
+		(list ?⿱ new-str-c (nth 2 enc-str))
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿱ new-str-c (nth 2 enc-str))
+		    413))
 	    )
 	   (t
-	    (setq f-res (ids-find-chars-including-ids enc-str))
-	    (list enc
-		  f-res
-		  new-str
-		  nil
-		  (list ?⿳
-			(nth 1 enc-str)
-			(nth 2 structure)
-			(nth 2 enc-str))
-		  414)
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq new-str (list ?⿱ (nth 2 structure) (nth 2 enc-str)))
+	    (setq new-str-c
+		  (if (setq ret (ideographic-structure-find-chars new-str))
+		      (car ret)
+		    (list (cons 'ideographic-structure new-str))))
+	    (if conversion-only
+		(list ?⿱ (nth 1 enc-str) new-str-c)
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿱ (nth 1 enc-str) new-str-c)
+		    414))
 	    ))
 	  ))
 	)
@@ -1429,7 +1469,8 @@ COMPONENT can be a character or char-spec."
 	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
 	  (when (and enc2-str
 		     (eq (car enc2-str) ?⿰))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿲
 				(nth 1 enc2-str)
 				(nth 2 structure)
@@ -1438,20 +1479,23 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿱ new-str-c (nth 2 enc-str))
-		  511)
+	    (if conversion-only
+		(list ?⿱ new-str-c (nth 2 enc-str))
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿱ new-str-c (nth 2 enc-str))
+		    511))
 	    )
 	  )
 	 ((eq (car enc-str) ?⿳)
 	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
 	  (when (and enc2-str
 		     (eq (car enc2-str) ?⿰))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿲
 				(nth 1 enc2-str)
 				(nth 2 structure)
@@ -1460,17 +1504,20 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿳ new-str-c (nth 2 enc-str) (nth 3 enc-str))
-		  512)
+	    (if conversion-only
+		(list ?⿳ new-str-c (nth 2 enc-str) (nth 3 enc-str))
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿳ new-str-c (nth 2 enc-str) (nth 3 enc-str))
+		    512))
 	    )
 	  )
 	 ((eq (car enc-str) ?⿲)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list ?⿱
 			      (nth 2 structure)
 			      (nth 2 enc-str)))
@@ -1478,19 +1525,22 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
-		520)
+	  (if conversion-only
+	      (list ?⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
+		  520))
 	  )
 	 ((eq (car enc-str) ?⿴)
 	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
 	  (when (and enc2-str
 		     (eq (car enc2-str) ?⿰))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿱
 				(nth 2 structure)
 				(nth 2 enc-str)))
@@ -1498,13 +1548,15 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
-		  530)
+	    (if conversion-only
+		(list ?⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
+		    530))
 	    )
 	  )))
       )
@@ -1522,7 +1574,8 @@ COMPONENT can be a character or char-spec."
 	  (setq enc2-str (ideographic-character-get-structure (nth 2 enc-str)))
 	  (when (and enc2-str
 		     (eq (car enc2-str) ?⿰))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿲
 				(nth 1 enc2-str)
 				(nth 2 structure)
@@ -1531,20 +1584,23 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿱ (nth 1 enc-str) new-str-c)
-		  611)
+	    (if conversion-only
+		(list ?⿱ (nth 1 enc-str) new-str-c)
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿱ (nth 1 enc-str) new-str-c)
+		    611))
 	    )
 	  )
 	 ((eq (car enc-str) ?⿳)
 	  (setq enc2-str (ideographic-character-get-structure (nth 3 enc-str)))
 	  (when (and enc2-str
 		     (eq (car enc2-str) ?⿰))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿲
 				(nth 1 enc2-str)
 				(nth 2 structure)
@@ -1553,17 +1609,20 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿳ (nth 1 enc-str) (nth 2 enc-str) new-str-c)
-		  612)
+	    (if conversion-only
+		(list ?⿳ (nth 1 enc-str) (nth 2 enc-str) new-str-c)
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿳ (nth 1 enc-str) (nth 2 enc-str) new-str-c)
+		    612))
 	    )
 	  )
 	 ((eq (car enc-str) ?⿲)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
 	  (setq new-str (list ?⿱
 			      (nth 2 enc-str)
 			      (nth 2 structure)))
@@ -1571,19 +1630,22 @@ COMPONENT can be a character or char-spec."
 		(if (setq ret (ideographic-structure-find-chars new-str))
 		    (car ret)
 		  (list (cons 'ideographic-structure new-str))))
-	  (setq a-res (ids-find-chars-including-ids new-str))
-	  (list enc
-		f-res
-		new-str-c
-		a-res
-		(list ?⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
-		620)
+	  (if conversion-only
+	      (list ?⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
+		  620))
 	  )
 	 ((eq (car enc-str) ?⿴)
 	  (setq enc2-str (ideographic-character-get-structure (nth 1 enc-str)))
 	  (when (and enc2-str
 		     (eq (car enc2-str) ?⿰))
-	    (setq f-res (ids-find-chars-including-ids enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿱
 				(nth 2 enc-str)
 				(nth 2 structure)))
@@ -1591,13 +1653,15 @@ COMPONENT can be a character or char-spec."
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
-	    (setq a-res (ids-find-chars-including-ids new-str))
-	    (list enc
-		  f-res
-		  new-str-c
-		  a-res
-		  (list ?⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
-		  630)
+	    (if conversion-only
+		(list ?⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
+		    630))
 	    )
 	  )))
       )
@@ -1612,16 +1676,19 @@ COMPONENT can be a character or char-spec."
 			 )))
 	(cond
 	 ((eq (car enc-str) ?⿱)
-	  (setq f-res (ids-find-chars-including-ids enc-str))
-	  (list enc
-		f-res
-		new-str
-		nil
-		(list ?⿳
-		      (nth 1 enc-str)
-		      (nth 2 structure)
-		      (nth 2 enc-str))
-		911)
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	  (if conversion-only
+	      (list ?⿳ (nth 1 enc-str) (nth 2 structure) (nth 2 enc-str))
+	    (list enc
+		  f-res
+		  new-str
+		  nil
+		  (list ?⿳
+			(nth 1 enc-str)
+			(nth 2 structure)
+			(nth 2 enc-str))
+		  911))
 	  )))
       ))
     ))
