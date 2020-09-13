@@ -1,6 +1,15 @@
 2020-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent):
+	- Implement rule-415: ⿴⿳A囗BC -> ⿱⿱A⿴囗CB.
+	- Implement rule-416: ⿴⿳A冖BC -> ⿱⿱⿱A冖CB.
+	- Implement rule-417: ⿴⿳A&CDP-89A6;BC -> ⿱A⿸⿱C&CDP-89A6;B.
+	- Implement rule-419 (fallback): ⿴⿳AEBC -> ⿱⿱A⿻ECB.
+
+2020-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
 	(functional-ideographic-structure-to-apparent-structure): New
 	implementation; use
 	`ideographic-structure-compare-functional-and-apparent'.	
