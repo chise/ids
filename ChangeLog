@@ -1,3 +1,12 @@
+2020-10-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021CA1): Use "⿸𡰮x" instead of
+	"⿱凵⿸尸刀"; use "𠆦" instead of "⿺𠃊⿱人一".
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): Implement
+	rule-710: ⿷⿺NAC -> ⿺N⿱AC.
+
 2020-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-000243BF): Use "⿱𡔯x" instead of
