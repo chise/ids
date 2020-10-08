@@ -1,3 +1,30 @@
+2020-10-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D81D): Use U+5303 instead of UU+5303.
+	(U+2E30D): Likewise.
+	(U+2E30E): Likewise.
+	(U+2E310): Unify fields.
+	(U+2E313): Completed.
+	(U+2E824): Use U+5303 instead of UU+5303.
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+9AA8 instead of JU+9AA8.
+	- Use "㪅" instead of "⿱丙攴".
+	(U-0002933B): Use "𠊳" instead of "⿰亻⿱丙攴".
+	(U-000297D3): Use U+84A6 instead of BC-8CB0.
+	(U-00029A84): Use "𢀡" instead of "⿱左左".
+	(U-00029A92): Use "⿱艹𦒳" instead of "⿳艹耂工".
+	(U-00029AA8): Use "𢾍" instead of "⿰⿱出方攴".
+	(U-00029AAB): Completed.
+	(U-00029AAD): Use U+84A6 instead of BC-8CB0.
+
+2020-10-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000222F2): Use "𡧢" instead of
+	"⿳宀工八".
+
+	* IDS-UCS-Ext-B-4.txt (U-0002782C): Use "㠩" instead of "⿱亾𫶧".
+
 2020-10-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021CA1): Use "⿸𡰮x" instead of
