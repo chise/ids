@@ -1,5 +1,17 @@
 2020-10-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022826): Use U-00026C29 instead of
+	BC-8BD3.
+	(U-00022827): Use "𡕩" instead of "⿳囟八夂".
+	(U-000228E7): Use "𧇊" instead of "⿰虚亏".
+	(U-000228F1): Use "𣗥" instead of "⿰束束".
+	(U-00022D01): Use U-00026C29 instead of BC-8BD3.
+	(U-000237EE): Fixed; use "𡕩" instead of "⿳囟八夂".
+	(U-000237F4): Use "𢩠" instead of "⿸戶睘".
+	(U-000237FE): Use "繇" instead of "⿰䍃系".
+	(U-00023806): Use "𣗥" instead of "⿰束束".
+	(U-00023941): Use "⿰𪄿x" instead of "⿲𦰩鳥x".
+
 	* IDS-UCS-Ext-F.txt (U+2D81D): Use U+5303 instead of UU+5303.
 	(U+2E30D): Likewise.
 	(U+2E30E): Likewise.
