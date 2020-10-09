@@ -555,15 +555,8 @@
 
 ;;;###autoload
 (defun ideographic-structure-find-chars (structure)
-  (apply #'ideographic-structure-find-chars* structure))
-
-(defun ideographic-structure-find-chars* (operator component1 component2
-						   &optional component3)
-  (let ((comp-alist (ideographic-structure-to-components-alist*
-		     operator component1 component2 component3))
-	c1 c2 c3
-	ret pl str
-	var-alist)
+  (let ((comp-alist (ideographic-structure-to-components-alist structure))
+	ret pl str)
     (dolist (pc (caar
 		 (sort (mapcar (lambda (cell)
 				 (if (setq ret (get-char-attribute
@@ -574,21 +567,7 @@
 		       (lambda (a b)
 			 (< (cdr a)(cdr b))))))
       (when (and (setq str (get-char-attribute pc 'ideographic-structure))
-		 (setq var-alist
-		       (ideographic-structure-character= (car str) operator))
-		 (setq c1 (nth 1 str))
-		 (setq ret (ideographic-structure-character= c1 component1))
-		 (setq var-alist (ids-find-merge-variables var-alist ret))
-		 (setq c2 (nth 2 str))
-		 (setq ret (ideographic-structure-character= c2 component2))
-		 (setq var-alist (ids-find-merge-variables var-alist ret))
-		 (cond ((memq (car str) '(?\u2FF2 ?\u2FF3))
-			(setq c3 (nth 3 str))
-			(and (setq ret (ideographic-structure-character=
-					c3 component3))
-			     (ids-find-merge-variables var-alist ret))
-			)
-		       (t var-alist)))
+		 (ideographic-structure-equal str structure))
 	(setq pl (cons pc pl))
 	))
     pl))
@@ -1138,7 +1117,7 @@ COMPONENT can be a character or char-spec."
 (defun ideographic-structure-compare-functional-and-apparent (structure
 							      &optional char
 							      conversion-only)
-  (let (enc enc-str enc2-str new-str new-str-c f-res a-res code ret)
+  (let (enc enc-str enc2-str new-str new-str-c f-res a-res ret)
     (cond
      ((eq (car structure) ?⿸)
       (setq enc (nth 1 structure))
