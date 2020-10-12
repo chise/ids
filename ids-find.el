@@ -566,8 +566,12 @@
 			       comp-alist)
 		       (lambda (a b)
 			 (< (cdr a)(cdr b))))))
-      (when (and (setq str (get-char-attribute pc 'ideographic-structure))
-		 (ideographic-structure-equal str structure))
+      (when (or (and (setq str
+			   (get-char-attribute pc 'ideographic-structure))
+		     (ideographic-structure-equal str structure))
+		(and (setq str
+			   (get-char-attribute pc 'ideographic-structure@apparent))
+		     (ideographic-structure-equal str structure)))
 	(setq pl (cons pc pl))
 	))
     pl))
