@@ -1,5 +1,10 @@
 2020-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-find.el (ideographic-structure-find-chars): Support
+	`ideographic-structure@apparent'.
+
+2020-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* ids-find.el (ideographic-structure-find-chars): New
 	implementation.
 	(ideographic-structure-find-chars*): Abolished.
