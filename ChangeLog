@@ -1,3 +1,14 @@
+2020-10-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-01.txt (M-00136): Use apparent structure "⿱乊𠂇"
+	instead of "⿱丿⿻𠂇丷".
+
+	* IDS-CDP.txt (CDP-85D2): Use apparent structure "⿱乊𠂇" instead
+	of "⿱丿⿻𠂇丷".
+
+	* IDS-UCS-Ext-B-1.txt (U-0002009F): Use apparent structure
+	"⿱乊𠂇" instead of "⿱丿⿻𠂇丷".
+
 2020-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el (ideographic-structure-find-chars): Support
