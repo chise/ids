@@ -1,4 +1,100 @@
+2020-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ideographic-chars-to-is-a-tree): Use `copy-tree' to
+	avoid destroy `chars' by function `sort'.
+	(ids-find-chars-including-ids*): Abolished.
+	(ids-find-chars-including-ids): New implementation.
+
+	* IDS-UCS-Ext-B-2.txt (U-0002294D): Use "𭄘" instead of
+	"⿰⿱丣金刂".
+
 2020-10-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000240C0): Use "隷" instead of "⿰𰧭隶".
+	(U-00024109): Use "𭄘" instead of "⿰⿱丣金刂".
+	(U-00024ABD): Use "𧇖" instead of "⿸虍⿱&GT-K00859;目".
+	(U-00024ABE): Use "㻺" instead of "⿸厤玉".
+	(U-000259E0): Use "⿱x⿱𡖅y" instead of "⿳x⿰夕匕y".
+	(U-00025DBE): Use "隷" instead of "⿰𰧭隶".
+	(U-00025DC2): Use "⿱x𢍮" instead of "⿳x&CDP-85AB;廾".
+	(U-00025DC5): Use "㷴" instead of "⿸厤火".
+	(U-00025DCC): Use "⿱x憨" instead of "⿳x敢心".
+	(U-00025DDF): Use "𣶙" instead of "⿰沝欠".
+	(U-00025DE1): Use "㷿" instead of "⿰火僉".
+	(U-00025DE2): Use "𭄘" instead of "⿰⿱丣金刂".
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "𦓔" instead of "⿱而而".
+	- Use "𡘆" instead of "⿱𡗜亏".
+	- Use "𢾕" instead of "⿰⿱出方攵".
+	- Use "㬅" instead of "⿱&CDP-8CBF;方".
+	- Use "虘" instead of "⿸虍且".
+	- Use "䖍" instead of "⿸虍攵".
+	- Use "𡕩" instead of "⿳囟儿夂".
+	- Use "歮" instead of "⿱止⿰止止".
+	(U-00026086): Use "廻" instead of "⿺廴回".
+	(U-0002608A): Use "㚆" instead of "⿳亠日夊".
+	(U-0002608F): Use "秌" instead of "⿲x火禾".
+	(U-000263CE): Fixed; use "善" instead of "⿱⺷⿱䒑口".
+	(U-0002658E): Use "𢦟" instead of "⿹戈今".
+	(U-000265E6): Use "𨥌" instead of "⿰金氏".
+	(U-000265EB): Use "𦲸" instead of "⿱艹雨".
+	(U-0002661F): Use "𢻻" instead of "⿰戶攴".
+	(U-000266D0): Use "𠂬" instead of "⿸𠂆巴".
+	(U-00026736): Use "㫄" instead of "⿱亠⿹勹方".
+	(U-00026737): Use "𢘆" instead of "⿰忄⿱一日".
+	(U-00026738): Use "𡧘" instead of "⿱宀𬺻".
+	(U-00026739): Use "𢻻" instead of "⿰戶攴".
+	(U-000267E9): Use "𡘹" instead of "⿱大⿻𦥑乚".
+	(U-000267ED): Use "肋" instead of "⿰⺼力".
+	(U-000268BB): Use "⿸䧹x" instead of "⿸广⿱倠x".
+	(U-00026A84): Use "𦤃" instead of "⿱自王".
+	(U-00026AAE): Fixed.
+	(U-00026AB6): Use "䗍" instead of "⿱彖虫".
+	(U-00026F67): Use "䅎" instead of "⿰禾秀".
+	(U-00026F70): Use "茅" instead of "⿱艹矛".
+	(U-00026F72): Use "⿱x裘" instead of "⿳x求衣".
+	(U-00026F73): Use "⿱x愚" instead of "⿳x禺心".
+	(U-00026F76): Use "椰" instead of "⿰木耶".
+	(U-00026F79): Use "冒" instead of "⿱⺜目".
+	(U-000270A6): Use "𣚊" instead of "⿰木⿱而而".
+	(U-000270A7): Use "澷" instead of "⿰氵⿱&CDP-8CBF;方".
+	(U-0002735A): Use "廻" instead of "⿺廴回".
+	(U-000273C5): Use "𢼜" instead of "⿰亦攵".
+	(U-000273C7): Use "𭃤" instead of "⿰豸刂".
+	(U-000273C8): Use "𡇢" instead of "⿴囗𦣻".
+	(U-000273D1): Use "竝" instead of "⿰立立".
+	(U-0002787B): Use "𡇢" instead of "⿴囗𦣻".
+	(U-00027A7D): Use "享" instead of "⿳亠&CDP-89CC;子".
+	(U-00027A89): Use "𡘚" instead of "⿱大衣".
+	(U-00027A8B): Use "苾" instead of "⿱艹必".
+	(U-00027A90): Use "苹" instead of "⿱艹平".
+	(U-00027A99): Use "峲" instead of "⿱山利".
+	(U-00027AB1): Use "𠣬" instead of "⿱旬兮".
+	(U-00027AB4): Use "⿰x𤝵" instead of "⿲x犭⿱山王".
+	(U-00027AB7): Use "𠀠" instead of "⿴廿㐅".
+	(U-00027ABB): Use "竝" instead of "⿰立立".
+	(U-00027AC8): Use "䚴" instead of "⿰言月".
+	(U-00027ACD): Use "𦤃" instead of "⿱自王".
+	(U-00027ACE): Use "恣" instead of "⿱次心".
+	(U-00027AD2): Use "𡨧" instead of "⿱宀卒".
+	(U-00027ADF): Use "𨾎" instead of "⿱夨隹".
+	(U-00027AEA): Use "𧆩" instead of "⿸虍⿰&CDP-8CAC;人".
+	(U-00027AEE): Use "屛" instead of "⿸尸幷".
+	(U-00027AF0): Use "𢈻" instead of "⿸广疌".
+	(U-00027AF4): Completed.
+	(U-00027AF8): Use "𤿤" instead of "⿱竹皮".
+	(U-00027AFA): Use "盗" instead of "⿱次皿".
+	(U-00027B04): Use "⿰x䠶" instead of "⿲x身矢".
+	(U-00027D08): Use "竟" instead of "⿳立日儿".
+	(U-00027D09): Use "晜" instead of "⿱日弟".
+	(U-00027E1B): Use "⿸䧹x" instead of "⿸广⿱倠x".
+	(U-00027E1E): Use "⿸𢾕x" instead of "⿰⿱出方⿱⺙x".
+	(U-00027E23): Completed.
+	(U-00027E25): Fixed.
+	(U-00027E35): Use "賏" instead of "⿰貝貝".
+	(U-00027E36): Use "鋞" instead of "⿰金巠".
+	(U-00027E3B): Fixed.
 
 	* IDS-Daikanwa-01.txt (M-00136): Use apparent structure "⿱乊𠂇"
 	instead of "⿱丿⿻𠂇丷".
