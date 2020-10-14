@@ -664,7 +664,7 @@ COMPONENT can be a character or char-spec."
 (defun ideographic-chars-to-is-a-tree (chars)
   (let (comp char products others dest rest
 	     la lb)
-    (setq chars (sort chars #'ideographic-structure-char<))
+    (setq chars (sort (copy-tree chars) #'ideographic-structure-char<))
     (while chars
       (setq comp (pop chars)
 	    rest chars
@@ -709,45 +709,81 @@ COMPONENT can be a character or char-spec."
       (setq chars others))
     dest))
 
-(defun ids-find-chars-including-ids* (operator component1 component2
-					       &optional component3)
-  (let ((comp-alist (ideographic-structure-to-components-alist*
-		     operator component1 component2 component3))
-	(comp-spec
-	 (list (list* 'ideographic-structure
-		      operator component1 component2
-		      (if component3
-			  (list component3)))))
-	ret str rest)
-    (dolist (pc (caar
-		 (sort (mapcar (lambda (cell)
-				 (if (setq ret (get-char-attribute
-						(car cell) 'ideographic-products))
-				     (cons ret (length ret))
-				   (cons nil 0)))
-			       comp-alist)
-		       (lambda (a b)
-			 (< (cdr a)(cdr b))))))
-      (when (and (every (lambda (cell)
-			  (>= (ideographic-char-count-components pc (car cell))
-			      (cdr cell)))
-			comp-alist)
-		 (or (ideographic-char-match-component pc comp-spec)
-		     (and (setq str (get-char-attribute pc 'ideographic-structure))
-			  (ideographic-char-match-component
-			   (list
-			    (cons
-			     'ideographic-structure
-			     (functional-ideographic-structure-to-apparent-structure
-			      str)))
-			   comp-spec))))
-	(push pc rest)))
-    (ideographic-chars-to-is-a-tree rest)))
+;; (defun ids-find-chars-including-ids* (operator component1 component2
+;;                                                &optional component3)
+;;   (let ((comp-alist (ideographic-structure-to-components-alist*
+;;                      operator component1 component2 component3))
+;;         (comp-spec
+;;          (list (list* 'ideographic-structure
+;;                       operator component1 component2
+;;                       (if component3
+;;                           (list component3)))))
+;;         ret str rest)
+;;     (dolist (pc (caar
+;;                  (sort (mapcar (lambda (cell)
+;;                                  (if (setq ret (get-char-attribute
+;;                                                 (car cell) 'ideographic-products))
+;;                                      (cons ret (length ret))
+;;                                    (cons nil 0)))
+;;                                comp-alist)
+;;                        (lambda (a b)
+;;                          (< (cdr a)(cdr b))))))
+;;       (when (and (every (lambda (cell)
+;;                           (>= (ideographic-char-count-components pc (car cell))
+;;                               (cdr cell)))
+;;                         comp-alist)
+;;                  (or (ideographic-char-match-component pc comp-spec)
+;;                      (and (setq str (get-char-attribute pc 'ideographic-structure))
+;;                           (ideographic-char-match-component
+;;                            (list
+;;                             (cons
+;;                              'ideographic-structure
+;;                              (functional-ideographic-structure-to-apparent-structure
+;;                               str)))
+;;                            comp-spec))))
+;;         (push pc rest)))
+;;     (ideographic-chars-to-is-a-tree rest)))
 
 (defun ids-find-chars-including-ids (structure)
-  (if (characterp structure)
-      (setq structure (get-char-attribute structure 'ideographic-structure)))
-  (apply #'ids-find-chars-including-ids* structure))
+  (let (comp-alist comp-spec ret str rest)
+    (cond
+     ((characterp structure)
+      (setq rest (copy-tree (get-char-attribute structure 'ideographic-products)))
+      )
+     ((setq ret (ideographic-structure-find-chars structure))
+      (dolist (pc ret)
+	(setq rest
+	      (union rest
+		     (copy-tree (get-char-attribute pc 'ideographic-products)))))
+      )
+     (t
+      (setq comp-alist (ideographic-structure-to-components-alist structure)
+	    comp-spec (list (cons 'ideographic-structure structure)))
+      (dolist (pc (caar
+		   (sort (mapcar (lambda (cell)
+				   (if (setq ret (get-char-attribute
+						  (car cell) 'ideographic-products))
+				       (cons ret (length ret))
+				     (cons nil 0)))
+				 comp-alist)
+			 (lambda (a b)
+			   (< (cdr a)(cdr b))))))
+	(when (and (every (lambda (cell)
+			    (>= (ideographic-char-count-components pc (car cell))
+				(cdr cell)))
+			  comp-alist)
+		   (or (ideographic-char-match-component pc comp-spec)
+		       (and (setq str (get-char-attribute pc 'ideographic-structure))
+			    (ideographic-char-match-component
+			     (list
+			      (cons
+			       'ideographic-structure
+			       (functional-ideographic-structure-to-apparent-structure
+				str)))
+			     comp-spec))))
+	  (push pc rest)))
+      ))
+    (ideographic-chars-to-is-a-tree rest)))
 
 (defun functional-ideographic-structure-to-apparent-structure (structure)
   (ideographic-structure-compare-functional-and-apparent
