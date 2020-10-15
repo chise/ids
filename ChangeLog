@@ -1,5 +1,10 @@
 2020-10-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2D408): Use U+5FBD instead of UU+5FBD.
+	(U+2D409): Use U-00023FD5 instead of IU+23FD5.
+
+2020-10-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-F.txt:
 	- Use U+76B7 instead of UU+76B7.
 	- Use U+51AC instead of UU+51AC.
