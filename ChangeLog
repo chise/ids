@@ -1170,6 +1170,10 @@
 	* IDS-UCS-Ext-B-3.txt (U-00025DF6): Use "⿱x𫲓" instead of
 	"⿱⿳x亡⺫⿲月女凡".
 
+2020-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.99.1.
+
 2020-06-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+38F8): Use "㽔" instead of "⿺⿱&CDP-85F0;豕生".
