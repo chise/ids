@@ -1,5 +1,17 @@
 2020-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-find.el (ids-insert-chars-including-components*): Use
+	`copy-list' instead of `copy-tree' to avoid list corruption by
+	function `sort'.
+	(ids-insert-chars-including-components): Likewise.
+	(ideo-comp-tree-adjoin): New function.
+	(ideographic-chars-to-is-a-tree): New implementation; use
+	`ideo-comp-tree-adjoin'.
+	(ids-find-chars-including-ids): Use `copy-list' instead of
+	`copy-tree' to avoid list corruption by function `sort'.
+
+2020-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* ids-find.el (ideographic-chars-to-is-a-tree): Use `copy-tree' to
 	avoid destroy `chars' by function `sort'.
 	(ids-find-chars-including-ids*): Abolished.
@@ -104,6 +116,11 @@
 
 	* IDS-UCS-Ext-B-1.txt (U-0002009F): Use apparent structure
 	"⿱乊𠂇" instead of "⿱丿⿻𠂇丷".
+
+2020-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Add code to compact
+	`ideographic-structure@apparent'.
 
 2020-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
