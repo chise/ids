@@ -1,3 +1,18 @@
+2020-10-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002228D): Use "𭔰" instead of "⿰豆寸".
+	(U-00022CA1): Use "拿" instead of "⿱合手".
+	(U-000235EB): Completed.
+	(U-000235ED): Completed.
+	(U-000235EF): Use "拿" instead of "⿱合手".
+	(U-000235F3): Use "⿰x𭔰" instead of "⿲x豆寸".
+	(U-000235F7): Modify structure.
+	(U-000235F8): Modify structure.
+	(U-00023602): Use "埃" instead of "⿰土矣".
+	(U-00023605): Fixed.
+	(U-0002360E): Use "羗" instead of "⿻羌厶".
+	(U-00023611): Fixed.
+
 2020-10-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020196): Modify structure.
@@ -3364,7 +3379,7 @@
 	- Use "𠱠" instead of "⿲口口口"
 	(U-0002078D): Fixed.
 	(U-00020E03): Use "㢲" instead of "⿳⿰弓弓一八".
-	(U-00020EF0): Use "⿸丂x" instead of "⿱一⿰&CDP-88CD;x".
+	(U-00020EF0): Use "⿸丂x" instead of "⿱一⿰𠃑x".
 	(U-000214FA): Fixed.
 	(U-000214FB): Completed.
 	(U-00021E2C): Fixed.
@@ -4179,7 +4194,7 @@
 	- Use "龱" instead of "⿴囗㐅".
 	(U-00020502): Completed.
 	(U-00020504): Likewise.
-	(U-00020BB2): Use "亐" instead of "⿻&CDP-88CD;二".
+	(U-00020BB2): Use "亐" instead of "⿻𠃑二".
 	(U-0002115B): Use "毚" instead of "⿱㲋兔".
 	(U-000218A7): Use BC-8BAE instead of "⿱亠丷".
 	(U-00021D13): Use U+56DF-itaiji-001 instead of "⿱丿⿵冂㐅".
