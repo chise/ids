@@ -1,5 +1,9 @@
 2020-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt: Use U+590C instead of CU+590C.
+
+2020-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt (U-00023A0F): Use "𠬸" instead of
 	"⿱⿵冂巳又".
 	(U-00023D2C): Likewise.
