@@ -45,7 +45,8 @@
       (let* ((chr (aref string 0))
 	     (ucs (encode-char chr '=ucs 'defined-only))
 	     big5)
-	(unless (and ucs (<= #x2FF0 ucs)(<= ucs #x2FFF))
+	(unless (or (and ucs (<= #x2FF0 ucs)(<= ucs #x2FFF))
+		    (eq (encode-char chr '=ucs-itaiji-001) #x2FF9))
 	  (if (and ucs (<= #xE000 ucs)(<= ucs #xF8FF)
 		   (setq big5 (encode-char chr 'chinese-big5)))
 	      (setq chr (decode-char '=big5-cdp big5)))
@@ -56,9 +57,11 @@
   (if (>= (length string) 1)
       (let* ((chr (aref string 0))
 	     (ucs (encode-char chr '=ucs 'defined-only)))
-	(if (or (eq ucs #x2FF0)
-		(eq ucs #x2FF1)
-		(and (<= #x2FF4 ucs)(<= ucs #x2FFB)))
+	(if (or (and ucs
+		     (or (eq ucs #x2FF0)
+			 (eq ucs #x2FF1)
+			 (and (<= #x2FF4 ucs)(<= ucs #x2FFB))))
+		(eq (encode-char chr '=ucs-itaiji-001) #x2FF9))
 	    (cons chr
 		  (substring string 1))))))
 
