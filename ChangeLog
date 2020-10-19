@@ -1,3 +1,54 @@
+2020-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023A0F): Use "𠬸" instead of
+	"⿱⿵冂巳又".
+	(U-00023D2C): Likewise.
+
+2020-10-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "㷠" instead of "⿱炎舛".
+	- Use "穿" instead of "⿱穴牙".
+	(U-00024165): Use "𩰥" instead of "⿳爫⺫⿰鬯又".
+	(U-0002442F): Use "𠎤" instead of "⿳亼吅𠕁".
+	(U-000244C1): Use "𨶒" instead of "⿵門舀".
+	(U-000244C5): Use "𪐗" instead of "⿱𡆧炎"; use "𡱂" instead of
+	"⿸尸⿱兀几".
+	(U-000244CD): Use "鏖" instead of "⿸鹿金".
+	(U-000244CF): Use "⿸𢉖x" instead of "⿸&CDP-8D56;⿱⿰厶厶x".
+	(U-000244D0): Use "㷦" instead of "⿱耿灬".
+	(U-000244DA): Use "⿱𦏁x" instead of "⿳𦍌&CDP-8DBA;x".
+	(U-000244DC): Use "䵗" instead of "⿰黍畐".
+	(U-000244E1): Use "𩰥" instead of "⿳爫⺫⿰鬯又".
+	(U-000252E6): Use "⿸𢉖x" instead of "⿸&CDP-8D56;⿱⿰厶厶x".
+	(U-000252E8): Use "麀" instead of "⿸&CDP-8D56;⿱比匕".
+	(U-000252EA): Use "微" instead of "⿰彳𣁋".
+	(U-000252EF): Use "詧" instead of "⿱⿰&CDP-88F0;&CDP-8C4E;言".
+	(U-000252F1): Use "䀄" instead of "⿱宓皿".
+	(U-000252FA): Use "𡩹" instead of "⿳宀爫臼".
+	(U-000252FB): Use "𧵽" instead of "⿱网貝".
+	(U-00025309): Use "𠎤" instead of "⿳亼吅𠕁".
+	(U-00025A12): Use "𠭥" instead of "⿰祟又".
+	(U-00025A13): Use "鈘" instead of "⿰金支".
+	(U-00025A14): Use "䎜" instead of "⿰老老".
+	(U-00025A16): Use "䂓" instead of "⿰矢見".
+	(U-00025A1C): Use "弆" instead of "⿱去廾".
+	(U-00025A29): Use "奥" instead of "⿱⿱丿⿵冂米大".
+	(U-00025A2B): Use "𪓑" instead of "⿱丿黽".
+	(U-00025A41): Use "𥱩" instead of "⿱竹⿰幸人".
+	(U-00025A4A): Use "𦓈" instead of "⿱老⿰老老".
+	(U-00025A4B): Use "⿱x鼀" instead of "⿳x圥黽".
+	(U-00025A50): Use "𧸇" instead of "⿳圥囧貝".
+
+2020-10-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.el (ids-parse-terminal): Treat U+2FF9-itaiji-001.
+	(ids-parse-op-2): Likewise.
+
+	* IDS-UCS-Ext-B-1.txt (U-000206D7): Fixed; use "厺" instead of
+	"⿱大厶".
+	(U-000206D8): Fixed.
+
 2020-10-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt: Use U+5145 instead of U+FA74.
