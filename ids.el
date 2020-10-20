@@ -46,7 +46,8 @@
 	     (ucs (encode-char chr '=ucs 'defined-only))
 	     big5)
 	(unless (or (and ucs (<= #x2FF0 ucs)(<= ucs #x2FFF))
-		    (eq (encode-char chr '=ucs-itaiji-001) #x2FF9))
+		    (memq (encode-char chr '=ucs-itaiji-001)
+			  '(#x2FF9 #x2FF6)))
 	  (if (and ucs (<= #xE000 ucs)(<= ucs #xF8FF)
 		   (setq big5 (encode-char chr 'chinese-big5)))
 	      (setq chr (decode-char '=big5-cdp big5)))
@@ -61,7 +62,8 @@
 		     (or (eq ucs #x2FF0)
 			 (eq ucs #x2FF1)
 			 (and (<= #x2FF4 ucs)(<= ucs #x2FFB))))
-		(eq (encode-char chr '=ucs-itaiji-001) #x2FF9))
+		(memq (encode-char chr '=ucs-itaiji-001)
+		      '(#x2FF9 #x2FF6)))
 	    (cons chr
 		  (substring string 1))))))
 
