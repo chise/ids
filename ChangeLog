@@ -1,5 +1,25 @@
 2020-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt: Use "㷠" instead of "⿱炎舛".
+	(U-000281A6): Use "筫" instead of "⿱竹貝".
+	(U-000281B1): Use "凴" instead of "⿱馮几".
+	(U-000281B8): Use "愿" instead of "⿸原心".
+	(U-00028F45): Completed.
+	(U-00029F2A): Use "𩺰" instead of "⿱魚魚".
+	(U-00029F30): Use "慈" instead of "⿳艹𢆶心".
+	(U-00029F32): Use "慐" instead of "⿱貢心".
+	(U-00029F3A): Use "蒼" instead of "⿱艹倉".
+
+	* IDS-UCS-Ext-B-1.txt (U-000207EC): Use "筫" instead of "⿱竹貝".
+	(U-000207EE): Use "𤋳" instead of "⿱⿴𠮥仌火".
+	(U-000207F7): Use "𨽶" instead of "⿱隶田".
+	(U-000207FD): Use "𦵯" instead of "⿱艹害".
+	(U-000207FF): Fixed.
+	(U-00020805): Use "𬃷" instead of "⿱束束".
+	(U-00020808): Use U+84BC instead of CU+84BC.
+	(U-00021039): Use "筫" instead of "⿱竹貝".
+	(U-000218D2): Use "𬃷" instead of "⿱束束".
+
 	* ids.el (ids-parse-terminal): Treat U+2FF6-itaiji-001.
 
 	* IDS-UCS-Ext-F.txt: Use U+9EFD instead of UU+9EFD.
