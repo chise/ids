@@ -1,3 +1,27 @@
+2020-10-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "厸" instead of "⿰厶厶".
+	- Use "𡷈" instead of "⿱山⿰山山".
+	(U-000221ED): Completed.
+	(U-000221EF): Use "仅" instead of "⿰亻又".
+	(U-00022244): Use "欦" instead of "⿰今欠".
+	(U-0002226C): Use "垔" instead of "⿱覀土".
+	(U-00022282): Use "𭍠" instead of "⿱龶回".
+	(U-00022288): Use "𡨝" instead of "⿳宀&GT-K00859;夕".
+	(U-00022290): Use "𰲚" instead of "⿸⺁⿸虍人".
+	(U-00022291): Use "𤰇" instead of "⿱𠀗用".
+	(U-000222A0): Use "⿸麻x" instead of "⿸广⿱林x".
+	(U-000222A2): Ditto.
+	(U-000222A8): Use "䋈" instead of "⿱奴糸".
+	(U-000222AD): Use "𧙯" instead of "⿱龹衣".
+	(U-0002240F): Use "𰲚" instead of "⿸⺁⿸虍人".
+	(U-000233D8): Use "仅" instead of "⿰亻又".
+	(U-00023628): Use "𧙃" instead of "⿻衣可".
+	(U-0002378F): Use "⿱x䂞" instead of "⿳x石木".
+	(U-000239A3): Use "𣥕" instead of "⿱止止".
+	(U-00023F71): Use "厽" instead of "⿱厶⿰厶厶".
+
 2020-10-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+9421): Fixed.
