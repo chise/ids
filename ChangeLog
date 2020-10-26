@@ -1,3 +1,42 @@
+2020-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002386D): Fixed.
+
+2020-10-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022BEA): Use "㡿" instead of "⿸广屰".
+	(U-00022BEC): Use "㪅" instead of "⿱丙攴".
+	(U-00023533): Use "㡿" instead of "⿸广屰".
+	(U-00023575): Use U+82D3 instead of CU+82D3.
+	(U-0002357F): Use "⿴𣐁x" instead of "⿳&CDP-8D52;x木".
+	(U-00023580): Use "㪅" instead of "⿱丙攴".
+	(U-0002358A): Use "𣧄" instead of "⿱巛歹".
+	(U-00023852): Use "勸" instead of "⿰雚力".
+	(U-00023853): Use "籃" instead of "⿱竹監".
+	(U-00023857): Use "𣛕" instead of "⿰果果".
+	(U-00023870): Use "⿱x𣡗" instead of "⿳x果⿰果果".
+	(U-0002387E): Use "𣛕" instead of "⿰果果".
+	(U-00023A26): Use U-0002D7F2 instead of hanaJU+2D7F2.
+	(U-00023A2F): Use "昏" instead of "⿱氏日".
+	(U-00023A38): Use "𣧄" instead of "⿱巛歹".
+	(U-00023E18): Use "迱" instead of "⿺辶它".
+	(U-00023E19): Use "⿰x𠱡" instead of "⿲x口𠕋".
+	(U-00023E1A): Use "⿰x虵" instead of "⿲x虫也".
+	(U-00023E1D): Use "𦏺" instead of "⿱工羽".
+	(U-00023E1F): Use "⿰x⿰𣧄y" instead of "⿲x⿱巛歹y".
+	(U-00023E20): Modify structure.
+	(U-00023E24): Use "𬙙" instead of "⿱⺫方".
+	(U-00023E27): Use "⿱㓁𡗜" instead of "⿳冖八𡗜".
+
+2020-10-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020EFE): Confirmed.
+	(U-00020EFF): Use "產" instead of "⿱文⿸厂生".
+	(U-00021151): Use "顒" instead of "⿰禺頁".
+	(U-00021FC5): Ditto.
+	(U-00021FD0): Use U+9761 instead of JU+9761.
+	(U-00021FD1): Use "䚬" instead of "⿰角粦".
+
 2020-10-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+35C4): Use "𬙙" instead of "⿱⺫方".
