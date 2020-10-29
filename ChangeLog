@@ -1,3 +1,16 @@
+2020-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021BF6): Fixed.
+	(U-00021BF9): Use "𠂽" instead of "⿱甶⿱一&CDP-8CC6;".
+
+2020-10-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent):
+	- Implement rule-811: ⿺⿱𠃊BC -> ⿱⿺𠃊CB.
+	- Implement rule-812: ⿺⿱木B丶 -> ⿱⿺木丶B.
+	- Implement rule-813: ⿺⿱LBC -> ⿱⿰LCB if B is not nyou.
+
 2020-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002386D): Fixed.
