@@ -1,3 +1,38 @@
+2020-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024062): Use "⿰x𢧵" instead of
+	"⿲x雀戈".
+	(U-0002406C): Use U+8525 instead of CU+8525.
+	(U-0002406F): Use U+5DE4 instead of BC-8D47.
+	(U-00024070): Modify structure.
+	(U-00024076): Use "𤕨" instead of "⿱𠆢&CDP-85AE;".
+	(U-00024079): Use "䦝" instead of "⿵門赤".
+	(U-0002407C): Use "⿰x𥻊" instead of "⿲x𠤕⿱又米".
+	(U-0002407D): Use "䁝" instead of "⿱𤇾目".
+	(U-00024088): Fixed.
+	(U-00024462): Use U+8525 instead of CU+8525.
+	(U-0002493E): Use "𣲇" instead of "⿰氵亍".
+	(U-00024EF5): Use "𢧵" instead of "⿰雀戈".
+	(U-00025030): Use U+5DE4 instead of BC-8D47.
+	(U-0002579F): Use "𣲇" instead of "⿰氵亍".
+	(U-000258E9): Use "𢧵" instead of "⿰雀戈".
+
+2020-10-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000297E6): Use "𢧵" instead of "⿰雀戈".
+	(U-000298E2): Use U+56F1 instead of U+56EA.
+	(U-000299D9): Use "𤐫" instead of "⿳⿻𦥑囱一火".
+	(U-00029BF0): Use "𢧵" instead of "⿰雀戈".
+	(U-00029DB7): Use U-00029D4B instead of U+9B5A.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A1F2): Use "𢧵" instead of "⿰雀戈".
+	(U-0002A67B): Ditto.
+
+	* IDS-UCS-Ext-B-4.txt: Use "𢧵" instead of "⿰雀戈".
+	(U-000275F5): Use "𠅋" instead of "⿱玄十".
+
+	* IDS-UCS-Basic.txt (U+5DC0): Use "𢧵" instead of "⿰雀戈".
+
 2020-10-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt:
