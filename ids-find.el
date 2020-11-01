@@ -1194,7 +1194,50 @@ COMPONENT can be a character or char-spec."
 		    (list ?⿱  new-str-c (nth 3 enc-str))
 		    419))
 	    ))
-	  )))
+	  )
+	 ((eq (car enc-str) ?⿰)
+	  (cond
+	   ((equal (nth 1 enc-str)(nth 2 enc-str))
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq new-str (list ?⿲
+				(nth 1 enc-str)
+				(nth 2 structure)
+				(nth 2 enc-str)))
+	    (setq new-str-c
+		  (list (cons 'ideographic-structure new-str)))
+	    (if conversion-only
+		new-str
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    new-str
+		    421))
+	    )
+	   (t
+	    (unless conversion-only
+	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq new-str (list ?⿰
+				(nth 2 structure)
+				(nth 2 enc-str)))
+	    (setq new-str-c
+		  (if (setq ret (ideographic-structure-find-chars new-str))
+		      (car ret)
+		    (list (cons 'ideographic-structure new-str))))
+	    (if conversion-only
+		(list ?⿰ (nth 1 enc-str) new-str-c)
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿰ (nth 1 enc-str) new-str-c)
+		    422))
+	    ))
+	  ))
+	)
       )
      ((eq (car structure) ?⿶)
       (setq enc (nth 1 structure))
