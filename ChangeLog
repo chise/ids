@@ -1,5 +1,12 @@
 2020-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt: Use U+864E instead of JU+864E.
+	(U+2E4DE): Completed.
+	(U+2E4DF): Fixed.
+	(U+2E4E0): Modified.
+
+2020-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-3.txt (U-00024062): Use "⿰x𢧵" instead of
 	"⿲x雀戈".
 	(U-0002406C): Use U+8525 instead of CU+8525.
@@ -18,6 +25,27 @@
 	(U-000258E9): Use "𢧵" instead of "⿰雀戈".
 
 2020-10-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use "𬃷" instead of "⿱束束".
+	(U-000221C0): Use "𡰱" instead of "⿸尸工".
+	(U-000221CA): Use "邵" instead of "⿰召⻏".
+	(U-000221D2): Use "𠧒" instead of "⿱⺊乙".
+	(U-000224B5): Use "𤌑" instead of "⿳⿻𦥑幺一火".
+	(U-00022DDF): Use "疐" instead of "⿳&CDP-8D52;田疋".
+	(U-00022DE8): Use "搻" instead of "⿱合⿰手手".
+	(U-00022DFD): Use "槩" instead of "⿱既木".
+	(U-00022DFF): Use "𢧵" instead of "⿰雀戈".
+	(U-00022E00): Use "隷" instead of "⿰𰧭隶".
+	(U-00022E02): Use "𤌑" instead of "⿳⿻𦥑幺一火".
+	(U-00022E0A): Fixed.
+	(U-00023193): Use "𡰱" instead of "⿸尸工".
+	(U-000237CC): Use "隷" instead of "⿰𰧭隶".
+	(U-00023C81): Use "𠧒" instead of "⿱⺊乙".
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent):
+	- Implement rule-421: ⿴⿰AAC -> ⿲ACA.
+	- Implement rule-422: ⿴⿰LRC -> ⿰L⿰CR.
 
 	* IDS-UCS-Ext-B-5.txt (U-000297E6): Use "𢧵" instead of "⿰雀戈".
 	(U-000298E2): Use U+56F1 instead of U+56EA.
