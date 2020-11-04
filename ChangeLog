@@ -1,3 +1,37 @@
+2020-11-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028112): Use "㝡" instead of "⿱宀取".
+	(U-0002872D): Use "𧴦" instead of "⿱匕貝".
+	(U-0002872E): Modify structure.
+	(U-0002873D): Use "扅" instead of "⿸戶多".
+	(U-00028745): Modify structure.
+	(U-00028748): Use "弆" instead of "⿱去廾"; modify structure.
+	(U-00028749): Use "𧴲" instead of "⿱巛貝".
+	(U-0002875C): Fixed.
+	(U-00028762): Use "㝡" instead of "⿱宀取".
+	(U-00028769): Use "𨊴" instead of "⿰車攵".
+	(U-00028785): Fixed.
+	(U-00028786): Use "𧵍" instead of "⿱夗貝".
+	(U-00028794): Use "⿴䣈x" instead of "⿲邑x邑".
+	(U-00028797): Use "羣" instead of "⿱君羊".
+	(U-000287A0): Use "⿴𨛜x" instead of "⿲𨙨x邑".
+	(U-000287AC): Use "𠪨" instead of "⿸厂⿱田坴".
+	(U-000287B0): Use "⿴𨛜x" instead of "⿲𨙨x邑"; use "皂" instead
+	of "⿱白𠤎".
+	(U-000287B5): Use "𧶻" instead of "⿱戼貝".
+	(U-000287B8): Use "⿴䣈x" instead of "⿲邑x邑".
+	(U-000287B9): Use "𧇃" instead of "⿸虍林".
+	(U-00028EE8): Use "𧴲" instead of "⿱巛貝".
+
+	* IDS-UCS-Ext-A.txt: Use U+8864 instead of <CJK RADICAL CLOTHES>.
+	(U+4271): Use "䙔" instead of "⿰⻂區".
+	(U+4668): Use "𮖐" instead of "⿱果衣".
+
+	* IDS-UCS-Ext-F.txt (U+2D5BB): Use U+537D instead of UU+537D.
+	(U+2D796): Use U+83AD instead of JU+83AD.
+	(U+2DC9D): Ditto.
+	(U+2E7B2): Use U+537D instead of UU+537D.
+
 2020-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use U+864E instead of JU+864E.
