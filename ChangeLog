@@ -1,5 +1,28 @@
 2020-11-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U+53C8 instead of GT-K00064.
+	- Use "双" instead of "⿰又又".
+	- Use "㕛" instead of "⿱又又".
+	(U-00020520): Use "亟" instead of "⿱⿻丂⿰口又一".
+	(U-00020693): Modify structure.
+	(U-00020697): Use "凾" instead of "⿶凵⿲口了又".
+	(U-0002083B): Use "反" instead of "⿸厂又".
+	(U-00020B4E): Modify structure.
+	(U-00020B53): Fixed.
+	(U-00020B7E): Modify structure.
+	(U-00020B81): Completed.
+	(U-00020B87): Modify structure.
+	(U-0002126E): Use "𠕀" instead of "⿵冂又".
+	(U-00021273): Use "𭅄" instead of "⿹勹又".
+	(U-000212EA): Likewise.
+	(U-00021395): Use "凾" instead of "⿶凵⿲口了又".
+	(U-00021397): Modify structure.
+	(U-00021668): Modify structure.
+	(U-000216D4): Completed.
+	(U-00021753): Use "𭅄" instead of "⿹勹又".
+	(U-00021AD9): Modify structure.
+
 	* IDS-UCS-Ext-F.txt (U+2D76C): Use U+8650 instead of U-0002F9B3.
 	(U+2DE66): Ditto.
 
