@@ -1,5 +1,22 @@
 2020-11-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt:
+	- Use "⿰x⻏(<CJK RADICAL CITY>)" instead of "⿰x阝(U+961D)".
+	- Use "⿰阝(<CJK RADICAL MOUND TWO>)x" instead of "⿰阝(U+961D)x".
+	(U+48DC): Use "虘" instead of "⿱虍且".
+	(U+49C0): Fixed.
+
+	* IDS-UCS-Basic.txt (U+51FE): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt: Use U+864E instead of <CJK RADICAL TIGER>.
+	(U-00026304): Use "𠕀" instead of "⿵冂又"; modify structure.
+	(U-00026C7D): Use "臥" instead of "⿰臣人".
+	(U-000271EC): Ditto.
+	(U-00027210): Use "⿹唬x" instead of "⿰⿱口x虎".
+	(U-00027DC5): Use "𠕀" instead of "⿵冂又".
+
+2020-11-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt:
 	- Use U+53C8 instead of GT-K00064.
 	- Use "双" instead of "⿰又又".
