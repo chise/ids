@@ -1,3 +1,8 @@
+2020-11-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D76C): Use U+8650 instead of U-0002F9B3.
+	(U+2DE66): Ditto.
+
 2020-11-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028112): Use "㝡" instead of "⿱宀取".
