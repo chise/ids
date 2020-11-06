@@ -1,3 +1,14 @@
+2020-11-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A2D8): Use "𰀕" instead of "⿰丙丙".
+	(U-0002A2D9): Use "𫨂" instead of "⿸厂巾".
+	(U-0002A2DA): Use "竛" instead of "⿰立令".
+	(U-0002A2E3): Use "𦓔" instead of "⿱而而".
+	(U-0002A2E6): Use "㗊" instead of "⿱吅吅".
+	(U-0002A2E7): Use "䠶" instead of "⿰身矢".
+	(U-0002A2F2): Use "㷠" instead of "⿱炎舛".
+	(U-0002A2FA): Use "𩴶" instead of "⿺鬼需".
+
 2020-11-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt:
