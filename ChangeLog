@@ -1,3 +1,17 @@
+2020-11-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A3A3): Use U+342C instead of
+	MJ057397.
+
+	* IDS-UCS-Ext-B-1.txt: Use U+9EBB instead of CU+9EBB.
+	(U-00020321): Use U+9001 instead of CU+9001.
+	(U-00020322): Modify structure.
+	(U-00020333): Use "𦙲" instead of "⿱加肉".
+	(U-00020342): Use "𰠀" instead of "⿱爫呆".
+	(U-0002034B): Completed.
+	(U-00020362): Use "𭄶" instead of "⿱敄力".
+	(U-0002133A): Use "𧈧" instead of "⿱厶虫".
+
 2020-11-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A2D8): Use "𰀕" instead of "⿰丙丙".
