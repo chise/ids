@@ -1,3 +1,30 @@
+2020-11-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+783A): Fixed.
+	(U+7C9D): Fixed.
+
+2020-11-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000268D4): Modify structure.
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use "䪞" instead of "⿱天韭".
+	- Use "𧵩" instead of "⿱朿貝".
+	(U-00023006): Use "羣" instead of "⿱君羊".
+	(U-00023007): Use "睪" instead of "⿱⺫幸".
+	(U-00023703): Use "𤋃" instead of "⿱酋灬".
+	(U-0002370F): Use "寗" instead of "⿱⿱宀必冉".
+	(U-00023711): Fixed.
+	(U-00023718): Use "羣" instead of "⿱君羊".
+	(U-0002371A): Use "惷" instead of "⿱春心".
+	(U-00023D9F): Use "𡶍" instead of "⿳山𠆢亡".
+
+	* IDS-UCS-Ext-B-3.txt (U-000259B4): Modify structure.
+
+2020-11-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use U+9B3C instead of JU+9B3C.
+
 2020-11-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A3A3): Use U+342C instead of
