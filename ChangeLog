@@ -35,7 +35,16 @@
 
 	* IDS-UCS-Ext-B-3.txt (U-000259B4): Modify structure.
 
+	* ids.el (ids-parse-terminal): Treat U+2FF0-var-001 (&U-v001+2FF0;).
+	(ids-parse-op-2): Likewise.
+
 2020-11-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent):	
+	- Treat A-IWDSU+4E06 and U+2E282-itaiji-001 as Tare.
+	- Implement rule-330: &U-i001+2FF6;⿰LRA -> ⿰⿱ALR.
+	- Implement rule-601: ⿵⿱AKC -> ⿱A⿵KC if K is Kamae.
 
 	* IDS-UCS-Ext-B-5.txt: Use U+9B3C instead of JU+9B3C.
 
