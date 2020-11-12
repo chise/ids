@@ -46,6 +46,8 @@
 	     (ucs (encode-char chr '=ucs 'defined-only))
 	     big5)
 	(unless (or (and ucs (<= #x2FF0 ucs)(<= ucs #x2FFF))
+		    (memq (encode-char chr '=ucs-var-001)
+			  '(#x2FF0))
 		    (memq (encode-char chr '=ucs-itaiji-001)
 			  '(#x2FF9 #x2FF6)))
 	  (if (and ucs (<= #xE000 ucs)(<= ucs #xF8FF)
@@ -62,6 +64,8 @@
 		     (or (eq ucs #x2FF0)
 			 (eq ucs #x2FF1)
 			 (and (<= #x2FF4 ucs)(<= ucs #x2FFB))))
+		(memq (encode-char chr '=ucs-var-001)
+		      '(#x2FF0))
 		(memq (encode-char chr '=ucs-itaiji-001)
 		      '(#x2FF9 #x2FF6)))
 	    (cons chr
