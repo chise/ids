@@ -1,3 +1,11 @@
+2020-11-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent):
+	- In the implementation of rule-813 (⿺⿱LBC -> ⿱⿰LCB if B is	
+	  flat-head), refer `ideographic-structure@apparent' as the same
+	  as `ideographic-structure'; accept U+4E00 as B.
+
 2020-11-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2C26B): Modify structure.
