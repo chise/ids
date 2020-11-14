@@ -1526,11 +1526,19 @@ COMPONENT can be a character or char-spec."
       (setq enc (nth 1 structure))
       (when (setq enc-str
 		  (cond ((characterp enc)
-			 (get-char-attribute enc 'ideographic-structure)
+			 (or (get-char-attribute enc 'ideographic-structure)
+			     (get-char-attribute enc 'ideographic-structure@apparent))
 			 )
 			((consp enc)
-			 (cdr (assq 'ideographic-structure enc))
+			 (or (cdr (assq 'ideographic-structure enc))
+			     (cdr (assq 'ideographic-structure@apparent enc)))
 			 )))
+	(setq enc-str
+	      (mapcar (lambda (cell)
+			(or (and (listp cell)
+				 (find-char cell))
+			    cell))
+		      enc-str))
 	(cond
 	 ((eq (car enc-str) ?⿱)
 	  (cond
@@ -1562,7 +1570,8 @@ COMPONENT can be a character or char-spec."
 	    )
 	   ((and (characterp (nth 2 enc-str))
 		 (memq (char-ucs (nth 2 enc-str))
-		       '(#x706C
+		       '(#x4E00
+			 #x706C
 			 #x65E5 #x66F0 #x5FC3
 			 #x2123C #x58EC #x738B #x7389)))
 	    (unless conversion-only
