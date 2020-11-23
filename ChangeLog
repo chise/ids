@@ -1,3 +1,59 @@
+2020-11-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+9EBB instead of UU+9EBB.
+	- Use U+459D instead of UU+459D.
+	- Use U+6BBA instead of UU+6BBA.
+	- Use U+7537 instead of UU+7537.
+	- Use U+5305 instead of U-0002F829.
+	- Use U+5728 instead of UU+5728.
+	(U+2D170): Use apparent structure.
+	(U+2D193): Modify structure.
+	(U+2D385): Use U+5389 instead of UU+5389.
+	(U+2D873): Use U+8D77 instead of U-0002F9D7.
+	(U+2DA20): Use U+555F instead of UU+555F.
+	(U+2DBC2): Use U+91C7 instead of UU+91C7.
+	(U+2E2BF): Unified to one column.
+	(U+2E538): Use U+8D77 instead of U-0002F9D7.
+	(U+2E555): Modify structure.
+	(U+2EB8C): Modify structure.
+	(U+2EB97): Use "⿺黒x" instead of "⿱⿰里x灬".
+	(U+2EB98): Ditto.
+	(U+2EB9C): Modify structure.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026E3A): Modify structure.
+	(U-00026E3B): Likewise.
+	(U-000270E6): Fixed.
+	(U-000270E7): Use "𦄐" instead of "⿸鹿糸".
+
+2020-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+738D): Modify structure; preserve the
+	previous IDS in @apparent.
+	(U+7922): Use U+990A instead of JU+990A.
+
+2020-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+5168 instead of CU+5168.
+	(U-00022E72): Use "麏" instead of "⿸鹿君".
+
+	* IDS-UCS-Ext-B-3.txt (U-000240BD): Use "𣊡" instead of
+	"⿱日⿰糸糸".
+	(U-0002572E): Use "麏" instead of "⿸鹿君".
+	(U-00025FF4): Use "𣎽" instead of "⿱七木".
+
+	* IDS-UCS-Ext-B-5.txt: Use U+5EE3 instead of CU+5EE3.
+	(U-00028400): Modify structure.
+	(U-00028B54): Use "絲" instead of "⿰糸糸".
+	(U-00028DB9): Ditto.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021237): Fixed.
+	(U-00021513): Modify structure.
+
+2020-11-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-G.txt (U+3060F): Use "𣑱" instead of "染".
+
 2020-11-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el
