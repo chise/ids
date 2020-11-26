@@ -599,16 +599,20 @@
 (defun ideographic-character-get-structure (character)
   "Return ideographic-structure of CHARACTER.
 CHARACTER can be a character or char-spec."
-  (let (ret)
-    (cond ((characterp character)
-	   (get-char-attribute character 'ideographic-structure)
-	   )
-	  ((setq ret (assq 'ideographic-structure character))
-	   (cdr ret)
-	   )
-	  ((setq ret (find-char character))
-	   (get-char-attribute ret 'ideographic-structure)
-	   ))))
+  (mapcar (lambda (cell)
+	    (or (and (listp cell)
+		     (find-char cell))
+		cell))
+	  (let (ret)
+	    (cond ((characterp character)
+		   (get-char-attribute character 'ideographic-structure)
+		   )
+		  ((setq ret (assq 'ideographic-structure character))
+		   (cdr ret)
+		   )
+		  ((setq ret (find-char character))
+		   (get-char-attribute ret 'ideographic-structure)
+		   )))))
 
 ;;;###autoload
 (defun ideographic-char-match-component (char component)
@@ -778,7 +782,7 @@ COMPONENT can be a character or char-spec."
 (defun ideographic-structure-compare-functional-and-apparent (structure
 							      &optional char
 							      conversion-only)
-  (let (enc enc-str enc2-str new-str new-str-c f-res a-res ret code)
+  (let (enc enc-str enc2-str enc3-str new-str new-str-c f-res a-res ret code)
     (cond
      ((eq (car structure) ?⿸)
       (setq enc (nth 1 structure))
@@ -1399,26 +1403,54 @@ COMPONENT can be a character or char-spec."
 		    601))
 	    )
 	   ((and (setq enc2-str (ideographic-character-get-structure (nth 2 enc-str)))
-		 (eq (car enc2-str) ?⿰))
+		 (cond
+		  ((eq (car enc2-str) ?⿰)
+		   (setq code 611)
+		   )
+		  ((and (eq (car enc2-str) ?⿱)
+			(setq enc3-str
+			      (ideographic-character-get-structure (nth 2 enc2-str)))
+			(eq (car enc3-str) ?⿰))
+		   (setq code 613)
+		   )))
 	    (unless conversion-only
 	      (setq f-res (ids-find-chars-including-ids enc-str)))
-	    (setq new-str (list ?⿲
-				(nth 1 enc2-str)
-				(nth 2 structure)
-				(nth 2 enc2-str)))
+	    (setq new-str
+		  (cond ((eq code 611)
+			 (list ?⿲
+			       (nth 1 enc2-str)
+			       (nth 2 structure)
+			       (nth 2 enc2-str))
+			 )
+			((eq code 613)
+			 (list ?⿲
+			       (nth 1 enc3-str)
+			       (nth 2 structure)
+			       (nth 2 enc3-str))
+			 )))
 	    (setq new-str-c
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
 		    (list (cons 'ideographic-structure new-str))))
 	    (if conversion-only
-		(list ?⿱ (nth 1 enc-str) new-str-c)
+		(cond ((eq code 611)
+		       (list ?⿱ (nth 1 enc-str) new-str-c)
+		       )
+		      ((eq code 613)
+		       (list ?⿳ (nth 1 enc-str)(nth 1 enc2-str) new-str-c)
+		       ))
 	      (setq a-res (ids-find-chars-including-ids new-str))
 	      (list enc
 		    f-res
 		    new-str-c
 		    a-res
-		    (list ?⿱ (nth 1 enc-str) new-str-c)
-		    611))
+		    (cond ((eq code 611)
+			   (list ?⿱ (nth 1 enc-str) new-str-c)
+			   )
+			  ((eq code 613)
+			   (list ?⿳ (nth 1 enc-str)(nth 1 enc2-str) new-str-c)
+			   ))
+		    code))
 	    ))
 	  )
 	 ((eq (car enc-str) ?⿳)
@@ -1533,12 +1565,12 @@ COMPONENT can be a character or char-spec."
 			 (or (cdr (assq 'ideographic-structure enc))
 			     (cdr (assq 'ideographic-structure@apparent enc)))
 			 )))
-	(setq enc-str
-	      (mapcar (lambda (cell)
-			(or (and (listp cell)
-				 (find-char cell))
-			    cell))
-		      enc-str))
+        ;; (setq enc-str
+        ;;       (mapcar (lambda (cell)
+        ;;                 (or (and (listp cell)
+        ;;                          (find-char cell))
+        ;;                     cell))
+        ;;               enc-str))
 	(cond
 	 ((eq (car enc-str) ?⿱)
 	  (cond
