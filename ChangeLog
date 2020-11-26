@@ -1,3 +1,10 @@
+2020-11-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ideographic-character-get-structure): Convert
+	char-spec to character-object.
+	(ideographic-structure-compare-functional-and-apparent): Implement
+	rule-613: ⿵⿱A⿱M⿰LRC -> ⿳AM⿲LCR.
+
 2020-11-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt:
