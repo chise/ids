@@ -1,3 +1,12 @@
+2020-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt: Use U+81FD instead of UU+81FD.
+	(U+384C): Use "冐" instead of "⿱日⺼".
+
+2020-12-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+81FD instead of UU+81FD.
+
 2020-11-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el (ideographic-character-get-structure): Convert
