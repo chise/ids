@@ -1,3 +1,25 @@
+2020-12-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029A9F): Use "𠶷" instead of
+	"⿳立中口".
+
+	* IDS-UCS-Ext-B-1.txt (U-00021465): Fixed.
+	(U-00021488): Use "𡲬" instead of "⿸尸⿱⺢出".
+	(U-00021CFC): Use "𡲬" instead of "⿸尸⿱氺出".
+	(U-00021F48): Ditto.
+
+	* IDS-UCS-Ext-B-4.txt (U-00027B32): Use "𡲬" instead of
+	"⿸尸⿱氺出".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022DB5): Use "𡲬" instead of
+	"⿸尸⿱氺出".
+	(U-0002 F2): Ditto.
+
+2020-12-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Add code to compact `ideographic-structure' and
+	`ideographic-structure@apparent' in the second stage.
+
 2020-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt: Use U+81FD instead of UU+81FD.
