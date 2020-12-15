@@ -772,9 +772,15 @@ COMPONENT can be a character or char-spec."
 		    (setq sub cell)
 		    )))
 	(setq cell
-	      (if (setq ret (ideographic-structure-find-chars sub))
-		  (car ret)
-		(list (cons 'ideographic-structure sub))))
+	      (cond ((setq ret (ideographic-structure-find-chars sub))
+		     (car ret)
+		     )
+		    ((setq ret (ideographic-structure-compact sub))
+		     (list (cons 'ideographic-structure ret))
+		     )
+		    (t
+		     (list (cons 'ideographic-structure sub))))
+	      )
 	))
       (setq dest (cons cell dest)))
     (nreverse dest)))
@@ -782,7 +788,8 @@ COMPONENT can be a character or char-spec."
 (defun ideographic-structure-compare-functional-and-apparent (structure
 							      &optional char
 							      conversion-only)
-  (let (enc enc-str enc2-str enc3-str new-str new-str-c f-res a-res ret code)
+  (let (enc enc-str enc2-str enc3-str new-str new-str-c
+	    f-res a-res ret code)
     (cond
      ((eq (car structure) ?⿸)
       (setq enc (nth 1 structure))
@@ -1407,6 +1414,9 @@ COMPONENT can be a character or char-spec."
 		  ((eq (car enc2-str) ?⿰)
 		   (setq code 611)
 		   )
+		  ((eq (car enc2-str) ?⿲)
+		   (setq code 614)
+		   )
 		  ((and (eq (car enc2-str) ?⿱)
 			(setq enc3-str
 			      (ideographic-character-get-structure (nth 2 enc2-str)))
@@ -1427,13 +1437,24 @@ COMPONENT can be a character or char-spec."
 			       (nth 1 enc3-str)
 			       (nth 2 structure)
 			       (nth 2 enc3-str))
+			 )
+			((eq code 614)
+			 (list ?⿲
+			       (nth 1 enc2-str)
+			       (list (list 'ideographic-structure
+					   ?⿱
+					   (nth 2 enc2-str)
+					   (nth 2 structure)))
+			       (nth 3 enc2-str))
 			 )))
 	    (setq new-str-c
 		  (if (setq ret (ideographic-structure-find-chars new-str))
 		      (car ret)
-		    (list (cons 'ideographic-structure new-str))))
+		    (list (cons 'ideographic-structure
+				(ideographic-structure-compact new-str)))))
 	    (if conversion-only
-		(cond ((eq code 611)
+		(cond ((or (eq code 611)
+			   (eq code 614))
 		       (list ?⿱ (nth 1 enc-str) new-str-c)
 		       )
 		      ((eq code 613)
@@ -1444,7 +1465,8 @@ COMPONENT can be a character or char-spec."
 		    f-res
 		    new-str-c
 		    a-res
-		    (cond ((eq code 611)
+		    (cond ((or (eq code 611)
+			       (eq code 614))
 			   (list ?⿱ (nth 1 enc-str) new-str-c)
 			   )
 			  ((eq code 613)
