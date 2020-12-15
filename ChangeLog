@@ -1,3 +1,19 @@
+2020-12-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000227C2): Use "𪝉" instead of
+	"⿰亻⿱攵木".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020978): Use U+3538 instead of CU+3538.
+
+	* IDS-UCS-Ext-B-5.txt (U-0002943E): Use U+6761 instead of BC-8BFB.
+
+2020-12-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ideographic-structure-compact): Try to compact
+	substructures recursively.
+	(ideographic-structure-compare-functional-and-apparent): Implement
+	rule-614: ⿵⿱A⿲LMRC -> ⿱A⿲L⿱MCR.
+
 2020-12-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029A9F): Use "𠶷" instead of
