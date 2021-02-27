@@ -1,3 +1,10 @@
+2021-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+6B62 instead of UU+6B62.
+	- Use U+53CA instead of U+2F836.
+	- Use U+652F instead of UU+652F.
+
 2020-12-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000227C2): Use "𪝉" instead of
