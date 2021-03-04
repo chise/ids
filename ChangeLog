@@ -1,3 +1,34 @@
+2021-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat.txt (U+FA0E): Moved to IDS-UCS-Ext-A.txt.
+	(U+FA0F): Ditto.
+	(U+FA11): Ditto.
+	(U+FA13): Ditto.
+	(U+FA14): Ditto.
+	(U+FA21): Ditto.
+	(U+FA24): Ditto.
+	(U+FA27): Ditto.
+	(U+FA28): Ditto.
+	(U+FA29): Ditto.
+
+	* IDS-UCS-Ext-A.txt (U+FA0E): Moved from IDS-UCS-Compat.txt.
+	(U+FA0F): Ditto.
+	(U+FA11): Ditto.
+	(U+FA13): Ditto.
+	(U+FA14): Ditto.
+	(U+FA21): Ditto.
+	(U+FA24): Ditto.
+	(U+FA27): Ditto.
+	(U+FA28): Ditto.
+	(U+FA29): Ditto.
+
+	* IDS-UCS-Ext-C.txt (U-0002AE70): Modify structure.
+	(U-0002AEC9): Likewise.
+
+	* IDS-UCS-Ext-B-2.txt (U-000236B3): Use ⿰x𮥷 instead of ⿲x文隹.
+
+	* IDS-UCS-Basic.txt (U+990D): Fixed.
+
 2021-01-29  ColtMa  <mumchristmas@gmail.com>
 
 	* IDS-UCS-Basic.txt: Fix the '⿱敄' parts.
