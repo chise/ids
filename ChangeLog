@@ -1,3 +1,8 @@
+2021-01-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix the '⿱敄' parts.
+	Fix the  U+9942.
+
 2021-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028DB7): Fixed.
