@@ -1,5 +1,9 @@
 2021-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+5DE4): Fixed.
+
+2021-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Compat.txt (U+FA0E): Moved to IDS-UCS-Ext-A.txt.
 	(U+FA0F): Ditto.
 	(U+FA11): Ditto.
