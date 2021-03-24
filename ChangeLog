@@ -1,3 +1,7 @@
+2021-03-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002039A): Use ⿱x笧 instead of ⿳x竹𠕁.
+
 2021-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5DE4): Fixed.
