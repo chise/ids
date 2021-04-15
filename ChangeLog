@@ -1,3 +1,13 @@
+2021-04-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000229CA): Use "⿵𫼉木" instead of
+	"⿰⿸戶木戈".
+	(U-000229CC): Use "⿹或x" instead of "⿹戈⿱&CDP-8BE2;x".
+	(U-00022B84): Use "㦿" instead of "⿸戶木".
+	(U-000234B7): Ditto.
+	(U-000234C5): Ditto.
+	(U-000234C6): Use U+3E12 instead of BC-8AC0.
+
 2021-03-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-0002039A): Use ⿱x笧 instead of ⿳x竹𠕁.
