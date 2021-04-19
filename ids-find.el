@@ -1623,11 +1623,15 @@ COMPONENT can be a character or char-spec."
 		    code))
 	    )
 	   ((and (characterp (nth 2 enc-str))
-		 (memq (char-ucs (nth 2 enc-str))
-		       '(#x4E00
-			 #x706C
-			 #x65E5 #x66F0 #x5FC3
-			 #x2123C #x58EC #x738B #x7389)))
+		 (or (memq (char-ucs (nth 2 enc-str))
+			   '(#x4E00
+			     #x706C
+			     #x65E5 #x66F0 #x5FC3
+			     #x2123C #x58EC #x738B #x7389))
+		     (memq (encode-char (nth 2 enc-str) '=>ucs@component)
+			   '(#x2123C #x58EC))
+		     (eq (encode-char (nth 2 enc-str) '=>ucs@iwds-1)
+			 #x7389)))
 	    (unless conversion-only
 	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿰
