@@ -1,3 +1,22 @@
+2021-04-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E19C): Use "⿱x⿱𢆉取" instead of
+	"⿳x𢆉取".
+	(U+2E19D): Use "⿱x⿱亡⿲月女卂" instead of "⿳x亡⿲月女卂".
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): In the
+	rule-813, treat A-compU+2123C, A-compU+58EC and A-IWDSU+7389 as
+	the same as U+2123C/U+58EC/U+7389.
+
+2021-04-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023711): Use "𭵝" instead of "⿱兹⺣".
+	(U-00023712): Completed.
+
+	* IDS-UCS-Basic.txt (U+6722): Use "⿺𦣠月" instead of
+	"⿱⿰臣月王".
+
 2021-04-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000229CA): Use "⿵𫼉木" instead of
