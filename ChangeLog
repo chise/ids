@@ -1,3 +1,7 @@
+2021-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029D03): Use U+6025 instead of CU+6025.
+
 2021-04-30  Wang Yifan	      <747.neutron@gmail.com>
 
 	* IDS-UCS-Ext-B-5.txt: Fix U+28F60
