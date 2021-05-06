@@ -1,3 +1,16 @@
+2021-05-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A321): Use U+5B82 instead of
+	"⿱宀几".
+	(U-0002A536): Use "僜" instead of "⿰亻登".
+	(U-0002A53B): Use U+6535 instead of <CJK RADICAL RAP>.
+	(U-0002A54E): Use U+5B82 instead of "⿱宀几".
+	(U-0002A68D): Use "𪙹" instead of "⿰齒齒".
+	(U-0002A68E): Ditto.
+	(U-0002A68F): Use U+9F7F instead of <CJK RADICAL C-SIMPLIFIED
+	TOOTH>.
+	(U-0002A690): Ditto; use U+6535 instead of <CJK RADICAL RAP>.
+
 2021-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029D03): Use U+6025 instead of CU+6025.
