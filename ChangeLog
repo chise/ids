@@ -1,3 +1,16 @@
+2021-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026B40): Use "凥" instead of "⿸尸几".
+	(U-00026B42): Modify structure.
+	(U-00026B43): Use "⿱x𠀒" instead of "⿳x兀丂".
+	(U-00026B51): Use "汀" instead of "⿰氵丁".
+	(U-00026B5B): Use "仟" instead of "⿰亻千".
+	(U-000271AA): Use "𠀒" instead of "⿱兀丂".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024640): Use "𠀒" instead of "⿱兀丂".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020029): Use "𠀒" instead of "⿱兀丂".
+
 2021-05-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A321): Use U+5B82 instead of
