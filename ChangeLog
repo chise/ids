@@ -1,3 +1,28 @@
+2021-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+9FB7 instead of UU+9FB7.
+	- Use U+83D0 instead of UU+83D0.
+	(U+2CFF2): Completed.
+	(U+2CFFB): Completed.
+	(U+2CFFD): Use "&CDP-8D61;" instead of "⿻一曲".
+	(U+2D003): Use U-00026C29 instead of IU+26C29; use "&CDP-89E7;" instead of
+	"⿻日乂".
+	(U+2D109): Unified to one column.
+	(U+2D27F): Completed.
+	(U+2D2E8): Completed.
+	(U+2D7C6): Use "&CDP-8D61;" instead of "⿻一曲".
+	(U+2D8F9): Use "&CDP-8CEC;" instead of "⿱龷⺼".
+	(U+2DB53): Completed.
+	(U+2DC41): Unified to one column.
+	(U+2DC45): Likewise; modify structure.
+	(U+2DF6C): Use "&CDP-8CEC;" instead of "⿱龷⺼".
+	(U+2E045): Fixed.
+	(U+2E7DA): Completed.
+	(U+2EBA0): Use U+3840 instead of JU+3840.
+
+	* IDS-UCS-Basic.txt (U+71DE): Use "⿺焦x" instead of "⿱⿰隹x灬".
+
 2021-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026B40): Use "凥" instead of "⿸尸几".
