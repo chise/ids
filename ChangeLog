@@ -1,5 +1,82 @@
 2021-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt:
+	- Use U+8449 instead of UU+8449.
+	- Use U+66F8 instead of UU+66F8.
+	(U+2CEF1): Use "&CDP-8A44;" instead of "⿵冂丨".
+	(U+2D072): Use A-BC-8574 instead of "⿻⿵冂丨𠈌" or "⿻⿵冂丨㸚".
+	(U+2D70E): Use "𬼖" instead of "⿺𠃊二".
+	(U+2DB22): Completed.
+	(U+2DB3A): Completed.
+	(U+2DC4E): Completed.
+	(U+2DC69): Completed.
+	(U+2DC6A): Completed.
+	(U+2DC7D): Completed.
+	(U+2DC9E): Completed.
+	(U+2E0A2): Use BC-8574 instead of "⿻⿵冂丨㸚".
+	(U+2E3B7): Use "𬼖" instead of "⿺𠃊二".
+	(U+2E3B8): Modify structure.
+	(U+2E3BB): Modify structure.
+	(U+2E486): Modify structure.
+
+2021-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+864E instead of JU+864E.
+	- Use U+706C instead of <CJK RADICAL FIRE>.
+	- Use "⿱𤇾x" instead of "⿳炏冖x".
+	- Use "备" instead of "⿱夂田".
+	(U-0002403E): Use "⿻丵廾" instead of "⿱业⿻𢆉艹".
+	(U-0002408B): Use "𦸛" instead of "⿱艹巣".
+	(U-0002408D): Use U+84EE instead of CU+84EE.
+	(U-0002408E): Modify structure.
+	(U-0002408F): Modify structure.
+	(U-00024091): Use "辳" instead of "⿱林辰".
+	(U-0002409D): Completed.
+	(U-000240CA): Use "⿱丵x" instead of "⿳业𢆉x".
+	(U-00024196): Completed.
+	(U-000241D7): Modify structure.
+	(U-00024203): Completed.
+	(U-0002420C): Use "旫" instead of "⿰日刀".
+	(U-00024248): Completed.
+	(U-00024293): Use "兒" instead of "⿱臼儿".
+	(U-000242C8): Fixed.
+	(U-000242D0): Use "柖" instead of "⿰木召".
+	(U-000242E5): Use "敂" instead of "⿰句⺙".
+	(U-00024308): Use "俻" instead of "⿰亻⿱夂田".
+	(U-00024371): Use "⿱雪x" instead of "⿳雨⺕x".
+	(U-000243BA): Use "𰷣" instead of "⿱㚘贝".
+	(U-000243C4): Use U+6E54 instead of UU+6E54.
+	(U-000243CA): Completed.
+	(U-00024401): Completed.
+	(U-00024407): Use "電" instead of "⿱雨电".
+	(U-00024408): Completed.
+	(U-0002440E): Use "简" instead of "⿱竹⿱丶⿵冂日".
+	(U-00024425): Use "荧" instead of "⿳艹冖火".
+	(U-0002443E): Use "慐" instead of "⿱貢心".
+	(U-0002444B): Modify structure.
+	(U-0002445E): Use U+84EE instead of CU+84EE.
+	(U-00024470): Use "鮎" instead of "⿰⿳⺈田大占".
+	(U-00024472): Use "⿰x鄰" instead of "⿲x粦阝".
+	(U-00024475): Use "𢐨" instead of "⿲弓芻弓".
+	(U-000244AB): Fixed [use "𣋓" instead of "⿳日𠂹丂"].
+	(U-000244AE): Use "𨺵" instead of "⿰𨸏㒸".
+	(U-000244B2): Use "𢋨" instead of "⿸广⿱黒土".
+	(U-000244B6): Use "𦾈" instead of "⿱艹喿".
+	(U-000244B7): Use "薟" instead of "⿱艹僉".
+	(U-000244B8): Use "鎾" instead of "⿰金昷".
+	(U-000244D8): Use U+52F8 instead of CU+52F8.
+	(U-000244EB): Use "𨽡" instead of "⿻𨺅㒸".
+	(U-000245D2): Use "㫄" instead of "⿱亠⿹勹方".
+	(U-000245D4): Use "𨐌" instead of "⿱立𰀁".
+	(U-000245D9): Use "㡿" instead of "⿸广屰".
+	(U-00024E7C): Use "彪" instead of "⿺虎彡".
+	(U-0002526C): Use "𥆁" instead of "⿰目列".
+	(U-000254DB): Completed.
+	(U-000254EF): Use "㫄" instead of "⿱亠⿹勹方".
+	(U-000258BE): Use "𤋱" instead of "⿱重⺣".
+	(U-000258BF): Fixed.
+
 	* IDS-UCS-Basic.txt (U+9AA8): Add IDS.
 
 2021-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
