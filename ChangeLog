@@ -1,5 +1,14 @@
 2021-05-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "𡷈" instead of "⿱山⿰山山".
+	- Use "𦓔" instead of "⿱而而".
+	(U-00020A1D): Use "⿹印x" instead of "⿰⿱&CDP-8CAC;x卩".
+	(U-00020A1F): Modify structure.
+	(U-00020A24): Use "仓" instead of "⿱𠆢㔾".
+	(U-00021490): Use "⿱x𡉰" instead of "⿳x凶土".
+	(U-00021F18): Use "𠇏" instead of "⿱𠆢今".
+
 	* IDS-UCS-Ext-B-2.txt (U-000224F0): Use U+59A5 instead of UU+59A5.
 	(U-00022F3B): Ditto.
 
