@@ -1,5 +1,10 @@
 2021-05-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+72F1): Use U+72BE instead of UU+72BE.
+	(U+7344): Ditto.
+
+2021-05-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+70AD): Use U+7070 instead of U-0002F835.
 	(U+72F1): Use "⿴犾x" instead of "⿲犭x犬".
 	(U+72F2): Use "⿰x孙" instead of "⿲x子小".
