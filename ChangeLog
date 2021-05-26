@@ -1,5 +1,22 @@
 2021-05-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00020A47): Use "𢒂" instead of "⿺九彡".
+	(U-00020C50): Use "呉" instead of "⿱口夨".
+	(U-00020C5A): Fixed; use "𠧗" instead of "⿱上下".
+	(U-00020C5E): Use "杂" instead of "⿱九木".
+	(U-00020C68): Use "𠃨" instead of "⿹⺄&CDP-88C6;".
+	(U-00020C69): Completed.
+	(U-000216CB): Confirmed.
+	(U-000216CE): Modify structure.
+	(U-000216E5): Use "它" instead of "⿱宀匕".
+	(U-000216EA): Use "𢒂" instead of "⿺九彡".
+	(U-000216F1): Completed.
+	(U-00021706): Use "色" instead of "⿱刀巴".
+	(U-00021708): Use "⿱𡭙x" instead of "⿱小⿳冖一x".
+	(U-00021709): Use "杂" instead of "⿱九木".
+
+2021-05-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+72F1): Use "⿴犾x" instead of "⿲犭x犬".
 	(U+7344): Use "⿴犾x" instead of "⿲犭x犬".
 
@@ -5883,10 +5900,10 @@
 	(J90-4C6F): Use "尓" instead of "尔".
 	(J90-4D37): Use "辶" instead of "辶".
 	(J90-4D5A): Likewise.
-	(J90-4E44): Use "鼡" instead of "⿱小&GT-K01457;".
+	(J90-4E44): Use "鼡" instead of "⿱小𠂡".
 	(J90-4E4B): Use "辶" instead of "辶".
 	(J90-4F22): Likewise.
-	(J90-4F39): Use "鼡" instead of "⿱小&GT-K01457;".
+	(J90-4F39): Use "鼡" instead of "⿱小𠂡".
 	(J90-605F): Use "尓" instead of "尔".
 	(J90-6D6C): Use "辶" instead of "辶".
 
@@ -6116,7 +6133,7 @@
 
 2015-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Basic.txt (U+731F): Use "鼡" instead of "⿱小&GT-K01457;".
+	* IDS-UCS-Basic.txt (U+731F): Use "鼡" instead of "⿱小𠂡".
 	(U+874B): Likewise.
 
 2015-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
