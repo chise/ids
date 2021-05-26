@@ -954,7 +954,28 @@ COMPONENT can be a character or char-spec."
 		  a-res
 		  (list ?⿰ new-str-c (nth 2 enc-str))
 		  210))
-	  )))
+	  )
+	 ((eq (car enc-str) ?⿱)
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	  (setq new-str (list ?⿰
+			      (nth 2 structure)
+			      (nth 2 enc-str)))
+	  (setq new-str-c
+		(if (setq ret (ideographic-structure-find-chars new-str))
+		    (car ret)
+		  (list (cons 'ideographic-structure new-str))))
+	  (if conversion-only
+	      (list ?⿱ (nth 1 enc-str) new-str-c)
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿱ (nth 1 enc-str) new-str-c)
+		  220))
+	  )
+	 ))
       )
      ((eq (get-char-attribute (car structure) '=ucs-itaiji-001) #x2FF6)
       (setq enc (nth 1 structure))
