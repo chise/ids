@@ -1,3 +1,12 @@
+2021-05-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): Implement
+	rule-220: ⿹⿱ARL -> ⿱A⿰LR.
+
+	* IDS-UCS-Basic.txt (U+547D): Modify structure.
+	(U+9F21): Use U-000200A1 instead of GT-K01457.
+
 2021-05-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020A47): Use "𢒂" instead of "⿺九彡".
