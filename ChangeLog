@@ -1,3 +1,9 @@
+2021-05-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022608): Modify structure.
+	(U-00022614): Likewise.
+	(U-00022616): Likewise.
+
 2021-05-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el
