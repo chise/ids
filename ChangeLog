@@ -1,3 +1,11 @@
+2021-05-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Install IDS-SW-JIGUGE.txt.
+
+	* ids-read.el (ids-read-buffer): Add setting for SW-JIGUGE-ddddd.
+
+	* IDS-SW-JIGUGE.txt: New file.
+
 2021-05-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022608): Modify structure.
