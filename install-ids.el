@@ -69,6 +69,8 @@
 ;;                            load-ids-simplify t)
 ;;     (setq i (1+ i))))
 
+(install-ids-read-file "IDS-SW-JIGUGE.txt" load-ids-simplify t)
+
 (princ "Generating apparent-structure...")
 (let* ((terminal-coding-system 'utf-8-mcs-er)
        (feature-dir
