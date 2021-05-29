@@ -1,6 +1,6 @@
 ;;; ids-read.el --- Reader for IDS-* files
 
-;; Copyright (C) 2002, 2003, 2004, 2020 MORIOKA Tomohiko
+;; Copyright (C) 2002, 2003, 2004, 2020, 2021 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -107,6 +107,9 @@
 		   'morohashi-daikanwa))
 		 ((string-match "CB\\([0-9]+\\)" chs)
 		  (decode-char 'ideograph-cbeta
+			       (string-to-int (match-string 1 chs))))
+		 ((string-match "SW-JIGUGE-\\([0-9]+\\)" chs)
+		  (decode-char '=shuowen-jiguge
 			       (string-to-int (match-string 1 chs))))
 		 ))
 	  (when char
