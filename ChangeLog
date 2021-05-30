@@ -1,5 +1,60 @@
 2021-05-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-00506): Fix a component.
+	(SW-JIGUGE-00713): Completed.
+	(SW-JIGUGE-01019): Completed.
+	(SW-JIGUGE-01215): Fixed.
+	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE-01215;x" instead of "⿲&SW-JIGUGE-00601;x&SW-JIGUGE-00601;".
+	(SW-JIGUGE-01502): Fixed.
+	(SW-JIGUGE-01503): Fixed.
+	(SW-JIGUGE-02008): Completed.
+	(SW-JIGUGE-02500): Completed.
+	(SW-JIGUGE-03005): Completed.
+	(SW-JIGUGE-03200): Add IDS.
+	(SW-JIGUGE-03304): Modify structure.
+	(SW-JIGUGE-03527): Completed.
+	(SW-JIGUGE-03528): Completed.
+	(SW-JIGUGE-03915): Fixed.
+	(SW-JIGUGE-04412): Fixed.
+	(SW-JIGUGE-04911): Completed.
+	(SW-JIGUGE-05525): Completed.
+	(SW-JIGUGE-06401): Modified.
+	(SW-JIGUGE-17912): Completed.
+	(SW-JIGUGE-17915): Completed.
+	(SW-JIGUGE-17916): Completed.
+	(SW-JIGUGE-27414): Completed.
+	(SW-JIGUGE-27415): Completed.
+	(SW-JIGUGE-27417): Completed.
+	(SW-JIGUGE-27501): Completed.
+	(SW-JIGUGE-27502): Completed.
+	(SW-JIGUGE-28706): Completed.
+	(SW-JIGUGE-29207): Completed.
+	(SW-JIGUGE-30206): Completed.
+	(SW-JIGUGE-30207): Completed.
+	(SW-JIGUGE-30208): Completed.
+	(SW-JIGUGE-30209): Completed.
+	(SW-JIGUGE-34715): Completed.
+	(SW-JIGUGE-36012): Completed.
+	(SW-JIGUGE-36014): Completed.
+	(SW-JIGUGE-36201): Completed.
+	(SW-JIGUGE-38419): Completed.
+	(SW-JIGUGE-42311): Completed.
+	(SW-JIGUGE-43100): Completed.
+	(SW-JIGUGE-43108): Completed.
+	(SW-JIGUGE-43109): Completed.
+	(SW-JIGUGE-45515): Completed.
+	(SW-JIGUGE-45525): Completed.
+	(SW-JIGUGE-45601): Completed.
+	(SW-JIGUGE-45602): Completed.
+	(SW-JIGUGE-45804): Completed.
+	(SW-JIGUGE-47005): Completed.
+
+2021-05-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025CA8): Use "㲘" instead of "⿰貝毛".
+	(U-00025CAE): Use "⿸䈞x" instead of "⿱竹⿰亯x".
+	(U-00025CB8): Modify structure.
+
 	* IDS-UCS-Ext-B-5.txt (U-00028319): Use "㐬" instead of "⿱𠫓𫶧".
 	(U-00028325): Use "⿴玨x" instead of "⿲王x王".
 
