@@ -1,5 +1,61 @@
 2021-05-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+8FB6 instead of <CJK RADICAL WALK TWO>.
+	- Use "⿹須x" instead of "⿰⿱彡x頁".
+	(U-0002954E): Modify structure; add apparent structure [preserve
+	previous IDS].
+
+	* IDS-UCS-Ext-B-4.txt (U-00026168): Use "⿹須x" instead of
+	"⿰⿱彡x頁".
+	(U-0002617D): Modify structure.
+	(U-000261F9): Modify structure.
+	(U-00026207): Likewise; add apparent structure.
+	(U-0002687B): Use "凴" instead of "⿱馮几".
+	(U-00026FB2): Use "⿱x兾" instead of "⿳x丷異".
+	(U-00026FB3): Use "㼲" instead of "⿰耎瓦".
+	(U-00026FB4): Use "緐" instead of "⿰每系".
+	(U-00026FBD): Use "遝" instead of "⿺⻎⿱⺫氺".
+	(U-00026FC3): Use "𨲆" instead of "⿰镸肖".
+	(U-00026FC5): Use "⿱x凴" instead of "⿳x馮几".
+	(U-00026FCA): Use "𧇄" instead of "⿸虍甾".
+	(U-000274D0): Use "㼲" instead of "⿰耎瓦".
+
+	* IDS-UCS-Ext-B-1.txt (U-0002041C): Modify structure.
+	(U-0002041D): Use "適" instead of "⿺辶啇".
+	(U-00020425): Use "𢡃" instead of "⿱𠶷心".
+	(U-00020428): Use "⿸偘x" instead of "⿰亻⿱品x".
+	(U-0002042D): Use "&U-i001+2FF6;" instead of "⿻"; add apparent structure.
+	(U-00020441): Fixed.
+	(U-00020727): Use "𠑾" instead of "⿸⿱⺈尸儿".
+	(U-00020730): Use "𠑾" instead of "⿸⿱⺈尸⿰丨乚".
+	(U-00020736): Use "𣥕" instead of "⿱止止".
+	(U-00020739): Use "𰥍" instead of "⿱目大".
+	(U-00020748): Use "𠂡" instead of "⿵⺇𰀁".
+	(U-00020749): Completed.
+	(U-0002074B): Use "𫵖" instead of "⿸尸示".
+	(U-00020751): Ditto.
+	(U-0002075B): Fixed.
+	(U-0002077E): Use "𡶬" instead of "⿵冂⿱⿰㐅㐅山".
+	(U-0002091F): Modify structure.
+	(U-00020FDC): Use "㼫" instead of "⿰果瓦".
+	(U-00020FE0): Use U+6222 instead of JU+6222.
+	(U-00021853): Use "⿹須x" instead of "⿰⿱彡x頁".
+	(U-00021E4A): Use "𰥍" instead of "⿱目大".
+	(U-00021FB3): Use "總" instead of "⿰糸悤".
+	(U-00021FB4): Use "歛" instead of "⿰僉欠".
+	(U-00021FB5): Use "嵬" instead of "⿱山鬼".
+	(U-00021FBE): Use "𨪈" instead of "⿰金鬼".
+	(U-00021FD7): Use "蘖" instead of "⿱薛木".
+	(U-00021FD9): Use "鷄" instead of "⿰奚鳥".
+	(U-00021FDB): Use "𰘾" instead of "⿱磊木".
+	(U-00021FF1): Modify structure.
+	(U-00021FF3): Fixed.
+
+	* IDS-UCS-Ext-A.txt (U+37A4): Use U+4EBA instead of U-000201A2.
+	(U+4AC7): Use "⿹須x" instead of "⿰⿱彡x頁".
+	(U+4AE0): Ditto.
+
 	* IDS-UCS-Ext-B-2.txt: Use U+38FA instead of <CJK RADICAL HEART
 	TWO>.
 	(U-000224D9): Use "𢎢" instead of "⿰弓人".
