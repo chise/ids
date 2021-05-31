@@ -1,4 +1,57 @@
+2021-05-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+38FA instead of <CJK RADICAL HEART
+	TWO>.
+	(U-000224D9): Use "𢎢" instead of "⿰弓人".
+	(U-000224F8): Use "𡉚" instead of "⿱㞢土".
+	(U-000224FC): Use "𥃩" instead of "⿱目匕".
+	(U-00022566): Modify structure.
+	(U-0002259B): Modify structure.
+	(U-00022688): Modify structure.
+	(U-00022689): Use "𥃩" instead of "⿱目匕".
+	(U-000226E2): Use "𠄭" instead of "⿳一舟一".
+	(U-000226E6): Use "𣢊" instead of "⿰勿欠".
+	(U-000226EB): Modify structure.
+	(U-0002279B): Use "𠣬" instead of "⿱旬兮".
+	(U-000227A2): Use "⿸𢈏x" instead of "⿸广⿳肀八x".
+	(U-000227A4): Use "刅" instead of "⿰刃丶".
+	(U-000227AA): Use "𤝵" instead of "⿰犭⿱屮王".
+	(U-000227AB): Use "㑥" instead of "⿰亻易".
+	(U-000227BD): Use "敉" instead of "⿰米攵".
+	(U-000227CE): Use "徒" instead of "⿰彳⿱土龰".
+	(U-000227DB): Use "恥" instead of "⿰耳心".
+	(U-000227DE): Fixed.
+	(U-000227EC): Use "𤈫" instead of "⿰⿸尸⿱二火又".
+	(U-000227F8): Use "𦘕" instead of "⿱聿⿱𠔿一".
+	(U-000227F9): Use "辱" instead of "⿸辰寸".
+	(U-000227FC): Use "梦" instead of "⿱林夕".
+	(U-00022812): Use "𥹙" instead of "⿰米召".
+	(U-000228E1): Use "𣘐" instead of "⿰来来".
+	(U-00022953): Modify structure.
+	(U-00022965): Use "爕" instead of "⿱⿲火言火火".
+	(U-00022969): Use "𦆕" instead of "⿲糸車糸".
+	(U-00022CD6): Use "⿰x𢛢" instead of "⿲x忄⿳一舟一".
+	(U-000234AA): Use "𡇆" instead of "⿴囗⿱巳一".
+	(U-000234AE): Use "𡉣" instead of "⿱木土".
+	(U-000235BC): Use "𠣬" instead of "⿱旬兮".
+	(U-0002362D): Use "𧆥" instead of "⿸虍甲".
+	(U-0002362F): Modify structure.
+	(U-00023630): Use "⿰x𢛢" instead of "⿲x忄⿳一舟一".
+	(U-00023645): Use "𠶶" instead of "⿰启戈".
+	(U-00023651): Use "𡘽" instead of "⿱林大".
+	(U-00023652): Completed.
+	(U-0002373B): Use "辱" instead of "⿸辰寸".
+	(U-00023D35): Use "𡇆" instead of "⿴囗⿱巳一".
+	(U-00023D3A): Use "囦" instead of "⿴囗水".
+	(U-00023D3D): Use "𡵖" instead of "⿱山火".
+	(U-00023D3E): Use "⿰x𬽲" instead of "⿲x亻㐌".
+	(U-00023D43): Modify structure.
+	(U-00023D48): Use "𡧎" instead of "⿱宀丐".
+	(U-00023E6F): Use "𠣬" instead of "⿱旬兮".
+
 2021-05-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+983F): Use "⿹須x" instead of "⿰⿱彡x頁".
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-00506): Fix a component.
 	(SW-JIGUGE-00713): Completed.
