@@ -1,3 +1,20 @@
+2021-06-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002B5A0): Use "⿹須x" instead of
+	"⿰⿱彡止x"; add "⿰辵x" as an apparent form.
+
+	* IDS-UCS-Ext-B-3.txt (U-000246F0): Fixed; use "羣" instead of
+	"⿱君羊".
+	(U-000246F5): Use "𡕰" instead of "⿳⿶凵𠂭八夂".
+	(U-000246FF): Use "⿸𪏯x" instead of "⿰黍⿱𠚣x".
+	(U-00024701): Use "感" instead of "⿱咸心".
+	(U-00025709): Use "羣" instead of "⿱君羊".
+
+	* IDS-UCS-Basic.txt (U+5F5B): Use "⿱𰐥x" instead of "⿳彐粉x".
+	(U+5F5C): Modify structure.
+	(U+5F5D): Likewise.
+	(U+5F5E): Likewise.
+
 2021-05-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
