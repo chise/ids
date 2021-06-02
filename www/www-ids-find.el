@@ -1,6 +1,600 @@
 (require 'ids-find)
 (require 'cwiki-common)
 
+(defun www-format-encode-string (string &optional without-tags as-body)
+  (with-temp-buffer
+    (insert string)
+    (let (plane code subcode start end char variants ret rret)
+      (when as-body
+	(goto-char (point-min))
+	(while (search-forward "&" nil t)
+	  (replace-match "&amp;" nil t)))
+      (goto-char (point-min))
+      (while (search-forward "<" nil t)
+	(replace-match "&lt;" nil t))
+      (goto-char (point-min))
+      (while (search-forward ">" nil t)
+	(replace-match "&gt;" nil t))
+      (if without-tags
+	  (encode-coding-region (point-min)(point-max) 'utf-8-mcs-er)
+	(let ((coded-charset-entity-reference-alist
+	       (list*
+		'(=gt			"GT-" 5 d)
+		'(=mj			 "MJ" 6 d)
+		'(=hanyo-denshi/ja   "HD-JA-" 4 X)
+		'(=hanyo-denshi/jb   "HD-JB-" 4 X)
+		'(=hanyo-denshi/jc   "HD-JC-" 4 X)
+		'(=hanyo-denshi/jd   "HD-JD-" 4 X)
+		'(=hanyo-denshi/ft   "HD-FT-" 4 X)
+		'(=hanyo-denshi/ia   "HD-IA-" 4 X)
+		'(=hanyo-denshi/ib   "HD-IB-" 4 X)
+		'(=hanyo-denshi/hg   "HD-HG-" 4 X)
+		'(=hanyo-denshi/ip   "HD-IP-" 4 X)
+		'(=hanyo-denshi/jt   "HD-JT-" 4 X)
+		'(=hanyo-denshi/ks   "HD-KS-" 6 d)
+		'(=>>hanyo-denshi/ja "G-HD-JA-" 4 X)
+		'(=>>hanyo-denshi/jb "G-HD-JB-" 4 X)
+		'(=>>hanyo-denshi/jc "G-HD-JC-" 4 X)
+		'(=>>hanyo-denshi/jd "G-HD-JD-" 4 X)
+		'(=>>hanyo-denshi/ft "G-HD-FT-" 4 X)
+		'(=>>hanyo-denshi/ia "G-HD-IA-" 4 X)
+		'(=>>hanyo-denshi/ib "G-HD-IB-" 4 X)
+		'(=>>hanyo-denshi/hg "G-HD-HG-" 4 X)
+		'(=>>hanyo-denshi/ip "G-HD-IP-" 4 X)
+		'(=>>hanyo-denshi/jt "G-HD-JT-" 4 X)
+		'(=>>hanyo-denshi/ks "G-HD-KS-" 6 d)
+		'(==mj			"g2-MJ" 6 d)
+		'(==hanyo-denshi/ja "g2-HD-JA-" 4 X)
+		'(==hanyo-denshi/jb "g2-HD-JB-" 4 X)
+		'(==hanyo-denshi/jc "g2-HD-JC-" 4 X)
+		'(==hanyo-denshi/jd "g2-HD-JD-" 4 X)
+		'(==hanyo-denshi/ft "g2-HD-FT-" 4 X)
+		'(==hanyo-denshi/ia "g2-HD-IA-" 4 X)
+		'(==hanyo-denshi/ib "g2-HD-IB-" 4 X)
+		'(==hanyo-denshi/hg "g2-HD-HG-" 4 X)
+		'(==hanyo-denshi/ip "g2-HD-IP-" 4 X)
+		'(==hanyo-denshi/jt "g2-HD-JT-" 4 X)
+		'(==hanyo-denshi/ks "g2-HD-KS-" 6 d)
+		'(==daijiten	      "g2-DJT-"	5 d)
+		'(=cns11643-1		"C1-" 4 X)
+		'(=cns11643-2		"C2-" 4 X)
+		'(=cns11643-3		"C3-" 4 X)
+		'(=cns11643-4		"C4-" 4 X)
+		'(=cns11643-5		"C5-" 4 X)
+		'(=cns11643-6		"C6-" 4 X)
+		'(=cns11643-7		"C7-" 4 X)
+		'(=adobe-japan1-6	"AJ1-" 5 d)
+		'(=big5-cdp	        "CDP-" 4 X)
+		'(=>big5-cdp	      "A-CDP-" 4 X)
+		'(=gb2312		"G0-" 4 X)
+		'(=gb12345		"G1-" 4 X)
+		'(=jis-x0208@1990	"J90-" 4 X)
+		'(=jis-x0212		"JSP-" 4 X)
+		'(=cbeta		"CB" 5 d)
+		'(=jis-x0208@1997	"J97-" 4 X)
+		'(=jis-x0208@1978	"J78-" 4 X)
+		'(=jis-x0208@1983	"J83-" 4 X)
+		'(=ruimoku-v6		"RUI6-" 4 X)
+		'(=zinbun-oracle	"ZOB-" 4 d)
+		'(=daijiten		"DJT-" 5 d)
+		'(=jef-china3		"JC3-" 4 X)
+		'(=ucs@unicode	        "UU+" 4 X)
+		'(=ucs@JP/hanazono  "hanaJU+" 4 X)
+		'(==cns11643-1	      "R-C1-" 4 X)
+		'(==cns11643-2	      "R-C2-" 4 X)
+		'(==cns11643-3	      "R-C3-" 4 X)
+		'(==cns11643-4	      "R-C4-" 4 X)
+		'(==cns11643-5	      "R-C5-" 4 X)
+		'(==cns11643-6	      "R-C6-" 4 X)
+		'(==cns11643-7	      "R-C7-" 4 X)
+		'(=hanziku-1	     "HZK01-" 4 X)
+		'(=hanziku-2	     "HZK02-" 4 X)
+		'(=hanziku-3	     "HZK03-" 4 X)
+		'(=hanziku-4	     "HZK04-" 4 X)
+		'(=hanziku-5	     "HZK05-" 4 X)
+		'(=hanziku-6	     "HZK06-" 4 X)
+		'(=hanziku-7	     "HZK07-" 4 X)
+		'(=hanziku-8	     "HZK08-" 4 X)
+		'(=hanziku-9	     "HZK09-" 4 X)
+		'(=hanziku-10	     "HZK10-" 4 X)
+		'(=hanziku-11	     "HZK11-" 4 X)
+		'(=hanziku-12	     "HZK12-" 4 X)
+		'(==>daijiten	    "A2-DJT-" 5 d)
+		'(==cbeta		"CB" 5 d)
+		'(=big5			 "B-" 4 X)
+		'(=daikanwa		 "M-" 5 d)
+		'(=>>daikanwa	       "G-M-" 5 d)
+		'(===ucs@ks	      "R-KU+" 4 X)
+		coded-charset-entity-reference-alist)))
+	  (encode-coding-region (point-min)(point-max) 'utf-8-mcs-er)
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A-\\|G-\\|g2-\\|R-\\)?CB\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"CB%05d\" src=\"%s/cb-gaiji/%02d/CB%05d.gif\"
+style=\"%s\">"
+		     code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     (/ code 1000) code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?J\\(78\\|83\\|90\\|97\\|SP\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\);" nil t)
+	    (setq plane (match-string 2)
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"J%s-%04X\" src=\"%s/JIS-%s/%02d-%02d.gif\"
+style=\"%s\">"
+		     plane code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     plane
+		     (- (lsh code -8) 32)
+		     (- (logand code 255) 32)
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?J0-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"J0-%04X\" src=\"%s/JIS-90/%02d-%02d.gif\"
+style=\"%s\">"
+		     code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     (- (lsh code -8) 32)
+		     (- (logand code 255) 32)
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?HD-\\(JA\\|JB\\|JC\\|JD\\|FT\\|IA\\|IB\\|HG\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\);" nil t)
+	    (setq plane (match-string 2)
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"HD-%s-%04X\" src=\"%s/IVD/HanyoDenshi/%s%02d%02d.png\"
+style=\"%s\">"
+		     plane code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     plane
+		     (- (lsh code -8) 32)
+		     (- (logand code 255) 32)
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?HD-\\(IP\\|JT\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\);" nil t)
+	    (setq plane (match-string 2)
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"HD-%s-%04X\" src=\"%s/IVD/HanyoDenshi/%s%04X.png\"
+style=\"%s\">"
+		     plane code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     plane code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?HD-KS-\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"HD-KS%06d\" src=\"%s/IVD/HanyoDenshi/KS%06d.png\"
+style=\"vertical-align:middle\">"
+		     code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?HD-TK-\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"HD-KS%06d\" src=\"%s/IVD/HanyoDenshi/TK%08d.png\"
+style=\"vertical-align:middle\">"
+		     code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&G\\([01]\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\);" nil t)
+	    (setq plane (string-to-int (match-string 1))
+		  code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"GB%d-%04X\" src=\"%s/GB%d/%02d-%02d.gif\"
+style=\"%s\">"
+		     plane code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     plane
+		     (- (lsh code -8) 32)
+		     (- (logand code 255) 32)
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(R-\\)?C\\([1-7]\\)-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\);" nil t)
+	    (setq plane (string-to-int (match-string 2))
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"CNS%d-%04X\" src=\"%s/CNS%d/%04X.gif\"
+style=\"%s\">"
+		     plane code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     plane code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(R-\\)?JC3-\\([0-9A-F][0-9A-F][0-9A-F][0-9A-F]\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"JC3-%04X\" src=\"%s/JEF-CHINA3/%04X.png\">"
+		     code chise-wiki-bitmap-glyph-image-url code)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A-\\)?ZOB-\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"ZOB-%04d\" src=\"%s/ZOB-1968/%04d.png\"
+style=\"vertical-align:middle\">"
+		     code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A2-\\|g2-\\|R-\\)?DJT-\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"DJT-%05d\" src=\"%s/%05d.png\"
+style=\"vertical-align:middle; width: auto; max-height: 60px\">"
+		     code
+		     chise-wiki-daijiten-bitmap-glyphs-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&SW-JIGUGE\\([45]?\\)-\\([0-9]+\\);" nil t)
+	    (setq subcode (match-string 1)
+		  code (string-to-int (match-string 2)))
+	    (setq plane
+		  (if (string= subcode "")
+		      "5"
+		    subcode))
+	    (replace-match
+	     (format "<img alt=\"SW-JIGUGE%s-%05d\" src=\"%s/ShuoWen/Jiguge%s/%05d.png\"
+style=\"vertical-align:middle; width: auto; max-height: 80px\">"
+		     plane code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     plane code)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&HNG\\([0-9]+\\)-\\([0-9][0-9][0-9][0-9]\\)\\([0-9]\\);" nil t)
+	    (setq plane (match-string 1)
+		  code (string-to-int (match-string 2))
+		  subcode (string-to-int (match-string 3)))
+	    (setq subcode
+		  (if (eq subcode 0)
+		      ""
+		    (char-to-string (decode-char 'ascii (+ 96 subcode)))))
+	    (replace-match
+	     (format
+	      "<img alt=\"HNG%s-%04d%s\" src=\"%s/%s/%04d%s.png\" style=\"
+vertical-align:middle; width: auto; max-height: 60px\">"
+	      plane code subcode
+	      chise-wiki-hng-bitmap-glyphs-url
+	      plane code subcode
+	      )
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?AJ1-\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"AJ1-%05d\" src=\"%s/IVD/AdobeJapan1/CID+%d.png\"
+style=\"vertical-align:middle\">"
+		     code
+		     chise-wiki-legacy-bitmap-glyphs-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A-\\|o-\\|G-\\|g2-\\|R-\\)?MJ\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"MJ%06d\" src=\"https://moji.or.jp/mojikibansearch/img/MJ/MJ%06d.png\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\)?IU[+-]\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"u%04x\" src=\"%s/u%04x.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?KU[+-]\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"u%04x-k\" src=\"%s/u%04x-k.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&A-\\(comp\\|cgn\\)U[+-]\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"u%04x\" src=\"%s/u%04x.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward
+		  "&\\(A-\\|g2-\\)?U-i\\([0-9]+\\)\\+\\([0-9A-F]+\\);"
+		  nil t)
+	    (setq plane (string-to-int (match-string 2))
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"u%04x-itaiji-%03d\" src=\"%s/u%04x-itaiji-%03d.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     plane
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     plane
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&A-IWDSU\\+\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 1) 16))
+	    (replace-match
+	     (format "<img alt=\"A-IWDSU+%04x\" src=\"%s/u%04x.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward
+		  "&\\(A-\\)?CDP-i\\([0-9]+\\)-\\([0-9A-F]+\\);"
+		  nil t)
+	    (setq plane (string-to-int (match-string 2))
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"cdp-%04x-itaiji-%03d\" src=\"%s/cdp-%04x-itaiji-%03d.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     plane
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     plane
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward
+		  "&\\(A-\\)?CDP-v\\([0-9]+\\)-\\([0-9A-F]+\\);"
+		  nil t)
+	    (setq plane (string-to-int (match-string 2))
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"cdp-%04x-var-%03d\" src=\"%s/cdp-%04x-var-%03d.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     plane
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     plane
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward
+		  "&\\(A-\\|G-\\|g2-\\|R-\\)?M-\\([0-9]+\\);"
+		  nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"dkw-%05d\" src=\"%s/dkw-%05d.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(g2-\\)?U-v\\([0-9]+\\)\\+\\([0-9A-F]+\\);" nil t)
+	    (setq plane (string-to-int (match-string 2))
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"u%04x-var-%03d\" src=\"%s/u%04x-var-%03d.svg\"
+style=\"vertical-align:middle; width: 48px; height: 48px\">"
+		     code
+		     plane
+		     chise-wiki-glyphwiki-glyph-image-url
+		     code
+		     plane
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A-\\|G-\\|R-\\|g2-\\)?GT-\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"GT-%05d\" src=\"%s?char=GT-%05d\"
+style=\"%s\">"
+		     code
+		     chise-wiki-glyph-cgi-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A-\\|G-\\|g2-\\)?GT-K\\([0-9]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2)))
+	    (replace-match
+	     (format "<img alt=\"GT-K%05d\" src=\"%s?char=GT-K%05d\"
+style=\"%s\">"
+		     code
+		     chise-wiki-glyph-cgi-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&B-\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 1) 16))
+	    (replace-match
+	     (format "<img alt=\"B-%04X\" src=\"%s?char=B-%04X\"
+style=\"%s\">"
+		     code
+		     chise-wiki-glyph-cgi-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward
+		  "&\\(A-\\|G-\\|g2-\\|R-\\)?CDP-\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"CDP-%04X\" src=\"%s?char=CDP-%04X\"
+style=\"%s\">"
+		     code
+		     chise-wiki-glyph-cgi-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward
+		  "&\\(I-\\)?HZK\\(0[1-9]\\|1[0-2]\\)-\\([0-9A-F]+\\);" nil t)
+	    (setq plane (match-string 2)
+		  code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"HZK%s-%04X\" src=\"%s?char=HZK%s-%04X\"
+style=\"%s\">"
+		     plane
+		     code
+		     chise-wiki-glyph-cgi-url
+		     plane
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A-\\|G-\\|g2-\\|R-\\)?RUI6-\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (replace-match
+	     (format "<img alt=\"RUI6-%04X\" src=\"%s?char=RUI6-%04X\"
+style=\"vertical-align:middle\">"
+		     code
+		     chise-wiki-glyph-cgi-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&hanaJU\\+\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 1) 16))
+	    (replace-match
+	     (format "<img alt=\"hanaJU+%04X\" src=\"%s?char=hana-JU+%04X\"
+style=\"vertical-align:middle\">"
+		     code
+		     chise-wiki-glyph-cgi-url
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(A-\\|G-\\|g2-\\|R-\\)?\\(UU\\+\\|U-\\)\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 3) 16))
+	    (replace-match
+	     (format "<img alt=\"UU+%04X\" src=\"https://www.unicode.org/cgi-bin/refglyph?24-%04X\"
+style=\"vertical-align:middle\">"
+		     code
+		     code
+		     www-format-char-img-style)
+	     t 'literal))
+
+	  (goto-char (point-min))
+	  (while (re-search-forward "&MCS-\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 1) 16))
+	    (setq start (match-beginning 0)
+		  end (match-end 0))
+	    (setq char (decode-char 'system-char-id code))
+	    (cond
+	     ((and (setq variants
+			 (or (www-get-feature-value char '->subsumptive)
+			     (www-get-feature-value char '->denotational)))
+		   (progn
+		     (if (characterp variants)
+			 (setq variants (list variants)))
+    		     (while (and variants
+				 (setq ret (www-format-encode-string
+					    (char-to-string (car variants))))
+				 (string-match "&MCS-\\([0-9A-F]+\\);" ret))
+		       (setq variants (cdr variants)))
+		     ret))
+	      (unless (string-match "&MCS-\\([0-9A-F]+\\);" ret)
+		(goto-char start)
+		(delete-region start end)
+		(insert ret))
+	      )
+	     ((setq ret (or (www-get-feature-value char 'ideographic-combination)
+			    (www-get-feature-value char 'ideographic-structure)))
+	      (setq ret
+		    (mapconcat
+		     (lambda (ch)
+		       (if (listp ch)
+			   (if (characterp (setq rret (find-char ch)))
+			       (setq ch rret)))
+		       (if (characterp ch)
+			   (www-format-encode-string
+			    (char-to-string ch) without-tags)
+			 (www-format-encode-string
+			  (format "%S" ch) without-tags)))
+		     ret ""))
+	      (when ret
+		(goto-char start)
+		(delete-region start end)
+		(insert ret))
+	      )))
+	  ))
+      ;; (goto-char (point-min))
+      ;; (while (search-forward "&GT-" nil t)
+      ;;   (replace-match "&amp;GT-" t 'literal))
+      (buffer-string))))
+
 (setq www-format-char-img-style "vertical-align:middle;")
 
 (defun decode-url-string (string &optional coding-system)
@@ -18,7 +612,7 @@
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.99.1")
+(defconst www-ids-find-version "0.99.2")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
