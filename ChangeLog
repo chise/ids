@@ -1,3 +1,141 @@
+2021-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002921D): Use "𠬩" instead of "⿸𠃜又".
+	(U-0002921F): Use "𢑑" instead of "⿱彐彐".
+	(U-00029220): Completed.
+	(U-00029C38): Use "𢑑" instead of "⿱彐彐".
+	(U-00029C41): Modify structure.
+	(U-00029C59): Use "𥹷" instead of "⿰米㐬".
+	(U-00029C6F): Ditto.
+	(U-00029C70): Use "⿴䰞x" instead of "⿶𩰲⿱者x"; add apparent
+	structure.
+
+	* www/www-ids-find.el (www-format-encode-string): Copied from
+	est/cwiki-common.el and modify for Bootstrap-4.5.0.
+	(www-ids-find-version): Update to 0.99.2.
+
+	* IDS-UCS-Basic.txt (U+5009): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U+8087): Likewise.
+	(U+8088): Likewise.
+
+	* IDS-SW-JIGUGE.txt: Use ZOB-01968 as the Small-Seal radical of
+	<爿>.
+	(SW-JIGUGE-00506): Fixed.
+	(SW-JIGUGE-00713): Completed.
+	(SW-JIGUGE-01019): Completed.
+	(SW-JIGUGE-01215): Fixed.
+	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE-01215;x" instead of "⿲&SW-JIGUGE-00601;x&SW-JIGUGE-00601;".
+	(SW-JIGUGE-01502): Fixed.
+	(SW-JIGUGE-01503): Completed.
+	(SW-JIGUGE-01506): Completed [temporary].
+	(SW-JIGUGE-02008): Completed.
+	(SW-JIGUGE-02500): Completed.
+	(SW-JIGUGE-02814): Fixed [temporary].
+	(SW-JIGUGE-02828): Modify IDS to avoid using "⿻".
+	(SW-JIGUGE-02907): Completed [temporary].
+	(SW-JIGUGE-03005): Completed.
+	(SW-JIGUGE-03200): Add IDS.
+	(SW-JIGUGE-03304): Modify structure.
+	(SW-JIGUGE-03527): Completed.
+	(SW-JIGUGE-03528): Completed.
+	(SW-JIGUGE-03706): Completed [temporary].
+	(SW-JIGUGE-03915): Completed.
+	(SW-JIGUGE-04025): Completed.
+	(SW-JIGUGE-04411): Completed [temporary].
+	(SW-JIGUGE-04412): Fixed and Completed.
+	(SW-JIGUGE-04911): Completed.
+	(SW-JIGUGE-05205): Completed.
+	(SW-JIGUGE-05525): Completed.
+	(SW-JIGUGE-05623): Completed [temporary].
+	(SW-JIGUGE-06118): Fixed.
+	(SW-JIGUGE-06128): Completed.
+	(SW-JIGUGE-06401): Completed [temporary].
+	(SW-JIGUGE-07302): Completed.
+	(SW-JIGUGE-07503): Use "⿴&SW-JIGUGE-45811;x" instead of "⿲&SW-JIGUGE-44807;x&SW-JIGUGE-44807;".
+	(SW-JIGUGE-07601): Completed.
+	(SW-JIGUGE-07631): Completed.
+	(SW-JIGUGE-07802): Completed.
+	(SW-JIGUGE-08528): Fixed.
+	(SW-JIGUGE-08711): Completed.
+	(SW-JIGUGE-08712): Completed.
+	(SW-JIGUGE-08800): Completed.
+	(SW-JIGUGE-08804): Completed.
+	(SW-JIGUGE-08805): Completed.
+	(SW-JIGUGE-08806): Completed.
+	(SW-JIGUGE-08807): Fixed.
+	(SW-JIGUGE-08809): Modified [temporary].
+	(SW-JIGUGE-08810): Completed.
+	(SW-JIGUGE-08812): Completed.
+	(SW-JIGUGE-08814): Completed.
+	(SW-JIGUGE-08816): Completed.
+	(SW-JIGUGE-08818): Completed.
+	(SW-JIGUGE-08819): Completed.
+	(SW-JIGUGE-08820): Completed.
+	(SW-JIGUGE-08822): Completed [temporary].
+	(SW-JIGUGE-08823): Completed.
+	(SW-JIGUGE-08907): Completed.
+	(SW-JIGUGE-09303): Completed [temporary].
+	(SW-JIGUGE-09304): Fixed.
+	(SW-JIGUGE-09407): Fixed.
+	(SW-JIGUGE-09408): Completed.
+	(SW-JIGUGE-09600): Completed.
+	(SW-JIGUGE-09601): Fixed.
+	(SW-JIGUGE-09610): Completed.
+	(SW-JIGUGE-09611): Completed.
+	(SW-JIGUGE-09704): Add IDS.
+	(SW-JIGUGE-09706): Completed.
+	(SW-JIGUGE-09707): Completed.
+	(SW-JIGUGE-09708): Completed [temporary].
+	(SW-JIGUGE-09709): Completed.
+	(SW-JIGUGE-09710): Completed.
+	(SW-JIGUGE-09715): Completed.
+	(SW-JIGUGE-09721): Completed.
+	(SW-JIGUGE-10013): Completed.
+	(SW-JIGUGE-10015): Completed.
+	(SW-JIGUGE-11313): Completed.
+	(SW-JIGUGE-11314): Completed.
+	(SW-JIGUGE-12003): Completed.
+	(SW-JIGUGE-12332): Completed.
+	(SW-JIGUGE-14407): Completed.
+	(SW-JIGUGE-15101): Completed.
+	(SW-JIGUGE-15215): Completed [temporary].
+	(SW-JIGUGE-16101): Completed.
+	(SW-JIGUGE-16102): Fixed.
+	(SW-JIGUGE-16103): Fixed.
+	(SW-JIGUGE-16104): Fixed.
+	(SW-JIGUGE-16105): Fixed.
+	(SW-JIGUGE-16108): Completed.
+	(SW-JIGUGE-16109): Fixed.
+	(SW-JIGUGE-16111): Completed [temporary].
+	(SW-JIGUGE-16112): Completed.
+	(SW-JIGUGE-17028): Completed.
+	(SW-JIGUGE-17703): Completed.
+	(SW-JIGUGE-18001): Completed.
+	(SW-JIGUGE-18811): Completed.
+	(SW-JIGUGE-20704): Completed.
+	(SW-JIGUGE-22508): Completed.
+	(SW-JIGUGE-27202): Completed.
+	(SW-JIGUGE-27907): Completed.
+	(SW-JIGUGE-28416): Completed.
+	(SW-JIGUGE-30413): Completed.
+	(SW-JIGUGE-31814): Completed.
+	(SW-JIGUGE-36722): Completed.
+	(SW-JIGUGE-36731): Completed.
+	(SW-JIGUGE-37910): Completed.
+	(SW-JIGUGE-40209): Completed.
+	(SW-JIGUGE-43019): Completed.
+	(SW-JIGUGE-45518): Completed.
+	(SW-JIGUGE-47423): Completed.
+	(SW-JIGUGE-47713): Completed.
+	(SW-JIGUGE-52001): Completed.
+	(SW-JIGUGE-52016): Completed [temporary].
+
+	* IDS-UCS-Ext-B-4.txt (U-000271BE): Use "共" instead of
+	"⿳艹一八".
+
+	* IDS-UCS-Ext-A.txt (U+34F0): Use U+753B instead of JU+753B.
+
 2021-06-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020740): Modify structure.
