@@ -1,5 +1,11 @@
 2021-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+5554): Use U-0002BF09 instead of
+	hanaJU+2BF09.
+	(U+8088): Ditto.
+
+2021-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-0002921D): Use "𠬩" instead of "⿸𠃜又".
 	(U-0002921F): Use "𢑑" instead of "⿱彐彐".
 	(U-00029220): Completed.
@@ -9,6 +15,10 @@
 	(U-00029C6F): Ditto.
 	(U-00029C70): Use "⿴䰞x" instead of "⿶𩰲⿱者x"; add apparent
 	structure.
+
+	* IDS-UCS-Ext-B-3.txt (U-000253FC): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U-000253FE): Likewise.
 
 	* www/www-ids-find.el (www-format-encode-string): Copied from
 	est/cwiki-common.el and modify for Bootstrap-4.5.0.
