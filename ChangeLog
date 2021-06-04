@@ -1,3 +1,45 @@
+2021-06-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+751A instead of UU+751A.
+	- Use U+5347 instead of UU+5347.
+	- Use U+807F instead of UU+807F.
+	(U+2D174): Completed.
+	(U+2E0B7): Unified to one column.
+	(U+2E303): Use "聿" instead of "⿱𦘒一".
+
+	* IDS-UCS-Ext-B-4.txt (U-000265C3): Use "𥁑" instead of "⿱必皿".
+	(U-000265C6): Use "𡘤" instead of "⿱𡗜电".
+	(U-000265C9): Completed.
+	(U-000265CE): Use "㽜" instead of "⿱夗田".
+	(U-00026776): Use "𡷈" instead of "⿱山⿰山山".
+	(U-00026778): Add IDS.
+	(U-00026784): Use "𡷈" instead of "⿱山⿰山山".
+	(U-0002679E): Use "圅" instead of "⿱龴⿴囗𢆉".
+	(U-0002679F): Use "𥁑" instead of "⿱必皿".
+	(U-000267B4): Use "𡘤" instead of "⿱𡗜电".
+
+	* IDS-UCS-Basic.txt: Use "𫥎" instead of "⿱免&CDP-8971;".
+	(U+607B): Use "⿰x则" instead of "⿲X贝刂".
+	(U+60ED): Use "⿰x斩" instead of "⿲x车斤".
+	(U+63B7): Use "⿰x郑" instead of "⿲x关⻏".
+	(U+63FF): Use "⿰x钦" instead of "⿲x钅欠".
+	(U+6556): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U+6811): Use "⿰x对" instead of "⿲x又寸".
+	(U+68E5): Use "⿴林爻" instead of "⿲木⿱㐅㐅木".
+	(U+69E0): Use "⿰x诸" instead of "⿲x讠者".
+	(U+6A7C): Use "⿰x缘" instead of "⿲x纟彖".
+	(U+6E10): Use "⿰x斩" instead of "⿲x车斤".
+	(U+6E85): Use "⿰x贱" instead of "⿲x贝戋".
+	(U+6E86): Modify structure.
+	(U+6EDF): Use "⿰x艳" instead of "⿲x丰色".
+	(U+76E7): Modify structure.
+	(U+7F2C): Use "⿰x颉" instead of "⿲x吉页".
+	(U+8990): Use "爻" instead of "⿱㐅㐅".
+	(U+8E2F): Use "⿰x郑" instead of "⿲x关⻏".
+	(U+9825): Modify structure.
+
 2021-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02416): Completed.
@@ -197,6 +239,19 @@
 	(SW-JIGUGE-51501): Completed.
 
 2021-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020C81): Completed.
+	(U-00020C84): Use "邜" instead of "⿰夕⻏".
+	(U-000212C7): Use "𠖲" instead of "⿰冫分".
+	(U-000212C8): Use "𫥁" instead of "⿰冫斤".
+	(U-000212CF): Completed.
+	(U-000212D3): Use "邜" instead of "⿰夕⻏".
+	(U-000212E0): Use "𠫡" instead of "⿱厶木".
+	(U-000212F0): Use "圥" instead of "⿱土儿".
+	(U-000212F3): Use "𥃩" instead of "⿱目匕".
+	(U-000212F6): Use "𮌁" instead of "⿻聿丶".
+	(U-00021D8D): Use "㞤" instead of "⿱山𠆢".
+	(U-00021D96): Completed.
 
 	* IDS-UCS-Ext-B-2.txt (U-00022442): Use "繇" instead of
 	"⿰⿱&CDP-8B5E;缶系".
