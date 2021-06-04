@@ -1,5 +1,203 @@
 2021-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02416): Completed.
+	(SW-JIGUGE-06503): Completed.
+	(SW-JIGUGE-07102): Completed.
+	(SW-JIGUGE-07107): Completed.
+	(SW-JIGUGE-07505): Completed.
+	(SW-JIGUGE-07827): Completed.
+	(SW-JIGUGE-08102): Completed.
+	(SW-JIGUGE-08105): Completed.
+	(SW-JIGUGE-08210): Completed.
+	(SW-JIGUGE-08300): Completed.
+	(SW-JIGUGE-08301): Completed.
+	(SW-JIGUGE-08302): Completed.
+	(SW-JIGUGE-08303): Completed.
+	(SW-JIGUGE-08304): Completed.
+	(SW-JIGUGE-08306): Completed.
+	(SW-JIGUGE-08719): Completed.
+	(SW-JIGUGE-08809): Modify the lower component; preserve the
+	previous IDS as a apparent structure.
+	(SW-JIGUGE-08817): Completed.
+	(SW-JIGUGE-09107): Completed.
+	(SW-JIGUGE-09124): Completed.
+	(SW-JIGUGE-09205): Completed.
+	(SW-JIGUGE-09504): Completed.
+	(SW-JIGUGE-10006): Completed [temporary].
+	(SW-JIGUGE-10106): Completed.
+	(SW-JIGUGE-10809): Completed.
+	(SW-JIGUGE-11505): Completed.
+	(SW-JIGUGE-11524): Completed.
+	(SW-JIGUGE-12017): Completed.
+	(SW-JIGUGE-12023): Completed.
+	(SW-JIGUGE-12024): Completed.
+	(SW-JIGUGE-12101): Completed.
+	(SW-JIGUGE-12102): Completed.
+	(SW-JIGUGE-12202): Completed.
+	(SW-JIGUGE-12322): Completed.
+	(SW-JIGUGE-12330): Completed.
+	(SW-JIGUGE-12914): Completed.
+	(SW-JIGUGE-13005): Completed.
+	(SW-JIGUGE-13101): Completed.
+	(SW-JIGUGE-13121): Completed.
+	(SW-JIGUGE-13206): Completed.
+	(SW-JIGUGE-13212): Completed.
+	(SW-JIGUGE-13402): Add IDS.
+	(SW-JIGUGE-13507): Completed.
+	(SW-JIGUGE-13508): Completed [temporary].
+	(SW-JIGUGE-13517): Completed.
+	(SW-JIGUGE-13614): Completed.
+	(SW-JIGUGE-13633): Completed.
+	(SW-JIGUGE-13923): Completed [temporary].
+	(SW-JIGUGE-13927): Completed [temporary].
+	(SW-JIGUGE-13931): Fixed.
+	(SW-JIGUGE-14103): Completed.
+	(SW-JIGUGE-14214): Completed.
+	(SW-JIGUGE-14223): Completed.
+	(SW-JIGUGE-14505): Completed [temporary].
+	(SW-JIGUGE-14600): Completed.
+	(SW-JIGUGE-14720): Completed [temporary].
+	(SW-JIGUGE-14817): Completed.
+	(SW-JIGUGE-15206): Completed.
+	(SW-JIGUGE-15302): Completed.
+	(SW-JIGUGE-15304): Completed.
+	(SW-JIGUGE-15305): Completed [temporary].
+	(SW-JIGUGE-15306): Completed.
+	(SW-JIGUGE-15311): Fixed.
+	(SW-JIGUGE-15502): Completed [temporary].
+	(SW-JIGUGE-15503): Completed [temporary].
+	(SW-JIGUGE-15504): Completed.
+	(SW-JIGUGE-15507): Completed.
+	(SW-JIGUGE-15516): Completed.
+	(SW-JIGUGE-15603): Completed.
+	(SW-JIGUGE-15606): Completed [temporary].
+	(SW-JIGUGE-15607): Completed.
+	(SW-JIGUGE-15610): Fixed.
+	(SW-JIGUGE-15700): Completed.
+	(SW-JIGUGE-16013): Completed.
+	(SW-JIGUGE-16303): Completed [temporary].
+	(SW-JIGUGE-16407): Completed.
+	(SW-JIGUGE-16412): Completed.
+	(SW-JIGUGE-16709): Completed.
+	(SW-JIGUGE-16710): Fixed.
+	(SW-JIGUGE-16711): Completed.
+	(SW-JIGUGE-16712): Completed.
+	(SW-JIGUGE-16800): Fixed.
+	(SW-JIGUGE-16808): Completed.
+	(SW-JIGUGE-16813): Completed.
+	(SW-JIGUGE-16903): Completed.
+	(SW-JIGUGE-16907): Completed.
+	(SW-JIGUGE-16912): Completed.
+	(SW-JIGUGE-16918): Completed.
+	(SW-JIGUGE-16921): Completed.
+	(SW-JIGUGE-16922): Completed.
+	(SW-JIGUGE-16923): Completed.
+	(SW-JIGUGE-16928): Completed.
+	(SW-JIGUGE-16935): Completed.
+	(SW-JIGUGE-16936): Completed.
+	(SW-JIGUGE-17002): Completed.
+	(SW-JIGUGE-17003): Completed.
+	(SW-JIGUGE-17006): Completed.
+	(SW-JIGUGE-17009): Completed.
+	(SW-JIGUGE-17013): Completed.
+	(SW-JIGUGE-17014): Completed.
+	(SW-JIGUGE-17016): Completed.
+	(SW-JIGUGE-17017): Completed.
+	(SW-JIGUGE-17018): Completed.
+	(SW-JIGUGE-17021): Completed [temporary].
+	(SW-JIGUGE-17022): Completed.
+	(SW-JIGUGE-17024): Completed.
+	(SW-JIGUGE-17026): Completed.
+	(SW-JIGUGE-17027): Completed [temporary].
+	(SW-JIGUGE-17029): Completed.
+	(SW-JIGUGE-17101): Completed.
+	(SW-JIGUGE-17102): Completed.
+	(SW-JIGUGE-17109): Completed [temporary].
+	(SW-JIGUGE-17110): Completed.
+	(SW-JIGUGE-17112): Completed.
+	(SW-JIGUGE-17113): Completed.
+	(SW-JIGUGE-17116): Completed [temporary].
+	(SW-JIGUGE-17203): Completed [temporary].
+	(SW-JIGUGE-17316): Completed.
+	(SW-JIGUGE-17405): Completed.
+	(SW-JIGUGE-17406): Completed.
+	(SW-JIGUGE-18608): Completed.
+	(SW-JIGUGE-19114): Completed [temporary].
+	(SW-JIGUGE-23008): Completed.
+	(SW-JIGUGE-24713): Fixed.
+	(SW-JIGUGE-24717): Fixed.
+	(SW-JIGUGE-24800): Fixed.
+	(SW-JIGUGE-25602): Fixed.
+	(SW-JIGUGE-25603): Fixed.
+	(SW-JIGUGE-25604): Fixed.
+	(SW-JIGUGE-26901): Completed.
+	(SW-JIGUGE-26915): Completed.
+	(SW-JIGUGE-27507): Completed.
+	(SW-JIGUGE-27703): Completed [temporary].
+	(SW-JIGUGE-27704): Fixed.
+	(SW-JIGUGE-27705): Completed.
+	(SW-JIGUGE-29100): Completed.
+	(SW-JIGUGE-29604): Completed.
+	(SW-JIGUGE-29610): Fixed.
+	(SW-JIGUGE-29806): Completed.
+	(SW-JIGUGE-29903): Completed.
+	(SW-JIGUGE-30402): Completed [temporary].
+	(SW-JIGUGE-30417): Completed.
+	(SW-JIGUGE-30605): Completed.
+	(SW-JIGUGE-31109): Completed.
+	(SW-JIGUGE-31306): Completed.
+	(SW-JIGUGE-31601): Completed.
+	(SW-JIGUGE-31603): Completed.
+	(SW-JIGUGE-31606): Completed.
+	(SW-JIGUGE-31619): Completed.
+	(SW-JIGUGE-31701): Completed.
+	(SW-JIGUGE-31808): Completed [temporary].
+	(SW-JIGUGE-31822): Completed.
+	(SW-JIGUGE-31823): Completed.
+	(SW-JIGUGE-32402): Completed.
+	(SW-JIGUGE-33702): Completed.
+	(SW-JIGUGE-33719): Completed.
+	(SW-JIGUGE-33913): Fixed.
+	(SW-JIGUGE-33915): Completed.
+	(SW-JIGUGE-34113): Completed.
+	(SW-JIGUGE-34822): Fixed.
+	(SW-JIGUGE-34913): Completed [temporary].
+	(SW-JIGUGE-36202): Completed.
+	(SW-JIGUGE-36218): Completed.
+	(SW-JIGUGE-36603): Completed.
+	(SW-JIGUGE-38220): Completed.
+	(SW-JIGUGE-38412): Completed.
+	(SW-JIGUGE-38515): Completed.
+	(SW-JIGUGE-39414): Completed.
+	(SW-JIGUGE-39501): Completed.
+	(SW-JIGUGE-41406): Completed.
+	(SW-JIGUGE-42315): Completed.
+	(SW-JIGUGE-42802): Completed.
+	(SW-JIGUGE-42901): Completed.
+	(SW-JIGUGE-43025): Completed.
+	(SW-JIGUGE-43105): Completed.
+	(SW-JIGUGE-43702): Completed.
+	(SW-JIGUGE-44103): Completed.
+	(SW-JIGUGE-44208): Completed.
+	(SW-JIGUGE-44209): Completed.
+	(SW-JIGUGE-44210): Completed.
+	(SW-JIGUGE-44211): Completed.
+	(SW-JIGUGE-44925): Completed.
+	(SW-JIGUGE-45218): Completed.
+	(SW-JIGUGE-47113): Completed [temporary].
+	(SW-JIGUGE-47413): Completed [temporary].
+	(SW-JIGUGE-49008): Completed.
+	(SW-JIGUGE-49023): Completed.
+	(SW-JIGUGE-49805): Completed.
+	(SW-JIGUGE-49820): Completed.
+	(SW-JIGUGE-51407): Completed.
+	(SW-JIGUGE-51408): Completed.
+	(SW-JIGUGE-51409): Completed.
+	(SW-JIGUGE-51500): Completed.
+	(SW-JIGUGE-51501): Completed.
+
+2021-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt (U-00022442): Use "繇" instead of
 	"⿰⿱&CDP-8B5E;缶系".
 	(U-00022443): Use "壐" instead of "⿱爾土".
