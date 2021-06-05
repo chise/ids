@@ -1,3 +1,23 @@
+2021-06-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+518F): Fixed.
+	(U+5C5C): Fixed.
+	(U+5C66): Modify structure.
+	(U+5C67): Modify structure.
+	(U+5C68): Modify structure.
+	(U+5C69): Modify structure.
+	(U+5C6B): Fixed.
+	(U+5EE4): Fixed.
+	(U+67D2): Fixed.
+	(U+67D3): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U+6866): Fixed.
+	(U+74E3): Use "⿴辡x" instead of "⿲辛x辛".
+	(U+7666): Fixed.
+	(U+877E): Fixed.
+	(U+982E): Fixed.
+	(U+9D46): Use "⿴行x" instead of "⿲彳x亍".
+
 2021-06-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt:
