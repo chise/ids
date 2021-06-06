@@ -1,5 +1,25 @@
 2021-06-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022247): Use "𧺆" instead of "⿱夭龰".
+	(U-00022248): Use "𠙼" instead of "⿶凵口".
+	(U-0002224E): Use "𭣖" instead of "⿰爿支".
+	(U-0002236C): Use "𠙼" instead of "⿶凵口".
+	(U-0002236F): Use "⿶舁x" instead of "⿱⿻𦥑x廾"; add apparent
+	structure.
+	(U-00022371): Likewise.
+	(U-00022372): Likewise.
+	(U-00022373): Use "𬛭" instead of "⿰𦣻𦣻".
+	(U-00022377): Use "𣥖" instead of "⿰止止".
+	(U-00022379): Use "⿱x𢍱" instead of "⿳x&GT-K11083;廾".
+	(U-00022F8D): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-00022F93): Use "仒" instead of "⿱𠆢&CDP-8971;".
+	(U-00022F95): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-00023970): Use "𠆸" instead of "⿰亻攴".
+	(U-00023981): Use "𣥖" instead of "⿰止止".
+	(U-00023982): Modify structure.
+
 	* IDS-UCS-Basic.txt (U+518F): Fixed.
 	(U+5C5C): Fixed.
 	(U+5C66): Modify structure.
