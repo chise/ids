@@ -1,3 +1,28 @@
+2021-06-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000244F4): Use "⿴𠬪x" instead of
+	"⿳爫x又".
+	(U-00024502): Ditto.
+
+2021-06-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Install IDS-UCS-Compat-Supplement.txt.
+
+	* IDS-UCS-Ext-B-3.txt (U-000259B1): Use "兔" instead of "⿻免丶".
+	(U-000259B2): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-000259BB): Modify structure; use "凧" instead of "⿵⺇巾".
+	(U-000259BC): Fixed.
+	(U-000259BE): Modify structure.
+	(U-000259C2): Modify structure; use "贡" instead of "⿱工贝".
+	(U-000259C3): Use "⿸⿱穴爿x" instead of "⿱穴⿰爿x".
+	(U-000259CC): Ditto.
+	(U-000259CD): Ditto.
+	(U-000259D0): Fixed.
+	(U-000259D9): Use "𬂧" instead of "⿰未未".
+	(U-000259DB): Use "⿱x𭜨" instead of "⿳x死心".
+	(U-000259DE): Use "𣏔" instead of "⿱止木".
+
 2021-06-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022247): Use "𧺆" instead of "⿱夭龰".
