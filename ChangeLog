@@ -1,4 +1,30 @@
+2021-06-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-Daikanwa-03.txt: Sync up with the current environment.
+
 2021-06-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5602): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U+5668): Likewise.
+	(U+569A): Likewise.
+	(U+56BB): Likewise.
+	(U+5BAE): Fixed.
+	(U+5DFA): Modify structure.
+	(U+5DFB): Fixed.
+	(U+5ECD): Fixed.
+	(U+67AA): Fixed.
+	(U+70C2): Fixed.
+	(U+75E9): Fixed.
+	(U+7AA7): Fixed.
+	(U+7ABD): Fixed.
+	(U+7CC1): Fixed.
+	(U+810B): Fixed.
+	(U+889E): Use "⿴衣x" instead of "⿻衤x".
+	(U+929C): Use "⿴行x" instead of "⿻行x".
+	(U+92A2): Use "𣱵" instead of "⿱二水".
+	(U+9ADE): Fixed.
+	(U+9ADF): Add IDS.
 
 	* IDS-UCS-Ext-B-3.txt (U-000244F4): Use "⿴𠬪x" instead of
 	"⿳爫x又".
