@@ -44,6 +44,8 @@
 
 (install-ids-read-file "IDS-UCS-Compat.txt" load-ids-simplify t)
 
+(install-ids-read-file "IDS-UCS-Compat-Supplement.txt" load-ids-simplify t)
+
 (let ((i 1))
   (while (<= i 3)
     (install-ids-read-file (format "IDS-CNS-%d.txt" i)

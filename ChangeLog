@@ -1,3 +1,335 @@
+2021-06-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000244F4): Use "⿴𠬪x" instead of
+	"⿳爫x又".
+	(U-00024502): Ditto.
+
+2021-06-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Install IDS-UCS-Compat-Supplement.txt.
+
+	* IDS-UCS-Ext-B-3.txt (U-000259B1): Use "兔" instead of "⿻免丶".
+	(U-000259B2): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-000259BB): Modify structure; use "凧" instead of "⿵⺇巾".
+	(U-000259BC): Fixed.
+	(U-000259BE): Modify structure.
+	(U-000259C2): Modify structure; use "贡" instead of "⿱工贝".
+	(U-000259C3): Use "⿸⿱穴爿x" instead of "⿱穴⿰爿x".
+	(U-000259CC): Ditto.
+	(U-000259CD): Ditto.
+	(U-000259D0): Fixed.
+	(U-000259D9): Use "𬂧" instead of "⿰未未".
+	(U-000259DB): Use "⿱x𭜨" instead of "⿳x死心".
+	(U-000259DE): Use "𣏔" instead of "⿱止木".
+
+2021-06-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022247): Use "𧺆" instead of "⿱夭龰".
+	(U-00022248): Use "𠙼" instead of "⿶凵口".
+	(U-0002224E): Use "𭣖" instead of "⿰爿支".
+	(U-0002236C): Use "𠙼" instead of "⿶凵口".
+	(U-0002236F): Use "⿶舁x" instead of "⿱⿻𦥑x廾"; add apparent
+	structure.
+	(U-00022371): Likewise.
+	(U-00022372): Likewise.
+	(U-00022373): Use "𬛭" instead of "⿰𦣻𦣻".
+	(U-00022377): Use "𣥖" instead of "⿰止止".
+	(U-00022379): Use "⿱x𢍱" instead of "⿳x&GT-K11083;廾".
+	(U-00022F8D): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-00022F93): Use "仒" instead of "⿱𠆢&CDP-8971;".
+	(U-00022F95): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-00023970): Use "𠆸" instead of "⿰亻攴".
+	(U-00023981): Use "𣥖" instead of "⿰止止".
+	(U-00023982): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+518F): Fixed.
+	(U+5C5C): Fixed.
+	(U+5C66): Modify structure.
+	(U+5C67): Modify structure.
+	(U+5C68): Modify structure.
+	(U+5C69): Modify structure.
+	(U+5C6B): Fixed.
+	(U+5EE4): Fixed.
+	(U+67D2): Fixed.
+	(U+67D3): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U+6866): Fixed.
+	(U+74E3): Use "⿴辡x" instead of "⿲辛x辛".
+	(U+7666): Fixed.
+	(U+877E): Fixed.
+	(U+982E): Fixed.
+	(U+9D46): Use "⿴行x" instead of "⿲彳x亍".
+
+2021-06-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+751A instead of UU+751A.
+	- Use U+5347 instead of UU+5347.
+	- Use U+807F instead of UU+807F.
+	(U+2D174): Completed.
+	(U+2E0B7): Unified to one column.
+	(U+2E303): Use "聿" instead of "⿱𦘒一".
+
+	* IDS-UCS-Ext-B-4.txt (U-000265C3): Use "𥁑" instead of "⿱必皿".
+	(U-000265C6): Use "𡘤" instead of "⿱𡗜电".
+	(U-000265C9): Completed.
+	(U-000265CE): Use "㽜" instead of "⿱夗田".
+	(U-00026776): Use "𡷈" instead of "⿱山⿰山山".
+	(U-00026778): Add IDS.
+	(U-00026784): Use "𡷈" instead of "⿱山⿰山山".
+	(U-0002679E): Use "圅" instead of "⿱龴⿴囗𢆉".
+	(U-0002679F): Use "𥁑" instead of "⿱必皿".
+	(U-000267B4): Use "𡘤" instead of "⿱𡗜电".
+
+	* IDS-UCS-Basic.txt: Use "𫥎" instead of "⿱免&CDP-8971;".
+	(U+607B): Use "⿰x则" instead of "⿲X贝刂".
+	(U+60ED): Use "⿰x斩" instead of "⿲x车斤".
+	(U+63B7): Use "⿰x郑" instead of "⿲x关⻏".
+	(U+63FF): Use "⿰x钦" instead of "⿲x钅欠".
+	(U+6556): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U+6811): Use "⿰x对" instead of "⿲x又寸".
+	(U+68E5): Use "⿴林爻" instead of "⿲木⿱㐅㐅木".
+	(U+69E0): Use "⿰x诸" instead of "⿲x讠者".
+	(U+6A7C): Use "⿰x缘" instead of "⿲x纟彖".
+	(U+6E10): Use "⿰x斩" instead of "⿲x车斤".
+	(U+6E85): Use "⿰x贱" instead of "⿲x贝戋".
+	(U+6E86): Modify structure.
+	(U+6EDF): Use "⿰x艳" instead of "⿲x丰色".
+	(U+76E7): Modify structure.
+	(U+7F2C): Use "⿰x颉" instead of "⿲x吉页".
+	(U+8990): Use "爻" instead of "⿱㐅㐅".
+	(U+8E2F): Use "⿰x郑" instead of "⿲x关⻏".
+	(U+9825): Modify structure.
+
+2021-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02416): Completed.
+	(SW-JIGUGE-06503): Completed.
+	(SW-JIGUGE-07102): Completed.
+	(SW-JIGUGE-07107): Completed.
+	(SW-JIGUGE-07505): Completed.
+	(SW-JIGUGE-07827): Completed.
+	(SW-JIGUGE-08102): Completed.
+	(SW-JIGUGE-08105): Completed.
+	(SW-JIGUGE-08210): Completed.
+	(SW-JIGUGE-08300): Completed.
+	(SW-JIGUGE-08301): Completed.
+	(SW-JIGUGE-08302): Completed.
+	(SW-JIGUGE-08303): Completed.
+	(SW-JIGUGE-08304): Completed.
+	(SW-JIGUGE-08306): Completed.
+	(SW-JIGUGE-08719): Completed.
+	(SW-JIGUGE-08809): Modify the lower component; preserve the
+	previous IDS as a apparent structure.
+	(SW-JIGUGE-08817): Completed.
+	(SW-JIGUGE-09107): Completed.
+	(SW-JIGUGE-09124): Completed.
+	(SW-JIGUGE-09205): Completed.
+	(SW-JIGUGE-09504): Completed.
+	(SW-JIGUGE-10006): Completed [temporary].
+	(SW-JIGUGE-10106): Completed.
+	(SW-JIGUGE-10809): Completed.
+	(SW-JIGUGE-11505): Completed.
+	(SW-JIGUGE-11524): Completed.
+	(SW-JIGUGE-12017): Completed.
+	(SW-JIGUGE-12023): Completed.
+	(SW-JIGUGE-12024): Completed.
+	(SW-JIGUGE-12101): Completed.
+	(SW-JIGUGE-12102): Completed.
+	(SW-JIGUGE-12202): Completed.
+	(SW-JIGUGE-12322): Completed.
+	(SW-JIGUGE-12330): Completed.
+	(SW-JIGUGE-12914): Completed.
+	(SW-JIGUGE-13005): Completed.
+	(SW-JIGUGE-13101): Completed.
+	(SW-JIGUGE-13121): Completed.
+	(SW-JIGUGE-13206): Completed.
+	(SW-JIGUGE-13212): Completed.
+	(SW-JIGUGE-13402): Add IDS.
+	(SW-JIGUGE-13507): Completed.
+	(SW-JIGUGE-13508): Completed [temporary].
+	(SW-JIGUGE-13517): Completed.
+	(SW-JIGUGE-13614): Completed.
+	(SW-JIGUGE-13633): Completed.
+	(SW-JIGUGE-13923): Completed [temporary].
+	(SW-JIGUGE-13927): Completed [temporary].
+	(SW-JIGUGE-13931): Fixed.
+	(SW-JIGUGE-14103): Completed.
+	(SW-JIGUGE-14214): Completed.
+	(SW-JIGUGE-14223): Completed.
+	(SW-JIGUGE-14505): Completed [temporary].
+	(SW-JIGUGE-14600): Completed.
+	(SW-JIGUGE-14720): Completed [temporary].
+	(SW-JIGUGE-14817): Completed.
+	(SW-JIGUGE-15206): Completed.
+	(SW-JIGUGE-15302): Completed.
+	(SW-JIGUGE-15304): Completed.
+	(SW-JIGUGE-15305): Completed [temporary].
+	(SW-JIGUGE-15306): Completed.
+	(SW-JIGUGE-15311): Fixed.
+	(SW-JIGUGE-15502): Completed [temporary].
+	(SW-JIGUGE-15503): Completed [temporary].
+	(SW-JIGUGE-15504): Completed.
+	(SW-JIGUGE-15507): Completed.
+	(SW-JIGUGE-15516): Completed.
+	(SW-JIGUGE-15603): Completed.
+	(SW-JIGUGE-15606): Completed [temporary].
+	(SW-JIGUGE-15607): Completed.
+	(SW-JIGUGE-15610): Fixed.
+	(SW-JIGUGE-15700): Completed.
+	(SW-JIGUGE-16013): Completed.
+	(SW-JIGUGE-16303): Completed [temporary].
+	(SW-JIGUGE-16407): Completed.
+	(SW-JIGUGE-16412): Completed.
+	(SW-JIGUGE-16709): Completed.
+	(SW-JIGUGE-16710): Fixed.
+	(SW-JIGUGE-16711): Completed.
+	(SW-JIGUGE-16712): Completed.
+	(SW-JIGUGE-16800): Fixed.
+	(SW-JIGUGE-16808): Completed.
+	(SW-JIGUGE-16813): Completed.
+	(SW-JIGUGE-16903): Completed.
+	(SW-JIGUGE-16907): Completed.
+	(SW-JIGUGE-16912): Completed.
+	(SW-JIGUGE-16918): Completed.
+	(SW-JIGUGE-16921): Completed.
+	(SW-JIGUGE-16922): Completed.
+	(SW-JIGUGE-16923): Completed.
+	(SW-JIGUGE-16928): Completed.
+	(SW-JIGUGE-16935): Completed.
+	(SW-JIGUGE-16936): Completed.
+	(SW-JIGUGE-17002): Completed.
+	(SW-JIGUGE-17003): Completed.
+	(SW-JIGUGE-17006): Completed.
+	(SW-JIGUGE-17009): Completed.
+	(SW-JIGUGE-17013): Completed.
+	(SW-JIGUGE-17014): Completed.
+	(SW-JIGUGE-17016): Completed.
+	(SW-JIGUGE-17017): Completed.
+	(SW-JIGUGE-17018): Completed.
+	(SW-JIGUGE-17021): Completed [temporary].
+	(SW-JIGUGE-17022): Completed.
+	(SW-JIGUGE-17024): Completed.
+	(SW-JIGUGE-17026): Completed.
+	(SW-JIGUGE-17027): Completed [temporary].
+	(SW-JIGUGE-17029): Completed.
+	(SW-JIGUGE-17101): Completed.
+	(SW-JIGUGE-17102): Completed.
+	(SW-JIGUGE-17109): Completed [temporary].
+	(SW-JIGUGE-17110): Completed.
+	(SW-JIGUGE-17112): Completed.
+	(SW-JIGUGE-17113): Completed.
+	(SW-JIGUGE-17116): Completed [temporary].
+	(SW-JIGUGE-17203): Completed [temporary].
+	(SW-JIGUGE-17316): Completed.
+	(SW-JIGUGE-17405): Completed.
+	(SW-JIGUGE-17406): Completed.
+	(SW-JIGUGE-18608): Completed.
+	(SW-JIGUGE-19114): Completed [temporary].
+	(SW-JIGUGE-23008): Completed.
+	(SW-JIGUGE-24713): Fixed.
+	(SW-JIGUGE-24717): Fixed.
+	(SW-JIGUGE-24800): Fixed.
+	(SW-JIGUGE-25602): Fixed.
+	(SW-JIGUGE-25603): Fixed.
+	(SW-JIGUGE-25604): Fixed.
+	(SW-JIGUGE-26901): Completed.
+	(SW-JIGUGE-26915): Completed.
+	(SW-JIGUGE-27507): Completed.
+	(SW-JIGUGE-27703): Completed [temporary].
+	(SW-JIGUGE-27704): Fixed.
+	(SW-JIGUGE-27705): Completed.
+	(SW-JIGUGE-29100): Completed.
+	(SW-JIGUGE-29604): Completed.
+	(SW-JIGUGE-29610): Fixed.
+	(SW-JIGUGE-29806): Completed.
+	(SW-JIGUGE-29903): Completed.
+	(SW-JIGUGE-30402): Completed [temporary].
+	(SW-JIGUGE-30417): Completed.
+	(SW-JIGUGE-30605): Completed.
+	(SW-JIGUGE-31109): Completed.
+	(SW-JIGUGE-31306): Completed.
+	(SW-JIGUGE-31601): Completed.
+	(SW-JIGUGE-31603): Completed.
+	(SW-JIGUGE-31606): Completed.
+	(SW-JIGUGE-31619): Completed.
+	(SW-JIGUGE-31701): Completed.
+	(SW-JIGUGE-31808): Completed [temporary].
+	(SW-JIGUGE-31822): Completed.
+	(SW-JIGUGE-31823): Completed.
+	(SW-JIGUGE-32402): Completed.
+	(SW-JIGUGE-33702): Completed.
+	(SW-JIGUGE-33719): Completed.
+	(SW-JIGUGE-33913): Fixed.
+	(SW-JIGUGE-33915): Completed.
+	(SW-JIGUGE-34113): Completed.
+	(SW-JIGUGE-34822): Fixed.
+	(SW-JIGUGE-34913): Completed [temporary].
+	(SW-JIGUGE-36202): Completed.
+	(SW-JIGUGE-36218): Completed.
+	(SW-JIGUGE-36603): Completed.
+	(SW-JIGUGE-38220): Completed.
+	(SW-JIGUGE-38412): Completed.
+	(SW-JIGUGE-38515): Completed.
+	(SW-JIGUGE-39414): Completed.
+	(SW-JIGUGE-39501): Completed.
+	(SW-JIGUGE-41406): Completed.
+	(SW-JIGUGE-42315): Completed.
+	(SW-JIGUGE-42802): Completed.
+	(SW-JIGUGE-42901): Completed.
+	(SW-JIGUGE-43025): Completed.
+	(SW-JIGUGE-43105): Completed.
+	(SW-JIGUGE-43702): Completed.
+	(SW-JIGUGE-44103): Completed.
+	(SW-JIGUGE-44208): Completed.
+	(SW-JIGUGE-44209): Completed.
+	(SW-JIGUGE-44210): Completed.
+	(SW-JIGUGE-44211): Completed.
+	(SW-JIGUGE-44925): Completed.
+	(SW-JIGUGE-45218): Completed.
+	(SW-JIGUGE-47113): Completed [temporary].
+	(SW-JIGUGE-47413): Completed [temporary].
+	(SW-JIGUGE-49008): Completed.
+	(SW-JIGUGE-49023): Completed.
+	(SW-JIGUGE-49805): Completed.
+	(SW-JIGUGE-49820): Completed.
+	(SW-JIGUGE-51407): Completed.
+	(SW-JIGUGE-51408): Completed.
+	(SW-JIGUGE-51409): Completed.
+	(SW-JIGUGE-51500): Completed.
+	(SW-JIGUGE-51501): Completed.
+
+2021-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020C81): Completed.
+	(U-00020C84): Use "邜" instead of "⿰夕⻏".
+	(U-000212C7): Use "𠖲" instead of "⿰冫分".
+	(U-000212C8): Use "𫥁" instead of "⿰冫斤".
+	(U-000212CF): Completed.
+	(U-000212D3): Use "邜" instead of "⿰夕⻏".
+	(U-000212E0): Use "𠫡" instead of "⿱厶木".
+	(U-000212F0): Use "圥" instead of "⿱土儿".
+	(U-000212F3): Use "𥃩" instead of "⿱目匕".
+	(U-000212F6): Use "𮌁" instead of "⿻聿丶".
+	(U-00021D8D): Use "㞤" instead of "⿱山𠆢".
+	(U-00021D96): Completed.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022442): Use "繇" instead of
+	"⿰⿱&CDP-8B5E;缶系".
+	(U-00022443): Use "壐" instead of "⿱爾土".
+	(U-00022444): Use "繇" instead of "⿰⿱&CDP-8B5E;缶系".
+	(U-0002244C): Use "⿴弜x" instead of "⿲弓x弓".
+
+2021-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5554): Use U-0002BF09 instead of
+	hanaJU+2BF09.
+	(U+8088): Ditto.
+
 2021-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002921D): Use "𠬩" instead of "⿸𠃜又".
@@ -9,6 +341,10 @@
 	(U-00029C6F): Ditto.
 	(U-00029C70): Use "⿴䰞x" instead of "⿶𩰲⿱者x"; add apparent
 	structure.
+
+	* IDS-UCS-Ext-B-3.txt (U-000253FC): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U-000253FE): Likewise.
 
 	* www/www-ids-find.el (www-format-encode-string): Copied from
 	est/cwiki-common.el and modify for Bootstrap-4.5.0.
