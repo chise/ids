@@ -201,7 +201,7 @@ U+4EC6	仆	⿰亻卜
 U+4EC7	仇	⿰亻九
 U+4EC8	仈	⿰亻八
 U+4EC9	仉	⿰亻几
-U+4ECA	今	⿱𠆢𪜊
+U+4ECA	今	⿱亼㇇	@apparent=⿱𠆢𪜊
 U+4ECB	介	⿱𠆢&CDP-89AB;
 U+4ECC	仌	⿱人人
 U+4ECD	仍	⿰亻乃
