@@ -1,5 +1,16 @@
 2021-06-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-CNS-1.txt: Sync up with the current environment.
+
+	* IDS-UCS-Ext-D.txt (U-0002B746): Use "⿱x丆" instead of
+	"⿳亼一丿".
+
+	* IDS-UCS-Basic.txt (U+4ECA): Modify structure; preserve the
+	previous IDS as a apparent structure.
+
+	* IDS-UCS-Ext-A.txt: Use <CJK STROKE Q> instead of <IDEOGRAPHIC
+	NUMBER ZERO>.
+
 	* IDS-Daikanwa-03.txt: Sync up with the current environment.
 
 2021-06-07  MORIOKA Tomohiko  <tomo.git@chise.org>
