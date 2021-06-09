@@ -1,5 +1,45 @@
 2021-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-000283FA): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U-0002903C): Use "⿹𢽳x" instead of "⿰⿱林x攵".
+	(U-00029164): Use "𢽳" instead of "⿰林攵".
+
+	* IDS-UCS-Ext-B-3.txt (U-0002530A): Use "⿴辡x" instead of
+	"⿲辛x辛".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020012): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U-00020B46): Likewise.
+	(U-00020B4F): Modify structure; add apparent structure.
+	(U-000210A7): Modify structure.
+	(U-000210A8): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-00021166): Use "𪠲" instead of "⿱口又".
+	(U-0002117B): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U-0002117D): Modify structure; add apparent structure.
+	(U-00021E0D): Use "𪠲" instead of "⿱口又".
+
+	* IDS-UCS-Ext-A.txt (U+404A): Use "⿸䀑x" instead of "⿰目⿱叉x".
+
+	* IDS-UCS-Basic.txt: Use "⿸厌x" instead of "⿸厂⿱犬x".
+	(U+4E9A): Add apparent IDS.
+	(U+5C3D): Use "⿵尺x" instead of "⿱尺x".
+	(U+631D): Use U+8FC7 instead of CU+8FC7.
+	(U+6655): Use "⿱x军" instead of "⿳x冖车".
+	(U+6D55): Use "尽" instead of "⿵尺&CDP-8971;".
+	(U+75D6): Use "亚" instead of "⿱一业".
+	(U+7AAD): Use "⿱x娄" instead of "⿳x米女".
+	(U+7BA9): Use "⿱x罗" instead of "⿳x⺫夕".
+	(U+7BC4): Use U-000282A0 instead of BC-8D49.
+	(U+7BD3): Use "⿱x娄" instead of "⿳x米女".
+	(U+7FDA): Use "⿱x军" instead of "⿳x冖车".
+	(U+8D46): Use "尽" instead of "⿵尺&CDP-8971;".
+	(U+8DF9): Use "迁" instead of "⿺辶千".
+	(U+96DA): Modify structure; preserve the previous IDS as a
+	apparent structure.
+
 	* IDS-UCS-Ext-B-4.txt (U-00027156): Use "鶪" instead of
 	"⿰⿱目大鳥".
 
