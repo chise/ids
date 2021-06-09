@@ -1,4 +1,17 @@
+2021-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027156): Use "鶪" instead of
+	"⿰⿱目大鳥".
+
 2021-06-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-D.txt (U-0002B764): Use U+9FB9 instead of JU+20509.
+	(U-0002B7B3): Use U+5905 instead of UU+5905.
+	(U-0002B7B5): Use "冝" instead of "⿱冖且".
+
+	* IDS-Daikanwa-02.txt (M-04518): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(M-04519): Likewise.
 
 	* IDS-CNS-1.txt: Sync up with the current environment.
 
