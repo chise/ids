@@ -1,5 +1,28 @@
 2021-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-00027153): Modify structure.
+	(U-00027159): Use "顡" instead of "⿰豙頁".
+	(U-0002715B): Use "䊮" instead of "⿰米翟".
+
+	* IDS-UCS-Ext-B-5.txt (U-000283FC): Use U+862D instead of JU+862D.
+
+	* IDS-UCS-Ext-B-1.txt (U-00020FBA): Use U+5584 instead of CU+5584.
+	(U-00021167): Use U+96E3 instead of JU+96E3.
+	(U-00021168): Use "簷" instead of "⿱竹詹".
+	(U-00021183): Use U+5584 instead of CU+5584.
+
+	* IDS-UCS-Ext-A.txt (U+4049): Use U-0002BF09 instead of
+	hanaJU+2BF09.
+	(U+42EF): Ditto.
+
+	* IDS-UCS-Basic.txt (U+6EAC): Use "羗" instead of "⿷羌厶".
+	(U+6F80): Use "歰" instead of "⿱⿰刃刃𣥖".
+	(U+7361): Use "舄" instead of "⿱臼𤆛".
+	(U+8BBA): Use "仑" instead of "⿱𠆢匕".
+	(U+9B1B): Use "龱" instead of "⿴囗㐅"; modify structure.
+
+2021-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-000283FA): Modify structure; preserve the
 	previous IDS as a apparent structure.
 	(U-0002903C): Use "⿹𢽳x" instead of "⿰⿱林x攵".
