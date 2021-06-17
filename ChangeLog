@@ -1,3 +1,12 @@
+2021-06-11  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Ext-A.txt:
+	Fix: U+44EC,U+4576,U+4529	⿰艹x --> ⿱艹x
+	* Replace CDP-89AF with '龙'
+	* Replace CDP-8B67 with '𧘇'
+
+	* IDS-UCS-Basic.txt: CDP-8B67 with '𧘇'
+
 2021-06-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A1D4): Use "慈" instead of "⿱茲心".
