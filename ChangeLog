@@ -1,3 +1,11 @@
+2021-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5FB4): Modify structure.
+	(U+5FB5): Modify structure.
+	(U+5FBD): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U+5FBE): Modify structure; add apparent structure.
+
 2021-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2D820): Modify structure.
