@@ -2209,7 +2209,7 @@ U+569E	嚞	⿱吉喆
 U+569F	嚟	⿰口黎
 U+56A0	嚠	⿰口劉
 U+56A1	嚡	⿰口鞋
-U+56A2	嚢	⿳𰀉⿱冖&GT-K00059;⿱𠀎&CDP-8B67;
+U+56A2	嚢	⿱⿱𰀉冖⿱⿱&GT-K00059;𠀎&CDP-8B67;
 U+56A3	嚣	⿳吅页吅
 U+56A4	嚤	⿰口摩
 U+56A5	嚥	⿰口燕
@@ -4540,8 +4540,8 @@ U+5FB9	徹	⿰彳𰕎
 U+5FBA	徺	⿰彳堯
 U+5FBB	徻	⿰彳會
 U+5FBC	徼	⿰彳敫
-U+5FBD	徽	⿵⿲彳㞢&A-compU+6535;&A-IWDSU+7CF8;	@apparent=⿰彳𢾰
-U+5FBE	徾	⿵⿲彳㞢&A-compU+6535;言	@apparent=⿰彳⿰訔攵
+U+5FBD	徽	⿵⿲彳㞢攵糸	@apparent=⿰彳𢾰
+U+5FBE	徾	⿵⿲彳㞢攵言	@apparent=⿰彳⿰訔攵
 U+5FBF	徿	⿰彳龍
 U+5FC0	忀	⿰彳襄
 U+5FC1	忁	⿱彳⿳日出⿱大⺢
