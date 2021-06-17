@@ -1,11 +1,74 @@
 2021-06-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A1D4): Use "慈" instead of "⿱茲心".
+	(U-0002A1DB): Use "㢕" instead of "⿸广𱁈".
+	(U-0002A1DC): Use "𦵯" instead of "⿱艹害".
+	(U-0002A1DD): Modify structure.
+	(U-0002A1DE): Use "皷" instead of "⿰壴皮".
+	(U-0002A1E1): Use U+84A6 instead of BC-8CB0.
+	(U-0002A1E2): Use "𥮗" instead of "⿱竹匊".
+	(U-0002A4E8): Use U+7680 instead of UU+7680.
+	(U-0002A4FE): Use "𢾕" instead of "⿰⿱出方攵".
+	(U-0002A50F): Use "皷" instead of "⿰壴皮".
+
 	* IDS-UCS-Basic.txt (U+56A2): Modify structure.
 	(U+5FBD): Use U+6535 instead of A-compU+6535; use U+7CF8 instead
 	of A-IWDSU+7CF8.
 	(U+5FBE): Use U+6535 instead of A-compU+6535.
 
 2021-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-00313): Fixed [temporary].
+	(SW-JIGUGE-01518): Fixed [temporary].
+	(SW-JIGUGE-07529): Fixed [temporary].
+	(SW-JIGUGE-07625): Fixed [temporary].
+	(SW-JIGUGE-12616): Completed.
+	(SW-JIGUGE-15212): Fixed [temporary].
+	(SW-JIGUGE-15217): Fixed [temporary].
+	(SW-JIGUGE-15218): Completed.
+	(SW-JIGUGE-17701): Add apparent structure [temporary].
+	(SW-JIGUGE-17704): Completed.
+	(SW-JIGUGE-17706): Fixed.
+	(SW-JIGUGE-17707): Completed.
+	(SW-JIGUGE-17708): Completed [temporary].
+	(SW-JIGUGE-17712): Completed [temporary].
+	(SW-JIGUGE-18117): Completed.
+	(SW-JIGUGE-19600): Fixed [temporary].
+	(SW-JIGUGE-22707): Completed.
+	(SW-JIGUGE-22708): Completed.
+	(SW-JIGUGE-22709): Completed [temporary].
+	(SW-JIGUGE-22710): Completed.
+	(SW-JIGUGE-22711): Completed [temporary].
+	(SW-JIGUGE-22713...22815): Completed [temporary].
+	(SW-JIGUGE-22818): Completed.
+	(SW-JIGUGE-22819): Completed.
+	(SW-JIGUGE-22820): Completed.
+	(SW-JIGUGE-22821): Completed.
+	(SW-JIGUGE-22822): Completed.
+	(SW-JIGUGE-22824): Completed.
+	(SW-JIGUGE-23905): Fixed [temporary].
+	(SW-JIGUGE-29515): Fixed [temporary].
+	(SW-JIGUGE-30029): Fixed [temporary].
+	(SW-JIGUGE-32207): Completed.
+	(SW-JIGUGE-32208): Completed [temporary].
+	(SW-JIGUGE-33307): Fixed [temporary].
+	(SW-JIGUGE-33807): Fixed [temporary].
+	(SW-JIGUGE-37007): Fixed [temporary].
+	(SW-JIGUGE-37501): Fixed [temporary].
+	(SW-JIGUGE-38500): Completed.
+	(SW-JIGUGE-40231): Fixed [temporary].
+	(SW-JIGUGE-42909): Fixed [temporary].
+	(SW-JIGUGE-45224): Fixed [temporary].
+	(SW-JIGUGE-45503): Completed.
+	(SW-JIGUGE-46908): Completed.
+	(SW-JIGUGE-46914): Completed.
+	(SW-JIGUGE-46915): Completed.
+	(SW-JIGUGE-46916): Completed.
+	(SW-JIGUGE-46919): Completed.
+	(SW-JIGUGE-47115): Completed.
+	(SW-JIGUGE-49617): Fixed [temporary].
+	(SW-JIGUGE-51813): Completed.
+	(SW-JIGUGE-51818): Fixed.
 
 	* IDS-UCS-Basic.txt (U+5FB4): Modify structure.
 	(U+5FB5): Modify structure.
@@ -6950,9 +7013,9 @@
 	* IDS-UCS-Ext-B-4.txt (U-000274B1): Use "雍" instead of
 	"⿱亠⿰乡隹".
 
-	* IDS-UCS-Ext-A.txt (U+4528): Use "&CDP-8DB5;" instead of "⿰乡隹".
+	* IDS-UCS-Ext-A.txt (U+4528): Use "𱁈" instead of "⿰乡隹".
 
-	* IDS-UCS-Ext-B-5.txt (U-00028FC4): Use "&CDP-8DB5;" instead of "⿰乡隹".
+	* IDS-UCS-Ext-B-5.txt (U-00028FC4): Use "𱁈" instead of "⿰乡隹".
 	(U-000297A0): Likewise.
 
 2016-11-10  MORIOKA Tomohiko  <tomo.git@chise.org>
