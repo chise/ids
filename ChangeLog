@@ -1,3 +1,10 @@
+2021-06-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+56A2): Modify structure.
+	(U+5FBD): Use U+6535 instead of A-compU+6535; use U+7CF8 instead
+	of A-IWDSU+7CF8.
+	(U+5FBE): Use U+6535 instead of A-compU+6535.
+
 2021-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5FB4): Modify structure.
