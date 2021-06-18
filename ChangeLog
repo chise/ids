@@ -1,3 +1,9 @@
+2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+90F7): Use "⿴𨙵x" instead of "⿲乡x⻏".
+	(U+9109): Use "⿴𨙵x" instead of "⿰乡⿰x⻏".
+	(U+910A): Likewise.
+
 2021-06-11  ColtMa  <mumchristmas@gmail.com>
 
 	* IDS-UCS-Ext-A.txt:
