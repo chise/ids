@@ -1,5 +1,11 @@
 2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-0002283E): Use "𦧗" instead of "⿰自舌".
+	(U-00022841): Use "翕" instead of "⿱合羽".
+	(U-00022851): Use "㪙" instead of "⿰果攵".
+	(U-00022858): Modify structure.
+	(U-00022FF4): Use "翕" instead of "⿱合羽".
+
 	* IDS-UCS-Basic.txt (U+90F7): Use "⿴𨙵x" instead of "⿲乡x⻏".
 	(U+9109): Use "⿴𨙵x" instead of "⿰乡⿰x⻏".
 	(U+910A): Likewise.
