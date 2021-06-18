@@ -1,3 +1,14 @@
+2021-06-11  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Ext-A.txt: Fix:
+	(U+3460	㑠): ⿰亻⿱⿰刂又土 --> ⿰亻坚
+	(U+3D34	㴴): ⿰氵⿺𠃊⿳火一火 --> ⿰氵⿱⿺𠃊火⿺𠃊火
+	(U+435E	䍞): ⿰网或 --> ⿱网或
+
+	* IDS-UCS-Basic.txt: Fix:
+	(U+5727	圧): ⿰厂土 --> ⿸厂土
+	(U+5C18	尘): ⿰小土 --> ⿱小土
+
 2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002283E): Use "𦧗" instead of "⿰自舌".
@@ -14,8 +25,8 @@
 
 	* IDS-UCS-Ext-A.txt:
 	Fix: U+44EC,U+4576,U+4529	⿰艹x --> ⿱艹x
-	* Replace CDP-89AF with '龙'
-	* Replace CDP-8B67 with '𧘇'
+	- Replace CDP-89AF with '龙'
+	- Replace CDP-8B67 with '𧘇'
 
 	* IDS-UCS-Basic.txt: CDP-8B67 with '𧘇'
 
