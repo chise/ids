@@ -1,5 +1,20 @@
 2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt (U+352F): Use "㕣" instead of "⿱几口".
+	(U+3ADF): Ditto.
+	(U+3DBE): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U+3DC0): Use "炏" instead of "⿰火火".
+	(U+46C7): Use "㕣" instead of "⿱几口".
+	(U+471B): Use "𭀰" instead of "⿱免免".
+
+	* IDS-UCS-Basic.txt (U+5BF3): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U+5BF6): Likewise.
+	(U+908E): Use "䌛" instead of "⿰⿱&CDP-88F0;言系".
+
+2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+7985): Use "単" instead of A-IWDSU+5358.
 
 2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
