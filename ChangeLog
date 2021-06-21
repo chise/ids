@@ -1,9 +1,87 @@
+2021-06-18  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Ext-A.txt (U+4723, U+4724, U+4725, U+4726, U+4727,
+	U+4728, U+4729): Replace '⻈'(u2ec8) with '讠'(u8ba0)
+
+2021-06-12  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Ext-A.txt: Replace the '&AJ-*****;' parts with correct
+	glyphs
+
+	* IDS-UCS-Basic.txt: Replace the '&AJ-*****;' parts with correct
+	glyphs
+
+2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+352F): Use "㕣" instead of "⿱几口".
+	(U+3ADF): Ditto.
+	(U+3DBE): Modify structure; preserve the previous IDS as a
+	apparent structure.
+	(U+3DC0): Use "炏" instead of "⿰火火".
+	(U+46C7): Use "㕣" instead of "⿱几口".
+	(U+471B): Use "𭀰" instead of "⿱免免".
+
+	* IDS-UCS-Basic.txt (U+5BF3): Modify structure; preserve the
+	previous IDS as a apparent structure.
+	(U+5BF6): Likewise.
+	(U+908E): Use "䌛" instead of "⿰⿱&CDP-88F0;言系".
+
+2021-06-12  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Ext-A.txt: Replace the '&MJ******;' parts with correct
+	glyphs
+
+	* IDS-UCS-Basic.txt: Replace the '&MJ******;' parts with correct
+	glyphs
+
+2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7985): Use "単" instead of A-IWDSU+5358.
+
+2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5DE4): Reverted; use "⿱&A-compU+5DDB;龱" instead of
+	A-cgnU+21FFA.
+	(U+7985): Reverted.
+
+2021-06-11  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix:
+	(U+590D	复): ⿱𭥍[A-compU+590A] --> ⿱𭥍夂
+	(U+5DE4	巤): ⿱&A-U-i002+21FFA;&CDP-8D46; --> ⿱巛&CDP-8D46;
+	(U+7985	禅): ⿰示[A-compU+5358] --> ⿰示单
+	(U+9EBB	麻): ⿸广[A-compU+6797] --> ⿸广林
+	(U+9FA8	龨): ⿷[A-compU+531A]隹 --> ⿷匚隹
+
+2021-06-11  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Ext-A.txt: Fix:
+	(U+3460	㑠): ⿰亻⿱⿰刂又土 --> ⿰亻坚
+	(U+3D34	㴴): ⿰氵⿺𠃊⿳火一火 --> ⿰氵⿱⿺𠃊火⿺𠃊火
+	(U+435E	䍞): ⿰网或 --> ⿱网或
+
+	* IDS-UCS-Basic.txt: Fix:
+	(U+5727	圧): ⿰厂土 --> ⿸厂土
+	(U+5C18	尘): ⿰小土 --> ⿱小土
+
+2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002283E): Use "𦧗" instead of "⿰自舌".
+	(U-00022841): Use "翕" instead of "⿱合羽".
+	(U-00022851): Use "㪙" instead of "⿰果攵".
+	(U-00022858): Modify structure.
+	(U-00022FF4): Use "翕" instead of "⿱合羽".
+
+	* IDS-UCS-Basic.txt (U+90F7): Use "⿴𨙵x" instead of "⿲乡x⻏".
+	(U+9109): Use "⿴𨙵x" instead of "⿰乡⿰x⻏".
+	(U+910A): Likewise.
+
 2021-06-11  ColtMa  <mumchristmas@gmail.com>
 
 	* IDS-UCS-Ext-A.txt:
 	Fix: U+44EC,U+4576,U+4529	⿰艹x --> ⿱艹x
-	* Replace CDP-89AF with '龙'
-	* Replace CDP-8B67 with '𧘇'
+	- Replace CDP-89AF with '龙'
+	- Replace CDP-8B67 with '𧘇'
 
 	* IDS-UCS-Basic.txt: CDP-8B67 with '𧘇'
 
