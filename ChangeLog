@@ -1,5 +1,17 @@
 2021-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "㞋" instead of "⿸尸又".
+	- Use "叹" instead of "⿰口又".
+	(U-0002051D): Modify structure.
+	(U-00020B21): Modify structure.
+	(U-00020B37): Completed [temporary].
+	(U-00020B38): Fixed; use "囘" instead of "⿱冂巳".
+	(U-00020B3B): Use "𠬞" instead of "⿰丩又".
+	(U-00020B56): Modify structure.
+	(U-00020B61): Fixed.
+	(U-00021290): Completed.
+
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02101): Completed [temporary].
 	(SW-JIGUGE-02116): Completed [temporary].
 	(SW-JIGUGE-02117): Completed [temporary].
