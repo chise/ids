@@ -1,3 +1,59 @@
+2021-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02101): Completed [temporary].
+	(SW-JIGUGE-02116): Completed [temporary].
+	(SW-JIGUGE-02117): Completed [temporary].
+	(SW-JIGUGE-02814): Completed.
+	(SW-JIGUGE-02825): Completed [temporary].
+	(SW-JIGUGE-02826): Completed [temporary].
+	(SW-JIGUGE-02929): Completed.
+	(SW-JIGUGE-02930): Completed.
+	(SW-JIGUGE-03303): Completed.
+	(SW-JIGUGE-03307): Completed.
+	(SW-JIGUGE-03308): Completed [temporary].
+	(SW-JIGUGE-03309): Completed [temporary].
+	(SW-JIGUGE-03310): Completed [temporary].
+	(SW-JIGUGE-03311): Completed.
+	(SW-JIGUGE-03312): Completed.
+	(SW-JIGUGE-03313): Completed [temporary].
+	(SW-JIGUGE-03401): Completed.
+	(SW-JIGUGE-03516): Completed.
+	(SW-JIGUGE-08518): Completed [temporary]; add apparent structure.
+	(SW-JIGUGE-08606): Fixed [temporary].
+	(SW-JIGUGE-09108): Completed [temporary].
+	(SW-JIGUGE-20829): Completed [temporary].
+	(SW-JIGUGE-24819): Completed.
+	(SW-JIGUGE-24820): Completed.
+	(SW-JIGUGE-26920): Completed.
+	(SW-JIGUGE-30711): Completed.
+	(SW-JIGUGE-30805): Completed [temporary].
+	(SW-JIGUGE-47807): Completed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026E8B): Use U+36EE instead of
+	U-0002F867.
+	(U-00026E8C): Fixed.
+	(U-00026E8E): Use "䏽" instead of "⿰⺼咅".
+	(U-00026E99): Use "⿱x犂" instead of "⿳x𥝢牛".
+	(U-00026EA9): Use "㦸" instead of "⿰卓戈".
+	(U-00026EBA): Use "⿱x焭" instead of "⿳x𤇾几".
+	(U-00026EBC): Use "隌" instead of "⿰阝音".
+	(U-00026EC2): Use "湌" instead of "⿰氵食".
+	(U-00026EC3): Use "𦻃" instead of "⿱从隹".
+	(U-00026EC4): Use "𣸁" instead of "⿰氵⿻聿彡".
+	(U-00026EC8): Fixed; add apparent structure.
+	(U-00026EC9): Use "𠬩" instead of "⿸𠃜又".
+	(U-00026ED0): Use "焯" instead of "⿰火卓".
+	(U-00026ED5): Use "隐" instead of "⿰⻏急".
+	(U-00026ED6): Use "絢" instead of "⿰糹旬".
+	(U-00026ED9): Use "聑" instead of "⿰耳耳".
+	(U-00026EED): Use "㴠" instead of "⿰氵凾".
+	(U-00026EF1): Use "⿱x雯" instead of "⿳x雨文".
+	(U-00026EF2): Use "揾" instead of "⿰扌昷".
+	(U-00026EF9): Modify structure.
+	(U-00027DA0): Modify structure.
+	(U-00027E06): Use "𠭥" instead of "⿰祟又".
+	(U-00027E07): Use "⿱𡍬x" instead of "⿳圥囧x".
+
 2021-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use U+90A3 instead of UU+90A3.
