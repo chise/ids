@@ -28,6 +28,11 @@
 	(SW-JIGUGE-48820): Completed.
 	(SW-JIGUGE-51703): Completed.
 
+	* IDS-UCS-Ext-A.txt (U+3B5F): Fixed.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028932): Use "⿸𭆆x" instead of
+	"⿱⿰牙攵⿸厂x".
+
 2021-06-18  ColtMa  <mumchristmas@gmail.com>
 
 	* IDS-UCS-Basic.txt (U+7EC2, U+94B9, U+97E8, U+9C85): Replace
