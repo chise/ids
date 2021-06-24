@@ -1,5 +1,12 @@
 2021-06-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt: Use "𮊿" instead of "⿱羽𠇍".
+	(U-00024164): Use "⿰x镾" instead of "⿲x镸爾".
+	(U-0002457F): Use "𡉵" instead of "⿰土⿺⺃土".
+	(U-00025A10): Use "𠞖" instead of "⿰貢刂".
+	(U-00025A2A): Modify structure.
+	(U-00025C85): Modify structure.
+
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02506): Completed.
 	(SW-JIGUGE-02607): Completed.
 	(SW-JIGUGE-02703): Completed.
