@@ -1,3 +1,59 @@
+2021-06-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use U+8FB6 instead of <CJK RADICAL WALK ONE>.
+	(U+2E785): Completed.
+
+	* IDS-UCS-Ext-B-4.txt (U-000265FB): Use "𮞬" instead of "⿺辶品".
+	(U-000265FD): Use "𤷭" instead of "⿸疒的".
+	(U-00026609): Use "銽" instead of "⿰金𠯑".
+	(U-0002660B): Use "䝿" instead of "⿱⿻𦥑人貝".
+
+	* IDS-UCS-Basic.txt: Use "𭔰" instead of "⿰豆寸".
+	(U+806E): Use U-000221C1 instead of BC-8CE2.
+	(U+95D7): Ditto.
+
+2021-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "𠮛" instead of "⿱一口".
+	- Use U+5F50 instead of JU+5F50.
+	(U-00020135): Use "昍" instead of "⿰日日"; use "⿴𠄠x" instead of
+	"⿻𠄠x".	
+	(U-0002019D): Use "昍" instead of "⿰日日".
+	(U-0002019F): Use "彖" instead of "⿱彐𧰨".
+	(U-0002022C): Use "𪢶" instead of "⿱夂土".
+	(U-00020233): Use "灵" instead of "⿱彐火".
+	(U-00020237): Completed.
+	(U-0002023D): Use "𠑾" instead of "⿸⿱⺈尸几".
+	(U-00020247): Use "𬉸" instead of "⿱火口".
+	(U-0002058D): Modify structure.
+	(U-00020C67): Use "𠇊" instead of "⿰亻𧘇".
+	(U-00020C72): Use "𢑑" instead of "⿱彐彐".
+	(U-00020C75): Use "𠮚" instead of "⿴口丶".
+	(U-000210D0): Use "⿰x幝" instead of "⿲x巾單".
+	(U-000210E0): Use "㰯" instead of "⿰豆欠".
+	(U-000210E8): Use "憙" instead of "⿱喜心".
+	(U-000210EA): Use "䝿" instead of "⿱臾貝".
+	(U-0002111A): Use "⿸⿹䇂日日" instead of BC-8549.
+	(U-0002111E): Use "𢑑" instead of "⿱彐彐".
+	(U-00021131): Use "蹙" instead of "⿱戚足".
+	(U-00021136): Use "䫕" instead of "⿰帝頁".
+	(U-0002113C): Use "虩" instead of "⿰𡭴虎".
+	(U-00021141): Fixed.
+	(U-00021154): Modify structure.
+	(U-0002115D): Modify structure.
+	(U-00021163): Use "簫" instead of "⿱竹肅".
+	(U-000214E4): Use "䝿" instead of "⿱臾貝".
+	(U-000214EE): Use "嵬" instead of "⿱山鬼".
+	(U-000214F6): Use "𡂨" instead of "⿲吕臣吕".
+	(U-000214F7): Use "䭉" instead of "⿰飠&CDP-8CA9;".
+	(U-000214FD): Use "薰" instead of "⿱艹熏".
+	(U-00021500): Use "𪢶" instead of "⿱夂土".
+	(U-000215A2): Fixed.
+	(U-000215A9): Use "𢑑" instead of "⿱彐彐".
+	(U-000215D1): Use "㗬" instead of "⿱尚多".
+	(U-00021A10): Use "𬉸" instead of "⿱火口".
+
 2021-06-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022B39): Use "𡉵" instead of
