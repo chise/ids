@@ -1,5 +1,99 @@
 2021-06-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "𠳮" instead of "⿱右冋".
+	- Use "𦓔" instead of "⿱而而".
+	- Use "宂" instead of "⿱宀儿".
+	- Use "枼" instead of "⿱世木".
+	- Use "𡧱" instead of "⿳宀工口".
+	- Use "杀" instead of "⿱㐅木".
+	- Use "𣏂" instead of "⿱㐅朮".
+	- Use "𥃩" instead of "⿱目匕".
+	- Use "𢑑" instead of "⿱彐彐".
+	- Use "㬅" instead of "⿱&CDP-8CBF;方".
+	- Use "棃" instead of "⿱𥝢木".
+	(U-00028017): Use "𡗢" instead of "⿱大㐄".
+	(U-0002801F): Use "㡯" instead of "⿸广乇".
+	(U-00028028): Use "𡿪" instead of "⿱巛夕".
+	(U-00028030): Use "冰" instead of "⿰冫水".
+	(U-00028058): Use "扯" instead of "⿰扌止".
+	(U-00028060): Use "𡉼" instead of "⿱升土".
+	(U-000280EE): Use "𭩶" instead of "⿱列木".
+	(U-00028240): Use "𡗢" instead of "⿱大㐄".
+	(U-0002824D): Use "㒵" instead of "⿱白八".
+	(U-00028251): Use "呈" instead of "⿱口王".
+	(U-0002827D): Use "囯" instead of "⿴囗王".
+	(U-0002827E): Use "𥬥" instead of "⿱竹目".
+	(U-00028302): Use "㞷" instead of "⿱山王".
+	(U-0002830A): Use "宐" instead of "⿱宀彑".
+	(U-00028313): Use "㒵" instead of "⿱白八".
+	(U-00028316): Use "𡕙" instead of "⿱夂月".
+	(U-00028331): Use "𫏵" instead of "⿱氶車".
+	(U-00028357): Fixed.
+	(U-0002835F): Use "𣆊" instead of "⿱𠀐日".
+	(U-0002837C): Use "𮎁" instead of "⿱旡舛".
+	(U-0002837F): Use "𭕞" instead of "⿸尸⿰彳攴".
+	(U-00028390): Use "埶" instead of "⿰坴丸".
+	(U-00028391): Use "䡛" instead of "⿰車車".
+	(U-00028398): Use "𭶰" instead of "⿱爫貝".
+	(U-000283B3): Use "𥭗" instead of "⿱竹夆".
+	(U-000283FF): Use "䡛" instead of "⿰車車".
+	(U-00028409): Use "菆" instead of "⿱艹取".
+	(U-00028419): Use "启" instead of "⿱丿𡰪".
+	(U-00028423): Use "𭩢" instead of "⿱巨木".
+	(U-0002842D): Use "灾" instead of "⿱宀火".
+	(U-00028439): Use "辝" instead of "⿰台辛".
+	(U-0002843B): Use "亲" instead of "⿱立木".
+	(U-0002843C): Use "㖖" instead of "⿱辛口".
+	(U-000286C2): Use "𤆌" instead of "⿱火又".
+	(U-000286C6): Use "丠" instead of "⿱北一".
+	(U-000286D8): Use "𡉼" instead of "⿱升土".
+	(U-000286D9): Completed.
+	(U-00028732): Completed.
+	(U-000288B3): Use "㫖" instead of "⿱上日".
+	(U-000288BC): Use "𡕩" instead of "⿳囟八夊".
+	(U-0002898F): Fixed.
+	(U-00028995): Use "㓝" instead of "⿰井刂".
+	(U-00028996): Use "𫠥" instead of "⿺𠃊丙".
+	(U-00028998): Use "𡗝" instead of "⿱大弓".
+	(U-0002899A): Use "㕦" instead of "⿱口大".
+	(U-000289B5): Use "𦬆" instead of "⿱艹亾".
+	(U-000289BF): Use "𠛜" instead of "⿰丼刂".
+	(U-000289CE): Use "𢀜" instead of "⿰工丮".
+	(U-000289D3): Use "𡉰" instead of "⿱凶土".
+	(U-000289DD): Use "但" instead of "⿰亻旦".
+	(U-00028AF8): Use "盒" instead of "⿱合皿".
+	(U-00028AFA): Modify structure.
+	(U-00028B00): Use "𠁅" instead of "⿸&CDP-88BC;匆".
+	(U-00028B04): Use "𡨼" instead of "⿱宀炎".
+	(U-00028B05): Modify structure.
+	(U-00028B0C): Use "崑" instead of "⿱山昆".
+	(U-00028B59): Use "寋" instead of "⿱𡨄巳".
+	(U-00028E5F): Use "㔷" instead of "⿷匚丙".
+	(U-00028E63): Use "㞎" instead of "⿸尸巴".
+	(U-00028E64): Use "䖝" instead of "⿱丿虫".
+	(U-00028F05): Use "崟" instead of "⿱山金".
+	(U-00028F07): Modify structure.
+	(U-00028F08): Use "𥥭" instead of "⿱穴𠮷".
+	(U-00028F2D): Use "寋" instead of "⿱𡨄巳".
+	(U-00028FC1): Fixed.
+	(U-000292B2): Use "𡉵" instead of "⿰土⿺⺃土".
+	(U-000292B3): Use "𢀜" instead of "⿰工丮".
+	(U-0002931B): Use "𠩲" instead of "⿸厂卑".
+	(U-000294CE): Use "矣" instead of "⿱厶矢".
+	(U-000295CC): Use "刘" instead of "⿰文刂".
+	(U-000295D1): Use "𡰱" instead of "⿸尸工".
+	(U-000295DD): Use "䖝" instead of "⿱丿虫".
+	(U-000296D0): Use "𡰱" instead of "⿸尸工".
+	(U-000297B1): Use "逹" instead of "⿺辶幸".
+	(U-00029E8C): Use "𢃄" instead of "⿱世⿱冖巾".
+	(U-00029E92): Use "𫥎" instead of "⿱⿱⺈𫩏⿵𠆢&CDP-8971;".
+	(U-00029E95): Modify structure.
+	(U-00029E9C): Use "㽜" instead of "⿱夗田".
+	(U-00029EE5): Use "徤" instead of "⿰彳建".
+	(U-00029EE7): Use "菓" instead of "⿱艹果".
+	(U-00029EEF): Use "𢽟" instead of "⿰來攵".
+
 	* IDS-UCS-Ext-F.txt: Use U+8FB6 instead of <CJK RADICAL WALK ONE>.
 	(U+2E785): Completed.
 
