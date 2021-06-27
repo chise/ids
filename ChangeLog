@@ -5,6 +5,15 @@
 
 2021-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-0002218C): Modify structure.
+
+	* IDS-UCS-Ext-E.txt (U+2C0C4): Modify structure.
+	(U+2C0C7): Use "𫞯" instead of "⿱⿹𠄎又皿".
+	(U+2C0E6): Use "⿰x𰠛" instead of "⿲x片戋".
+	(U+2C0E9): Use "𭩮" instead of "⿱⿰冫刃木".
+
+	* IDS-UCS-Ext-B-3.txt (U-000255DB): Fixed.
+
 	* IDS-UCS-Ext-B-1.txt: Use "鄰" instead of "⿰粦阝".
 	(U-000203B7): Use "䪞" instead of "⿱夭韭".
 	(U-000203BE): Use "寋" instead of "⿱𡨄巳".
