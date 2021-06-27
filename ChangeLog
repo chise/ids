@@ -1,3 +1,34 @@
+2021-06-18  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+4E3E 举): ⿵兴𰀁 --> ⿱兴𰀁 [ Ref: U+6319
+	(挙),U+8A89(誉) with ⿱兴* ]
+
+2021-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use "鄰" instead of "⿰粦阝".
+	(U-000203B7): Use "䪞" instead of "⿱夭韭".
+	(U-000203BE): Use "寋" instead of "⿱𡨄巳".
+	(U-000203CD): Use U+9040 instead of CU+9040.
+	(U-000203CE): Use "哖" instead of "⿰口年".
+	(U-000203DC): Use "𦎍" instead of "⿱𦍌言".
+	(U-00020410): Use "蔡" instead of "⿱艹祭".
+	(U-00020418): Use "劍" instead of "⿰僉刂".
+	(U-00020453): Use "⿸儞x" instead of "⿰亻⿱爾x".
+	(U-00020460): Use "韲" instead of "⿱&CDP-8DEB;韭".
+	(U-00020462): Use "藝" instead of "⿱艹㙯".
+	(U-00021481): Use "䪞" instead of "⿱夭韭".
+	(U-00021484): Use "禀" instead of "⿱㐭示".
+	(U-00021485): Use "𢊂" instead of "⿸广⿱龶回".
+	(U-0002149B): Modify structure.
+	(U-0002149D): Fixed.
+	(U-0002149E): Use "箎" instead of "⿱竹虎".
+	(U-000214A1): Use "皷" instead of "⿰壴皮".
+	(U-000214A2): Ditto.
+	(U-000214BD): Use "𠚛" instead of "⿱⿶凵土⿰⿶凵土⿶凵土".
+	(U-000214BE): Use "𭟼" instead of "⿰⿸虍丘戈".
+	(U-000214DB): Use "𡧱" instead of "⿳宀工口".
+	(U-000214EA): Use "墨" instead of "⿱黑土".
+
 2021-06-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
