@@ -1,3 +1,19 @@
+2021-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2CF19): Add IDS.
+	(U+2CF1A): Add apparent IDS.
+
+	* IDS-UCS-Ext-B-4.txt (U-00027C0C): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-00027C0D): Likewise.
+	(U-00027C13): Use "𤭃" instead of "⿰而瓦".
+	(U-00027C15): Use "盗" instead of "⿱次皿".
+	(U-00027C16): Use "㐬" instead of "⿱𠫓𫶧".
+	(U-00027C1D): Use "盗" instead of "⿱次皿".
+	(U-00027C24): Use "⿰x䨇" instead of "⿲x隻隻".
+	(U-00027C33): Modify structure.
+	(U-00027C3A): Modify structure.
+
 2021-06-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-0002047D): Modify structure; preserve the
