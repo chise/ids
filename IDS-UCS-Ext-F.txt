@@ -104,8 +104,8 @@ U+2CF15	𬼕	⿲丿臣賣
 U+2CF16	&MJ056865;	⿷&AJ1-04307;一
 U+2CF17	𬼗	⿸&CDP-8CBD;乚
 U+2CF18	𬼘	𬼘
-U+2CF19	𬼙	𬼙
-U+2CF1A	𬼚	⿻比乚
+U+2CF19	𬼙	⿻⿰七七乚	@apparent=⿰七⿺乚七
+U+2CF1A	𬼚	⿻比乚	@apparent=⿰匕𪟨
 U+2CF1B	𬼛	⿱之乙
 U+2CF1C	𬼜	⿱&U-0002008A;也
 U+2CF1D	𬼝	⿱去乙
