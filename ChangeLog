@@ -1,3 +1,9 @@
+2021-06-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+514C): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+5151): Likewise.
+
 2021-06-18  ColtMa  <mumchristmas@gmail.com>
 
 	* IDS-UCS-Basic.txt (U+4E3E 举): ⿵兴𰀁 --> ⿱兴𰀁 [ Ref: U+6319
