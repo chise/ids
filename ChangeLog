@@ -1,5 +1,37 @@
 2021-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt: Use "䝿" instead of "⿱臾貝".
+	(U-000240C6): Use "寰" instead of "⿱宀睘".
+	(U-000240C9): Use "𠪾" instead of "⿸厂⿱秝心".
+	(U-000240D2): Use "𧇩" instead of "⿸虍⿳一&GT-K00859;目".
+	(U-000240DC): Use "遼" instead of "⿺辶尞".
+	(U-000240DD): Use "曆" instead of "⿸厂⿱秝日".
+	(U-000240E3): Modify structure.
+	(U-000240E6): Use "蕳" instead of "⿱艹間".
+	(U-000240EF): Modify structure.
+	(U-00024101): Use "蟄" instead of "⿱執虫".
+	(U-0002410A): Use "㕓" instead of "⿸厂墨".
+	(U-00024114): Use "⿰x𡾃" instead of "⿲x⿱山雀戈".
+	(U-00024115): Use "⿰氵𣄣" instead of "⿰汸與".
+	(U-0002411C): Use "⿰x䊩" instead of "⿲x米番".
+	(U-0002411D): Modify structure.
+	(U-0002411E): Use "𫲓" instead of "⿳亡⺫⿲月女凡".
+	(U-0002411F): Use "𪊿" instead of "⿸鹿谷".
+	(U-00024120): Use "薲" instead of "⿱艹賓".
+	(U-00024121): Use "䦰" instead of "⿵門亀".
+	(U-00024179): Use "𡚤" instead of "⿱⿱⺫大⿰⿱⺫大⿱⺫大".
+	(U-00024638): Use "𠬢" instead of "⿱屮又".
+	(U-0002463A): Use "宂" instead of "⿱宀儿".
+	(U-00024D5F): Use "𠬢" instead of "⿱屮又".
+	(U-00024F1B): Fixed.
+	(U-00024F24): Fixed.
+	(U-00024F30): Modify structure.
+	(U-00024F31): Modify structure.
+	(U-00024F32): Modify structure.
+	(U-00024F35): Use "⿹𤼩x" instead of "⿱癶⿰x矢".
+	(U-00024F3C): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 	* IDS-UCS-Ext-B-1.txt (U-00021275): Modify structure; preserve the
 	previous IDS as an apparent structure.
 	(U-00021276): Use "弖" instead of "⿱弓一".
