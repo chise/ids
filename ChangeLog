@@ -1,4 +1,62 @@
+2021-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021275): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-00021276): Use "弖" instead of "⿱弓一".
+	(U-00021278): Use "𠙸" instead of "⿶凵厶".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022DCE): Use "𦱧" instead of "⿱芔夲".
+	(U-00022DD0): Use "𤴡" instead of "⿳&CDP-8D52;由⿱厶龰".
+	(U-00022DD7): Use "聚" instead of "⿱取㐺".
+	(U-00022DE1): Use "𰀕" instead of "⿰丙丙".
+
 2021-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-00917): Fixed [temporary].
+	(SW-JIGUGE-01216): Fixed; add an apparent structure.
+	(SW-JIGUGE-02314): Completed.
+	(SW-JIGUGE-03105): Completed.
+	(SW-JIGUGE-03306): Fixed.
+	(SW-JIGUGE-03600): Completed [temporary].
+	(SW-JIGUGE-03607): Completed.
+	(SW-JIGUGE-03809): Completed.
+	(SW-JIGUGE-04018): Fixed.
+	(SW-JIGUGE-04025): Modify structure; preserve the previous IDS as
+	an apparent structure.
+	(SW-JIGUGE-04318): Completed [temporary].
+	(SW-JIGUGE-04504): Use "&SW-JIGUGE-35507;" instead of "⿱⿱&SW-JIGUGE-35506;&SW-JIGUGE-20604;&SW-JIGUGE-17501;".
+	(SW-JIGUGE-07332): Completed.
+	(SW-JIGUGE-07911): Completed.
+	(SW-JIGUGE-09610): Fixed [temporary].
+	(SW-JIGUGE-09611): Fixed [temporary].
+	(SW-JIGUGE-13115): Completed.
+	(SW-JIGUGE-13929): Completed.
+	(SW-JIGUGE-17000): Completed.
+	(SW-JIGUGE-17115): Completed [temporary].
+	(SW-JIGUGE-17501): Fixed [temporary].
+	(SW-JIGUGE-20609): Add IDS.
+	(SW-JIGUGE-20610): Fixed [temporary].
+	(SW-JIGUGE-20711): Fixed [temporary].
+	(SW-JIGUGE-20712): Fixed [temporary].
+	(SW-JIGUGE-20808): Completed.
+	(SW-JIGUGE-20816): Completed.
+	(SW-JIGUGE-24006): Completed.
+	(SW-JIGUGE-24716): Completed.
+	(SW-JIGUGE-27007): Completed.
+	(SW-JIGUGE-28513): Fixed.
+	(SW-JIGUGE-28901): Completed.
+	(SW-JIGUGE-28904): Completed.
+	(SW-JIGUGE-35507): Completed [temporary].
+	(SW-JIGUGE-35508): Completed.
+	(SW-JIGUGE-35509): Completed.
+	(SW-JIGUGE-36520): Completed.
+	(SW-JIGUGE-39512): Completed.
+	(SW-JIGUGE-39513): Completed.
+	(SW-JIGUGE-39600): Completed.
+	(SW-JIGUGE-39614): Completed.
+	(SW-JIGUGE-39615): Completed.
+	(SW-JIGUGE-39707): Completed.
+	(SW-JIGUGE-49915): Completed.
 
 	* IDS-UCS-Ext-F.txt (U+2CF19): Add IDS.
 	(U+2CF1A): Add apparent IDS.
