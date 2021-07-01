@@ -60,6 +60,11 @@
      (ids-index-store-structure c v)
      nil)
    'ideographic-structure@apparent)
+  (map-char-attribute
+   (lambda (c v)
+     (ids-index-store-structure c v)
+     nil)
+   'ideographic-structure@apparent/leftmost)
   (unless in-memory
     (save-char-attribute-table 'ideographic-products)))
 
@@ -572,6 +577,9 @@
 		     (ideographic-structure-equal str structure))
 		(and (setq str
 			   (get-char-attribute pc 'ideographic-structure@apparent))
+		     (ideographic-structure-equal str structure))
+		(and (setq str
+			   (get-char-attribute pc 'ideographic-structure@apparent/leftmost))
 		     (ideographic-structure-equal str structure)))
 	(setq pl (cons pc pl))
 	))
@@ -1603,11 +1611,13 @@ COMPONENT can be a character or char-spec."
       (when (setq enc-str
 		  (cond ((characterp enc)
 			 (or (get-char-attribute enc 'ideographic-structure)
-			     (get-char-attribute enc 'ideographic-structure@apparent))
+			     (get-char-attribute enc 'ideographic-structure@apparent)
+			     (get-char-attribute enc 'ideographic-structure@apparent/leftmost))
 			 )
 			((consp enc)
 			 (or (cdr (assq 'ideographic-structure enc))
-			     (cdr (assq 'ideographic-structure@apparent enc)))
+			     (cdr (assq 'ideographic-structure@apparent enc))
+			     (cdr (assq 'ideographic-structure@apparent/leftmost enc)))
 			 )))
         ;; (setq enc-str
         ;;       (mapcar (lambda (cell)
