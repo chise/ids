@@ -42,6 +42,15 @@
 	(U-00022DD7): Use "聚" instead of "⿱取㐺".
 	(U-00022DE1): Use "𰀕" instead of "⿰丙丙".
 
+	* install-ids.el: Add code to compact
+	`ideographic-structure@apparent/leftmost'.
+
+	* ids-find.el (ids-update-index): Support
+	`ideographic-structure@apparent/leftmost'.
+	(ideographic-structure-find-chars): Likewise.
+	(ideographic-structure-compare-functional-and-apparent): Refer
+	`ideographic-structure@apparent/leftmost'.
+
 2021-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-00917): Fixed [temporary].
