@@ -1,3 +1,10 @@
+2021-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8B8E): Use "⿴雔x" instead of "⿲隹x隹".
+	(U+96E0): Likewise.
+	(U+96E5): Use "雔" instead of "⿰隹隹".
+	(U+96E6): Use "⿴雔x" instead of "⿲隹x隹".
+
 2021-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028607): Use "舝" instead of
