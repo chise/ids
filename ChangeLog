@@ -1,3 +1,199 @@
+2021-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "辱" instead of "⿸辰寸".
+	- Use "牪" instead of "⿰牛牛".
+	- Use "斊" instead of "⿱文耳".
+	- Use "虘" instead of "⿸虍且".
+	- Use "𠳮" instead of "⿱右冋".
+	- Use "𥃩" instead of "⿱目匕".
+	- Use "龱" instead of "⿴囗㐅".
+	(U-0002409B): Use "𬿵" instead of "⿰&CDP-8B7A;菐".
+	(U-000240A0): Modify structure.
+	(U-000240A2): Use "䴡" instead of "⿸⿸严&CDP-88B4;比".
+	(U-000240A3): Use "䔥" instead of "⿱艹粛".
+	(U-000240A4): Use "犇" instead of "⿱牛⿰牛牛".
+	(U-000240A5): Modify structure.
+	(U-000246BC): Use "𣪊" instead of "⿰𡉉殳".
+	(U-000246C0): Use "⿰x𧴫" instead of "⿲x貝寸".
+	(U-000246C3): Use "𠣧" instead of "⿱⿹勹小⿹勹小".
+	(U-000246C6): Use "⿸𭆆x" instead of "⿱⿰牙攵⿸厂x".
+	(U-000246C8): Fixed.
+	(U-000246C9): Modify structure.
+	(U-000250B6): Completed.
+	(U-000251A7): Use "闰" instead of "⿵门王".
+	(U-000251A8): Use "㐬" instead of "⿱𠫓𫶧".
+	(U-000254E6): Completed.
+	(U-000256E1): Use "𡍏" instead of "⿱卥土".
+	(U-000256E4): Use U-00025608 instead of IU+25608; use "負" instead
+	of "⿱刀貝".
+	(U-00025701): Modify structure.
+	(U-00025702): Use U-00025608 instead of IU+25608.
+	(U-00025706): Fixed.
+	(U-00025715): Use "𣗥" instead of "⿰束束".
+	(U-00025726): Use "壐" instead of "⿱爾土".
+	(U-00025744): Modify structure.
+	(U-00025745): Modify structure.
+	(U-00025DED): Use "⿹𢽳x" instead of "⿰⿱林x攵".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020FE1): Use "⿱窡x" instead of
+	"⿱穴⿱叕x".
+	(U-000218AB): Fixed.
+	(U-000218B0): Use "媐" instead of "⿱⿰𦣞巳女".
+	(U-000218B2): Use "𧵩" instead of "⿱朿貝".
+	(U-000218B3): Use "感" instead of "⿱咸心".
+	(U-000218B7): Use "窡" instead of "⿱穴叕".
+	(U-000218C1): Use "孴" instead of "⿱孨日".
+	(U-000218C2): Use "𠘂" instead of "⿰冫欶".
+	(U-000218C5): Use "䚂" instead of "⿰赤見".
+	(U-000218CA): Modify structure.
+	(U-000218CB): Modify structure.
+	(U-000218CC): Use "𧨅" instead of "⿱⿱卝𰀁言".
+	(U-000218CF): Use "𠻝" instead of "⿱品㐱".
+	(U-000218D4): Modify structure.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-01900): Completed.
+	(SW-JIGUGE-02804): Completed [temporary].
+	(SW-JIGUGE-03303): Modify operator.
+	(SW-JIGUGE-03306): Likewise.
+	(SW-JIGUGE-03309): Likewise.
+	(SW-JIGUGE-03313): Likewise.
+	(SW-JIGUGE-03409): Likewise.
+	(SW-JIGUGE-03523): Completed.
+	(SW-JIGUGE-03606): Completed.
+	(SW-JIGUGE-03700): Completed [temporary].
+	(SW-JIGUGE-05109): Completed.
+	(SW-JIGUGE-05301): Completed [temporary].
+	(SW-JIGUGE-05312): Completed [temporary].
+	(SW-JIGUGE-05323): Completed [temporary].
+	(SW-JIGUGE-07003): Modify structure; preserve the previous IDS as
+	an apparent structure.
+	(SW-JIGUGE-07906): Modify IDC.
+	(SW-JIGUGE-08011): Fixed.
+	(SW-JIGUGE-08201): Completed [temporary].
+	(SW-JIGUGE-08310): Completed.
+	(SW-JIGUGE-08813): Completed [temporary].
+	(SW-JIGUGE-09401): Fixed.
+	(SW-JIGUGE-09605): Completed.
+	(SW-JIGUGE-09903): Add an apparent structure.
+	(SW-JIGUGE-10008): Completed [temporary].
+	(SW-JIGUGE-11031): Fixed.
+	(SW-JIGUGE-11312): Completed.
+	(SW-JIGUGE-12315): Completed [temporary].
+	(SW-JIGUGE-12316): Completed [temporary].
+	(SW-JIGUGE-13106): Add an apparent structure.
+	(SW-JIGUGE-13111): Modify structure.
+	(SW-JIGUGE-14507): Completed [temporary].
+	(SW-JIGUGE-18115): Completed [temporary].
+	(SW-JIGUGE-18418): Completed [temporary].
+	(SW-JIGUGE-22408): Fixed.
+	(SW-JIGUGE-24011): Fixed.
+	(SW-JIGUGE-24804): Completed [temporary].
+	(SW-JIGUGE-26919): Completed [temporary].
+	(SW-JIGUGE-28009): Completed [temporary].
+	(SW-JIGUGE-31313): Completed [temporary].
+	(SW-JIGUGE-32009): Completed [temporary].
+	(SW-JIGUGE-32022): Fixed.
+	(SW-JIGUGE-33410): Fixed.
+	(SW-JIGUGE-33513): Completed [temporary].
+	(SW-JIGUGE-33514): Completed [temporary].
+	(SW-JIGUGE-33708): Completed [temporary].
+	(SW-JIGUGE-33709): Completed.
+	(SW-JIGUGE-38206): Completed.
+	(SW-JIGUGE-38208): Completed [temporary].
+	(SW-JIGUGE-38407): Completed [temporary].
+	(SW-JIGUGE-43614): Fixed.
+	(SW-JIGUGE-43907): Completed [temporary].
+	(SW-JIGUGE-45414): Completed [temporary].
+	(SW-JIGUGE-45501): Fixed.
+	(SW-JIGUGE-46600): Fixed.
+	(SW-JIGUGE-49602): Fixed.
+	(SW-JIGUGE-50105): Fixed [temporary].
+
+	* IDS-UCS-Ext-F.txt (U+2D8F7): Use "⿹⿰爻攴x" instead of
+	"⿰⿱爻x攴".
+	(U+2D8F9): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
+2021-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8B8E): Use "⿴雔x" instead of "⿲隹x隹".
+	(U+96E0): Likewise.
+	(U+96E5): Use "雔" instead of "⿰隹隹".
+	(U+96E6): Use "⿴雔x" instead of "⿲隹x隹".
+
+2021-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028607): Use "舝" instead of
+	"⿳𫝀巛⿳冖厶牛".
+	(U-0002860A): Use "𥈪" instead of "⿱䀠开".
+	(U-00028614): Use "誩" instead of "⿰言言".
+
+	* IDS-UCS-Basic.txt (U+8219): Use "𦧚" instead of "⿰舌舌".
+	(U+821B): Add IDS.
+	(U+821D): Modify structure.
+	(U+8CF7): Use "⿱&GT-K07262;x" instead of "⿳&CDP-88D9;冖x".
+	(U+97CB): Add IDS.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-03315): Add IDS.
+	(SW-JIGUGE-03400): Delete IDS.
+	(SW-JIGUGE-03713): Completed [temporary].
+	(SW-JIGUGE-03821): Completed.
+	(SW-JIGUGE-04016): Completed.
+	(SW-JIGUGE-04913): Use "&U-i001+2FF1;x&SW-JIGUGE-08103;" instead of "⿶&SW-JIGUGE-08103;x"; add an apparent
+	structure.
+	(SW-JIGUGE-05112): Completed [temporary].
+	(SW-JIGUGE-05114): Completed.
+	(SW-JIGUGE-05120): Completed.
+	(SW-JIGUGE-05203): Completed [temporary].
+	(SW-JIGUGE-05204): Completed.
+	(SW-JIGUGE-05714): Fixed.
+	(SW-JIGUGE-05803): Completed.
+	(SW-JIGUGE-05911): Completed.
+	(SW-JIGUGE-06102): Completed.
+	(SW-JIGUGE-11031): Completed.
+	(SW-JIGUGE-14915): Completed [temporary].
+	(SW-JIGUGE-23618): Completed.
+	(SW-JIGUGE-25506): Completed.
+	(SW-JIGUGE-26400): Completed [temporary].
+	(SW-JIGUGE-31329): Completed [temporary].
+	(SW-JIGUGE-36927): Completed.
+	(SW-JIGUGE-37708): Completed.
+	(SW-JIGUGE-37809): Completed [temporary].
+	(SW-JIGUGE-45508): Completed.
+	(SW-JIGUGE-48018): Completed.
+	(SW-JIGUGE-49018): Completed.
+
+	* ids.el (ids-parse-terminal): Support U+2FF1-itaiji-001,
+	U+2FFB-itaiji-001 and U+2FF1-itaiji-002.
+	(ids-parse-op-2): Ditto.
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use "𡰤" instead of "⿱丷尸".
+	- Use "䖵" instead of "⿰虫虫".
+	- Use "宂" instead of "⿱宀儿".
+	- Use "𪢴" instead of "⿰土土".
+	(U-000202E3): Use U+7AD2 instead of HZK07-DBBC.
+	(U-0002044F): Use "&CDP-8D5B;" instead of "⿻土从".
+	(U-00020456): Use "⿱x嵬" instead of "⿳x山鬼".
+	(U-0002046E): Fixed.
+	(U-00020473): Modify structure; preserve the previous IDS as an
+	apparent structure [use "𦣦" instead of "⿰臣臣"].
+	(U-00020494): Completed.
+	(U-00020495): Use "𠂢" instead of "⿸𠂆𧘇".
+	(U-00020B71): Use "𡉀" instead of "⿱八土".
+	(U-00020B78): Use "𰶵" instead of "⿱止貝".
+	(U-00020BCF): Use "气" instead of "⿳𠂉一乙".
+	(U-00020C3E): Use "凥" instead of "⿸尸几".
+	(U-00021118): Use "𨪆" instead of "⿰金竒".
+	(U-0002125B): Use "气" instead of "⿳𠂉一乙".
+	(U-00021261): Completed.
+	(U-0002128C): Use "夳" instead of "⿱大二".
+	(U-000212A5): Modify structure; add apparent IDS.
+	(U-00021393): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021FE4): Fixed.
+
 2021-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use "䝿" instead of "⿱臾貝".
@@ -41,6 +237,15 @@
 	(U-00022DD0): Use "𤴡" instead of "⿳&CDP-8D52;由⿱厶龰".
 	(U-00022DD7): Use "聚" instead of "⿱取㐺".
 	(U-00022DE1): Use "𰀕" instead of "⿰丙丙".
+
+	* install-ids.el: Add code to compact
+	`ideographic-structure@apparent/leftmost'.
+
+	* ids-find.el (ids-update-index): Support
+	`ideographic-structure@apparent/leftmost'.
+	(ideographic-structure-find-chars): Likewise.
+	(ideographic-structure-compare-functional-and-apparent): Refer
+	`ideographic-structure@apparent/leftmost'.
 
 2021-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 

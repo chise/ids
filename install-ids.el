@@ -122,6 +122,19 @@
   (map-char-attribute
    (lambda (c v)
      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+       (princ (format "Compact %04X (%c) : [apparent/leftmost] %s -> %s\n"
+		      (char-int c)
+		      c
+		      (ideographic-structure-to-ids v)
+		      (ideographic-structure-to-ids ret)))
+       (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
+       (setq v ret))
+     nil)
+   'ideographic-structure@apparent/leftmost)
+
+  (map-char-attribute
+   (lambda (c v)
+     (unless (equal (setq ret (ideographic-structure-compact v)) v)
        (princ (format "Compact %04X (%c) : %s -> %s\n"
 		      (char-int c)
 		      c
@@ -143,6 +156,18 @@
        (setq v ret))
      nil)
    'ideographic-structure@apparent)
+  (map-char-attribute
+   (lambda (c v)
+     (unless (equal (setq ret (ideographic-structure-compact v)) v)
+       (princ (format "Compact %04X (%c) : [apparent/leftmost] %s -> %s\n"
+		      (char-int c)
+		      c
+		      (ideographic-structure-to-ids v)
+		      (ideographic-structure-to-ids ret)))
+       (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
+       (setq v ret))
+     nil)
+   'ideographic-structure@apparent/leftmost)
   (princ "done.\n")
 
   (princ "Updating char-feature `ideographic-structure'...")

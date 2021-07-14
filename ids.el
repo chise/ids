@@ -49,7 +49,10 @@
 		    (memq (encode-char chr '=ucs-var-001)
 			  '(#x2FF0))
 		    (memq (encode-char chr '=ucs-itaiji-001)
-			  '(#x2FF9 #x2FF6)))
+			  '(#x2FF1 #x2FF9 #x2FF6 #x2FFB))
+		    (memq (encode-char chr '=ucs-itaiji-002)
+			  '(#x2FF1))
+		    )
 	  (if (and ucs (<= #xE000 ucs)(<= ucs #xF8FF)
 		   (setq big5 (encode-char chr 'chinese-big5)))
 	      (setq chr (decode-char '=big5-cdp big5)))
@@ -67,7 +70,10 @@
 		(memq (encode-char chr '=ucs-var-001)
 		      '(#x2FF0))
 		(memq (encode-char chr '=ucs-itaiji-001)
-		      '(#x2FF9 #x2FF6)))
+		      '(#x2FF1 #x2FF9 #x2FF6 #x2FFB))
+		(memq (encode-char chr '=ucs-itaiji-002)
+		      '(#x2FF1))
+		)
 	    (cons chr
 		  (substring string 1))))))
 
