@@ -52,6 +52,12 @@
 	(U-000218CF): Use "𠻝" instead of "⿱品㐱".
 	(U-000218D4): Modify structure.
 
+	* IDS-UCS-Ext-A.txt (U+3A9A): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
+	* IDS-UCS-Basic.txt (U+6562): Modify structure.
+	(U+6563): Modify structure.
+
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-01900): Completed.
 	(SW-JIGUGE-02804): Completed [temporary].
 	(SW-JIGUGE-03303): Modify operator.
