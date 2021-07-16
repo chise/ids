@@ -1,3 +1,8 @@
+2021-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6563): Use U+9FB7 instead of UU+9FB7; use
+	<CJK RADICAL MEAT> instead of A-compU+6708.
+
 2021-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
