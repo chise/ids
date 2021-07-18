@@ -1,3 +1,13 @@
+2021-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022F64): Modify structure.
+	(U-00022FE8): Use "⿹㪔x" instead of "⿰⿱林x攴".
+	(U-00022FE9): Use "𦲆" instead of "⿳卝干句".
+	(U-00022FEB): Use "𭣴" instead of "⿰束攴".
+	(U-00022FF1): Use "⿹𢽳x" instead of "⿰⿱林x攵".
+	(U-00022FFA): Use "⿹敠x" instead of "⿰⿱叕x攴".
+	(U-00023004): Modify structure.
+
 2021-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+6563): Use U+9FB7 instead of UU+9FB7; use
