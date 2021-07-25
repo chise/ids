@@ -1,3 +1,21 @@
+2021-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat.txt: Use utf-8-mcs-er instead of utf-8.
+	(U+F929): Completed.
+	(U+F936): Completed.
+	(U+F9DC): Completed.
+	(U+FA16): Completed.
+	(U+FA17): Completed.
+	(U+FA18): Completed.
+	(U+FA19): Completed.
+	(U+FA1A): Completed.
+	(U+FA1B): Completed.
+	(U+FA1C): Completed.
+	(U+FA25): Completed.
+	(U+FA26): Completed.
+	(U+FA2C): Completed.
+	(U+FA2D): Completed.
+
 2021-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022F64): Modify structure.
