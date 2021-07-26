@@ -1,3 +1,36 @@
+2021-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-22502): Fixed.
+	(SW-JIGUGE-22512): Completed.
+	(SW-JIGUGE-22519): Completed.
+	(SW-JIGUGE-25430): Completed.
+	(SW-JIGUGE-29820): Completed.
+	(SW-JIGUGE-32312): Completed.
+	(SW-JIGUGE-36729): Completed.
+	(SW-JIGUGE-41410): Completed.
+	(SW-JIGUGE-42224): Completed.
+	(SW-JIGUGE-47116): Completed.
+	(SW-JIGUGE-47126): Completed [temporary].
+	(SW-JIGUGE-47207): Completed.
+	(SW-JIGUGE-47219): Completed.
+	(SW-JIGUGE-47329): Completed [temporary].
+	(SW-JIGUGE-47402): Completed.
+	(SW-JIGUGE-47431): Completed.
+	(SW-JIGUGE-47502): Completed.
+	(SW-JIGUGE-47515): Completed.
+	(SW-JIGUGE-47517): Completed.
+	(SW-JIGUGE-47524): Completed.
+	(SW-JIGUGE-47605): Completed.
+	(SW-JIGUGE-47616): Completed.
+	(SW-JIGUGE-47618): Completed.
+	(SW-JIGUGE-51713): Completed.
+
+2021-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D901): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+2D906): Modify structure.
+
 2021-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Compat.txt: Use utf-8-mcs-er instead of utf-8.
