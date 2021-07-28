@@ -1,3 +1,53 @@
+2021-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-0002635F): Modify structure.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023004): Use "⺸" instead of "⿱卝干".
+	(U-00023017): Modify structure.
+	(U-00023019): Use "𰮫" instead of "⿱林肉".
+
+2021-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-1.txt (C1-5A27): Modify structure.
+
+2021-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-01303): Modify IDC.
+	(SW-JIGUGE-02224): Completed.
+	(SW-JIGUGE-03310): Modify IDC.
+	(SW-JIGUGE-03509): Fixed [temporary].
+	(SW-JIGUGE-03519): Completed.
+	(SW-JIGUGE-03706): Fixed [temporary].
+	(SW-JIGUGE-04016): Modify IDC.
+	(SW-JIGUGE-07322): Completed.
+	(SW-JIGUGE-07326): Completed.
+	(SW-JIGUGE-07412): Completed.
+	(SW-JIGUGE-08722): Modify structure.
+	(SW-JIGUGE-08808): Modify structure.
+	(SW-JIGUGE-09600): Fixed.
+	(SW-JIGUGE-27812): Completed.
+	(SW-JIGUGE-27816): Completed.
+	(SW-JIGUGE-27902): Completed.
+	(SW-JIGUGE-27903): Completed.
+	(SW-JIGUGE-27919): Completed.
+	(SW-JIGUGE-28004): Completed.
+	(SW-JIGUGE-28011): Completed [temporary].
+	(SW-JIGUGE-28013): Completed.
+	(SW-JIGUGE-28016): Completed.
+	(SW-JIGUGE-28023): Completed.
+	(SW-JIGUGE-28124): Completed.
+	(SW-JIGUGE-28204): Completed.
+	(SW-JIGUGE-28209): Completed.
+	(SW-JIGUGE-28220): Completed.
+	(SW-JIGUGE-28223): Completed.
+	(SW-JIGUGE-36005): Completed.
+	(SW-JIGUGE-47400): Completed.
+
+	* IDS-UCS-Basic.txt (U+5CD5): Modify structure; add apparent
+	field.
+	(U+5E36): Modify structure.
+	(U+8AFA): Fixed.
+
 2021-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-22502): Fixed.
