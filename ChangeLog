@@ -1,5 +1,115 @@
 2021-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00023019): Modify structure.
+
+	* IDS-Daikanwa-04.txt:
+	- Use "吅" instead of "⿰口口".
+	- Use "从" instead of "⿰人人".
+	- Use "𡰱" instead of "⿸尸工".
+	- Use "𠧒" instead of "⿱⺊乙".
+	- Use "𢆰" instead of "⿱一幺".
+	- Use "&GT-K05805;" instead of "⿴囗𠂭".
+	(M-07436): Modify structure.
+	(M-07437): Add IDS.
+	(M-07440): Add IDS.
+	(M-07450): Add IDS.
+	(M-07451): Use "&U-i001+2BD56;" instead of "⿸尸⿱二火".
+	(M-07452): Use "𩠐" instead of "⿱巛𦣻".
+	(M-07459): Add IDS.
+	(M-07468): Add IDS.
+	(M-07469): Add IDS.
+	(M-07470): Use "⿴行x" instead of "⿻行x"; use "𩠐" instead of "⿱
+	巛𦣻".
+	(M-07472): Use "𤐫" instead of "⿱⿻𦥑囟⿱一火".
+	(M-07477): Fixed.
+	(M-07486): Add IDS.
+	(M-07490): Use "龸" instead of "⿱⺌冖".
+	(M-07496): Add IDS.
+	(M-07505): Add IDS.
+	(M-07509): Add IDS.
+	(M-07510): Add IDS.
+	(M-07516): Add IDS.
+	(M-07519): Use "龸" instead of "⿱⺌冖".
+	(M-07526): Modify structure.
+	(M-07531): Add IDS.
+	(M-07583): Add IDS.
+	(M-07602): Add IDS.
+	(M-07608): Add IDS.
+	(M-07611): Add IDS.
+	(M-07617): Add IDS.
+	(M-07618): Add IDS.
+	(M-07619): Add IDS.
+	(M-07621): Add IDS.
+	(M-07623): Add IDS.
+	(M-07624): Add IDS.
+	(M-07625): Add IDS.
+	(M-07626): Add IDS.
+	(M-07643): Add IDS.
+	(M-07647): Fixed.
+	(M-07653): Modify structure.
+	(M-07666): Modify a component.
+	(M-07672): Add IDS.
+	(M-07676): Add IDS.
+	(M-07677): Add IDS.
+	(M-07694): Add IDS.
+	(M-07697): Use "𣅀" instead of "⿱二日".
+	(M-07703): Add IDS.
+	(M-07709): Add IDS.
+	(M-07720): Use "𡰤" instead of "⿱丷尸".
+	(M-07735): Modify structure.
+	(M-07751): Modify structure.
+	(M-07756): Modify structure.
+	(M-07761): Add IDS.
+	(M-07767): Add IDS.
+	(M-07770): Use "娄" instead of "⿱米女".
+	(M-07771): Modify structure.
+	(M-07773): Use "𣬉" instead of "⿱囟比".
+	(M-07779): Add IDS.
+	(M-07780): Use "⿱𠈌x" instead of "⿳⿰人人⿰人人x".
+	(M-07781): Modify structure.
+	(M-07790): Use "虘" instead of "⿸虍且".
+	(M-07798): Add IDS.
+	(M-07800): Add IDS.
+	(M-07802): Use "𡍮" instead of "⿻壬⿱从从".
+	(M-07806): Add IDS.
+	(M-07810): Use "杘" instead of "⿸尸木".
+	(M-07811): Modify structure.
+	(M-07812): Modify structure.
+	(M-07815): Modify structure.
+	(M-07816): Use "&U-i001+27763;" instead of "⿳⿰工工⿰工工𧘇".
+	(M-07817): Add IDS.
+	(M-07818): Add IDS.
+	(M-07821): Add IDS.
+	(M-07824): Add IDS.
+	(M-07839): Add IDS.
+	(M-07853): Add IDS.
+	(M-07854): Add IDS.
+	(M-07855): Use "&U-i001+2D983;" instead of "⿳八𠆢日".
+	(M-07857): Add IDS.
+	(M-07859): Add IDS.
+	(M-07866): Use "𠱠" instead of "⿲口口口".
+	(M-07867): Add IDS.
+	(M-07872): Add IDS.
+	(M-07878): Add IDS.
+	(M-07913): Fixed.
+	(M-07961): Modify a component.
+	(M-07962): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(M-07977): Add IDS.
+	(M-07983): Add IDS.
+	(M-08233): Use "&U-i001+2D983;" instead of "⿳八𠆢日".
+	(M-08574): Use "⿱x&U-i002+20336;" instead of "⿳x⿱⿰人人⿰人人亏".
+	(M-08950): Modify structure.
+	(M-09954): Modify structure; preserve the previous structure as an
+	apparent structure.
+	(M-11018): Use "𣬉" instead of "⿱囟比".
+
+2021-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5E2F): Modify structure; add apparent
+	field.
+	(U+5E36): Likewise.
+
 	* IDS-UCS-Ext-B-4.txt (U-0002635F): Modify structure.
 
 	* IDS-UCS-Ext-B-2.txt (U-00023004): Use "⺸" instead of "⿱卝干".
