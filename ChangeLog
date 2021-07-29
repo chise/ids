@@ -1,3 +1,229 @@
+2021-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023019): Modify structure.
+
+	* IDS-Daikanwa-04.txt:
+	- Use "吅" instead of "⿰口口".
+	- Use "从" instead of "⿰人人".
+	- Use "𡰱" instead of "⿸尸工".
+	- Use "𠧒" instead of "⿱⺊乙".
+	- Use "𢆰" instead of "⿱一幺".
+	- Use "&GT-K05805;" instead of "⿴囗𠂭".
+	(M-07436): Modify structure.
+	(M-07437): Add IDS.
+	(M-07440): Add IDS.
+	(M-07450): Add IDS.
+	(M-07451): Use "&U-i001+2BD56;" instead of "⿸尸⿱二火".
+	(M-07452): Use "𩠐" instead of "⿱巛𦣻".
+	(M-07459): Add IDS.
+	(M-07468): Add IDS.
+	(M-07469): Add IDS.
+	(M-07470): Use "⿴行x" instead of "⿻行x"; use "𩠐" instead of "⿱
+	巛𦣻".
+	(M-07472): Use "𤐫" instead of "⿱⿻𦥑囟⿱一火".
+	(M-07477): Fixed.
+	(M-07486): Add IDS.
+	(M-07490): Use "龸" instead of "⿱⺌冖".
+	(M-07496): Add IDS.
+	(M-07505): Add IDS.
+	(M-07509): Add IDS.
+	(M-07510): Add IDS.
+	(M-07516): Add IDS.
+	(M-07519): Use "龸" instead of "⿱⺌冖".
+	(M-07526): Modify structure.
+	(M-07531): Add IDS.
+	(M-07583): Add IDS.
+	(M-07602): Add IDS.
+	(M-07608): Add IDS.
+	(M-07611): Add IDS.
+	(M-07617): Add IDS.
+	(M-07618): Add IDS.
+	(M-07619): Add IDS.
+	(M-07621): Add IDS.
+	(M-07623): Add IDS.
+	(M-07624): Add IDS.
+	(M-07625): Add IDS.
+	(M-07626): Add IDS.
+	(M-07643): Add IDS.
+	(M-07647): Fixed.
+	(M-07653): Modify structure.
+	(M-07666): Modify a component.
+	(M-07672): Add IDS.
+	(M-07676): Add IDS.
+	(M-07677): Add IDS.
+	(M-07694): Add IDS.
+	(M-07697): Use "𣅀" instead of "⿱二日".
+	(M-07703): Add IDS.
+	(M-07709): Add IDS.
+	(M-07720): Use "𡰤" instead of "⿱丷尸".
+	(M-07735): Modify structure.
+	(M-07751): Modify structure.
+	(M-07756): Modify structure.
+	(M-07761): Add IDS.
+	(M-07767): Add IDS.
+	(M-07770): Use "娄" instead of "⿱米女".
+	(M-07771): Modify structure.
+	(M-07773): Use "𣬉" instead of "⿱囟比".
+	(M-07779): Add IDS.
+	(M-07780): Use "⿱𠈌x" instead of "⿳⿰人人⿰人人x".
+	(M-07781): Modify structure.
+	(M-07790): Use "虘" instead of "⿸虍且".
+	(M-07798): Add IDS.
+	(M-07800): Add IDS.
+	(M-07802): Use "𡍮" instead of "⿻壬⿱从从".
+	(M-07806): Add IDS.
+	(M-07810): Use "杘" instead of "⿸尸木".
+	(M-07811): Modify structure.
+	(M-07812): Modify structure.
+	(M-07815): Modify structure.
+	(M-07816): Use "&U-i001+27763;" instead of "⿳⿰工工⿰工工𧘇".
+	(M-07817): Add IDS.
+	(M-07818): Add IDS.
+	(M-07821): Add IDS.
+	(M-07824): Add IDS.
+	(M-07839): Add IDS.
+	(M-07853): Add IDS.
+	(M-07854): Add IDS.
+	(M-07855): Use "&U-i001+2D983;" instead of "⿳八𠆢日".
+	(M-07857): Add IDS.
+	(M-07859): Add IDS.
+	(M-07866): Use "𠱠" instead of "⿲口口口".
+	(M-07867): Add IDS.
+	(M-07872): Add IDS.
+	(M-07878): Add IDS.
+	(M-07913): Fixed.
+	(M-07961): Modify a component.
+	(M-07962): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(M-07977): Add IDS.
+	(M-07983): Add IDS.
+	(M-08233): Use "&U-i001+2D983;" instead of "⿳八𠆢日".
+	(M-08574): Use "⿱x&U-i002+20336;" instead of "⿳x⿱⿰人人⿰人人亏".
+	(M-08950): Modify structure.
+	(M-09954): Modify structure; preserve the previous structure as an
+	apparent structure.
+	(M-11018): Use "𣬉" instead of "⿱囟比".
+
+2021-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5E2F): Modify structure; add apparent
+	field.
+	(U+5E36): Likewise.
+
+	* IDS-UCS-Ext-B-4.txt (U-0002635F): Modify structure.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023004): Use "⺸" instead of "⿱卝干".
+	(U-00023017): Modify structure.
+	(U-00023019): Use "𰮫" instead of "⿱林肉".
+
+2021-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-1.txt (C1-5A27): Modify structure.
+
+2021-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-01303): Modify IDC.
+	(SW-JIGUGE-02224): Completed.
+	(SW-JIGUGE-03310): Modify IDC.
+	(SW-JIGUGE-03509): Fixed [temporary].
+	(SW-JIGUGE-03519): Completed.
+	(SW-JIGUGE-03706): Fixed [temporary].
+	(SW-JIGUGE-04016): Modify IDC.
+	(SW-JIGUGE-07322): Completed.
+	(SW-JIGUGE-07326): Completed.
+	(SW-JIGUGE-07412): Completed.
+	(SW-JIGUGE-08722): Modify structure.
+	(SW-JIGUGE-08808): Modify structure.
+	(SW-JIGUGE-09600): Fixed.
+	(SW-JIGUGE-27812): Completed.
+	(SW-JIGUGE-27816): Completed.
+	(SW-JIGUGE-27902): Completed.
+	(SW-JIGUGE-27903): Completed.
+	(SW-JIGUGE-27919): Completed.
+	(SW-JIGUGE-28004): Completed.
+	(SW-JIGUGE-28011): Completed [temporary].
+	(SW-JIGUGE-28013): Completed.
+	(SW-JIGUGE-28016): Completed.
+	(SW-JIGUGE-28023): Completed.
+	(SW-JIGUGE-28124): Completed.
+	(SW-JIGUGE-28204): Completed.
+	(SW-JIGUGE-28209): Completed.
+	(SW-JIGUGE-28220): Completed.
+	(SW-JIGUGE-28223): Completed.
+	(SW-JIGUGE-36005): Completed.
+	(SW-JIGUGE-47400): Completed.
+
+	* IDS-UCS-Basic.txt (U+5CD5): Modify structure; add apparent
+	field.
+	(U+5E36): Modify structure.
+	(U+8AFA): Fixed.
+
+2021-07-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-22502): Fixed.
+	(SW-JIGUGE-22512): Completed.
+	(SW-JIGUGE-22519): Completed.
+	(SW-JIGUGE-25430): Completed.
+	(SW-JIGUGE-29820): Completed.
+	(SW-JIGUGE-32312): Completed.
+	(SW-JIGUGE-36729): Completed.
+	(SW-JIGUGE-41410): Completed.
+	(SW-JIGUGE-42224): Completed.
+	(SW-JIGUGE-47116): Completed.
+	(SW-JIGUGE-47126): Completed [temporary].
+	(SW-JIGUGE-47207): Completed.
+	(SW-JIGUGE-47219): Completed.
+	(SW-JIGUGE-47329): Completed [temporary].
+	(SW-JIGUGE-47402): Completed.
+	(SW-JIGUGE-47431): Completed.
+	(SW-JIGUGE-47502): Completed.
+	(SW-JIGUGE-47515): Completed.
+	(SW-JIGUGE-47517): Completed.
+	(SW-JIGUGE-47524): Completed.
+	(SW-JIGUGE-47605): Completed.
+	(SW-JIGUGE-47616): Completed.
+	(SW-JIGUGE-47618): Completed.
+	(SW-JIGUGE-51713): Completed.
+
+2021-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D901): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+2D906): Modify structure.
+
+2021-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat.txt: Use utf-8-mcs-er instead of utf-8.
+	(U+F929): Completed.
+	(U+F936): Completed.
+	(U+F9DC): Completed.
+	(U+FA16): Completed.
+	(U+FA17): Completed.
+	(U+FA18): Completed.
+	(U+FA19): Completed.
+	(U+FA1A): Completed.
+	(U+FA1B): Completed.
+	(U+FA1C): Completed.
+	(U+FA25): Completed.
+	(U+FA26): Completed.
+	(U+FA2C): Completed.
+	(U+FA2D): Completed.
+
+2021-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022F64): Modify structure.
+	(U-00022FE8): Use "⿹㪔x" instead of "⿰⿱林x攴".
+	(U-00022FE9): Use "𦲆" instead of "⿳卝干句".
+	(U-00022FEB): Use "𭣴" instead of "⿰束攴".
+	(U-00022FF1): Use "⿹𢽳x" instead of "⿰⿱林x攵".
+	(U-00022FFA): Use "⿹敠x" instead of "⿰⿱叕x攴".
+	(U-00023004): Modify structure.
+
+2021-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6563): Use U+9FB7 instead of UU+9FB7; use
+	<CJK RADICAL MEAT> instead of A-compU+6708.
+
 2021-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
@@ -51,6 +277,12 @@
 	(U-000218CC): Use "𧨅" instead of "⿱⿱卝𰀁言".
 	(U-000218CF): Use "𠻝" instead of "⿱品㐱".
 	(U-000218D4): Modify structure.
+
+	* IDS-UCS-Ext-A.txt (U+3A9A): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
+	* IDS-UCS-Basic.txt (U+6562): Modify structure.
+	(U+6563): Modify structure.
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-01900): Completed.
 	(SW-JIGUGE-02804): Completed [temporary].
