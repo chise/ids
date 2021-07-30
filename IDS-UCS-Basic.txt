@@ -20155,7 +20155,7 @@ U+9CB8	鲸	⿰鱼京
 U+9CB9	鲹	⿰鱼参
 U+9CBA	鲺	⿰鱼虱
 U+9CBB	鲻	⿰鱼甾
-U+9CBC	鲼	⿰鱼賁
+U+9CBC	鲼	⿰鱼贲
 U+9CBD	鲽	⿰鱼枼
 U+9CBE	鲾	⿰鱼畐
 U+9CBF	鲿	⿰鱼尝
