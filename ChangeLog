@@ -1,3 +1,19 @@
+2021-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022C01): Use "𨊢" instead of
+	"⿳𤰔一厶".
+	(U-00022C02): Use "⿸折x" instead of "⿰扌⿱斤x".
+	(U-00022C04): Use "𠣞" instead of "⿹勹車".
+	(U-00022C09): Use "䆓" instead of "⿱穴允".
+	(U-00022C0F): Use "𡥞" instead of "⿱&CDP-8BB8;子".
+	(U-00022C12): Use "𦚉" instead of "⿱𡗜⺼".
+	(U-00022C15): Use "㢴" instead of "⿹弓⿴囗夂".
+	(U-00022C23): Use "炢" instead of "⿰火术".
+	(U-00022C2F): Use "栆" instead of "⿱&CDP-89AD;&CDP-8971;".
+	(U-00022C3B): Use "𦥚" instead of "⿱⿻臼丨丂".
+	(U-00022FA2): Use "𡥞" instead of "⿱&CDP-8BB8;子".
+	(U-00023DFC): Use "𨊢" instead of "⿳𤰔一厶".
+
 2021-08-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U+4E11 instead of JU+4E11.
