@@ -1,5 +1,117 @@
 2021-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-04225): Completed.
+	(SW-JIGUGE-04411): Use "&U-i001+2FFB;&SW-JIGUGE-34002;&SW-JIGUGE-04402;" instead of "⿷⿹&SW-JIGUGE-34002;&SW-JIGUGE-03701;&SW-JIGUGE-03701;".
+	(SW-JIGUGE-05430): Completed.
+	(SW-JIGUGE-05708): Completed [temporary].
+	(SW-JIGUGE-05709): Completed [temporary].
+	(SW-JIGUGE-08012): Use "&U-i001+2FF1;&SW-JIGUGE-08006;&SW-JIGUGE-08103;" instead of "⿻&SW-JIGUGE-08006;&SW-JIGUGE-08103;".
+	(SW-JIGUGE-16003): Completed.
+	(SW-JIGUGE-16006): Fixed [temporary].
+	(SW-JIGUGE-16008): Fixed [temporary].
+	(SW-JIGUGE-16009): Completed [temporary].
+	(SW-JIGUGE-19616): Completed.
+	(SW-JIGUGE-21014...21021): Completed.
+	(SW-JIGUGE-21103): Completed.
+	(SW-JIGUGE-21111): Completed.
+	(SW-JIGUGE-21116): Completed.
+	(SW-JIGUGE-21117): Completed.
+	(SW-JIGUGE-21119): Completed.
+	(SW-JIGUGE-21120): Completed.
+	(SW-JIGUGE-21122): Completed.
+	(SW-JIGUGE-21201): Completed.
+	(SW-JIGUGE-21202): Completed.
+	(SW-JIGUGE-21204...21208): Completed.
+	(SW-JIGUGE-21209): Completed [temporary].
+	(SW-JIGUGE-21211): Completed.
+	(SW-JIGUGE-21212): Completed.
+	(SW-JIGUGE-21213): Completed.
+	(SW-JIGUGE-21215): Completed.
+	(SW-JIGUGE-21216): Completed [temporary].
+	(SW-JIGUGE-21217...21220): Completed.
+	(SW-JIGUGE-21222...21301): Completed.
+	(SW-JIGUGE-21304...21311): Completed.
+	(SW-JIGUGE-21312): Completed [temporary].
+	(SW-JIGUGE-21313...21324): Completed.
+	(SW-JIGUGE-21326): Completed.
+	(SW-JIGUGE-21328): Completed [temporary].
+	(SW-JIGUGE-21400...21402): Completed.
+	(SW-JIGUGE-21405...21410): Completed.
+	(SW-JIGUGE-21412): Completed.
+	(SW-JIGUGE-21413): Completed.
+	(SW-JIGUGE-21416): Completed.
+	(SW-JIGUGE-21418...21420): Completed.
+	(SW-JIGUGE-21422...21425): Completed.
+	(SW-JIGUGE-21429): Completed.
+	(SW-JIGUGE-21431): Completed.
+	(SW-JIGUGE-21500): Completed.
+	(SW-JIGUGE-21501): Completed.
+	(SW-JIGUGE-21503...21507): Completed.
+	(SW-JIGUGE-21509): Completed.
+	(SW-JIGUGE-21510): Completed.
+	(SW-JIGUGE-21511): Completed.
+	(SW-JIGUGE-21513...21517): Completed.
+	(SW-JIGUGE-21519...21521): Completed.
+	(SW-JIGUGE-21524): Completed.
+	(SW-JIGUGE-21525): Completed [temporary].
+	(SW-JIGUGE-21526): Completed.
+	(SW-JIGUGE-21600): Completed.
+	(SW-JIGUGE-21601): Completed.
+	(SW-JIGUGE-21602): Completed [temporary].
+	(SW-JIGUGE-21604): Completed.
+	(SW-JIGUGE-21605): Completed.
+	(SW-JIGUGE-21607): Completed.
+	(SW-JIGUGE-21608): Completed.
+	(SW-JIGUGE-21609): Completed.
+	(SW-JIGUGE-21610): Completed.
+	(SW-JIGUGE-21612): Completed.
+	(SW-JIGUGE-21614): Completed.
+	(SW-JIGUGE-21616): Completed.
+	(SW-JIGUGE-21617): Completed [temporary].
+	(SW-JIGUGE-21618): Completed.
+	(SW-JIGUGE-21619): Completed.
+	(SW-JIGUGE-21621...21624): Completed.
+	(SW-JIGUGE-21626): Completed.
+	(SW-JIGUGE-21628): Completed.
+	(SW-JIGUGE-21630): Completed.
+	(SW-JIGUGE-21700): Completed.
+	(SW-JIGUGE-21701): Completed.
+	(SW-JIGUGE-23207): Completed.
+	(SW-JIGUGE-26109): Completed.
+	(SW-JIGUGE-26303): Completed.
+	(SW-JIGUGE-27005): Completed.
+	(SW-JIGUGE-27015): Completed.
+	(SW-JIGUGE-27019): Completed.
+	(SW-JIGUGE-27028): Completed.
+	(SW-JIGUGE-27104): Completed.
+	(SW-JIGUGE-27109): Completed.
+	(SW-JIGUGE-27302): Completed.
+	(SW-JIGUGE-29923): Completed.
+	(SW-JIGUGE-30300): Fixed.
+	(SW-JIGUGE-30606): Completed.
+	(SW-JIGUGE-33621): Completed.
+	(SW-JIGUGE-33623): Completed.
+	(SW-JIGUGE-33627): Completed.
+	(SW-JIGUGE-33700): Completed.
+	(SW-JIGUGE-33710): Completed.
+	(SW-JIGUGE-33713): Completed.
+	(SW-JIGUGE-33715): Completed.
+	(SW-JIGUGE-33802): Completed.
+	(SW-JIGUGE-34006): Completed.
+	(SW-JIGUGE-35512): Completed.
+	(SW-JIGUGE-36113): Completed.
+	(SW-JIGUGE-37014): Completed.
+	(SW-JIGUGE-39305): Completed.
+	(SW-JIGUGE-40113): Completed.
+	(SW-JIGUGE-40206): Completed.
+	(SW-JIGUGE-40210): Completed.
+	(SW-JIGUGE-45624): Fixed.
+	(SW-JIGUGE-45625): Fixed.
+	(SW-JIGUGE-46319): Use "&ZOB-2918;" instead of "&SW-JIGUGE-35908;" temporary.
+	(SW-JIGUGE-47522): Completed.
+	(SW-JIGUGE-47805): Completed.
+	(SW-JIGUGE-49402): Use "&ZOB-2918;" instead of "&SW-JIGUGE-35908;" temporary.
+
 	* IDS-UCS-Ext-B-2.txt (U-00022C01): Use "𨊢" instead of
 	"⿳𤰔一厶".
 	(U-00022C02): Use "⿸折x" instead of "⿰扌⿱斤x".
