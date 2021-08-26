@@ -1,3 +1,14 @@
+2021-08-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2DBB3): Modify structure.
+	(U+2DBB4): Completed.
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent):
+	- Implement rule-721: ⿷⿸TNC -> ⿸T⿺NC if N is
+	  U+4EBA/U+5165/U+513F/U+51E0/A-{IWDS|comp}U+{4EBA|513F}.
+	- Implement rule-722: ⿷⿸TBM -> ⿸T⿱MB if B is not N.
+
 2021-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-04225): Completed.
