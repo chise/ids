@@ -1,3 +1,43 @@
+2021-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+6B70 instead of JU+6B70.
+	(U-00022941): Modify structure.
+	(U-00022D8C): Use "𬕍" instead of "⿱竹沙".
+	(U-00023052): Use "𣁁" instead of "⿱𠆢文".
+	(U-000230C8): Use U+8457 instead of CU+8457.
+	(U-000236A5): Use "𦱀" instead of "⿱艹育".
+	(U-000236A7): Use "𭈹" instead of "⿰号⿸⺁&CDP-89ED;".
+	(U-000236A8): Modify structure.
+	(U-000236AF): Modify structure.
+	(U-000236B2): Use "庾" instead of "⿸广臾".
+	(U-000236B5): Use "焚" instead of "⿱林火".
+	(U-000236C5): Use "⿱x肯" instead of "⿳x止⺼".
+	(U-000236C7): Fixed.
+	(U-000236C9): Fixed.
+	(U-000236CB): Use "桝" instead of "⿰木舛".
+	(U-000236D0): Completed.
+	(U-000236D1): Use "𤊙" instead of "⿱隹火".
+	(U-000236D3): Use "𨱥" instead of "⿱不長".
+	(U-000236D6): Use "𥬯" instead of "⿱竹考".
+	(U-000236D7): Use "笿" instead of "⿱竹各".
+	(U-000236D8): Use "⿰x䠶" instead of "⿲x身矢".
+	(U-000236DE): Use "淾" instead of "⿱金水".
+	(U-000236E2): Use "𡲤" instead of "⿺尾且".
+	(U-000236EF): Use "盜" instead of "⿱㳄皿".
+	(U-000236F0): Use U+8457 instead of CU+8457.
+	(U-000236F3): Use "⿱x𣔵" instead of "⿳x㲋木".
+	(U-000236FE): Fixed.
+	(U-00023700): Fixed.
+	(U-00023706): Fixed.
+	(U-0002370C): Use "鼠" instead of "⿱臼&CDP-8D46;".
+	(U-00023721): Use "𧋠" instead of "⿱豕虫".
+	(U-00023724): Use "𬕍" instead of "⿱竹沙".
+	(U-00023A8F): Modify structure.
+	(U-00023A92): Modify structure.
+
+	* IDS-UCS-Ext-B-5.txt (U-00029C40): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 2021-08-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DBB3): Modify structure.
@@ -4192,14 +4232,14 @@
 2020-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-000299A3): Use "𩰬" instead of
-	"⿳一⿰口㐄⿵&CDP-8C58;丅".
+	"⿳一⿰口㐄⿵𦉪丅".
 
 	* IDS-UCS-Ext-B-4.txt (U-00027498): Use "𩰬" instead of
 	"⿳一⿰口㐄⿵冂⿱㐅丅".
-	(U-00027B2D): Use "𩰬" instead of "⿳一⿰口㐄⿵&CDP-8C58;丅".
+	(U-00027B2D): Use "𩰬" instead of "⿳一⿰口㐄⿵𦉪丅".
 
 	* IDS-UCS-Ext-B-1.txt (U-00020FCE): Use "𩰬" instead of
-	"⿳一⿰口㐄⿵&CDP-8C58;丅".
+	"⿳一⿰口㐄⿵𦉪丅".
 	(U-00021893): Use "𩰬" instead of "⿱⿱一⿰口㐄⿵罓丅".
 
 2020-07-08  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -7904,7 +7944,7 @@
 	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
 	- Use "𭤨" instead of "⿰方𠂉".
 	- Use "&A-U-i001+20B36;" instead of "⿱帚又".
-	(U-0002284D): Use "鬲" instead of "⿳一&CDP-89CC;⿵&CDP-8C58;丅".
+	(U-0002284D): Use "鬲" instead of "⿳一&CDP-89CC;⿵𦉪丅".
 	(U-00022864): Use "&U-i002+9B32;" instead of "⿳一&CDP-89CC;⿵𦉪干".
 	(U-000230F3): Use "㘝" instead of "⿴囗又".
 	(U-000230FF): Use "𡉵" instead of "⿰&CDP-8BC5;⿺⺃匕".
