@@ -1,5 +1,17 @@
 2021-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt:
+	- Use U+6B66 instead of UU+6B66.
+	- Use U+74DC instead of JU+74DC.
+	- Use U+6BB3 instead of UU+6BB3.
+	(U+2D239): Use U+4E55 instead of UU+4E55.
+	(U+2D5A4): Ditto.
+	(U+2D6A5): Completed.
+	(U+2D95F): Completed.
+	(U+2DBBD): Modify structure.
+
+2021-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt: Use U+6B70 instead of JU+6B70.
 	(U-00022941): Modify structure.
 	(U-00022D8C): Use "𬕍" instead of "⿱竹沙".
