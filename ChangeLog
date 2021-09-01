@@ -1,3 +1,14 @@
+2021-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use U+4EA1 instead of UU+4EA1.
+	(U-0002484D): Use U+5EB6 instead of UU+5EB6.
+	(U-00025610): Use U-00030004 instead of hanaJU+2CF16.
+	(U-0002592B): Ditto.
+	(U-00025B5A): Use "吂" instead of "⿱亡口".
+	(U-00025DF5): Modify structure.
+	(U-00025F0C): Use U+5EB6 instead of UU+5EB6.
+	(U-00025FFC): Use "巟" instead of "⿱亡𫶧".
+
 2021-08-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020549): Modify structure.
