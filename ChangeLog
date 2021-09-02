@@ -1,5 +1,76 @@
 2021-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt:
+	- Use U+51F5 instead of UU+51F5.
+	- Use U+4E5E instead of UU+4E5E.
+	- Use U+6B64 instead of UU+6B64.
+	- Use U+5344 instead of UU+5344.
+	- Use U+670B instead of UU+670B.
+	- Use U+4EA1 instead of UU+4EA1.
+	- Use U+5F50 instead of UU+5F50.
+	- Use U+4EAE instead of JU+4EAE.
+	- Use U+65BC instead of UU+65BC.
+	- Use U+611F instead of UU+611F.
+	- Use U+72AE instead of JU+72AE.
+	- Use U+519D instead of UU+519D.
+	- Use U+845B instead of UU+845B.
+	- Use U+7562 instead of UU+7562.
+	- Use U+7981 instead of UU+7981.
+	- Use U+6C99 instead of UU+6C99.
+	- Use U+6B63 instead of UU+6B63.
+	- Use U+65A5 instead of UU+65A5.
+	- Use U+80A9 instead of UU+80A9.
+	- Use U+542B instead of UU+542B.
+	- Use U+590C instead of UU+590C.
+	- Use U+5C39 instead of UU+5C39.
+	- Use U+5B5A instead of JU+5B5A.
+	- Use U+6708 instead of UU+6708.
+	- Use U+767C instead of UU+767C.
+	- Use U+5C0A instead of UU+5C0A.
+	- Use U+623F instead of UU+623F.
+	- Use U+6241 instead of CU+6241.
+	- Use U+6BB8 instead of UU+6BB8.
+	- Use U+904E instead of JU+904E.
+	(U+2CEB9): Use apparent field.
+	(U+2CF0A): Modify structure.
+	(U+2CF0B): Modify structure.
+	(U+2CF50): Modify structure.
+	(U+2CF58): Modify structure.
+	(U+2CF8E): Use "𰎋" instead of "⿱山月".
+	(U+2CF8F): Fixed.
+	(U+2D05F): Completed; use apparent field.
+	(U+2D133): Use U+82F4 instead of UU+82F4.
+	(U+2D23A): Use U+82FE instead of UU+82FE.
+	(U+2D2D5): Modify structure.
+	(U+2D309): Fixed.
+	(U+2D403): Use U+7BC4 instead of UU+7BC4.
+	(U+2D657): Use U+5F16 instead of UU+5F16.
+	(U+2D7AF): Use U+8DDD instead of UU+8DDD.
+	(U+2D7B0): Use U-00026C4B instead of HZK08-F4E0.
+	(U+2D7B1): Use U+60F9 instead of UU+60F9.
+	(U+2D805): Unified to one column.
+	(U+2D9C3): Use U+53D7 instead of UU+53D7.
+	(U+2DABC): Modify structure.
+	(U+2DB22): Use U+533B instead of UU+533B.
+	(U+2DB6E): Use U+5E0D instead of JU+5E0D.
+	(U+2DB77): Use U+7591 instead of UU+7591.
+	(U+2DBA6): Use U+44A4 instead of UU+44A4.
+	(U+2DBAC): Unified to one column.
+	(U+2DBB6): Use U+58F0 instead of UU+58F0.
+	(U+2DBBB): Use U-000282A2 instead of IU+282A2.
+	(U+2DBC1): Use U-00024514 instead of IU+24514.
+	(U+2DCD4): Use U-00028F79 instead of IU+28F79.
+	(U+2DE95): Use apparent field.
+	(U+2DFA4): Use U+5F16 instead of UU+5F16.
+	(U+2DFCE): Use U+7C7B instead of UU+7C7B.
+	(U+2DFD3): Modify structure.
+	(U+2E1E8): Use U+53D7 instead of UU+53D7.
+	(U+2E2A9): Use U+58F0 instead of UU+58F0.
+	(U+2E3E1): Use U+82FE instead of UU+82FE.
+	(U+2E794): Use U-000221E6 instead of IU+221E6.
+	(U+2E797): Use U+5F06 instead of UU+5F06.
+	(U+2EAE8): Use U+6703 instead of UU+6703.
+
 	* IDS-UCS-Ext-B-3.txt: Use U+4EA1 instead of UU+4EA1.
 	(U-0002484D): Use U+5EB6 instead of UU+5EB6.
 	(U-00025610): Use U-00030004 instead of hanaJU+2CF16.
