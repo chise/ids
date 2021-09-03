@@ -1,3 +1,22 @@
+2021-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U+6562 instead of JU+6562.
+	- Use U-0002626A instead of IU+2626A.
+	(U-000209F8): Use "㘠" instead of "⿴囗必".
+	(U-000209F9): Use "占" instead of "⿱⺊口".
+	(U-000209FC): Modify structure.
+	(U-000209FD): Modify structure.
+	(U-000209FE): Use "𠧧" instead of "⿱⺊⿴囗夂".
+	(U-000209FF): Modify structure.
+	(U-00020A06): Modify structure.
+	(U-00021AFE): Fixed.
+
+2021-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027EE4): Use "全" instead of "⿱入王".
+	(U-00027EEC): Use "𧺆" instead of "⿱夭龰".
+
 2021-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt:
