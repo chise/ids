@@ -1,3 +1,62 @@
+2021-09-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+4EA1 instead of UU+4EA1.
+	- Use U+4491 instead of GT-39640.
+	- Use U+706C instead of <CJK RADICAL FIRE>.
+	- Use "㲎" instead of "⿰毛毛".
+	(U-00022101): Fixed.
+	(U-00022250): Use "𤆬" instead of "⿱毛灬".
+	(U-000222D5): Modify structure.
+	(U-000222F5): Use U+83CC instead of CU+83CC.
+	(U-0002256D): Use U+6562 instead of JU+6562.
+	(U-00022869): Use U+7B49 instead of CU+7B49.
+	(U-000228B4): Use U+715E instead of JU+715E.
+	(U-00022BC1): Use "𤆬" instead of "⿱毛⺣".
+	(U-00022BC2): Use "兔" instead of "⿻免丶".
+	(U-00022D12): Fixed.
+	(U-00022D8B): Use U-000229DC instead of IU+229DC.
+	(U-00022E74): Use "𢇕" instead of "⿱幽幽".
+	(U-00022E76): Use "闗" instead of "⿵門⿱𢆶⺣".
+	(U-00022EA6): Completed.
+	(U-00022EA7): Use "𮊵" instead of "⿳亡⺫⿲月羊卂".
+	(U-00023027): Use "⿹㪔隹x" instead of "⿰⿱林x攴".
+	(U-0002329F): Use U+6562 instead of JU+6562.
+	(U-00023381): Modify structure.
+	(U-00023557): Use "𭅒" instead of "⿱䒑老".
+	(U-0002369C): Use U+44D7 instead of C4-3A6C.
+	(U-0002369D): Use "𮕹" instead of "⿱&CDP-896A;衣".
+	(U-000236B0): Use U+7740 instead of JU+7740.
+	(U-000236C3): Use U+83CC instead of CU+83CC.
+	(U-000236C6): Use U+7B49 instead of CU+7B49.
+	(U-000236D9): Use "⿱x楽" instead of "⿳x⿻&CDP-89AE;白木".
+	(U-000236F6): Use U+715E instead of JU+715E.
+	(U-00023700): Use "𧺆" instead of "⿱夭龰".
+	(U-000237A6): Completed.
+	(U-0002380B): Modify structure.
+	(U-0002380C): Fixed.
+	(U-00023814): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00023826): Use "𭔟" instead of "⿳宀玨貝".
+	(U-0002382C): Modify structure.
+	(U-0002382D): Use "𢇕" instead of "⿱幽幽".
+	(U-00023DE8): Fixed.
+	(U-00023DEC): Modify structure.
+	(U-00023F6B): Use U+44D7 instead of C4-3A6C.
+	(U-00023F8D): Modify structure.
+	(U-00023F8E): Use "𤊅" instead of "⿱亟⺣".
+	(U-00023F8F): Use "⿰x琦" instead of "⿲x𤣩奇".
+	(U-00023F90): Fixed.
+
+2021-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat-Supplement.txt (U-0002F911): Modify structure of
+	the right component.
+
+	* IDS-UCS-Ext-B-1.txt: Use U+5FA9 instead of CU+5FA9.
+	(U-000208FF): Use U+3C83 instead of UU+3C83.
+	(U-00020A9C): Use U+83F3 instead of C2-3F63.
+
 2021-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt:
