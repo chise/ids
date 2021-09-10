@@ -1,3 +1,9 @@
+2021-09-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U-0002136E instead of CU+2136E.
+	(U-00020F88): Fixed.
+	(U-00021422): Use "⿱x異" instead of "⿱⿱x田⿳艹一八".
+
 2021-09-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
