@@ -1,3 +1,18 @@
+2021-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use U+4491 instead of GT-39640.
+	(U-000241C7): Use "𢆉" instead of "⿱䒑十".
+	(U-0002447D): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00024A55): Use "善" instead of "⿳𦍌䒑口".
+	(U-00024C23): Use U-0002CF16 instead of MJ056865.
+	(U-000250D3): Use "㿾" instead of "⿱宁皿".
+	(U-000258CF): Use "𭵝" instead of "⿱䒑𢇁".
+	(U-00025BB7): Use "𠰥" instead of "⿱䒑右".
+	(U-00025F0E): Use "卦" instead of "⿰⿱土土卜".
+	(U-00025FD4): Fixed.
+	(U-00025FFA): Use U+5984 instead of UU+5984.
+
 2021-09-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U-0002136E instead of CU+2136E.
