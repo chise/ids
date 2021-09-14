@@ -1,3 +1,14 @@
+2021-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+7CF8 instead of <CJK RADICAL SILK>.
+	- Use U+4E30 instead of CU+4E30.
+	(U-00024F8E): Fixed.
+	(U-00024F8F): Fixed.
+	(U-00024F94): Use U+8363 instead of UU+8363.
+	(U-00024F95): Use "竝" instead of "⿰立立".
+	(U-00024F97): Use "皇" instead of "⿱白王".
+
 2021-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use U+4491 instead of GT-39640.
