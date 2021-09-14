@@ -1,6 +1,13 @@
 2021-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
+	- Use U+6C10 instead of JU+6C10.
+	- Use U+4E11 instead of JU+4E11.
+	(U-000240C2): Use U+8541 instead of CU+8541.
+
+2021-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
 	- Use U+7CF8 instead of <CJK RADICAL SILK>.
 	- Use U+4E30 instead of CU+4E30.
 	(U-00024F8E): Fixed.
