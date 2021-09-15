@@ -1,5 +1,16 @@
 2021-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00025B36): Use "玑" instead of "⿰王几".
+	(U-00025B37): Use "𠧗" instead of "⿱上下".
+	(U-00025B38): Use "朶" instead of "⿱乃木".
+	(U-00025B3A): Fixed.
+	(U-00025B3B): Use "𡉵" instead of "⿰土⿺⺃七".
+	(U-00025B43): Use "圳" instead of "⿰土川".
+	(U-00025B44): Use "𣂒" instead of "⿰力斤".
+	(U-00025FF0): Use "朶" instead of "⿱乃木".
+
+2021-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-3.txt:
 	- Use U+6C10 instead of JU+6C10.
 	- Use U+4E11 instead of JU+4E11.
