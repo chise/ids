@@ -1,3 +1,47 @@
+2021-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+5203 instead of C1-4443.
+	- Use U+6B21 instead of CU+6B21.
+	- Use U+6B62 instead of GT-K00439.
+	(U-00022076): Use "𠕀" instead of "⿵冂又".
+	(U-00022103): Use U+6D3E instead of GT-22264.
+	(U-000221D2): Use U+5E7E instead of JU+5E7E.
+	(U-000222F3): Use U+5EB6 instead of UU+5EB6.
+	(U-000222F7): Use U+8CF4 instead of JU+8CF4.
+	(U-00022570): Use U+5C0A instead of UU+5C0A.
+	(U-00022572): Use "⿰x㪖" instead of "⿲x⿱彐⺢攵".
+	(U-00022574): Modify structure.
+	(U-00022737): Use "衂" instead of "⿰血刃".
+	(U-00022769): Use "𭛨" instead of "⿰彳次".
+	(U-00022867): Use U+5E7E instead of JU+5E7E.
+	(U-000228B2): Use U+8449 instead of CU+8449.
+	(U-000229EC): Use "㞱" instead of "⿱山日".
+	(U-000229FE): Modify structure.
+	(U-00022A00): Use "⿹戠x" instead of "⿹&CDP-88A7;⿱日x".
+	(U-00022A0D): Use "冈" instead of "⿵冂㐅".
+	(U-00022E7E): Use "歸" instead of "⿰⿱𠂤止帚".
+	(U-000230B8): Modify structure.
+	(U-000231E5): Use "𠄢" instead of "⿳一⿵冂巳一".
+	(U-00023289): Use U+5E7E instead of JU+5E7E.
+	(U-00023378): Use "𭁨" instead of "⿵冂米".
+	(U-000233F7): Use "𠕀" instead of "⿵冂又".
+	(U-00023467): Modify structure.
+	(U-00023559): Use U+677E instead of MJ013668.
+	(U-000235EB): Use U-000200D1 instead of GT-K00040.
+	(U-000237A1): Use "⿰x艐" instead of "⿲x舟⿳凶八夂".
+	(U-000237A8): Use U+851A instead of CU+851A.
+	(U-000237A9): Use U+66AE instead of C1-6D31.
+	(U-00023817): Use "歸" instead of "⿰⿱𠂤止帚".
+	(U-00023834): Use "𠕀" instead of "⿵冂又".
+	(U-0002393B): Fixed.
+	(U-00023D62): Use "⿰x𠯍" instead of "⿲x口冄".
+	(U-00023DC9): Use U+4E9F instead of JU+4E9F.
+	(U-00023F69): Use U+65D2 instead of CU+65D2.
+	(U-00023F6E): Use "媱" instead of "⿰女䍃".
+	(U-00023F6F): Use "⿰x𨈭" instead of "⿲x身冉".
+	(U-00023FE3): Use "𠜤" instead of "⿰圭刃".
+
 2021-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025B36): Use "玑" instead of "⿰王几".
