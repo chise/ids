@@ -1,3 +1,39 @@
+2021-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt:
+	- Use U+5934 instead of UU+5934.
+	- Use U+5E76 instead of UU+5E76.
+	- Use U+5E95 instead of JU+5E95.
+	- Use U+5171 instead of UU+5171.
+	- Use U+4EA0 instead of JU+4EA0.
+	(U+2CF0E): Use U+56F1 instead of JU+56F1.
+	(U+2CF46): Completed.
+	(U+2CFA4): Completed.
+	(U+2D438): Completed.
+	(U+2D491): Modify structure.
+	(U+2D4FD): Modify structure; unified to one column.
+	(U+2D500): Modify structure.
+	(U+2D904): Modify structure; use apparent field.
+	(U+2D906): Modify structure.
+	(U+2DAE2): Use U+56F1 instead of JU+56F1.
+	(U+2DCB3): Modify structure.
+	(U+2DCE7): Modify structure.
+	(U+2E142): Modify structure.
+	(U+2E2B8): Use "羽" instead of "⿰彐彐".
+	(U+2E2C0): Likewise; completed.
+	(U+2E314): Modify structure.
+	(U+2E400): Use "𬡄" instead of "⿳亠儿⿱𠃋𧘇"; unified to one
+	column.
+	(U+2E569): Use "⿴衣x" instead of "⿳亠x𧘇".
+	(U+2E56B): Likewise.
+	(U+2E571): Likewise.
+	(U+2E57B): Likewise.
+	(U+2E5A0): Likewise.
+	(U+2E5A5): Likewise; use "𣎼" instead of "⿱龴木".
+	(U+2E5AC): Use "⿴衣x" instead of "⿳亠x𧘇".
+	(U+2E60E): Modify IDC; add apparent field.
+	(U+2E638): Use "羽" instead of "⿰彐彐".
+
 2021-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
