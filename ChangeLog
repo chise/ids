@@ -1,3 +1,53 @@
+2021-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+4ECA instead of UU+4ECA.
+	- Use U+8001 instead of UU+8001.
+	- Use U+96DA instead of CU+96DA.
+	- Use U+9B3C instead of JU+9B3C.
+	- Use U+571F instead of GT-K00199.
+	(U-00022070): Use "⿱𠆢丷" instead of "⿵𠆢丷".
+	(U-0002209A): Modify structure.
+	(U-0002209B): Use "巿" instead of "⿻巾一".
+	(U-000220A0): Use "巟" instead of "⿱亡𫶧".
+	(U-00022101): Modify structure.
+	(U-00022425): Use "⿴弜x" instead of "⿲弓x弓".
+	(U-00022428): Likewise.
+	(U-00022429): Use "䖝" instead of "⿱丿虫".
+	(U-0002242C): Use "⿴弜x" instead of "⿲弓x弓".
+	(U-0002242E): Likewise.
+	(U-0002242F): Modify structure.
+	(U-00022432): Use "⿴弜x" instead of "⿲弓x弓".
+	(U-00022435): Use "⿰x𧪎" instead of "⿲x言⿱厶虫".
+	(U-00022437): Use "⿴弜x" instead of "⿲弓x弓".
+	(U-00022439): Likewise.
+	(U-0002243A): Likewise.
+	(U-0002243D): Use "㢴" instead of "⿹弓⿴囗夊".
+	(U-00022AF2): Use "㕂" instead of "⿸厂今".
+	(U-00022AF3): Use "𠨺" instead of "⿸厂午".
+	(U-00022B5E): Use "岑" instead of "⿱山今".
+	(U-00022B60): Use "𠤕" instead of "⿱匕矢".
+	(U-00022BDF): Use "坦" instead of "⿰土旦".
+	(U-00022D9F): Use "嵬" instead of "⿱山鬼".
+	(U-00022DBC): Likewise.
+	(U-00022E67): Use "醜" instead of "⿰酉鬼".
+	(U-00022E68): Fixed.
+	(U-000231C2): Use "岑" instead of "⿱山今".
+	(U-00023266): Completed.
+	(U-0002326B): Use "样" instead of "⿰木羊".
+	(U-00023271): Modify structure; add apparent field.
+	(U-00023310): Fixed.
+	(U-00023311): Modify structure.
+	(U-00023466): Use U+5DE9 instead of CU+5DE9.
+	(U-00023467): Use "𣏉" instead of "⿱刃木".
+	(U-000235EA): Use U+8336 instead of CU+8336.
+	(U-000238AC): Use "㕂" instead of "⿸厂今".
+	(U-000238F3): Use U+4343 instead of JU+4343.
+	(U-000239A1): Use U+8457 instead of M-31410.
+	(U-000239F6): Use U-00020B2A instead of IU+20B2A.
+	(U-00023CED): Ditto.
+	(U-00023FDD): Use U+8451 instead of CU+8451.
+
 2021-09-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+3B25): Use "⿱&GT-K09590;x" instead of "⿵&GT-K09590;x".
