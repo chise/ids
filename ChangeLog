@@ -1,3 +1,9 @@
+2021-09-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3B25): Use "⿱&GT-K09590;x" instead of "⿵&GT-K09590;x".
+	(U+3B27): Ditto.
+	(U+3B2A): Use "宐" instead of "⿱宀彑".
+
 2021-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt:
