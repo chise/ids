@@ -1,3 +1,17 @@
+2021-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000202C0): Use "勇" instead of "⿱甬力".
+	(U-000202C1): Modify structure; add apparent field.
+	(U-000202C2): Use "𫥎" instead of "⿱免&CDP-8971;".
+	(U-000202C5): Use "扁" instead of "⿸戶𠕁".
+	(U-000202C7): Modify structure.
+	(U-000202CA): Use "甭" instead of "⿱不用".
+	(U-000202CD): Use "𭥨" instead of "⿱⿱日儿夊".
+	(U-000202D5): Use "𣑦" instead of "⿱⿰工几木".
+	(U-000202DE): Use "⿰x虵" instead of "⿲x虫也".
+	(U-000202F9): Use "⿸侚x" instead of "⿰亻⿱旬x".
+	(U-00020305): Use "茤" instead of "⿱艹多".
+
 2021-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
