@@ -1,3 +1,19 @@
+2021-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U+98DF instead of GT-59026.
+	- Use U+5168 instead of CU+5168.
+	(U-000202CC): Use U+70AD instead of JU+70AD.
+	(U-000202CE): Use U+6025 instead of CU+6025.
+	(U-000202FA): Use U+86A4 instead of JU+86A4.
+	(U-000202FB): Use U+755F instead of CU+755F.
+	(U-000204FE): Use "𫤪" instead of "⿰全全".
+	(U-000205CE): Modify structure.
+	(U-00020785): Use U+755F instead of CU+755F.
+	(U-00020E4F): Use U+86A4 instead of JU+86A4.
+	(U-00021044): Use "𩚴" instead of "⿱夗食".
+	(U-00021385): Use U+70AD instead of JU+70AD.
+
 2021-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-000202C0): Use "勇" instead of "⿱甬力".
