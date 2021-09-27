@@ -1,5 +1,10 @@
 2021-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00020784): Use U+8652 instead of JU+8652.
+	(U-00020E50): Use U+590E instead of CU+590E.
+
+2021-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt:
 	- Use U+98DF instead of GT-59026.
 	- Use U+5168 instead of CU+5168.
