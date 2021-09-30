@@ -1,3 +1,38 @@
+2021-09-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+9FB9 instead of GT-K01769.
+	- Use U+5FCD instead of CU+5FCD.
+	- Use U+7FC1 instead of MJ020661.
+	- Use U+53C8 instead of GT-K00064.
+	(U-00022447): Use U+820A instead of CU+820A.
+	(U-00022649): Use "𭗼" instead of "⿱巛山".
+	(U-00022675): Use "𠯌" instead of "⿱㐅右".
+	(U-00022B5C): Use U+58F3 instead of JU+58F3.
+	(U-00022DBB): Use U+847B instead of C3-442E.
+	(U-00023485): Use "𠯌" instead of "⿱㐅右".
+	(U-00023486): Use U+58F3 instead of JU+58F3.
+	(U-0002349D): Fixed.
+	(U-00023768): Use "𩾯" instead of "⿰氵鳥".
+	(U-0002376A): Use U-00021B20 instead of IU+21B20; modify
+	structure.
+	(U-0002385B): Use "匶" instead of "⿷匚舊".
+	(U-0002385F): Modify structure.
+	(U-00023866): Modify structure.
+	(U-00023878): Use U-00021B20 instead of IU+21B20.
+	(U-0002387A): Use "⿴𤳳x" instead of "⿳⿰田田x⿰田田"; use "𣑩"
+	instead of "⿰木回".
+	(U-00023905): Use "⿰x欢" instead of "⿲x又欠".
+	(U-000239FD): Use "𭗼" instead of "⿱巛山".
+	(U-00023B57): Use "𪠲" instead of "⿱口又".
+	(U-00023BAC): Use "叜" instead of "⿳宀&GT-K00859;又".
+	(U-00023BAF): Ditto.
+	(U-00023CB7): Use "㘝" instead of "⿴囗又".
+	(U-00023CF6): Use "㔻" instead of "⿱不十".
+	(U-00023CF8): Use "兇" instead of "⿱凶儿".
+	(U-00023CFA): Use "𭗼" instead of "⿱巛山".
+	(U-00023D93): Use "𠧧" instead of "⿱⺊⿴囗夕".
+
 2021-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020784): Use U+8652 instead of JU+8652.
