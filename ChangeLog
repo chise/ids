@@ -1,3 +1,46 @@
+2021-10-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2CF55): Modify structure; add apparent field.
+	(U+2D01F): Completed; add apparent field.
+	(U+2D057): Modify structure.
+	(U+2D26F): Use "⿰x𭭉" instead of "⿲x交欠".
+	(U+2D2B6): Modify structure.
+	(U+2D418): Use "𰧭" instead of "⿱士示".
+	(U+2D45E): Modify structure.
+	(U+2D4DB): Modify structure.
+	(U+2D5F9): Unified to one column.
+	(U+2D686): Fixed.
+	(U+2D68C): Fixed.
+	(U+2D6E3): Use "𰰝" instead of "⿱䒑乂".
+	(U+2D9B9): Unified to one column.
+	(U+2DB1E): Unified to one column.
+	(U+2DC28): Modify structure.
+	(U+2DD44): Completed.
+	(U+2DED1): Modify structure; delete the second column because it
+	is not unifiable.
+	(U+2E0B0): Fixed.
+	(U+2E202): Fixed.
+	(U+2E2B5): Modify structure.
+	(U+2E2B7): Fixed.
+	(U+2E639): Completed; delete the second column because it is not
+	unifiable.
+	(U+2E6C8): Fixed.
+	(U+2E74E): Unified to one column.
+	(U+2E7BD): Completed.
+	(U+2E7EA...U+2E7F5): Fixed.
+	(U+2E7F7): Fixed.
+	(U+2E7F8): Fixed.
+	(U+2E7FB...U+2E7FD): Fixed.
+	(U+2E7FF...U+2E802): Fixed.
+	(U+2E804): Fixed.
+	(U+2E806...U+2E809): Fixed.
+	(U+2E80A): Completed.
+	(U+2E80B...U+2E80D): Fixed.
+	(U+2E810...U+2E814): Fixed.
+	(U+2E9A1): Unified to one column.
+
 2021-09-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
