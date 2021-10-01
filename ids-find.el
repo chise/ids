@@ -1571,9 +1571,29 @@ COMPONENT can be a character or char-spec."
 		    new-str-c
 		    a-res
 		    (list ?⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
-		    630))
-	    )
-	  )))
+		    630)))
+	  )
+	 ((eq (car enc-str) ?⿵)
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	  (setq new-str (list ?⿱
+			      (nth 2 enc-str)
+			      (nth 2 structure)))
+	  (setq new-str-c
+		(if (setq ret (ideographic-structure-find-chars new-str))
+		    (car ret)
+		  (list (cons 'ideographic-structure new-str))))
+	  (if conversion-only
+	      (list ?⿵ (nth 1 enc-str) new-str-c)
+	    (setq a-res (ids-find-chars-including-ids new-str))
+	    (list enc
+		  f-res
+		  new-str-c
+		  a-res
+		  (list ?⿵ (nth 1 enc-str) new-str-c)
+		  640))
+	  )
+	 ))
       )
      ((eq (car structure) ?⿷)
       (setq enc (nth 1 structure))
