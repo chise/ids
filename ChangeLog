@@ -1,4 +1,25 @@
+2021-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028608): Modify structure; add apparent
+	field.
+	(U-00028D09): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00028D51): Modify structure.
+
+2021-10-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6182): Use "⿱㥑x" instead of "⿳&CDP-8CD4;心x".
+	(U+958B): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 2021-10-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): Implement
+	rule-640: ⿵⿵EML -> ⿵E⿱ML.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-41812): Completed.
+	(SW-JIGUGE-41814): Completed [temporary].
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
 	abstract characters.
