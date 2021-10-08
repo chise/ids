@@ -1,3 +1,13 @@
+2021-10-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028171): Use "萅" instead of "⿱芚日".
+	(U-00028172): Use "𦓔" instead of "⿱而而".
+	(U-00028175): Use "𦐱" instead of "⿱⿰彐彐羽".
+	(U-000284F6): Use U+5F50 instead of UU+5F50.
+	(U-00028D0C): Use <CJK RADICAL SNOUT TWO> instead of UU+5F50.
+	(U-00028D9F): Ditto.
+	(U-00029BD0): Use "萅" instead of "⿱芚日".
+
 2021-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028608): Modify structure; add apparent
