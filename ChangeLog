@@ -1,5 +1,14 @@
 2021-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt: Use U+5C6F instead of JU+5C6F.
+	(U-0002011D): Use "𤊱" instead of "⿱&CDP-8CAF;&CDP-8C40;".
+	(U-00020122): Use "囘" instead of "⿵冂巳".
+	(U-00021AF3): Use "⿳x㠭y" instead of "⿱x⿳⿰工工⿰工工y".
+	(U-00021AF2): Use U+5BB3 instead of JU+5BB3.
+	(U-00021D83): Use "戹" instead of "⿸戶乙".
+
+2021-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt: Use "䖵" instead of "⿰虫虫".
 	(U-000220BE): Use U+8292 instead of CU+8292.
 	(U-000222E2): Use "𠾂" instead of "⿱⿵來一回".
@@ -43,6 +52,18 @@
 	(U-00021D14): Use "太" instead of "⿵大丶".
 	(U-00021D19): Use "皁" instead of "⿱白十".
 	(U-00021E10): Fixed.
+
+	* IDS-UCS-Ext-F.txt:
+	- Replace some glyph-grained components with abstract characters.
+	- Use "⿸𭤨x" instead of "⿰方⿱𠂉x".
+	(U+2CF15): Modify structure.
+	(U+2CFC4): Use "𦋍" instead of "⿱罒⿻日乚".
+	(U+2D93A): Modify structure.
+	(U+2D93B): Use "𬼉" instead of "⿻正一".
+	(U+2DADB): Use "⿰x⿸𭤨y" instead of "⿲x方⿱𠂉y".
+	(U+2DB43): Modify structure.
+	(U+2DD54): Delete the first column because it is not unifiable.
+	(U+2E101): Use "电" instead of "⿻日乚".
 
 2021-10-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
