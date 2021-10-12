@@ -1,3 +1,67 @@
+2021-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use "䖵" instead of "⿰虫虫".
+	(U-000220BE): Use U+8292 instead of CU+8292.
+	(U-000222E2): Use "𠾂" instead of "⿱⿵來一回".
+	(U-000222E4): Modify structure.
+	(U-000222E5): Modify structure.
+	(U-000222EF): Use "𥡝" instead of "⿰秉秉".
+	(U-00022300): Use "褺" instead of "⿱執衣".
+	(U-0002231E): Use "囘" instead of "⿵冂巳".
+	(U-000224B9): Use "林" instead of "⿰木木".
+	(U-00022A21): Modify structure.
+	(U-00022C71): Use "𡨈" instead of "⿳宀一⿵冂巳一".
+	(U-00022E2A): Use "𧎮" instead of "⿱㕚⿰虫虫".
+	(U-000234A3): Use U+8292 instead of CU+8292.
+	(U-000234A6): Use "𪜮" instead of "⿰亻目".
+	(U-00023763): Modify structure.
+	(U-00023765): Completed.
+	(U-00023770): Modify structure.
+	(U-00023771): Use "𫈼" instead of "⿳艹⺫戊".
+	(U-0002377A): Use "⿴林x" instead of "⿲木x木".
+	(U-0002377B): Modify structure.
+	(U-0002377C): Modify structure.
+	(U-0002377D): Use "𭅞" instead of "⿷匚敢".
+	(U-0002377F): Use "囘" instead of "⿵冂巳".
+	(U-00023780): Use "𮧊" instead of "⿱面且".
+	(U-00023787): Use "⿴誩x" instead of "⿲言x言".
+	(U-0002379B): Modify structure.
+	(U-000237AD): Use "𡕷" instead of "⿳&GT-K03322;目夊".
+	(U-000237AE): Use "𬕟" instead of "⿱竹⿺⻎市".
+	(U-000237B1): Use "𠾂" instead of "⿱⿵來一回".
+	(U-00023D01): Completed.
+	(U-00023D02): Modify structure.
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U+5C6E instead of U-0002F878.
+	- Use "⿱㞢x" instead of "⿳屮一x".
+	(U-00020EA4): Use "㪿" instead of "⿰⿱屮屮斤".
+	(U-00021636): Modify structure.
+	(U-0002197A): Use "㞢" instead of "⿱屮一".
+	(U-00021AF0): Use "䲽" instead of "⿰石鳥".
+	(U-00021D02): Use U+4DB9 instead of U-0002F878.
+	(U-00021D14): Use "太" instead of "⿵大丶".
+	(U-00021D19): Use "皁" instead of "⿱白十".
+	(U-00021E10): Fixed.
+
+2021-10-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use "䪞" instead of "⿱夭韭".
+	(U-0002815B): Use "属" instead of "⿸尸禹".
+	(U-00028162): Use "𭣺" instead of "⿱龷放".
+	(U-00028163): Use "㙓" instead of "⿱垚土".
+	(U-00028164): Use "朞" instead of "⿱其月".
+	(U-0002816B): Use "⿰x𱋋" instead of "⿲x麦去".
+	(U-00028170): Use U+6975 instead of JU+6975.
+	(U-0002817B): Use "窖" instead of "⿱穴告".
+	(U-00028D8B): Use "𥙊" instead of "⿱癶示".
+	(U-00028D95): Use "𭭋" instead of "⿰⺶欠".
+	(U-00028D96): Use "𣴠" instead of "⿰氵𠯑".
+	(U-00028D9A): Use "𢇅" instead of "⿱𢆶卝".
+	(U-00028D9C): Use "㪷" instead of "⿰豆斗".
+	(U-00028D9E): Use "𣪏" instead of "⿰⿱彐月殳".
+	(U-00029408): Fixed.
+
 2021-10-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028171): Use "萅" instead of "⿱芚日".
