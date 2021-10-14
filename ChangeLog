@@ -1,5 +1,14 @@
 2021-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt (U+2BE46): Completed.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022DA4): Use U+9774 instead of
+	J90-9774.
+	(U-00022DAB): Use U+8056 instead of UU+8056.
+	(U-0002371B): Use U+9047 instead of CU+9047.
+
+2021-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt: Use U+842C instead of CU+842C; add an
 	apparent field.
 	(U-000222E3): Use U+6182 instead of CU+6182.
