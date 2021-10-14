@@ -1,4 +1,22 @@
+2021-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+842C instead of CU+842C; add an
+	apparent field.
+	(U-000222E3): Use U+6182 instead of CU+6182.
+	(U-000224B8): Modify structure.
+	(U-00022DA0): Fixed.
+	(U-00022DA2): Modify structure.
+	(U-00022DA9): Modify structure.
+	(U-00022DAC): Modify structure.
+	(U-000234A4): Modify structure; add an apparent field.
+	(U-000234EA): Use "⿱x枼" instead of "⿳x世木".
+	(U-00023761): Use U+990A instead of JU+990A.
+	(U-000237BC): Ditto.
+	(U-000237C0): Use "莑" instead of "⿱艹夆".
+
 2021-10-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+4EB0): Add an apparent field.
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-19011): Completed.
 	(SW-JIGUGE-19019): Completed.
