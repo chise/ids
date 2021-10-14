@@ -1,3 +1,22 @@
+2021-10-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-19011): Completed.
+	(SW-JIGUGE-19019): Completed.
+	(SW-JIGUGE-19124): Completed.
+	(SW-JIGUGE-19126): Completed.
+	(SW-JIGUGE-24502): Completed [temporary].
+	(SW-JIGUGE-24508): Completed.
+	(SW-JIGUGE-24509): Fixed.
+	(SW-JIGUGE-24510): Fixed.
+	(SW-JIGUGE-24907): Completed.
+	(SW-JIGUGE-27319): Completed.
+	(SW-JIGUGE-33314): Completed.
+	(SW-JIGUGE-35002): Completed.
+	(SW-JIGUGE-41403): Completed.
+	(SW-JIGUGE-41421): Completed.
+	(SW-JIGUGE-41427): Completed.
+	(SW-JIGUGE-42608): Completed.
+
 2021-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+5C6F instead of JU+5C6F.
