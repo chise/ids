@@ -1,5 +1,20 @@
 2021-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-000274FD): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-000274FE): Use "⿱x𰭈" instead of "⿳x⺫攴".
+	(U-00027502): Use "𡧷" instead of "⿱宀牟".
+	(U-00027507): Modify structure.
+	(U-0002750B): Use "廚" instead of "⿸广尌".
+	(U-0002750F): Fixed.
+	(U-00027510): Fixed.
+	(U-00027511): Fixed.
+	(U-00027514): Fixed.
+	(U-00027515): Use "蔴" instead of "⿱艹麻".
+	(U-0002755C): Fixed.
+	(U-00027560): Use "衆" instead of "⿳丿⺫乑".
+	(U-00027567): Modify structure.
+
 	* IDS-UCS-Ext-E.txt (U+2BE46): Completed.
 
 	* IDS-UCS-Ext-B-2.txt (U-00022DA4): Use U+9774 instead of
