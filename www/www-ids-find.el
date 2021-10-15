@@ -976,7 +976,7 @@ li { margin: 0 0 -0.2em; }
     (princ (encode-coding-string "部品文字列" 'utf-8-jp-er))
     (princ "</span>
 </div>
-<input type=\"text\" class=\"form-control\" aria-describedby=\"basic-addon1\" name=\"components\" size=\"30\" maxlength=\"30\" value=\"")
+<input type=\"text\" class=\"form-control\" aria-describedby=\"basic-addon1\" name=\"components\" size=\"30\" maxlength=\"256\" value=\"")
     (if (> (length components) 0)
 	(princ (encode-coding-string components 'utf-8-er)))
     (princ "\">
