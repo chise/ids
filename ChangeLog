@@ -22,6 +22,11 @@
 
 	* IDS-UCS-Ext-A.txt (U+382A): Add IDS; add an apparent field.
 
+2021-10-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-batch-ids-find): Change `maxlength' of
+	<input> tag from 30 to 256.
+
 2021-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000274FD): Modify structure; preserve the
