@@ -1,3 +1,32 @@
+2021-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-07315): Completed.
+	(SW-JIGUGE-15404): Completed [temporary].
+	(SW-JIGUGE-18002): Completed.
+	(SW-JIGUGE-18209): Completed.
+	(SW-JIGUGE-18210): Completed [temporary].
+	(SW-JIGUGE-18420): Completed [temporary].
+	(SW-JIGUGE-18508): Completed [temporary].
+	(SW-JIGUGE-18604): Completed [temporary].
+	(SW-JIGUGE-18611): Completed.
+	(SW-JIGUGE-18710): Completed.
+	(SW-JIGUGE-18728): Completed.
+	(SW-JIGUGE-19609): Completed [temporary].
+	(SW-JIGUGE-19718): Completed.
+	(SW-JIGUGE-19914): Completed.
+	(SW-JIGUGE-22602): Fixed [temporary].
+	(SW-JIGUGE-22910): Completed.
+	(SW-JIGUGE-24215): Completed.
+	(SW-JIGUGE-24728): Fixed [temporary].
+	(SW-JIGUGE-24729): Completed [temporary].
+	(SW-JIGUGE-24730): Completed [temporary].
+	(SW-JIGUGE-32118): Completed.
+	(SW-JIGUGE-34421): Completed.
+	(SW-JIGUGE-35121): Completed.
+	(SW-JIGUGE-43116): Completed.
+	(SW-JIGUGE-45717): Completed [temporary].
+	(SW-JIGUGE-51102): Completed [temporary].
+
 2021-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026A05): Modify structure.
@@ -3705,13 +3734,13 @@
 	(U-000260B8): Use U+8FEB instead of JC3-67B4.
 	(U-000261A1): Use "㲜" instead of "⿰炎毛".
 	(U-000261A3): Use "遟" instead of "⿺辶屖".
-	(U-00026304): Use "𦚋" instead of "⿱⺲月".
+	(U-00026304): Use "𦚋" instead of "⿱罒月".
 	(U-00026306): Use "龱" instead of "⿴囗㐅"; use "&A-CDP-8850;" instead of
 	"⿻臼木".
 	(U-0002630C): Use "⿱x𤲅" instead of "⿳x共电".
 	(U-00026313): Use "㲜" instead of "⿰炎毛".
 	(U-00026338): Use "𩵢" instead of "⿰魚欠".
-	(U-0002633B): Use "𦌔" instead of "⿱⺲巽".
+	(U-0002633B): Use "𦌔" instead of "⿱罒巽".
 	(U-00026346): Use "𦇏" instead of "⿰糸瞏".
 	(U-00026380): Use "㕦" instead of "⿱口大".
 	(U-00026D1C): Use "⿱x𰑓" instead of "⿳x𣫬心".
