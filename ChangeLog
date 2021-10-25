@@ -1,3 +1,8 @@
+2021-10-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U+4491 instead of GT-39640.
+	(U-00027336): Modify structure.
+
 2021-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-07315): Completed.
