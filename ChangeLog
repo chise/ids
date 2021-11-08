@@ -1,3 +1,50 @@
+2021-11-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2CF4D): Modify structure.
+	(U+2CF4E): Modify structure.
+	(U+2CF4F): Use "⿴衣x" instead of "⿳亠x𧘇".
+	(U+2CFE7): Use "⿸攸x" instead of "⿰&CDP-8B7A;⿱攵x".
+	(U+2CFE9): Ditto.
+	(U+2CFEE): Modify structure.
+	(U+2D009): Use "⿸𰁦x" instead of "⿰亻⿱攵x".
+	(U+2D284): Use "⿰x𭸋" instead of "⿲x束犬".
+	(U+2D2AE): Use "⿱x𭘆" instead of "⿳x一坐".
+	(U+2D2DB): Modify structure.
+	(U+2D2FE): Use "⿴㗊x" instead of "⿳吅x吅".
+	(U+2D2FF): Unified to one column.
+	(U+2D30C): Modify structure.
+	(U+2D8DE): Completed [temporary].
+	(U+2DCED): Use "薄" instead of "⿳艹浦寸".
+	(U+2DCF0): Modify structure.
+	(U+2DE79): Modify structure.
+	(U+2E19D): Modify structure.
+	(U+2E329): Modify structure.
+	(U+2E3E6): Modify structure.
+	(U+2E3F8): Modify structure.
+	(U+2E3FF): Modify structure.
+	(U+2E82E): Use "𭘆" instead of "⿱一坐".
+	(U+2E9D3): Modify structure.
+
+2021-11-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+7FDF instead of UU+7FDF.
+	(U-0002200F): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-0002230E): Use U-0002703C instead of IU+2703C.
+	(U-00023311): Use "㬥" instead of "⿱⿳日出大米".
+	(U-00023762): Modify structure.
+	(U-000237CE): Use "⿴衣x" instead of "⿻衣x".
+	(U-00023C1C): Use "凴" instead of "⿱馮几".
+	(U-00023C1D): Use "𡝤" instead of "⿱&CDP-88B7;女".
+	(U-00023C1F): Use "⿰𢿙x" instead of "⿲⿱&CDP-88B7;女攵x".
+
+2021-11-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+958B): Swap default field and apparent
+	field.
+
 2021-10-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U+4491 instead of GT-39640.
