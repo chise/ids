@@ -1,3 +1,21 @@
+2021-11-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+514D instead of JU+514D.
+	- Use "韯" instead of "⿹𢦏韭".
+	(U-0002840A): Use U+61B2 instead of JU+61B2.
+	(U-00028510): Use U+5994 instead of JU+5949.
+	(U-000288F4): Use U+6469 instead of CU+6469.
+	(U-00028F7B): Use "𥘈" instead of "⿱匕示".
+	(U-00029251): Use U+6469 instead of CU+6469.
+	(U-00029F64): Use U+919C instead of JU+919C.
+	(U-00029F85): Use "兔" instead of "⿻免丶".
+
+	* IDS-UCS-Ext-B-2.txt (U-000228CB): Use U+8461 instead of CU+8461.
+	(U-000228CC): Use "𡕰" instead of "⿳𠚍八夊".
+	(U-000232DF): Use U+9EBD instead of JU+9EBD.
+	(U-00023A73): Use U+6701 instead of JU+6701.
+
 2021-11-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
