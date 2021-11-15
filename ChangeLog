@@ -1,5 +1,340 @@
 2021-11-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt
+	(U+8700): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+89E3): Likewise.
+	(U+8CB3): Use "弍" instead of "⿹弋二".
+	(U+8D30): Ditto.
+	(U+9762): Moved to an apparent field.
+	(U+9763): Ditto.
+
+2021-08-07  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+5356 (卖)): Fix: ⿳十乛头 --> ⿱十买
+
+2021-08-04  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Ext-A.txt (U+34B1 (㒱)): Fix: ⿰入夕 --> ⿱入夕
+
+2021-08-04  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+73B1 (玱)): Fix: ⿰𤣩仑 --> ⿰𤣩仓
+
+2021-08-04  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+7943 (祃)): Fix:
+	⿰示⻢ (u2EE2) --> ⿰示马 (u9A6C)
+
+2021-08-04  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿰犬' with '⿰犭'
+	(U+72DD (狝)):	⿰犬尔 -->
+	(U+7347 (獇)):	⿰犬羗 -->
+
+2021-08-04  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿱' with '⿹'
+	(U+51EB (凫)):	⿱&CDP-8964;几 -->
+	(U+67AD (枭)):	⿱&CDP-8964;木 -->
+	(U+8885 (袅)):	⿱&CDP-8964;衣 -->
+
+2021-08-03  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+54AB (咫)): Fix: ⿸尺只 --> ⿺尺只
+
+2021-08-03  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+6DA9 (涩)): Fix: ⿰氵⿱刃止 --> ⿰氵𰙜 
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9CBC (鲼)): Fix: ⿰鱼賁 --> ⿰鱼贲
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9990 (馐)): Fix:
+	⿰饣羞 (JU+7F9E) --> ⿰饣羞 (U+7F9E)
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9E3E (鸾)): Fix: ⿱亦鸟 --> ⿱𰁜鸟
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9F10 (鼐)): Fix: ⿸乃鼎 --> ⿱乃鼎
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿳一丿x' with '⿱丆x'
+	(U+9762 (面)):	⿳一丿囬 -->
+	(U+9763 (靣)):	⿳一丿回 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+964B (陋)): Fix: ⿰阝⿺𠃊丙 --> ⿰阝𫠥
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9529 (锩)): Fix: ⿰钅巻 --> ⿰钅卷
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt:
+	Fix: *replace '丑' (UU+4E11) with '丑' (U+4E11)
+	(U+7EBD (纽)):	⿰纟丑 -->
+	(U+94AE	(钮)):	⿰钅丑 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9E3E (鸾)): Fix: ⿱亦鸟 --> ⿱𰁜鸟
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9F10 (鼐)): Fix: ⿸乃鼎 --> ⿱乃鼎
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿳一丿x' with '⿱丆x'
+	(U+9762 (面)):	⿳一丿囬 -->
+	(U+9763 (靣)):	⿳一丿回 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+964B (陋)): Fix: ⿰阝⿺𠃊丙 --> ⿰阝𫠥
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+9529 (锩)): Fix: ⿰钅巻 --> ⿰钅卷
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+8F84 (辄)): Fix: ⿰车耴 --> ⿰车𦔮
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+8E52 (蹒)): Fix: ⿰𧾷䓣 --> ⿰𧾷𬜯
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+8D63 (赣)): Fix:
+	⿰章⿳夂工贝 --> ⿰章⿱夂贡
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+8C1A (谚)): Fix: ⿰讠彥 --> ⿰讠彦
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+89E3 (解)): Fix: ⿰角&CDP-8C68; --> ⿰角𭷔
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+89DE (觞)): Fix:
+	⿰&CDP-8A57;(BC-8A57)⿱𠂉𠃓 --> ⿰角(U+89D2)⿱𠂉𠃓
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt:
+	Fix: *replace '𫩠' (GT-K05014) with '𫩠' (u2ba60)
+	(U+515A (党)):	⿱𫩠儿 -->
+	(U+5617 (嘗)):	⿱𫩠旨 -->
+	(U+5802 (堂)):	⿱𫩠土 -->
+	(U+5E38 (常)):	⿱𫩠巾 -->
+	(U+638C (掌)):	⿱𫩠手 -->
+	(U+68E0 (棠)):	⿱𫩠木 -->
+	(U+725A (牚)):	⿱𫩠牙 -->
+	(U+74FD (瓽)):	⿱𫩠瓦 -->
+	(U+751E (甞)):	⿱𫩠甘 -->
+	(U+7576 (當)):	⿱𫩠田 -->
+	(U+88F3 (裳)):	⿱𫩠衣 -->
+	(U+8CDE (賞)):	⿱𫩠貝 -->
+	(U+8D4F (赏)):	⿱𫩠贝 -->
+	(U+9EE8 (黨)):	⿱𫩠黑 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+8700 (蜀)): Fix: ⿱⺫&CDP-8C4A;(BC-8C4A) --> ⿱⺫𠣜(u208dc)
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+86A9 (蚩)): Fix: ⿳屮一虫 --> ⿱㞢虫
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+8671 (虱)): Fix: ⿹⺄⿱丿虫 --> ⿹⺄䖝
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+853B (蔻)): Fix: ⿱艹宼 --> ⿱艹寇
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+853A (蔺)): Fix:
+	⿱艹𨸋 (u28e0b) --> ⿱艹𫔴 (u2b534)
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+84DF (蓟)): Fix: ⿱艹⿰鱼刂 --> ⿱艹𬶀
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+835C (荜)): Fix: ⿱芘十 --> ⿱艹毕
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+81F3 (至)): Fix:
+	⿱&GT-03877;(GT-03877)土 --> ⿱𠫔(U-00020AD4)土
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+80FD (能)): Fix: ⿰䏍⿱匕匕 --> ⿰䏍𫧇
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt:
+	Fix: *replace '耒' (UU+8012) with '耒' (U+8012)
+	(U+8022 (耢)):	⿰耒劳 -->
+	(U+8027 (耧)):	⿰耒娄 -->
+	(U+8BD4 (诔)):	⿰讠耒 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+7FA1 (羡)): Fix: ⿱⺶次 --> ⿱𦍌次
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '罓' with '冈'
+	(U+5C97 (岗)):	⿱山罓 -->
+	(U+7EB2 (纲)):	⿰纟罓 -->
+	(U+94A2 (钢)):	⿰钅罓 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt:
+	Fix: *repalce '𰀡' (U+81E4-itaiji-001) to '𰀡' (u30021)
+	(U+575A (坚)):	⿱𰀡土 -->
+	(U+7AD6 (竖)):	⿱𰀡立 -->
+	(U+7D27 (紧)):	⿱𰀡糸 -->
+	(U+80BE (肾)):	⿱𰀡⺼ -->
+	(U+8D24 (贤)):	⿱𰀡贝 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+7A97 (窗)): Fix: ⿱穴囱 --> ⿱穴囱
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+7A46 (穆)): Fix: ⿰禾⿱&CDP-8BC4;彡 --> ⿰禾㣎
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt:
+	Fix: *replace '𡗗' (BC-8BE9) with '𡗗' (u215d7)
+	(U+5949 (奉)):	⿱𡗗𰀁 -->
+	(U+594F (奏)):	⿱𡗗天 -->
+	(U+6625 (春)):	⿱𡗗日 -->
+	(U+6CF0 (泰)):	⿱𡗗氺 -->
+	(U+79E6 (秦)):	⿱𡗗禾 -->
+	(U+8202 (舂)):	⿱𡗗臼 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+78CA (磊)): Fix: ⿱石⿰石石 --> ⿱石砳
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+76E5 (盥)): Fix: ⿱⿻𦥑水皿 --> ⿱⿴𦥑水皿
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+76B4 (皴)): Fix: ⿰夌皮 --> ⿰夋皮
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+759F (疟)): Fix: ⿸疒⿻匸一 --> ⿸疒𰀂
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+6AA7 (檧)): Fix: ⿰木䓤 --> ⿰木葱
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt:
+	Fix: *replace '弋' (GT-K00233) with '弋' (U+5F0B)
+	(U+5FD2 (忒)):	⿹弋心 -->
+	(U+7519 (甙)):	⿹弋甘 -->
+	(U+8CA3 (貣)):	⿱弋貝 -->
+	(U+8CB3 (貳)):	⿹⿹弋二貝 -->
+	(U+8D30 (贰)):	⿹⿹弋二贝 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿻&CDP-8B64;同' with '⿶&CDP-8B64;同'
+	(U+74BA (璺)):	⿱⿻&CDP-8B64;同玉 -->
+	(U+91C1 (釁)):	⿱⿻&CDP-8B64;同⿱酉分 -->
+
+2021-07-30  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿱⺌贝' with '𭕆' (u2d546)
+	(U+5522 (唢)):	⿰口⿱⺌贝 -->
+	(U+7410 (琐)):	⿰𤣩⿱⺌贝 -->
+	(U+9501 (锁)):	⿰钅⿱⺌贝 -->
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+7228 (爨)):
+	Fix: ⿱⿶&CDP-8B64;同⿱林⿱大火 --> ⿱⿶&CDP-8B64;同𤍾
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+715E (煞)): Fix: ⿱⿰刍攵灬 --> ⿱𭣦灬
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿳𠂊冂大' with '奂'
+	(U+6DA3 (涣)):	⿰氵⿳𠂊冂大 -->
+	(U+7115 (焕)):	⿰火⿳𠂊冂大 -->
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+6D46 (浆)): Fix: ⿰⿱丬夕水 --> ⿱⿰丬夕水
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+6C14 (气)): Fix: ⿳𠂉一乁 --> ⿳𠂉一⺄
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: *replace '⿱罒方' with '𬙙'
+	(U+5710 (圐)):	⿴囗⿱罒方 -->
+	(U+5844 (塄)):	⿰土⿱罒方 -->
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+6735 (朵)): Fix: ⿱几木 --> ⿱𠘧木
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix: * replace '⿱𠂇' with '⿸𠂇'
+	(U+5187 (冇)):	⿱𠂇冂 -->
+	(U+6709 (有)):	⿱𠂇月 -->
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+6676 (晶)): Fix: ⿱日⿰日日 --> ⿱日昍
+
+2021-07-29  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+629B (抛)): fix: ⿰扌𡯄 --> ⿰扌𠠵 (u20835)
+
+2021-07-02  ColtMa  <mumchristmas@gmail.com>
+
+	* IDS-UCS-Basic.txt: Fix:
+	(U+67A2, U+6864, U+6AA7):	⿱木x --> ⿰木x
+
+2021-11-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-4.txt: Use U+7F52 instead of <CJK RADICAL NET
 	TWO>.
 	(U-0002627B): Use U-00026273 instead of GT-K02494.
