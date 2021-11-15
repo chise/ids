@@ -1,3 +1,72 @@
+2021-11-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U+7F52 instead of <CJK RADICAL NET
+	TWO>.
+	(U-0002627B): Use U-00026273 instead of GT-K02494.
+	(U-0002627F): Use "𦉪" instead of "⿵冂儿".
+	(U-00026280): Use "𠔿" instead of "⿵冂人".
+	(U-0002628C): Use "𠕀" instead of "⿵冂又".
+	(U-00026297): Use "𠕀" instead of "⿵冂又".
+	(U-000262B3): Use "⿱x𭁳" instead of "⿳x冖巳".
+	(U-000262B7): Modify structure.
+	(U-000262B8): Use "⿱x𣅀" instead of "⿳x亠日".
+	(U-000262C2): Use "时" instead of "⿰日寸".
+	(U-000262CB): Use "㲎" instead of "⿰毛毛".
+	(U-000262CC): Use "𠕀" instead of "⿵冂又".
+	(U-000262D4): Use "𠔿" instead of "⿵冂人".
+	(U-000262E2): Use "𠕀" instead of "⿵冂又".
+	(U-000262E6): Completed.
+	(U-000262E7): Confirmed.
+	(U-000262EA): Use "𦉴" instead of "⿱罒十".
+	(U-000262EC): Use "𰴩" instead of "⿰言刀".
+	(U-000262EF): Use "㼌" instead of "⿰瓜瓜".
+	(U-000262F2): Use "𣪈" instead of "⿰多殳".
+	(U-00026302): Completed.
+	(U-00026303): Modify structure.
+	(U-0002632E): Use "𪳐" instead of "⿱䀠木".
+	(U-0002642E): Use "羽" instead of "⿰彐彐"; use "𣅀" instead of
+	"⿱亠日".
+	(U-0002642F): Use "羽" instead of "⿰彐彐".
+	(U-0002661A): Use "𠔿" instead of "⿵冂人".
+	(U-00026631): Use U+535C instead of UU+535C.
+	(U-00026699): Modify structure.
+	(U-00026C91): Use "⿱x沗" instead of "⿳x天水".
+	(U-00026C94): Use "𢺸" instead of "⿰支支".
+	(U-00026C97): Completed.
+	(U-00026C99): Completed.
+	(U-00026C9C): Use "芯" instead of "⿱艹心".
+	(U-00026CA3): Use "㚼" instead of "⿰女田".
+	(U-00026CA5): Use "㹨" instead of "⿰犭由".
+	(U-00027998): Use "𠕀" instead of "⿵冂又".
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use <CJK RADICAL SNOUT TWO> instead of BC-8BAB.
+	- Use U+542B instead of UU+542B.
+	- Use U+5BEC instead of CU+5BEC.
+	(U-000200FD): Use U+7FC1 instead of MJ020661.
+	(U-00020235): Use U+5C28 instead of KU+5C28.
+	(U-00020386): Use U+767C instead of UU+767C.
+	(U-00020427): Use U+77A2 instead of CU+77A2.
+	(U-0002065B): Use "巩" instead of "⿰工卂".
+	(U-00020998): Use U+5DE9 instead of CU+5DE9.
+	(U-00020DEB): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00020DED): Completed.
+	(U-00020DF2): Use "吋" instead of "⿰口寸".
+	(U-000212BC): Use U+5DE9 instead of CU+5DE9.
+	(U-000213F7): Use "𡬶" instead of "⿳⺕⿰工几寸".
+	(U-0002153D): Use "吋" instead of "⿰口寸".
+	(U-00021739): Use U+90AA instead of G-JU+90AA.
+	(U-00021A65): Use U+7FC1 instead of MJ020661.
+	(U-00021A7D): Use U+5C28 instead of KU+5C28.
+	(U-00021A9D): Use U+5368 instead of CU+5368.
+	(U-00021B0C): Use U+77A2 instead of CU+77A2.
+
+	* IDS-UCS-Ext-F.txt:
+	- Replace some glyph-grained components with abstract characters.
+	- Use "&CDP-88D2;" instead of "⿻人⿱丷八".
+	(U+2D3EC): Completed.
+
 2021-11-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+8C55): Add an apparent field.
