@@ -1,3 +1,8 @@
+2021-11-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8C55): Add an apparent field.
+	(U+8C56): Add IDS.
+
 2021-11-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
