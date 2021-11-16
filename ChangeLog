@@ -180,7 +180,8 @@
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
-	* IDS-UCS-Basic.txt (U+89E3 (解)): Fix: ⿰角𭷔 --> ⿰角𭷔
+	* IDS-UCS-Basic.txt (U+89E3 (解)):
+	Fix: ⿰角𭷔(BC-8C68) --> ⿰角𭷔(U-0002DDD4)
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
