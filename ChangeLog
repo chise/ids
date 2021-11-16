@@ -1,5 +1,20 @@
 2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Compat.txt (U+FA1D): Add IDS.
+	(U+FA20): Add IDS.
+	(U+FA22): Add IDS.
+
+2021-07-10  lb_ii  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Compat.txt: IDS: Fix U+FA18...U+FA1D mapping
+
+2021-07-10  lb_ii  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Compat.txt: IDS: Map compat characters to corresponding
+	non-compat characters
+
+2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt:
 	- Use U+8511 instead of CU+8511.
 	- Use "𥽘" instead of "⿰米蔑".
