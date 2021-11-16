@@ -1,3 +1,32 @@
+2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+8511 instead of CU+8511.
+	- Use "𥽘" instead of "⿰米蔑".
+	(U-000288F0): Use "䗍" instead of "⿱彖虫".
+	(U-000288F9): Use "㯥" instead of "⿰東東".
+	(U-00028901): Use "𡽽" instead of "⿳山𡆧炎".
+	(U-0002890A): Use "𩰥" instead of "⿳爫⺫⿰鬯又".
+	(U-00028916): Use "⿱𨤑x" instead of "⿳釆𠬞x".
+	(U-00028917): Modify structure.
+	(U-00028919): Modify structure.
+	(U-0002891C): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00028F79): Use U-00020915 instead of IU+20915.
+	(U-00028F7D): Use U+38C7 instead of UU+38C7.
+	(U-0002905B): Modify structure.
+	(U-00029EB6): Use "欵" instead of "⿰𠤕欠".
+	(U-00029134): Use "俸" instead of "⿰亻奉".
+	(U-0002979A): Use "旣" instead of "⿰⿱白匕旡".
+	(U-00029E9A): Use "𥘾" instead of "⿱𡗜示".
+	(U-00029EA3): Use "晁" instead of "⿱日兆".
+	(U-00029EA5): Use "芻" instead of "⿱&CDP-8D65;&CDP-8D65;".
+	(U-00029EA7): Use "⿰x𤈜" instead of "⿲x火至".
+	(U-00029EA8): Use "俸" instead of "⿰亻奉".
+	(U-00029EAB): Use "隽" instead of "⿱隹乃".
+	(U-00029EB6): Use "欵" instead of "⿰𠤕欠".
+	(U-00029EBA): Use "旣" instead of "⿰⿱白匕旡".
+
 2021-11-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt
@@ -126,7 +155,7 @@
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
-	* IDS-UCS-Basic.txt (U+89E3 (解)): Fix: ⿰角&CDP-8C68; --> ⿰角𭷔
+	* IDS-UCS-Basic.txt (U+89E3 (解)): Fix: ⿰角𭷔 --> ⿰角𭷔
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
@@ -154,7 +183,7 @@
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
-	* IDS-UCS-Basic.txt (U+8700 (蜀)): Fix: ⿱⺫&CDP-8C4A;(BC-8C4A) --> ⿱⺫𠣜(u208dc)
+	* IDS-UCS-Basic.txt (U+8700 (蜀)): Fix: ⿱⺫𠣜(BC-8C4A) --> ⿱⺫𠣜(u208dc)
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
@@ -184,7 +213,7 @@
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
 	* IDS-UCS-Basic.txt (U+81F3 (至)): Fix:
-	⿱&GT-03877;(GT-03877)土 --> ⿱𠫔(U-00020AD4)土
+	⿱𠫔(GT-03877)土 --> ⿱𠫔(U-00020AD4)土
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
