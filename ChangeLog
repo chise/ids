@@ -1,5 +1,15 @@
 2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Compat.txt: Fix some IDSes of JIS X 0213 compatibility
+	characters and ARIB compatibility characters.
+
+2021-07-10  lb_ii  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Compat.txt: IDS: Add mapping for missing characters
+	between U+FA0E and U+FA6D
+
+2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Compat.txt (U+FA1D): Add IDS.
 	(U+FA20): Add IDS.
 	(U+FA22): Add IDS.
