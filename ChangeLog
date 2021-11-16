@@ -1,5 +1,33 @@
 2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U+4EA1 instead of UU+4EA1.
+	- Use U+4ECA instead of UU+4ECA.
+	- Use U+6C10 instead of JU+6C10.
+	- Use "𡭽" instead of "⿱少𣌢".
+	- Use U+53C8 instead of GT-K00064.
+	(U-00026174): Use "𥿄" instead of "⿰糸氐".
+	(U-000262A7): Use "㘝" instead of "⿴囗又".
+	(U-000262E5): Use U+7D04 instead of UU+7D04.
+	(U-00026305): Use "𥿄" instead of "⿰糸氐".
+	(U-0002630E): Use U+7562 instead of CU+7562.
+	(U-0002631D): Use U+66FE instead of JU+66FE.
+	(U-0002631F): Use U+797F instead of JU+797F.
+	(U-000267C1): Modify structure.
+	(U-000267D7): Use "难" instead of "⿰又隹".
+	(U-000269D0): Use "𠫘" instead of "⿱厶十".
+	(U-00026C99): Use U+5F50 instead of UU+5F50.
+	(U-00027250): Use "双" instead of "⿰又又".
+	(U-00027392): Use U+7D04 instead of UU+7D04.
+	(U-000273FB): Use U+7562 instead of CU+7562.
+	(U-00027838): Use "𰗑" instead of "⿱又木".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028682): Use "𡯂" instead of "⿱八几".
+	(U-00028683): Fixed
+	[cf. https://gitlab.chise.org/CHISE/ids/-/issues/17].
+
+2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Compat.txt: Fix some IDSes of JIS X 0213 compatibility
 	characters and ARIB compatibility characters.
 
