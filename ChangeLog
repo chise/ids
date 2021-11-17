@@ -1,4 +1,28 @@
+2021-11-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use U+7FDF instead of UU+7FDF.
+	(U-000288FC): Use U+7ABB instead of CU+7ABB.
+	(U-0002891F): Use "睾" instead of "⿱丿睪".
+	(U-000289B1): Use U+56F1 instead of CU+56F1.
+	(U-00029136): Use U-00025E37 instead of C6-3A54.
+	(U-0002913C): Use "渄" instead of "⿰氵非".
+	(U-0002979D): Fixed.
+	(U-00029AF3): Use U+56BB instead of UU+56BB.
+	(U-00029C74): Ditto.
+	(U-00029C78): Use U+4C1C instead of UU+4C1C.
+	(U-00029E9B): Use U+8652 instead of JU+8652.
+	(U-00029EB9): Use U+65C9 instead of UU+65C9.
+
 2021-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2D5E9): Modify structure.
+	(U+2DC73): Modify structure.
+	(U+2E03D): Fixed.
+	(U+2E498): Modify structure.
+	(U+2E6A8): Modify structure.
+	(U+2E9FB): Delete the second column because it is not unifiable.
 
 	* IDS-UCS-Ext-B-4.txt:
 	- Use U+4EA1 instead of UU+4EA1.
