@@ -1,3 +1,34 @@
+2021-11-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U+5340 instead of CU+5340.
+	- Use "䍃" instead of "⿱爫缶".
+	- Use U+4E38 instead of CU+4E38.
+	- Use U+5950 instead of CU+5950.
+	(U-00026254): Use "𪩡" instead of "⿱巛巴".
+	(U-00026385): Modify structure.
+	(U-000264C8): Use "䎜" instead of "⿰老老".
+	(U-000264CB): Ditto.
+	(U-000267BF): Use U-00020B2A instead of IU+20B2A.
+	(U-000267FB): Use U+533F instead of CU+533F.
+	(U-00026B7C): Use U-00020B2A instead of IU+20B2A.
+	(U-0002722F): Fixed.
+	(U-000273FD): Use "悘" instead of "⿱医心".
+	(U-000273FE): Use U+533F instead of CU+533F.
+
+2021-11-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-09500): Completed.
+	(SW-JIGUGE-09509): Completed.
+	(SW-JIGUGE-17204): Completed [temporary].
+	(SW-JIGUGE-17300): Completed.
+	(SW-JIGUGE-19416): Completed [temporary].
+	(SW-JIGUGE-32406): Completed.
+	(SW-JIGUGE-32409): Fixed [temporary].
+	(SW-JIGUGE-32411): Completed.
+	(SW-JIGUGE-32414): Fixed [temporary].
+	(SW-JIGUGE-32417): Completed.
+
 2021-11-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use U+7FDF instead of UU+7FDF.
