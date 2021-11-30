@@ -1,3 +1,7 @@
+2021-11-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use U+9EBB instead of CU+9EBB.
+
 2021-11-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use U+98DF instead of G-CU+98DF.
