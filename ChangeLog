@@ -1,3 +1,19 @@
+2021-11-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "属" instead of "⿸尸禹".
+	- Use U+83EF instead of CU+83EF.
+	- Use U+5203 instead of C1-4443.
+	(U-00026D37): Use U+3CDD instead of C3-2D56.
+	(U-00027086): Use "劒" instead of "⿰僉刃".
+	(U-000273B9): Use "𧈡" instead of "⿱又虫".
+	(U-00027444): Use "衆" instead of "⿱血乑".
+	(U-00027447): Use "棃" instead of "⿱𥝢木".
+	(U-0002744E): Use "𧈡" instead of "⿱又虫".
+	(U-00027804): Use "𩊐" instead of "⿰革耳".
+	(U-00027938): Fixed.
+	(U-00027CFA): Use "𰙩" instead of "⿱⿰刃刃止".
+
 2021-11-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use U+9EBB instead of CU+9EBB.
