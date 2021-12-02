@@ -1,5 +1,18 @@
 2021-12-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2CF98): Completed.
+	(U+2D110): Modify structure.
+	(U+2D6CC): Use "𢎥" instead of "⿹弓冫".
+	(U+2D9EA): Unified to one column.
+	(U+2D9F5): Modify structure.
+	(U+2DB96): Completed.
+	(U+2E692): Unified to one column.
+	(U+2E722): Modify structure.
+	(U+2E9A2): Modify structure.
+	(U+2EB13): Unified to one column.
+
 	* IDS-UCS-Ext-B-2.txt (U-00023ADE): Modify structure.
 	(U-00023AE9): Modify structure.
 
