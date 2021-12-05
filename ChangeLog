@@ -1,3 +1,22 @@
+2021-12-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-G.txt (U+302E5): Use "𠚣" instead of "⿹勹丿".
+	(U+312F5): Use "⿸𪏯x" instead of "⿰黍⿱⿹勹丿x".
+
+	* IDS-UCS-Ext-B-5.txt (U-00028026): Use U+34DE instead of UU+34DE.
+	(U-0002862F): Use "𪏯" instead of "⿰黍𠚣".
+	(U-00028635): Use "㔽" instead of "⿱⺊回".
+	(U-00028637): Use "䫉" instead of "⿰豸頁".
+	(U-00028641): Ditto.
+	(U-00028654): Use "𩣷" instead of "⿰垂馬".
+	(U-00028655): Use "雚" instead of "⿱艹𨾴".
+	(U-00028912): Use U-000206A3 instead of BC-8DC9.
+	(U-00028ED2): Use U+70D5 instead of UU+70D5.
+	(U-0002959D): Use U-000206A3 instead of BC-8DC9.
+
+	* IDS-UCS-Basic.txt (U+9ECD): Add IDS.
+	(U+9ECE): Modify structure.
+
 2021-12-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
