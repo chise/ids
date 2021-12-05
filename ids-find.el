@@ -1730,7 +1730,9 @@ COMPONENT can be a character or char-spec."
 		     (memq (encode-char (nth 2 enc-str) '=>ucs@component)
 			   '(#x2123C #x58EC))
 		     (eq (encode-char (nth 2 enc-str) '=>ucs@iwds-1)
-			 #x7389)))
+			 #x7389)
+		     (eq (encode-char (nth 2 enc-str) '=>big5-cdp)
+			 #x8D71)))
 	    (unless conversion-only
 	      (setq f-res (ids-find-chars-including-ids enc-str)))
 	    (setq new-str (list ?⿰
