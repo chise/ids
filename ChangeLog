@@ -14,6 +14,10 @@
 	(U-00028ED2): Use U+70D5 instead of UU+70D5.
 	(U-0002959D): Use U-000206A3 instead of BC-8DC9.
 
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): In the
+	rule-813: ⿺⿱LBC -> ⿱⿰LCB, treat A-BC-8D71 as B.
+
 	* IDS-UCS-Basic.txt (U+9ECD): Add IDS.
 	(U+9ECE): Modify structure.
 
