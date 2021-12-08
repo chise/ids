@@ -1,3 +1,33 @@
+2021-12-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002863B): Use "𥰟" instead of "⿱竹袁".
+	(U-00028643): Use U+4343 instead of JU+4343.
+	(U-00029012): Use "𮂸" instead of "⿰禾欠".
+	(U-00029013): Use "𤔄" instead of "⿱爫可".
+	(U-00029018): Use U+4343 instead of JU+4343.
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U-000206A3 instead of BC-8DC9.
+	- Use U+34DE instead of UU+34DE.
+	(U-0002205B): Use "币" instead of "⿱丿巾".
+	(U-00022061): Use "𭅲" instead of "⿴㔾丶".
+	(U-000220A8): Use "凢" instead of "⿱丿几".
+	(U-000220AC): Use "币" instead of "⿱丿巾".
+	(U-000220AD): Use "収" instead of "⿰丩又".
+	(U-000224A2): Use "㐱" instead of "⿱𠆢彡".
+	(U-00022C44): Use "𭅲" instead of "⿴㔾丶".
+	(U-000238AD): Use "𣱷" instead of "⿸厂水".
+	(U-000238B1): Use "𠮰" instead of "⿱口巛".
+	(U-00023AE7): Use U+85F6 instead of CU+85F6.
+	(U-00023CE5): Use "㡯" instead of "⿸广乇".
+	(U-00023CE7): Use "𠮰" instead of "⿱口巛".
+	(U-00023EB4): Use "𠫼" instead of "⿱厽&CDP-89C6;".
+	(U-00023EB6): Use "⿸𭆆x" instead of "⿱⿰牙攵⿸厂x".
+
+2021-12-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+9ECE): Use U-000206A3 instead of BC-8DC9.
+
 2021-12-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-G.txt (U+302E5): Use "𠚣" instead of "⿹勹丿".
