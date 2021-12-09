@@ -1,3 +1,19 @@
+2021-12-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A1F7): Use "辥" instead of
+	"⿰⿱屮𠂤辛".
+	(U-0002A1FA): Use "⿸𪏯x" instead of "⿰黍⿱𠚣x".
+	(U-0002A1FE): Use "䴡" instead of "⿸严⿱&CDP-88B4;比".
+	(U-0002A200): Use "𠾧" instead of "⿱吅禺".
+	(U-0002A208): Use "頼" instead of "⿰束頁".
+	(U-0002A20E): Use "賴" instead of "⿰束⿱𠂊貝".
+	(U-0002A211): Use "𩃮" instead of "⿱雨易".
+	(U-0002A213): Use "𥱩" instead of "⿱竹⿰幸人".
+	(U-0002A3EF): Use U-000206A3 instead of BC-8DC9.
+	(U-0002A4B8): Modify structure.
+	(U-0002A4BA): Use "⿸𪏯x" instead of "⿰黍⿱𠚣x".
+	(U-0002A4C1): Use ⿰x𡭊" instead of "⿲x⿱丵口寸".
+
 2021-12-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002863B): Use "𥰟" instead of "⿱竹袁".
