@@ -1,3 +1,15 @@
+2021-12-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt:
+	- Use "⿰阝x" instead of "⿰阝x".
+	- Use "⿱艹x" instead of "⿱卝x" as grass.
+	(U+2C7B8): Use "寛" instead of "⿱宀⿱卝見".
+	(U+2C7B9): Modify structure.
+	(U+2C7CC): Use "𱀵" instead of "⿰阝尊".
+	(U+2C7CF): Completed.
+	(U+2CBC7): Use "𭎊" instead of "⿱白土".
+	(U+2CBDF): Modify structure.
+
 2021-12-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt:
