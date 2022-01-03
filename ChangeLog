@@ -1,3 +1,24 @@
+2022-01-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use U+4EA4 instead of UU+4EA4.
+	(U-00024322): Use "䎡" instead of "⿱而火".
+	(U-0002437B): Completed.
+	(U-0002443B): Completed.
+	(U-00024B81): Use "䎡" instead of "⿱而火".
+	(U-00024D7F): Use "𫠥" instead of "⿺𠃊丙".
+	(U-00024D82): Use "𡥄" instead of "⿱子口".
+	(U-00024D84): Use "任" instead of "⿰亻⿱一士".
+	(U-000251DF): Use "効" instead of "⿰交力".
+	(U-00025C33): Use "𮜿" instead of "⿰車丸".
+	(U-00025C37): Use "⿱x㽜" instead of "⿳x夗田".
+	(U-00025C38): Use "⿱x晉" instead of "⿳x亚日".
+	(U-00025C39): Use "㬵" instead of "⿰月交".
+	(U-00025C43): Use "𨓜" instead of "⿺辶免".
+	(U-00025C47): Use "⿱x䎡" instead of "⿳x而火".
+	(U-00025C49): Use "狼" instead of "⿰犭良".
+	(U-00025C4B): Use "⿱x鿄" instead of "⿳x㲽木".
+	(U-00025C4F): Completed.
+
 2021-12-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt:
@@ -9,6 +30,53 @@
 	(U+2C7CF): Completed.
 	(U+2CBC7): Use "𭎊" instead of "⿱白土".
 	(U+2CBDF): Modify structure.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-00300): Add IDS.
+	(SW-JIGUGE-01916): Fixed.
+	(SW-JIGUGE-02828): Modify structure.
+	(SW-JIGUGE-04012): Fixed.
+	(SW-JIGUGE-06809): Completed.
+	(SW-JIGUGE-06812): Completed [temporary].
+	(SW-JIGUGE-07407): Completed.
+	(SW-JIGUGE-07520): Fixed.
+	(SW-JIGUGE-07521): Completed [temporary].
+	(SW-JIGUGE-08902): Completed.
+	(SW-JIGUGE-08905): Completed.
+	(SW-JIGUGE-08911): Add IDS.
+	(SW-JIGUGE-09005): Fixed.
+	(SW-JIGUGE-09006): Fixed.
+	(SW-JIGUGE-09009): Fixed [temporary].
+	(SW-JIGUGE-09010): Add IDS [temporary].
+	(SW-JIGUGE-09012): Completed.
+	(SW-JIGUGE-09013): Fixed.
+	(SW-JIGUGE-09116): Completed.
+	(SW-JIGUGE-09120): Fixed.
+	(SW-JIGUGE-09304): Fixed.
+	(SW-JIGUGE-09607): Completed.
+	(SW-JIGUGE-10103): Completed [temporary].
+	(SW-JIGUGE-11011): Fixed.
+	(SW-JIGUGE-17301): Fixed.
+	(SW-JIGUGE-24118): Completed.
+	(SW-JIGUGE-25606): Completed.
+	(SW-JIGUGE-25607): Fixed.
+	(SW-JIGUGE-25608): Completed.
+	(SW-JIGUGE-29512): Completed.
+	(SW-JIGUGE-30805): Fixed.
+	(SW-JIGUGE-30806): Completed [temporary].
+	(SW-JIGUGE-30807): Fixed.
+	(SW-JIGUGE-30808): Fixed.
+	(SW-JIGUGE-30809): Completed.
+	(SW-JIGUGE-30810): Fixed.
+	(SW-JIGUGE-30811): Fixed.
+	(SW-JIGUGE-30812): Fixed.
+	(SW-JIGUGE-30813): Fixed.
+	(SW-JIGUGE-30814): Fixed.
+	(SW-JIGUGE-30816): Fixed.
+	(SW-JIGUGE-30817): Fixed.
+	(SW-JIGUGE-30819): Fixed.
+	(SW-JIGUGE-30900): Fixed.
+	(SW-JIGUGE-36703): Completed.
+	(SW-JIGUGE-37005): Completed.
 
 2021-12-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
