@@ -1,3 +1,10 @@
+2022-01-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+514A): Add an apparent field.
+	(U+697D): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U+6A02): Use "𢆶" instead of "⿰幺幺"; add an apparent field.
+
 2022-01-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt:
