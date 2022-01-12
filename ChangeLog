@@ -1,5 +1,12 @@
 2022-01-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2D505): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U+2D50C): Completed [temporary].
+	(U+2D50F): Use "⿸𪧇x" instead of "⿱宀⿰爿x".
+
 	* IDS-UCS-Basic.txt (U+514A): Add an apparent field.
 	(U+697D): Modify structure; add an apparent field based on the
 	previous IDS.
