@@ -1963,7 +1963,7 @@ U+55A8	喨	⿰口亮
 U+55A9	喩	⿰口兪
 U+55AA	喪	⿱&CDP-88A5;&CDP-8CC6;
 U+55AB	喫	⿰口契
-U+55AC	喬	⿱呑冋
+U+55AC	喬	⿱夭⿱口冋	@apparent=⿱呑冋
 U+55AD	喭	⿰口彦
 U+55AE	單	⿱吅&CDP-8BD9;
 U+55AF	喯	⿰口奔
@@ -4058,8 +4058,8 @@ U+5DD7	巗	⿰山嚴
 U+5DD8	巘	⿰山獻
 U+5DD9	巙	⿰山夔
 U+5DDA	巚	⿱山獻
-U+5DDB	巛	巛
-U+5DDC	巜	巜
+U+5DDB	巛	⿲𡿨𡿨𡿨
+U+5DDC	巜	⿰𡿨𡿨
 U+5DDD	川	川
 U+5DDE	州	州
 U+5DDF	巟	⿱亡𫶧
