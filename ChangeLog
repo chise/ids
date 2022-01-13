@@ -1,3 +1,10 @@
+2022-01-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+55AC): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+5DDB): Add IDS.
+	(U+5DDC): Add IDS.
+
 2022-01-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
@@ -8096,7 +8103,7 @@
 	(U-0002B443): Fixed.
 	(U-0002B718): Use "巿" instead of "市".
 
-	* IDS-UCS-Ext-B-5.txt (U-000280BC): Use "𮙥" instead of "⿸豸&GT-K00042;".
+	* IDS-UCS-Ext-B-5.txt (U-000280BC): Use "𮙥" instead of "⿸豸𡿨".
 	(U-0002952C): Fixed.
 	(U-00029DB5): Fixed.
 
