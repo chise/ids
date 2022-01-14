@@ -296,6 +296,18 @@ vertical-align:middle; width: auto; max-height: 60px\">"
 	     t 'literal))
 
 	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(R-\\)?CHISE-HDIC-TSJ\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (setq char (decode-char '===chise-hdic-tsj code))
+	    (when (setq ret (get-char-attribute char '=hdic-tsj-glyph-id))
+	      (replace-match
+	       (format
+		"<img alt=\"HDIC-TSJ-%s\" src=\"https://viewer.hdic.jp/img/tsj/%s.jpg\" style=\"
+vertical-align:middle; width: auto; max-height: 60px\">"
+		ret ret)
+	       t 'literal)))
+
+	  (goto-char (point-min))
 	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?AJ1-\\([0-9]+\\);" nil t)
 	    (setq code (string-to-int (match-string 2)))
 	    (replace-match
