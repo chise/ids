@@ -1,3 +1,16 @@
+2022-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-33605): Completed.
+	(SW-JIGUGE-42523): Completed.
+	(SW-JIGUGE-44910): Completed.
+	(SW-JIGUGE-44912): Completed.
+	(SW-JIGUGE-44916): Completed.
+	(SW-JIGUGE-44918): Completed.
+	(SW-JIGUGE-45018): Completed.
+	(SW-JIGUGE-45107): Completed.
+	(SW-JIGUGE-45529): Completed.
+	(SW-JIGUGE-45615): Completed.
+
 2022-01-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
