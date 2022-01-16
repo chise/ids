@@ -13,6 +13,9 @@
 
 2022-01-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* www/www-ids-find.el (www-format-encode-string): Add settings for
+	`===chise-hdic-tsj' and `=chise-hdic-tsj'.
+
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
 	abstract characters.
 	(U+2D4A4): Modify structure; preserve the previous IDS as an
