@@ -1,3 +1,19 @@
+2022-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+7968 instead of UU+7968.
+	(U-0002229F): Use "𮙸" instead of "⿸眉八".
+	(U-000222A4): Modify structure.
+	(U-00022FD8): Use "婁" instead of "⿱&CDP-89C5;女".
+	(U-00023C6A): Use "气" instead of "⿳𠂉一乙".
+
+2022-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2D4A4): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+2DCDB): Completed.
+
 2022-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-33605): Completed.
@@ -3095,7 +3111,7 @@
 
 2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Basic.txt (U+5DE4): Reverted; use "⿱&A-compU+5DDB;龱" instead of
+	* IDS-UCS-Basic.txt (U+5DE4): Reverted; use "⿱&A-IWDSU+5DDB;龱" instead of
 	A-cgnU+21FFA.
 	(U+7985): Reverted.
 
