@@ -6,6 +6,9 @@
 	(U-00023D96): Use "𡿱" instead of "⿳一巛壬".
 	(U-00023D97): Use "𣲎" instead of "⿱今水".
 
+	* www/www-ids-find.el (www-format-encode-string): Add settings for
+	`===chise-hdic-ktb' and `=chise-hdic-ktb'.
+
 	* IDS-UCS-Ext-B-1.txt (U-00021FE7): Add IDS.
 
 	* IDS-UCS-Ext-E.txt (U+2C6C2): Modify structure.
