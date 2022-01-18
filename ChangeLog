@@ -1,6 +1,14 @@
 2022-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00023D8C): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-00023D91): Use "𠒋" instead of "⿱亠兇".
+	(U-00023D96): Use "𡿱" instead of "⿳一巛壬".
+	(U-00023D97): Use "𣲎" instead of "⿱今水".
+
 	* IDS-UCS-Ext-B-1.txt (U-00021FE7): Add IDS.
+
+	* IDS-UCS-Ext-E.txt (U+2C6C2): Modify structure.
 
 	* IDS-UCS-Basic.txt (U+5759): Modify structure.
 	(U+5DE0): Modify structure.
