@@ -320,6 +320,18 @@ vertical-align:middle; width: auto; max-height: 60px\">"
 	       t 'literal)))
 
 	  (goto-char (point-min))
+	  (while (re-search-forward "&\\(R-\\)?CHISE-HDIC-KTB\\([0-9A-F]+\\);" nil t)
+	    (setq code (string-to-int (match-string 2) 16))
+	    (setq char (decode-char '===chise-hdic-ktb code))
+	    (when (setq ret (get-char-attribute char '=hdic-ktb-entry-id))
+	      (replace-match
+	       (format
+		"<img alt=\"HDIC-KTB-%s\" src=\"https://hdic.chise.org/img/ktb/%s.jpg\" style=\"
+vertical-align:middle; width: auto; max-height: 60px\">"
+		ret ret)
+	       t 'literal)))
+
+	  (goto-char (point-min))
 	  (while (re-search-forward "&\\(o-\\|G-\\|g2-\\|R-\\)?AJ1-\\([0-9]+\\);" nil t)
 	    (setq code (string-to-int (match-string 2)))
 	    (replace-match
