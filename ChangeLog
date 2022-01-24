@@ -1,3 +1,29 @@
+2022-01-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002260E): Use "㞋" instead of "⿸尸又".
+	(U-0002260F): Use "㞧" instead of "⿱山乃".
+	(U-00022626): Use "叏" instead of "⿱&CDP-89B3;又".
+	(U-00022627): Use "𡰦" instead of "⿸尸人".
+	(U-0002262A): Use "𡉄" instead of "⿸𠂇土".
+	(U-00023CB8): Use "㞧" instead of "⿱山乃".
+	(U-00023CBA): Use "叏" instead of "⿱&CDP-89B3;又".
+	(U-00023CBB): Use "凥" instead of "⿸尸几".
+	(U-00023CBE): Fixed.
+	(U-00023CCB): Completed.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-01714): Completed.
+	(SW-JIGUGE-02724): Completed [temporary].
+	(SW-JIGUGE-23109): Completed.
+	(SW-JIGUGE-24610): Completed.
+	(SW-JIGUGE-30602): Completed.
+	(SW-JIGUGE-30603): Completed.
+	(SW-JIGUGE-31904): Completed.
+	(SW-JIGUGE-34931): Use "&SW-JIGUGE-41717;" instead of "⿰&SW-JIGUGE-41714;&SW-JIGUGE-51602;".
+	(SW-JIGUGE-41715): Completed.
+	(SW-JIGUGE-41717): Completed.
+	(SW-JIGUGE-41718): Completed.
+	(SW-JIGUGE-43322): Completed [temporary].
+
 2022-01-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
