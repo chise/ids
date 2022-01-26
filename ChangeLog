@@ -1,5 +1,12 @@
 2022-01-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022BE3): Use "沝" instead of "⿰水水".
+	(U-00023E73): Use "⿴沝x" instead of "⿲水x水".
+	(U-00023E76): Fixed,
+	(U-00023E77): Use "⿸浦x" instead of "⿰氵⿱甫x".
+	(U-00023E79): Use "烕" instead of "⿵戊⿱一火".
+	(U-00023E7A): Use "⿸𣳧x" instead of "⿰氵⿳口巛x".
+
 	* IDS-UCS-Ext-B-3.txt: Use "𦨉" instead of "⿰舟刂".
 	(U-000243A6): Use "𫾼" instead of "⿰肴攵".
 	(U-000243AB): Use "⿱x炗" instead of "⿳x龷火".
