@@ -1,3 +1,16 @@
+2022-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2D3DD): Use "⿶埜x" instead of "⿱⿲木x木土".
+	(U+2DA44): Modify structure.
+	(U+2DA4D): Use "⿴朋x" instead of "⿲月x月".
+	(U+2DD44): Modify structure.
+
+2022-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+81FE): Add IDS.
+
 2022-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+723D): Add IDS.
