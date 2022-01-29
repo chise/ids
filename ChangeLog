@@ -13,6 +13,14 @@
 
 2022-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00023E66): Use "𡨞" instead of "⿱宀𠬶".
+	(U-00023E68): Fixed.
+	(U-00023E6C): Use "⿸𣪊x" instead of "⿰⿱𡉉x殳".
+	(U-00023E73): Use U+342C instead of MJ057397.
+	(U-00023E7E): Use "𠅖" instead of "⿱⿱亠口⿱口十".
+	(U-00023E86): Modify structure.
+	(U-00023E8B): Use "茜" instead of "⿱艹西".
+
 	* IDS-UCS-Basic.txt (U+723D): Add IDS.
 
 2022-01-27  MORIOKA Tomohiko  <tomo.git@chise.org>
