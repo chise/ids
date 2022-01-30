@@ -1,3 +1,203 @@
+2022-01-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2E648): Use "𬞼" instead of "⿱艹維".
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "⿱爫x" instead of "⿱爫x".
+	- Use "𦃃" instead of "⿱𠂹糸".
+	- Use "攵" instead of "⺙".
+	- Use U+807F (聿) instead of BC-8BC6 (聿).
+	- Use "䪞" instead of "⿱天韭".
+	- Use U+4E30 instead of CU+4E30.
+	- Use "⿱<U+8279>x" instead of "⿱<CJK RADICAL GRASS ONE>x".
+	- Use "⿰x⻏" instead of "⿰x阝".
+	- Use "⿺辶x" instead of "⿺⻎x".
+	- Use "⿰阝x" instead of "⿰阝x".
+	- Use "𬯁" instead of "⿰阝辛".
+	- Use "⿱𦭝x" instead of "⿳艹⺫x".
+	- Use U+7CF8 instead of <CJK RADICAL SILK>.
+	- Use U+751A instead of UU+751A.
+	- Use U-0002CF16 instead of MJ056865.
+	(U-0002618A): Use "旧" instead of "⿰丨日".
+	(U-00026195): Use "⿴絲x" instead of "⿲糸x糸".
+	(U-00026198): Use "𤾇" instead of "⿱白兒".
+	(U-0002619B): Use "𡕰" instead of "⿳𠚍八夊".
+	(U-0002619C): Use "聚" instead of "⿱取㐺".
+	(U-000261A5): Modify structure.
+	(U-000261AC): Use "𫢴" instead of "⿰亻&CDP-8BB0;".
+	(U-000261AE): Use "𢾰" instead of "⿰⿱山系⺙".
+	(U-000261FC): Use "蠒" instead of "⿱爾虫".
+	(U-00026200): Modify structure.
+	(U-00026319): Use "𪯎" instead of "⿰幸⺙".
+	(U-000264EA): Use "𠧒" instead of "⿱⺊乙".
+	(U-000264ED): Use "匆" instead of "⿻勿&CDP-89C7;".
+	(U-00026565): Fixed.
+	(U-0002656C): Use "邜" instead of "⿰夕阝".
+	(U-00026625): Use "𠶶" instead of "⿰⿱丶𡰪戈".
+	(U-00026626): Use "啟" instead of "⿰⿱丶𡰪⺙".
+	(U-00026628): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-000266F7): Use "寽" instead of "⿱爫寸".
+	(U-00026ADC): Use "𤆍" instead of "⿱大火".
+	(U-00026B5E): Use "叐" instead of "⿱丿友".
+	(U-00026B60): Use "仺" instead of "⿱𠆢𬼖".
+	(U-00026BAE): Use "㓇" instead of "⿰冫夭".
+	(U-00026BB5): Completed.
+	(U-00026BB9): Use "夿" instead of "⿱大巴".
+	(U-00026BBE): Use "抐" instead of "⿰扌內".
+	(U-00026C1C): Use "陁" instead of "⿰阝㐌".
+	(U-00026C20): Modify structure.
+	(U-00026C29): Completed.
+	(U-00026C48): Use "沭" instead of "⿰氵朮".
+	(U-00026C50): Use "𥝕" instead of "⿰禾亡".
+	(U-00026C54): Use "肶" instead of "⿰⺼比".
+	(U-00026C5B): Use U+82DC instead of CU+82DC.
+	(U-00026C5C): Use "䄪" instead of "⿰禾勺".
+	(U-00026C5D): Use "𠛱" instead of "⿰⿱巛夕刂".
+	(U-00026CAE): Use "兊" instead of "⿱八允".
+	(U-00026CBB): Confirmed; use "㸒" instead of "⿱爫壬".
+	(U-00026CBC): Use "妬" instead of "⿰女石".
+	(U-00026CD5): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00026CD6): Use "苘" instead of "⿱艹冋".
+	(U-00026CE1): Use "𤓿" instead of "⿳爫巳又".
+	(U-00026CEB): Use "𮂸" instead of "⿰禾欠".
+	(U-00026CEC): Use "𡇞" instead of "⿴囗合".
+	(U-00026CED): Use "𫐣" instead of "⿺⻎丙".
+	(U-00026CEE): Use U+82DC instead of CU+82DC.
+	(U-00026CEF): Use "𦬸" instead of "⿱艹术".
+	(U-00026CF0): Use "㧁" instead of "⿸戶去".
+	(U-00026D07): Use "荣" instead of "⿳艹冖木".
+	(U-00026D0D): Use "虵" instead of "⿰虫也".
+	(U-00026D5D): Use "⿴𦬠x" instead of "⿳艹x廾".
+	(U-00026D5E): Use "礻"[U+793B] instead of <CJK RADICAL SPIRIT
+	TWO>.
+	(U-00026D8F): Use "陮" instead of "⿰阝隹".
+	(U-00026D9B): Use "⿴茻x" instead of "⿳艸x艸".
+	(U-00026DA1): Use "浩" instead of "⿰氵吿".
+	(U-00026DD0): Use "匆" instead of "⿻勿&CDP-89C7;".
+	(U-00026DD1): Use "𬓥" instead of "⿰禾&CDP-8CE7;".
+	(U-00026DE9): Use "砭" instead of "⿰石乏".
+	(U-00026DF7): Use "𨒨" instead of "⿺⻎亥".
+	(U-00026E45): Use "婉" instead of "⿰女宛".
+	(U-00026E47): Use "𫐩" instead of "⿺⻎坐".
+	(U-00026E48): Use "⿴𦬠x" instead of "⿳艹x廾".
+	(U-00026E63): Use "𠣯" instead of "⿹勹苗".
+	(U-00026E6B): Use "㹿" instead of "⿰犭卓".
+	(U-00026E71): Use "𧵆" instead of "⿰貝斤".
+	(U-00026E76): Use "梖" instead of "⿰木貝".
+	(U-00026F21): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00026F27): Modify structure.
+	(U-00026F28): Use "𫇰" instead of "⿱艹旧".
+	(U-00026F29): Use "⿱x䪞" instead of "⿳x天韭".
+	(U-00026F46): Modify structure.
+	(U-00026F4C): Use "𤗚" instead of "⿰片畐".
+	(U-00026F77): Use "⿳艹x廾" instead of "⿴𦬠x".
+	(U-00026F78): Ditto.
+	(U-00026F79): Ditto.
+	(U-00026F7A): Use "咢" instead of "⿱吅亏".
+	(U-00026F7B): Use "⿳艹x廾" instead of "⿴𦬠x".
+	(U-00026F85): Fixed.
+	(U-00026F89): Use "⿱𫇦x" instead of "⿳艹冖x".
+	(U-00026F96): Fixed.
+	(U-00026FA9): Use "䧟" instead of "⿰阝舀".
+	(U-00026FAB): Use "穀" instead of "⿰⿳士冖禾殳".
+	(U-00026FDA): Modify structure.
+	(U-00026FF6): Use "彅" instead of "⿰弓⿱前刀".
+	(U-00026FFF): Use "緌" instead of "⿰糹委".
+	(U-0002701C): Use "熖" instead of "⿰火舀".
+	(U-000270F2): Use "糜" instead of "⿸麻米".
+	(U-000270F6): Fixed.
+	(U-00027076): Completed.
+	(U-0002707B): Use "⿴𦬠x" instead of "⿳艹x廾"; use "㱕" instead
+	of "⿰止⿳⺕冖巾".
+	(U-00027109): Use "總" instead of "⿰糹悤".
+	(U-00027131): Use "闒" instead of "⿵門𦐇".
+	(U-00027135): Use "獵" instead of "⿰犭巤".
+	(U-00027181): Use "⿴𦬠x" instead of "⿳艹x廾".
+	(U-00027184): Use "藥" instead of "⿱艹樂".
+	(U-0002731D): Use "𤆍" instead of "⿱大火".
+	(U-0002731E): Modify structure.
+	(U-0002747F): Use "絲" instead of "⿰糹糹".
+	(U-000274A1): Use "⿱𫲸x" instead of "⿱宀⿱丰x".
+	(U-000276B1): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-000276B5): Modify structure.
+	(U-000276B7): Use "𤽇" instead of "⿱白𫶧".
+	(U-000276BA): Use "歨" instead of "⿱止龰".
+	(U-000276C5): Modify structure.
+	(U-000276D2): Use "𰩬" instead of "⿱竹大".
+	(U-000276D3): Use "䖍" instead of "⿸虍夂".
+	(U-000276E0): Use "𢦶" instead of "⿹戈⿱工八".
+	(U-000277D0): Use "蠒" instead of "⿱爾虫".
+	(U-000278E5): Use "兊" instead of "⿱八允".
+	(U-0002797B): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00027A1E): Use "𡗮" instead of "⿱爫大".
+	(U-00027A58): Use "𦏲" instead of "⿰&CDP-8877;&CDP-8877;".
+	(U-00027A96): Use "𢦶" instead of "⿹戈⿱工八".
+	(U-00027B2F): Use "寋" instead of "⿱𡨄巳".
+	(U-00027B36): Use "𦏲" instead of "⿰&CDP-8877;&CDP-8877;".
+	(U-00027B3A): Use "蒂" instead of "⿱艹帝".
+	(U-00027B40): Use "䇷" instead of "⿱竹別".
+	(U-00027B46): Use "𠎤" instead of "⿳亼吅𠕁".
+	(U-00027B4C): Use "⿰x㼲" instead of "⿲x耎瓦".
+	(U-00027B4D): Use "聚" instead of "⿱取㐺".
+	(U-00027CD7): Use "夿" instead of "⿱大巴".
+
+2022-01-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002034D): Use "⿱䙲x" instead of
+	"⿳⻃大x".
+	(U-0002036C): Modify structure.
+	(U-00020374): Modify structure.
+	(U-00020378): Use "&U-i001+2FFB;亻从" instead of "⿸⿹亻人人".
+	(U-0002038C): Use "𮦉" instead of "⿱雨火".
+	(U-00020390): Use "菁" instead of "⿱艹青".
+	(U-0002039B): Modify structure.
+	(U-0002039D): Modify structure.
+	(U-000203A3): Use "⿱䙲x" instead of "⿳覀大x".
+	(U-000203A4): Use "⿱x𫪡" instead of "⿳x吅𠕁".
+	(U-000203AC): Use "等" instead of "⿳竹士寸".
+	(U-000203B1): Modify structure.
+	(U-000203C7): Modify structure.
+	(U-0002059F): Use U+527D instead of UU+527D.
+	(U-000205A2): Use U+5FB9 instead of CU+5FB9.
+	(U-000205A3): Modify structure.
+	(U-000205A6): Modify structure.
+	(U-000207AB): Use "𫪡" instead of "⿱吅𠕁".
+	(U-0002099D): Modify structure.
+	(U-00020B60): Use "𦉪" instead of "⿵冂儿".
+	(U-00020B61): Use "&U-i001+2FFB;⿱丿人从" instead of "⿻⿱丿人⿰人人".
+	(U-00021940): Use "&U-i001+2FF1;子八" instead of "⿻子八"; add an apparent
+	field.
+	(U-00021A5F): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00021AD1): Use "𫮛" instead of "⿱埶土".
+	(U-00021AD5): Completed.
+	(U-00021AD8): Use "勫" instead of "⿰番力".
+	(U-00021ADA): Modify structure.
+	(U-00021ADF): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021AE0): Use U+5FB9 instead of CU+5FB9.
+	(U-00021AE1): Use "牢" instead of "⿱宀牛".
+	(U-00021AEA): Use "⿱𡨄⿱xy" instead of "⿱宀⿱⿱𠀎⿻八xy".
+	(U-00021AEC): Use "𥱩" instead of "⿱竹⿰幸人".
+	(U-00021AED): Use "𰏮" instead of "⿰幸匊".
+	(U-00021AEE): Modify structure.
+	(U-00021AF3): Add an apparent field.
+	(U-00021AFB): Modify structure.
+	(U-00021B08): Use "寵" instead of "⿱宀龍".
+	(U-00021B2E): Fixed.
+	(U-00021B33): Modify structure.
+	(U-00021B34): Modify structure.
+	(U-00021B36): Modify structure; add an apparent field.
+	(U-00021B38): Modify structure.
+	(U-00021B3E): Modify structure.
+
 2022-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
