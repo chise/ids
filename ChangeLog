@@ -1,3 +1,13 @@
+2022-01-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5F59): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+5F5A): Likewise.
+
+2022-01-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D77F): Use U+6642 instead of UU+6642.
+
 2022-01-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
