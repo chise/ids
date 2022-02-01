@@ -1,3 +1,18 @@
+2022-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+5340 instead of CU+5340.
+	(U-0002038D): Use U+82B1 instead of CU+82B1.
+	(U-00020391): Use U+83EF instead of CU+83EF.
+	(U-000203C6): Use U+8461 instead of CU+8461.
+	(U-000205A1): Use "甶" instead of "⿴&CDP-8CC8;十".
+	(U-000205A9): Use U+985B instead of GT-58556.
+	(U-0002097C): Completed.
+	(U-000213CC): Use "辱" instead of "⿸辰寸".
+	(U-000213D0): Use "𣂜" instead of "⿰臣斤".
+	(U-00021502): Modify structure.
+	(U-00021ADF): Use U+382D instead of UU+382D.
+	(U-00021B43): Use "辱" instead of "⿸辰寸".
+
 2022-01-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5F59): Modify structure; preserve the
