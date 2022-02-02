@@ -1,5 +1,10 @@
 2022-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
+	abstract characters.
+	(U+2CEE0): Unified to one column.
+	(U+2D779): Use "寽" instead of "⿱⿴𠂊冫寸".
+
 	* IDS-UCS-Ext-B-1.txt: Use U+5340 instead of CU+5340.
 	(U-0002038D): Use U+82B1 instead of CU+82B1.
 	(U-00020391): Use U+83EF instead of CU+83EF.
