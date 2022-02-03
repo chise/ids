@@ -1,3 +1,53 @@
+2022-02-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U+5FAE instead of JU+5FAE.
+	(U-00026079): Use U+591C instead of UU+591C.
+	(U-000260DC): Use U+8340 instead of CU+8340.
+	(U-00026194): Use U+611B instead of CU+611B.
+	(U-000264F0): Use U+5168 instead of CU+5168.
+	(U-0002684F): Confirmed.
+	(U-00026B25): Fixed.
+	(U-00026C23): Use U+4F4E instead of JU+4F4E.
+	(U-00026C4E): Use U+4F8D instead of CU+4F8D.
+	(U-00026C6D): Use "⿴𦬇x" instead of "⿳艹x廾".
+	(U-00026CB9): Use U+591C instead of UU+591C.
+	(U-00026CE3): Use U+8340 instead of CU+8340.
+	(U-00026DFC): Use "⿴𦬱x" instead of "⿳艹x升".
+	(U-000272B2): Use U+5168 instead of CU+5168.
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "⿱爫x" instead of "⿱爫x".
+	- Use U+81FD instead of UU+81FD.
+	(U-000242DE): Use "㿞" instead of "⿰白毛".
+	(U-00024335): Completed.
+	(U-0002439E): Modify structure.
+	(U-0002439F): Use "⿸𡨾x" instead of "⿱宀⿰垔x".
+	(U-000243AD): Use U+342D instead of UU+342D.
+	(U-00024453): Use "𤎭" instead of "⿱炎㐭".
+	(U-00024480): Use "𤎭" instead of "⿱炎㐭".
+	(U-000244FD): Use "⿱x𡥀" instead of "⿳x㇇木".
+	(U-000244FF): Fixed.
+	(U-00024506): Use "𠂡" instead of "⿵⺇𰀁".
+	(U-0002450D): Modify structure.
+	(U-00024514): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00024517): Use "囶" instead of "⿴囗⿱八土".
+	(U-0002452A): Use "⿴𠬪x" instead of "⿳爫x又"; add an apparent
+	field based on the previous IDS.
+	(U-0002452C): Use "⿴𠬪x" instead of "⿳爫x又".
+	(U-0002452D): Use "⿱𪺕x" instead of "⿳爫⿲幺幺幺x".
+	(U-0002453C): Use "𭶰" instead of "⿱爫貝".
+	(U-00024548): Completed.
+	(U-00024564): Add IDS.
+	(U-00024804): Use "𤔄" instead of "⿱爫可".
+	(U-00024D0B): Modify structure.
+	(U-00024F67): Use U+534C instead of BC-89D3.
+	(U-00024F6B): Use "⿱㚖x" instead of "⿳白大x".
+	(U-00024F6C): Ditto.
+	(U-000257E9): Use "采" instead of "⿱爫木".
+	(U-0002587E): Use "𠂡" instead of "⿵⺇𰀁".
+	(U-00025B9A): Use "𠛹" instead of "⿰𠕋刂".
+
 2022-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
