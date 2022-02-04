@@ -1,5 +1,10 @@
 2022-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-00026190): Use U-000221B6 instead of
+	IU+221B6.
+	(U-00026854): Use U+9F20 instead of UU+9F20.
+	(U-00026859): Use "𡕰" instead of "⿳⿶凵𠂭儿夊".
+
 	* IDS-UCS-Ext-B-1.txt (U-00020972): Use "&CDP-88AD;" instead of "⿻口&CDP-8BF5;".
 	(U-00020974): Use U+6C75 instead of UU+6C75.
 	(U-000209A0): Use "𬐃" instead of "⿱白一".
