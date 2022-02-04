@@ -1,3 +1,12 @@
+2022-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020972): Use "&CDP-88AD;" instead of "⿻口&CDP-8BF5;".
+	(U-00020974): Use U+6C75 instead of UU+6C75.
+	(U-000209A0): Use "𬐃" instead of "⿱白一".
+	(U-000209A1): Completed.
+	(U-000209B0): Use "𫆁" instead of "⿰耳欠".
+	(U-000209B1): Use "𤰔" instead of "⿻申一".
+
 2022-02-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U+5FAE instead of JU+5FAE.
@@ -47,6 +56,8 @@
 	(U-000257E9): Use "采" instead of "⿱爫木".
 	(U-0002587E): Use "𠂡" instead of "⿵⺇𰀁".
 	(U-00025B9A): Use "𠛹" instead of "⿰𠕋刂".
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02828): Fixed.
 
 2022-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
