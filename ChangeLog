@@ -1,5 +1,27 @@
 2022-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt: Use "𢑑" instead of "⿱彐彐".
+	(U-00022453): Modify structure.
+	(U-00022455): Use "𠠴" instead of "⿰力力".
+	(U-00022457): Modify structure.
+	(U-00022458): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00022459): Modify structure.
+	(U-0002245E): Modify structure.
+	(U-0002245F): Modify structure.
+	(U-00022464): Modify structure.
+	(U-00022465): Fixed.
+	(U-00022466): Modify structure.
+	(U-00022469): Use "㣇" instead of "⿱彑⿱&CDP-89A6;巾".
+	(U-0002246A): Use "彖" instead of "⿱彐𧰨".
+	(U-0002246D): Modify structure.
+	(U-0002246F): Modify structure.
+	(U-00022470): Use "<U+2FF9-itaiji-001>&CDP-8C78;x" instead of "⿹&CDP-8C78;x".
+	(U-00022473): Use "彖" instead of "⿱彐𧰨".
+	(U-00022477): Modify structure.
+	(U-0002247F): Modify structure.
+	(U-00023AA3): Use "彖" instead of "⿱彐𧰨".
+
 	* IDS-UCS-Ext-B-4.txt (U-00026190): Use U-000221B6 instead of
 	IU+221B6.
 	(U-00026854): Use U+9F20 instead of UU+9F20.
