@@ -1,3 +1,47 @@
+2022-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U-00024514 instead of IU+24514.
+	- Use U+595A instead of UU+595A.
+	- Use <CJK RADICAL SNOUT TWO> instead of AJ1-15391.
+	- Use U+590B instead of CU+590B.
+	(U-00024168): Use "鬯" instead of "⿱𠚍匕".
+	(U-0002416A): Modify structure.
+	(U-000242E2): Use U+7D04 instead of UU+7D04.
+	(U-000242E3): Modify structure.
+	(U-000242E4): Use "㲒" instead of "⿰句毛".
+	(U-000242E9): Use "⿱龸x" instead of "⿳⺌冖x".
+	(U-000242EA): Use "𣅽" instead of "⿱日出".
+	(U-000242EB): Use "𡷈" instead of "⿱山⿰山山".
+	(U-000242EE): Use "巸" instead of "⿰臣巳".
+	(U-0002443F): Use U+9177 instead of UU+9177.
+	(U-00024454): Use U+84FA instead of CU+84FA.
+	(U-00024507): Modify structure.
+	(U-0002450A): Modify structure.
+	(U-0002450C): Modify structure.
+	(U-00024513): Modify structure.
+	(U-00024534): Modify structure.
+	(U-000249D2): Use U+76C6 instead of GT-29425.
+	(U-00024BAA): Use U+7077 instead of UU+7077.
+	(U-00024CDA): Use "巩" instead of "⿰工凡".
+	(U-00024E22): Use "𡷈" instead of "⿱山⿰山山".
+	(U-00024FBD): Modify structure.
+	(U-0002518A): Use U+389F instead of CU+389F.
+	(U-000251B5): Use U+7077 instead of UU+7077.
+	(U-00025494): Use U+389F instead of CU+389F.
+	(U-0002551E): Use U+76C6 instead of GT-29425.
+	(U-0002553A): Modify structure.
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+5F50 instead of JU+5F50.
+	- Use U+5C0F instead of GT-K00305.
+	- Use <CJK RADICAL SNOUT TWO> instead of UU+5F50.
+	(U-000222EA): Modify structure.
+	(U-00022462): Modify structure.
+	(U-00022478): Use "⿱彐𪤷" instead of CB12952.
+	(U-0002247A): Modify structure.
+	(U-00023AF9): Use "毒" instead of "⿱龶毋".
+
 2022-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use "𢑑" instead of "⿱彐彐".
