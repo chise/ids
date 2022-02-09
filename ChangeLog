@@ -1,5 +1,25 @@
 2022-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-000242F4): Use "𣧄" instead of "⿱巛歹".
+	(U-000242F7): Use U+594F instead of JU+594F.
+	(U-0002561C): Use U+53CA instead of CU+53CA.
+	(U-0002582C): Use U+594F instead of JU+594F.
+	(U-00025D09): Modify structure.
+
+2022-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000203FE): Use U+81FE instead of JU+81FE.
+	(U-000214F5): Use "⿱𦦚x" instead of "⿳臾臾x".
+	(U-00021A6A): Fixed.
+	(U-00021A6D): Use "⿱宷x" instead of "⿱宀⿱釆x".
+	(U-00021A71): Completed.
+	(U-00021A72): Modify structure.
+	(U-00021A7F): Use "⿱𡨤x" instead of "⿱宀⿱叕x".
+
+	* IDS-UCS-Ext-C.txt: Use <CJK RADICAL SNOUT TWO> instead of
+	AJ1-15391.
+	(U-0002AB84): Modify structure.
+
 	* IDS-UCS-Ext-B-3.txt:
 	- Use U+4ECA instead of UU+4ECA.
 	- Use U+3687 instead of CU+3687.
