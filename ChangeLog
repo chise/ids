@@ -1,3 +1,20 @@
+2022-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+4ECA instead of UU+4ECA.
+	- Use U+3687 instead of CU+3687.
+	- Use U-0002626A instead of IU+2626A.
+	- Use U+89D2 instead of JU+89D2.
+	- Use "敄" instead of "⿰矛攵".
+	(U-0002406D): Use "𧤅" instead of "⿱或角".
+	(U-00024173): Use "𧥑" instead of "⿱𢨋角".
+	(U-000245D5): Modify structure.
+	(U-000254FC): Use "𭩢" instead of "⿱巨木".
+	(U-00025520): Use U-000200A2 instead of IU+200A2.
+	(U-00025827): Use "𡱝" instead of "⿸尸羊".
+	(U-0002589D): Use U-000200A2 instead of IU+200A2.
+	(U-00025AC0): Use "𬴳" instead of "⿳一吅⿵𦉪丅".
+
 2022-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
@@ -10941,7 +10958,7 @@
 	* IDS-UCS-Ext-B-2.txt (U-00022324): Use "⿸聿丶" instead of "⿻聿
 	丶".
 	(U-00022327): Use "𣥜" instead of "⿱止日".
-	(U-00022478): Use "⿱x&I-CB12952;" instead of "⿳x彐⿰夕巾".
+	(U-00022478): Use "⿱x&CB12952;" instead of "⿳x彐⿰夕巾".
 	(U-00022635): Use "𡖉" instead of "⿰夕卪".
 
 	* IDS-CBETA.txt (CB12952): Use "彐" instead of "⿻┐一⿱一"; use
