@@ -1,5 +1,9 @@
 2022-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00025D0A): Use U+6562 instead of JU+6562.
+
+2022-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-3.txt (U-000242F4): Use "𣧄" instead of "⿱巛歹".
 	(U-000242F7): Use U+594F instead of JU+594F.
 	(U-0002561C): Use U+53CA instead of CU+53CA.
