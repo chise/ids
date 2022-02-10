@@ -1,3 +1,9 @@
+2022-02-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C751): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+5913): Use "&U-i002+2FF1;𦥑頁" instead of "⿴𦥑頁".
+
 2022-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025D0A): Use U+6562 instead of JU+6562.
