@@ -1,5 +1,33 @@
 2022-02-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt:
+	- Use "⿱爫<U+722B>x" instead of "⿱爫<CJK RADICAL PAW ONE>x".
+	- Use "⿱艹<U+8279>x" instead of "⿱艹<CJK RADICAL GRASS ONE>x".
+	- Use "⿴𨺅x" instead of "⿻<IU+28E85>x".
+	(U-00028373): Use "䍃" instead of "⿱爫缶".
+	(U-00028402): Modify structure.
+	(U-00028404): Modify structure.
+	(U-000284EE): Use "㸒" instead of "⿱爫壬".
+	(U-000287CF): Use "𤎭" instead of "⿱炎㐭".
+	(U-000287D0): Use "㙶" instead of "⿱&CDP-8BAA;堂".
+	(U-000287D5): Use "㬜" instead of "⿱臸日".
+	(U-000287D7): Use "蔿" instead of "⿱艹爲".
+	(U-000287E5): Use "𰘾" instead of "⿱磊木".
+	(U-000287E7): Modify structure.
+	(U-00028B87): Use "葻" instead of "⿱艹風".
+	(U-00028D62): Use "𰥍" instead of "⿱目大".
+	(U-00028D63): Fixed.
+	(U-00028E84): Use "㸒" instead of "⿱爫壬".
+	(U-00028E86): Use "𰥍" instead of "⿱目大".
+	(U-00028F30): Use "⿸隓x" instead of "⿰阝⿳左左土x".
+	(U-00028F32): Use "𬝑" instead of "⿳艹𠆢镸".
+	(U-00028F63): Use "𦾈" instead of "⿱艹喿".
+	(U-00028F6A): Use "⿴𱀝x" instead of "⿲阜x阜".
+	(U-00028F75): Use "㸂" instead of "⿱遂火".
+	(U-0002993B): Use "𠂕" instead of "⿱丿夫".
+	(U-00029963): Use "䍃" instead of "⿱爫缶".
+	(U-00029978): Use "𫇮" instead of "⿱艹戉".
+
 	* IDS-UCS-Ext-B-3.txt (U-00024702): Use "衞" instead of "衛".
 
 2022-02-10  MORIOKA Tomohiko  <tomo.git@chise.org>
