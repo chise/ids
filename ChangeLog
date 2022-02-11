@@ -1,3 +1,7 @@
+2022-02-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024702): Use "衞" instead of "衛".
+
 2022-02-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2C751): Modify structure.
