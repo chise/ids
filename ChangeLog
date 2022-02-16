@@ -1,4 +1,38 @@
+2022-02-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+4EA1 instead of UU+4EA1.
+	- Use <CJK RADICAL SNOUT TWO> instead of BC-8BAB.
+	- Use U+5725 instead of UU+5725.
+	- Use U+5DEE instead of JU+5DEE.
+	- Use U+81FD instead of UU+81FD.
+	(U-000284EF): Use U-00023D92 instead of GT-00120.
+	(U-0002864A): Use "𦼫" instead of "⿱艹豦".
+	(U-0002864B): Use "𧷏" instead of "⿱圥買".
+	(U-0002864E): Use "𧪟" instead of "⿰言𥄳".
+	(U-0002865C): Modify structure.
+	(U-000287C8): Use "⿰𢒫x" instead of "⿲彡尋x".
+	(U-00028A38): Use "䖟" instead of "⿱亡虫".
+	(U-00028A5F): Use "峉" instead of "⿱山各".
+	(U-00028B70): Use U+8056 instead of UU+8056.
+	(U-00028F33): Use U+8056 instead of UU+8056.
+	(U-00028F64): Use "𧷏" instead of "⿱圥買".
+	(U-000294DC): Use "芒" instead of "⿱艹亡".
+	(U-00029773): Use U-00024C07 instead of IU+24C07.
+	(U-00029775): Use "𰀦" instead of "⿰㠯㠯".
+	(U-000298AF): Use "㠩" instead of "⿱亾𫶧".
+	(U-000298C7): Use "巟" instead of "⿱亡𫶧".
+	(U-000298C8): Use "㠩" instead of "⿱亾𫶧".
+	(U-000298D0): Use "巟" instead of "⿱亡𫶧".
+	(U-000298D3): Use "𫾦" instead of "⿱𠂉攴".
+	(U-00029958): Use "峳" instead of "⿱山攸".
+	(U-00029E82): Use "𰀒" instead of "⿱丙丙".
+	(U-00029F6B): Use "𩺃" instead of "⿱差魚".
+
 2022-02-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002136C): Use U+5725 instead of UU+5725.
+	(U-00021411): Ditto.
 
 	* IDS-UCS-Ext-B-4.txt (U-000277CE): Use "𧸇" instead of
 	"⿳圥囧貝".
