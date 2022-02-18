@@ -165,7 +165,7 @@ U+4EA2	亢	⿱亠几
 U+4EA3	亣	⿱亠&CDP-89AB;
 U+4EA4	交	⿱亠父
 U+4EA5	亥	⿳亠&GT-00154;人
-U+4EA6	亦	⿱亠&CDP-8CB5;
+U+4EA6	亦	&U-i001+2FF1;亣八	@apparent=⿱亠&CDP-8CB5;
 U+4EA7	产	⿱&CDP-8BAE;厂
 U+4EA8	亨	⿱⿱亠口了
 U+4EA9	亩	⿱亠田
