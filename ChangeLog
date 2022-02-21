@@ -1,3 +1,21 @@
+2022-02-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002158D): Modify structure; add an
+	apparent structure.
+
+	* IDS-UCS-Ext-B-5.txt: Use U+7FC1 instead of MJ020661.
+	(U-00028382): Use "唇" instead of "⿸辰口".
+	(U-00028552): Use "昰" instead of "⿱日正".
+	(U-00029115): Use "昰" instead of "⿱日正".
+	(U-00029119): Use "圅" instead of "⿱龴⿴囗𢆉".
+	(U-0002911A): Use U+771E instead of UU+771E.
+	(U-0002951B): Use "栞" instead of "⿱幵木".
+	(U-0002951E): Use "圅" instead of "⿱龴⿴囗𢆉".
+	(U-0002951F): Use "㕋" instead of "⿸厂金".
+	(U-00029C2C): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00029C40): Use U-0002626A instead of IU+2626A.
+
 2022-02-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024CAF): Fixed.
