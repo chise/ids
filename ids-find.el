@@ -772,6 +772,9 @@ COMPONENT can be a character or char-spec."
 	ret dest sub)
     (while rest
       (setq cell (pop rest))
+      (if (and (consp cell)
+	       (setq ret (find-char cell)))
+	  (setq cell ret))
       (cond
        ((and (consp cell)
 	     (cond ((setq ret (assq 'ideographic-structure cell))
