@@ -1,4 +1,51 @@
+2022-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use <CJK RADICAL SNOUT TWO> instead of AJ1-15391.
+	- Use U+4E11 instead of JU+4E11.
+	- Use U+516B instead of GT-K00059.
+	- Use "⿱爫<U+722B>x" instead of "⿱爫<CJK RADICAL PAW ONE>x".
+	(U-00022309): Use "夓" instead of "⿳⿻𦥑𦣻八夂".
+	(U-0002247B): Use U+5185 instead of U+5167.
+	(U-00022498): Use U+7F8C instead of JU+7F8C.
+	(U-0002273E): Use "𢦶" instead of "⿹戈⿱工八".
+	(U-000229C7): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00022BA3): Fixed.
+	(U-00022BC9): Use "𤓻" instead of "⿱爫天".
+	(U-00022BCC): Use "𢪘" instead of "⿱分手".
+	(U-00022C0E): Use "⿱丗x" instead of "⿱卅⿱一x".
+	(U-00022ED0): Use U+7F8C instead of JU+7F8C.
+	(U-00022F20): Fixed.
+	(U-00022F21): Use "𦓤" instead of "⿱丿未".
+	(U-00022F22): Use "杀" instead of "⿱㐅木".
+	(U-00022F3F): Modify structure.
+	(U-00022F40): Use "𤆍" instead of "⿱大火".
+	(U-0002315B): Use "𬽪" instead of "⿰亻日".
+	(U-00023241): Use "爯" instead of "⿱爫冉".
+	(U-00023444): Use "𡦿" instead of "⿱宀𠔀".
+	(U-00023445): Modify structure.
+	(U-00023503): Modify structure.
+	(U-00023AF1): Use U+6BCB instead of JU+6BCB.
+	(U-00023AF3): Ditto.
+	(U-00023D3C): Use "㒵" instead of "⿱白八".
+	(U-00023D69): Use "𤆍" instead of "⿱大火".
+	(U-00023DCD): Use "𭕘" instead of "⿸尸目".
+	(U-00023DCE): Use "𮎟" instead of "⿱艹月".
+	(U-00023DD1): Modify structure.
+	(U-00023E01): Use "𦘔" instead of "⿹聿彡".
+	(U-00023E43): Fixed.
+	(U-00023E94): Use "𡘰" instead of "⿱大豆".
+
+2022-02-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ideographic-structure-compact): Convert components
+	represented by char-specs to character-objects.
+
 2022-02-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029C2C): Use U-0002626A instead of
+	IU+2626A.
 
 	* IDS-UCS-Ext-B-1.txt (U-0002158D): Modify structure; add an
 	apparent structure.
