@@ -1,3 +1,54 @@
+2022-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+4E38 instead of CU+4E38.
+	- Use U+5316 instead of JU+5316.
+	- Use U+7077 instead of UU+7077.
+	(U-0002235E): Use "⿱x𢌿" instead of "⿳x田廾".
+	(U-000224FF): Modify structure.
+	(U-00022509): Use "𡿱" instead of "⿳一巛𡈼".
+	(U-0002250E): Use "𭖒" instead of "⿱山主".
+	(U-000226F7): Use U+623F instead of CU+623F.
+	(U-000227C7): Use "&U-i001+2FF6;悘x" instead of "⿱⿰x医心".
+	(U-00022A61): Use "𢨪" instead of "⿸户巳".
+	(U-00022A63): Use U+623F instead of CU+623F.
+	(U-00022A64): Use "雇" instead of "⿸户隹".
+	(U-00022B09): Use "𢨩" instead of "⿸戶匕".
+	(U-00022B0D): Use "厌" instead of "⿸厂犬".
+	(U-00022B85): Use "𢌿" instead of "⿱田廾".
+	(U-00022B87): Use "毐" instead of "⿱士母".
+	(U-00022B89): Use "𠩓" instead of "⿸厂兆".
+	(U-00022BB6): Use "㞺" instead of "⿱山矢".
+	(U-00022BB8): Use "奌" instead of "⿱占大".
+	(U-00022BBB): Use U+82A9 instead of CU+82A9.
+	(U-00022BC0): Use "&U-i001+2FFB;乇北" instead of "⿻乇北".
+	(U-00022BC4): Use "𢼄" instead of "⿰戶攵".
+	(U-00022BC8): Use "𡴋" instead of "⿱山母".
+	(U-00023488): Use "𭖒" instead of "⿱山主".
+	(U-000234DE): Use "𦙚" instead of "⿰龵月".
+	(U-000234EF): Use U+623F instead of UU+623F.
+	(U-000234FD): Use "&U-i001+2FFB;乇北" instead of "⿻乇北".
+	(U-0002363D): Use U+514D instead of JU+514D.
+	(U-0002363E): Use U+80A9 instead of UU+80A9.
+	(U-000236BB): Use U+514D instead of JU+514D.
+	(U-00023A56): Use "爯" instead of "⿱爫冉".
+	(U-00023D07): Use "厌" instead of "⿸厂犬".
+	(U-00023DCF): Use U+82A9 instead of CU+82A9.
+	(U-00023DD4): Use U+623F instead of CU+623F.
+	(U-00023DD9): Use "𢼄" instead of "⿰戶攵".
+	(U-00023DE5): Use "⿰x𦙚" instead of "⿲x龵月".
+	(U-00023DEA): Use "𭖒" instead of "⿱山主".
+	(U-00023DEE): Use "𥐧" instead of "⿱石廾".
+	(U-00023E03): Use U-00026B38 instead of CU+26B38.
+	(U-00023E04): Use U+661D instead of JU+661D.
+	(U-00023FEE): Use U+8475 instead of CU+8475.
+
+2022-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020104): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-0002010A): Likewise.
+
 2022-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
