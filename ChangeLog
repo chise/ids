@@ -1,3 +1,11 @@
+2022-03-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U-0002D950 instead of hanaJU+2D950.
+	(U-000226F5): Use U+722D instead of JU+722D.
+	(U-00022BB7): Use U+82B3 instead of CU+82B3.
+	(U-000234DC): Use "⿴林x" instead of "⿰木x木".
+	(U-00023E06): Use U+8308 instead of CU+8308.
+
 2022-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
