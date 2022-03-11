@@ -1,3 +1,13 @@
+2022-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+4674 instead of BC-8DA9.
+	(U-00023EDF): Use "𮍏" instead of "⿵戊臣".
+
+	* IDS-UCS-Ext-A.txt (U+41D6): Use U-000206A3 instead of BC-8DC9.
+
+	* IDS-UCS-Ext-E.txt (U+2C6C2): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 2022-03-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+3ECE): Use "&U-i001+2FFB;大玨" instead of
