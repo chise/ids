@@ -1,5 +1,7 @@
 2022-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2E326): Use "⿸脛x" instead of "⿰月⿱巠x".
+
 	* IDS-UCS-Ext-B-2.txt: Use U+4674 instead of BC-8DA9.
 	(U-00023EDF): Use "𮍏" instead of "⿵戊臣".
 
