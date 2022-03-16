@@ -1,3 +1,28 @@
+2022-03-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E328): Use U+9004 instead of JU+9004.
+	(U+2E32B): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A407): Use "㤐" instead of "⿱占心".
+	(U-0002A411): Use "𡼁" instead of "⿱山离".
+	(U-0002A412): Use "𪏰" instead of "⿱黍日".
+	(U-0002A413): Use "𬃷" instead of "⿱束束".
+	(U-0002A415): Use "⿱x𪏽" instead of "⿳x黍甘".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024BD2): Use "⿱x𪏽" instead of
+	"⿳x黍甘".
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-24010): Fixed.
+
+2022-03-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8C46): Add IDS.
+
+2022-03-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026DE3): Modify structure.
+
 2022-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2E326): Use "⿸脛x" instead of "⿰月⿱巠x".
