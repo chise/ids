@@ -1,3 +1,24 @@
+2022-03-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002217F): Use "𣚨" instead of "⿰𣏼𣏼".
+	(U-00022182): Use "㓱" instead of "⿰俞刂".
+	(U-00022441): Use U+856D instead of CU+856D.
+	(U-00022E30): Use "㬜" instead of "⿱臸日".
+	(U-00022E33): Use U+856D instead of CU+856D.
+	(U-00022E41): Use "錿" instead of "⿰金虎".
+	(U-00022E51): Use "䆸" instead of "⿱穴登".
+	(U-00022E5A): Use "䯹" instead of "⿱髟𠬶".
+	(U-00022E5E): Use "𢩠" instead of "⿸户睘".
+	(U-00022E5F): Modify structure.
+	(U-00022E60): Fixed.
+	(U-00022E65): Use "壓" instead of "⿸厂⿱猒土".
+	(U-00022E73): Use "𰥇" instead of "⿱與皿".
+	(U-00022E78): Use "叢" instead of "⿱丵取".
+	(U-00022E79): Use "藍" instead of "⿱艹監".
+	(U-00022E7B): Use "𩔇" instead of "⿰皇頁".
+	(U-00022E8C): Use "𣚨" instead of "⿰𣏼𣏼".
+	(U-00023829): Use "藍" instead of "⿱艹監".
+
 2022-03-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
