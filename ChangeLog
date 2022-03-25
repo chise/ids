@@ -1,3 +1,18 @@
+2022-03-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025AA8): Use "𣂜" instead of "⿰臣斤".
+	(U-00025AAD): Use "斬" instead of "⿰車斤".
+	(U-00025AB0): Use "⿱暜x" instead of "⿳竝日x".
+
+	* IDS-UCS-Ext-B-1.txt (U-0002154B): Modify structure; use "𤾊"
+	instead "⿹𢏚白".
+	(U-0002154D): Use "⿴𡔲x" instead of "⿱士⿴&CDP-87A5;x".
+	(U-0002154E): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+79BA): Add IDS.
+	(U+9ECD): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 2022-03-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002217F): Use "𣚨" instead of "⿰𣏼𣏼".
