@@ -1,5 +1,9 @@
 2022-03-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+8D1B): Modify structure.
+
+2022-03-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+7AE0): Modify structure; preserve the
 	previous IDS as an apparent structure.
 	(U+8F9B): Add an apparent structure.
