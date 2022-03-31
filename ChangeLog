@@ -1,5 +1,10 @@
 2022-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+5AD0): Use "⿴奻x" instead of "⿲女x女".
+	(U+5B32): Use "⿴𤲶x" instead of "⿲男x男".
+
+2022-03-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+58F9): Modify structure; preserve the
 	previous IDS as an apparent structure.
 	(U+5DEB): Add IDS.
