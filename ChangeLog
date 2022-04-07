@@ -1,3 +1,9 @@
+2022-04-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+76E1): Use U-0002DD18 instead of BC-8CA5.
+	(U+8CEB): Modify structure.
+	(U+8CEE): Use U-0002DD18 instead of BC-8CA5.
+
 2022-04-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021CA9): Modify structure.
