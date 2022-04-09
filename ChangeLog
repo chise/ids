@@ -1,3 +1,9 @@
+2022-04-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024D1B): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-00024D1C): Use "⿴林x" instead of "⿲木x木".
+
 2022-04-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+76E1): Use U-0002DD18 instead of BC-8CA5.
