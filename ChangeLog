@@ -1,3 +1,9 @@
+2022-04-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+96D9): Fixed.
+	(U+96DC): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 2022-04-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024D1B): Modify structure; preserve the
