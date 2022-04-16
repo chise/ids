@@ -1,4 +1,78 @@
+2022-04-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021CBF): Modify structure.
+
 2022-04-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02611): Completed.
+	(SW-JIGUGE-07404): Fixed.
+	(SW-JIGUGE-09015): Modify structure.
+	(SW-JIGUGE-09821): Modify structure.
+	(SW-JIGUGE-11129): Fixed.
+	(SW-JIGUGE-11202): Fixed.
+	(SW-JIGUGE-11900): Fixed.
+	(SW-JIGUGE-11901): Use "&U-i001+2FFB;" instead of "⿻".
+	(SW-JIGUGE-11905): Completed.
+	(SW-JIGUGE-12106): Modify structure; preserve the previous IDS as
+	an apparent structure.
+	(SW-JIGUGE-12600): Completed.
+	(SW-JIGUGE-13109): Completed.
+	(SW-JIGUGE-14224): Completed.
+	(SW-JIGUGE-14412): Completed.
+	(SW-JIGUGE-14516): Completed.
+	(SW-JIGUGE-14720): Use "&SW-JIGUGE-42315;" instead of "⿰&SW-JIGUGE-41719;&SW-JIGUGE-47806;".
+	(SW-JIGUGE-14907): Fixed.
+	(SW-JIGUGE-15801): Fixed.
+	(SW-JIGUGE-16704): Completed.
+	(SW-JIGUGE-18113): Completed.
+	(SW-JIGUGE-18531): Completed.
+	(SW-JIGUGE-18630): Completed.
+	(SW-JIGUGE-18715): Completed.
+	(SW-JIGUGE-18721): Completed.
+	(SW-JIGUGE-18806): Completed.
+	(SW-JIGUGE-18810): Completed.
+	(SW-JIGUGE-18831): Completed.
+	(SW-JIGUGE-18907): Add IDS.
+	(SW-JIGUGE-18912): Completed.
+	(SW-JIGUGE-18919): Completed.
+	(SW-JIGUGE-18924): Fixed.
+	(SW-JIGUGE-19101): Fixed.
+	(SW-JIGUGE-19118): Completed.
+	(SW-JIGUGE-19204): Fixed.
+	(SW-JIGUGE-19408): Completed.
+	(SW-JIGUGE-19421): Completed.
+	(SW-JIGUGE-19505): Completed.
+	(SW-JIGUGE-19510): Completed.
+	(SW-JIGUGE-19611): Completed.
+	(SW-JIGUGE-20002): Use "⿴&SW-JIGUGE-19913;x" instead of "⿲&SW-JIGUGE-18300;x&SW-JIGUGE-18300;".
+	(SW-JIGUGE-20612): Completed.
+	(SW-JIGUGE-20614): Fixed.
+	(SW-JIGUGE-23906): Completed.
+	(SW-JIGUGE-24127): Fixed.
+	(SW-JIGUGE-24131): Completed.
+	(SW-JIGUGE-24401): Fixed.
+	(SW-JIGUGE-24511): Fixed.
+	(SW-JIGUGE-25429): Completed.
+	(SW-JIGUGE-28222): Fixed.
+	(SW-JIGUGE-29113): Completed.
+	(SW-JIGUGE-29314): Completed.
+	(SW-JIGUGE-29835): Completed.
+	(SW-JIGUGE-32023): Fixed [temporary].
+	(SW-JIGUGE-32400): Completed.
+	(SW-JIGUGE-35300): Completed.
+	(SW-JIGUGE-35301): Fixed.
+	(SW-JIGUGE-37417): Completed.
+	(SW-JIGUGE-37510): Completed.
+	(SW-JIGUGE-37614): Completed.
+	(SW-JIGUGE-39804): Completed.
+	(SW-JIGUGE-40410): Completed.
+	(SW-JIGUGE-41801): Completed.
+	(SW-JIGUGE-42216): Completed.
+	(SW-JIGUGE-49104): Completed.
+
+	* IDS-Daikanwa-01.txt (M-00096): Fixed.
+
+	* IDS-CDP.txt (CDP-87B9): Fixed.
 
 	* IDS-UCS-Basic.txt (U+8336): Modify structure.
 	(U+8881): Modify structure; preserve the previous IDS as an
