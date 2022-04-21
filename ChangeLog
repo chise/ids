@@ -1,8 +1,25 @@
 2022-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+591C): Modify structure.
+	(U+5C50): Modify structure.
+
 	* IDS-UCS-Ext-A.txt (U+3B82): Use "⿱𰥍x" instead of "⿳目大x".
 	(U+41A9): Use "𰥍" instead of "⿱目大".
 	(U+42F0): Ditto.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-07331): Completed.
+	(SW-JIGUGE-09703): Completed.
+	(SW-JIGUGE-19427): Fixed.
+	(SW-JIGUGE-19431): Completed.
+	(SW-JIGUGE-20818): Completed.
+	(SW-JIGUGE-28807): Completed.
+	(SW-JIGUGE-34102): Completed.
+	(SW-JIGUGE-35110): Completed.
+	(SW-JIGUGE-35127): Completed.
+	(SW-JIGUGE-35128): Completed.
+	(SW-JIGUGE-35129): Completed.
+	(SW-JIGUGE-47123): Completed.
+	(SW-JIGUGE-47302): Completed.
 
 2022-04-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
