@@ -1,3 +1,31 @@
+2022-04-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+4ECA instead of UU+4ECA.
+	- Use "爻" instead of "⿱㐅㐅".
+	- Use "气" instead of "⿳𠂉一乙".
+	- Use U+9FB9 instead of BC-8BFA.
+	(U-00028107): Modify structure.
+	(U-00028190): Modify structure.
+	(U-00028191): Use "𥭽" instead of "⿱竹足".
+	(U-0002828F): Use "誊" instead of "⿱龹言".
+	(U-000283D0): Modify structure.
+	(U-000285A9): Use "眷" instead of "⿱龹目".
+	(U-00028856): Use "𥁄" instead of "⿱亏皿".
+	(U-0002885E): Use "靣" instead of "⿳一丿回".
+	(U-0002885F): Use "𢌿" instead of "⿱田廾".
+	(U-00028862): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00028865): Use "㕻" instead of "⿱丶否".
+	(U-00028984): Use "㕂" instead of "⿸厂今".
+	(U-00029066): Use "隻" instead of "⿱隹又".
+	(U-0002906D): Use "奞" instead of "⿱大隹".
+	(U-000294A3): Use "㕂" instead of "⿸厂今".
+	(U-000295A9): Use "𠕀" instead of "⿵冂又".
+	(U-00029829): Use "⿰x𢼂" instead of "⿲x⿱㐅㐅⺙".
+	(U-000299AD): Fixed.
+	(U-00029ADC): Use "𢌿" instead of "⿱田廾".
+
 2022-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+591C): Modify structure.
