@@ -22,6 +22,35 @@
 	(U-00029360): Use "𨔶" instead of "⿺辶⿱大羊".
 	(U-00029828): Use "秇" instead of "⿰禾丸".
 
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+6B7A instead of U+2E9E[<CJK RADICAL DEATH>].
+	- Use "𦓔" instead of "⿱而而".
+	- Use U+6C3A instead of BC-8C41.
+	(U-00022873): Fixed.
+	(U-00022876): Use "𡙕" instead of "⿰㚔丮".
+	(U-00022878): Use "𥇇" instead of "⿰目沙".
+	(U-00022879): Use "㣫" instead of "⿰彳重".
+	(U-0002287E): Use "𥆝" instead of "⿱沙目".
+	(U-00022D37): Use "𡙕" instead of "⿰㚔丮".
+	(U-00022D38): Use "𡎐" instead of "⿰坴丮".
+	(U-0002307C): Use "㫄" instead of "⿱亠⿹勹方".
+	(U-000235F6): Use "眔" instead of "⿱⺫氺".
+	(U-0002367A): Fixed.
+	(U-0002367C): Use "辝" instead of "⿰台辛".
+	(U-00023685): Use "悳" instead of "⿱直心".
+	(U-00023687): Modify structure.
+	(U-0002368B): Use "𦳃" instead of "⿱艹耶".
+	(U-0002386C): Modify structure.
+	(U-000238EF): Fixed.
+	(U-00023A33): Modify structure.
+	(U-00023DA2): Use "㫄" instead of "⿱亠⿹勹方".
+	(U-00023DA4): Use "𫩣" instead of "⿱央口".
+	(U-00023DA6): Use "𡇈" instead of "⿴囗石".
+	(U-00023E36): Use "⿰x残" instead of "⿲x歹戋".
+	(U-00023E38): Use "沗" instead of "⿱天氺".
+	(U-00023ECB): Completed.
+	(U-00023ECE): Use "𡨥" instead of "寇".
+
 2022-04-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+6C3A instead of U+2EA2 [<CJK RADICAL
