@@ -1,3 +1,33 @@
+2022-05-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+4E11 instead of JU+4E11.
+	- Use U+845B instead of CU+845B.
+	- Use "㕛" instead of "⿱又又".
+	- Use "陁" instead of "⿰阝㐌".
+	- Use U+5203 instead of C1-4443.
+	- Use U+4E38 instead of CU+4E38.
+	- Use U+6C3A instead of BC-8C41.
+	- Use U+5316 instead of JU+5316.
+	- Use "𠧒" instead of "⿱⺊乙".
+	- Use U+6BB9 instead of JU+6BB9.
+	(U-00028594): Use "𡝼" instead of "⿸尸⿱氺女".
+	(U-00028648): Modify structure.
+	(U-0002879D): Fixed.
+	(U-0002879E): Use "𥂀" instead of "⿱朋皿".
+	(U-00028CCF): Use U-0002011E instead of U+4E8C as the upper
+	component; preserve the previous IDS as an apparent structure.
+	(U-00028D19): Fixed.
+	(U-0002935E): Fixed.
+	(U-00029360): Use "𨔶" instead of "⿺辶⿱大羊".
+	(U-00029828): Use "秇" instead of "⿰禾丸".
+
+2022-04-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+6C3A instead of U+2EA2 [<CJK RADICAL
+	WATER TWO>].
+	(U-0002164C): Completed.
+
 2022-04-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
