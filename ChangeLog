@@ -1,3 +1,17 @@
+2022-05-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+9761 instead of JU+9761.
+	- Use U-00026C29 instead of BC-8BD3.
+	(U-00028393): Use "⿴䡛x" instead of "⿲車x車".
+	(U-00028397): Use "⿰x𢒗" instead of "⿲x易彡".
+	(U-00028595): Use U+901A instead of CU+901A.
+	(U-00028597): Use "莙" instead of "⿱艹君".
+	(U-00028599): Use "眾" instead of "⿱⺫㐺".
+	(U-00029149): Use "眾" instead of "⿱⺫㐺".
+	(U-00029208): Use U+4E30 instead of CU+4E30.
+	(U-00029C97): Ditto.
+
 2022-05-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt:
