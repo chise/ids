@@ -1,4 +1,35 @@
+2022-05-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use U+7FD2 instead of UU+7FD2.
+	(U-0002809B): Use "𢆎" instead of "⿱𡗜干".
+	(U-00028AE6): Ditto.
+	(U-00028EF6): Use "𡭽" instead of "⿱少⿱日小".
+	(U-00028EFC): Use "𡌦" instead of "⿱非土".
+	(U-00029638): Use "𮊿" instead of "⿱羽𠇍".
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U+5EE3 instead of CU+5EE3.
+	- Use U+6535 instead of <CJK RADICAL RAP>.
+	- Use U+9AA8 instead of JU+9AA8.
+	(U-0002061E): Fixed.
+	(U-0002080F): Use U+53B2 instead of CU+53B2.
+	(U-00020D5D): Use U+82BD instead of CU+82BD.
+	(U-00021096): Use U+53B2 instead of CU+53B2.
+	(U-0002177F): Use U+82BD instead of CU+82BD.
+	(U-00021781): Use "芡" instead of "⿱艹欠".
+	(U-00021783): Use "㚖" instead of "⿱白大".
+	(U-0002182D): Confirmed.
+	(U-00021875): Modify structure.
+	(U-00021ACE): Use "𢾟" instead of "⿰⿱白木⺙".
+	(U-00021EFD): Use "園" instead of "⿴囗⿳土𠂈&CDP-8CC6;".
+	(U-00021F28): Use "𣓏" instead of "⿱林木".
+	(U-00021F86): Use "頟" instead of "⿰各頁".
+
 2022-05-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022C36): Use U+82F1 instead of CU+82F1.
+	(U-00023139): Use U+7FD2 instead of UU+7FD2.
+	(U-00023A3D): Use U+82F1 instead of CU+82F1.
 
 	* IDS-UCS-Ext-B-5.txt:
 	- Use U+9761 instead of JU+9761.
