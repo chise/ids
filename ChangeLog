@@ -9,6 +9,12 @@
 	* IDS-UCS-Basic.txt (U+97DF): Use "皋" instead of "⿳白大十"
 	[suggested by Jaemin Chung [2022-05-01 02:21:49 +0000]].
 
+	* IDS-UCS-Ext-A.txt (U+3612): Fixed [suggested by Jaemin Chung
+	[2022-05-01 02:21:49 +0000]].
+	(U+468C): Use "皋" instead of "⿳白大十" [suggested by Jaemin
+	Chung [2022-05-01 02:21:49 +0000]].
+	(U+4702): Ditto.
+
 2022-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+8449 instead of UU+8449.
