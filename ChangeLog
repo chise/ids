@@ -1,3 +1,24 @@
+2022-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+8449 instead of UU+8449.
+	(U-000203D8): Use "⿸侃x" instead of "⿰亻⿳口𫶧x".
+	(U-000203DA): Use U+6108 instead of UU+6108.
+	(U-00020D5C): Use U+7F54 instead of UU+7F54.
+	(U-0002100D): Use U+6108 instead of UU+6108.
+	(U-0002100E): Use U+5FAE instead of JU+5FAE.
+	(U-00021095): Use U+84FC instead of CU+84FC.
+	(U-00021466): Use U+3B05 instead of UU+3B05.
+	(U-0002189A): Ditto.
+	(U-000218A8): Use U+8056 instead of UU+8056.
+	(U-000218AA): Use U+97EE instead of CU+97EE.
+	(U-00021F6A): Use U+7CFB instead of UU+7CFB.
+
+	* IDS-UCS-Basic.txt (U+5841): Modify structure.
+	(U+5842): Use "巷" instead of "⿱共己".
+	(U+7582): Modify structure.
+	(U+7589): Modify structure.
+	(U+758A): Use "⿱x冝" instead of "⿳x冖且".
+
 2022-05-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use U+7FD2 instead of UU+7FD2.
