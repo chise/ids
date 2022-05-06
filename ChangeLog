@@ -1,5 +1,16 @@
 2022-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-0002716A): Use "⿱萅x" instead of
+	"⿳芚日x".
+	(U-0002716B): Use "⿳x𦥯見" instead of "⿱x覺" [suggested by
+	Jaemin Chung [2022-05-01 02:21:49 +0000]].
+	(U-0002716F): Use "𪅆" instead of "⿰离鳥".
+
+	* IDS-UCS-Basic.txt (U+97DF): Use "皋" instead of "⿳白大十"
+	[suggested by Jaemin Chung [2022-05-01 02:21:49 +0000]].
+
+2022-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt: Use U+8449 instead of UU+8449.
 	(U-000203D8): Use "⿸侃x" instead of "⿰亻⿳口𫶧x".
 	(U-000203DA): Use U+6108 instead of UU+6108.
