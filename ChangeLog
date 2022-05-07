@@ -1,3 +1,11 @@
+2022-05-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-0002741D): Use "㪷" instead of "⿰豆斗".
+	(U-00027422): Fixed [suggested by Jaemin Chung [Sun, 1 May 2022
+	04:35:35 +0000]].
+	(U-00027435): Use "㪷" instead of "⿰豆斗".
+	(U-00027437): Use "𢉉" instead of "⿸广⿱𡗜土".
+
 2022-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-0002716A): Use "⿱萅x" instead of
