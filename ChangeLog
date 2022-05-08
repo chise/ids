@@ -1,5 +1,35 @@
 2022-05-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+8FB6 instead of <CJK RADICAL SIMPLIFIED WALK>.
+	- Use "㪅" instead of "⿱丙攴".
+	(U-00024060): Use "遙" instead of "⿺辶䍃".
+	(U-00024321): Use "⿱𤇾x" instead of "⿱炏⿱冖x" [suggested by
+	Jaemin Chung [2022-05-03 08:42:24 +0000]].
+	(U-00024367): Use "⿱𤇾x" instead of "⿳炏冖x" [suggested by
+	Jaemin Chung [2022-05-03 08:42:24 +0000]].
+	(U-00024BF5): Use "⿱𤇾x" instead of "⿳炏冖x" [suggested by
+	Jaemin Chung [2022-05-03 08:42:24 +0000]].
+	(U-00024BFD): Use "𤯳" instead of "⿺⿱丙攴生".
+	(U-000258E6): Use "遟" instead of "⿺辶屖".
+	(U-0002590D): Use "邉" instead of "⿺辶⿳自穴口".
+	(U-00025CBC): Use "𠊳" instead of "⿰亻⿱丙攴".
+	(U-00025CBD): Use "𥭭" instead of "⿱竹坐".
+	(U-00025CE0): Use "𨔛" instead of "⿺辶虎".
+	(U-00025CE7): Use "歨" instead of "⿱止龰".
+	(U-00025CE9): Use "𭄁" instead of "⿰留刂".
+
+	* IDS-UCS-Ext-B-1.txt (U-00020665): Fixed.
+	(U-00020666): Use "⿱𤇾x" instead of "⿳炏冖x" [suggested by
+	Jaemin Chung [2022-05-03 08:42:24 +0000]].
+
+	* IDS-UCS-Ext-B-4.txt (U-00026D0C): Fixed [suggested by Jaemin
+	Chung [2022-05-03 08:42:24 +0000]].
+	(U-00026D64): Use U+3774 instead of BC-8DB7 [suggested by Jaemin
+	Chung [2022-05-03 08:42:24 +0000]].
+	(U-00026D65): Use "叞" instead of "⿰𫵖又".
+	(U-000276FD): Ditto.
+
 	* IDS-UCS-Ext-B-2.txt (U-00023088): Use "⿱𤇾x" instead of
 	"⿳炏冖x" [suggested by Jaemin Chung [2022-05-03 08:42:24 +0000]].
 
