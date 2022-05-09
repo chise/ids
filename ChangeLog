@@ -1,5 +1,23 @@
 2022-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-00029BE2): Modify structure.
+	(U-00029BE3): Use "⿱x𡕰" instead of "⿳x⿶凵𠂭⿱八夂" [suggested
+	by Jaemin Chung [2022-05-02 03:17:38 +0000]].
+	(U-00029F15): Use "𡕰" instead of "⿳⿶凵𠂭八夊" [suggested by
+	Jaemin Chung [2022-05-02 03:17:38 +0000]].
+
+	* IDS-UCS-Ext-B-4.txt (U-0002758D): Fixed.
+	(U-00027590): Fixed [suggested by Jaemin Chung [2022-05-02
+	03:17:38 +0000]].
+	(U-00027597): Fixed.
+	(U-0002759F): Use "兟" instead of "⿰先先".
+	(U-000275A0): Use "𮭘" instead of "⿰歲鳥".
+	(U-000275A4): Fixed.
+	(U-000275A6): Use "蠻" instead of "⿱䜌虫".
+
+	* IDS-UCS-Ext-G.txt (U+30BF2): Modify structure; add an apparent
+	structure.
+
 	* IDS-UCS-Ext-B-3.txt (U-00024A80): Use "𡕰" instead of "⿳𠚍八夊"
 	[suggested by Jaemin Chung [2022-05-02 03:17:38 +0000]].
 	(U-000255FD): Fixed [suggested by Jaemin Chung [2022-05-02
