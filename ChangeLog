@@ -1,3 +1,26 @@
+2022-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024A80): Use "𡕰" instead of "⿳𠚍八夊"
+	[suggested by Jaemin Chung [2022-05-02 03:17:38 +0000]].
+	(U-000255FD): Fixed [suggested by Jaemin Chung [2022-05-02
+	03:17:38 +0000]].
+	(U-000255FF): Use "𡿏" instead of "⿱山羅".
+
+2022-05-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2BF4A): Use "学" instead of "⿱龸子"
+	[suggested by Jaemin Chung [2022-05-02 03:17:38 +0000]].
+
+	* IDS-UCS-Ext-B-1.txt (U-00021487): Use "𡕰" instead of
+	"⿳⿶凵𠂭八夊" [suggested by Jaemin Chung [2022-05-02 03:17:38
+	+0000]].
+	(U-00021570): Use "𠚍" instead of "⿶凵𠂭".
+	(U-0002165E): Completed.
+	(U-0002165F): Modify structure; add IDS suggested by Jaemin Chung
+	[2022-05-02 03:17:38 +0000] as an apparent structure.
+	(U-00021F40): Use "𡕰" instead of "⿳⿶凵𠂭儿夊" [suggested by
+	Jaemin Chung [2022-05-02 03:17:38 +0000]].
+
 2022-05-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+51A0): Use U+3774 instead of BC-8DB7
