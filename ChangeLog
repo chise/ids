@@ -1,5 +1,8 @@
 2022-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-C.txt (U-0002A9C2): Use "𰯲" instead of
+	"⿰臣⿱&CDP-89BC;罒".
+
 	* IDS-UCS-Ext-B-5.txt (U-00029BE2): Modify structure.
 	(U-00029BE3): Use "⿱x𡕰" instead of "⿳x⿶凵𠂭⿱八夂" [suggested
 	by Jaemin Chung [2022-05-02 03:17:38 +0000]].
