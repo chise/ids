@@ -1,3 +1,8 @@
+2022-05-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000240DE): Fixed [suggested by Jaemin
+	Chung [2022-05-02 08:11:44 +0000]].
+
 2022-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022DA3): Use "叠" instead of "⿱叒冝".
