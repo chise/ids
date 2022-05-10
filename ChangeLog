@@ -1,5 +1,11 @@
 2022-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022DA3): Use "叠" instead of "⿱叒冝".
+	(U-00023716): Ditto.
+	(U-00023FEB): Ditto.
+
+2022-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt (U-00023E8F): Modify component.
 	(U-00023E90): Use "⿰x眣" instead of "⿲x目失".
 
