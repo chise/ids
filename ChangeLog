@@ -1,4 +1,12 @@
+2022-05-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002269D): Use "矣" instead of "⿱厶矢".
+	(U-000226A4): Use "𪱳" instead of "⿰木口".
+	(U-000226A9): Use "⿱𪺍x" instead of "⿳爫⺕x".
+
 2022-05-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3C16): Use "覧" instead of "⿱⿰臣&CDP-89BC;見".
 
 	* IDS-UCS-Ext-B-3.txt (U-000240DE): Fixed [suggested by Jaemin
 	Chung [2022-05-02 08:11:44 +0000]].
