@@ -1,3 +1,15 @@
+2022-05-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E121): Modify structure.
+	(U+2E123): Completed.
+	(U+2E125): Fixed [reported by Jaemin Chung [2022-05-02 08:11:44
+	+0000]].
+	(U+2E126): Modify structure.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028C22): Use "𫠙" instead of "⿰齒殳".
+	(U-00028C28): Fixed [suggested by Jaemin Chung [2022-05-04
+	00:23:18 +0000]].
+
 2022-05-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+51A5): Add IDS suggested by Jaemin Chung
