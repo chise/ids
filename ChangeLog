@@ -1,3 +1,10 @@
+2022-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-0002543B): Use U+5188 instead of U+7F53
+	[suggested by Jaemin Chung
+	[2022-05-05 08:11:27 +0000]].
+	(U-00025C93): Likewise; modify structure.
+
 2022-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2E121): Use U+684C instead of UU+684C.
