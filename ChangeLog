@@ -1,3 +1,10 @@
+2022-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A37E): Fixed.
+	(U-0002A382): Use "㯤" instead of "⿰來來".
+	(U-0002A388): Fixed [suggested by Jaemin Chung [2022-05-05
+	08:11:27 +0000]].
+
 2022-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-0002543B): Use U+5188 instead of U+7F53
