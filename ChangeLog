@@ -1,5 +1,11 @@
 2022-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt (U-0002A387): Use U-00023ADE instead of
+	IU+23ADE.
+	(U-0002A3B2): Ditto.
+
+2022-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-6.txt (U-0002A37E): Fixed.
 	(U-0002A382): Use "㯤" instead of "⿰來來".
 	(U-0002A388): Fixed [suggested by Jaemin Chung [2022-05-05
