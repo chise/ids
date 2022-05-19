@@ -1,3 +1,20 @@
+2022-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-42226): Completed.
+
+	* IDS-UCS-Ext-B-5.txt (U-000290C2): Use "𢪛" instead of "⿰扌攵".
+	(U-000290C4): Use "尨" instead of "⿻龙&CDP-89A6;" [suggested by Jaemin
+	Chung [2022-05-15 05:14:40 +0000]].
+	(U-000290C5): Completed.
+	(U-000290C6): Use "𢗝" instead of "⿰忄互".
+	(U-00029DE1): Use "玖" instead of "⿰𤣩久".
+	(U-00029DE2): Use "𢪛" instead of "⿰扌攵".
+	(U-00029DE5): Use "𬁟" instead of "⿱日寸".
+
+2022-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8608): Fixed.
+
 2022-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A387): Use U-00023ADE instead of
