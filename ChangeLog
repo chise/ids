@@ -1,5 +1,27 @@
 2022-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-000208F1): Use "㔽" instead of
+	"⿴⿱⺊囗&CDP-89CC;".
+	(U-000209FA): Use "⿴占𰀁" instead of "⿱⺊⿴口𰀁".
+	(U-00021AFB): Modify substructure.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022C8E): Use "𦨚" instead of "⿰舟犬".
+	(U-00022C95): Use "𤼩" instead of "⿱癶矢".
+	(U-00022C97): Use "𦊎" instead of "⿱⺫示".
+	(U-00022C98): Use "𥥍" instead of "⿱穴𡗜".
+	(U-00022CA6): Use "聀" instead of "⿰耳戈".
+	(U-00022CAF): Use "浹" instead of "⿰氵夾".
+	(U-00022CB6): Use "笡" instead of "⿱竹且".
+	(U-00022CBA): Use "䇣" instead of "⿱竹尒".
+	(U-00022CBB): Use "㝡" instead of "⿱宀取".
+	(U-00022CBF): Use "𥬑" instead of "⿱竹⿰工几".
+	(U-000235C6): Use "𦨚" instead of "⿰舟犬".
+	(U-000235C9): Use "扄" instead of "⿸户向".
+	(U-000235CA): Use "𬜯" instead of "⿱艹⿻⿱一冂从".
+
+	* IDS-UCS-Ext-G.txt: Use U+91D1 instead of U+F90A [suggested by
+	Jaemin Chung [2022-05-14 03:21:29 +0000]].
+
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-42226): Completed.
 
 	* IDS-UCS-Ext-B-5.txt (U-000290C2): Use "𢪛" instead of "⿰扌攵".
