@@ -1,3 +1,10 @@
+2022-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use U+54BC instead of JU+54BC.
+	(U-000249D5): Use "垔" instead of "⿱覀土".
+	(U-00025215): Use "㿽" instead of "⿱兮皿".
+	(U-0002575D): Fixed.
+
 2022-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022C92): Use U+6247 instead of UU+6247.
