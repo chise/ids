@@ -1,9 +1,18 @@
+2022-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022F9F): Use "𣐩" instead of "⿱白木".
+	(U-0002338B): Ditto.
+	(U-0002338C): Use "𥸭" instead of "⿱米廾".
+
 2022-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use U+54BC instead of JU+54BC.
 	(U-000249D5): Use "垔" instead of "⿱覀土".
 	(U-00025215): Use "㿽" instead of "⿱兮皿".
 	(U-0002575D): Fixed.
+
+	* IDS-UCS-Basic.txt (U+661C): Modify structure; preserve the
+	previous IDS as an apparent structure.
 
 2022-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
