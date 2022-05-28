@@ -1,3 +1,35 @@
+2022-05-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+82D7 instead of CU+82D7.
+	(U-000207DD): Use "𬝉" instead of "⿱艹叕".
+	(U-000208F2): Use U+8279 instead of <CJK RADICAL GRASS ONE>.
+	(U-000208F4): Use U+590D instead of CU+590D.
+	(U-00020ABF): Use "𧍣" instead of "⿱苗虫".
+	(U-00020AC1): Fixed.
+	(U-00020D99): Use "芣" instead of "⿱艹不".
+	(U-00020E14): Use "芾" instead of "⿱艹市".
+	(U-00020E16): Use "苓" instead of "⿱艹令".
+	(U-00020EB9): Use "荑" instead of "⿱艹夷".
+	(U-000210FB): Use "䔲" instead of "⿱艹登".
+	(U-00021196): Use "蘸" instead of "⿱艹醮".
+	(U-00021359): Fixed.
+	(U-00021475): Use "葻" instead of "⿱艹風".
+	(U-00021477): Use "葢" instead of "⿳艹太皿".
+	(U-00021ADA): Use "𡨾" instead of "⿱宀垔".
+	(U-00021CF5): Use "𫇰" instead of "⿱艹旧".
+	(U-00021CF6): Ditto.
+
+2022-05-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A34B): Use "䒚" instead of "⿱艹少".
+	(U-0002A353): Use "敄" instead of "⿰矛攵".
+	(U-0002A358): Ditto.
+
+2022-05-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024C08): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 2022-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022F9F): Use "𣐩" instead of "⿱白木".
