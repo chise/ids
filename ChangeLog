@@ -1,3 +1,15 @@
+2022-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002264F): Use "孙" instead of "⿰子小"
+	[suggested by Jaemin Chung [2022-05-16 13:28:16 +0000]].
+	(U-00022651): Use "买" instead of "⿱乛头".
+	(U-00022674): Use "⿱㤅x" instead of "⿳旡心x".
+	(U-00022723): Use "㭊" instead of "⿰木片".
+	(U-00022724): Modify structure; add IDS suggested by Jaemin Chung
+	[2022-05-16 13:28:16 +0000] as an apparent structure.
+	(U-000231EE): Use "㭊" instead of "⿰木片".
+	(U-000231F1): Use "𠕌" instead of "⿵冂日".
+
 2022-05-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+82D7 instead of CU+82D7.
