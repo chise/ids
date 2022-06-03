@@ -1,3 +1,15 @@
+2022-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt: Use U+4FDE instead of UU+4FDE.
+	(U-0002A3AC): Use "𰶳" instead of "⿱比貝".
+
+	* IDS-UCS-Ext-B-1.txt (U-000202B5): Use "𭖚" instead of "⿱山多".
+	(U-000202B9): Use "⿴𰁦x" instead of "⿰亻⿰x攵".
+	(U-000202C4): Use "姜" instead of "⿱𦍌女".
+	(U-000202C6): Fixed [suggested by Jaemin Chung [2022-05-16
+	13:28:16 +0000]].
+	(U-000202C7): Use "𥸬" instead of "⿰米⻏".
+
 2022-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002264F): Use "孙" instead of "⿰子小"
