@@ -1,3 +1,26 @@
+2022-06-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027D8E): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "⿰x⻏" instead of "⿰x阝".
+	- Use "⿰阝x" instead of "⿰阝x".
+	(U-0002401D): Modify structure.
+	(U-0002415D): Use "𨟍" instead of "⿰𩫏阝".
+	(U-00024978): Modify structure.
+	(U-000249E1): Modify structure.
+	(U-000249E2): Modify structure.
+	(U-00024A96): Use "⿰𤣩x" instead of "⿰王x".
+	(U-00025253): Use "𥁑" instead of "⿱必皿".
+	(U-000255A1): Fixed.
+	(U-00025985): Use "𨙺" instead of "⿰丑阝".
+	(U-000259E7): Use "𥁑" instead of "⿱必皿".
+	(U-000259E8): Use "屓" instead of "⿸尸貝".
+	(U-000259EB): Use "郎" instead of "⿰良阝".
+	(U-00025C96): Use "𢽋" instead of "⿰⿱⺊𠕁攵".
+	(U-00025C97): Use "䧑" instead of "⿰阝定".
+	(U-00025EA1): Use "⿰x陁" instead of "⿲x阝㐌".
+
 2022-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A3AB): Use U+9761 instead of JU+9761.
