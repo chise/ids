@@ -1,3 +1,28 @@
+2022-06-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+8449 instead of CU+8449.
+	- Use "𥞫" instead of "⿱禾米".
+	(U-0002415E): Fixed.
+	(U-000243F9): Use "僃" instead of "⿰亻⿱卝⿹勹用".
+	(U-000243FA): Use "𢾕" instead of "⿰⿱出方攵".
+	(U-000245E9): Use "𤰈" instead of "⿱卝⿹勹用".
+	(U-0002489D): Use "𢾕" instead of "⿰⿱出方攵".
+	(U-0002497B): Use U+5EF6 instead of JU+5EF6.
+	(U-000255A4): Use U+904E instead of JU+904E.
+	(U-00025983): Use U+6758 instead of C3-2647.
+	(U-000259E9): Use U+7D0D instead of UU+7D0D.
+	(U-00025EF3): Use "籴" instead of "⿱入米".
+	(U-00025EFB): Use U+7D0D instead of UU+7D0D.
+	(U-00025EFE): Use "𥹫" instead of "⿰米米".
+	(U-00025F05): Use "⿸𭆆x" instead of "⿱⿰牙攵⿸厂x".
+	(U-00025F07): Modify structure.
+	(U-00025F08): Modify structure.
+	(U-00025F13): Use "𤰈" instead of "⿱卝⿹勹用".
+	(U-00025F17): Fixed.
+	(U-00025F2B): Use "⿴𥹫x" instead of "⿲米x米".
+	(U-00025F2C): Use "𥹫" instead of "⿰米米".
+
 2022-06-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027D8E): Fixed.
