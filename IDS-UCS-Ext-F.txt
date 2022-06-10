@@ -7433,9 +7433,9 @@ U+2EBB6	𮮶	⿰鼻也
 U+2EBB7	𮮷	⿰鼻糸
 U+2EBB8	𮮸	⿰鼻登
 U+2EBB9	𮮹	⿰鼻⿳士冖⿳田厶疋
-U+2EBBA	𮮺	⿳亠⿲尸丫&CDP-89CA;⿲丿二丨
-U+2EBBB	𮮻	⿳亠⿲刀弓&CDP-89CA;&CDP-89C6;
-U+2EBBC	𮮼	⿳亠⿲尸丫&CDP-89CA;日
+U+2EBBA	𮮺	⿱&U-i001+2FF1;⿱亠丫⿰尸&CDP-89CA;⿲丿二丨
+U+2EBBB	𮮻	⿱&U-i001+2FF1;⿱亠弓⿰刀&CDP-89CA;&CDP-89C6;
+U+2EBBC	𮮼	⿱&U-i001+2FF1;⿱亠丫⿰尸&CDP-89CA;日
 U+2EBBD	𮮽	⿱止⿺𠃊𠈌
 U+2EBBE	𮮾	⿰歯匕
 U+2EBBF	𮮿	⿰齒寸
