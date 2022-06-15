@@ -1,3 +1,19 @@
+2022-06-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2CEC3): Modify structure.
+
+2022-06-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use U-00020915 instead of IU+20915.
+	(U-00024824): Use U+8352 instead of CU+8352.
+	(U-00024827): Use "𭃳" instead of "⿰⿱厶虫刂".
+	(U-00025843): Use U+8352 instead of CU+8352.
+	(U-00025D17): Use U+7D71 instead of UU+7D71.
+	(U-00025D97): Use "籴" instead of "⿱𠆢米".
+	(U-00025E8B): Use "籴" instead of "⿱𠆢米".
+
+	* IDS-UCS-Ext-E.txt (U+2CE9E): Fixed.
+
 2022-06-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use U+9B3C instead of JU+9B3C.
