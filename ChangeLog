@@ -1,3 +1,26 @@
+2022-06-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+98CE instead of <CJK RADICAL C-SIMPLIFIED WIND>.
+	- Use "倝" instead of "⿰𠦝𠆢".
+	(U-00029555): Use "萠" instead of "⿱艹朋".
+	(U-00029558): Use "𣥿" instead of "⿳止&CDP-8864;𣥂".
+	(U-00029559): Completed.
+	(U-0002955A): Use "虛" instead of "⿸虍&CDP-8D6B;".
+	(U-00029560): Use "𤊸" instead of "⿱咸火".
+	(U-00029593): Use "𣥿" instead of "⿳止&CDP-8864;𣥂".
+	(U-00029594): Use "𪅝" instead of "⿰鳥鳥".
+	(U-00029595): Use "⿹须x" instead of "⿰⿱彡x页".
+	(U-00029665): Fixed [suggested by Jaemin Chung [2022-05-17
+	04:13:09 +0000]].
+	(U-0002967E): Use "𪅝" instead of "⿰鳥鳥".
+	(U-00029680): Use "㿝" instead of "⿱白厶".
+	(U-00029E81): Modify structure.
+
+2022-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000226ED): Modify structure.
+
 2022-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-G.txt (U+30D8D): Use U+5910 instead of U+657B
