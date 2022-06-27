@@ -1,3 +1,32 @@
+2022-06-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+5705 instead of HZK02-E665.
+	(U-000205F2): Use "𰮤" instead of "⿰&R-HD-JA-376E;龹".
+	(U-00021040): Use "⿰x𣣻" instead of "⿲x圅欠".
+	(U-00021041): Modify structure.
+	(U-00021042): Use "遟" instead of "⿺辶屖".
+	(U-00021045): Use "𭀰" instead of "⿱免免".
+	(U-00021048): Use "辡" instead of "⿰辛辛".
+	(U-0002104A): Use "𡠺" instead of "⿱⿰火火安".
+	(U-0002104C): Use "⿰x䯉" instead of "⿲x骨欠".
+	(U-0002104D): Modify structure.
+	(U-0002163C): Add IDS.
+	(U-00021E2D): Completed.
+	(U-00021E31): Use "⿱𡵖x" instead of "⿱山⿱火x"; preserve the
+	previous IDS as an apparent structure.
+	(U-00021E38): Completed.
+	(U-00021E3B): Use "𬂣" instead of "⿰木介".
+	(U-00021E3C): Use "坤" instead of "⿰土申".
+	(U-00021E3E): Use "黾" instead of "⿱口电".
+	(U-00021F26): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021F34): Fixed.
+	(U-00021F37): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021F3A): Use "每" instead of "⿱𠂉母".
+	(U-00021F61): Use "𭀰" instead of "⿱免免".
+	(U-00021F64): Use "㷠" instead of "⿱炎舛".
+
 2022-06-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
