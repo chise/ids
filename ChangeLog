@@ -1,3 +1,15 @@
+2022-07-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2B851): Use "&U-i001+2FFB;亻从" instead of "⿻亻从".
+	(U+2B95F): Modify structure.
+	(U+2B961): Modify structure.
+	(U+2B962): Modify structure.
+
+	* IDS-UCS-Basic.txt: Use U+7F52 instead of <CJK RADICAL NET TWO>.
+	(U+5160): Modify structure.
+	(U+7312): Modify structure.
+	(U+7F74): Modify structure.
+
 2022-06-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+5705 instead of HZK02-E665.
@@ -3504,12 +3516,12 @@
 	(U-0002256D): Use U+6562 instead of JU+6562.
 	(U-00022869): Use U+7B49 instead of CU+7B49.
 	(U-000228B4): Use U+715E instead of JU+715E.
-	(U-00022BC1): Use "𤆬" instead of "⿱毛⺣".
+	(U-00022BC1): Use "𤆬" instead of "⿱毛灬".
 	(U-00022BC2): Use "兔" instead of "⿻免丶".
 	(U-00022D12): Fixed.
 	(U-00022D8B): Use U-000229DC instead of IU+229DC.
 	(U-00022E74): Use "𢇕" instead of "⿱幽幽".
-	(U-00022E76): Use "闗" instead of "⿵門⿱𢆶⺣".
+	(U-00022E76): Use "闗" instead of "⿵門⿱𢆶灬".
 	(U-00022EA6): Completed.
 	(U-00022EA7): Use "𮊵" instead of "⿳亡⺫⿲月羊卂".
 	(U-00023027): Use "⿹㪔隹x" instead of "⿰⿱林x攴".
@@ -3536,7 +3548,7 @@
 	(U-00023DEC): Modify structure.
 	(U-00023F6B): Use U+44D7 instead of C4-3A6C.
 	(U-00023F8D): Modify structure.
-	(U-00023F8E): Use "𤊅" instead of "⿱亟⺣".
+	(U-00023F8E): Use "𤊅" instead of "⿱亟灬".
 	(U-00023F8F): Use "⿰x琦" instead of "⿲x𤣩奇".
 	(U-00023F90): Fixed.
 
@@ -6183,7 +6195,7 @@
 	(U-0002526C): Use "𥆁" instead of "⿰目列".
 	(U-000254DB): Completed.
 	(U-000254EF): Use "㫄" instead of "⿱亠⿹勹方".
-	(U-000258BE): Use "𤋱" instead of "⿱重⺣".
+	(U-000258BE): Use "𤋱" instead of "⿱重灬".
 	(U-000258BF): Fixed.
 
 	* IDS-UCS-Basic.txt (U+9AA8): Add IDS.
@@ -6260,7 +6272,7 @@
 
 2021-04-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-2.txt (U-00023711): Use "𭵝" instead of "⿱兹⺣".
+	* IDS-UCS-Ext-B-2.txt (U-00023711): Use "𭵝" instead of "⿱兹灬".
 	(U-00023712): Completed.
 
 	* IDS-UCS-Basic.txt (U+6722): Use "⿺𦣠月" instead of
@@ -10246,7 +10258,7 @@
 2017-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use "𢉖" instead of "⿸&CDP-8D56;⿰厶厶".
-	(U-000260FE): Use "烈" instead of "⿱列⺣".
+	(U-000260FE): Use "烈" instead of "⿱列灬".
 	(U-000260FF): Fixed.
 	(U-00026648): Use "卆" instead of "⿱九十".
 	(U-00026B21): Likewise.
@@ -11349,7 +11361,7 @@
 	(U-00022F56): Use "𠬶" instead of "⿳彐冖又".
 	(U-00023579): Use GT-K06360 instead of (?⿳ ?⺊ ?AJ1-15391 ?龰).
 	(U-00023FF1): Use BC-8C40-itaiji-001 instead of (?⿹ ?BC-8873
-	?⺣).
+	?灬).
 
 2017-03-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
