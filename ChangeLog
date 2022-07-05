@@ -1,3 +1,16 @@
+2022-07-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022707): Use "⿱x𪫩" instead of "⿳x目
+	心"; preserve the previous IDS as an apparent structure.
+	(U-00022709): Use "拃" instead of "⿰扌乍".
+	(U-0002270A): Use "⿱x𪫩" instead of "⿳x目心"; preserve the
+	previous IDS as an apparent structure.
+	(U-00022857): Use U+840C instead of CU+840C.
+	(U-00022861): Use "𢜊" instead of "⿳工目心".
+	(U-0002298F): Add IDS.
+	(U-00022992): Add IDS.
+	(U-00022994): Use "&U-i001+2FF6;戈x" instead of "⿶戈x".
+
 2022-07-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022855): Modify structure.
