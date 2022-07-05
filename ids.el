@@ -1,6 +1,6 @@
 ;;; ids.el --- Parser and utility for Ideographic Description Sequence.
 
-;; Copyright (C) 2001, 2002, 2003, 2005, 2020 MORIOKA Tomohiko
+;; Copyright (C) 2001, 2002, 2003, 2005, 2020, 2021 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
