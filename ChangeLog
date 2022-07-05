@@ -1,7 +1,7 @@
 2022-07-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-2.txt (U-00022707): Use "⿱x𪫩" instead of "⿳x目
-	心"; preserve the previous IDS as an apparent structure.
+	* IDS-UCS-Ext-B-2.txt (U-00022707): Use "⿱x𪫩" instead of
+	"⿳x目心"; preserve the previous IDS as an apparent structure.
 	(U-00022709): Use "拃" instead of "⿰扌乍".
 	(U-0002270A): Use "⿱x𪫩" instead of "⿳x目心"; preserve the
 	previous IDS as an apparent structure.
