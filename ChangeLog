@@ -1,3 +1,29 @@
+2022-07-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+84CB instead of CU+84CB.
+	(U-00020581): Completed.
+	(U-00020582): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-0002102E): Completed.
+	(U-00021034): Use "摀" instead of "⿰扌烏".
+	(U-0002103A): Use "䝱" instead of "⿱劦貝".
+	(U-0002104B): Use U+396F instead of CU+396F.
+	(U-00021576): Modify structure.
+	(U-00021577): Use "⿱x𡕥" instead of "⿳x目夊".
+	(U-00021578): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00021E30): Use U+623F instead of UU+623F.
+	(U-00021F6A): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021F77): Use "𠀘" instead of "⿰阜⿱兀兀".
+	(U-00021F78): Use U+396F instead of CU+396F.
+	(U-00021F81): Use "𣻢" instead of "⿰氵通".
+	(U-00021F83): Modify structure.
+
+2022-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025741): Modify structure.
+
 2022-07-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022707): Use "⿱x𪫩" instead of
