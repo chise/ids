@@ -1,3 +1,12 @@
+2022-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+4ECA instead of UU+4ECA.
+	(U-00020E70): Use "貶" instead of "⿰貝乏".
+	(U-00020E76): Use "砰" instead of "⿰石平".
+	(U-00020E77): Use "娥" instead of "⿰女我".
+	(U-00021007): Use U+8463 instead of CU+8463.
+	(U-00021E1B): Use "欦" instead of "⿰今欠".
+
 2022-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+5316 instead of JU+5316.
