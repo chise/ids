@@ -1,3 +1,7 @@
+2022-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002245A): Add IDS.
+
 2022-07-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+4ECA instead of UU+4ECA.
