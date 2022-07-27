@@ -1,3 +1,22 @@
+2022-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000201C7): Completed.
+	(U-00020E78): Use "衾" instead of "⿱今衣".
+	(U-00020E7B): Use "朕" instead of "⿰⺼关".
+	(U-00020E87): Modify structure.
+	(U-00020E88): Use "𦮴" instead of "⿱艹年".
+	(U-00020E8A): Use "茸" instead of "⿱艹耳".
+	(U-00020E91): Use "𥬇" instead of "⿱竹犬".
+	(U-00020E94): Use "𰢱" instead of "⿰用用".
+	(U-00020EA0): Use "竜" instead of "⿱立电".
+	(U-00021A10): Add an apparent structure.
+
+	* IDS-UCS-Basic.txt (U+603B): Use "⿱𠮦x" instead of "⿳丷口x".
+
+	* IDS-UCS-Ext-B-3.txt (U-00025ABD): Modify structure.
+	(U-00025ACD): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 2022-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002245A): Add IDS.
