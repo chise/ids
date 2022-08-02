@@ -1,3 +1,23 @@
+2022-07-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* install-ids.el: Add code to compact
+	`ideographic-structure@apparent/rightmost'.
+
+	* ids-find.el (ids-update-index): Support
+	`ideographic-structure@apparent/rightmost'.
+
+2022-07-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000258AE): Modify structure.
+	(U-00025ACB): Use "𰄔" instead of "⿰出出".
+	(U-00025ACE): Use "貟" instead of "⿱厶貝".
+	(U-00025ACF): Use "竟" instead of "⿳立日儿"; use U+590F instead
+	of CU+590F.
+	(U-00025AD1): Use "悤" instead of "⿱囪心".
+	(U-00025AD2): Use "𢜊" instead of "⿳工目心".
+	(U-00025AD3): Fixed.
+	(U-00025AD5): Modify structure.
+
 2022-07-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020E8C): Use U+9B3C instead of JU+9B3C.
