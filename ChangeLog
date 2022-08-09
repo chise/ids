@@ -1,3 +1,11 @@
+2022-08-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A17B): Modify structure.
+
+	* IDS-UCS-Ext-A.txt (U+4485): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+4C8D): Modify structure.
+
 2022-07-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* install-ids.el: Add code to compact
