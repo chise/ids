@@ -1,3 +1,14 @@
+2022-08-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000206F7): Modify structure.
+	(U-00020700): Use "𣎽" instead of "⿱七木".
+	(U-000208A7): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-000208A8): Completed.
+	(U-00021C3A): Modify structure.
+	(U-00021C3B): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 2022-08-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A17B): Modify structure.
