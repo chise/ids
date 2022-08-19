@@ -1,3 +1,26 @@
+2022-08-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026A4E): Use "灷" instead of "⿱火廾".
+	(U-00026A67): Use "𡥦" instead of "⿲子子子".
+	(U-00026A69): Modify structure.
+	(U-00026A6B): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00026A71): Modify structure.
+	(U-00026A73): Completed.
+	(U-00026AC0): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00027465): Modify structure.
+	(U-00027467): Modify structure.
+	(U-00027DF4): Use "𠊰" instead of "⿰亻咼".
+	(U-00027DFB): Use "𧴹" instead of "⿱龷貝".
+	(U-00027DFD): Modify structure.
+
+	* ids-find.el (ids-index-store-char): Refer
+	`ideographic-structure@apparent',
+	`ideographic-structure@apparent/leftmost' and
+	`ideographic-structure@apparent/rightmost'.
+	(ids-index-store-structure): Likewise.
+
 2022-08-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002B735): Add IDS.
