@@ -1,6 +1,6 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures ;; -*- coding: utf-8-mcs-er -*-
 
-;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020, 2021
+;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020, 2021, 2022
 ;;   MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
@@ -31,7 +31,14 @@
       (put-char-attribute component 'ideographic-products
 			  (cons product ret))
       (when (setq ret (char-feature component 'ideographic-structure))
-	(ids-index-store-structure product ret)))
+	(ids-index-store-structure product ret))
+      (when (setq ret (char-feature component 'ideographic-structure@apparent))
+	(ids-index-store-structure product ret))
+      (when (setq ret (char-feature component 'ideographic-structure@apparent/leftmost))
+	(ids-index-store-structure product ret))
+      (when (setq ret (char-feature component 'ideographic-structure@apparent/rightmost))
+	(ids-index-store-structure product ret))
+      )
     ))
 
 (defun ids-index-store-structure (product structure)
@@ -42,6 +49,12 @@
       (cond ((characterp cell)
 	     (ids-index-store-char product cell))
 	    ((setq ret (assq 'ideographic-structure cell))
+	     (ids-index-store-structure product (cdr ret)))
+	    ((setq ret (assq 'ideographic-structure@apparent cell))
+	     (ids-index-store-structure product (cdr ret)))
+	    ((setq ret (assq 'ideographic-structure@apparent/leftmost cell))
+	     (ids-index-store-structure product (cdr ret)))
+	    ((setq ret (assq 'ideographic-structure@apparent/rightmost cell))
 	     (ids-index-store-structure product (cdr ret)))
 	    ((setq ret (find-char cell))
 	     (ids-index-store-char product ret))
