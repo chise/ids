@@ -1,3 +1,9 @@
+2022-08-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use BC-89AE instead of "⿱丷八".
+	(U+2DCBE): Modify structure.
+	(U+2DF89): Modify structure.
+
 2022-08-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026A4E): Use "灷" instead of "⿱火廾".
