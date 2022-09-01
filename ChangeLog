@@ -1,3 +1,13 @@
+2022-08-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020E87): Fixed.
+
+2022-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D0F5): Use U+82D4 instead of UU+82D4.
+	(U+2DCC0): Use U+84C4 instead of UU+84C4.
+	(U+2E915): Use U+82AD instead of UU+82AD.
+
 2022-08-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use BC-89AE instead of "⿱丷八".
