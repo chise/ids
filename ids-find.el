@@ -598,6 +598,9 @@
 		     (ideographic-structure-equal str structure))
 		(and (setq str
 			   (get-char-attribute pc 'ideographic-structure@apparent/leftmost))
+		     (ideographic-structure-equal str structure))
+		(and (setq str
+			   (get-char-attribute pc 'ideographic-structure@apparent/rightmost))
 		     (ideographic-structure-equal str structure)))
 	(setq pl (cons pc pl))
 	))
@@ -1700,12 +1703,14 @@ COMPONENT can be a character or char-spec."
 		  (cond ((characterp enc)
 			 (or (get-char-attribute enc 'ideographic-structure)
 			     (get-char-attribute enc 'ideographic-structure@apparent)
-			     (get-char-attribute enc 'ideographic-structure@apparent/leftmost))
+			     (get-char-attribute enc 'ideographic-structure@apparent/leftmost)
+			     (get-char-attribute enc 'ideographic-structure@apparent/rightmost))
 			 )
 			((consp enc)
 			 (or (cdr (assq 'ideographic-structure enc))
 			     (cdr (assq 'ideographic-structure@apparent enc))
-			     (cdr (assq 'ideographic-structure@apparent/leftmost enc)))
+			     (cdr (assq 'ideographic-structure@apparent/leftmost enc))
+			     (cdr (assq 'ideographic-structure@apparent/rightmost enc)))
 			 )))
         ;; (setq enc-str
         ;;       (mapcar (lambda (cell)
