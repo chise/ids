@@ -1,5 +1,85 @@
 2022-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+8279 instead of <CJK RADICAL GRASS ONE>.
+	- Use U+6535 instead of <CJK RADICAL RAP>.
+	(U-00024017): Use "⿰洗x" instead of "⿲氵先x".
+	(U-0002401B): Use "⿰泥x" instead of "⿲氵尼x".
+	(U-00024058): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-0002405A): Modify structure.
+	(U-00024265): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00024269): Use "𠛱" instead of "⿰⿱巛夕刂".
+	(U-0002426E): Use "㕻" instead of "⿱丶否".
+	(U-00024270): Use "𢼄" instead of "⿰戶⺙".
+	(U-00024274): Modify structure.
+	(U-00024275): Use "呴" instead of "⿰口句".
+	(U-000242D4): Modify structure.
+	(U-000242D5): Use "𬚓" instead of "⿰耳大".
+	(U-0002435D): Use "𭽀" instead of "⿱癶米".
+	(U-0002435E): Modify structure.
+	(U-000243D1): Completed [temporary].
+	(U-000243F1): Use "菆" instead of "⿱艹取".
+	(U-0002446E): Use "摹" instead of "⿳艹日⿵大手".
+	(U-0002447B): Modify structure.
+	(U-00024889): Confirmed.
+	(U-0002496C): Use "㣊" instead of "⿱⺙彡".
+	(U-00024CA6): Use "畁" instead of "⿱由丌".
+	(U-00024CD4): Modify structure.
+	(U-000257CC): Use "芃" instead of "⿱艹凡".
+	(U-000257D4): Use "𣅳" instead of "⿱日&CDP-8CD5;".
+	(U-000257D7): Use "畁" instead of "⿱由丌".
+	(U-000257D9): Fixed.
+	(U-000257DC): Use "𠛱" instead of "⿰⿱巛夕刂".
+	(U-000257DE): Modify structure.
+	(U-000257FB): Add an apparent field.
+	(U-000257FC): Use "芣" instead of "⿱艹不".
+	(U-000258AB): Use U+5272 instead of JU+5272.
+	(U-00025A02): Use "𨈡" instead of "⿰身⺙".
+	(U-00025CC2): Use "⿱x畧" instead of "⿳x田各".
+	(U-00025CC3): Fixed.
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+6C3A instead of <CJK RADICAL WATER TWO>.
+	- Use U+9FB9 instead of BC-8BFA.
+	(U-00022458): Use "㞪" instead of "⿱彐山".
+	(U-00022727): Completed.
+	(U-0002272A): Use U+82E5 instead of CU+82E5.
+	(U-000227F1): Use "𣳾" instead of "⿱龹⺢".
+	(U-000227F4): Use "㢈" instead of "⿸广隹".
+	(U-000227F5): Use "𡌦" instead of "⿱非土".
+	(U-00022C7D): Use "㤪" instead of "⿱一怨".
+	(U-00022C81): Use "𥥟" instead of "⿱穴瓦".
+	(U-00022C84): Use "𢃄" instead of "⿱世⿱冖巾".
+	(U-00022C88): Use "屐" instead of "⿸尸⿰彳支".
+	(U-00022C89): Use "𥙊" instead of "⿱癶示".
+	(U-00022E10): Use "鳸" instead of "⿸戶鳥".
+	(U-0002319E): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00023546): Use "㿽" instead of "⿱兮皿".
+	(U-0002354A): Use "沗" instead of "⿱夭⺢".
+	(U-00023642): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00023695): Use "⿰x猒" instead of "⿲x⿱日⺼犬".
+	(U-00023697): Modify structure.
+	(U-0002397F): Use "⿴步x" instead of "⿳止x𣥂".
+	(U-00023983): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00023EC9): Use "𢃄" instead of "⿱世⿱冖巾".
+	(U-00023F66): Use "𡞣" instead of "⿱咸女".
+	(U-00023F68): Modify structure.
+	(U-00023F6D): Use "𥁰" instead of "⿱囧皿".
+	(U-00023F70): Use "𦨯" instead of "⿰舟⾆".
+	(U-00023F77): Use "赐" instead of "⿰贝易".
+	(U-00023F78): Use "窖" instead of "⿱穴告".
+	(U-00023F81): Use "萁" instead of "⿱艹其".
+	(U-00023F84): Use "臮" instead of "⿱自𫡑".
+	(U-00023F86): Use "𢉳" instead of "⿸广若".
+	(U-00023FB0): Use "𣷚" instead of "⿱夾⺢".
+
+2022-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+662F): Modify structure; preserve the
 	previous IDS as an apparent structure.
 	(U+6630): Ditto.
