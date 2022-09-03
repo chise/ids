@@ -1,3 +1,9 @@
+2022-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000243EF): Use "㢴" instead of
+	"⿹弓⿴囗夂".
+	(U-000243F2): Use U+7740 instead of JU+7740.
+
 2022-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
@@ -39,6 +45,8 @@
 	(U-00025A02): Use "𨈡" instead of "⿰身⺙".
 	(U-00025CC2): Use "⿱x畧" instead of "⿳x田各".
 	(U-00025CC3): Fixed.
+
+	* IDS-UCS-Ext-C.txt (U-0002ADEB): Fixed.
 
 	* IDS-UCS-Ext-B-2.txt:
 	- Use U+6C3A instead of <CJK RADICAL WATER TWO>.
