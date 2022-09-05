@@ -1,5 +1,8 @@
 2022-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt: Use U+753E instead of UU+753E.
+	(U+2D627): Modify structure; add an apparent field.
+
 	* IDS-UCS-Ext-B-3.txt (U-000243EF): Use "㢴" instead of
 	"⿹弓⿴囗夂".
 	(U-000243F2): Use U+7740 instead of JU+7740.
