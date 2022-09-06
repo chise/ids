@@ -1,3 +1,22 @@
+2022-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt:
+	- Use U+72AE instead of JU+72AE.
+	- Use U+4E30 instead of CU+4E30.
+	(U-00022005): Use U-00023D92 instead of GT-00120.
+	(U-000223EE): Use U-00023D92 instead of GT-00120.
+	(U-0002340D): Use "𭍺" instead of "⿱入土".
+	(U-000234F0): Use "𫾨" instead of "⿰文攵".
+	(U-000234F1): Use "⿰x𨚪" instead of "⿲x立阝".
+	(U-00023954): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
+2022-09-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D624): Unified to one column.
+	(U+2DE14): Modified.
+	(U+2DE19): Use U+8302 instead of UU+8302.
+
 2022-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use U+753E instead of UU+753E.
