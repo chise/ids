@@ -1,3 +1,20 @@
+2022-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-D.txt (U-0002B7C1): Use "⿰x𫨻" instead of
+	"⿲x&CDP-8C7A;殳".
+	(U-0002B7C7): Use U+5ED6 instead of JU+5ED6 [suggested by Jaemin
+	Chung
+	[2022-08-10 23:01:37 +0000]].
+	(U-0002B7CB): Modify structure.
+
+	* IDS-UCS-Ext-A.txt (U+35CA): Add an apparent field.
+	(U+3685): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+3687): Use "兇" instead of "⿱凶八".
+
+	* IDS-UCS-Basic.txt (U+5E26): Modify structure; add an apparent
+	field.
+
 2022-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002A80F): Use "⿸厌x" instead of
@@ -14,6 +31,17 @@
 	(U-000234F1): Use "⿰x𨚪" instead of "⿲x立阝".
 	(U-00023954): Modify structure; preserve the previous IDS as an
 	apparent structure.
+
+	* IDS-UCS-Ext-B-5.txt: Use U+9A6C instead of <CJK RADICAL
+	C-SIMPLIFIED HORSE>.
+	(U-00028C3C): Use "鑾" instead of "⿱䜌金".
+	(U-00028C3D): Use "鸞" instead of "⿱䜌鳥".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022AC9): Use "夯" instead of "⿱大力".
+	(U-00022ACA): Use "对" instead of "⿰又寸".
+	(U-00022ACD): Use "匆" instead of "⿻勿&CDP-89C7;".
+	(U-00022ACE): Use "𮎛" instead of "⿱⺈巳".
+	(U-00022AD8): Use "卢" instead of "⿱⺊尸".
 
 2022-09-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
