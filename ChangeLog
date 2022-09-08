@@ -1,3 +1,8 @@
+2022-09-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021225): Use U+8457 instead of CU+8457.
+	(U-00021227): Modify structure.
+
 2022-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-0002014B): Use "⿱玄x" instead of
@@ -28,6 +33,12 @@
 	(U-000217B5): Use "奐" instead of "⿱&CDP-8CAF;大".
 	(U-000217D8): Use "⿴奻x" instead of "⿲女x女".
 	(U-00021F1A): Use "⿴㗊x" instead of "⿳吅x吅".
+
+	* IDS-UCS-Ext-D.txt:
+	- Use U+6708 instead of UU+6708.
+	- Use U+8279 instead of <CJK RADICAL GRASS ONE>.
+	(U-0002B7C2): Use U+5BD2 instead of UU+5BD2.
+	(U-0002B7C3): Use U+4EFB instead of UU+4EFB.
 
 	* IDS-UCS-Ext-A.txt (U+3683): Modify structure.
 
