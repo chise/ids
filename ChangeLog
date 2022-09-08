@@ -1,5 +1,38 @@
 2022-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-0002014B): Use "⿱玄x" instead of
+	"⿳亠幺x".
+	(U-00020670): Completed.
+	(U-00020671): Completed.
+	(U-00020673): Use "䜌" instead of "⿲糹言糹".
+	(U-00020DF5): Use "紂" instead of "⿰糹寸".
+	(U-00020DF6): Use "㚅" instead of "⿳夂一生".
+	(U-00020DF7): Use "𤤋" instead of "⿱夭玉".
+	(U-00020F28): Use "⿴㗊x" instead of "⿳吅x吅".
+	(U-00020F96): Ditto.
+	(U-000210C1): Use "⿰x靚" instead of "⿲x青見".
+	(U-000210C2): Use "⿱x舃" instead of "⿳x臼𤆛".
+	(U-000210C8): Use "緙" instead of "⿰糹革".
+	(U-00021139): Use "⿵㗊x" instead of "⿲吕x吕"; preserve the
+	previous IDS as an apparent structure.
+	(U-00021140): Use "⿴絲x" instead of "⿲糹x糹".
+	(U-00021143): Use "龎" instead of "⿸厂龍".
+	(U-0002114A): Modify structure.
+	(U-0002114D): Use "繞" instead of "⿰糹堯".
+	(U-00021228): Use "㗊" instead of "⿱吅吅".
+	(U-000214E9): Modify structure.
+	(U-000216A3): Completed.
+	(U-000216A5): Use "奐" instead of "⿱&CDP-8CAF;大".
+	(U-000217B2): Use "𦥚" instead of "⿱⿻臼丨丂".
+	(U-000217B4): Use "苹" instead of "⿱艹平".
+	(U-000217B5): Use "奐" instead of "⿱&CDP-8CAF;大".
+	(U-000217D8): Use "⿴奻x" instead of "⿲女x女".
+	(U-00021F1A): Use "⿴㗊x" instead of "⿳吅x吅".
+
+	* IDS-UCS-Ext-A.txt (U+3683): Modify structure.
+
+2022-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-D.txt (U-0002B7C1): Use "⿰x𫨻" instead of
 	"⿲x&CDP-8C7A;殳".
 	(U-0002B7C7): Use U+5ED6 instead of JU+5ED6 [suggested by Jaemin
