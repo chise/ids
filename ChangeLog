@@ -1,5 +1,37 @@
 2022-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-D.txt (U-0002B745): Modified to use "@apparent=...".
+	(U-0002B75F): Use "𫟯" instead of "⿱亠里".
+	(U-0002B788): Use U+4E12 instead of JU+4E12.
+	(U-0002B7A0): Use U+7075 instead of JU+7075.
+	(U-0002B7A2): Use "⿱𰃮x" instead of "⿳⺍冖x".
+	(U-0002B7CF): Use U+514E instead of UU+514E.
+	(U-0002B7D1): Use U+7075 instead of JU+7075.
+	(U-0002B7D2): Use "𭩠" instead of "⿱丗木"; unified to one column.
+	(U-0002B7D3): Use "⿱x𭇥" instead of "⿳x𠆢⿱爫口".
+	(U-0002B7D4): Use U+6B2E instead of UU+6B2E.
+	(U-0002B7D6): Use U-00020088 instead of IU+20088.
+	(U-0002B7DD): Modify structure.
+	(U-0002B7DF): Use U+534A instead of UU+534A.
+	(U-0002B7EF): Use U+4EA0 instead of JU+4EA0.
+
+	* IDS-UCS-Ext-F.txt (U+2D1E5): Modify structures.
+	(U+2D1E8): Use "𰀪" instead of "⿱丿丿".
+	(U+2D1E9): Completed [temporary].
+	(U+2D4C7): Modify structures.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022AC3): Use U+53EB instead of JU+53EB.
+	(U-0002333A): Ditto.
+	(U-0002333C): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+51E8): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+51EC): Use U+51E1 instead of GT-K00369; add an apparent
+	structure.
+	(U+51EE): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+5F61): Add an apparent structure.
+
 	* IDS-UCS-Ext-A.txt (U+3770): Use U+81F1 instead of UU+81F1.
 	(U+47CD): Ditto.
 
@@ -723,7 +755,7 @@
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-42226): Completed.
 
 	* IDS-UCS-Ext-B-5.txt (U-000290C2): Use "𢪛" instead of "⿰扌攵".
-	(U-000290C4): Use "尨" instead of "⿻龙&CDP-89A6;" [suggested by Jaemin
+	(U-000290C4): Use "尨" instead of "⿻龙𰀪" [suggested by Jaemin
 	Chung [2022-05-15 05:14:40 +0000]].
 	(U-000290C5): Completed.
 	(U-000290C6): Use "𢗝" instead of "⿰忄互".
@@ -1681,7 +1713,7 @@
 	(U-00022464): Modify structure.
 	(U-00022465): Fixed.
 	(U-00022466): Modify structure.
-	(U-00022469): Use "㣇" instead of "⿱彑⿱&CDP-89A6;巾".
+	(U-00022469): Use "㣇" instead of "⿱彑⿱𰀪巾".
 	(U-0002246A): Use "彖" instead of "⿱彐𧰨".
 	(U-0002246D): Modify structure.
 	(U-0002246F): Modify structure.
@@ -7607,7 +7639,7 @@
 	(ideographic-structure-compare-functional-and-apparent):
 	- Implement rule-415: ⿴⿳A囗BC -> ⿱⿱A⿴囗CB.
 	- Implement rule-416: ⿴⿳A冖BC -> ⿱⿱⿱A冖CB.
-	- Implement rule-417: ⿴⿳A&CDP-89A6;BC -> ⿱A⿸⿱C&CDP-89A6;B.
+	- Implement rule-417: ⿴⿳A𰀪BC -> ⿱A⿸⿱C𰀪B.
 	- Implement rule-419 (fallback): ⿴⿳AEBC -> ⿱⿱A⿻ECB.
 
 2020-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
