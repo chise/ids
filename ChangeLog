@@ -9,6 +9,13 @@
 	(U-00029323): Use "羙" instead of "⿱𦍌火".
 	(U-000299FB): Use U+5B9B instead of UU+5B9B.
 
+	* IDS-UCS-Ext-B-2.txt (U-000226AC): Use "𡉤" instead of "⿱不土".
+	(U-000226AD): Use "汖" instead of "⿱山水".
+	(U-00022AC2): Fixed.
+	(U-00022AC7): Use "⿸𢩱x" instead of "⿰扌⿱才x".
+	(U-0002345D): Use "团" instead of "⿴囗才".
+	(U-0002345F): Completed [temporary].
+
 2022-09-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-0002486F): Use "舃" instead of "⿱臼𤆛".
