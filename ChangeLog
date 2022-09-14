@@ -1,3 +1,35 @@
+2022-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002ADEB): Use "⿸浦x" instead of
+	"⿰氵⿱甫x".
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+396F instead of CU+396F.
+	- Use "皷" instead of "⿰壴皮".
+	(U-0002489E): Use "㬅" instead of "⿱&CDP-8CBF;方".
+	(U-000248AA): Use "巤" instead of "⿳巛𠔿&CDP-8D46;".
+	(U-00024B40): Modify structure.
+	(U-00025024): Use "㬅" instead of "⿱&CDP-8CBF;方".
+	(U-0002502A): Completed.
+	(U-0002502E): Modify structure.
+	(U-0002503E): Use "⿱x嚮" instead of "⿳x鄉向".
+	(U-000255AC): Use "凴" instead of "⿱馮几".
+	(U-000255AF): Modify structure.
+	(U-000255B0): Use "蒿" instead of "⿱艹高".
+	(U-000255B6): Use "賔" instead of "⿱宀⿸𠃜貝".
+	(U-0002599A): Fixed.
+	(U-000259D0): Modify structure.
+	(U-00025A0F): Modify structure.
+
+2022-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D1EB): Use U+5DDE instead of UU+5DDE.
+
+	* IDS-UCS-Ext-D.txt (U-0002B745): Use U-00020AD3 instead of
+	JU+20AD3.
+	(U-0002B75D): Use U-00020A9A instead of IU+20A9A.
+	(U-0002B761): Use U+968F instead of UU+968F.
+
 2022-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-D.txt (U-0002B745): Modified to use "@apparent=...".
