@@ -1,6 +1,6 @@
 ;;; ids-dump.el --- Dump utility of IDS-* files
 
-;; Copyright (C) 2002,2003,2004,2005,2009,2011,2019 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2004,2005,2009,2011,2019,2022 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
@@ -343,6 +343,13 @@
   (ids-dump-range "IDS-UCS-Compat-Supplement.txt" filename
 		  #'ids-dump-insert-ccs-ranges 'ucs "U-%08X\t%c\t%s\n"
 		  '(#x2F800 . #x2FA1D)))
+
+;;;###autoload
+(defun ids-dump-ucs-ext-h (filename)
+  (interactive "Fdump IDS-UCS-Ext-H : ")
+  (ids-dump-range "IDS-UCS-Ext-H.txt" filename
+		  #'ids-dump-insert-ccs-ranges 'ucs "U+%04X\t%c\t%s\n"
+		  '(#x31350 . #x323AF)))
 
 ;;;###autoload
 (defun ids-dump-cns11643-1 (filename)
