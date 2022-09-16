@@ -1,3 +1,12 @@
+2022-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000200AE): Use "⿸𠂋x" instead of
+	"⿸𠂆⿱一x".
+	(U-000200B0): Completed [temporary].
+	(U-00020925): Modify structure.
+	(U-00020926): Modify structure.
+	(U-00020B20): Fixed.
+
 2022-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: U+342C instead of MJ057397.
@@ -5290,7 +5299,7 @@
 	* IDS-UCS-Basic.txt (U+5BF3): Modify structure; preserve the
 	previous IDS as a apparent structure.
 	(U+5BF6): Likewise.
-	(U+908E): Use "䌛" instead of "⿰⿱&CDP-88F0;言系".
+	(U+908E): Use "䌛" instead of "⿰⿱𱼀言系".
 
 2021-06-12  ColtMa  <mumchristmas@gmail.com>
 
@@ -7425,7 +7434,7 @@
 	(U-000252E6): Use "⿸𢉖x" instead of "⿸&CDP-8D56;⿱⿰厶厶x".
 	(U-000252E8): Use "麀" instead of "⿸&CDP-8D56;⿱比匕".
 	(U-000252EA): Use "微" instead of "⿰彳𣁋".
-	(U-000252EF): Use "詧" instead of "⿱⿰&CDP-88F0;&CDP-8C4E;言".
+	(U-000252EF): Use "詧" instead of "⿱⿰𱼀&CDP-8C4E;言".
 	(U-000252F1): Use "䀄" instead of "⿱宓皿".
 	(U-000252FA): Use "𡩹" instead of "⿳宀爫臼".
 	(U-000252FB): Use "𧵽" instead of "⿱网貝".
@@ -10431,28 +10440,28 @@
 
 2018-09-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-5.txt (U-00028588): Use "䚻" instead of "⿱&CDP-88F0;言".
+	* IDS-UCS-Ext-B-5.txt (U-00028588): Use "䚻" instead of "⿱𱼀言".
 	(U-00028629): Use "𡭨" instead of "⿱目小"; use "系" instead of
 	"⿱丿糸".
-	(U-00028DF4): Use "𧪬" instead of "⿰⿱&CDP-88F0;言糸".
+	(U-00028DF4): Use "𧪬" instead of "⿰⿱𱼀言糸".
 	(U-00028DF8): Use "䌛" instead of "⿰⿱&CDP-8B5E;言⿱丿糸".
 
 	* IDS-UCS-Ext-B-4.txt (U-000279D9): Use "䚻" instead of "⿱&CDP-8B5E;言".
 	(U-00027AAC): Ditto.
 
-	* IDS-UCS-Ext-B-3.txt (U-00024127): Use "䚻" instead of "⿱&CDP-88F0;言".
+	* IDS-UCS-Ext-B-3.txt (U-00024127): Use "䚻" instead of "⿱𱼀言".
 
 	* IDS-UCS-Ext-B-2.txt:
-	- Use "䚻" instead of "⿱&CDP-88F0;言".
-	- Use "䌛" instead of "⿰⿱&CDP-88F0;言系".
+	- Use "䚻" instead of "⿱𱼀言".
+	- Use "䌛" instead of "⿰⿱𱼀言系".
 
 2018-09-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021238): Use "䌛" instead of
-	"⿰⿱&CDP-88F0;言系".
+	"⿰⿱𱼀言系".
 
 	* IDS-UCS-Ext-B-4.txt (U-0002710E): Use "䌛" instead of
-	"⿰⿱&CDP-88F0;言系".
+	"⿰⿱𱼀言系".
 
 2018-09-06  Wang Yifan        <747.neutron@gmail.com>
 
@@ -10550,7 +10559,7 @@
 
 2018-02-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-A.txt (U+347E): Use "䚻" instead of "⿱&CDP-88F0;言".
+	* IDS-UCS-Ext-A.txt (U+347E): Use "䚻" instead of "⿱𱼀言".
 	(U+3A31): Likewise.
 
 2018-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -12267,7 +12276,7 @@
 2017-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt: Use "攸" instead of "⿰&CDP-8B7A;夂".
-	(U+982F): Use "𢌳" instead of "⿱&CDP-88F0;廾".
+	(U+982F): Use "𢌳" instead of "⿱𱼀廾".
 
 	* IDS-CDP.txt (CDP-85A8): Add IDS.
 
