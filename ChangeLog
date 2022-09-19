@@ -1,11 +1,21 @@
-2022-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+2022-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-1.txt (U-000200AE): Use "⿸𠂋x" instead of
-	"⿸𠂆⿱一x".
-	(U-000200B0): Completed [temporary].
-	(U-00020925): Modify structure.
-	(U-00020926): Modify structure.
-	(U-00020B20): Fixed.
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U-00031F00 instead of BC-88F0.
+	- Use U+5794 instead of JU+5794.
+	(U-00024585): Modify structure.
+	(U-00024595): Modify structure.
+	(U-00024B16): Modify structure.
+	(U-00025966): Use "𤆆" instead of "⿱又火".
+	(U-00025967): Use U+8001 instead of UU+8001.
+	(U-00025968): Use "𢑑" instead of "⿱彐彐".
+	(U-0002596C): Use "𢖫" instead of "⿱刀心".
+	(U-00025BD0): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00025EE2): Use "咱" instead of "⿰口自".
+
+	* IDS-UCS-Ext-B-1.txt (U-0002055E): Modify structure.
+	(U-00021ADB): Modify structure.
 
 2022-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
