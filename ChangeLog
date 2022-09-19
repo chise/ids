@@ -7,6 +7,15 @@
 	(U-00020926): Modify structure.
 	(U-00020B20): Fixed.
 
+2022-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000200AE): Use "⿸𠂋x" instead of
+	"⿸𠂆⿱一x".
+	(U-000200B0): Completed [temporary].
+	(U-00020925): Modify structure.
+	(U-00020926): Modify structure.
+	(U-00020B20): Fixed.
+
 2022-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: U+342C instead of MJ057397.
@@ -6226,9 +6235,9 @@
 	(U-00021D96): Completed.
 
 	* IDS-UCS-Ext-B-2.txt (U-00022442): Use "繇" instead of
-	"⿰⿱&CDP-8B5E;缶系".
+	"⿰⿱𱼀缶系".
 	(U-00022443): Use "壐" instead of "⿱爾土".
-	(U-00022444): Use "繇" instead of "⿰⿱&CDP-8B5E;缶系".
+	(U-00022444): Use "繇" instead of "⿰⿱𱼀缶系".
 	(U-0002244C): Use "⿴弜x" instead of "⿲弓x弓".
 
 2021-06-02  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -10444,9 +10453,9 @@
 	(U-00028629): Use "𡭨" instead of "⿱目小"; use "系" instead of
 	"⿱丿糸".
 	(U-00028DF4): Use "𧪬" instead of "⿰⿱𱼀言糸".
-	(U-00028DF8): Use "䌛" instead of "⿰⿱&CDP-8B5E;言⿱丿糸".
+	(U-00028DF8): Use "䌛" instead of "⿰⿱𱼀言⿱丿糸".
 
-	* IDS-UCS-Ext-B-4.txt (U-000279D9): Use "䚻" instead of "⿱&CDP-8B5E;言".
+	* IDS-UCS-Ext-B-4.txt (U-000279D9): Use "䚻" instead of "⿱𱼀言".
 	(U-00027AAC): Ditto.
 
 	* IDS-UCS-Ext-B-3.txt (U-00024127): Use "䚻" instead of "⿱𱼀言".
