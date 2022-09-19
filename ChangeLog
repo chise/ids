@@ -26,6 +26,8 @@
 	(U-00020926): Modify structure.
 	(U-00020B20): Fixed.
 
+	* ids-dump.el (ids-dump-ucs-ext-h): New function.
+
 2022-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: U+342C instead of MJ057397.
