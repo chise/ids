@@ -1,5 +1,7 @@
 2022-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-H.txt: New file.
+
 	* IDS-UCS-Ext-B-3.txt: Use U+4343 instead of JU+4343.
 	(U-00024597): Use U+6B70 instead of JU+6B70.
 	(U-000246AE): Use "𠅖" instead of "⿳亠⿱口口十".
@@ -33,6 +35,8 @@
 	(U-00020B20): Fixed.
 
 	* ids-dump.el (ids-dump-ucs-ext-h): New function.
+
+	* install-ids.el: Install IDS-UCS-Ext-H.txt.
 
 2022-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
