@@ -1,3 +1,10 @@
+2022-09-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt:
+	- Use "叱" instead of "⿰口匕".
+	- Use "𱽐" instead of "⿱艹𲋄".
+	(U+314AD): Modify structure.
+
 2022-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt: New file.
