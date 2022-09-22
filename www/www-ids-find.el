@@ -18,94 +18,7 @@
       (if without-tags
 	  (encode-coding-region (point-min)(point-max) 'utf-8-mcs-er)
 	(let ((coded-charset-entity-reference-alist
-	       (list*
-		'(=gt			"GT-" 5 d)
-		'(=mj			 "MJ" 6 d)
-		'(=hanyo-denshi/ja   "HD-JA-" 4 X)
-		'(=hanyo-denshi/jb   "HD-JB-" 4 X)
-		'(=hanyo-denshi/jc   "HD-JC-" 4 X)
-		'(=hanyo-denshi/jd   "HD-JD-" 4 X)
-		'(=hanyo-denshi/ft   "HD-FT-" 4 X)
-		'(=hanyo-denshi/ia   "HD-IA-" 4 X)
-		'(=hanyo-denshi/ib   "HD-IB-" 4 X)
-		'(=hanyo-denshi/hg   "HD-HG-" 4 X)
-		'(=hanyo-denshi/ip   "HD-IP-" 4 X)
-		'(=hanyo-denshi/jt   "HD-JT-" 4 X)
-		'(=hanyo-denshi/ks   "HD-KS-" 6 d)
-		'(=>>hanyo-denshi/ja "G-HD-JA-" 4 X)
-		'(=>>hanyo-denshi/jb "G-HD-JB-" 4 X)
-		'(=>>hanyo-denshi/jc "G-HD-JC-" 4 X)
-		'(=>>hanyo-denshi/jd "G-HD-JD-" 4 X)
-		'(=>>hanyo-denshi/ft "G-HD-FT-" 4 X)
-		'(=>>hanyo-denshi/ia "G-HD-IA-" 4 X)
-		'(=>>hanyo-denshi/ib "G-HD-IB-" 4 X)
-		'(=>>hanyo-denshi/hg "G-HD-HG-" 4 X)
-		'(=>>hanyo-denshi/ip "G-HD-IP-" 4 X)
-		'(=>>hanyo-denshi/jt "G-HD-JT-" 4 X)
-		'(=>>hanyo-denshi/ks "G-HD-KS-" 6 d)
-		'(==mj			"g2-MJ" 6 d)
-		'(==hanyo-denshi/ja "g2-HD-JA-" 4 X)
-		'(==hanyo-denshi/jb "g2-HD-JB-" 4 X)
-		'(==hanyo-denshi/jc "g2-HD-JC-" 4 X)
-		'(==hanyo-denshi/jd "g2-HD-JD-" 4 X)
-		'(==hanyo-denshi/ft "g2-HD-FT-" 4 X)
-		'(==hanyo-denshi/ia "g2-HD-IA-" 4 X)
-		'(==hanyo-denshi/ib "g2-HD-IB-" 4 X)
-		'(==hanyo-denshi/hg "g2-HD-HG-" 4 X)
-		'(==hanyo-denshi/ip "g2-HD-IP-" 4 X)
-		'(==hanyo-denshi/jt "g2-HD-JT-" 4 X)
-		'(==hanyo-denshi/ks "g2-HD-KS-" 6 d)
-		'(==daijiten	      "g2-DJT-"	5 d)
-		'(=cns11643-1		"C1-" 4 X)
-		'(=cns11643-2		"C2-" 4 X)
-		'(=cns11643-3		"C3-" 4 X)
-		'(=cns11643-4		"C4-" 4 X)
-		'(=cns11643-5		"C5-" 4 X)
-		'(=cns11643-6		"C6-" 4 X)
-		'(=cns11643-7		"C7-" 4 X)
-		'(=adobe-japan1-6	"AJ1-" 5 d)
-		'(=big5-cdp	        "CDP-" 4 X)
-		'(=>big5-cdp	      "A-CDP-" 4 X)
-		'(=gb2312		"G0-" 4 X)
-		'(=gb12345		"G1-" 4 X)
-		'(=jis-x0208@1990	"J90-" 4 X)
-		'(=jis-x0212		"JSP-" 4 X)
-		'(=cbeta		"CB" 5 d)
-		'(=jis-x0208@1997	"J97-" 4 X)
-		'(=jis-x0208@1978	"J78-" 4 X)
-		'(=jis-x0208@1983	"J83-" 4 X)
-		'(=ruimoku-v6		"RUI6-" 4 X)
-		'(=zinbun-oracle	"ZOB-" 4 d)
-		'(=daijiten		"DJT-" 5 d)
-		'(=jef-china3		"JC3-" 4 X)
-		'(=ucs@unicode	        "UU+" 4 X)
-		'(=ucs@JP/hanazono  "hanaJU+" 4 X)
-		'(==cns11643-1	      "R-C1-" 4 X)
-		'(==cns11643-2	      "R-C2-" 4 X)
-		'(==cns11643-3	      "R-C3-" 4 X)
-		'(==cns11643-4	      "R-C4-" 4 X)
-		'(==cns11643-5	      "R-C5-" 4 X)
-		'(==cns11643-6	      "R-C6-" 4 X)
-		'(==cns11643-7	      "R-C7-" 4 X)
-		'(=hanziku-1	     "HZK01-" 4 X)
-		'(=hanziku-2	     "HZK02-" 4 X)
-		'(=hanziku-3	     "HZK03-" 4 X)
-		'(=hanziku-4	     "HZK04-" 4 X)
-		'(=hanziku-5	     "HZK05-" 4 X)
-		'(=hanziku-6	     "HZK06-" 4 X)
-		'(=hanziku-7	     "HZK07-" 4 X)
-		'(=hanziku-8	     "HZK08-" 4 X)
-		'(=hanziku-9	     "HZK09-" 4 X)
-		'(=hanziku-10	     "HZK10-" 4 X)
-		'(=hanziku-11	     "HZK11-" 4 X)
-		'(=hanziku-12	     "HZK12-" 4 X)
-		'(==>daijiten	    "A2-DJT-" 5 d)
-		'(==cbeta		"CB" 5 d)
-		'(=big5			 "B-" 4 X)
-		'(=daikanwa		 "M-" 5 d)
-		'(=>>daikanwa	       "G-M-" 5 d)
-		'(===ucs@ks	      "R-KU+" 4 X)
-		coded-charset-entity-reference-alist)))
+	       est-coded-charset-entity-reference-alist))
 	  (encode-coding-region (point-min)(point-max) 'utf-8-mcs-er)
 
 	  (goto-char (point-min))
@@ -648,7 +561,7 @@ style=\"vertical-align:middle\">"
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.99.2")
+(defconst www-ids-find-version "0.100")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -668,103 +581,19 @@ style=\"vertical-align:middle\">"
   "~tomo/projects/chise/ids/www/tang-chars.udd")
 
 (defun www-ids-find-format-char (c &optional code-desc)
-  (princ
-   (format "<a href=\"%s%s\">%s</a>"
-	   www-ids-find-char-viewer-url
-	   (www-uri-encode-object c)
-	   (www-format-encode-string (char-to-string c))))
-  ;; (let ((str (encode-coding-string (format "%c" c) 'utf-8-er))
-  ;;       plane code)
-  ;;   (princ
-  ;;    (with-temp-buffer
-  ;;      (cond
-  ;;       ((string-match "&CB\\([0-9]+\\);" str)
-  ;;        (setq code (string-to-int (match-string 1 str)))
-  ;;        (insert (format "<a href=\"%s"
-  ;;                        www-ids-find-char-viewer-url))
-  ;;        (insert str)
-  ;;        (insert (format "\"><img alt=\"CB%05d\" src=\"/glyphs/cb-gaiji/%02d/CB%05d.gif\">\n"
-  ;;                        code (/ code 1000) code))
-  ;;        (when code-desc
-  ;;          (insert (format "CB%05d</a>" code)))
-  ;;        )
-  ;;       ((string-match "&JC3-\\([0-9A-F]+\\);" str)
-  ;;        (setq code (string-to-int (match-string 1 str) 16))
-  ;;        (insert (format "<a href=\"%s"
-  ;;                        www-ids-find-char-viewer-url))
-  ;;        (insert str)
-  ;;        (insert (format "\"><img alt=\"JC3-%04X\" src=\"http://kanji.zinbun.kyoto-u.ac.jp/db/CHINA3/Gaiji/%04x.gif\">\n"
-  ;;                        code code))
-  ;;        (when code-desc
-  ;;          (insert (format "JC3-%04X</a>" code)))
-  ;;        )
-  ;;       ((string-match "&J\\(78\\|83\\|90\\|SP\\)-\\([0-9A-F]+\\);" str)
-  ;;        (setq plane (match-string 1 str)
-  ;;              code (string-to-int (match-string 2 str) 16))
-  ;;        (insert (format "<a href=\"%s"
-  ;;                        www-ids-find-char-viewer-url))
-  ;;        (insert str)
-  ;;        (insert (format "\"><img alt=\"J%s-%04X\" src=\"/glyphs/JIS-%s/%02d-%02d.gif\">\n"
-  ;;                        plane code plane
-  ;;                        (- (lsh code -8) 32)
-  ;;                        (- (logand code 255) 32)))
-  ;;        (when code-desc
-  ;;          (insert (format "J%s-%04X</a>" plane code)))
-  ;;        )
-  ;;       ((string-match "&G\\([01]\\)-\\([0-9A-F]+\\);" str)
-  ;;        (setq plane (string-to-int (match-string 1 str))
-  ;;              code (string-to-int (match-string 2 str) 16))
-  ;;        (insert (format "<a href=\"%s"
-  ;;                        www-ids-find-char-viewer-url))
-  ;;        (insert str)
-  ;;        (insert (format "\"><img alt=\"G%d-%04X\" src=\"/glyphs/GB%d/%02d-%02d.gif\">\n"
-  ;;                        plane code plane
-  ;;                        (- (lsh code -8) 32)
-  ;;                        (- (logand code 255) 32)))
-  ;;        (when code-desc
-  ;;          (insert (format "G%d-%04X</a>" plane code)))
-  ;;        )
-  ;;       ((string-match "&C\\([1-7]\\)-\\([0-9A-F]+\\);" str)
-  ;;        (setq plane (string-to-int (match-string 1 str))
-  ;;              code (string-to-int (match-string 2 str) 16))
-  ;;        (insert (format "<a href=\"%s"
-  ;;                        www-ids-find-char-viewer-url))
-  ;;        (insert str)
-  ;;        (insert (format "\"><img alt=\"C%d-%04X\" src=\"/glyphs/CNS%d/%04X.gif\">\n"
-  ;;                        plane code plane code))
-  ;;        (when code-desc
-  ;;          (insert (format "C%d-%04X</a>" plane code)))
-  ;;        )
-  ;;       ((string-match "&ZOB-\\([0-9]+\\);" str)
-  ;;        (setq code (string-to-int (match-string 1 str)))
-  ;;        (insert (format "<a href=\"%s"
-  ;;                        www-ids-find-char-viewer-url))
-  ;;        (insert str)
-  ;;        (insert (format "\"><img alt=\"ZOB-%04d\" src=\"/glyphs/ZOB-1968/%04d.png\">\n"
-  ;;                        code code))
-  ;;        (when code-desc
-  ;;          (insert (format "ZOB-%04d</a>" code)))
-  ;;        )
-  ;;       (t
-  ;;        (insert (format "<a href=\"%s"
-  ;;                        www-ids-find-char-viewer-url))
-  ;;        ;; (insert str)
-  ;;        (insert
-  ;;         (mapconcat (lambda (c)
-  ;;                      (if (<= (char-int c) #x7F)
-  ;;                          (char-to-string c)
-  ;;                        (format "%%%02X" c)))
-  ;;                    str ""))
-  ;;        (insert "\">")
-  ;;        (insert str)
-  ;;        (insert "</a>")
-  ;;        ))
-  ;;      (goto-char (point-min))
-  ;;      (while (search-forward "&" nil t)
-  ;;        (replace-match "&amp;" t 'literal))
-  ;;      (buffer-string))))
-  )
-  
+  (let* ((ucs (encode-char c '=ucs)))
+    (princ
+     (format "<a href=\"%s%s\">%s</a>"
+	     www-ids-find-char-viewer-url
+	     (www-uri-encode-object c)
+	     (if ucs
+		 (format "<img alt=\"u%04x\" src=\"%s/u%04x.svg\" style=\"vertical-align:middle; width: 60px; height: 60px\"/>"
+			 ucs
+			 chise-wiki-glyphwiki-glyph-image-url
+			 ucs)
+	       (www-format-encode-string (char-to-string c)))))
+    ))
+
 (defun www-ids-find-format-line (c is)
   (let (ucs len i ids)
     (princ "<span class=\"entry\">")
@@ -1118,7 +947,7 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 <div class=\"container\">
 ")
     (princ "<div class=\"ml-0\">
-Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015, 2016, 2017, 2020 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015, 2016, 2017, 2020, 2021, 2022 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
 >MORIOKA Tomohiko</a></div>")
     (princ
      (format
