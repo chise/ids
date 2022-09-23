@@ -1,3 +1,13 @@
+2022-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-format-encode-string): Use
+	`est-coded-charset-entity-reference-alist'.
+	(www-ids-find-version): Update to 0.100.
+	(www-ids-find-format-char): Use SVG glyph-images of GlyphWiki for
+	abstract characters of UCS.
+
+	* IDS-UCS-Ext-H.txt (U+31353): Modify structure.
+
 2022-09-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt:
