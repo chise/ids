@@ -1,3 +1,26 @@
+2022-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-G.txt: Use "⿴行x" instead of "⿲彳x亍".
+	(U+30CEF): Use "𰙫" instead of "⿱止幸".
+
+	* IDS-UCS-Ext-B-2.txt (U-0002200F): Fix apparent structure.
+	(U-00022294): Modify structure.
+	(U-0002229D): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-0002229E): Modify structure.
+	(U-000227C3): Modify structure.
+	(U-0002309F): Modify structure.
+	(U-000230B2): Modify structure.
+	(U-000230B9): Modify structure.
+	(U-000230BA): Use "𣐽" instead of "⿱立未".
+	(U-00023E68): Modify structure.
+	(U-00023EA3): Fixed.
+	(U-00023EA5): Use "芻" instead of "⿱⿹勹屮⿹勹屮".
+	(U-00023EAF): Use "㫫" instead of "⿱日亚".
+	(U-00023EB1): Use "笋" instead of "⿱竹尹".
+	(U-00023ECD): Use "⿱𠮥x" instead of "⿳⺈口x".
+	(U-00023ED0): Use "虘" instead of "⿸虍且".
+
 2022-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* www/www-ids-find.el (www-format-encode-string): Use
