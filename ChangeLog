@@ -1,5 +1,7 @@
 2022-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022297): Use U+83AB instead of CU+83AB.
+
 	* IDS-UCS-Ext-G.txt: Use "⿴行x" instead of "⿲彳x亍".
 	(U+30CEF): Use "𰙫" instead of "⿱止幸".
 
