@@ -1,3 +1,12 @@
+2022-09-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt: Use "⿰x⻏" instead of "⿰x阝".
+	(U-0002AB3E): Modify structure.
+	(U-0002AB3F): Use "𫕻" instead of "⿰青青".
+	(U-0002AF2B): Modify structure.
+	(U-0002B472): Use "⿰𬋺x" instead of "⿲爵昜x"; add an apparent
+	structure.
+
 2022-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022297): Use U+83AB instead of CU+83AB.
