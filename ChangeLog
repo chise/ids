@@ -1,3 +1,15 @@
+2022-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022933): Use "䝿" instead of "⿱臾貝".
+	(U-00022934): Modify structure.
+	(U-00022936): Use "𭮰" instead of "⿰⿱士𠔼𪠲"; use "⿱x怘"
+	instead of "⿳x古心".
+	(U-000237DE): Use "𦻳" instead of "⿱艹朁".
+	(U-000237E0): Use "縣" instead of "⿰県系".
+	(U-000237E2): Use U-000237E2 instead of UU+7BDA.
+	(U-000237E5): Use "𢡃" instead of "⿱立患".
+	(U-000237E8): Use "䝿" instead of "⿱臾貝".
+
 2022-10-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000237DF): Use "𬑤" instead of
