@@ -1,3 +1,11 @@
+2022-10-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000237E6): Use U-000233CB instead of
+	MJ037935.
+	(U-000237E7): Use U+907A instead of KU+907A.
+	(U-00023A1A): Use U-000233CB instead of MJ037935.
+	(U-00023A63): Use "𦯧" instead of "⿱艹𣏋".
+
 2022-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022933): Use "䝿" instead of "⿱臾貝".
