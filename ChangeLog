@@ -1,3 +1,9 @@
+2022-10-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029F3E): Use "𤌑" instead of
+	"⿳⿻𦥑幺一火".
+	(U-00029F3F): Use "𦟝" instead of "⿳𠂹一⺼".
+
 2022-10-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000237E6): Use U-000233CB instead of
