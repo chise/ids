@@ -1,3 +1,46 @@
+2022-10-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U+9FB9 instead of BC-8BFA.
+	- Use U+7F8A instead of BC-8970.
+	- Use U+6BB9 instead of JU+6BB9.
+	(U-000260EF): Use "𤱍" instead of "⿰田皮".
+	(U-000260F6): Use "龨" instead of "⿷匸隹".
+	(U-000260F7): Use "⿷匚x" instead of "⿷匸x"; use "昇" instead of
+	"⿱日升".
+	(U-0002636E): Use "芏" instead of "⿱艹土".
+	(U-00026370): Modify structure.
+	(U-000263A6): Use "敄" instead of "⿰矛攵".
+	(U-000263A7): Use "⿱x⺸" instead of "⿳x卝干".
+	(U-000263A9): Use "𡧱" instead of "⿳宀工口".
+	(U-000263AE): Use "𫨻" instead of "⿰&CDP-8C7A;殳".
+	(U-000263BE): Use "𫵠" instead of "⿸尸⿱氺㐄".
+	(U-000263C0): Use "覔" instead of "⿱不見".
+	(U-000263C1): Modify structure.
+	(U-000263F1): Use "羗" instead of "⿻羌厶".
+	(U-000265EA): Use U+6562 instead of JU+6562.
+	(U-00026894): Use U+6167 instead of UU+6167.
+	(U-00026897): Modify structure.
+	(U-00026898): Use "𣳾" instead of "⿱龹氺".
+	(U-00026DB8): Use "拳" instead of "⿱龹手".
+	(U-00026F1F): Use U+7D71 instead of UU+7D71.
+	(U-00026FEC): Use "𩾦" instead of "⿸广鳥".
+	(U-00026FED): Confirmed.
+	(U-00026FEE): Use "𬎼" instead of "⿰㒸生".
+	(U-0002705C): Use U+6167 instead of UU+6167.
+	(U-00027103): Use "𣳾" instead of "⿱龹氺"; use U+8012 instead of
+	UU+8012.
+	(U-00027106): Use U+6562 instead of JU+6562.
+	(U-000273EA): Use "桊" instead of "⿱龹木".
+	(U-0002745E): Use "䖭" instead of "⿱龹虫".
+	(U-000276EA): Use "𡧱" instead of "⿳宀工口".
+	(U-0002771C): Use "𰮤" instead of "⿰月龹".
+	(U-00027AF5): Use "⿱x卉" instead of "⿳x十廾".
+	(U-00027B38): Use "誊" instead of "⿱龹言".
+	(U-00027B70): Use U+5EE3 instead of CU+5EE3.
+	(U-00027B71): Use U+9077 instead of CU+9077.
+	(U-00027E3C): Use U+5EE3 instead of CU+5EE3.
+
 2022-10-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt:
