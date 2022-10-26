@@ -1,3 +1,13 @@
+2022-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use "⿶&CDP-8B64;x" instead of "⿻&CDP-8B64;".
+	(U-00024F90): Modify structure.
+
+	* IDS-UCS-Ext-B-5.txt: Use "⿶&CDP-8B64;x" instead of "⿻&CDP-8B64;".
+
+	* IDS-UCS-Ext-B-2.txt: Use "⿶&CDP-8B64;x" instead of "⿻&CDP-8B64;".
+	(U-00022E15): Modify structure.
+
 2022-10-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000237DD): Use "⿱𦭝x" instead of
