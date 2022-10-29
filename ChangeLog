@@ -1,3 +1,14 @@
+2022-10-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt: Use U+590B instead of CU+590B.
+	(U-0002A2C3): Use "况" instead of "⿰冫兄".
+	(U-0002A617): Use "𬽲" instead of "⿰亻㐌".
+
+2022-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023A77): Use U+4521 instead of CU+4521.
+	(U-00023A7E): Use "𫇦" instead of "⿱艹冖".
+
 2022-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt: Use "⿶&CDP-8B64;x" instead of "⿻&CDP-8B64;".
