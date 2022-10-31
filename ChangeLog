@@ -1,3 +1,50 @@
+2022-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use "⿶&CDP-8B64;x" instead of "⿻&CDP-8B64;".
+	- Use U+4E9F instead of JU+4E9F.
+	- Use "⿴𦬠x" instead of "⿳艹x廾".
+	(U-000263CA): Use U+8408 instead of BC-8DA5.
+	(U-0002656A): Use "取" instead of "⿸耳又".
+	(U-000269B4): Completed.
+	(U-00026B96): Use "⿱芉x" instead of "⿳艹干x".
+	(U-00026B97): Use "囡" instead of "⿴囗女".
+	(U-00026B99): Completed.
+	(U-00026B9A): Fixed.
+	(U-00026B9B): Use "汣" instead of "⿰氵久".
+	(U-00026B9F): Modify structure.
+	(U-00026BA1): Modify structure.
+	(U-00026BA3): Use "吁" instead of "⿰口于".
+	(U-00026BA4): Modify structure.
+	(U-00026BA6): Completed.
+	(U-00026BA8): Modify structure.
+	(U-00026BF9): Use "沁" instead of "⿰氵心".
+	(U-00026BFB): Use "汶" instead of "⿰氵文".
+	(U-00026BFE): Use "𤣥" instead of "⿱亠&CDP-895C;".
+	(U-00026C02): Use "𤆎" instead of "⿰扌火".
+	(U-00026C86): Use "⿱芉x" instead of "⿳艹干x".
+	(U-00026C88): Use "⿴𦬠x" instead of "⿱⿱艹x廾".
+	(U-00026EE1): Use "取" instead of "⿸耳又".
+	(U-00027058): Use "㜦" instead of "⿰女尋".
+	(U-00027059): Use U+990A instead of JU+990A.
+	(U-0002712A): Completed.
+	(U-0002712B): Use "緐" instead of "⿰毎系".
+	(U-00027194): Modify structure.
+	(U-00027196): Fixed.
+	(U-0002719A): Use "𪄿" instead of "⿰𦰩鳥".
+	(U-000271B1): Use "夻" instead of "⿱大口".
+	(U-000271B3): Use "丠" instead of "⿱北一".
+	(U-000271C5): Use "𠕾" instead of "⿱冖日".
+	(U-000271C6): Use "𣏽" instead of "⿰木攴".
+	(U-000271D2): Use "𭟰" instead of "⿱戈止".
+	(U-000271E2): Use "兔" instead of "⿱⺈⿻&CDP-8BCB;丶".
+	(U-000271F2): Use "虗" instead of "⿸虍丘".
+	(U-0002720B): Use "菟" instead of "⿱艹⿻免丶".
+	(U-00027213): Use "𩉩" instead of "⿰革攵".
+	(U-00027218): Modify structure.
+	(U-0002721A): Use "㿾" instead of "⿱宁皿".
+	(U-00027950): Use U+990A instead of JU+990A.
+
 2022-10-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt: Use U+590B instead of CU+590B.
