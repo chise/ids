@@ -1,3 +1,13 @@
+2022-11-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U+86A4 instead of JU+86A4.
+	- Use U+5725 instead of UU+5725.
+	(U-00026C8A): Use U+7089 instead of UU+7089.
+	(U-000270A9): Use "𦃐" instead of "⿰糸蚤".
+	(U-00027DCF): Modify structure.
+	(U-00027DE8): Modify structure.
+
 2022-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt:
