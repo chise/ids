@@ -1,3 +1,7 @@
+2022-11-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+58E1): Use "⿸叡x" instead of "⿰睿⿱又x".
+
 2022-11-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+4BCE): Use "𫢉" instead of "⿱𠆢干".
