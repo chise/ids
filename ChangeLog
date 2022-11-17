@@ -1,5 +1,25 @@
 2022-11-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+58E1): Use U+571F instead of A-IWDSU+571F.
+
+2022-11-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000268EC): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-000268F5): Completed [temporary].
+	(U-000268F7): Modify structure.
+
+	* IDS-UCS-Ext-B-3.txt (U-00024AC0): Use "⿸叡x" instead of
+	"⿰睿⿱又x".
+	(U-00024AD2): Modify structure.
+	(U-00024AD2): Modified to use "@apparent=...".
+	(U-00024AD9): Use "爕" instead of "⿱⿲火言火火".
+	(U-0002534F): Ditto.
+	(U-00025352): Use "䉞" instead of "⿱竹感".
+	(U-00025359): Use U+770C instead of BC-8C6D.
+	(U-0002535C): Use "𧅚" instead of "⿱艹矍".
+	(U-00025367): Use "𡿪" instead of "⿱巛夕".
+
 	* IDS-UCS-Basic.txt (U+58E1): Use "⿸叡x" instead of "⿰睿⿱又x".
 
 2022-11-09  MORIOKA Tomohiko  <tomo.git@chise.org>
