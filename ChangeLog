@@ -1,5 +1,11 @@
 2022-11-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00024159): Use U+56B4 instead of JU+56B4.
+	(U-00024AD0): Use U+9084 instead of JU+9084.
+	(U-00024ADA): Use U+96E2 instead of UU+96E2.
+	(U-00024ADB): Fixed.
+	(U-00025353): Use U+56B4 instead of JU+56B4.
+
 	* IDS-UCS-Basic.txt (U+58E1): Use U+571F instead of A-IWDSU+571F.
 
 2022-11-17  MORIOKA Tomohiko  <tomo.git@chise.org>
