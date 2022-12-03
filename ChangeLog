@@ -1,3 +1,46 @@
+2022-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U+5203 instead of UU+5203.
+	- Use U+8FB6 instead of <CJK RADICAL WALK TWO>.
+	- Use "庒" instead of "⿻庄丶".
+	- Use "𥄗" instead of "⿰目㕚".
+	(U-00024686): Use "⿰x陂" instead of "⿲x阝皮".
+	(U-00024687): Use "𱻊" instead of "⿱𦍌又".
+	(U-0002480F): Use "𱐔" instead of "⿰刃刃".
+	(U-00024945): Confirmed.
+	(U-00024949): Use U+827B instead of C3-2438.
+	(U-0002494A): Use "㣼" instead of "⿰忄刃".
+	(U-0002494C): Use "邜" instead of "⿰夕阝".
+	(U-0002494E): Use "𤆌" instead of "⿱火又".
+	(U-0002495C): Use "𠬸" instead of "⿱⿵冂巳又".
+	(U-00024965): Completed [temporary].
+	(U-00024967): Use "𦒳" instead of "⿱耂工".
+	(U-000249E4): Use "𭕛" instead of "⿸尸虫".
+	(U-000249E8): Use "⿰x⻏" instead of "⿰x阝".
+	(U-000249EA): Use "𥥍" instead of "⿱穴𡗜".
+	(U-000249EE): Use "𭩶" instead of "⿱列木".
+	(U-000249FE): Modify structure.
+	(U-000249FF): Use "斋" instead of "⿱文而".
+	(U-00024A02): Use "迶" instead of "⿺⻎有".
+	(U-00024A03): Completed [temporary].
+	(U-00024A0B): Use "笒" instead of "⿱竹今".
+	(U-00024A0C): Fixed.
+	(U-00024A0D): Use "𠠴" instead of "⿰力力".
+	(U-00024A0F): Use "𧴲" instead of "⿱巛貝".
+	(U-00024A1A): Use "𮔀" instead of "⿱必虫".
+	(U-00024A1B): Modify structure.
+	(U-00024A22): Completed.
+	(U-00024B72): Use "䀑" instead of "⿰目㕚".
+	(U-00024D8C): Use "𤆌" instead of "⿱火又".
+	(U-000250C4): Use "系" instead of "⿱丿糸".
+	(U-000250C5): Completed.
+	(U-000254B4): Use "𦬆" instead of "⿱艹亾".
+	(U-000254B6): Use "系" instead of "⿱丿糸".
+	(U-00025BBA): Use "𤴔" instead of "⿱乛止"; use "⿰x⻏" instead of
+	"⿰x阝".
+	(U-00025E7F): Fixed.
+
 2022-12-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2D938): Modify structure.
