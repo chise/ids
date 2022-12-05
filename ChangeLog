@@ -1,3 +1,13 @@
+2022-12-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024243): Use U+5FCD instead of UU+5FCD.
+	(U-00024246): Use "旵" instead of "⿱日山".
+	(U-000249FB): Use U+5EAD instead of UU+5EAD.
+	(U-00024A21): Use U+6717 instead of UU+6717.
+	(U-00024A70): Use "㮚" instead of "⿱𠧪木".
+	(U-00024A7C): Fixed.
+	(U-00024A87): Use "㮚" instead of "⿱𠧪木".
+
 2022-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
