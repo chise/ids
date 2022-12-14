@@ -1,3 +1,10 @@
+2022-12-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000290E9): Modify structure.
+	(U-000290EB): Use "佰" instead of "⿰亻百".
+	(U-000290EC): Use "⿸雲x" instead of "⿱雨⿰云x".
+	(U-00029107): Modify structure.
+
 2022-12-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-36628): Completed.
