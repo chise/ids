@@ -1,5 +1,10 @@
 2022-12-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2DA57): Modify structure; delete the second
+	column because it seems not unifiable.
+	(U+2DA5F): Completed.
+	(U+2DA60): Unified to one column.
+
 	* IDS-UCS-Ext-B-5.txt (U-000290E9): Modify structure.
 	(U-000290EB): Use "佰" instead of "⿰亻百".
 	(U-000290EC): Use "⿸雲x" instead of "⿱雨⿰云x".
