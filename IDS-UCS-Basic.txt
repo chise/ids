@@ -4044,7 +4044,7 @@ U+5DC9	巉	⿰山毚
 U+5DCA	巊	⿰山嬰
 U+5DCB	巋	⿱山歸
 U+5DCC	巌	⿱山厳
-U+5DCD	巍	⿱山魏
+U+5DCD	巍	⿹嵬委
 U+5DCE	巎	⿰山夒
 U+5DCF	巏	⿰山雚
 U+5DD0	巐	⿱山髜
