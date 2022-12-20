@@ -8,6 +8,8 @@
 	(U-00029DC1): Use "𠂬" instead of "⿸𠂆巴".
 	(U-00029DC5): Use "𤕭" instead of "⿰爿又".
 
+	* IDS-UCS-Basic.txt (U+5DCD): Modify structure.
+
 2022-12-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DA57): Modify structure; delete the second
