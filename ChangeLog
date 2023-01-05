@@ -1,3 +1,161 @@
+2023-01-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5CF1): Use "⿸狃x" instead of "⿰犭⿱丑x".
+
+2023-01-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "灰" instead of "⿸厂火".
+	- Use "𥐧" instead of "⿱石廾".
+	- Use U+590C instead of CU+590C.
+	(U-00025E90): Use "听" instead of "⿰口斤".
+	(U-00025E97): Completed.
+
+	* IDS-SW-JIGUGE.txt: Use "⿸&SW-JIGUGE-30316;x" instead of "⿱&SW-JIGUGE-30316;x".
+	(SW-JIGUGE-00323): Modify structure.
+	(SW-JIGUGE-03522): Completed [temporary].
+	(SW-JIGUGE-03912): Completed.
+	(SW-JIGUGE-09615): Fixed.
+	(SW-JIGUGE-11310): Fixed.
+	(SW-JIGUGE-11723): Fixed.
+	(SW-JIGUGE-17918): Fixed.
+	(SW-JIGUGE-18000): Completed [temporary].
+	(SW-JIGUGE-19702): Modify structure; completed [temporary].
+	(SW-JIGUGE-19703): Completed [temporary].
+	(SW-JIGUGE-19805): Completed [temporary].
+	(SW-JIGUGE-19907): Completed.
+	(SW-JIGUGE-20407): Completed [temporary]; add an apparent field.
+	(SW-JIGUGE-20408): Completed [temporary].
+	(SW-JIGUGE-23011): Completed.
+	(SW-JIGUGE-24107): Completed.
+	(SW-JIGUGE-25719): Completed.
+	(SW-JIGUGE-26721): Fixed.
+	(SW-JIGUGE-26826): Completed.
+	(SW-JIGUGE-26906): Fixed.
+	(SW-JIGUGE-26917): Completed.
+	(SW-JIGUGE-27006): Completed.
+	(SW-JIGUGE-27313): Completed.
+	(SW-JIGUGE-27405): Completed.
+	(SW-JIGUGE-27511): Completed.
+	(SW-JIGUGE-27605): Add IDS.
+	(SW-JIGUGE-27608): Completed.
+	(SW-JIGUGE-27609): Fixed [temporary].
+	(SW-JIGUGE-27703): Modify structure; add an apparent field based
+	on the previous IDS.
+	(SW-JIGUGE-27709): Fixed.
+	(SW-JIGUGE-27711): Completed.
+	(SW-JIGUGE-27712): Fixed; add an apparent field.
+	(SW-JIGUGE-27806): Completed.
+	(SW-JIGUGE-27906): Completed.
+	(SW-JIGUGE-27925): Completed.
+	(SW-JIGUGE-28110): Completed.
+	(SW-JIGUGE-28111): Completed.
+	(SW-JIGUGE-28116): Fixed.
+	(SW-JIGUGE-28213): Completed.
+	(SW-JIGUGE-28300): Fixed.
+	(SW-JIGUGE-28504): Completed.
+	(SW-JIGUGE-28506): Fixed.
+	(SW-JIGUGE-28701): Fixed [temporary].
+	(SW-JIGUGE-28702): Fixed.
+	(SW-JIGUGE-28703): Fixed.
+	(SW-JIGUGE-28801): Fixed [temporary].
+	(SW-JIGUGE-28812): Fixed.
+	(SW-JIGUGE-28902): Fixed.
+	(SW-JIGUGE-28903): Fixed.
+	(SW-JIGUGE-28907): Completed [temporary].
+	(SW-JIGUGE-29103): Fixed.
+	(SW-JIGUGE-29123): Completed.
+	(SW-JIGUGE-29205): Fixed.
+	(SW-JIGUGE-29208): Completed.
+	(SW-JIGUGE-29217): Completed.
+	(SW-JIGUGE-29316): Fixed.
+	(SW-JIGUGE-29425): Completed [temporary].
+	(SW-JIGUGE-29518): Completed.
+	(SW-JIGUGE-29521): Completed.
+	(SW-JIGUGE-29603): Completed.
+	(SW-JIGUGE-29605): Completed; add an apparent field.
+	(SW-JIGUGE-29606): Fixed.
+	(SW-JIGUGE-29802): Completed.
+	(SW-JIGUGE-29807): Completed.
+	(SW-JIGUGE-29810): Fixed [temporary].
+	(SW-JIGUGE-29813): Fixed.
+	(SW-JIGUGE-29819): Fixed [temporary].
+	(SW-JIGUGE-29822): Completed.
+	(SW-JIGUGE-29823): Fixed.
+	(SW-JIGUGE-29907): Completed.
+	(SW-JIGUGE-29911): Completed [temporary].
+	(SW-JIGUGE-29916): Completed.
+	(SW-JIGUGE-29919): Completed.
+	(SW-JIGUGE-30011): Completed.
+	(SW-JIGUGE-30023): Completed.
+	(SW-JIGUGE-30101): Completed.
+	(SW-JIGUGE-30107): Completed.
+	(SW-JIGUGE-30209): Use SW-JIGUGE-04221[&SW-JIGUGE-04221;] instead of
+	SW-JIGUGE-41104[&SW-JIGUGE-41104;].
+	(SW-JIGUGE-30301): Completed.
+	(SW-JIGUGE-30311): Completed [temporary].
+	(SW-JIGUGE-30316): Completed.
+	(SW-JIGUGE-30400): Fixed.
+	(SW-JIGUGE-30401): Completed.
+	(SW-JIGUGE-30426): Fixed.
+	(SW-JIGUGE-30430): Completed.
+	(SW-JIGUGE-30503): Fixed.
+	(SW-JIGUGE-30606): Fixed.
+	(SW-JIGUGE-30703): Completed.
+	(SW-JIGUGE-30705): Completed [temporary].
+	(SW-JIGUGE-30710): Fixed.
+	(SW-JIGUGE-30715): Fixed.
+	(SW-JIGUGE-30818): Completed.
+	(SW-JIGUGE-30901): Completed.
+	(SW-JIGUGE-30902): Completed.
+	(SW-JIGUGE-31001): Fixed.
+	(SW-JIGUGE-31003): Completed.
+	(SW-JIGUGE-31004): Completed.
+	(SW-JIGUGE-31016): Completed.
+	(SW-JIGUGE-31018): Completed.
+	(SW-JIGUGE-31019): Completed.
+	(SW-JIGUGE-31020): Completed.
+	(SW-JIGUGE-31106): Fixed; add an apparent field.
+	(SW-JIGUGE-31110): Completed.
+	(SW-JIGUGE-31111): Completed.
+	(SW-JIGUGE-31304): Completed; add an apparent field.
+	(SW-JIGUGE-31307): Completed.
+	(SW-JIGUGE-31710): Completed.
+	(SW-JIGUGE-31824): Completed.
+	(SW-JIGUGE-32202): Completed.
+	(SW-JIGUGE-32203): Completed.
+	(SW-JIGUGE-32205): Completed.
+	(SW-JIGUGE-32311): Completed.
+	(SW-JIGUGE-34304): Fixed.
+	(SW-JIGUGE-35502): Completed.
+	(SW-JIGUGE-35503): Completed.
+	(SW-JIGUGE-35504): Completed.
+	(SW-JIGUGE-35505): Add IDS.
+	(SW-JIGUGE-35801): Completed.
+	(SW-JIGUGE-37309): Completed.
+	(SW-JIGUGE-37404): Completed.
+	(SW-JIGUGE-37824): Completed.
+	(SW-JIGUGE-37911): Fixed.
+	(SW-JIGUGE-38511): Completed.
+	(SW-JIGUGE-38820): Completed.
+	(SW-JIGUGE-39801): Completed.
+	(SW-JIGUGE-42615): Fixed.
+	(SW-JIGUGE-42616): Completed.
+	(SW-JIGUGE-43200): Fixed.
+	(SW-JIGUGE-44013): Fixed.
+	(SW-JIGUGE-46901): Fixed.
+	(SW-JIGUGE-46902): Completed.
+	(SW-JIGUGE-47214): Completed.
+	(SW-JIGUGE-47422): Completed.
+	(SW-JIGUGE-51601): Fixed.
+	(SW-JIGUGE-51918): Completed [temporary].
+	(SW-JIGUGE-51919): Completed.
+	(SW-JIGUGE-51925): Completed [temporary].
+
+2023-01-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CNS-3.txt (C3-4962): Fixed.
+
 2022-12-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5449): Modify structure.
