@@ -1,3 +1,22 @@
+2023-01-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+590B instead of CU+590B.
+	(U-0002016A): Modify structure.
+	(U-00020170): Fixed.
+	(U-000205D3): Confirmed.
+	(U-000209DC): Modify structure.
+	(U-000209DD): Modify structure.
+	(U-000209E3): Modify structure.
+	(U-000215FE): Add IDS.
+	(U-000215FF): Use "丗" instead of "⿱卅一".
+	(U-00021601): Completed [temporary].
+	(U-00021602): Modify structure.
+	(U-00021608): Completed [temporary].
+	(U-0002160B): Use "𡗓" instead of "⿵大一".
+	(U-00021C63): Modify structure.
+	(U-00021C67): Modify structure.
+	(U-00021C98): Use U+6C3A instead of BC-8C41.
+
 2023-01-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5CF1): Use "⿸狃x" instead of "⿰犭⿱丑x".
