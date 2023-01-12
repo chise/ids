@@ -1,3 +1,8 @@
+2023-01-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+590B): Use "⿱允x" instead of "⿳厶八x".
+	(U+590C): Use "圥" instead of "⿱土八".
+
 2023-01-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+590B instead of CU+590B.
