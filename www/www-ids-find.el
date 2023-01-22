@@ -561,7 +561,7 @@ style=\"vertical-align:middle\">"
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.100")
+(defconst www-ids-find-version "0.100.1")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -587,15 +587,50 @@ style=\"vertical-align:middle\">"
 	     www-ids-find-char-viewer-url
 	     (www-uri-encode-object c)
 	     (if ucs
-		 (format "<img alt=\"u%04x\" src=\"%s/u%04x.svg\" style=\"vertical-align:middle; width: 60px; height: 60px\"/>"
+		 (format "<img alt=\"u%04x\" src=\"%s/u%04x.svg\" style=\"vertical-align:middle; width: 60px; height: 60px\"/>%s"
 			 ucs
 			 chise-wiki-glyphwiki-glyph-image-url
-			 ucs)
+			 ucs
+			 (if code-desc
+			     (encode-coding-string (format " (%c)" c) 'utf-8-mcs-er)
+			   ""))
 	       (www-format-encode-string (char-to-string c)))))
     ))
 
+(defun www-ids-find-format-ids (ids &optional code-desc)
+  (let (len i ucs ret)
+    (setq i 0
+	  len (length ids))
+    (while (< i len)
+      (www-ids-find-format-char (aref ids i))
+      (setq i (1+ i)))
+    (when code-desc
+      (princ
+       (format " (%s)"
+	       (mapconcat
+		(lambda (c)
+		  (setq ucs (or (char-ucs c)
+				(encode-char c '=>ucs@iso)
+				(encode-char c '=>ucs@unicode)
+				(encode-char c '=>ucs@iwds-1)
+				(encode-char c '=>ucs@iwds-1/normalized)
+				(encode-char c '=>ucs@component)
+				(encode-char c '=>ucs@cognate)))
+		  (cond (ucs
+			 (encode-coding-string
+			  (char-to-string (decode-char '=ucs ucs))
+			  'utf-8-mcs-er)
+			 )
+			(t
+			 (setq ret (encode-coding-string 
+				    (char-to-string c) 'utf-8-mcs-er))
+			 (if (eq (aref ret 0) ?&)
+			     (concat "&amp;" (substring ret 1)))
+			 )))
+		ids ""))))))
+
 (defun www-ids-find-format-line (c is)
-  (let (ucs len i ids)
+  (let (ucs ids)
     (princ "<span class=\"entry\">")
     (www-ids-find-format-char c 'code-desc)
     (princ "</span>")
@@ -615,14 +650,16 @@ style=\"vertical-align:middle\">"
        (format " <a href=\"%s%X\">(link map)</a>"
 	       www-ids-find-chise-link-map-url-prefix ucs)))
     (princ " ")
+    ;; (www-ids-find-format-ideographic-structure is 'code-desc)
     (when is
       (setq ids (ideographic-structure-to-ids is))
-      (setq i 0
-	    len (length ids))
+      ;; (setq i 0
+      ;;       len (length ids))
       (princ "<span class=\"ids\">")      
-      (while (< i len)
-	(www-ids-find-format-char (aref ids i))
-	(setq i (1+ i)))
+      (www-ids-find-format-ids ids 'code-desc)
+      ;; (while (< i len)
+      ;;   (www-ids-find-format-char (aref ids i))
+      ;;   (setq i (1+ i)))
       (princ "</span>"))
     (when (and ucs
 	       (with-current-buffer
@@ -947,7 +984,7 @@ href=\"http://www.shuiren.org/\">睡人亭</a>）による解説
 <div class=\"container\">
 ")
     (princ "<div class=\"ml-0\">
-Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015, 2016, 2017, 2020, 2021, 2022 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
+Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2015, 2016, 2017, 2020, 2021, 2022, 2023 <a href=\"http://kanji.zinbun.kyoto-u.ac.jp/~tomo/\"
 >MORIOKA Tomohiko</a></div>")
     (princ
      (format
