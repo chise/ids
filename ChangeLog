@@ -1,3 +1,7 @@
+2023-01-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt: Use "⿴弜x" instead of "⿲弓x弓".
+
 2023-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-0002001A): Modify structure; preserve the
