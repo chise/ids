@@ -1,3 +1,18 @@
+2023-01-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024F4B): Modify structure.
+
+2023-01-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.100.1.
+	(www-ids-find-format-char): Add " (<CHARACTER>)" if optional
+	argument `code-desc' is specified.
+	(www-ids-find-format-ids): New function.
+	(www-ids-find-format-line): Use `www-ids-find-format-ids' to
+	display "
+	(<IDS>)" follow after IDS images.
+	(www-batch-ids-find): Update Copyright.
+
 2023-01-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt: Use "⿴弜x" instead of "⿲弓x弓".
