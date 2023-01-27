@@ -1,3 +1,8 @@
+2023-01-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3C4E): Use "⿹𣣴x" instead of "⿰⿱眔x欠".
+	(U+3C50): Completed [temporary].
+
 2023-01-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000267E2): Use "⿸豚x" instead of
