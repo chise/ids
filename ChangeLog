@@ -1,3 +1,8 @@
+2023-01-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023E91): Modify structure.
+	(U-00023E93): Modify structure.
+
 2023-01-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+3C4E): Use "⿹𣣴x" instead of "⿰⿱眔x欠".
