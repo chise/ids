@@ -1,5 +1,14 @@
 2023-02-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-A.txt (U+3675): Use "㙜" instead of "⿱高土".
+	(U+3DF8): Use "𬀽" instead of "⿱日&CDP-8BF8;".
+	(U+3DF9): Use "䓬" instead of "⿱艹卓".
+	(U+3DFA): Use "𢽶" instead of "⿰臽⺙".
+	(U+3DFC): Modify structure.
+	(U+3E00): Use "㙜" instead of "⿱高土".
+	(U+43FF): Use "𢼄" instead of "⿰户⺙".
+	(U+458D): Use U+6535 instead of <CJK RADICAL RAP>.
+
 	* IDS-UCS-Basic.txt (U+5B0A): Modify structure.
 	(U+71D5): Modify structure.
 	(U+71EE): Use "𱑺" instead of "⿱炏又".
