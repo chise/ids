@@ -1,3 +1,8 @@
+2023-02-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use U+8981 instead of UU+8981.
+	(U+2E5C6): Use U+897F instead of <CJK RADICAL WEST TWO>.
+
 2023-02-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2EBBA): Use "𠔼" instead of "⿲丿二丨".
