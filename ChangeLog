@@ -1,3 +1,35 @@
+2023-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D9A2): Completed.
+	(U+2D9A9): Use U+5725 instead of UU+5725.
+	(U+2E679): Unified to one column.
+
+	* IDS-UCS-Ext-B-2.txt: Use "⿰x⻏[CJK RADICAL CITY]" instead of
+	"⿰x阝[CJK RADICAL MOUND TWO]".
+	(U-000224B9): Use "𱤏" instead of "⿱林林".
+	(U-00022582): Use "𫎴" instead of "⿺走同".
+	(U-00022584): Modify structure.
+	(U-0002258C): Use "𡻷" instead of "⿱山戚".
+	(U-000232C0): Fixed.
+	(U-000232C5): Modify structure.
+	(U-0002348F): Completed.
+	(U-00023492): Use "⿰𣐀x" instead of "⿲木文x".
+	(U-000234F9): Use "⿰x𨚫" instead of "⿲x去阝".
+	(U-0002382E): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00023831): Use "簪" instead of "⿱竹朁".
+	(U-0002383C): Use "𨶪" instead of "⿵門翏".
+	(U-0002383D): Use "覇" instead of "⿱覀䩗".
+	(U-00023840): Modify structure.
+	(U-00023841): Use "⿰x𱌛" instead of "⿲x齒攵".
+	(U-00023856): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00023868): Fixed.
+	(U-00023878): Modify structure.
+	(U-0002387B): Use "𮦃" instead of "⿰雚隹".
+	(U-0002387C): Use "𠨋" instead of "⿱𠧪⿰𠧪𠧪".
+	(U-0002387D): Modify structure.
+
 2023-02-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use U+8981 instead of UU+8981.
