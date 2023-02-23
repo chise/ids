@@ -1,3 +1,8 @@
+2023-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D9A3): Use U+5377 instead of JU+5377.
+	(U+2EAD4): Ditto.
+
 2023-02-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2D9A2): Completed.
