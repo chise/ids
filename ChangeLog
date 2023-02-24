@@ -1,3 +1,8 @@
+2023-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5468): Modify structure.
+	(U+7528): Add an apparent field.
+
 2023-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2D9A3): Use U+5377 instead of JU+5377.
