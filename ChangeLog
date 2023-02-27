@@ -1,3 +1,11 @@
+2023-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U+81FD instead of UU+81FD.
+	(U-00026975): Use "𠮥" instead of "⿱⺈口".
+	(U-0002697E): Completed.
+	(U-00027BF6): Use "豈" instead of "⿱山豆".
+	(U-00027BF7): Modify structure.
+
 2023-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5468): Modify structure.
