@@ -1,3 +1,26 @@
+2023-03-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-0002673A): Use U+5F50 instead of BC-8BAB.
+	(U-0002687E): Completed.
+	(U-0002687F): Completed.
+	(U-00026881): Use "蒼" instead of "⿱艹倉".
+	(U-00026883): Use "𧨅" instead of "⿳艹土言".
+	(U-00026885): Modify structure.
+	(U-00026E59): Modify structure.
+	(U-00026E5B): Use "⿱x𠵛" instead of "⿳x品丂".
+	(U-00026E5E): Use "𰨥" instead of "⿰禾先".
+	(U-00027119): Use "䝐" instead of "⿰豕隋".
+	(U-0002711D): Use "𥼚" instead of "⿰米焦".
+	(U-0002711F): Use "𪋁" instead of "⿸鹿豕".
+	(U-00027121): Modify structure.
+	(U-00027122): Modify structure.
+	(U-000273CC): Use "𡔜" instead of "⿱士尸".
+	(U-000273CF): Use "𥥐" instead of "⿱穴且".
+	(U-000273DC): Use "𡔣" instead of "⿱𠮷&CDP-8CD5;".
+	(U-000273E6): Use "䎡" instead of "⿱而火".
+	(U-000273ED): Use "⿱𪺍x" instead of "⿳爫⺕x".
+	(U-000273F1): Use "盎" instead of "⿱央皿".
+
 2023-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026518): Use "𡬶" instead of
@@ -5586,7 +5609,7 @@
 	* IDS-UCS-Basic.txt (U+8219): Use "𦧚" instead of "⿰舌舌".
 	(U+821B): Add IDS.
 	(U+821D): Modify structure.
-	(U+8CF7): Use "⿱&GT-K07262;x" instead of "⿳&CDP-88D9;冖x".
+	(U+8CF7): Use "⿱&CDP-i005-8DEB;x" instead of "⿳&CDP-88D9;冖x".
 	(U+97CB): Add IDS.
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-03315): Add IDS.
