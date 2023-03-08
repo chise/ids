@@ -1,3 +1,9 @@
+2023-03-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000239D2): Use "𡕒" instead of
+	"⿱一⿻十丿".
+	(U-000239D3): Use "𰁒" instead of "⿰了了".
+
 2023-03-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-0002673A): Use U+5F50 instead of BC-8BAB.
