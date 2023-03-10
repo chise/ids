@@ -1,5 +1,14 @@
 2023-03-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-000267C5): Use "㕖" instead of
+	"⿱⿱厶⿰厶厶木".
+	(U-000267C6): Use "⿱x𦊈" instead of "⿱x⺫月".
+	(U-000267C9): Use "疳" instead of "⿸疒甘".
+	(U-000267CE): Use U+5DEE instead of JU+5DEE.
+	(U-00026884): Use U+88F4 instead of UU+88F4.
+	(U-000273DE): Use U+5DEE instead of JU+5DEE.
+	(U-000273EB): Use U+6BBA instead of UU+6BBA.
+
 	* IDS-UCS-Ext-B-2.txt (U-000239D2): Use "𡕒" instead of
 	"⿱一⿻十丿".
 	(U-000239D3): Use "𰁒" instead of "⿰了了".
