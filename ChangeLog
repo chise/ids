@@ -1,5 +1,10 @@
 2023-03-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+8CF4): Use U+8CA0 instead of BC-8D68.
+	(U+8D14): Use "賏" instead of "⿰貝貝".
+
+2023-03-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+9B30): Modify structure.
 	(U+9B31): Modify structure.
 
