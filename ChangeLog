@@ -1076,8 +1076,7 @@
 	* IDS-UCS-Ext-D.txt (U-0002B7C1): Use "⿰x𫨻" instead of
 	"⿲x&CDP-8C7A;殳".
 	(U-0002B7C7): Use U+5ED6 instead of JU+5ED6 [suggested by Jaemin
-	Chung
-	[2022-08-10 23:01:37 +0000]].
+	Chung [2022-08-10 23:01:37 +0000]].
 	(U-0002B7CB): Modify structure.
 
 	* IDS-UCS-Ext-A.txt (U+35CA): Add an apparent field.
@@ -15884,7 +15883,7 @@
 
 	* IDS-UCS-Basic.txt:
 	- Use U+386F (㡯) instead of "⿸广乇".
-	- Use U+5C27 (尧) instead of "⿱&CDP-89D9;兀".
+	- Use U+5C27 (尧) instead of "⿱𭠍兀".
 	- Use U+8D1E (贞) instead of "⿱⺊贝".
 	- Use U+4E3D (丽) instead of "⿱一⿰⿵冂丶⿵冂丶".
 	- Use U+8D23 (责) instead of "⿱龶贝".
