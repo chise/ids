@@ -1,3 +1,31 @@
+2023-04-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029565): Use "𫁒" instead of "⿱穴隹".
+	(U-00029567): Use "𩔊" instead of "⿰頁頁".
+	(U-00029568): Modify structure.
+	(U-00029569): Use "𥇴" instead of "⿱目斨".
+	(U-0002956B): Modify structure.
+	(U-00029575): Modify structure.
+	(U-00029578): Use "⿱⺸x" instead of "⿳卝干x".
+	(U-0002957D): Use "𡪛" instead of "⿱𡧍貝".
+	(U-00029584): Use "厱" instead of "⿸厂僉".
+	(U-00029586): Use "㢛" instead of "⿸广僉".
+	(U-00029587): Use "𥉾" instead of "⿰目翏".
+	(U-00029588): Modify structure.
+	(U-0002958F): Use "𩔊" instead of "⿰頁頁".
+	(U-00029590): Use "𩠬" instead of "⿰首首".
+	(U-00029591): Fixed.
+
+2023-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt (U+32351): Fixed [suggested by Jaemin Chung
+	[Wed, 19 Apr 2023 16:01:11 +0000]].
+
+	* IDS-UCS-Ext-B-1.txt (U-00021A21): Use "奂" instead of
+	"⿱𠂊⿻冂大" [suggested by Jaemin Chung [Sat, 15 Apr 2023 18:26:38
+	+0000]].
+	(U-00021A23): Use "𤘴" instead of "⿰牜攴".
+
 2023-04-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023868): Modify structure.
