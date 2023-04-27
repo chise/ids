@@ -1,3 +1,11 @@
+2023-04-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022652): Use "尧" instead of "⿱𭠍兀".
+	(U-00022657): Use "妄" instead of "⿱亡女".
+	(U-00022659): Use "𡵉" instead of "⿱山兀".
+	(U-0002304B): Use "𡵉" instead of "⿱山兀".
+	(U-000231C8): Use U+5140 instead of U+FA0C.
+
 2023-04-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029565): Use "𫁒" instead of "⿱穴隹".
