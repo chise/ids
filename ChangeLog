@@ -1,3 +1,26 @@
+2023-04-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020D20): Use "𠇮" instead of "⿱𠆢丙".
+	(U-00020D24): Modify structure.
+	(U-00020D27): Use "亝" instead of "⿱厽二".
+	(U-00020D34): Use "迊" instead of "⿺辶帀".
+	(U-00020D35): Use U+5E1A instead of JU+5E1A.
+	(U-00021674): Use "竟" instead of "⿳立日儿".
+	(U-00021676): Use "竜" instead of "⿱立电".
+	(U-0002167C): Fixed.
+	(U-00021682): Use "𡗛" instead of "⿱勹大".
+	(U-00021684): Use "㦸" instead of "⿰卓戈".
+	(U-0002168A): Use "⿱x𨾴" instead of "⿳x吅隹".
+	(U-0002168B): Use "⿱x𡙢" instead of "⿳x粉大".
+	(U-0002168E): Completed.
+	(U-00021696): Use U+5E1A instead of JU+5E1A.
+	(U-00021698): Use "𡗮" instead of "⿱爫大".
+	(U-00021699): Use "⿱𭘧x" instead of "⿳𠦜⿱冖巾x"
+	(U-00021A0E): Use "⿱灾x" instead of "⿱宀⿱火x".
+	(U-00021A19): Modify structure.
+	(U-00021A1D): Use "⿱灾x" instead of "⿱宀⿱火x".
+	(U-00021A26): Use U+5E1A instead of JU+5E1A.
+
 2023-04-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022652): Use "尧" instead of "⿱𭠍兀".
