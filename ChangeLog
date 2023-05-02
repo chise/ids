@@ -32,6 +32,11 @@
 	(U-00023D31): Use "𦍋" instead of "⿱卝𰀁".
 	(U-00023D46): Use "𥤤" instead of "⿱穴几".
 
+	* IDS-UCS-Ext-A.txt: Use U+4E38 instead of CU+4E38.
+	(U+4006): Modify structure.
+	(U+4007): Fixed.
+	(U+400B): Fixed.
+
 2023-04-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021683): Use U+920D instead of JU+920D.
