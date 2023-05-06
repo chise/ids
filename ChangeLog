@@ -1,3 +1,13 @@
+2023-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+590B instead of CU+590B.
+	(U-000235B1): Use "𭖨" instead of "⿱山夋".
+	(U-00023597): Use "迡" instead of "⿺辶尼".
+	(U-0002359E): Use "𱒢" instead of "⿱亦口".
+	(U-000235A5): Use "𢪿" instead of "⿱古手".
+	(U-000235AB): Use "㱿" instead of "⿰⿱士𠔼殳".
+	(U-000235B1): Use "𭖨" instead of "⿱山夋".
+
 2023-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022C6A): Use "𠳮" instead of "⿱右冋".
