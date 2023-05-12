@@ -1,4 +1,26 @@
+2023-05-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2DB63): Use "㱏" instead of "⿻一止".
+	(U+2E017): Ditto.
+
+	* IDS-UCS-Basic.txt (U+623C): Add IDS.
+	(U+6D15): Use "䏌" instead of "⿱八月".
+	(U+6D16): Use "吳" instead of "吴".
+	(U+7966): Ditto.
+	(U+7B7D): Ditto.
+	(U+8323): Ditto.
+	(U+865E): Ditto.
+	(U+8708): Ditto.
+	(U+8AA4): Ditto.
+	(U+92D8): Ditto.
+	(U+9E7D): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+9E8C): Use "吳" instead of "吴".
+
 2023-05-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-0002519E): Add IDS.
+	(U-000254DB): Fixed.
 
 	* IDS-UCS-Ext-A.txt (U+3C4F): Modify structure; preserve the
 	previous IDS as an apparent structure.
