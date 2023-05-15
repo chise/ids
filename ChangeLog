@@ -1,3 +1,28 @@
+2023-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027169): Use "⿱x𢸧" instead of
+	"⿳x燅手".
+	(U-00027173): Use "𰀕" instead of "⿰丙丙".
+	(U-00027174): Completed.
+	(U-00027176): Completed; add an apparent structure.
+	(U-0002717B): Use "𪅀" instead of "⿰堇鳥".
+	(U-0002717D): Fixed.
+	(U-0002717E): Use "⿱x𣡈" instead of "⿳x⿱⿵&CDP-8B64;同果".
+	(U-000275DA): Use "𰀕" instead of "⿰丙丙".
+
+2023-05-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D24A): Use U+54A8 instead of JU+54A8.
+	(U+2D24C): Use U+7947 instead of J2000U+7947.
+	(U+2D277): Use U+7956 instead of UU+7956.
+	(U+2D27A): Use U+5A1C instead of UU+5A1C.
+	(U+2D293): Use "𰓶" instead of "⿱利手".
+	(U+2D336): Use U+7A6B instead of UU+7A6B.
+	(U+2D338): Use U+9054 instead of UU+9054.
+	(U+2D339): Use U+79B0 instead of J2000U+79B0.
+	(U+2D33C): Use U+6B3C instead of UU+6B3C.
+	(U+2E7C9): Use U+9054 instead of UU+9054.
+
 2023-05-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DB63): Use "㱏" instead of "⿻一止".
