@@ -1,3 +1,39 @@
+2023-05-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt:
+	- Use "⿰阝<CJK RADICAL MOUND TWO>x" instead of "⿰阝<U+961D>x".
+	- Use "⿰x⻏<CJK RADICAL CITY>" instead of "⿰x阝<U+961D>".
+	(U+318A3): Use "𱑏" instead of "⿱𭁈𰀁".
+	(U+32190): Use "𫠥" instead of "⿺𠃊丙".
+	(U+32198): Use "⿴𨙵x" instead of "⿲乡x阝".
+	(U+3219A): Use "𱑏" instead of "⿱𭁈𰀁".
+	(U+3219B): Use "⿴䣈x" instead of "⿲邑x邑".
+	(U+3219E): Use "𲉜" instead of "⿲阝圭㕛".
+	(U+321A1): Use "⿴𨛜x" instead of "⿲𨙨x邑".
+	(U+3225C): Modify structure.
+	(U+3225F): Completed.
+
+	* IDS-UCS-Ext-G.txt:
+	- Use "⿰x⻏<CJK RADICAL CITY>" instead of "⿰𠂎阝<U+961D>".
+	- Use "⿰阝<CJK RADICAL MOUND TWO>x" instead of "⿰阝<U+961D>x".
+	(U+30946): Use "⿴𨙵x" instead of "⿲乡x阝".
+	(U+30949): Use "&U-i001+2FF6;䀁x" instead of "⿱⿰x有皿".
+	(U+3100E): Use "𰆗" instead of "⿸厂文".
+
+	* IDS-UCS-Ext-B-3.txt (U-000250B5): Use "𣸁" instead of
+	"⿰氵⿻聿彡".
+	(U-000250B9): Use "&U-i001+2FF6;䀁x" instead of "⿱⿰x有皿".
+	(U-000250C3): Use "㺒" instead of "⿰犭翏".
+
+	* IDS-UCS-Basic.txt (U+6B60): Use "&U-i001+2FF6;𨠅x" instead of "⿰⿱x酉欠".
+
+	* IDS-UCS-Ext-F.txt (U+2D278): Use U+7957 instead of JU+7957.
+	(U+2D33D): Use U+5B3E instead of JU+5B3E.
+	(U+2D33E): Use U+85FA instead of UU+85FA.
+	(U+2E7C8): Use U-00028F88 instead of IU+28F88.
+	(U+2E7CA): Use U+5F6D instead of UU+5F6D.
+	(U+2E7CB): Use U+840E instead of UU+840E.
+
 2023-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027169): Use "⿱x𢸧" instead of
