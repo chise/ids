@@ -1,3 +1,11 @@
+2023-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002390C): Use "⿹欼x" instead of
+	"⿰⿱叕x欠".
+	(U-00023915): Use "&U-i001+2FF6;𨠅x" instead of "⿰⿱x酉欠".
+	(U-0002391B): Use "猋" instead of "⿱犬㹜".
+	(U-0002391C): Use "⿹欼x" instead of "⿰⿱叕x欠".
+
 2023-05-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt:
