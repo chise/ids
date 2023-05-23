@@ -1,3 +1,9 @@
+2023-05-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D340): Use U+9EE8 instead of UU+9EE8.
+	(U+2D388): Use "⿵𱖆x" instead of "⿵⺆⿱土x".
+	(U+2D38E): Use "⿱圥x" instead of "⿳土八x".
+
 2023-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002390C): Use "⿹欼x" instead of
