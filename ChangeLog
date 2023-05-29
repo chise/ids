@@ -1,3 +1,14 @@
+2023-05-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-34623): Completed.
+
+2023-05-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029683): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
+	* IDS-UCS-Ext-F.txt (U+2D342): Use U+9A30 instead of JU+9A30.
+
 2023-05-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-G.txt (U+30184): Modify structure; preserve the
