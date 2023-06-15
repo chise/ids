@@ -1,3 +1,28 @@
+2023-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020D84): Use "𡥚" instead of "⿰子可".
+	(U-00020D86): Use "𨑮" instead of "⿺辶什".
+	(U-00020EC9): Use "适" instead of "⿺辶舌".
+	(U-00020ECC): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00020ECE): Use "斊" instead of "⿱文耳".
+	(U-00020ED4): Use "𠁅" instead of "⿸&CDP-88BC;匆".
+	(U-00020ED5): Use "㝡" instead of "⿱宀取".
+	(U-00020ED9): Use "𡇶" instead of "⿱龴⿴囗合".
+	(U-00020EE1): Use "𣂞" instead of "⿰良斤".
+	(U-00020EE6): Use "𡕩" instead of "⿳囟儿夊".
+	(U-00020EEB): Use "悥" instead of "⿱言心".
+	(U-00020EF6): Use "𦱤" instead of "⿳艹日廾".
+	(U-000211F6): Modify structure.
+	(U-0002143F): Use "逹" instead of "⿺辶幸".
+	(U-0002198D): Use "斊" instead of "⿱文耳".
+	(U-0002198F): Use "𡥦" instead of "⿲子子子".
+	(U-00021B97): Use U+8FB6 instead of <CJK RADICAL SIMPLIFIED WALK>.
+
+2023-06-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D345): Use U+8B6C instead of UU+8B6C.
+
 2023-05-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+70AD): Modify structure; preserve the
