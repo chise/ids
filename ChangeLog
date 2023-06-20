@@ -1,3 +1,23 @@
+2023-06-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use "𦓔" instead of "⿱而而".
+	(U-0002437E): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00024383): Use "𥒐" instead of "⿱圭石".
+	(U-00024386): Use "𡍏" instead of "⿱𠧧土".
+	(U-0002438F): Use "𫡑" instead of "⿲⿱丿人丨人".
+	(U-00024391): Use "𡕩" instead of "⿳囟八夊".
+	(U-000243AC): Use "𱑺" instead of "⿱炏又".
+	(U-000243C2): Use "焞" instead of "⿰火享".
+	(U-000243CD): Use "堹" instead of "⿰土重".
+	(U-000243CF): Use "𤲆" instead of "⿱田辰".
+	(U-000243F7): Use "𤍾" instead of "⿳林大火".
+	(U-0002528F): Use "𦒿" instead of "⿱老目".
+	(U-00025299): Use "𡕩" instead of "⿳囟八夊".
+
+	* IDS-UCS-Ext-B-1.txt (U-00021B97): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 2023-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020D84): Use "𡥚" instead of "⿰子可".
