@@ -1,3 +1,17 @@
+2023-06-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024349): Use "訔" instead of "⿱山言".
+	(U-0002434C): Use U+7075 instead of JU+7075.
+	(U-00024385): Use U+6556 instead of C1-5A72.
+	(U-00024390): Use U+533F instead of CU+533F.
+	(U-00024393): Use U+7075 instead of JU+7075.
+	(U-00024398): Use "⿱x𤋁" instead of "⿳x昜灬".
+	(U-000243CC): Use U+3DC5 instead of C3-3C75.
+
+2023-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020156): Add an apparent structure.
+
 2023-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020ECB): Use U-00024C07 instead of
