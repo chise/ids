@@ -1,5 +1,13 @@
 2023-06-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-000225A5): Use U+9761 instead of JU+9761.
+	(U-00023565): Use "䂝" instead of "⿰石戈".
+	(U-00023568): Use "𤰺" instead of "⿱不田".
+	(U-00023570): Use "𤤤" instead of "⿰𤣩禾".
+	(U-00023574): Use U+70AD instead of JU+70AD.
+	(U-00023578): Use "𦭧" instead of "⿱艹匝".
+	(U-00023589): Use "穼" instead of "⿱穴木".
+
 	* IDS-UCS-Ext-B-3.txt (U-00024349): Use "訔" instead of "⿱山言".
 	(U-0002434C): Use U+7075 instead of JU+7075.
 	(U-00024385): Use U+6556 instead of C1-5A72.
