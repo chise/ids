@@ -1,3 +1,35 @@
+2023-06-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+6535 instead of <CJK RADICAL RAP>.
+	- Use U-00030004 instead of MJ056865.
+	(U-00028A97): Use "笍" instead of "⿱竹內".
+	(U-00028A9E): Use "𭙡" instead of "⿸广甬".
+	(U-00028A9F): Use "𠅖" instead of "⿳亠吕十".
+	(U-00028AA0): Completed.
+	(U-00028AA1): Use "⿱㐫x" instead of "⿳亠凶x".
+	(U-00028AA3): Use "𡗚" instead of "⿱丶丙".
+	(U-00028BCF): Use "㽓" instead of "⿱生⿰生生".
+	(U-00028E53): Use "𢁙" instead of "⿱夂巾".
+	(U-00028E56): Use "𢨩" instead of "⿸戶匕".
+	(U-00028E60): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
+	(U-00028E71): Use "阩" instead of "⿰阝升".
+	(U-00028E72): Use "⿸𨸩x" instead of "⿰阝⿱⺙x".
+	(U-00028E76): Use "亝" instead of "⿱厽二".
+	(U-00028E8A): Modify structure.
+	(U-00028E93): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
+	(U-00028E9A): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
+	(U-00028E9B): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
+	(U-00028EBC): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
+	(U-00028EE6): Modify structure.
+	(U-00028EEC): Fixed.
+	(U-00028F4B): Modify structure.
+	(U-0002907E): Completed.
+	(U-0002916C): Use "𱳜" instead of "⿰矛⿱⺙口".
+	(U-00029A4F): Modify structure.
+	(U-00029A5C): Modify structure.
+	(U-00029A6C): Use "壳" instead of "⿱𡉉几".
+
 2023-06-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000225A5): Use U+9761 instead of JU+9761.
