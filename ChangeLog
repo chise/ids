@@ -1,3 +1,11 @@
+2023-07-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028A99): Use U+5C06 instead of JU+5C06.
+	(U-00028BCC): Use U+84EE instead of CU+84EE.
+	(U-00028BCE): Use U+96EA instead of CU+96EA.
+	(U-00028F4C): Modify structure.
+	(U-00029177): Use U+96EA instead of CU+96EA.
+
 2023-07-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025799): Use "㠩" instead of "⿱亾𫶧".
