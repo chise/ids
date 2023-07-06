@@ -1,3 +1,26 @@
+2023-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use "敄" instead of "⿰矛攵".
+	(U-0002886C): Use "泴" instead of "⿱水皿".
+	(U-00028A77): Use "𫨻" instead of "⿰&CDP-8C7A;殳".
+	(U-00028A79): Use "⿱x𨥲" instead of "⿳x⿰工几金".
+	(U-00028A7B): Modify structure.
+	(U-00028A7E): Use "乼" instead of "⿱注乙".
+	(U-00028CAC): Use "𭄶" instead of "⿱⿰矛攵力".
+	(U-00029177): Use U+751A instead of UU+751A.
+	(U-0002972F): Use "叜" instead of "⿳宀⿱八𠆢又".
+	(U-00029731): Use U+751A instead of UU+751A.
+	(U-0002973F): Use "𤓽" instead of "⿳爫㇇木".
+	(U-00029740): Use "桒" instead of "⿱卉木".
+	(U-00029741): Use "𢌴" instead of "⿱⿰巳巳廾".
+	(U-00029742): Use "𥝯" instead of "⿱禾开".
+	(U-0002974E): Use "𫥎" instead of "⿱免&CDP-8971;".
+	(U-00029752): Use "𡧰" instead of "⿱宀缶".
+	(U-00029753): Ditto.
+	(U-00029B7B): Use "昚" instead of "⿱𡗜日".
+	(U-00029B81): Modify structure.
+	(U-00029B83): Use "叜" instead of "⿳宀⿱八𠆢又".
+
 2023-07-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028A99): Use U+5C06 instead of JU+5C06.
