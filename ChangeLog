@@ -1,3 +1,8 @@
+2023-07-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+513F): Add an apparent field.
+	(U+80E4): Modify structure.
+
 2023-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use "敄" instead of "⿰矛攵".
