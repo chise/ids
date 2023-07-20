@@ -1,3 +1,12 @@
+2023-07-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021154): Modify structure.
+	(U-0002115D): Likewise.
+	(U-0002116E): Likewise.
+	(U-00021174): Likewise.
+	(U-0002117E): Likewise.
+	(U-00021189): Likewise.
+
 2023-07-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+513F): Add an apparent field.
