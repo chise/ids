@@ -1,3 +1,27 @@
+2023-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022677): Use "𢀜" instead of "⿰工丮".
+	(U-00022678): Use "&U-i001+2FF6;㤅x" instead of "⿱⿰x旡心".
+	(U-00022B54): Use "𥤥" instead of "⿱穴七".
+	(U-00022B5A): Use "𥁀" instead of "⿱刀皿".
+	(U-00022B63): Completed.
+	(U-00022B64): Use "𢀜" instead of "⿰工丮".
+	(U-00022F7F): Modify structure.
+
+2023-07-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020466): Use U+5B7D instead of CU+5B7D.
+	(U-00020467): Use U+52F8 instead of CU+52F8.
+	(U-00021171): Use U-00026C29 instead of BC-8BD3.
+	(U-00021172): Use U+5B7D instead of CU+5B7D.
+	(U-00021173): Use U+52F8 instead of CU+52F8.
+	(U-00021186): Use "攞" instead of "⿰扌羅".
+	(U-00021187): Use U+944A instead of CU+944A.
+	(U-00021188): Use "鷟" instead of "⿱族鳥".
+	(U-00021189): Use U-00020CC5 instead of C6-3627.
+	(U-0002118D): Use "𩺯" instead of "⿱族魚".
+	(U-0002118F): Use "𨷖" instead of "⿵門⿰𠁁斤".
+
 2023-07-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021154): Modify structure.
