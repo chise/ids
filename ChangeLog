@@ -1,4 +1,24 @@
+2023-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024F56): Modify structure.
+	(U-00024F57): Completed.
+	(U-00025846): Modify structure.
+
 2023-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022B56): Use U+4E5E instead of UU+4E5E.
+	(U-00023F2C): Use "𣇄" instead of "⿱日折".
+	(U-00023F30): Use "𢚸" instead of "⿱弄心".
+	(U-00023F3A): Use U-00021569 instead of IU+21569.
+	(U-00023F3B): Use "𩁹" instead of "⿱雨于".
+	(U-00023F3E): Use "聊" instead of "⿰耳卯".
+
+2023-07-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020468): Use U+95DE instead of JU+95DE.
+	(U-00021191): Use U+5DD6 instead of JU+5DD6.
+	(U-0002119F): Use "𱌦" instead of "⿱貇齒".
+	(U-000211A2): Completed [temporary].
 
 	* IDS-UCS-Ext-B-2.txt (U-00022677): Use "𢀜" instead of "⿰工丮".
 	(U-00022678): Use "&U-i001+2FF6;㤅x" instead of "⿱⿰x旡心".
