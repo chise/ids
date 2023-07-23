@@ -1,5 +1,12 @@
 2023-07-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-000233CB): Use U-00020AD3 instead of
+	IU+20AD3.
+	(U-00023C13): Ditto.
+	(U-00023C14): Use "⿴㲎x" instead of "⿲毛x毛".
+	(U-00023C24): Use "粽" instead of "⿰米宗".
+	(U-00023F3F): Use U-00020AD3 instead of IU+20AD3.
+
 	* IDS-UCS-Ext-B-3.txt (U-000256CA): Use U+6247 instead of UU+6247.
 	(U-00025844): Use "𬺞" instead of "⿱𠮥电".
 	(U-00025847): Use U+6247 instead of UU+6247.
