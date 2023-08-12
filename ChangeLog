@@ -1,5 +1,9 @@
 2023-08-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-00026052): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-000262DF): Likewise.
+
 	* IDS-UCS-Ext-B-1.txt (U-00020559): Use "⿵冃x" instead of
 	"⿵冂⿱二x".
 	(U-0002055A): Use "⿵𦉰x" instead of "⿵冂⿱䒑小".
