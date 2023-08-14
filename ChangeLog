@@ -1,3 +1,35 @@
+2023-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-18201): Completed.
+	(SW-JIGUGE-18202): Completed.
+	(SW-JIGUGE-18203): Completed.
+	(SW-JIGUGE-18204): Fixed.
+	(SW-JIGUGE-21006): Completed.
+	(SW-JIGUGE-24814): Completed.
+	(SW-JIGUGE-25609): Completed.
+	(SW-JIGUGE-25613): Completed.
+	(SW-JIGUGE-25701): Completed.
+	(SW-JIGUGE-25706): Completed.
+	(SW-JIGUGE-25707): Completed.
+	(SW-JIGUGE-25708): Fixed.
+	(SW-JIGUGE-25713): Completed.
+	(SW-JIGUGE-25800): Completed.
+	(SW-JIGUGE-25803): Fixed.
+	(SW-JIGUGE-25804): Completed.
+	(SW-JIGUGE-25806): Completed.
+	(SW-JIGUGE-25816): Completed.
+	(SW-JIGUGE-25817): Completed.
+	(SW-JIGUGE-25819): Completed.
+	(SW-JIGUGE-25820): Completed.
+	(SW-JIGUGE-25824): Completed.
+	(SW-JIGUGE-25902): Completed.
+	(SW-JIGUGE-27225): Completed.
+	(SW-JIGUGE-28525): Completed.
+	(SW-JIGUGE-36311): Completed.
+	(SW-JIGUGE-36313): Completed.
+	(SW-JIGUGE-36317): Completed.
+	(SW-JIGUGE-46404): Completed.
+
 2023-08-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026052): Modify structure; preserve the
