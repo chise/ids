@@ -1,3 +1,33 @@
+2023-08-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use "𱤽" instead of "⿸厂止".
+	(U-00026E04): Use U+5077 instead of UU+5077.
+	(U-00026E05): Use "宼" instead of "⿱宀⿰元女".
+	(U-00026E06): Fixed.
+	(U-00027767): Use "𢧐" instead of "⿰单戈".
+	(U-0002776A): Use "𡬵" instead of "⿰⿱覀土寸".
+	(U-0002776B): Use "𭘧" instead of "⿱𠦜⿱冖巾".
+	(U-0002776D): Use "𮙺" instead of "⿱𡗜貝".
+	(U-0002776F): Use "⿴𧙿x" instead of "⿲衤x衣".
+	(U-0002777B): Use "𦩎" instead of "⿰舟灷".
+	(U-00027780): Use "竪" instead of "⿱臤立".
+	(U-00027792): Fixed.
+	(U-00027795): Fixed.
+	(U-0002779D): Use "𭘧" instead of "⿱𠦜⿱冖巾".
+	(U-000277A1): Use "𡡅" instead of "⿰女鳥".
+	(U-000277A4): Use "蒦" instead of "⿱艹隻".
+	(U-000277B0): Use "慼" instead of "⿱戚心".
+	(U-000277B1): Use "𪊘" instead of "⿸鹿𧘇".
+	(U-000277B4): Use "調" instead of "⿰言周".
+	(U-000277B9): Modify structure.
+	(U-000277BA): Modify structure.
+	(U-000277C5): Use "𧷗" instead of "⿳士囧貝".
+	(U-000277D5): Use "疉" instead of "⿱畾⿱宀彑".
+	(U-000277D6): Use "籖" instead of "⿱竹韯".
+	(U-000277D7): Use "卛" instead of "⿱䜌十".
+	(U-000277DF): Use "龖" instead of "⿰龍龍".
+	(U-00027BA9): Use "龖" instead of "⿰龍龍".
+
 2023-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-18201): Completed.
