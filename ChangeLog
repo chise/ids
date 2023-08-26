@@ -1,3 +1,20 @@
+2023-08-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-0002633D): Modify structure; add an
+	apparent field based on the previous IDS.
+	(U-000266EC): Fixed.
+	(U-00027B54): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00027B7F): Use "誩" instead of "⿰言言".
+	(U-00027B80): Use "𬾕" instead of "⿱人言".
+	(U-00027B93): Fixed.
+	(U-00027B95): Use "闖" instead of "⿵門馬".
+	(U-00027B97): Use "譶" instead of "⿱言⿰言言".
+	(U-00027B9F): Use "𧭛" instead of "⿲言言言".
+	(U-00027BA3): Use "誩" instead of "⿰言言".
+	(U-00027BA6): Ditto; add an apparent structure.
+	(U-00027BA7): Use U+862D instead of JU+862D.
+
 2023-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000232D3): Use "⿱x𠌶" instead of
