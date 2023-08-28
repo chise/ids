@@ -1,3 +1,15 @@
+2023-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027B99): Use U-00023ADE instead of
+	IU+23ADE.
+	(U-00027BD4): Use "𮮴" instead of "⿱自&CDP-8BD9;丿".
+	(U-00027BDF): Confirmed.
+
+2023-08-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-13630): Completed.
+	(SW-JIGUGE-44719): Completed [temporary].
+
 2023-08-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-0002633D): Modify structure; add an
