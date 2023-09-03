@@ -1,3 +1,27 @@
+2023-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+9EBB instead of CU+9EBB.
+	(U-000222B3): Use "⿸庛x" instead of "⿸广⿱此x".
+	(U-000222D7): Use "⿸䧹x" instead of "⿸广⿱倠x".
+	(U-00022F10): Use "𠕵" instead of "⿱冖凡".
+	(U-00022F15): Use "氐" instead of "⿱氏一".
+	(U-00022F1A): Use "戹" instead of "⿸户乙".
+	(U-00022F31): Use "𠕎" instead of "⿵冂仌".
+	(U-00022F46): Use "𠘽" instead of "⿱⿶凵⺌几".
+	(U-00022F53): Use "𣏅" instead of "⿱士木".
+	(U-00022F54): Use "芎" instead of "⿱艹弓".
+	(U-00022F78): Use "𡶤" instead of "⿱山用".
+	(U-00022F92): Use "𡧱" instead of "⿳宀工口".
+	(U-00022F97): Use "类" instead of "⿱米大".
+	(U-00022FC9): Use "㣎" instead of "⿱&CDP-8BC4;彡".
+	(U-00022FCA): Fixed.
+	(U-00022FCB): Use "敇" instead of "⿰朿攵".
+	(U-00022FCE): Use "皐" instead of "⿱白𠦂".
+	(U-00022FD0): Use "&U-i001+2FF6;𪯎x" instead of "⿰⿱x幸攵".
+	(U-00022FD1): Use "禼" instead of "⿱卤禸".
+	(U-0002302B): Fixed.
+	(U-0002302F): Fixed.
+
 2023-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027B99): Use U-00023ADE instead of
