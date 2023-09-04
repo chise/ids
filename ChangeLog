@@ -1,3 +1,8 @@
+2023-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U+5DE8 instead of CU+5DE8.
+	(U-000221A6): Use "䍐" instead of "⿱⺫干".
+
 2023-09-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use U+9EBB instead of CU+9EBB.
