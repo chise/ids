@@ -1,3 +1,7 @@
+2023-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+515C): Add IDS.
+
 2023-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-15501): Fixed [Shuowen-Zhu ->
@@ -27,7 +31,7 @@
 	(U-00022FCA): Fixed.
 	(U-00022FCB): Use "敇" instead of "⿰朿攵".
 	(U-00022FCE): Use "皐" instead of "⿱白𠦂".
-	(U-00022FD0): Use "&U-i001+2FF6;𪯎x" instead of "⿰⿱x幸攵".
+	(U-00022FD0): Use "⿽𪯎x" instead of "⿰⿱x幸攵".
 	(U-00022FD1): Use "禼" instead of "⿱卤禸".
 	(U-0002302B): Fixed.
 	(U-0002302F): Fixed.
@@ -188,7 +192,7 @@
 	(U-000211A2): Completed [temporary].
 
 	* IDS-UCS-Ext-B-2.txt (U-00022677): Use "𢀜" instead of "⿰工丮".
-	(U-00022678): Use "&U-i001+2FF6;㤅x" instead of "⿱⿰x旡心".
+	(U-00022678): Use "⿽㤅x" instead of "⿱⿰x旡心".
 	(U-00022B54): Use "𥤥" instead of "⿱穴七".
 	(U-00022B5A): Use "𥁀" instead of "⿱刀皿".
 	(U-00022B63): Completed.
@@ -400,7 +404,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-0002390C): Use "⿹欼x" instead of
 	"⿰⿱叕x欠".
-	(U-00023915): Use "&U-i001+2FF6;𨠅x" instead of "⿰⿱x酉欠".
+	(U-00023915): Use "⿽𨠅x" instead of "⿰⿱x酉欠".
 	(U-0002391B): Use "猋" instead of "⿱犬㹜".
 	(U-0002391C): Use "⿹欼x" instead of "⿰⿱叕x欠".
 
@@ -423,15 +427,15 @@
 	- Use "⿰x⻏<CJK RADICAL CITY>" instead of "⿰𠂎阝<U+961D>".
 	- Use "⿰阝<CJK RADICAL MOUND TWO>x" instead of "⿰阝<U+961D>x".
 	(U+30946): Use "⿴𨙵x" instead of "⿲乡x阝".
-	(U+30949): Use "&U-i001+2FF6;䀁x" instead of "⿱⿰x有皿".
+	(U+30949): Use "⿽䀁x" instead of "⿱⿰x有皿".
 	(U+3100E): Use "𰆗" instead of "⿸厂文".
 
 	* IDS-UCS-Ext-B-3.txt (U-000250B5): Use "𣸁" instead of
 	"⿰氵⿻聿彡".
-	(U-000250B9): Use "&U-i001+2FF6;䀁x" instead of "⿱⿰x有皿".
+	(U-000250B9): Use "⿽䀁x" instead of "⿱⿰x有皿".
 	(U-000250C3): Use "㺒" instead of "⿰犭翏".
 
-	* IDS-UCS-Basic.txt (U+6B60): Use "&U-i001+2FF6;𨠅x" instead of "⿰⿱x酉欠".
+	* IDS-UCS-Basic.txt (U+6B60): Use "⿽𨠅x" instead of "⿰⿱x酉欠".
 
 	* IDS-UCS-Ext-F.txt (U+2D278): Use U+7957 instead of JU+7957.
 	(U+2D33D): Use U+5B3E instead of JU+5B3E.
@@ -2021,7 +2025,7 @@
 	(U-00022861): Use "𢜊" instead of "⿳工目心".
 	(U-0002298F): Add IDS.
 	(U-00022992): Add IDS.
-	(U-00022994): Use "&U-i001+2FF6;戈x" instead of "⿶戈x".
+	(U-00022994): Use "⿽戈x" instead of "⿶戈x".
 
 2022-07-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -2982,7 +2986,7 @@
 	(U-00022509): Use "𡿱" instead of "⿳一巛𡈼".
 	(U-0002250E): Use "𭖒" instead of "⿱山主".
 	(U-000226F7): Use U+623F instead of CU+623F.
-	(U-000227C7): Use "&U-i001+2FF6;悘x" instead of "⿱⿰x医心".
+	(U-000227C7): Use "⿽悘x" instead of "⿱⿰x医心".
 	(U-00022A61): Use "𢨪" instead of "⿸户巳".
 	(U-00022A63): Use U+623F instead of CU+623F.
 	(U-00022A64): Use "雇" instead of "⿸户隹".
@@ -7936,7 +7940,7 @@
 	(U-0002041D): Use "適" instead of "⿺辶啇".
 	(U-00020425): Use "𢡃" instead of "⿱𠶷心".
 	(U-00020428): Use "⿸偘x" instead of "⿰亻⿱品x".
-	(U-0002042D): Use "&U-i001+2FF6;" instead of "⿻"; add apparent structure.
+	(U-0002042D): Use "⿽" instead of "⿻"; add apparent structure.
 	(U-00020441): Fixed.
 	(U-00020727): Use "𠑾" instead of "⿸⿱⺈尸儿".
 	(U-00020730): Use "𠑾" instead of "⿸⿱⺈尸⿰丨乚".
@@ -8542,7 +8546,7 @@
 	* ids-find.el
 	(ideographic-structure-compare-functional-and-apparent):	
 	- Treat A-IWDSU+4E06 and U+2E282-itaiji-001 as Tare.
-	- Implement rule-330: &U-i001+2FF6;⿰LRA -> ⿰⿱ALR.
+	- Implement rule-330: ⿽⿰LRA -> ⿰⿱ALR.
 	- Implement rule-601: ⿵⿱AKC -> ⿱A⿵KC if K is Kamae.
 
 	* IDS-UCS-Ext-B-5.txt: Use U+9B3C instead of JU+9B3C.
