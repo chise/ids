@@ -2,6 +2,12 @@
 
 	* IDS-UCS-Basic.txt (U+515C): Add IDS.
 
+	* IDS-UCS-Ext-B-1.txt (U-00020661): Modify structure.
+	(U-00020667): Modify structure.
+	(U-00020668): Modify structure.
+	(U-00020669): Modify structure.
+	(U-0002066F): Modify structure.
+
 2023-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-15501): Fixed [Shuowen-Zhu ->
