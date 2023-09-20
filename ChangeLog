@@ -1,7 +1,25 @@
 2023-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+9E1F): Add IDS.
+
 	* IDS-UCS-Ext-H.txt (U+31A7E): Use "𱹖" instead of "⿳日共米".
 	(U+31E56): Use "⿱𮲡x" instead of "⿳日共x".
+
+	* IDS-UCS-Ext-B-1.txt: Use U+53CA instead of CU+53CA.
+	(U-0002042F): Use U+9078 instead of CU+9078.
+	(U-000208AF): Use "𮊿" instead of "⿱羽𠇍".
+	(U-000208B2): Use U+89E3 instead of JU+89E3.
+	(U-00020FC7): Use U+89E3 instead of JU+89E3.
+	(U-000211D4): Use "㚣" instead of "⿱女女".
+	(U-00021751): Use "𦘺" instead of "⿰月己".
+	(U-00021752): Use "𢗡" instead of "⿰忄攵".
+	(U-00021753): Modify structure.
+	(U-00021759): Use "佘" instead of "⿱入示".
+	(U-0002175F): Use "秊" instead of "⿱禾千".
+	(U-00021761): Use "𢏏" instead of "⿰弓尒".
+	(U-00021AB9): Use "𮊿" instead of "⿱羽𠇍".
+	(U-00021ABD): Use "䂓" instead of "⿰矢見".
+	(U-00021AC1): Use "𧠪" instead of "⿰尗見".
 
 2023-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
