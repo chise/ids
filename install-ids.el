@@ -44,6 +44,8 @@
 
 (install-ids-read-file "IDS-UCS-Ext-H.txt" load-ids-simplify t)
 
+(install-ids-read-file "IDS-UCS-Ext-I.txt" load-ids-simplify t)
+
 (install-ids-read-file "IDS-UCS-Compat.txt" load-ids-simplify t)
 
 (install-ids-read-file "IDS-UCS-Compat-Supplement.txt" load-ids-simplify t)
