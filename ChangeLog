@@ -1,5 +1,7 @@
 2023-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2E8DF): Use "𮲿" instead of "⿱正⿰正正".
+
 	* IDS-UCS-Basic.txt (U+9E1F): Add IDS.
 
 	* IDS-UCS-Ext-H.txt (U+31A7E): Use "𱹖" instead of "⿳日共米".
