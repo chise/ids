@@ -1,3 +1,12 @@
+2023-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt (U+31A7E): Use "𱹖" instead of "⿳日共米".
+	(U+31E56): Use "⿱𮲡x" instead of "⿳日共x".
+
+2023-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6535): Add an apparent IDS.
+
 2023-09-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+515C): Add IDS.
