@@ -1,8 +1,25 @@
 2023-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-I.txt: New file.
+
+	* IDS-UCS-Ext-F.txt (U+2DAF8): Use U+710F instead of UU+710F.
+	(U+2DAFA): Use U-00028F8F instead of IU+28F8F.
+	(U+2E216): Use "&U-i001+2FFB;" instead of "⿻".
+	(U+2E218): Use U-0002627E instead of IU+2627E.
+	(U+2E21F): Use "𱐍" instead of "⿶凵米".
+	(U+2E226): Modify structure.
+
+	* IDS-UCS-Ext-B-1.txt (U-0002166E): Fixed.
+	(U-0002166F): Use "淦" instead of "⿰氵金".
+	(U-00021672): Use "⿱x㽞" instead of "⿱⿱x吅田".
+
+2023-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-F.txt (U+2E8DF): Use "𮲿" instead of "⿱正⿰正正".
 
 	* IDS-UCS-Basic.txt (U+9E1F): Add IDS.
+
+	* install-ids.el: Install IDS-UCS-Ext-I.txt.
 
 	* IDS-UCS-Ext-H.txt (U+31A7E): Use "𱹖" instead of "⿳日共米".
 	(U+31E56): Use "⿱𮲡x" instead of "⿳日共x".
