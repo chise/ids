@@ -1,3 +1,7 @@
+2023-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+517F): Use "⿱x𮲐" instead of "⿳x执云".
+
 2023-09-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2D6E9): Use "𰡮" instead of "⿱平一".
