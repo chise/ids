@@ -1,3 +1,27 @@
+2023-09-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025F66): Use "凿" instead of "⿶凵丵".
+
+2023-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D1A4): Modify structure; add an apparent
+	field based on the previous IDS.
+	(U+2D9D4): Use "⿽桼x" instead of "⿱⿰x木⿱人氺".
+	(U+2DA4E): Use "𱥯" instead of "⿱人氺".
+	(U+2DC6E): Ditto.
+	(U+2DC71): Unified to one column.
+	(U+2DCA5): Use U+756C instead of UU+756C.
+	(U+2DCB2): Use "𱥯" instead of "⿱人氺".
+	(U+2DCB4): Use "𲊦" instead of "⿱文韭".
+	(U+2E475): Use "⿱x𣺎" instead of "⿳x㴆又".
+	(U+2E479): Use "⿱x⿱y𱥯" instead of "⿳xy⿱人氺".
+	(U+2E4AE): Completed [temporary].
+
+2023-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+687C): Use U-0003196F instead of BC-8D71.
+	(U+9ECD): Likewise.
+
 2023-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+517F): Use "⿱x𮲐" instead of "⿳x执云".
