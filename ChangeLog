@@ -1,5 +1,13 @@
 2023-09-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2D9D2): Use U+9023 instead of UU+9023.
+	(U+2DA1F): Use U+624D instead of JU+624D.
+	(U+2E474): Use U+7165 instead of UU+7165.
+	(U+2E47A): Use U+613D instead of UU+613D.
+	(U+2E4B1): Use U-00027CEF instead of IU+27CEF.
+	(U+2E957): Use U+8336 instead of UU+8336.
+	(U+2EBA5): Use U+624D instead of JU+624D.
+
 	* IDS-UCS-Ext-B-3.txt (U-00025F66): Use "凿" instead of "⿶凵丵".
 
 2023-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
