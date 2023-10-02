@@ -1,3 +1,10 @@
+2023-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E4B5): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+2E4B7): Use U-00026D6E instead of IU+26D6E; add an apparent
+	structure.
+
 2023-09-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use U+96DA instead of CU+96DA.
