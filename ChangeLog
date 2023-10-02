@@ -5,6 +5,16 @@
 	(U+2E4B7): Use U-00026D6E instead of IU+26D6E; add an apparent
 	structure.
 
+	* IDS-UCS-Ext-B-3.txt (U-00025412): Use U+9AA8 instead of JU+9AA8.
+	(U-00025C60): Use "哠" instead of "⿰口告".
+	(U-00025C66): Use "紏" instead of "⿰糸斗".
+	(U-00025C6A): Use U+9AA8 instead of JU+9AA8.
+
+	* IDS-UCS-Basic.txt (U+58F6): Modify structure.
+	(U+58F8): Modify structure.
+	(U+58F9): Modify apparent structure.
+	(U+58FC): Add an apparent structure.
+
 2023-09-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use U+96DA instead of CU+96DA.
