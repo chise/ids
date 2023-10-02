@@ -2805,13 +2805,13 @@ U+58F2	売	⿱士冗
 U+58F3	壳	⿱士冗
 U+58F4	壴	⿱十豆	@apparent=⿳士口䒑
 U+58F5	壵	⿱士⿰士士
-U+58F6	壶	⿳士冖业
+U+58F6	壶	⿱士⿱冖业	@apparent=⿱⿱士冖业
 U+58F7	壷	⿱士&CDP-8A49;
-U+58F8	壸	⿳士冖亚
-U+58F9	壹	⿴⿱⿱士冖䒑𠮛	@apparent=⿳士冖豆
+U+58F8	壸	⿳士冖亚	@apparent=⿱⿱士冖亚
+U+58F9	壹	⿴⿱⿱士冖䒑𠮛	@apparent=⿱⿱士冖豆
 U+58FA	壺	⿱士&CDP-8DE8;
 U+58FB	壻	⿰土胥
-U+58FC	壼	⿳士冖亞
+U+58FC	壼	⿳士冖亞	@apparent=⿱⿱士冖亞
 U+58FD	壽	⿳&CDP-8D53;一吋
 U+58FE	壾	⿰壴巨
 U+58FF	壿	⿰士尊
