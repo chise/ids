@@ -1,3 +1,7 @@
+2023-10-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A67C): Fixed.
+
 2023-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+8C59): Modify structure; preserve the
