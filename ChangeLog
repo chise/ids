@@ -1,3 +1,12 @@
+2023-10-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022010): Modify structure; add an
+	apparent field based on the previous IDS.
+	(U-000232A1): Use "絲" instead of "⿰糸糸".
+	(U-000232A8): Use "芔" instead of "⿱屮⿰屮屮".
+	(U-000232B1): Use "𨳚" instead of "⿵門分".
+	(U-000232B4): Use "⿱𮲡x" instead of "⿱日⿱共x".
+
 2023-10-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A67C): Fixed.
