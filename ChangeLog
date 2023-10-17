@@ -1,3 +1,23 @@
+2023-10-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028448): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-0002844B): Use "⿶辳x" instead of "⿱⿲木x木辰".
+	(U-0002856F): Use "辱" instead of "⿱辰寸".
+	(U-00028575): Use "𭮫" instead of "⿰𠂤殳".
+
+	* IDS-UCS-Ext-B-4.txt: Use U+8980 instead of <CJK RADICAL WEST
+	ONE>.
+	(U-000260A8): Use "𰌼" instead of "⿱宀百".
+	(U-000261CB): Use "䔥" instead of "⿱艹粛".
+	(U-000261CD): Modify structure.
+	(U-000261D0): Use "𤌑" instead of "⿳⿻𦥑幺一火".
+	(U-000261DE): Use U+907A instead of C1-725C.
+	(U-000261E1): Completed [temporary].
+	(U-000261E3): Use "䝿" instead of "⿱臾貝".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024311): Modify structure.
+
 2023-10-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-A.txt (U+43CB): Modify structure.
