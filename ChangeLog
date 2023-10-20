@@ -1,3 +1,8 @@
+2023-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E35B): Modify structure; add an apparent
+	field based on the previous IDS.
+
 2023-10-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028448): Modify structure; preserve the
@@ -12986,8 +12991,8 @@
 	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
 	- Use "𣬉" instead of "⿱囟比".
 	- Use "㠭" instead of "⿱⿰工工⿰工工".
-	(U-00025C4D): Use "𣀔" instead of "⿰⿳⺮目丌攴".
-	(U-00024112): Use "𥳑" instead of "⿱⺮閒".
+	(U-00025C4D): Use "𣀔" instead of "⿰⿳𥫗目丌攴".
+	(U-00024112): Use "𥳑" instead of "⿱𥫗閒".
 	(U-00025C4D): Fixed.
 	(U-00025D1A): Fixed.
 	(U-00025D1D): Fixed.
@@ -13014,7 +13019,7 @@
 	* IDS-UCS-Ext-B-5.txt:
 	- Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
 	- Use "𣬉" instead of "⿱囟比".
-	- Use "𥳑" instead of "⿱⺮閒".
+	- Use "𥳑" instead of "⿱𥫗閒".
 
 	* IDS-UCS-Ext-B-1.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
 	(U-0002180C): Use "𣬉" instead of "⿱囟比".
@@ -13036,7 +13041,7 @@
 	* IDS-CNS-2.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
 
 	* IDS-UCS-Ext-B-4.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
-	(U-000277C9): Use "𥳑" instead of "⿱⺮閒".
+	(U-000277C9): Use "𥳑" instead of "⿱𥫗閒".
 
 	* IDS-UCS-Ext-A.txt: Use U+7AF9 instead of <CJK RADICAL BAMBOO>.
 
@@ -13873,7 +13878,7 @@
 	of "⿱⿱一⿰人人工".
 	(U-0002A18D): Modify structure.
 	(U-0002A21E): Use "皼" instead of "⿰壹皮".
-	(U-0002A222): Use "䉅" instead of "⿱⺮執".
+	(U-0002A222): Use "䉅" instead of "⿱𥫗執".
 	(U-0002A223): Use "⿱𠅃x" instead of "⿳亠⿰人人x".
 
 2017-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -14002,18 +14007,18 @@
 
 	* IDS-UCS-Basic.txt:
 	- Use "么" instead of "⿰丿厶".
-	- Use "𮅕" instead of "⿳⺮目大".
+	- Use "𮅕" instead of "⿳𥫗目大".
 	(U+98ED): Modify structure.
 	(U+98FE): Likewise.
 
 2017-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-A.txt: Use "𮅕" instead of "⿳⺮目大".
+	* IDS-UCS-Ext-A.txt: Use "𮅕" instead of "⿳𥫗目大".
 
 	* IDS-UCS-Ext-B-5.txt (U-000283C9): Use "𮅕" instead of
-	"⿳⺮目大".
+	"⿳𥫗目大".
 
-	* IDS-UCS-Ext-B-3.txt: Use "𮅕" instead of "⿳⺮目大".
+	* IDS-UCS-Ext-B-3.txt: Use "𮅕" instead of "⿳𥫗目大".
 
 2017-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -15247,7 +15252,7 @@
 
 	* IDS-UCS-Ext-B-3.txt: Use "寽" instead of "⿱爫寸".
 	(U-00025B4D): Modify structure.
-	(U-00025B50): Use "⿱⺮寽" instead of "⿳⺮爫寸".
+	(U-00025B50): Use "⿱𥫗寽" instead of "⿳𥫗爫寸".
 
 2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
@@ -16272,9 +16277,9 @@
 	- Use <CJK RADICAL HEART ONE> instead of U+5FC4.
 	- Use <CJK RADICAL MOUND TWO> instead of U+961D for as ``mound''.
 	- Use <CJK RADICAL CITY> instead of U+961D for as ``city''.
-	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
-	- Use "⿱⿳⺮目大" instead of "⿳竹目⿵大".
-	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿱大".
+	- Use "⿱⿳𥫗目大" instead of "⿳𥫗目⿵大".
+	- Use "⿱⿳𥫗目大" instead of "⿳竹目⿵大".
+	- Use "⿱⿳𥫗目大" instead of "⿳𥫗目⿱大".
 	- Use <CJK RADICAL NET TWO> instead of BC-8B48 as ``net''.
 
 	* IDS-JIS-X0208-1990.txt:
@@ -16289,7 +16294,7 @@
 	- Use "尚" instead of "⿱⺌冖".
 	- Use "⿸⿰月龹" instead of "⿰月⿱龹".
 	- Use <CJK RADICAL PERSON> instead of U+4EBB.
-	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
+	- Use "⿱⿳𥫗目大" instead of "⿳𥫗目⿵大".
 	- Use <CJK RADICAL HAND> instead of U+624C.
 	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
 	- Use "⿸攸" instead of "⿰&CDP-8B7A;⿱攵".
@@ -16377,7 +16382,7 @@
 	- Add/compact/modify/fix some IDSs.
 	- "⿹⿰𡉉殳x" instead of "⿰⿱𡉉x殳".
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
-	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
+	- Use "⿱⿳𥫗目大" instead of "⿳𥫗目⿵大".
 
 2005-03-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
@@ -16394,7 +16399,7 @@
 	- Use "⿸⿰𠦝𠂉" instead of "⿰𠦝⿱𠂉".
 	- Use "⿸⿰𠦝人" instead of "⿰𠦝⿱人".
 	- Use "⿸⿰方𠂉" instead of "⿰方⿱𠂉".
-	- Use "⿱⿳⺮目大" instead of "⿳⺮目⿵大".
+	- Use "⿱⿳𥫗目大" instead of "⿳𥫗目⿵大".
 
 2005-03-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
