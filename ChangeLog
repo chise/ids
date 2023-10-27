@@ -1,3 +1,38 @@
+2023-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use "䑞" instead of "⿱⿷匚炎舛".
+	(U-000260AC): Fixed.
+	(U-000261A4): Use "𤕨" instead of "⿱𠆢&CDP-85AE;".
+	(U-000261DC): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-000261E0): Use U+8559 instead of CU+8559.
+	(U-000261E2): Use "㬜" instead of "⿱臸日".
+	(U-000261E8): Use "⿱𣫭x" instead of "⿳亠母x".
+	(U-000261E9): Use U+85A6 instead of CU+85A6.
+	(U-000261F2): Use "⿱𤕨x" instead of "⿳𠆢&CDP-85AE;x".
+	(U-000261F6): Use "𦥳" instead of "⿱臾㠯".
+	(U-00026331): Fixed.
+	(U-0002648B): Fixed; add an apparent IDS.
+	(U-00026618): Use "⿵⿱聿冂x" instead of "⿱聿⿵冂x".
+	(U-00026619): Use "⿴⿱聿凵x" instead of "⿱聿⿶凵x".
+	(U-0002661A): Likewise.
+	(U-0002661B): Use U-00026612 instead of <CJK RADICAL BRUSH TWO>.
+	(U-0002661D): Use "⿵⿱𦘒冂x" instead of "⿱⺻⿵冂x".
+	(U-00026621): Use "⿵⿱&CDP-8C44;冂x" instead of "⿱&CDP-8C44;⿵冂x".
+	(U-00026A03): Use "𡉚" instead of "⿻㞢二".
+	(U-0002708C): Use "⿱x䑞" instead of "⿳x⿷匚炎舛".
+	(U-00027091): Modify structure.
+	(U-00027096): Use "⿱x𨨖" instead of "⿳x玨金".
+	(U-00027097): Use "⿹蕁x" instead of "⿱艹⿰x尋".
+	(U-0002709E): Use "𰟚" instead of "⿰幸炎".
+	(U-000270A2): Modify structure.
+	(U-000270A5): Use "𭘸" instead of "⿰帛帛".
+	(U-000270B2): Use "㚔" instead of "⿱大𢆉".
+	(U-000270B6): Use "𠌵" instead of "⿰亻鳥".
+	(U-000270BD): Use "𠦝" instead of "⿱十早".
+	(U-000270BF): Use "𦠤" instead of "⿰⺼惢".
+	(U-000270C2): Use "𪎷" instead of "⿰黃毛".
+
 2023-10-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-18006): Completed [temporary]; add
