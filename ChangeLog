@@ -1,3 +1,11 @@
+2023-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3DBE): Use "𧟡" instead of "⿱覀一".
+
+	* IDS-UCS-Ext-B-4.txt (U-00026489): Use U+7FD2 instead of UU+7FD2.
+	(U-00027887): Likewise.
+	(U-00027889): Completed [temporary].
+
 2023-10-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use "䑞" instead of "⿱⿷匚炎舛".
