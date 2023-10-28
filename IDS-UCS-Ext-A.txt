@@ -2493,7 +2493,7 @@ U+3DBA	㶺	⿰火吞
 U+3DBB	㶻	⿱夆灬
 U+3DBC	㶼	⿰火矣
 U+3DBD	㶽	⿰火呙
-U+3DBE	㶾	⿱⿱覀一火	@apparent=⿱覀灭
+U+3DBE	㶾	⿱𧟡火	@apparent=⿱覀灭
 U+3DBF	㶿	⿰火孛
 U+3DC0	㷀	⿱炏卂
 U+3DC1	㷁	⿰火甬
