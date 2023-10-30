@@ -1,5 +1,12 @@
 2023-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00024BF0): Use U+5E95 instead of JU+5E95.
+	(U-00024BFF): Fixed.
+	(U-00024C00): Use "䑞" instead of "⿱⿷匚炎舛".
+	(U-000254F5): Use U+5E95 instead of JU+5E95.
+	(U-00025DDB): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 	* IDS-UCS-Ext-A.txt (U+3DBE): Use "𧟡" instead of "⿱覀一".
 
 	* IDS-UCS-Ext-B-4.txt (U-00026489): Use U+7FD2 instead of UU+7FD2.
