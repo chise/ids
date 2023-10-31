@@ -1,3 +1,18 @@
+2023-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026473): Use "歬" instead of "⿱止舟".
+	(U-0002648B): Use U+501D instead of UU+501D.
+	(U-00026495): Fixed.
+	(U-0002649F): Use "𦥭" instead of "⿱屰臼".
+	(U-000264AA): Use "㷠" instead of "⿱炎舛".
+	(U-000264AB): Use "𣪾" instead of "⿰⿹𢏚口殳".
+	(U-000264AD): Use "𱅼" instead of "⿰高⿱大土".
+	(U-00026D9E): Use "𥤦" instead of "⿱穴又".
+	(U-00027A20): Likewise.
+	(U-00027A23): Use U+356F instead of CU+356F.
+	(U-00027A27): Modify structure.
+	(U-00027A28): Fixed.
+
 2023-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024BF0): Use U+5E95 instead of JU+5E95.
