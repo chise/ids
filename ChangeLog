@@ -1,3 +1,11 @@
+2023-11-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt: Use U+8980 instead of <CJK RADICAL WEST ONE>.
+	(U+4674): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
+	* IDS-UCS-Ext-C.txt (U-0002B089): Use U+826E instead of U+7680.
+
 2023-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026473): Use "歬" instead of "⿱止舟".
