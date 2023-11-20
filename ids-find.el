@@ -1,6 +1,6 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures ;; -*- coding: utf-8-mcs-er -*-
 
-;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020, 2021, 2022
+;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020, 2021, 2022, 2023
 ;;   MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
@@ -83,6 +83,52 @@
      (ids-index-store-structure c v)
      nil)
    'ideographic-structure@apparent/rightmost)
+  (let (products ucs)
+    (map-char-attribute
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (delq c (char-ucs-chars c)))
+	 (dolist (p_c (get-char-attribute comp 'ideographic-products))
+	   (unless (encode-char p_c '=ucs)
+	     (if (setq ucs (char-ucs p_c))
+		 (setq p_c (decode-char '=ucs ucs))))
+	   (setq products (adjoin p_c products))))
+       (put-char-attribute c 'ideographic-products products)
+       nil)
+     '=>ucs@component)
+    (map-char-attribute
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (delq c (char-ucs-chars c)))
+	 (dolist (p_c (get-char-attribute comp 'ideographic-products))
+	   (unless (encode-char p_c '=ucs)
+	     (if (setq ucs (char-ucs p_c))
+		 (setq p_c (decode-char '=ucs ucs))))
+	   (setq products (adjoin p_c products))))
+       (put-char-attribute c 'ideographic-products products)
+       nil)
+     '=>ucs@iwds-1)
+    (map-char-attribute
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (delq c (char-ucs-chars c)))
+	 (put-char-attribute
+	  comp 'ideographic-products
+	  (union products
+		 (get-char-attribute comp 'ideographic-products))))
+       )
+     '=>ucs@component)
+    (map-char-attribute
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (delq c (char-ucs-chars c)))
+	 (put-char-attribute
+	  comp 'ideographic-products
+	  (union products
+		 (get-char-attribute comp 'ideographic-products))))
+       )
+     '=>ucs@iwds-1)
+    )
   (unless in-memory
     (save-char-attribute-table 'ideographic-products)))
 
