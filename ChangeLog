@@ -1,3 +1,8 @@
+2023-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el (ids-update-index): Treat unifiable
+	abstract-components in `=>ucs@component' and `=>ucs@iwds-1'.
+
 2023-11-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2C136): Modify structure; preserve the
