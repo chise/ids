@@ -95,7 +95,7 @@
 	   (setq products (adjoin p_c products))))
        (put-char-attribute c 'ideographic-products products)
        nil)
-     '=>ucs@component)
+     '=>iwds-1)
     (map-char-attribute
      (lambda (c v)
        (setq products (get-char-attribute c 'ideographic-products))
@@ -117,7 +117,7 @@
 	  (union products
 		 (get-char-attribute comp 'ideographic-products))))
        )
-     '=>ucs@component)
+     '=>iwds-1)
     (map-char-attribute
      (lambda (c v)
        (setq products (get-char-attribute c 'ideographic-products))
