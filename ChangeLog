@@ -1,3 +1,67 @@
+2023-11-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt: Use "㫒" instead of "⿱日廾".
+	(U-00024032): Use "⿴辡x" instead of "⿲辛x辛".
+	(U-00024035): Use "𨴠" instead of "⿵門行".
+	(U-00024231): Modify structure.
+	(U-00024233): Use "𥃫" instead of "⿰目又".
+	(U-00024235): Use "𠯭" instead of "⿱口日".
+	(U-00024238): Use "⿰x𠡉" instead of "⿲x古力".
+	(U-00024D9A): Use "圼" instead of "⿱日土".
+	(U-000254BD): Use "𢀜" instead of "⿰工丮".
+	(U-00025B63): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00025B65): Use "䖝" instead of "⿱丿虫".
+	(U-00025B67): Use "圼" instead of "⿱日土"; add an apparent field.
+	(U-00025B6A): Use "佊" instead of "⿰亻皮".
+	(U-00025B6C): Use "𦘴" instead of "⿰月乇".
+	(U-00025B70): Modify structure.
+	(U-00025B77): Use "⿱𱷳x" instead of "⿳竹日x".
+	(U-00025B7F): Completed [temporary].
+	(U-00025B80): Use "旳" instead of "⿰日勺".
+	(U-00025B82): Confirmed.
+	(U-00025B83): Use "𠇽" instead of "⿰亻匝".
+	(U-00025B84): Use "𦘺" instead of "⿰月已".
+	(U-00025B85): Use "⿱x㺯" instead of "⿳x王大".
+	(U-00025B8C): Use "⿱x竿" instead of "⿳x竹于".
+	(U-00025B8D): Use "⿱x㸒" instead of "⿳x爫壬".
+	(U-00025B8E): Use "⿴𥫠x" instead of "⿳竹x廾".
+	(U-00025B9E): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00025BA3): Use "⿱x𦊋" instead of "⿳x⿵冂㐅木".
+	(U-00025BA6): Use "㘠" instead of "⿴囗必".
+	(U-00025BAE): Use "𣐁" instead of "⿱&CDP-8D52;木".
+	(U-00025BBF): Modify structure; add an apparent field.
+	(U-00025BC1): Use "徃" instead of "⿰彳生".
+	(U-00025BD0): Modify structure; add an apparent field.
+	(U-00025BE3): Modify structure.
+	(U-00025BEF): Use "𢈔" instead of "⿸广&CDP-89E7;".
+	(U-00025BFA): Use "𰅳" instead of "⿱𡗜十".
+	(U-00025BFB): Use "㭊" instead of "⿰木片".
+	(U-00025BFC): Modify structure.
+	(U-00025BFF): Modify structure.
+	(U-00025C00): Modify structure.
+	(U-00025C01): Use "𭤯" instead of "⿰方生".
+	(U-00025C02): Use "秌" instead of "⿰火禾".
+	(U-00025C08): Use "侱" instead of "⿰亻呈".
+	(U-00025C0C): Use "炫" instead of "⿰火玄".
+	(U-00025C0E): Use "⿱x𪭌" instead of "⿳x戈皿".
+	(U-00025C0F): Use "𢭎" instead of "⿰扌夅".
+	(U-00025C11): Modify structure.
+	(U-00025C12): Modify structure.
+	(U-00025C13): Modify structure.
+	(U-00025C15): Use "⿱x𦊁" instead of "⿳x⺫比".
+	(U-00025C16): Modify structure.
+	(U-00025C1A): Use "𦕈" instead of "⿰耳少".
+	(U-00025C21): Use "敇" instead of "⿰朿攵".
+	(U-00025C8F): Modify structure.
+	(U-00025C92): Modify structure.
+	(U-00025CB8): Use "𫂁" instead of "⿳竹日大".
+	(U-00025CB9): Modify structure.
+	(U-00025D41): Use "⿱x盝" instead of "⿳x录皿".
+	(U-00025D43): Use "⿱x盞" instead of "⿳x戔皿".
+	(U-00025D4B): Modify structure.
+
 2023-11-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el (ids-update-index): Treat unifiable
