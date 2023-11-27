@@ -558,7 +558,7 @@ U+2BA4B	𫩋	⿰⿱龷㡀犮
 U+2BA4C	𫩌	⿱䣈又
 U+2BA4D	𫩍	⿰反雷
 U+2BA4E	𫩎	⿱論又
-U+2BA4F	𫩏	⿴囗丨	⿱&CDP-8A44;一
+U+2BA4F	𫩏		@apparent=⿴囗丨
 U+2BA50	𫩐	⿰口丂
 U+2BA51	𫩑	⿱丆口
 U+2BA52	𫩒	⿰口巾
