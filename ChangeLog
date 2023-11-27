@@ -1,3 +1,12 @@
+2023-11-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-D.txt (U-0002B7BF): Use "⿱x𭩮" instead of
+	"⿳x⿰冫刃木".
+
+	* IDS-UCS-Ext-B-5.txt (U-00029092): Use "𢀴" instead of "⿸厂巳".
+	(U-0002909A): Completed.
+	(U-0002909C): Use U+5306 instead of U-0002F82A.
+
 2023-11-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt: Use U+8471 instead of I-CB00024.
