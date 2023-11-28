@@ -1,3 +1,38 @@
+2023-11-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026953): Add an apparent field.
+	(U-00026B2E): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00026B33): Use "𬽢" instead of "⿰亻㔾".
+	(U-00026B34): Fixed.
+	(U-00026B3D): Use "𡥀" instead of "⿱㇇朩".
+	(U-00026B42): Add an apparent field.
+
+	* IDS-UCS-Ext-B-2.txt: Use U+5203 instead of U-0002F81E.
+	(U-0002216C): Use U+771F instead of JU+771F.
+	(U-0002265F): Use "⿽忍x" instead of "⿱⿰x刃心".
+	(U-0002266D): Use "尖" instead of "⿱小大".
+	(U-00022BAD): Use U+5177 instead of U-0002F811.
+	(U-00022BAE): Completed.
+	(U-00022CFD): Use "双" instead of "⿰又又".
+	(U-00022CFF): Use "𢈻" instead of "⿸广疌".
+	(U-00022D00): Use "㝛" instead of "⿱宀⿰亻㐁".
+	(U-00022D03): Use "𠁅" instead of "⿸&CDP-88BC;匆".
+	(U-0002334D): Use U+51A4 instead of U-0002F818.
+	(U-00023358): Use "㯥" instead of "⿰東東".
+	(U-000233C4): Use "𣎴" instead of "⿱一&CDP-85C0;".
+	(U-000233C7): Use "𠫔" instead of "⿱一厶".
+	(U-000233DD): Use "冗" instead of "⿱冖儿".
+	(U-000233E3): Use "卞" instead of "⿱丶下".
+	(U-000233ED): Completed.
+	(U-000233F1): Completed.
+	(U-00023457): Modify structure.
+	(U-00023459): Fixed.
+
+2023-11-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2BA4F): Modified to use "@apparent=...".
+
 2023-11-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-D.txt (U-0002B7BF): Use "⿱x𭩮" instead of
