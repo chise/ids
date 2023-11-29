@@ -1,3 +1,21 @@
+2023-11-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000247C1): Modify structure; add an
+	apparent field based on the previous IDS.
+	(U-000249B2): Use "𭸾" instead of "⿰𤣩巨".
+	(U-000249B3): Use "𠣞" instead of "⿹勹車".
+	(U-000249B7): Use "衍" instead of "⿲彳氵亍".
+	(U-000249BB): Use "亮" instead of "⿱&CDP-8BAA;冗".
+	(U-00024D3A): Use "冗" instead of "⿱冖儿".
+	(U-00025064): Use "㲽" instead of "⿰氵刃".
+	(U-00025069): Use "汑" instead of "⿰氵乇".
+	(U-000254E3): Use U+5197 instead of U-0002F817.
+	(U-00025686): Use U+5FCD instead of U-0002F89D.
+	(U-00025687): Fixed.
+	(U-00025E6D): Use "㲽" instead of "⿰氵刃".
+	(U-00025E70): Use "娄" instead of "⿱米女".
+	(U-00025F9A): Use "冗" instead of "⿱冖儿".
+
 2023-11-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026953): Add an apparent field.
