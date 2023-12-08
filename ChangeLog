@@ -1,3 +1,17 @@
+2023-12-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002018D): Use "䐜" instead of "⿰月真".
+	(U-0002018F): Modify structure.
+	(U-00020C2F): Use U+5306 instead of U-0002F82A.
+	(U-00020C71): Ditto.
+	(U-00020E8D): Use U+5177 instead of U-0002F811.
+	(U-00021508): Fixed.
+	(U-0002150A): Fixed.
+	(U-0002150B): Modify structure.
+	(U-0002150D): Use "竇" instead of "⿱穴賣".
+	(U-00021756): Fixed.
+	(U-00021756): Use U+5FCD instead of U-0002F89D.
+
 2023-12-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2CFF3): Use U+6B73 instead of UU+6B73.
