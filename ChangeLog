@@ -1,3 +1,17 @@
+2023-12-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use U+4EAB instead of UU+4EAB.
+	(U+2DAE8): Use U+838A instead of UU+838A.
+	(U+2E5A2): Ditto.
+
+	* IDS-UCS-Basic.txt (U+8931): Use U+7714 instead of U-0002F944.
+
+2023-12-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022462): Use "㣇" instead of
+	"⿳彐𰀪巾".
+	(U-000232B8): Ditto.
+
 2023-12-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-0002018D): Use "䐜" instead of "⿰月真".
