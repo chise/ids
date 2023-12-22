@@ -1,3 +1,16 @@
+2023-12-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* www/www-ids-find.el (www-ids-find-version): Update to 0.100.2.
+	(www-batch-ids-find): Add link for
+	https://www.chise.org/ipns/ids-find.chise.org/index.ja.html.
+
+2023-12-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000277F2): Use "𢪙" instead of
+	"⿰龵⿱一𰀁".
+	(U-000277F3): Use "𦙚" instead of "⿰龵月".
+	(U-000277F6): Use "𦙚" instead of "⿰龵月".
+
 2023-12-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use U+4EAB instead of UU+4EAB.
