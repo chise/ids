@@ -561,7 +561,7 @@ style=\"vertical-align:middle\">"
 	 (concat dest (substring string i))
 	 coding-system))))
 
-(defconst www-ids-find-version "0.100.1")
+(defconst www-ids-find-version "0.100.2")
 
 (defvar www-ids-find-ideographic-products-file-name
   (expand-file-name "ideographic-products"
@@ -946,6 +946,10 @@ CHISE $B$GMQ$$$i$l$k<BBV;2>H7A<0!JNc!'(B&amp;M-00256;$B!K$GItIJ$r;XDj$9$k;v$b
       (princ (encode-coding-string "
 <p  class=\"ml-0\">
 \[Links\]
+<ul>
+<li><a href=\"https://www.chise.org/ipns/ids-find.chise.org/index.ja.html\"
+>IPFS $BHG(B CHISE IDS $B4A;z8!:w(B</a></li>
+</ul>
 <ul>
 <li><a href=\"http://www.shuiren.org/chuden/toyoshi/syoseki/chise_ids.html\"
 >$B!V(BCHISE IDS FIND$B$G4A;z$r8!:w!W(B</a> $B!=(B $B;3ED?r?N$5$s!J(B<a
