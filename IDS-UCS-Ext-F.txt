@@ -8,7 +8,7 @@ U+2CEB5	𬺵	⿻亐一
 U+2CEB6	𬺶	⿱一&U-i001+5C71;
 U+2CEB7	𬺷	𬺷
 U+2CEB8	𬺸	⿻丷𠀁
-U+2CEB9	𬺹		@apparent=⿼⺕一
+U+2CEB9	𬺹	𬺹	@apparent=⿼⺕一
 U+2CEBA	𬺺	⿻口𠀁
 U+2CEBB	𬺻	𬺻
 U+2CEBC	𬺼	⿰丁也
@@ -430,7 +430,7 @@ U+2D05B	𭁛	⿰六逢
 U+2D05C	𭁜	⿰公断
 U+2D05D	𭁝	⿱群共
 U+2D05E	𭁞	⿰其葛
-U+2D05F	𭁟		@apparent=⿵冂&GT-K00036;
+U+2D05F	𭁟	𭁟	@apparent=⿵冂&GT-K00036;
 U+2D060	𭁠	⿻冂𰀁	⿻冄丨
 U+2D061	𭁡	⿳一丿冄
 U+2D062	𭁢	⿻市⿰一一
