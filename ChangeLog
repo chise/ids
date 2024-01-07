@@ -1,3 +1,17 @@
+2024-01-05  lolbot-iichan  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Ext-H.txt: Avoid empty mappings if apparent exists
+
+	* IDS-UCS-Ext-F.txt: Avoid empty mappings if apparent exists
+
+	* IDS-UCS-Ext-E.txt: Avoid empty mappings if apparent exists
+
+	* IDS-UCS-Ext-B-4.txt: Avoid empty mappings if apparent exists
+
+	* IDS-UCS-Ext-B-3.txt: Avoid empty mappings if apparent exists
+
+	* IDS-UCS-Basic.txt: Avoid empty mappings if apparent exists
+
 2023-12-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026BFA): Modify structure.
