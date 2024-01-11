@@ -1,3 +1,18 @@
+2024-01-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002AC46): Use "𱢒" instead of "⿳日𠀎𧘇".
+	(U-0002AE77): Likewise.
+
+2024-01-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt: Use "𱢒" instead of "⿳日𠀎𧘇".
+	(U+31D3A): Modify structure.
+	(U+31D42): Modify structure.
+	(U+31D47): Use "𰀄" instead of "⿷匚一".
+	(U+31EEE): Modify structure.
+	(U+31EFE): Use "𰑓" instead of "⿱𣫬心".
+	(U+31F00): Use U-0002008A instead of IU+2008A.
+
 2024-01-05  lolbot-iichan  <lolbot_iichan@mail.ru>
 
 	* IDS-UCS-Ext-H.txt: Avoid empty mappings if apparent exists
