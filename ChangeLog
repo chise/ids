@@ -1,3 +1,77 @@
+2024-01-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U-000215D7 instead of BC-8BE9.
+	(U-000200A6): Use "⿴&CDP-8BF5;x" instead of "⿻&CDP-8BF5;x"; use "𠦀" instead of
+	"⿱上十".
+	(U-000200B5): Use "⿴&CDP-8BF5;x" instead of "⿻&CDP-8BF5;x".
+	(U-00020311): Modify structure.
+	(U-00020513): Modify structure.
+	(U-00020516): Modify structure.
+	(U-00020531): Use "&U-i001+2FF1;甲艸" instead of "⿻甲⿰屮屮".
+	(U-00020699): Use "𰏒" instead of "⿰巾巾".
+	(U-0002088A): Completed.
+	(U-00020944): Completed.
+	(U-00020946): Use "㞷" instead of "⿱山王".
+	(U-0002095E): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00020961): Modify structure.
+	(U-00020965): Use "雔" instead of "⿰隹隹".
+	(U-00020A28): Completed.
+	(U-00020A29): Use "⿱⿶𡘑xy" instead of "⿱⿻𦥑x⿱大y".
+	(U-00020A93): Use "䋈" instead of "⿱奴糸".
+	(U-00020A94): Use "𠭖" instead of "⿰⿱爫古又".
+	(U-00020A97): Use "䚿" instead of "⿰言欠".
+	(U-00020B13): Use "㕘" instead of "⿱厽⿱𠆢小".
+	(U-00020B97): Use "⿴𠬪x" instead of "⿳爫x又".
+	(U-00020C21): Modify structure.
+	(U-00020C25): Completed.
+	(U-00020C2B): Fixed.
+	(U-00020E6B): Use "&U-i001+2FFB;土𠓜" instead of "⿻土⿰入入".
+	(U-00020ECC): Fixed.
+	(U-00020F0C): Use "㞷" instead of "⿱山王".
+	(U-00020F45): Use "舂" instead of "⿱𡗗臼".
+	(U-00020F5A): Fixed.
+	(U-00020F5C): Use "啻" instead of "⿱帝口".
+	(U-00020F63): Use "㞚" instead of "⿸尸臿".
+	(U-00020F65): Use "䙵" instead of "⿱覀圭".
+	(U-00020F67): Use "𬛳" instead of "⿱至至".
+	(U-00020F68): Use "𡩘" instead of "⿱宀音".
+	(U-00020F6B): Use "閕" instead of "⿵門牙".
+	(U-00020F6D): Use "𪩃" instead of "⿱山是".
+	(U-00020F75): Use "𧯡" instead of "⿱夗豆".
+	(U-00020F7B): Use "喆" instead of "⿰吉吉".
+	(U-00020F7C): Use U+6B70 instead of JU+6B70.
+	(U-00020F80): Use "𰕎" instead of "⿰育攵".
+	(U-00020F81): Use "⿰x𡎐" instead of "⿲x坴丮".
+	(U-000212BD): Use "𡵄" instead of "⿱山&CDP-8972;".
+	(U-00021517): Use "𠑲" instead of "⿰僉僉".
+	(U-00021518): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021519): Likewise.
+	(U-0002151A): Likewise.
+	(U-00021521): Use "&U-i002+2FF1;人从" instead of "⿻人从".
+	(U-00021598): Use "&U-i001+2FFB;土x" instead of "⿻土x".
+	(U-00021616): Use "&U-i001+2FF1;十从" instead of "⿸⿹十人人".
+	(U-00021618): Use "&U-i001+2FFB;大奻" instead of "⿻大⿰女女".
+	(U-0002161C): Use "&U-i002+2FF1;大x" instead of "⿻大x".
+	(U-0002185F): Use U+6B70 instead of JU+6B70.
+	(U-00021882): Use "𡎐" instead of "⿰坴丮".
+	(U-0002189B): Modify structure.
+	(U-000218A0): Use "𥦮" instead of "⿳穴口冋".
+	(U-000218A2): Use "虞" instead of "⿸虍吳".
+	(U-000218A4): Confirmed.
+	(U-000218E0): Use "𤲶" instead of "⿰男男".
+	(U-000218E1): Likewise.
+	(U-000218F9): Use "炏" instead of "⿰火火".
+	(U-00021A92): Modify structure.
+	(U-00021A93): Modify structure.
+	(U-00021BEA): Use "㞷" instead of "⿱山王".
+	(U-00021D2C): Use "艸" instead of "⿰屮屮".
+	(U-00021E56): Use "炏" instead of "⿰火火".
+	(U-00021E78): Use "⿱x怱" instead of "⿳x匆心".
+	(U-00021ECC): Use "𡷰" instead of "⿱山辰".
+	(U-00021ECF): Use "𠦍" instead of "⿳人人十".
+
 2024-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026499): Use U+7FC1 instead of
