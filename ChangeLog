@@ -104,6 +104,10 @@
 	(U+31EFE): Use "𰑓" instead of "⿱𣫬心".
 	(U+31F00): Use U-0002008A instead of IU+2008A.
 
+2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Ext-B-1.txt: Removed some unnecessary 口
+
 2024-01-07  lolbot-iichan  <lolbot_iichan@mail.ru>
 
 	* IDS-UCS-Ext-B-1.txt: Add some missing ⿱, ⿳, etc
