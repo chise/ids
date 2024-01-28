@@ -1,3 +1,12 @@
+2024-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020840): Completed.
+	(U-00020981): Completed.
+	(U-00020982): Use "&U-i002+2FF1;&CDP-89AE;十" instead of "⿻十&CDP-89AE;".
+	(U-0002099F): Completed.
+	(U-00021521): Fixed.
+	(U-0002161C): Fixed.
+
 2024-01-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U-000215D7 instead of BC-8BE9.
