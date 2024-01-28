@@ -1,5 +1,16 @@
 2024-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00020841): Use U+7259 instead of
+	MJ016802.
+	(U-00021620): Use "⿵𰃦x" instead of "⿱丿⿵冂x".
+	(U-00021C23): Moved to an apparent field.
+
+	* IDS-Daikanwa-03.txt (M-05933): Modify structure.
+
+2024-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-02811): Fixed.
+
 	* IDS-UCS-Ext-B-1.txt (U-00020840): Completed.
 	(U-00020981): Completed.
 	(U-00020982): Use "&U-i002+2FF1;&CDP-89AE;十" instead of "⿻十&CDP-89AE;".
