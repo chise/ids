@@ -1,3 +1,14 @@
+2024-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000218A4): Use U+904E instead of JU+904E.
+	(U-000218A6): Use "⿸䧹x" instead of "⿸广⿱倠x".
+
+	* IDS-UCS-Ext-B-2.txt: Use "亰" instead of "⿱亠𣌢".
+	(U-00022FEE): Fixed.
+	(U-00023150): Modify structure.
+	(U-000231B9): Use "⿱x冝" instead of "⿳x冖且".
+	(U-00023431): Modify structure.
+
 2024-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020841): Use U+7259 instead of
