@@ -1,5 +1,12 @@
 2024-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-000220D8): Use U-00022F04 instead of
+	BC-8CB6.
+	(U-000220DB): Fixed.
+	(U-00022FED): Use U-00022F04 instead of BC-8CB6.
+
+2024-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-000218A4): Use U+904E instead of JU+904E.
 	(U-000218A6): Use "⿸䧹x" instead of "⿸广⿱倠x".
 
