@@ -1,3 +1,10 @@
+2024-02-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020098): Fixed.
+	(U-00020A16): Use "卪" instead of "⿴卩丶".
+	(U-00020A17): Use "𭅲" instead of "⿴㔾丶".
+	(U-00020A19): Use "𪜊" instead of "⿱丶㇇".
+
 2024-02-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt:
