@@ -1,3 +1,30 @@
+2024-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use U-000215D7 instead of BC-8BE9.
+	- Use U+5950 instead of CU+5950.
+	(U-00024098): Use U+8535 instead of CU+8535.
+	(U-000246FB): Ditto.
+	(U-00024818): Use "蚤" instead of "⿱㕚虫".
+	(U-0002481B): Use "𮎰" instead of "⿳艹亾𫶧".
+	(U-0002481F): Use U+8345 instead of CU+8345.
+	(U-00024E66): Use U+555A instead of JU+555A.
+	(U-00025135): Use U+672F instead of UU+672F.
+	(U-00025203): Use "叜" instead of "⿳宀&GT-K00859;又".
+	(U-0002524C): Use U+8345 instead of CU+8345.
+	(U-0002528E): Use "舂" instead of "⿱𡗗臼".
+	(U-00025461): Use U+672F instead of UU+672F.
+	(U-00025463): Use "⿸&A-compU+5382;𭅲" instead of "⿻厄丶".
+	(U-00025644): Use "尒" instead of "⿱𠆢小".
+	(U-000257F2): Use U+672F instead of UU+672F.
+	(U-00025838): Use "𮎰" instead of "⿳艹亾𫶧".
+	(U-00025947): Use U+672F instead of UU+672F.
+	(U-0002594E): Use "𠮧" instead of "⿰口刂".
+	(U-000259BF): Use "恄" instead of "⿰忄𠮷".
+	(U-00025AE3): Use U+4E0E instead of JU+4E0E.
+	(U-00025C29): Use "⿱x舁" instead of "⿳x𦥑廾".
+	(U-00025C31): Use "蚤" instead of "⿱㕚虫".
+
 2024-02-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020098): Fixed.
