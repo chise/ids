@@ -1,5 +1,11 @@
 2024-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt: Use U+5DEE instead of JU+5DEE.
+	(U-00025202): Use U+4E9F instead of JU+4E9F.
+	(U-00025463): Use U+5382 instead of A-compU+5382.
+
+2024-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-3.txt:
 	- Use U-000215D7 instead of BC-8BE9.
 	- Use U+5950 instead of CU+5950.
