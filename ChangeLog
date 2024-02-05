@@ -1,3 +1,12 @@
+2024-02-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024026): Use "⿸溂x" instead of
+	"⿰氵⿱剌x".
+	(U-00025582): Modify structure.
+	(U-0002558A): Use "𠷰" instead of "⿱口面".
+	(U-0002558D): Use "溂" instead of "⿰氵剌".
+	(U-00025597): Use "𰚃" instead of "⿰壴殳".
+
 2024-02-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt: Use U+5DEE instead of JU+5DEE.
