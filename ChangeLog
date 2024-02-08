@@ -1,5 +1,11 @@
 2024-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-0002432A): Use U+4673 instead of UU+4673.
+	(U-0002432E): Use U+5DE8 instead of CU+5DE8.
+	(U-00024338): Use U+8349 instead of CU+8349.
+
+2024-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-3.txt (U-0002432B): Use "𥑟" instead of
 	"⿳士冖石".
 	(U-00024330): Completed [temporary].
