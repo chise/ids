@@ -1,3 +1,24 @@
+2024-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-0002432B): Use "𥑟" instead of
+	"⿳士冖石".
+	(U-00024330): Completed [temporary].
+	(U-00024331): Use "𮲡" instead of "⿱日共".
+	(U-0002433A): Use "⿱歬x" instead of "⿳止舟x".
+	(U-0002433C): Use "𦤃" instead of "⿱自王".
+	(U-00024342): Use "勑" instead of "⿰來力".
+	(U-00024430): Use "蒦" instead of "⿱艹隻".
+	(U-00024431): Use "㼲" instead of "⿰耎瓦".
+	(U-00024432): Use "⿱𮲡x" instead of "⿳日共x".
+	(U-00024BB5): Use "㼲" instead of "⿰耎瓦".
+	(U-00024BB7): Use "𩅸" instead of "⿱雨畱".
+	(U-00024BB8): Use "𩆞" instead of "⿱霝田".
+	(U-00024BC9): Use U-00021BCE instead of BC-85C1.
+	(U-00024BCE): Use "⿸𢊆x" instead of "⿸广⿱秝x".
+	(U-00024BCF): Use "⿱x𡭕" instead of "⿳x一小".
+	(U-0002545F): Modify structure.
+	(U-000258A3): Use "𡭕" instead of "⿱一小".
+
 2024-02-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-0002558F): Use U+8CAB instead of UU+8CAB.
