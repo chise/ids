@@ -1,3 +1,9 @@
+2024-02-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002161F): Use "⿱x𠄢" instead of
+	"⿱⿵x一⿱⿵冂巳一".
+	(U-00021629): Use "&U-i002+2FF1;𦥑大" instead of "⿻大臼".
+
 2024-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-0002432A): Use U+4673 instead of UU+4673.
@@ -288,6 +294,8 @@
 	(U+31F00): Use U-0002008A instead of IU+2008A.
 
 2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Ext-B-4.txt: Add missing ⿰, ⿱, etc
 
 	* IDS-UCS-Ext-B-3.txt: Fix U-00024BB6 mapping as ⿰爕瓦
 
