@@ -7423,12 +7423,12 @@ U+2EBAC	𮮬	⿺鼠丑
 U+2EBAD	𮮭	⿰鼠且
 U+2EBAE	𮮮	⿺鼠咅
 U+2EBAF	𮮯	⿺鼠單
-U+2EBB0	𮮰	⿱畠大
-U+2EBB1	𮮱	⿳自田大
-U+2EBB2	𮮲	⿳自田十
+U+2EBB0	𮮰	⿱白⿱田大	@apparent=⿱畠大
+U+2EBB1	𮮱	⿱自⿱田大	@apparent=⿳自田大
+U+2EBB2	𮮲	⿱自⿱田十	@apparent=⿳自田十
 U+2EBB3	𮮳	⿱白⿻甲一
 U+2EBB4	𮮴	⿱自𤰞
-U+2EBB5	𮮵	⿱畠𤰞
+U+2EBB5	𮮵	⿱白𤰞
 U+2EBB6	𮮶	⿰鼻也
 U+2EBB7	𮮷	⿰鼻糸
 U+2EBB8	𮮸	⿰鼻登
