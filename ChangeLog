@@ -1,3 +1,7 @@
+2024-02-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-0002684B): Use U+9813 instead of JU+9813.
+
 2024-02-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000264C2): Modify structure.
