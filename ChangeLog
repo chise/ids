@@ -1,3 +1,52 @@
+2024-02-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000264C2): Modify structure.
+	(U-000267D9): Use "𤉄" instead of "⿱豕灬".
+	(U-0002684C): Modify structure.
+	(U-0002686D): Modify structure.
+	(U-00026978): Modify structure.
+	(U-00026979): Use "𡘩" instead of "⿻𦥑大".
+	(U-0002697D): Use "&U-i001+2FF1;午𠬞" instead of "⿻午𠬞".
+	(U-00026980): Use "⿴⿱𦥑𦥑丨" instead of "⿻⿱𦥑𦥑丨".
+	(U-00026986): Use "⿱𡘑x" instead of "⿳臼大x".
+	(U-0002698A): Completed.
+	(U-0002698B): Modify structure.
+	(U-00026993): Modify structure.
+	(U-0002699F): Modify structure.
+	(U-000269A6): Use "&U-i002+2FF1;⿱臼臼人" instead of "⿻⿱臼臼人".
+	(U-000269A7): Use "⿴𦥑同" instead of "⿻𦥑同".
+	(U-000269A9): Use "⿱⿶&CDP-8B64;缶x" instead of "⿳⿻𦥑缶冖x".
+	(U-000269AB): Modify structure.
+	(U-000269AC): Use "⿵⿱⿴𦥑古𠔁x" instead of "⿱⿻𦥑古⿲𰀪x&CDP-8971;".
+	(U-000269AD): Use "&U-i002+2FF1;⿱𦥑𦥑人" instead of "⿻人⿱𦥑𦥑".
+	(U-000269B2): Use "⿴𦥑与" instead of "⿻𦥑与".
+	(U-000269B6): Use "⿵⿱⿴𦥑古𠔁x" instead of "⿱⿻𦥑古⿲𰀪x&CDP-8971;".
+	(U-00026CAF): Use "⿱x𡕢" instead of "⿳x⿱一火夂".
+	(U-00026CB0): Use "𥃳" instead of "⿰目亏".
+	(U-00026CB1): Modify structure.
+	(U-00026DFB): Use "忄" instead of "小".
+	(U-0002746C): Modify structure.
+	(U-0002746D): Use "喆" instead of "⿰吉吉".
+	(U-00027471): Use "喆" instead of "⿰吉吉".
+	(U-000274DD): Use "𮮱" instead of "⿳自田大".
+	(U-000274E1): Use U-0002053F instead of U+7F53.
+	(U-000274E3): Modify structure.
+	(U-000274E4): Fixed.
+	(U-000274E7): Use "鼻" instead of "⿳自田丌".
+	(U-000274E8): Use "𧈟" instead of "⿷匚虫".
+	(U-000274E9): Use "䝳" instead of "⿱𣦼貝".
+	(U-00027807): Fixed.
+	(U-000278F1): Use "𢦙" instead of "⿹戈幺".
+	(U-00027911): Use "⿱𡘑x" instead of "⿳臼大x".
+	(U-00027930): Use "⿰x㪷" instead of "⿲x豆斗".
+	(U-00027932): Use "𤉄" instead of "⿱豕灬".
+	(U-00027B6B): Use "𠆆" instead of "⿳⿱亠⿱口口卝干".
+	(U-00027B6C): Use "𥉁" instead of "⿱䀠夰".
+	(U-00027D8C): Modify structure.
+	(U-00027D8D): Use "𢦙" instead of "⿹戈幺".
+	(U-00027DC7): Modify structure.
+	(U-00027DC8): Modify structure.
+
 2024-02-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2EBB0): Modify structure; preserve the
