@@ -1,3 +1,22 @@
+2024-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt:
+	- Use U+396F instead of CU+396F.
+	- Use U+3687 instead of CU+3687.
+	- Use U+771F instead of JU+771F.
+	- Use U+4EA4 instead of UU+4EA4.
+	(U-0002835B): Use U+6BD2 instead of JU+6BD2.
+	(U-000283BA): Use U+7980 instead of UU+7980.
+	(U-000283DF): Use U+7550 instead of UU+7550.
+	(U-0002860F): Use "𱾂" instead of "⿱艹袁".
+	(U-00028745): Use U+7680 instead of UU+7680.
+	(U-000287B8): Use U+7680 instead of UU+7680.
+	(U-000293CA): Use U+4E9F instead of JU+4E9F.
+	(U-000293D2): Use U+8345 instead of CU+8345.
+	(U-00029909): Use U+82B1 instead of CU+82B1.
+	(U-00029CB9): Use "仧" instead of "⿱上人".
+	(U-00029D2A): Use U+5E7E instead of JU+5E7E.
+
 2024-02-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt:
