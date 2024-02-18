@@ -1,5 +1,9 @@
 2024-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-00029545): Use "𢉅" instead of "⿸广金".
+
+2024-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt:
 	- Use U+396F instead of CU+396F.
 	- Use U+3687 instead of CU+3687.
@@ -460,6 +464,10 @@
 	(U+31EEE): Modify structure.
 	(U+31EFE): Use "𰑓" instead of "⿱𣫬心".
 	(U+31F00): Use U-0002008A instead of IU+2008A.
+
+2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Ext-B-5.txt: Fix U-00029547 mapping as ⿰⿸𭤨⿱丿丹頁
 
 2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
 
