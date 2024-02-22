@@ -1,3 +1,69 @@
+2024-02-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A0D6): Use "茋" instead of "⿱艹氐".
+	(U-0002A0DA): Use "𥘣" instead of "⿱止示".
+	(U-0002A0DC): Fixed.
+	(U-0002A0F0): Use "貟" instead of "⿱厶貝".
+	(U-0002A0F4): Use "𤔄" instead of "⿱爫可".
+	(U-0002A0F7): Fixed.
+	(U-0002A0F8): Use "枼" instead of "⿱世木".
+	(U-0002A103): Use "栞" instead of "⿱幵木".
+	(U-0002A10B): Use "宻" instead of "⿳宀&CDP-85A7;山".
+	(U-0002A110): Use "枽" instead of "⿳十龷木".
+	(U-0002A12A): Use "勑" instead of "⿰來力".
+	(U-0002A12C): Use U+793B instead of <CJK RADICAL SPIRIT TWO>.
+	(U-0002A228): Modify structure.
+	(U-0002A22C): Use "𪅝" instead of "⿰鳥鳥".
+	(U-0002A23C): Use "𪅝" instead of "⿰鳥鳥".
+	(U-0002A262): Modify structure.
+	(U-0002A269): Modify structure.
+	(U-0002A26B): Modify structure.
+	(U-0002A272): Use "𣆉" instead of "⿳日口十".
+	(U-0002A276): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-0002A27C): Use "㝡" instead of "⿱宀取".
+	(U-0002A298): Use U-00027607 instead of BC-8B67.
+	(U-0002A33E): Use "备" instead of "⿱夂田".
+	(U-0002A35E): Use "俻" instead of "⿰亻⿱夂田".
+	(U-0002A360): Use "𣪊" instead of "⿰𡉉殳".
+	(U-0002A362): Use "𣪊" instead of "⿰𡉉殳".
+	(U-0002A36B): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-0002A36D): Use "𧰮" instead of "⿱日豕".
+	(U-0002A3CD): Use "⿰𰮋x" instead of "⿲月⿱八几x".
+	(U-0002A3E1): Use "䚵" instead of "⿰言斗".
+	(U-0002A485): Use "勑" instead of "⿰來力".
+	(U-0002A487): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-0002A488): Modify structure.
+	(U-0002A48C): Use "⿴衣x" instead of "⿳亠x𧘇".
+	(U-0002A48D): Use "⿱冧x" instead of "⿳冖林x".
+	(U-0002A4F2): Use "⿱昷x" instead of "⿳日皿x".
+	(U-0002A4F6): Use "𭣩" instead of "⿰出攵".
+	(U-0002A501): Use "𢑑" instead of "⿱⺕⺕".
+	(U-0002A577): Use "𣪊" instead of "⿰𡉉殳".
+	(U-0002A578): Use "⿹𣪊x" instead of "⿰⿱𡉉x殳".
+	(U-0002A61F): Use "𥃩" instead of "⿱目匕".
+	(U-0002A620): Use "𠇾" instead of "⿰亻⿱木一".
+	(U-0002A62B): Use "𡧧" instead of "⿳宀&CDP-8959;一".
+	(U-0002A644): Use "𡯂" instead of "⿱八几".
+	(U-0002A646): Use "㞕" instead of "⿸尸⿱八⺼".
+	(U-0002A647): Use "㞕" instead of "⿸尸⿱八⺼".
+	(U-0002A64B): Use "恖" instead of "⿱囟心".
+	(U-0002A656): Modify structure.
+	(U-0002A658): Use "斊" instead of "⿱文耳".
+	(U-0002A665): Use "禼" instead of "⿱卤禸".
+	(U-0002A66C): Use "𦧚" instead of "⿰舌舌".
+	(U-0002A671): Use "⿸𢊆x" instead of "⿸广⿱秝x".
+	(U-0002A69F): Use "⿴幵x" instead of "⿲干x干".
+	(U-0002A6A5): Use "龖" instead of "⿰龍龍".
+	(U-0002A6A7): Fixed.
+	(U-0002A6A8): Modify structure.
+	(U-0002A6B4): Fixed.
+	(U-0002A6C1): Use "𤇫" instead of "⿱禾火".
+	(U-0002A6C4): Use "⿱㽞x" instead of "⿳吅田x".
+	(U-0002A6D6): Use "𪚰" instead of "⿱龜灬".
+
 2024-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029545): Use "𢉅" instead of "⿸广金".
@@ -464,6 +530,10 @@
 	(U+31EEE): Modify structure.
 	(U+31EFE): Use "𰑓" instead of "⿱𣫬心".
 	(U+31F00): Use U-0002008A instead of IU+2008A.
+
+2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Ext-B-6.txt: Add missing ⿰, ⿱, etc
 
 2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
 
