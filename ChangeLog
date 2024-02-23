@@ -1,3 +1,20 @@
+2024-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt: Use U+6BB8 instead of UU+6BB8.
+	(U-0002A10F): Use U+8980 instead of BC-8BD5.
+	(U-0002A1BE): Modify structure.
+	(U-0002A22E): Use U+470C instead of UU+470C.
+	(U-0002A264): Use <CJK RADICAL SHEEP> instead of BC-8CCC.
+	(U-0002A266): Use U+81FD instead of UU+81FD.
+	(U-0002A2D4): Use "亰" instead of "⿱亠𣌢".
+	(U-0002A2D5): Use "⿴𦥑x" instead of "⿻𦥑x".
+	(U-0002A40C): Use U+533F instead of CU+533F.
+	(U-0002A488): Use U-00020B9B instead of IU+20B9B.
+	(U-0002A65B): Use U+533F instead of CU+533F.
+	(U-0002A666): Use U+6700 instead of UU+6700.
+	(U-0002A66F): Modify structure.
+	(U-0002A6C3): Use U+5340 instead of CU+5340.
+
 2024-02-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A0D6): Use "茋" instead of "⿱艹氐".
