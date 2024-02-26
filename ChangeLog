@@ -1,3 +1,21 @@
+2024-02-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002A808): Fixed.
+	(U-0002A809): Use "𱤽" instead of "⿸厂止".
+	(U-0002AB54): Fixed.
+	(U-0002AB5A): Use "𱑏" instead of "⿱⿲丨丨𰀁⿳一八𰀁".
+	(U-0002AB5B): Modify structure.
+	(U-0002AB6C): Use "𫯜" instead of "⿱大巾".
+	(U-0002AB8A): Use "𱑎" instead of "⿱亦十".
+	(U-0002AB8C): Use "⿰x𪟆" instead of "⿲x育刂".
+	(U-0002ABDF): Use "𫬲" instead of "⿳吅虎吅".
+	(U-0002ABEF): Use "𱤽" instead of "⿸厂止".
+	(U-0002AC00): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-0002AC04): Use "𬁅" instead of "⿰日虹".
+	(U-0002B440): Use "𱑏" instead of "⿱⿳⿲丨丨𰀁一八𰀁".
+	(U-0002B538): Use "𱑏" instead of "⿱⿳⿲丨丨𰀁一八𰀁".
+
 2024-02-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt: Use U+6BB8 instead of UU+6BB8.
