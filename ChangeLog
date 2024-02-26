@@ -1,5 +1,21 @@
 2024-02-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt (U+2BB32): Use "⿴㗊x" instead of "⿳吅x吅".
+	(U+2BB34): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U+2BB3D): Modify structure; add an apparent field based on the
+	previous IDS.
+
+	* IDS-UCS-Ext-C.txt (U-0002A9BD): Use U-0002BF09 instead of
+	hanaJU+2BF09.
+	(U-0002A9BE): Modify structure.
+	(U-0002AB13): Use "𭪂" instead of "⿲木氵亍".
+	(U-0002AB36): Use "⿰x䋦" instead of "⿲x糸每".
+	(U-0002AB39): Use "𫢀" instead of "⿱㐭虫".
+	(U-0002AB5B): Use U-0002BF09 instead of hanaJU+2BF09.
+
+2024-02-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-C.txt (U-0002A808): Fixed.
 	(U-0002A809): Use "𱤽" instead of "⿸厂止".
 	(U-0002AB54): Fixed.
