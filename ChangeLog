@@ -1,5 +1,11 @@
 2024-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt (U+2B96E): Use "𱏵" instead of "⿳⿴&CDP-89AE;同一八".
+	(U+2B96F): Use "𪽗" instead of "⿱⿵尺丶⿶凵田".
+	(U+2BBC4): Modify structure; use "@apparent=".
+	(U+2BBC6): Use "𱏵" instead of "⿳⿴&CDP-89AE;同一八".
+	(U+2CC88): Use "𱏵" instead of "⿳⿴&CDP-89AE;同一八".
+
 	* IDS-UCS-Ext-H.txt (U+313F5): Modify structure.
 
 2024-02-26  MORIOKA Tomohiko  <tomo.git@chise.org>
