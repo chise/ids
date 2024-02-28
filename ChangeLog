@@ -1,3 +1,14 @@
+2024-02-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021454): Use "𬀉" instead of
+	"⿱方⿰方方".
+	(U-00021464): Use U-00023386 instead of BC-8ADA.
+	(U-0002147B): Use "𣔾" instead of "⿰木㒸".
+	(U-0002148B): Use "㪣" instead of "⿰高攵".
+	(U-00021537): Use "𠬢" instead of "⿱屮又".
+	(U-00021538): Use "⿱𣨑x" instead of "⿱⿱士冖⿱死x".
+	(U-00021548): Use "⿴𡔲x" instead of "⿱士⿴&CDP-87A5;x".
+
 2024-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2B96E): Use "𱏵" instead of "⿳⿴&CDP-89AE;同一八".
@@ -591,6 +602,10 @@
 	(U+31EEE): Modify structure.
 	(U+31EFE): Use "𰑓" instead of "⿱𣫬心".
 	(U+31F00): Use U-0002008A instead of IU+2008A.
+
+2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
+
+	* IDS-UCS-Ext-B-1.txt: Fix U-00021464 mapping as ⿵𦝠土
 
 2024-01-08  lolbot-iichan  <lolbot_iichan@mail.ru>
 
