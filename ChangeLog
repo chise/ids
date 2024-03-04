@@ -1,3 +1,10 @@
+2024-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use "宁" instead of "⿱宀丁".
+	(U-000207D7): Use "𢀛" instead of "⿱工口".
+	(U-000219F1): Use "𢀛" instead of "⿱工口".
+	(U-000219FC): Use "⿱穴x" instead of "⿳宀八x".
+
 2024-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002AE44): Use "⿸炳x" instead of
