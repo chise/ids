@@ -1,3 +1,10 @@
+2024-03-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000207DA): Use U+7B49 instead of CU+7B49.
+	(U-00020F9E): Use "棼" instead of "⿱林分".
+	(U-00020FA0): Use "豿" instead of "⿰豸句".
+	(U-00020FA1): Use U+7B49 instead of CU+7B49.
+
 2024-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use "宁" instead of "⿱宀丁".
