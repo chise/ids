@@ -1,5 +1,71 @@
 2024-03-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00020FAD): Use U+840E instead of CU+840E.
+	(U-00020FAF): Use "𰗷" instead of "⿱穴呆".
+	(U-00020FD0): Use "㬅" instead of "⿱&CDP-8CBF;方".
+	(U-00020FEC): Use "傻" instead of "⿰亻⿳囟八夂".
+	(U-00020FF5): Use "貇" instead of "⿰豸艮".
+	(U-00020FFE): Completed.
+
+	* IDS-UCS-Ext-B-2.txt: Use "𬛸" instead of "⿱臼工".
+	(U-0002274E): Use "匩" instead of "⿷匚⿱屮王".
+	(U-00022750): Use "𢓄" instead of "⿰彳幵".
+	(U-00022757): Use "𰄯" instead of "⿰来刂".
+	(U-0002275D): Modify structure.
+	(U-0002275F): Use "㧝" instead of "⿱加手".
+	(U-00022762): Use "𬥎" instead of "⿱又貝".
+	(U-00022765): Use "𥝸" instead of "⿱禾水".
+	(U-00022766): Use "炳" instead of "⿰火丙".
+	(U-00022768): Use "苦" instead of "⿱艹古".
+	(U-00022772): Use "秌" instead of "⿰火禾".
+	(U-00022894): Use "㬅" instead of "⿱&CDP-8CBF;方".
+	(U-00022899): Use "㮚" instead of "⿱𠧪木".
+	(U-000228A1): Use "𢾕" instead of "⿰⿱出方攵".
+	(U-00022AF6): Use "𢪒" instead of "⿰手手".
+	(U-00022C3F): Use "⿴𢪒x" instead of "⿲手x手".
+	(U-00022C40): Use "秌" instead of "⿰火禾".
+	(U-00022C41): Use "𥄕" instead of "⿱卝目".
+	(U-00022D94): Use "㬅" instead of "⿱&CDP-8CBF;方".
+	(U-00022D97): Use "𢾕" instead of "⿰⿱出方攵".
+	(U-0002312C): Use "歷" instead of "⿸厂⿱秝止".
+	(U-0002350F): Use "𢆎" instead of "⿱𡗜干".
+	(U-0002354B): Use "㞕" instead of "⿸尸⿱八⺼".
+	(U-0002354C): Modify structure.
+	(U-0002354E): Use "⿴林x" instead of "⿲木x木".
+	(U-00023552): Use "𪲓" instead of "⿱木豆".
+	(U-00023560): Modify structure.
+	(U-00023561): Modify structure.
+	(U-0002356A): Use "⿴林x" instead of "⿲木x木".
+	(U-000239AC): Use "𫀄" instead of "⿵戊示".
+	(U-000239B0): Use "歷" instead of "⿸厤止".
+	(U-00023F89): Use "𡩏" instead of "⿱宀眉".
+	(U-00023F8B): Use "䆣" instead of "⿱穴辰".
+	(U-00023F98): Use "莾" instead of "⿱艹奔".
+	(U-00023F99): Use "𣲙" instead of "⿰氵水".
+	(U-00023FA3): Use "𢆎" instead of "⿱𡗜干".
+	(U-00023FA5): Use "𣦃" instead of "⿱止舠".
+	(U-00023FA7): Use "𫲪" instead of "⿱幽子".
+	(U-00023FAC): Use "䦎" instead of "⿵門元".
+	(U-00023FAE): Use "⿰x𣪍" instead of "⿲x⿸尸⿱兀几殳".
+	(U-00023FBB): Use "啫" instead of "⿰口者".
+	(U-00023FCF): Use "𠹝" instead of "⿳林九口".
+	(U-00023FD1): Use "䢽" instead of "⿱共邑".
+	(U-00023FD4): Use "𨔶" instead of "⿺辶羍".
+	(U-00023FD7): Use "⿰x𢾕" instead of "⿲x⿱出方攵".
+	(U-00023FDA): Use "㮚" instead of "⿱𠧪木".
+	(U-00023FDB): Use "𦕾" instead of "⿰耳𠯑".
+	(U-00023FDC): Use "𢝲" instead of "⿱⿰火禾心".
+	(U-00023FDF): Use "𰍙" instead of "⿱宀⿰⻂𪠲".
+	(U-00023FE5): Use "暓" instead of "⿱⿰矛攵日".
+	(U-00023FF3): Use "𤊽" instead of "⿳𡗜日火".
+	(U-00023FF4): Use "𦳝" instead of "⿱艹昜".
+	(U-00023FF7): Use "𫀄" instead of "⿵戊示".
+	(U-00023FFD): Use "賎" instead of "⿰貝㦮".
+	(U-00023FFE): Use "𪝣" instead of "⿰亻寄".
+	(U-00023FFF): Use "鈲" instead of "⿰金瓜".
+
+2024-03-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-000207DA): Use U+7B49 instead of CU+7B49.
 	(U-00020F9E): Use "棼" instead of "⿱林分".
 	(U-00020FA0): Use "豿" instead of "⿰豸句".
