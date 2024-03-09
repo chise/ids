@@ -1,3 +1,9 @@
+2024-03-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2DFC5): Use U+594F instead of JU+594F.
+	(U+2DFC7): Use "𧈪" instead of "⿱山虫".
+	(U+2DFE3): Modify structure.
+
 2024-03-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DFC3): Modify structure.
