@@ -1,3 +1,44 @@
+2024-03-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002274B): Use U+4EAE instead of JU+4EAE.
+	(U-00022756): Use U+751A instead of UU+751A.
+	(U-000228A2): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-000228A3): Use U+89E3 instead of JU+89E3.
+	(U-000228A4): Use "⿱x怘" instead of "⿳x古心".
+	(U-000228A5): Use "𢝔" instead of "⿱則心".
+	(U-000228A6): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-000228AE): Use "𬝑" instead of "⿳艹𠆢镸".
+	(U-000228B0): Use "𥇛" instead of "⿻大䀠".
+	(U-000228B1): Use "翛" instead of "⿰&CDP-8B7A;⿱攵羽".
+	(U-000228B7): Use "媽" instead of "⿰女馬".
+	(U-000228BA): Use "𭿃" instead of "⿳&CDP-88DD;冖目".
+	(U-000228D6): Use "⿸𢞑x" instead of "⿰忄⿱⿱左左x".
+	(U-00022D45): Use "䂓" instead of "⿰矢見".
+	(U-00022D47): Modify structure.
+	(U-00022D4D): Use "𭪴" instead of "⿱⿰歹歹木".
+	(U-00022D4E): Use <CJK RADICAL EWE> instead of U-0002634B as the
+	representative component.
+	(U-00022D50): Modify structure.
+	(U-00022D51): Modify structure.
+	(U-00022D59): Use "棻" instead of "⿳艹分木".
+	(U-00022D60): Fixed.
+	(U-00022D69): Use "隊" instead of "⿰阝㒸"; use U+9FB5 instead of
+	U+624B.
+	(U-00022D6C): Use U+9FB5 instead of U+624B.
+	(U-00022D72): Use "喭" instead of "⿰口彦".
+	(U-00022D79): Use "痗" instead of "⿸疒每".
+	(U-00022D7F): Use "𭤁" instead of "⿰⿱白方攴".
+	(U-00022D8A): Use "寋" instead of "⿱𡨄巳".
+	(U-00023A6C): Use U-00027D69 instead of IU+27D69.
+	(U-00023F96): Fixed.
+	(U-00023F9B): Use U+44E7 instead of HZK08-F37C.
+	(U-00023FA8): Fixed.
+	(U-00023FB9): Use U+9038 instead of JU+9038.
+	(U-00023FD9): Use U-00027D69 instead of IU+27D69.
+	(U-00023FFA): Use U+8170 instead of UU+8170.
+
 2024-03-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DFC5): Use U+594F instead of JU+594F.
