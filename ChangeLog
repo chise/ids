@@ -1,3 +1,44 @@
+2024-03-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-0002659A): Use "𪠨" instead of "⿱臼又".
+	(U-000266EB): Fixed.
+	(U-000266EC): Fixed.
+	(U-00026BD9): Use "㧎" instead of "⿰扌牙".
+	(U-00026BDF): Use "肟" instead of "⿰⺼亐".
+	(U-00026BE1): Modify structure.
+	(U-00026BE3): Use "伹" instead of "⿰亻且".
+	(U-00026BE8): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00026BE9): Modify structure.
+	(U-00026BEB): Use "𣲑" instead of "⿰氵𢆰".
+	(U-00026BF1): Use "𠈄" instead of "⿰亻臣".
+	(U-00026BFD): Modify structure.
+	(U-00026C00): Modify structure.
+	(U-00026C07): Use "⿱x妟" instead of "⿳x日女".
+	(U-00026C09): Modify structure.
+	(U-00026C0C): Completed.
+	(U-00026C12): Use "佦" instead of "⿰亻石".
+	(U-00026C13): Fixed.
+	(U-00026C17): Use "𰅲" instead of "⿱世十".
+	(U-00026C19): Modify structure.
+	(U-00026C9D): Fixed.
+	(U-00026CA1): Use "𤝗" instead of "⿰犭田".
+	(U-00026CA2): Completed.
+	(U-00026CA6): Use "𱵼" instead of "⿰禾久".
+	(U-00026CA8): Use "𡛩" instead of "⿰女立".
+	(U-00026CA9): Fixed.
+	(U-00026CAA): Use "⿱x𪠨" instead of "⿳x臼又".
+	(U-00026D05): Modify structure.
+	(U-00026D92): Use "𣵣" instead of "⿰氵何".
+	(U-00026D94): Use "眗" instead of "⿰目句".
+	(U-00026D96): Use "⿱x㕖" instead of "⿳x⿱厶⿰厶厶木".
+	(U-00026E7D): Use "𭚽" instead of "⿰弓卑".
+	(U-00026E7F): Modify structure.
+	(U-00027D35): Use "厸" instead of "⿰厶厶".
+	(U-00027D36): Use "𠤏" instead of "⿱七十".
+	(U-00027D3A): Modify structure.
+	(U-00027D41): Fixed.
+
 2024-03-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002274B): Use U+4EAE instead of JU+4EAE.
