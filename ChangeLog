@@ -1,5 +1,22 @@
 2024-04-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2D224): Unified to one column.
+	(U+2D230): Completed [temporary].
+	(U+2D233): Modify structure.
+	(U+2D244): Use "⿰x𱼶" instead of "⿲x舟巳".
+	(U+2D28F): Use "𮯿" instead of "⿱亼朋".
+	(U+2D7A9): Use "&CDP-88DD;" instead of "⿻卄口".
+	(U+2DAB7): Use U+6852 instead of MJ013905.
+	(U+2D28F): Use "𮯿" instead of "⿱亼朋".
+	(U+2D7A9): Use "&CDP-88DD;" instead of "⿻卄口".
+	(U+2DAB7): Use U+6852 instead of MJ013905.
+	(U+2DB1F): Modify structure.
+	(U+2DB42): Use U+898A instead of JU+898A.
+	(U+2DFC3): Use "&CDP-88DD;" instead of "⿻卄口".
+	(U+2DFE3): Use "&CDP-88DD;" instead of "⿻卄口".
+
+2024-04-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-C.txt (U-0002AF14): Use "𮯿" instead of "⿱亼朋".
 
 2024-04-09  MORIOKA Tomohiko  <tomo.git@chise.org>
