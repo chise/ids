@@ -1,3 +1,11 @@
+2024-04-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000299E5): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
+	* IDS-UCS-Basic.txt (U+777E): Modify structure.
+	(U+98AA): Fixed.
+
 2024-04-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028759): Use "𮯿" instead of "⿱亼朋".
