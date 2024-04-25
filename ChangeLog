@@ -1,3 +1,7 @@
+2024-04-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+9CE5): Add IDS.
+
 2024-04-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-000299E5): Modify structure; preserve the
