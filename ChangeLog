@@ -1,3 +1,7 @@
+2024-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt: Various changes and bug fixes.
+
 2024-05-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026C82): Use "𥩘" instead of "⿰立勺".
