@@ -1,3 +1,7 @@
+2024-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+52D9): Modify structure.
+
 2024-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-JIS-X0208-1990.txt: Various changes and bug fixes.
