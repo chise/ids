@@ -1,3 +1,8 @@
+2024-06-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020B3B): Use "&U-i001+2FF1;" instead of "⿻".
+	(U-00020B3C): Likewise.
+
 2024-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+52D9): Modify structure.
