@@ -1,3 +1,11 @@
+2024-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022458): Modify structure.
+	(U-00022459): Modify structure.
+	(U-0002245B): Modify structure.
+	(U-00022925): Use U+6063 instead of JU+6063.
+	(U-00022D50): Use "肩" instead of "⿸戶⺼".
+
 2024-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022927): Fixed.
