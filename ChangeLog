@@ -1,3 +1,7 @@
+2024-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5934): Add an apparent field.
+
 2024-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022458): Modify structure.
