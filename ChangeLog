@@ -1,5 +1,62 @@
 2024-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00020000): Don't use "?".
+	(U-00020009): Likewise.
+	(U-00020137): Likewise.
+	(U-00020509): Likewise.
+	(U-00020562): Completed.
+	(U-0002056F): Completed.
+	(U-0002063F): Completed.
+	(U-0002091B): Completed.
+	(U-0002091C): Use "𥎨" instead of "⿱&CDP-8BC5;矢".
+	(U-000209BA): Completed.
+	(U-00020A50): Completed.
+	(U-00020A73): Completed [temporary].
+	(U-00020A95): Don't use "?".
+	(U-00020AB3): Completed [temporary].
+	(U-00020AF8): Modify structure.
+	(U-00020BE7): Completed.
+	(U-00020C1F): Completed [temporary].
+	(U-00020C91): Completed [temporary].
+	(U-00020D01): Completed.
+	(U-00020D53): Don't use "?".
+	(U-00020D59): Use "岺" instead of "⿱山令".
+	(U-00020D62): Use "𧹘" instead of "⿱龷&CDP-8CB5;".
+	(U-00021101): Use "廩" instead of "⿸广稟".
+	(U-00021102): Use "𡉤" instead of "⿱不土".
+	(U-00021105): Completed [temporary].
+	(U-00021108): Use "⿱x𠰣" instead of "⿳x必口".
+	(U-0002110A): Use "䀈" instead of "⿱旣皿".
+	(U-0002110B): Use "㬱" instead of "⿱兟日".
+	(U-00021429): Modify structure; add an apparent field.
+	(U-0002142B): Completed [temporary].
+	(U-000215D7): Don't use "?".
+	(U-00021827): Completed [temporary].
+	(U-00021838): Use "𦕓" instead of "⿱⿰工几耳".
+	(U-0002183B): Confirmed.
+	(U-000218DA): Completed.
+	(U-000218DE): Use "聚" instead of "⿱取𫡑".
+	(U-0002192A): Completed [temporary].
+	(U-0002192B): Use "䶗" instead of "⿰齒可".
+	(U-000219B9): Completed [temporary].
+	(U-000219CF): Use "𫧇" instead of "⿱匕匕".
+	(U-000219D1): Completed [temporary].
+	(U-000219D6): Use "𡥀" instead of "⿱㇇木".
+	(U-00021A11): Fixed.
+	(U-00021BB4): Completed [temporary].
+	(U-00021C44): Completed [temporary].
+	(U-00021C4A): Completed [temporary].
+	(U-00021C84): Completed [temporary].
+	(U-00021C87): Completed [temporary].
+	(U-00021CC8): Use "烾" instead of "⿱炎土".
+	(U-00021D6B): Completed.
+	(U-00021DC1): Modify structure; add an apparent field.
+	(U-00021DC3): Use "𠣓" instead of "⿹勹云".
+	(U-00021DC8): Use "屾" instead of "⿰山山".
+	(U-00021DC9): Modify structure.
+	(U-00021DCA): Completed.
+	(U-00021DCB): Use "兊" instead of "⿱公儿".
+
 	* IDS-UCS-Basic.txt (U+5934): Add an apparent field.
 
 2024-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
