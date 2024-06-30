@@ -1,3 +1,18 @@
+2024-06-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U+34C1 instead of <CJK RADICAL NET
+	THREE>.
+	(U-0002699D): Modify structure; add an apparent field.
+	(U-0002699E): Likewise.
+	(U-000269A1): Likewise.
+	(U-000269A7): Add an apparent field.
+	(U-00026C03): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00026C08): Use "𠖼" instead of "⿱央&CDP-8971;".
+	(U-00026C0A): Use "𪞐" instead of "⿱㓁子".
+	(U-00027185): Use "⿱x彎" instead of "⿳x亠彎".
+	(U-00027192): Modify structure.
+
 2024-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020000): Don't use "?".
