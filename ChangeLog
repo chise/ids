@@ -1,3 +1,7 @@
+2024-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+9C34): Modify structure.
+
 2024-07-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026348): Use "⿹𦌭x" instead of
