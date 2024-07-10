@@ -2,6 +2,12 @@
 
 	* IDS-UCS-Basic.txt (U+9C34): Modify structure.
 
+2024-07-09  Yukinoroh <Yukinoroh@users.noreply.github.com>
+
+	* IDS-UCS-Ext-B-1.txt: Change AJ1-02453 to U+5C06.
+
+	* IDS-UCS-Basic.txt: Change AJ1-02453 to U+5C06.
+
 2024-07-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026348): Use "⿹𦌭x" instead of
