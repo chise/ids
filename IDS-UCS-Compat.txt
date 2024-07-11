@@ -299,7 +299,7 @@ U+FA34	勤	⿰堇力
 U+FA35	卑	⿱丿𤰞
 U+FA36	喝	⿰口曷
 U+FA37	嘆	⿰口𦰩
-U+FA38	器	⿴㗊犬
+U+FA38	器	⿴㗊犬	@apparent=⿱哭吅	@apparent=⿳吅犬吅
 U+FA39	塀	⿰土屛
 U+FA3A	墨	⿱黑土
 U+FA3B	層	⿸尸曾
