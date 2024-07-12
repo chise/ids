@@ -6347,7 +6347,7 @@ U+4CC8	䳈	⿰鳥包
 U+4CC9	䳉	⿰冬鳥
 U+4CCA	䳊	⿰犮鳥
 U+4CCB	䳋	⿰虫鳥
-U+4CCC	䳌	⿰⿱厶月鳥
+U+4CCC	䳌	⿰䏍鳥
 U+4CCD	䳍	⿰共鳥
 U+4CCE	䳎	⿰臼鳥
 U+4CCF	䳏	⿰圭鳥
