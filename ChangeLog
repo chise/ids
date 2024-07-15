@@ -123,6 +123,22 @@
 
 2024-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt: Use U+9C7C instead of <CJK RADICAL
+	C-SIMPLIFIED FISH>.
+	(U-00028AAC): Fixed.
+	(U-00028AB1): Use "𰙤" instead of "⿰正正".
+	(U-00028AB4): Use "⿱x𣅀" instead of "⿳x亠日".
+	(U-00028ABD): Use "𦤃" instead of "⿱自王".
+	(U-00028AC1): Use "⿱x𪠲" instead of "⿳x口又".
+	(U-00028AC2): Modify structure.
+	(U-0002995C): Use "𠂢" instead of "⿸𠂆𧘇".
+	(U-0002995F): Use "𥑟" instead of "⿳士冖石".
+	(U-00029965): Use "𪧐" instead of "⿱宀伯".
+	(U-00029967): Use "𦤃" instead of "⿱自王".
+	(U-00029F8A): Use "胥" instead of "⿱疋⺼".
+
+2024-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-JIS-X0208-1990.txt: Various changes and bug fixes.
 
 2024-05-20  MORIOKA Tomohiko  <tomo.git@chise.org>
