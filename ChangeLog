@@ -1,3 +1,8 @@
+2024-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029F6E): Use "藏" instead of "⿱艹臧".
+	(U-00029F78): Use U+9952 instead of JU+9952.
+
 2024-07-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020496): Modify structure; preserve the
