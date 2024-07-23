@@ -1,3 +1,8 @@
+2024-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3862): Use "㬅" instead of "⿱⿱日⺫方".
+	(U+386C): Use "&U-i002+2FF1;" instead of "⿻".
+
 2024-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020494): Use U+5C22 instead of
