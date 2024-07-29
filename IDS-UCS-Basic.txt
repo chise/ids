@@ -7629,7 +7629,7 @@ U+6BCA	毊	⿱殸喬
 U+6BCB	毋	毋
 U+6BCC	毌	毌
 U+6BCD	母	母
-U+6BCE	毎	⿱𠂉&AJ1-05368;
+U+6BCE	毎	⿱𠂉毋
 U+6BCF	每	⿱𠂉母
 U+6BD0	毐	⿱士毋
 U+6BD1	毑	⿰母也
