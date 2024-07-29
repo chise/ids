@@ -19,6 +19,13 @@
 
 2024-07-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt: Use U+9E1F instead of <CJK RADICAL
+	C-SIMPLIFIED BIRD>.
+	(U-0002A1F9): Use U+5DE4 instead of BC-8D47.
+	(U-0002A1FC): Modify structure.
+	(U-0002A24A): Use "华" instead of "⿱化十".
+	(U-0002A677): Use U+5DE4 instead of BC-8D47.
+
 	* IDS-UCS-Ext-A.txt (U+4CCC): Use "䏍" instead of "⿱厶月".
 
 2024-07-11  MORIOKA Tomohiko  <tomo.git@chise.org>
