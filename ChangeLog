@@ -1,5 +1,14 @@
 2024-07-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Compat-Supplement.txt: Use "⿰𤣩x" instead of "⿰王x".
+	(U-0002F870): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-0002F92C): Use "𠆩" instead of "⿰亻卂".
+	(U-0002F92D): Likewise.
+	(U-0002F92E): Use "毒" instead of "⿱龶毋".
+
+2024-07-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Compat-Supplement.txt (U-0002F878): Moved to the
 	apparent field.
 
