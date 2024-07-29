@@ -1,5 +1,7 @@
 2024-07-18  Yukinoroh  <Yukinoroh@users.noreply.github.com>
 
+	* IDS-UCS-Basic.txt (U+6BCE): Use U+6BCB instead of AJ1-05368.
+
 	* IDS-UCS-Compat-Supplement.txt (U-0002F878): Use U+51F5 instead
 	of AJ1-04248.
 
