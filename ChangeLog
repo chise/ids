@@ -1,3 +1,11 @@
+2024-07-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat-Supplement.txt (U-0002F97B): Add IDS.
+
+2024-07-18  Yukinoroh  <Yukinoroh@users.noreply.github.com>
+
+	* IDS-UCS-Basic.txt (U+985E): Use U+7C7B instead of AJ1-14094.
+
 2024-07-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Compat-Supplement.txt (U-0002F97C): Use UU+6BCB instead
