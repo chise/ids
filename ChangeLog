@@ -1,5 +1,10 @@
 2024-07-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Compat-Supplement.txt (U-0002F97C): Use UU+6BCB instead
+	of JU+6BCB.
+
+2024-07-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Compat-Supplement.txt: Use "⿰𤣩x" instead of "⿰王x".
 	(U-0002F870): Modify structure; add an apparent field based on the
 	previous IDS.
