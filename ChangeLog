@@ -1,3 +1,13 @@
+2024-07-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+537F): Use U+7680 instead of A-IWDSU+7680.
+	(U+59A6): Use U+4E30 instead of CU+4E30.
+	(U+5DE4): Use U+5DDB instead of A-compU+5DDB.
+	(U+5F59): Use U+5F51 instead of A-IWDSU+5F51.
+	(U+6B0E): Modify structure.
+	(U+6B1D): Use U-00021B20 instead of IU+21B20.
+	(U+7235): Modify structure.
+
 2024-07-18  Yukinoroh  <Yukinoroh@users.noreply.github.com>
 
 	* IDS-UCS-Basic.txt (U+7155): Use U+5DF8 instead of AJ1-14496.
@@ -15146,7 +15156,7 @@
 	(U+66B4): Use "㳟" instead of "⿱共氺".
 	(U+6803): Use "厉" instead of "⿸𠂆万".
 	(U+6AF7): Use U+9F9C instead of UU+FACE.
-	(U+7A32): Use "&A-GT-K06065;" instead of "⿱爫旧".
+	(U+7A32): Use "𱬹" instead of "⿱爫旧".
 	(U+7C40): Use "㨨" instead of "⿰⺘留".
 	(U+7E92): Fixed.
 
@@ -15548,7 +15558,7 @@
 	- Use U+706B instead of GT-K00405 as left component.
 	- Use U+571F instead of GT-K00199 as left component.
 	- Use <CJK RADICAL MOUND TWO> instead of U+961D as left component.
-	(J90-3070): Use "&GT-K06065;" instead of "⿱爫旧".
+	(J90-3070): Use "𱬹" instead of "⿱爫旧".
 	(J90-322B): Add IDS.
 	(J90-323A): Use "𢚩" instead of "⿳爫彐心".
 	(J90-3249): Use "𪟊" instead of "⿱&CDP-8DE0;分".
@@ -15566,8 +15576,8 @@
 
 	* IDS-UCS-Ext-B-5.txt:
 	- Use "䀠" instead of "⿰目目".
-	- Use "&GT-K06065;" instead of "⿱爫⿰丨日".
-	(U-000280BB): Use "&GT-K06065;" instead of "⿱爫旧".
+	- Use "𱬹" instead of "⿱爫⿰丨日".
+	(U-000280BB): Use "𱬹" instead of "⿱爫旧".
 	(U-00029657): Use "斦" instead of "⿰斤斤".
 
 	* IDS-UCS-Ext-B-2.txt:
@@ -15580,7 +15590,7 @@
 
 2016-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-A.txt (U+3D1E): Use "&GT-K06065;" instead of "⿱爫旧".
+	* IDS-UCS-Ext-A.txt (U+3D1E): Use "𱬹" instead of "⿱爫旧".
 	(U+3DD4): Likewise.
 	(U+4049): Use "𫼉" instead of "⿰户戈".
 	(U+42EF): Likewise.
