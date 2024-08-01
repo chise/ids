@@ -1,5 +1,9 @@
 2024-07-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-00028A01): Use "𥤧" instead of "⿱穴土".
+	(U-00028A02): Completed.
+	(U-00028B9A): Completed.
+
 	* IDS-UCS-Basic.txt (U+537F): Use U+7680 instead of A-IWDSU+7680.
 	(U+59A6): Use U+4E30 instead of CU+4E30.
 	(U+5DE4): Use U+5DDB instead of A-compU+5DDB.
