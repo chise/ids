@@ -1,5 +1,14 @@
 2024-08-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00020046): Use U+76F4 instead of UU+76F4.
+
+	* IDS-UCS-Ext-A.txt (U+348A): Use U+6B70 instead of JU+6B70.
+	(U+348C): Use "焭" instead of "⿱𤇾几".
+	(U+348E): Use "䨿" instead of "⿱夭非".
+	(U+34BA): Fixed.
+
+2024-08-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-A.txt (U+3E87): Use "⿴犾x" instead of "⿲犭x犬".
 
 	* IDS-UCS-Ext-B-5.txt (U-00028D7A): Use U+4FC2 instead of CU+4FC2.
