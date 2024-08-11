@@ -1,3 +1,13 @@
+2024-08-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C1C8): Use "𱐍" instead of "⿶凵米".
+
+	* IDS-UCS-Ext-C.txt (U-0002AF9D): Use "𱘥" instead of
+	"⿳⿶凵米八夊".
+
+	* IDS-UCS-Basic.txt (U+58CA): Fixed.
+	(U+89B3): Use "𮥶" instead of "⿳𠂉&CDP-88F1;&CDP-8965;".
+
 2024-08-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026F55): Use "㺇" instead of
@@ -178,7 +188,7 @@
 	(U-00020D01): Completed.
 	(U-00020D53): Don't use "?".
 	(U-00020D59): Use "岺" instead of "⿱山令".
-	(U-00020D62): Use "𧹘" instead of "⿱龷&CDP-8CB5;".
+	(U-00020D62): Use "𧹘" instead of "⿱龷灬".
 	(U-00021101): Use "廩" instead of "⿸广稟".
 	(U-00021102): Use "𡉤" instead of "⿱不土".
 	(U-00021105): Completed [temporary].
