@@ -1,5 +1,13 @@
 2024-08-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-000280B9): Modify structure.
+	(U-000280BB): Use U-00031B39 instead of GT-K06065.
+	(U-000280BD): Use "泵" instead of "⿱石水".
+	(U-000280D2): Modify structure.
+	(U-000280DB): Use "𬯁" instead of "⿰阝辛".
+
+2024-08-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-E.txt (U+2C1C8): Use "𱐍" instead of "⿶凵米".
 
 	* IDS-UCS-Ext-C.txt (U-0002AF9D): Use "𱘥" instead of
