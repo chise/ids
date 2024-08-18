@@ -1,5 +1,24 @@
 2024-08-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-H.txt (U+31625): Modify structure.
+	(U+3162B): Modify structure.
+	(U+31C95): Modify structure.
+	(U+31C96): Modify structure.
+	(U+31C97): Use "⿹亪x" instead of "⿱亦⿹⺄x".
+	(U+31C99): Likewise.
+	(U+31CA2): Modify structure.
+	(U+31D4A): Modify structure.
+	(U+31E38): Use "𱐍" instead of "⿶凵米".
+	(U+31E3F): Modify structure.
+	(U+31E42): Modify structure.
+	(U+31E48): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U+31E59): Modify structure.
+	(U+31E5D): Modify structure.
+	(U+31E5F): Modify structure.
+	(U+31E61): Modify structure.
+	(U+31E68): Modify structure.
+
 	* IDS-UCS-Ext-B-3.txt: Use U+8980 instead of <CJK RADICAL WEST
 	ONE>.
 	(U-00024286): Use "⿱x𬽄" instead of "⿳x亠火".
