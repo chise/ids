@@ -1,3 +1,38 @@
+2024-08-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024288): Use U+82AC instead of CU+82AC.
+	(U-0002497E): Use "㦿" instead of "⿸戶木".
+	(U-00024980): Use "弥" instead of "⿰弓尔".
+	(U-00024984): Use "𢀀" instead of "⿱巛电".
+	(U-00024986): Use "臽" instead of "⿱刀臼".
+	(U-00024988): Use U+82AC instead of CU+82AC.
+	(U-000249A0): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-000249AF): Use "𦘔" instead of "⿻聿彡".
+	(U-000249F0): Modify structure.
+	(U-000249F2): Modify structure.
+	(U-00024A1D): Modify structure.
+	(U-00024A37): Use "𰱅" instead of "⿱艹呆".
+	(U-00024AB0): Use "𣤓" instead of "⿰鹵欠".
+	(U-00024AB4): Use "𤨝" instead of "⿻瑟人".
+	(U-000251C8): Use "囤" instead of "⿴囗屯".
+	(U-000251CE): Use "弥" instead of "⿰弓尔".
+
+2024-08-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000269BC): Use "𡨝" instead of
+	"⿳宀&GT-K00859;夕".
+	(U-00026A3C): Use "吳" instead of "⿺夨口".
+	(U-00026A42): Use "𭻾" instead of "⿱𠂉疋".
+	(U-00026A47): Modify structure.
+	(U-00026A7A): Use "𣑦" instead of "⿱巩木".
+	(U-00026A81): Use "𡨝" instead of "⿳宀&GT-K00859;夕".
+	(U-00026A90): Confirmed.
+	(U-00026AA6): Confirmed.
+	(U-00026AAA): Use "𥭗" instead of "⿱竹夆".
+	(U-00026ABB): Confirmed; use "寬" instead of "⿻寛丶".
+	(U-00026ABC): Confirmed.
+
 2024-08-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt (U+31625): Modify structure.
