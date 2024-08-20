@@ -1,3 +1,7 @@
+2024-08-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2DB1F): Modify structure.
+
 2024-08-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024288): Use U+82AC instead of CU+82AC.
