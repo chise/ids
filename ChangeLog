@@ -1,3 +1,67 @@
+2024-08-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000285EF): Use "𢾕" instead of
+	"⿰⿱出方攵".
+	(U-000285F1): Use "豋" instead of "⿱⿰𱼀&CDP-8C4E;豆".
+	(U-000285F7): Use "楇" instead of "⿰木咼".
+	(U-000285F9): Use "𫁾" instead of "⿱竹豕".
+	(U-000285FC): Use "𢄔" instead of "⿱𠂉帶".
+	(U-000288DC): Use "𧵩" instead of "⿱朿貝".
+	(U-00028BAC): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00028BAD): Use "厮" instead of "⿸厂斯".
+	(U-00028BAE): Use "𮧊" instead of "⿱面且".
+	(U-00028BAF): Use "𢧤" instead of "⿹&CDP-88A4;呈".
+	(U-00028BBA): Use "𥡞" instead of "⿱⿰𥝌尤旨".
+	(U-00028BC1): Use "樋" instead of "⿰木通".
+	(U-00028BD0): Use "𦧚" instead of "⿰舌舌".
+	(U-00028BD6): Use "𤕨" instead of "⿱𠆢&CDP-85AE;".
+	(U-00028BF1): Modify structure.
+	(U-00028BF4): Use "𧯞" instead of "⿰豆斤".
+	(U-00028BFC): Use "𧇽" instead of "⿸虍異".
+	(U-00028C00): Use "𫏼" instead of "⿱㚘軍".
+	(U-00028C08): Use "擎" instead of "⿱敬手".
+	(U-00028C09): Modify structure.
+	(U-00028C16): Use "燹" instead of "⿱豩火".
+	(U-00028C19): Use "𧑿" instead of "⿱⿰糹糹虫".
+	(U-00028C38): Use "䜟" instead of "⿰言韯".
+	(U-00028C69): Use "友" instead of "⿸𠂇乂".
+	(U-00028C84): Modify structure.
+	(U-00028C91): Modify structure.
+	(U-00028C9D): Use "𣭁" instead of "⿱此毛".
+	(U-00028CA6): Use "𣆟" instead of "⿱此旦".
+	(U-00028CB6): Modify structure.
+	(U-00029994): Use "⿵門巿" instead of "閙" to distinguish with
+	U-000299B4.
+	(U-000299B3): Use "𥪖" instead of "⿱立&CDP-88E5;".
+	(U-000299B8): Use "兾" instead of "⿱八異".
+	(U-000299BB): Modify structure.
+	(U-000299C0): Use "𢧤" instead of "⿹&CDP-88A4;呈".
+	(U-000299CC): Use "騳" instead of "⿰馬馬".
+	(U-000299D2): Use "穒" instead of "⿱禾鳥".
+	(U-000299D5): Modify structure.
+	(U-000299D7): Use "𧹳" instead of "⿸倝赤".
+	(U-00029BE7): Use "𡬽" instead of "⿰票寸".
+	(U-00029BEA): Use "綰" instead of "⿰糹官".
+	(U-00029BF7): Modify structure.
+	(U-00029BFB): Modify structure.
+	(U-00029BFE): Modify structure.
+	(U-00029BFF): Modify structure.
+	(U-00029C06): Use "𭋷" instead of "⿰咠咠".
+	(U-00029C16): Use "𧯞" instead of "⿰豆斤".
+	(U-00029C3C): Modify structure.
+	(U-00029C55): Use "兟" instead of "⿰先先".
+	(U-00029C5D): Use "𧚍" instead of "⿻衣求".
+	(U-00029C60): Use "兓" instead of "⿰兂兂".
+	(U-00029F1A): Use "莭" instead of "⿱艹即".
+	(U-00029F1C): Use "𧵩" instead of "⿱朿貝".
+	(U-00029F21): Use "𢾕" instead of "⿰⿱出方攵".
+	(U-00029F3B): Use "虘" instead of "⿸虍旦".
+	(U-00029F43): Modify structure.
+	(U-00029F55): Use "篗" instead of "⿱竹隻".
+	(U-00029F57): Modify structure.
+	(U-00029F5F): Use "虘" instead of "⿸虍旦".
+
 2024-08-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DB1F): Modify structure.
