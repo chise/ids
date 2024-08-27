@@ -1,4 +1,53 @@
+2024-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000242BD): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-000242BE): Use "⿱𥄕x" instead of "⿳卝目x".
+
 2024-08-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt:
+	- Use <CJK RADICAL MOUND TWO> instead of U+961D.
+	- Use "⿰<CJK RADICAL MOUND TWO>x" instead of "⿰<U+961D>x".
+	(U-0002B0AB): Use "𱀵" instead of "⿰阝尊".
+	(U-0002B250): Modify structure.
+	(U-0002B25B): Use "𱀚" instead of "⿰阝委".
+	(U-0002B3FF): Use "⿴䡛x" instead of "⿲車x車".
+	(U-0002B403): Modify structure.
+	(U-0002B54A): Modify structure.
+	(U-0002B555): Modify structure.
+	(U-0002B557): Modify structure.
+
+	* IDS-UCS-Ext-B-5.txt: Use U+342D instead of UU+342D.
+	(U-000287A2): Use "𭱁" instead of "⿱&CDP-8DE9;𱥯".
+	(U-000287A4): Use "會" instead of "⿳入一&CDP-8B63;".
+	(U-000287A5): Modify structure.
+	(U-000287C1): Use "𫉐" instead of "⿱&CDP-8D60;方".
+	(U-000287C2): Use "䔡" instead of "⿱艹魚".
+	(U-000287D4): Use "𦽦" instead of "⿳艹&CDP-8CBF;万".
+	(U-00028B23): Use U+7740 instead of JU+7740.
+	(U-00028E37): Use "戹" instead of "⿸戶乙".
+	(U-00028E38): Use "𠙹" instead of "⿶凵𰀁".
+	(U-000296AC): Use "戹" instead of "⿸戶乙".
+	(U-00029D93): Use U-000215D7 instead of BC-8BE9.
+	(U-00029E17): Use U+623F instead of UU+623F.
+	(U-00029E37): Use "𥐧" instead of "⿱石廾".
+	(U-00029E46): Use "孨" instead of "⿱子⿰子子".
+	(U-00029E4B): Use "苐" instead of "⿱艹𢎨".
+	(U-00029E4C): Use "眔" instead of "⿱⺫水".
+	(U-00029E4F): Use "𤝡" instead of "⿰白犬".
+	(U-00029E59): Use "𩶓" instead of "⿱𡗗魚".
+	(U-00029E5A): Use "𱻲" instead of "⿰耒女".
+	(U-00029EBF): Use "竟" instead of "⿳立日儿".
+	(U-00029ECA): Use "𤭃" instead of "⿰而瓦".
+	(U-00029ECF): Use "產" instead of "⿱文⿸厂生".
+	(U-00029EE2): Modify structure.
+	(U-00029EFF): Modify structure.
+	(U-00029F04): Use "𩸥" instead of "⿰魚炎".
+	(U-00029F0F): Modify structure.
+	(U-00029F10): Modify structure.
+	(U-00029F11): Use "𬝘" instead of "⿱艹兹".
+	(U-00029F35): Modify structure.
 
 	* IDS-UCS-Ext-B-1.txt (U-00020039): Modify structure.
 
