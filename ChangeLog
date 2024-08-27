@@ -1,5 +1,12 @@
 2024-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-000203D6): Use "㚠" instead of "⿱大羔".
+	(U-000203D7): Use "𤊽" instead of "⿱𡗜炅".
+
+	* IDS-UCS-Ext-B-5.txt (U-000297C6): Use U+9040 instead of CU+9040.
+	(U-00029EC8): Use U+6BBA instead of UU+6BBA.
+	(U-00029F02): Use U+9040 instead of CU+9040.
+
 	* IDS-UCS-Ext-B-3.txt (U-000242BD): Modify structure; preserve the
 	previous IDS as an apparent structure.
 	(U-000242BE): Use "⿱𥄕x" instead of "⿳卝目x".
