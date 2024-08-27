@@ -1,3 +1,9 @@
+2024-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028E7C): Use "枈" instead of "⿱比木".
+	(U-00028EB3): Use "勇" instead of "⿱甬力".
+	(U-00028EB7): Use "𣅻" instead of "⿱日冋".
+
 2024-08-23  Yukinoroh  <Yukinoroh@users.noreply.github.com>
 
 	* IDS-UCS-Basic.txt (U+8462): Simplification.
