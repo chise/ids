@@ -1,5 +1,22 @@
 2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt: Use "𡰱" instead of "⿸尸工".
+	(U-000248D9): Use "猪" instead of "⿰犭者".
+	(U-0002516C): Use "𠣓" instead of "⿹勹云".
+	(U-00025171): Completed.
+	(U-00025262): Completed.
+	(U-00025265): Use U+9006 instead of CU+9006.
+	(U-0002577A): Use "仐" instead of "⿱𠆢十".
+	(U-0002577E): Use "厇" instead of "⿸厂乇".
+	(U-00025787): Modify structure.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022980): Completed.
+	(U-00022982): Use U+862D instead of JU+862D.
+	(U-00022EA4): Use U+862D instead of JU+862D.
+	(U-00023AB4): Completed.
+
+2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt (U-00022533): Use U+86A4 instead of JU+86A4.
 	(U-00022535): Use U+5193 instead of MJ007320.
 	(U-00022538): Use U+9B32 instead of JU+9B32.
