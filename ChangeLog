@@ -1,5 +1,15 @@
 2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022533): Use U+86A4 instead of JU+86A4.
+	(U-00022535): Use U+5193 instead of MJ007320.
+	(U-00022538): Use U+9B32 instead of JU+9B32.
+	(U-00022CEA): Use U+901F instead of CU+901F.
+	(U-00022CEC): Use U+96EA instead of CU+96EA.
+	(U-00022CF0): Use "𤼭" instead of "⿱癶虫".
+	(U-00023254): Use U+86A4 instead of JU+86A4.
+
+2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt (U-00022270): Use "𡋐" instead of "⿱吅土".
 	(U-00022271): Use "𤰻" instead of "⿱龷田".
 	(U-0002227C): Completed.
