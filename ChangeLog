@@ -1,3 +1,23 @@
+2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022270): Use "𡋐" instead of "⿱吅土".
+	(U-00022271): Use "𤰻" instead of "⿱龷田".
+	(U-0002227C): Completed.
+	(U-00022283): Use "𱖪" instead of "⿱夾土".
+	(U-000222B5): Use "𮮵" instead of "⿱白𤰞".
+	(U-000222B7): Use U-000215D7 instead of BC-8BE9.
+	(U-000222BA): Use "畱" instead of "⿱丣田".
+	(U-00022526): Use "𡱝" instead of "⿸尸羊".
+	(U-0002252D): Use "厗" instead of "⿸厂辛".
+	(U-00022532): Use "畱" instead of "⿱丣田".
+	(U-00022536): Use "䙷" instead of "⿱見寸".
+	(U-00022547): Use "𫢴" instead of "⿰亻&CDP-8BB0;".
+	(U-00022CE4): Use "𥥴" instead of "⿱穴衣".
+	(U-00022CE5): Use U+9020 instead of CU+9020.
+	(U-00022CE8): Use "𧉾" instead of "⿱𡗗虫".
+	(U-00023798): Use "匳" instead of "⿷匚僉".
+	(U-0002379C): Use "𡙹" instead of "⿱𡗗&CDP-88A6;".
+
 2024-08-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+761D): Use "眔" instead of "⿱⺫&CDP-85F8;".
