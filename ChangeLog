@@ -1,3 +1,19 @@
+2024-08-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+389C): Modify structure.
+	(U+38A4): Completed.
+
+2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022177): Modify structure.
+	(U-00022186): Modify structure.
+	(U-00022E8D): Use "𧀨" instead of "⿱艹巤".
+	(U-00022EA5): Use U-00020B93 instead of IU+20B93.
+	(U-000230D5): Use "蕈" instead of "⿳艹⻃早".
+	(U-0002323A): Use U+8980 instead of <CJK RADICAL WEST ONE>.
+	(U-00023C31): Completed [temporary].
+	(U-00023E30): Completed.
+
 2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U-000215D7 instead of BC-8BE9.
