@@ -1,5 +1,14 @@
 2024-08-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-00028DB4): Use "𡍸" instead of "⿱品土".
+	(U-00028DB5): Use "鄄" instead of "⿰垔⻏".
+	(U-00028DBE): Use "㢴" instead of "⿹弓⿴囗夊".
+	(U-00028DC4): Use "暏" instead of "⿰日者".
+	(U-00028DC6): Use "䪞" instead of "⿱天韭".
+	(U-00028DCD): Completed.
+	(U-00028DDC): Use "馼" instead of "⿰馬文".
+	(U-00028DDD): Use "𭥖" instead of "⿱日元".
+
 	* IDS-UCS-Ext-A.txt (U+389C): Modify structure.
 	(U+38A4): Completed.
 
