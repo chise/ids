@@ -1,5 +1,27 @@
 2024-08-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt: Use U+5340 instead of CU+5340.
+	(U-00024918): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00024921): Use "𦉰" instead of "⿵冂䒑".
+	(U-00024936): Use U+5DE9 instead of CU+5DE9.
+	(U-0002493B):
+	(U-00024C4F): Use "尓" instead of "⿱𠂉小".
+	(U-00024C52): Use U+5725 instead of UU+5725.
+	(U-00024F33): Likewise.
+	(U-00025559): Modify structure.
+	(U-0002555D): Use "⿴砳x" instead of "⿲石x石".
+	(U-0002555F): Use "屚" instead of "⿸尸雨".
+	(U-00025C7C): Use "渒" instead of "⿰氵卑".
+	(U-00025C81): Use "𤭃" instead of "⿰而瓦".
+	(U-00025C82): Use "洴" instead of "⿰氵幷".
+	(U-00025C87): Use "躭" instead of "⿰身冘".
+	(U-00025FDC): Use "尓" instead of "⿱𠂉小".
+
+2024-08-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+738B): Add an apparent structure.
+
 	* IDS-UCS-Ext-B-3.txt:
 	- Use "𤊽" instead of "⿱𡗜炅".
 	- Use "㕘" instead of "⿱厽尒".
