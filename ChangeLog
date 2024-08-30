@@ -1,3 +1,35 @@
+2024-08-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "𤊽" instead of "⿱𡗜炅".
+	- Use "㕘" instead of "⿱厽尒".
+	(U-0002442D): Use "夀" instead of "⿱&CDP-8A4E;吋".
+	(U-0002442E): Use "辝" instead of "⿰台辛"; use "𤆅" instead of
+	"⿱𠆢火".
+	(U-0002449E): Use "辝" instead of "⿰台辛".
+	(U-0002449F): Use "頺" instead of "⿰秀頁".
+	(U-00024844): Use "𨊴" instead of "⿰車攵".
+	(U-00024849): Completed.
+	(U-0002484C): Use "𰿘" instead of "⿵門万".
+	(U-0002484F): Use "𨱝" instead of "⿰镸攵".
+	(U-00024857): Use "𡨼" instead of "⿱宀炎".
+	(U-00024858): Use "𣪏" instead of "⿰⿱彐月殳".
+	(U-0002485C): Use "𰮕" instead of "⿱甘肉".
+	(U-0002485D): Use "𡌦" instead of "⿱非土".
+	(U-00024873): Modify structure.
+	(U-00024879): Use "䭴" instead of "⿱馬十".
+	(U-0002487B): Modify structure.
+	(U-0002487C): Fixed.
+	(U-0002488B): Use "𭣤" instead of "⿰歹攵".
+	(U-0002488D): Use U+9040 instead of CU+9040.
+	(U-00024C54): Use "亩" instead of "⿱亠田".
+	(U-00024CBE): Use "亩" instead of "⿱亠田".
+	(U-00024CBF): Completed.
+	(U-00024CC0): Modify structure.
+	(U-00024E6B): Use "⿱𠰞x" instead of "⿳𠂉⿱口口x".
+	(U-00024E72): Use "𤱺" instead of "⿱共田".
+	(U-00025B03): Completed.
+
 2024-08-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028DCC): Use U+89D2 instead of JU+89D2.
