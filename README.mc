@@ -3,7 +3,7 @@ This directory holds the CHISE-IDS package which contains data and
 utilities about structures of Han Ideographs (漢字).
 
 
-* How to install
+# How to install
 
 Please install XEmacs CHISE before install this package.
 
@@ -28,7 +28,7 @@ http://corpus.kanji.zinbun.kyoto-u.ac.jp/cgi-bin/gitweb.cgi?p=corpus/env.git;a=b
 is available and easier than plain CHISE-base package.
 
 
-* IDS files
+# IDS files
 
 The following files contains the data about structures of Han
 Ideographs (漢字).
@@ -89,7 +89,14 @@ Each element means
     <COMMENTS>	comment
 
 
-* License
+## Extended IDC
+
+### Non-abstract IDC
+
+- &U-i001+2FF1; ![U+2FF1-itaiji-001](https://glyphwiki.org/glyph/u2ff1-itaiji-001.svg)x⿰yz = ⿸⿹xyz
+
+
+# License
 
 This package is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -107,7 +114,7 @@ the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 Boston, MA 02111-1307, USA.
 
 
-* Acknowledgment
+# Acknowledgment
 
 The developing of the package was supported by the “Exploratory
 Software Project” of Information-technology Promotion Agency, Japan.
