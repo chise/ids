@@ -1,5 +1,63 @@
 2024-08-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U+722B instead of <CJK RADICAL PAW ONE>.
+	- Use U+706C instead of <CJK RADICAL FIRE>.
+	(U-0002612E): Use "𬋩" instead of "⿳爫冖㠯".
+	(U-0002660E): Completed.
+	(U-000268E4): Use U+382F instead of CU+382F.
+	(U-00026C93): Use "杰" instead of "⿱木灬".
+	(U-00026C9D): Use "姆" instead of "⿰女母".
+	(U-00026DC6): Modify structure.
+	(U-00026DCA): Use "𭮫" instead of "⿰𠂤殳".
+	(U-00026DCB): Modify structure.
+	(U-00026DCC): Modify structure.
+	(U-00026DD4): Use "𪠋" instead of "⿸厂直".
+	(U-00026DD5): Use "𠧸" instead of "⿱⺊⿴囗必".
+	(U-00026DD9): Use "秥" instead of "⿰禾占".
+	(U-00026DDA): Modify structure.
+	(U-00026DDD): Use "⿱x𠣧" instead of "⿳x⿹勹小⿹勹小".
+	(U-00026DE1): Use "𤼩" instead of "⿱癶矢".
+	(U-00026DF2): Modify structure.
+	(U-00026DF3): Use "𧯜" instead of "⿱宀豆".
+	(U-00026DF6): Use "⿴茻x" instead of "⿳艸x艸".
+	(U-00026EDB): Modify structure.
+	(U-00026EE9): Modify structure; add an apparent field.
+	(U-00026EEE): Use U+82B3 instead of CU+82B3.
+	(U-00026EEF): Modify structure.
+	(U-00026EF7): Completed.
+	(U-00026EF9): Modify structure; add an apparent structure.
+	(U-00026EFA): Use "閏" instead of "⿵門王".
+	(U-00026F02): Use "𫤪" instead of "⿰全全".
+	(U-00026F05): Use "鄊" instead of "⿰乡耶".
+	(U-00026F06): Use "𬍞" instead of "⿺麦玉".
+	(U-00026F0B): Use "椂" instead of "⿰木彔".
+	(U-00026F11): Modify structure.
+	(U-00026F16): Modify structure.
+	(U-00026F18): Fixed.
+	(U-00027065): Completed.
+	(U-00027067): Completed.
+	(U-00027218): Modify structure.
+	(U-0002787E): Fixed.
+	(U-0002787F): Use "𣐽" instead of "⿱立未".
+	(U-00027977): Use "气" instead of "⿳𠂉一乙".
+	(U-00027DA2): Use "𫸳" instead of "⿰弓貝".
+	(U-00027DA3): Use "侙" instead of "⿰亻式".
+	(U-00027DA6): Completed [temporary].
+	(U-00027DA8): Use "𭴋" instead of "⿱日灬".
+	(U-00027DAC): Use "⿰x妲" instead of "⿲x女旦".
+	(U-00027E5C): Confirmed.
+	(U-00027E67): Use "㞑" instead of "⿸尸&CDP-85A9;".
+	(U-00027E73): Use "⿸倝x" instead of "⿸⿰𠦝入x".
+	(U-00027E9E): Use "气" instead of "⿳𠂉一乙".
+
+	* IDS-UCS-Ext-A.txt (U+3773): Abolish functional IDS; add an
+	apparent structure.
+	(U+3917): Use U-000215D7 instead of BC-8BE9; use U+38FA instead of
+	<CJK RADICAL HEART TWO>.
+	(U+3AE9): Use "𠦄" instead of "⿱十艹".
+	(U+3AEA): Use U-000215D7 instead of BC-8BE9.
+
 	* IDS-UCS-Ext-B-3.txt (U-0002424B): Fixed.
 
 	* IDS-UCS-Compat-Supplement.txt: Various changes and bug fixes.
