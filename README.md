@@ -1,4 +1,5 @@
-;; -*- coding: utf-8-jis-er -*-
+<!-- -*- coding: utf-8-jis-er -*- -->
+
 This directory holds the CHISE-IDS package which contains data and
 utilities about structures of Han Ideographs (漢字).
 
