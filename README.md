@@ -93,8 +93,7 @@ Each element means
 
 ### Non-abstract IDC
 
-&U-i001+2FF1; <img src="https://glyphwiki.org/glyph/u2ff1-itaiji-001.png" alt="U+2FF1-itaiji-001" title="U+2FF1-itaiji-001" width="200" height="200">
-x⿰yz = ⿸⿹xyz
+&U-i001+2FF1; <img src="https://glyphwiki.org/glyph/u2ff1-itaiji-001.50px.png" alt="U+2FF1-itaiji-001" title="U+2FF1-itaiji-001">x⿰yz = ⿸⿹xyz
 
 
 # License
