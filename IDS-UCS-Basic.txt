@@ -12396,7 +12396,7 @@ U+7E69	繩	⿰糸黽
 U+7E6A	繪	⿰糸會
 U+7E6B	繫	⿱𣪠糸
 U+7E6C	繬	⿰糸嗇
-U+7E6D	繭	⿱艹&CDP-8DDC;
+U+7E6D	繭	⿻芇𬗌	@apparent=⿱艹&CDP-8DDC;
 U+7E6E	繮	⿰糸畺
 U+7E6F	繯	⿰糸睘
 U+7E70	繰	⿰糸喿
