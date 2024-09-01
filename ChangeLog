@@ -1,5 +1,35 @@
 2024-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022224): Modify structure.
+	(U-000222B7): Modify structure.
+	(U-00022845): Confirmed.
+	(U-0002284C): Modify structure.
+	(U-00022853): Use "𤊱" instead of "⿱&CDP-8CAF;𤆛".
+	(U-00023034): Completed.
+	(U-0002303A): Modify structure.
+	(U-0002303F): Modify structure.
+	(U-00023043): Modify structure.
+	(U-00023498): Completed.
+	(U-00023A83): Completed.
+	(U-00023A9F): Use U+80B2 instead of CU+80B2.
+
+	* IDS-UCS-Ext-B-4.txt (U-0002612B): Use U+837D instead of CU+837D.
+	(U-0002612D): Use U+900F instead of C1-5D60.
+	(U-00026132): Use "㝛" instead of "⿱宀⿰亻㐁".
+	(U-00026134): Use "斎" instead of "⿵斉小".
+	(U-00026136): Use "𠶋" instead of "⿰口芥".
+	(U-0002616C): Use "𡙕" instead of "⿰㚔丮".
+	(U-00027B13): Use "𡙕" instead of "⿰㚔丮".
+	(U-00027B16): Modify structure.
+	(U-00027B17): Use "棊" instead of "⿱其木".
+	(U-00027B1D): Use "𤼱" instead of "⿳艹癶夂".
+	(U-00027B1F): Use U-00024C1E instead of HZK01-B0A8.
+	(U-00027B23): Use "⿹戠x" instead of "⿹&CDP-88A7;⿱日言".
+	(U-00027B26): Modify structure.
+	(U-00027B3E): Modify structure.
+	(U-00027B56): Modify structure.
+	(U-00027B63): Use "虢" instead of "⿰寽虎".
+
 	* IDS-UCS-Basic.txt (U+7E6D): Modify structure; preserve the
 	previous IDS as an apparent structure.
 
