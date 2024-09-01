@@ -1,5 +1,10 @@
 2024-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+7E6D): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
+2024-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt: Use U+39AE instead of UU+39AE.
 	(U+63B0): Use "⿴𢪒x" instead of "⿲手x手".
 	(U+7E92): Use U+3553 instead of MJ000302.
