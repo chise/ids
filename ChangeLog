@@ -1,3 +1,17 @@
+2024-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt: Use U+39AE instead of UU+39AE.
+	(U+63B0): Use "⿴𢪒x" instead of "⿲手x手".
+	(U+7E92): Use U+3553 instead of MJ000302.
+	(U+81B8): Use U+9040 instead of CU+9040.
+	(U+9435): Use U-000229DC instead of IU+229DC.
+
+2024-08-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025057): Confirmed.
+	(U-00025058): Fixed.
+	(U-00025955): Confirmed.
+
 2024-08-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt:
