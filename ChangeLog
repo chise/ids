@@ -1,5 +1,10 @@
 2024-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-C.txt (U-0002B387): Modify structure.
+	(U-0002B39B): Use "𬇊" instead of "⿰氏氏".
+
+2024-09-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt (U-00022224): Modify structure.
 	(U-000222B7): Modify structure.
 	(U-00022845): Confirmed.
