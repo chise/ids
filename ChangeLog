@@ -1,5 +1,11 @@
 2024-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-0002660E): Use U+4ECE instead of
+	A-IWDSU+4ECE.
+	(U-000278BD): Use U+5316 instead of JU+5316.
+	(U-00027E60): Use U-00021C2B instead of IU+21C2B.
+	(U-00027FD5): Use U+5316 instead of JU+5316.
+
 	* IDS-UCS-Ext-E.txt:
 	- Use "⿴衣x" instead of "⿳亠x𧘇".
 	- Use "⿴行x" instead of "⿲彳x亍".
