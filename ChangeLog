@@ -1,5 +1,18 @@
 2024-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-E.txt:
+	- Use "⿴衣x" instead of "⿳亠x𧘇".
+	- Use "⿴行x" instead of "⿲彳x亍".
+	(U+2BBB5): Modify structure.
+	(U+2BD60): Modify structure.
+	(U+2BEA7): Use "𭇥" instead of "⿳𠆢爫口".
+	(U+2BED8): Modify structure.
+	(U+2BEE1): Modify structure.
+	(U+2C840): Use "𭇥" instead of "⿳𠆢爫口".
+	(U+2C872): Modify structure.
+	(U+2C87B): Unified to one column.
+	(U+2C886): Completed.
+
 	* IDS-UCS-Ext-B-4.txt (U-00027B61): Use U+53B2 instead of CU+53B2.
 	(U-00027E31): Use U+53B2 instead of CU+53B2.
 	(U-00027E42): Completed.
