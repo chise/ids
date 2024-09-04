@@ -1,3 +1,37 @@
+2024-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-17601): Modified [temporary].
+	(SW-JIGUGE-17603): Modified [temporary].
+	(SW-JIGUGE-33701): Completed.
+
+	* README.md (IDS files for glyphs): Add non-UCS files.
+
+2024-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* README.md (How to install): Add description about CL-CHISE;
+	delete description about Fink.
+	(IDS files): Separate to abstract characters, glyphs and format.
+	(IDS files for abstract characters): New subsection; add
+	IDS-UCS-Ext-C.txt ... IDS-UCS-Ext-I.txt.
+	(IDS files for glyphs): New subsection; add description about
+	glyph-grained issues.
+	(Format): Add description about apparent field.
+	(Non-abstract IDC): Add &U-i001+2FFB;.
+
+	* IDS-UCS-Ext-B-2.txt: Use U+590F instead of CU+590F.
+	(U-000222C1): Use U+3C83 instead of UU+3C83.
+	(U-000222CB): Use U+5FAE instead of JU+5FAE.
+	(U-000222CD): Use "⿸𢈎x" instead of "⿸广⿱共x".
+	(U-000222CE): Use U+7981 instead of UU+7981.
+	(U-000228C4): Use U+904E instead of JU+904E.
+	(U-000238FD): Use "𨤾" instead of "⿳𠆢𬼖⿱⺌一".
+	(U-000238FE): Use "㰳" instead of "⿰亞欠".
+	(U-00023902): Use "枽" instead of "⿱⿳十卄一木".
+	(U-0002390F): Use "𰂙" instead of "⿳入一⿰舟刂".
+	(U-00023925): Use "䝱" instead of "⿱劦貝".
+	(U-0002392A): Use "𦑕" instead of "⿱羽金".
+
+
 2024-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022218): Completed.
