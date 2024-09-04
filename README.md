@@ -6,14 +6,18 @@ utilities about structures of Han Ideographs (漢字).
 
 # How to install
 
-Please install XEmacs CHISE before install this package.
+Please install [CL-CHISE](https://gitlab.chise.org/CHISE/cl-chise).
 
+Note that if you install CL-CHISE in SBCL, CL-CHISE installs this
+package automatically.
+
+
+You can also use this package with XEmacs CHISE.
 If XEmacs CHISE is installed in your system, please type
 
     % make install
 
 in the directory of the CHISE-IDS distribution.
-
 
 [Note] If you don't have XEmacs CHISE, the CHISE-base package may be
 useful.  It is an installer package to install CHISE functionalities
@@ -22,25 +26,18 @@ Emacs Lisp utilities, some fonts, etc.  It is available at:
 
 	http://www.chise.org/dist/base/
 
-In addition, if you use Mac OS X with Fink,
-
-http://corpus.kanji.zinbun.kyoto-u.ac.jp/cgi-bin/gitweb.cgi?p=corpus/env.git;a=blob_plain;f=install-base-system_mac-fink.sh;hb=HEAD
-
-is available and easier than plain CHISE-base package.
-
 
 # IDS files
 
 The following files contains the data about structures of Han
 Ideographs (漢字).
-    
+
+## IDS files for abstract characters
+
     IDS-UCS-Basic.txt	CJK Unified Ideographs (U+4E00 〜 U+9FA5)
 			of ISO/IEC 10646-1:2000
     IDS-UCS-Ext-A.txt	CJK Unified Ideographs Extension A
 			(U+3400 〜 U+4DB5, U+FA1F and U+FA23)
-			of ISO/IEC 10646-1:2000
-    IDS-UCS-Compat.txt	CJK Compatibility Ideographs
-			(U+F900 〜 U+FA2D, except U+FA1F and U+FA23)
 			of ISO/IEC 10646-1:2000
     IDS-UCS-Ext-B-1.txt	CJK Unified Ideographs Extension B [part 1]
 			(U-00020000 〜 U-00021FFF)
@@ -60,15 +57,61 @@ Ideographs (漢字).
     IDS-UCS-Ext-B-6.txt	CJK Unified Ideographs Extension B [part 6]
 			(U-0002A000 〜 U-0002A6D6)
 			of ISO/IEC 10646-2:2001
+    IDS-UCS-Ext-C.txt	CJK Unified Ideographs Extension C
+			(U-0002A700 〜 U-0002B738)
+    IDS-UCS-Ext-D.txt	CJK Unified Ideographs Extension D
+			(U-0002B740 〜 U-0002B81D)
+    IDS-UCS-Ext-E.txt	CJK Unified Ideographs Extension E
+			(U-0002B820 〜 U-0002CEA1)
+    IDS-UCS-Ext-F.txt	CJK Unified Ideographs Extension F
+			(U-0002CEB0 〜 U-0002EBE0)
+    IDS-UCS-Ext-G.txt	CJK Unified Ideographs Extension G
+			(U-00030000 〜 U-0003134A)
+    IDS-UCS-Ext-H.txt	CJK Unified Ideographs Extension H
+			(U-00031350 〜 U-000323AF)
+    IDS-UCS-Ext-I.txt	CJK Unified Ideographs Extension I
+			(U-0002EBF0 〜 U-0002EE5D)
+
+In these files, each line represents an abstract character, and each
+component used in IDS should be abstract characters.
+
+If a component is unified two or more CJK Unified Ideographs by UCV,
+one CJK Unified Ideograph represents the abstract component
+(semantically it indicates the abstract component unified by UCV, not
+the abstract character itself).
+
+
+## IDS files for glyphs
+
+    IDS-UCS-Compat.txt	CJK Compatibility Ideographs
+			(U+F900 〜 U+FA2D, except U+FA1F and U+FA23)
+			of ISO/IEC 10646-1:2000
+
     IDS-UCS-Compat-Supplement.txt
 			CJK Compatibility Ideographs Supplement
 			(U-0002F800 〜 U-0002FA1D)
 			of ISO/IEC 10646-2:2001
 
+In these files, each line represents a glyph unified by the
+corresponding CJK Unified Ideograph, not an abstract character.  So
+each component should be a glyph.  If a CJK Unified Ideograph
+indicates the unique and concrete glyph, it is used as a glyph
+component.  But a CJK Unified Ideograph unifies two or more glyphs,
+one glyph object of the CHISE character ontology is used.  In that
+case, glyphs are represented by entity-reference format.  Note that
+even if a component can be encoded by a CJK Unified Ideograph, it may
+be encoded as an entity-reference to indicate the corresponding glyph
+of the CHISE character ontology.  In that case, it is *not* bug!
+Don't send Pull/Merge-Request or issues to convert an entity-reference
+to the corresponding CJK Unified Ideographs!
+
+
+## Format
+
 These files are encoded by UTF-8.  The format of each line of the
 files is:
 
-    <CODEPOINT><TAB><CHARACTER><TAB><IDS>
+    <CODEPOINT><TAB><CHARACTER><TAB><IDS>(<TAB>@apparent=<IDS>)
 
 or
 
@@ -89,12 +132,18 @@ Each element means
 		also allowed)
     <COMMENTS>	comment
 
+(<TAB>@apparent=<IDS>) is an optional field.  It @apparent=<IDS> means
+that the <IDS> represents an apparent structure.  Not that the <IDS>
+stored in the 3rd field may be regarded as functional structure.
+
 
 ## Extended IDC
 
 ### Non-abstract IDC
 
 &U-i001+2FF1; <img src="https://glyphwiki.org/glyph/u2ff1-itaiji-001.50px.png" alt="U+2FF1-itaiji-001" title="U+2FF1-itaiji-001">x⿰yz = ⿸⿹xyz
+
+&U-i001+2FFB; <img src="https://glyphwiki.org/glyph/u2ffb-itaiji-001.50px.png" alt="U+2FFB-itaiji-001" title="U+2FFB-itaiji-001">x⿰yz = ⿷⿼xyz
 
 
 # License
