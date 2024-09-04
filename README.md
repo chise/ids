@@ -101,7 +101,7 @@ one glyph object of the CHISE character ontology is used.  In that
 case, glyphs are represented by entity-reference format.  Note that
 even if a component can be encoded by a CJK Unified Ideograph, it may
 be encoded as an entity-reference to indicate the corresponding glyph
-of the CHISE character ontology.  In that case, it is *not* bug!
+of the CHISE character ontology.  In that case, it is **not** bug!
 Don't send Pull/Merge-Request or issues to convert an entity-reference
 to the corresponding CJK Unified Ideographs!
 
