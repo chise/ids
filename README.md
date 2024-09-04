@@ -132,8 +132,8 @@ Each element means
 		also allowed)
     <COMMENTS>	comment
 
-(<TAB>@apparent=<IDS>) is an optional field.  It @apparent=<IDS> means
-that the <IDS> represents an apparent structure.  Not that the <IDS>
+`(<TAB>@apparent=<IDS>)` is an optional field.  `@apparent=<IDS>` means
+that the `<IDS>{ represents an apparent structure.  Not that the `<IDS>`
 stored in the 3rd field may be regarded as functional structure.
 
 
