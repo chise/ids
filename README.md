@@ -92,6 +92,46 @@ the abstract character itself).
 			(U-0002F800 〜 U-0002FA1D)
 			of ISO/IEC 10646-2:2001
 
+    IDS-JIS-X0208-1990.txt
+
+    IDS-CNS-1.txt
+
+    IDS-CNS-2.txt
+
+    IDS-CNS-3.txt
+
+    IDS-Daikanwa-01.txt
+
+    IDS-Daikanwa-02.txt
+
+    IDS-Daikanwa-03.txt
+
+    IDS-Daikanwa-04.txt
+
+    IDS-Daikanwa-05.txt
+
+    IDS-Daikanwa-06.txt
+
+    IDS-Daikanwa-07.txt
+
+    IDS-Daikanwa-08.txt
+
+    IDS-Daikanwa-09.txt
+
+    IDS-Daikanwa-10.txt
+
+    IDS-Daikanwa-11.txt
+
+    IDS-Daikanwa-12.txt
+
+    IDS-Daikanwa-dx.txt
+
+    IDS-Daikanwa-ho.txt
+
+    IDS-CDP.txt
+
+    IDS-CBETA.txt
+
 In these files, each line represents a glyph unified by the
 corresponding CJK Unified Ideograph, not an abstract character.  So
 each component should be a glyph.  If a CJK Unified Ideograph
