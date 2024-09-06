@@ -1,3 +1,79 @@
+2024-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024106): Use U+52F5 instead of CU+52F5.
+	(U-00024163): Use U+4EB9 instead of UU+4EB9.
+	(U-000242C5): Modify structure.
+	(U-000242C7): Modify structure.
+	(U-000242C9): Use "𣆂" instead of "⿱日玄".
+	(U-000242CE): Use U+524D instead of UU+524D.
+	(U-000242DD): Use "𰮒" instead of "⿰月巨".
+	(U-00024307): Use "巸" instead of "⿰𦣞巳".
+	(U-00024375): Use U+5C07 instead of UU+5C07.
+	(U-00024649): Use U-0002D060 instead of hanaJU+2D060.
+	(U-000247F6): Use U+382F instead of CU+382F.
+	(U-00024C83): Completed.
+	(U-00024C88): Use U+514D instead of JU+514D.
+	(U-00024C8B): Add an apparent field.
+	(U-00024C9B): Use "⿱𠫯x" instead of "⿳厽𠆢x".
+	(U-00024C9E): Use "⿱籴x" instead of "⿳𠆢米x".
+	(U-00024CA1): Modify structure.
+	(U-00024CC9): Use U-00026C29 instead of MJ057282.
+	(U-000255E0): Use U+52F5 instead of CU+52F5.
+	(U-000255E2): Modify structure.
+	(U-000255E8): Modify structure.
+	(U-000255E9): Use "擊" instead of "⿱𣪠手".
+
+2024-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U+706C instead of <CJK RADICAL FIRE>
+	- Use U+9FB9 instead of BC-8BFA.
+	- Use U+81F4 instead of U-00026936.
+	(U-00020130): Use "𡇂" instead of "⿴囗火".
+	(U-00020131): Use "𱼧" instead of "⿰丨臣".
+	(U-00020175): Use U+5C07 instead of UU+5C07.
+	(U-00020184): Use "𮙸" instead of "⿸𠃜貝".
+	(U-0002022F): Use "𫷕" instead of "⿱干𠬞".
+	(U-000202B6): Use "⿸𠈫x" instead of "⿰亻⿱龹x".
+	(U-0002030D): Use "⿸𠈫x" instead of "⿰亻⿱龹x".
+	(U-00020313): Use U-00026BD1 instead of IU+26BD1.
+	(U-00020326): Use U+7D0D instead of UU+7D0D.
+	(U-0002033D): Use U+65C9 instead of UU+65C9.
+	(U-00020346): Use U+8389 instead of CU+8389.
+	(U-0002036A): Use "𤉄" instead of "⿱豕灬".
+	(U-00020370): Use U+8DF1 instead of C2-4770.
+	(U-0002037F): Use U+8CAB instead of UU+8CAB.
+	(U-000203A3): Use U+4672 instead of UU+4672.
+	(U-000203ED): Use U+805A instead of CU+805A.
+	(U-0002040E): Use U+8513 instead of C1-6E58.
+	(U-00020422): Use U+7FEB instead of UU+7FEB.
+	(U-00020435): Use U+5C0E instead of KU+5C0E.
+	(U-0002043D): Use U+6B78 instead of JU+6B78.
+	(U-0002043F): Use U+85A8 instead of CU+85A8.
+	(U-0002045D): Use U+7FDF instead of UU+7FDF.
+	(U-000204A4): Use U+7F8C instead of JU+7F8C.
+	(U-00020611): Use "𤋮" instead of "⿱⿰臣己灬".
+	(U-00020BC3): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021380): Use "⿱𭴘x" instead of "⿳⺻灬x".
+	(U-00021382): Use "𮵋" instead of "⿰石升".
+	(U-00021529): Modify structure.
+	(U-0002152C): Modify structure.
+	(U-0002152E): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00021643): Use "㚐" instead of "⿱大大".
+	(U-00021774): Use "芫" instead of "⿱艹元".
+	(U-00021778): Use U+7F8C instead of JU+7F8C.
+	(U-000217C2): Use "𱐔" instead of "⿰刃刃".
+	(U-000217C9): Fixed.
+	(U-000217CF): Use "𱕺" instead of "⿴囗虫".
+	(U-000217F6): Use "峩" instead of "⿱山我".
+	(U-000217F8): Use "翁" instead of "⿱公羽".
+	(U-00021805): Use "𰦖" instead of "⿰矢矢".
+	(U-00021808): Use "𰀕" instead of "⿰丙丙".
+	(U-0002180E): Use "羗" instead of "⿷羌厶".
+	(U-00021818): Modify structure.
+
 2024-09-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-17601): Modified [temporary].
