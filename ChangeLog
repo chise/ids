@@ -1,5 +1,22 @@
 2024-09-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-6.txt: Use U-00021249 instead of BC-8D44.
+	(U-0002A01B): Use U+5DE9 instead of CU+5DE9.
+	(U-0002A049): Use U+4EA4 instead of UU+4EA4.
+	(U-0002A1C2): Modify structure.
+	(U-0002A3C1): Use U+4EA4 instead of UU+4EA4.
+	(U-0002A3C2): Use "㶣" instead of "⿱干火".
+	(U-0002A3D9): Use "⿹𣪊x" instead of "⿰⿱𡉉x殳".
+
+	* IDS-UCS-Ext-B-5.txt: Use "𮎛" instead of "⿱⺈巳".
+	(U-00028011): Use U+5916 instead of JU+5916.
+	(U-00028123): Use "麥" instead of "⿱夾夊".
+	(U-0002812B): Use "𰂙" instead of "⿱亼⿰舟刂".
+	(U-00028138): Use "𣇄" instead of "⿱日折".
+	(U-0002813F): Use U+7D42 instead of UU+7D42.
+	(U-00028149): Use U+6717 instead of UU+6717.
+	(U-00029818): Use U+5916 instead of JU+5916.
+
 	* IDS-UCS-Ext-B-3.txt (U-00024106): Use U+52F5 instead of CU+52F5.
 	(U-00024163): Use U+4EB9 instead of UU+4EB9.
 	(U-000242C5): Modify structure.
