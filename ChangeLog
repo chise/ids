@@ -1,3 +1,22 @@
+2024-09-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3D1D): Modify structure; add an apparent
+	field based on the previous IDS.
+	(U+3D1E): Use U-00031B39 instead of GT-K06065.
+	(U+3DC9): Modify structure.
+	(U+3DCF): Use "𫀩" instead of "⿰禾午".
+	(U+3DD4): Use U-00031B39 instead of GT-K06065.
+	(U+3DD7): Modify structure.
+	(U+3DDB): Use U+706C instead of <CJK RADICAL FIRE>.
+	(U+3DE9): Modify structure.
+	(U+3DEF): Use "𪢾" instead of "⿱火土".
+	(U+3DF1): Use U+706C instead of <CJK RADICAL FIRE>.
+	(U+3E24): Use "⿴辡x" instead of "⿲辛x辛".
+
+2024-09-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00029DAD): Use "吳" instead of "⿱口夨".
+
 2024-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use U+72AE instead of JU+72AE.
@@ -5,6 +24,12 @@
 	(U-00029837): Modify structure.
 
 2024-09-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020423): Use U+61A8 instead of JU+61A8.
+	(U-000217C6): Use U+76C6 instead of GT-29425.
+	(U-000217C7): Fixed.
+	(U-000217FC): Fixed.
+	(U-00021801): Fixed.
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A114): Use U+9B3C instead of JU+9B3C.
 	(U-0002A11A): Use U-00026407 instead of IU+26407.
