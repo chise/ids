@@ -1,3 +1,12 @@
+2024-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D119): Use U+7BC7 instead of CU+7BC7.
+	(U+2D124): Use "⿴行x" instead of "⿲彳x亍".
+	(U+2D997): Use "⿱昷x" instead of "⿳日皿x".
+	(U+2EA23): Use U+7BC7 instead of CU+7BC7.
+
+	* IDS-UCS-Ext-A.txt (U+38C8): Use U+38C7 instead of UU+38C7.
+
 2024-09-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00029DAC): Use U+5BFA instead of CU+5BFA.
