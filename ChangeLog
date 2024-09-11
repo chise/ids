@@ -1,5 +1,60 @@
 2024-09-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-5.txt (U-00029DAC): Use U+5BFA instead of CU+5BFA.
+
+	* IDS-UCS-Ext-B-4.txt:
+	- Use U+5448 instead of CU+5448.
+	- Use U-000309ED instead of BC-8C6A.
+	(U-00027261): Use "宂" instead of "⿱宀儿".
+	(U-00027275): Use "戹" instead of "⿸戶乙".
+	(U-000275F2): Use "㞷" instead of "⿱山王".
+	(U-0002781E): Use "戹" instead of "⿸戶乙".
+	(U-00027830): Use "巟" instead of "⿱亡𫶧".
+	(U-00027841): Use "㞷" instead of "⿱山王".
+	(U-00027842): Use "灻" instead of "⿱土火".
+	(U-00027859): Use "炗" instead of "⿱廿火".
+	(U-00027866): Use "𭚖" instead of "⿱𠂤廾".
+	(U-00027897): Use "𠨣" instead of "⿱卯亞".
+	(U-000278A4): Use "薇" instead of "⿱艹⿰彳𣁋".
+	(U-000279E2): Use "巟" instead of "⿱亡𫶧".
+	(U-000279E3): Use "㐫" instead of "⿱亠凶".
+	(U-000279E4): Use "关" instead of "⿱丷天".
+	(U-000279EB): Use "𡰱" instead of "⿸尸工".
+	(U-000279F3): Use "𡗢" instead of "⿱大㐄".
+	(U-000279F4): Use "㤀" instead of "⿱亾心".
+	(U-000279FC): Use "宐" instead of "⿱宀彑".
+	(U-00027A05): Modify structure.
+	(U-00027A07): Use "杘" instead of "⿸尸木".
+	(U-00027A0C): Use "𠀤" instead of "⿱⿰大大一".
+	(U-00027A0D): Use "伿" instead of "⿰亻只".
+	(U-00027A13): Use "𣅄" instead of "⿺廴日".
+	(U-00027A41): Use "⿴沝x" instead of "⿲水x水".
+	(U-00027A45): Modify structure.
+	(U-00027A54): Use "𰏴" instead of "⿸广𢆉".
+	(U-00027A5D): Modify structure.
+	(U-00027A60): Use "凮" instead of "⿵⺇百".
+	(U-00027A6F): Use "㡿" instead of "⿸广屰".
+	(U-00027A75): Use "⿴誩x" instead of "⿲言x言".
+	(U-00027F33): Use "㡿" instead of "⿸广屰".
+	(U-00027F93): Use "䪞" instead of "⿱夭韭".
+	(U-00027F94): Use "感" instead of "⿵咸心".
+	(U-00027F98): Use "微" instead of "⿰彳𣁋".
+	(U-00027F9E): Use "𢧤" instead of "⿹&CDP-88A4;呈".
+	(U-00027F9F): Use "𥯄" instead of "⿱竹隹".
+
+	* IDS-UCS-Ext-B-3.txt (U-00024274): Use "𣄼" instead of "⿱一日".
+	(U-0002514F): Use "⿱x𣄼" instead of "⿳x一日".
+
+	* IDS-UCS-Ext-B-2.txt (U-000232BD): Use "⿸𢾞x" instead of
+	"⿰昬⿱攵x".
+
+	* IDS-UCS-Ext-A.txt (U+38C1): Use U-00024C07 instead of IU+24C07.
+	(U+38C3): Use "⿴弜x" instead of "⿰弓⿰x弓".
+	(U+38C7): Modify structure.
+	(U+3E22): Use U-00024C07 instead of IU+24C07.
+
+2024-09-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-A.txt (U+3D1D): Modify structure; add an apparent
 	field based on the previous IDS.
 	(U+3D1E): Use U-00031B39 instead of GT-K06065.
