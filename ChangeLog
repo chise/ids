@@ -1,9 +1,49 @@
 2024-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-00026112): Use U+533E instead of
+	JC3-45BB.
+	(U-00026113): Use "兜" instead of "⿱⿲&CDP-8CBD;白&CDP-8C78;几".
+	(U-00026115): Use U-00021326 instead of IU+21326.
+	(U-0002611A): Use "𨑢" instead of "⿺辵从".
+	(U-00026121): Use "𭦗" instead of "⿳日皿𠂊".
+	(U-00026123): Use "袞" instead of "⿳⿱亠儿口𧘇".
+	(U-00027A43): Use U+449D instead of CU+449D.
+	(U-00027AD4): Use U-00021326 instead of IU+21326.
+	(U-00027F71): Use "𭦗" instead of "⿳日皿𠂊".
+	(U-00027F9B): Use U+84A6 instead of BC-8CB0.
+
+	* IDS-UCS-Ext-B-3.txt (U-00024692): Use "亰" instead of "⿱亠𣌢".
+	(U-000246A3): Use "𡧩" instead of "⿱宀圭".
+	(U-000246FA): Use "⿺黍x" instead of "⿱⿰禾x⿱人氺".
+	(U-00025218): Use "亰" instead of "⿱亠𣌢".
+	(U-0002521C): Add IDS.
+
+2024-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2D20E): Use U+82BA instead of UU+82BA.
+	(U+2D20F): Use U+8299 instead of UU+8299.
+	(U+2EA25): Use U+61B2 instead of JU+61B2.
+
+2024-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-F.txt (U+2D119): Use U+7BC7 instead of CU+7BC7.
 	(U+2D124): Use "⿴行x" instead of "⿲彳x亍".
 	(U+2D997): Use "⿱昷x" instead of "⿳日皿x".
 	(U+2EA23): Use U+7BC7 instead of CU+7BC7.
+
+	* IDS-UCS-Ext-D.txt (U-0002B76F): Modify structure.
+	(U-0002B77A): Use U+7529 instead of JU+7529.
+	(U-0002B77D): Use U+4FEE instead of JU+4FEE.
+	(U-0002B77E): Use U+9EA5 instead of UU+9EA5.
+	(U-0002B78C): Use "⿰x𭮫" instead of "⿲x𠂤殳".
+	(U-0002B793): Completed [temporary].
+	(U-0002B77D): Use U+4FEE instead of JU+4FEE.
+	(U-0002B77E): Use U+9EA5 instead of UU+9EA5.
+	(U-0002B78C): Use ⿰x𭮫" instead of "⿲x𠂤殳".
+	(U-0002B793): Add IDS [temporary].
+	(U-0002B798): Modify structure.
+	(U-0002B799): Completed [temporary].
+	(U-0002B819): Use U+6BB3 instead of UU+6BB3.
 
 	* IDS-UCS-Ext-A.txt (U+38C8): Use U+38C7 instead of UU+38C7.
 
