@@ -1,5 +1,7 @@
 2024-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-00020254): Modify structure.
+
 	* IDS-UCS-Ext-B-4.txt (U-00026112): Use U+533E instead of
 	JC3-45BB.
 	(U-00026113): Use "兜" instead of "⿱⿲&CDP-8CBD;白&CDP-8C78;几".
