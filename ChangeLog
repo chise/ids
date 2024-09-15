@@ -1,3 +1,14 @@
+2024-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028668): Add IDS.
+
+2024-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026034): Use U+8292 instead of CU+8292.
+	(U-0002603C): Use "𡶀" instead of "⿱山内".
+	(U-00026058): Use "𭣤" instead of "⿰歹攵".
+	(U-0002606D): Use "𧆛" instead of "⿸虍又".
+
 2024-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020128): Modify structure.
