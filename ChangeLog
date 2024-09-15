@@ -1,5 +1,23 @@
 2024-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-000228DD): Use U+5C28 instead of
+	MJ010311.
+	(U-000228E0): Use "𦞧" instead of "⿰月留".
+	(U-000228EB): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-000228EC): Modify structure.
+	(U-000228F2): Use "⿴𤲶x" instead of "⿲男x男".
+
+2024-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A1CD): Use U+904E instead of JU+904E.
+	(U-0002A2ED): Use U+9E97 instead of UU+9E97.
+	(U-0002A301): Use U+4EA1 instead of UU+4EA1.
+	(U-0002A50D): Use U+4E30 instead of UU+4E30.
+	(U-0002A534): Use U+9686 instead of JU+9686.
+	(U-0002A53A): Use U+5203 instead of UU+5203.
+	(U-0002A594): Ditto.
+
 	* IDS-UCS-Ext-B-5.txt (U-00028668): Add IDS.
 
 2024-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
