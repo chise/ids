@@ -8,6 +8,8 @@
 	(U-000228EC): Modify structure.
 	(U-000228F2): Use "⿴𤲶x" instead of "⿲男x男".
 
+	* IDS-Daikanwa-dx.txt: Various changes and bug fixes.
+
 2024-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A1CD): Use U+904E instead of JU+904E.
