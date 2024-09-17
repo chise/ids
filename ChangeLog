@@ -1,3 +1,10 @@
+2024-09-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C69B): Use U+4491 instead of UU+4491.
+
+	* IDS-UCS-Ext-C.txt (U-0002B5A0): Use U+9801 instead of
+	A-IWDSU+9801.
+
 2024-09-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000228DD): Use U+5C28 instead of
