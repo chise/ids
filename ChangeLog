@@ -1,3 +1,28 @@
+2024-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt:
+	- Use "䖵" instead of "⿰虫虫".
+	- Use "畕" instead of "⿱田田".
+	(U-0002413F): Use U+6AAA instead of UU+6AAA.
+	(U-00024140): Completed.
+	(U-00024142): Use U+737A instead of JU+737A.
+	(U-00024145): Use "𣞤" instead of "⿱𡘲林".
+	(U-00024148): Use "韲" instead of "⿱&CDP-8DEB;韭".
+	(U-00024156): Use "蘋" instead of "⿱艹頻".
+	(U-00024514): Fixed.
+	(U-000245A0): Use "𠾂" instead of "⿳來一回".
+	(U-000245A3): Use "𥢺" instead of "⿱秝㐭".
+	(U-00024B24): Use "𤬌" instead of "⿰彖瓜";
+	(U-00024CE5): Use "⿱畕x" instead of "⿳田田x".
+	(U-00024CEC): Use "𮥼" instead of "⿱隹冏".
+	(U-00024D01): Use "⿱x宐" instead of "⿳x宀彑".
+	(U-00024D02): Use "⿱畧x" instead of "⿳田各x".
+	(U-000258F2): Use "⿴秝x" instead of "⿲禾x禾".
+	(U-00024F3C): Modify structure.
+	(U-000258F1): Use "𠾂" instead of "⿳來一回".
+	(U-000258F2): Use "⿴秝x" instead of "⿲禾x禾".
+	(U-000258F8): Use "𡘰" instead of "⿱大豆".
+
 2024-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-0002613A): Use U+6717 instead of UU+6717.
