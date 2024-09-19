@@ -1,8 +1,8 @@
 ;;; ids-dump.el --- Dump utility of IDS-* files
 
-;; Copyright (C) 2002,2003,2004,2005,2009,2011,2019,2022 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2004,2005,2009,2011,2019,2022,2024 MORIOKA Tomohiko
 
-;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
+;; Author: MORIOKA Tomohiko <tomo.git@chise.org>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
 
 ;; This file is a part of IDS.
@@ -28,17 +28,18 @@
 
 (defun ids-dump-format-list (ids-list)
   (if ids-list
-      (let (ucs)
-	(mapconcat
-	 (lambda (c)
-	   (char-to-string
-	    (if (setq ucs
-		      (unless (encode-char c '=ucs 'defined-only)
-			(or (get-char-attribute c '=ucs@unicode)
-			    (get-char-attribute c '=ucs@iso))))
-		(decode-char '=ucs ucs)
-	      c)))
-	 (ids-format-list ids-list) ""))))
+      ;; (let (ucs)
+      ;;   (mapconcat
+      ;;    (lambda (c)
+      ;;      (char-to-string
+      ;;       (if (setq ucs
+      ;;                 (unless (encode-char c '=ucs 'defined-only)
+      ;;                   (or (get-char-attribute c '=ucs@unicode)
+      ;;                       (get-char-attribute c '=ucs@iso))))
+      ;;           (decode-char '=ucs ucs)
+      ;;         c)))
+      (ids-format-list ids-list) ; ""))
+      ))
 
 (defun ids-dump-insert-line (ccs line-spec code)
   (let ((chr (decode-char ccs code))
