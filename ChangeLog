@@ -1,5 +1,23 @@
 2024-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-0002613A): Use U+6717 instead of UU+6717.
+	(U-0002613B): Use U+8CAB instead of UU+8CAB.
+	(U-00026156): Use U+7FD5 instead of UU+7FD5.
+
+	* IDS-UCS-Ext-B-1.txt (U-00020E0F): Use U+8304 instead of CU+8304.
+	(U-00021CA2): Use U+8304 instead of CU+8304.
+
+	* IDS-UCS-Ext-F.txt (U+2D323): Use U+7FF3 instead of JU+7FF3.
+	(U+2DCC6): Use U+7DAE instead of UU+7DAE.
+	(U+2DCC7): Use U+818F instead of UU+818F.
+	(U+2DCC8): Use U+5BDB instead of UU+5BDB.
+	(U+2DCC9): Use U+5BDE instead of UU+5BDE.
+	(U+2E879): Use U+56F3 instead of JU+56F3.
+
+	* IDS-Daikanwa-08.txt: Various changes and bug fixes.
+
+2024-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-000204D0): Use "榮" instead of "⿱𤇾朩".
 	(U-000204D9): Modify structure.
 	(U-000204DA): Use U+862D instead of CU+862D.
@@ -32,6 +50,8 @@
 	* IDS-UCS-Ext-B-2.txt (U-0002294B): Use U+6BDA instead of UU+6BDA.
 	(U-0002294F): Use U+71DF instead of JU+71DF.
 	(U-00022A04): Use U+7737 instead of JU+7737.
+
+	* IDS-JIS-X0208-1990.txt: Various changes and bug fixes.
 
 2024-09-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
