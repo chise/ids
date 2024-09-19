@@ -1,5 +1,9 @@
 2024-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-dump.el (ids-dump-format-list): Don't convert representative
+	glyph-objects of Unicode 2.0 and ISO/IEC 10646-2:2001 into the
+	corresponding UCS abstract characters.
+
 	* IDS-UCS-Ext-B-3.txt:
 	- Use "䖵" instead of "⿰虫虫".
 	- Use "畕" instead of "⿱田田".
