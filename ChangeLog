@@ -1,5 +1,7 @@
 2024-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+9B30): Use U+6797 instead of A-compU+6797.
+
 	* IDS-CDP.txt: Various changes and bug fixes.
 
 2024-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
