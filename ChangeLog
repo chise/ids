@@ -1,3 +1,16 @@
+2024-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-CDP.txt: Various changes and bug fixes.
+
+2024-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+7AE0): Use U+65E5 instead of A-compU+65E5.
+	(U+89E3): Use U+5200 instead of A-compU+5200.
+	(U+8F9B): Use U+5341 instead of A-IWDSU+5341.
+	(U+9B2C): Fixed; add non-unique structure.
+	(U+9B2D): Modify structure to distinguish with other unifiable
+	character; preserve the previous IDS as an optional structure.
+
 2024-09-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-000251DB): Use "&U-i001+2FFB;大x" instead of
