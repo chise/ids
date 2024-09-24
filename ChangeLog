@@ -1,3 +1,10 @@
+2024-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+74E5): Use "⿽蟸x" instead of "⿱⿰x豕䖵".
+
+	* IDS-UCS-Ext-A.txt (U+4452): Use "刄" instead of "⿻刀乀".
+	(U+4455): Use "𠂡" instead of "⿵⺇𰀁".
+
 2024-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+9B30): Use U+6797 instead of A-compU+6797.
@@ -4490,7 +4497,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-00022AC9): Use "夯" instead of "⿱大力".
 	(U-00022ACA): Use "对" instead of "⿰又寸".
-	(U-00022ACD): Use "匆" instead of "⿻勿&CDP-89C7;".
+	(U-00022ACD): Use "匆" instead of "⿻勿乀".
 	(U-00022ACE): Use "𮎛" instead of "⿱⺈巳".
 	(U-00022AD8): Use "卢" instead of "⿱⺊尸".
 
@@ -6188,7 +6195,7 @@
 	(U-00026200): Modify structure.
 	(U-00026319): Use "𪯎" instead of "⿰幸⺙".
 	(U-000264EA): Use "𠧒" instead of "⿱⺊乙".
-	(U-000264ED): Use "匆" instead of "⿻勿&CDP-89C7;".
+	(U-000264ED): Use "匆" instead of "⿻勿乀".
 	(U-00026565): Fixed.
 	(U-0002656C): Use "邜" instead of "⿰夕阝".
 	(U-00026625): Use "𠶶" instead of "⿰⿱丶𡰪戈".
@@ -6233,7 +6240,7 @@
 	(U-00026D8F): Use "陮" instead of "⿰阝隹".
 	(U-00026D9B): Use "⿴茻x" instead of "⿳艸x艸".
 	(U-00026DA1): Use "浩" instead of "⿰氵吿".
-	(U-00026DD0): Use "匆" instead of "⿻勿&CDP-89C7;".
+	(U-00026DD0): Use "匆" instead of "⿻勿乀".
 	(U-00026DD1): Use "𬓥" instead of "⿰禾&CDP-8CE7;".
 	(U-00026DE9): Use "砭" instead of "⿰石乏".
 	(U-00026DF7): Use "𨒨" instead of "⿺⻎亥".
@@ -6815,7 +6822,7 @@
 	(U-00025437): Use "匁" instead of "⿻勹乂".
 	(U-00025438): Use "允" instead of "⿱厶儿".
 	(U-00025E3B): Completed.
-	(U-00025E3C): Use "匁" instead of "⿻𠚣&CDP-89C7;".
+	(U-00025E3C): Use "匁" instead of "⿻𠚣乀".
 
 2021-12-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -12401,7 +12408,7 @@
 	(U-00027351): Use "㒺" instead of "⿵冂⿱䒑亾".
 	(U-000273EC): Use "蚩" instead of "⿳屮一虫".
 	(U-0002741A): Use "𢉙" instead of "⿸广⿱廿火".
-	(U-00027616): Use "刄" instead of "⿻刀&CDP-89C7;".
+	(U-00027616): Use "刄" instead of "⿻刀乀".
 	(U-00027627): Fixed.
 	(U-0002763A): Use "凤" instead of "⿵⺇又".
 	(U-00027647): Use "宂" instead of "⿱宀儿".
@@ -13984,7 +13991,7 @@
 2020-01-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020DF1): Use "⿱一丈" instead of
-	"⿻于&CDP-89C7;".
+	"⿻于乀".
 
 2020-01-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
