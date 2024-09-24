@@ -1,5 +1,38 @@
 2024-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt (U-000208C5): Use U+859B instead of CU+859B.
+	(U-000208C8): Use "𠙳" instead of "⿱䜌几".
+	(U-0002096C): Use U+820A instead of CU+820A.
+	(U-000209D1): Modify structure.
+	(U-000209D3): Use U+5203 instead of UU+5203.
+	(U-00020A62): Use U+5EF7 instead of UU+5EF7.
+	(U-00020A81): Use "𮂸" instead of "⿰禾欠".
+	(U-00020A8C): Use "𭴢" instead of "⿱亦火".
+	(U-00020A9A): Modify structure to distinguish with other unifiable
+	character; preserve the previous IDS as an optional structure.
+	(U-00020A9B): Modify structure.
+	(U-00020AAB): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-00020AAC): Modify structure to distinguish with other unifiable
+	character; preserve the previous IDS as an optional structure.
+	(U-00020AAD): Use "𢾕" instead of "⿰⿱出方攵".
+	(U-00020AB0): Use "⿸厡x" instead of "⿸厂⿱泉x".
+	(U-00020AB4): Use "楚" instead of "⿱林疋".
+	(U-0002188F): Use "娄" instead of "⿱米女".
+	(U-00021890): Use "娄" instead of "⿱米女".
+	(U-00021892): Use "䇺" instead of "⿱竹豆".
+	(U-00021894): Use "⿵𮌩x" instead of "⿱⿱亾口⿲⺼x凡".
+	(U-0002189B): Modify structure.
+	(U-000218AE): Modify structure.
+	(U-000218B4): Use "𤊽" instead of "⿱𡗜炅".
+	(U-00021D51): Use U+5203 instead of UU+5203.
+	(U-00021FB2): Use U+859B instead of CU+859B.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023420): Use "𮯱" instead of "⿻丹丶".
+	(U-00023427): Fixed.
+	(U-0002342A): Use "叐" instead of "⿱丿友".
+	(U-0002342B): Use "𣱳" instead of "⿱一水".
+
 	* IDS-UCS-Basic.txt (U+74E5): Use "⿽蟸x" instead of "⿱⿰x豕䖵".
 
 	* IDS-UCS-Ext-A.txt (U+4452): Use "刄" instead of "⿻刀乀".
