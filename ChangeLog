@@ -1,5 +1,15 @@
 2024-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00024E37): Use "帬" instead of "⿱君巾".
+	(U-00024E3D): Use "𢘻" instead of "⿱米心".
+	(U-00024E48): Use "𣑽" instead of "⿱林几".
+	(U-00024E4B): Use "𥞔" instead of "⿰禾民".
+	(U-00024E4E): Use U-000221C1 instead of BC-8CE2.
+	(U-00024E51): Use "㑫" instead of "⿰亻念".
+	(U-00024E57): Use U+7FC1 instead of MJ020661.
+
+2024-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-1.txt (U-000208C5): Use U+859B instead of CU+859B.
 	(U-000208C8): Use "𠙳" instead of "⿱䜌几".
 	(U-0002096C): Use U+820A instead of CU+820A.
