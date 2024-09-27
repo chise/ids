@@ -9,6 +9,14 @@
 	(U-000207DB): Use "⿹釗x" instead of "⿰⿱金x刂".
 	(U-000207F4): Use "𭱁" instead of "⿱&CDP-8DE9;𱥯".
 
+	* IDS-UCS-Basic.txt (U+5EB8): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+5EB9): Modify structure.
+	(U+5EBB): Modify structure.
+	(U+5EC4): Add an apparent field.
+	(U+5ECF): Modify structure to distinguish with other unifiable
+	character; preserve the previous IDS as an optional structure.
+
 2024-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024E37): Use "帬" instead of "⿱君巾".
