@@ -1,3 +1,14 @@
+2024-09-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024B24): Modify structure.
+
+	* IDS-UCS-Ext-B-1.txt (U-0002079D): Use "⿽𠛱x" instead of
+	"⿰⿳x巛夕刂".
+	(U-000207CC): Modify structure.
+	(U-000207D0): Use U+5205 instead of CU+5205.
+	(U-000207DB): Use "⿹釗x" instead of "⿰⿱金x刂".
+	(U-000207F4): Use "𭱁" instead of "⿱&CDP-8DE9;𱥯".
+
 2024-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024E37): Use "帬" instead of "⿱君巾".
