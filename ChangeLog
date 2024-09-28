@@ -1,3 +1,10 @@
+2024-09-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000261FD): Modify structure.
+	(U-00026204): Fixed.
+	(U-00026207): Modify structure.
+	(U-0002620F): Use "昏" instead of "⿱氏日".
+
 2024-09-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024B24): Modify structure.
