@@ -1,4 +1,24 @@
+2024-09-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt: Use UU+7389 instead of U+7389 as a
+	glyph-grained component.
+	(J90-473C): Use U-0002F814 instead of U+5185 as a glyph-grained
+	component.
+	(J90-4A3A): Likewise.
+	(J90-4C74): Use UU+697D instead of U+697D as a glyph-grained
+	component.
+	(J90-4D47): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(J90-5621): Modify structure.
+	(J90-5D2C): Use UU+697D instead of U+697D as a glyph-grained
+	component.
+	(J90-665C): Modified [temporary].
+	(J90-6C5F): Completed.
+
 2024-09-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002823D): Use U+5173 instead of CU+5173.
+	(U-0002824A): Use "𡗬" instead of "⿱比大".
 
 	* IDS-UCS-Ext-B-4.txt (U-000261FD): Modify structure.
 	(U-00026204): Fixed.
