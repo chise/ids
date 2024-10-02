@@ -1,5 +1,8 @@
 2024-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Basic.txt (U+668B): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 	* IDS-UCS-Ext-D.txt (U-0002B811): Use U+53DF instead of CU+53DF.
 	(U-0002B814): Use "𡖅" instead of "⿰夕匕".
 	(U-0002B815): Completed.
