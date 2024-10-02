@@ -1,3 +1,16 @@
+2024-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-0002493B): Use "玨" instead of "⿰𤣩王".
+	(U-000249A6): Modify structure.
+	(U-000252D4): Use U-00022F60 instead of IU+22F60.
+	(U-000252D5): Use "盜" instead of "⿱㳄皿".
+
+2024-10-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026206): Use "紋" instead of "⿰糸文".
+	(U-00026957): Use "𦥔" instead of "&U-i001+2FF1;丨臼".
+	(U-0002695A): Likewise.
+
 2024-09-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-JIS-X0208-1990.txt: Use UU+7389 instead of U+7389 as a
