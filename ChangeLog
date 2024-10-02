@@ -1,5 +1,10 @@
 2024-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-D.txt (U-0002B811): Use U+53DF instead of CU+53DF.
+	(U-0002B814): Use "𡖅" instead of "⿰夕匕".
+	(U-0002B815): Completed.
+	(U-0002B81D): Use U+655E instead of JU+655E.
+
 	* IDS-UCS-Ext-B-3.txt (U-0002493B): Use "玨" instead of "⿰𤣩王".
 	(U-000249A6): Modify structure.
 	(U-000252D4): Use U-00022F60 instead of IU+22F60.
