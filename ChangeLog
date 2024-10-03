@@ -1,3 +1,11 @@
+2024-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat-Supplement.txt (U-0002F986): Modify structure.
+	(U-0002F987): Use <CJK RADICAL MEAT> instead of UU+6708.
+	(U-0002F988): Likewise.
+	(U-0002F989): Likewise.
+	(U-0002F98B): Use U-0002F890 instead of UU+5EFE.
+
 2024-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+668B): Modify structure; preserve the
