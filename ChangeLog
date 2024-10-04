@@ -1,3 +1,25 @@
+2024-10-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026F04): Use "𣁽" instead of
+	"⿺⿱甶儿斗".
+	(U-000270EA): Use "蔄" instead of "⿱艹問".
+	(U-000270EC): Use "𰘴" instead of "⿰木⿱𡗜炅".
+
+2024-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002307D): Use "甶" instead of "⿱丿田";
+	add an optional field to represent normalized IDS.
+
+	* IDS-UCS-Basic.txt (U+9B41): Modify structure to distinguish with
+	other unifiable character; preserve the previous IDS as an
+	optional structure.
+
+2024-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Compat-Supplement.txt (U-0002F98C): Add IDS.
+	(U-0002F98D): Add IDS.
+	(U-0002F992): Add IDS.
+
 2024-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Compat-Supplement.txt (U-0002F986): Modify structure.
