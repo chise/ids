@@ -1,9 +1,28 @@
+2024-10-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002874D): Use U+4674 instead of BC-8DA9.
+
+	* IDS-UCS-Ext-A.txt (U+48D7): Fixed.
+
+2024-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8D1B): Use "𭤊" instead of "⿰章夂".
+	(U+8D63): Use "⿸𭤊x" instead of "⿰章⿱夂x".
+
+2024-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt: Use U+7C73 instead of <KANGXI RADICAL RICE>.
+
 2024-10-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026F04): Use "𣁽" instead of
 	"⿺⿱甶儿斗".
 	(U-000270EA): Use "蔄" instead of "⿱艹問".
 	(U-000270EC): Use "𰘴" instead of "⿰木⿱𡗜炅".
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A6B1): Use o-JU+9F9C instead of
+	U+9F9C to distinguish with other unifiable character; preserve the
+	previous IDS as an optional structure.
 
 2024-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
