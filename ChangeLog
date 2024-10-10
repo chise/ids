@@ -1,3 +1,18 @@
+2024-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000243C0): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-000243C1): Use "⿽𤋮x" instead of "⿱⿲x臣已灬".
+	(U-00024482): Use "𤉭" instead of "⿱止炅".
+	(U-00024483): Use "⿰x曄" instead of "⿲x日華".
+	(U-00024485): Completed [temporary]; add an optional field to
+	represent normalized IDS.
+	(U-00024486): Modify structure.
+	(U-00024491): Use "𦺸" instead of "⿱艹粦".
+	(U-00024492): Modify structure.
+	(U-00024496): Use "㯥" instead of "⿰東東".
+	(U-0002449C): Use "⿱𰒲x" instead of "⿳或或x".
+
 2024-10-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002874D): Use U+4674 instead of BC-8DA9.
