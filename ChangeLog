@@ -1,3 +1,11 @@
+2024-10-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024A69): Use "⿰𤣩⿰xy" instead of
+	"⿲王xy".
+	(U-00024A6E): Likewise; use "𨊢" instead of "⿱𤰔𠫔".
+	(U-00024A6F): Use "𨊢" instead of "⿱𤰔𠫔".
+	(U-00024A92): Fixed.
+
 2024-10-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-000282A2): Modify structure; preserve the
@@ -8883,7 +8891,7 @@
 	- Use "𡰱" instead of "⿸尸工".
 	- Use "𠧒" instead of "⿱⺊乙".
 	- Use "𢆰" instead of "⿱一幺".
-	- Use "&GT-K05805;" instead of "⿴囗𠂭".
+	- Use "𱕻" instead of "⿴囗𠂭".
 	(M-07436): Modify structure.
 	(M-07437): Add IDS.
 	(M-07440): Add IDS.
