@@ -1,3 +1,8 @@
+2024-11-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000209F8): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 2024-10-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024A69): Use "⿰𤣩⿰xy" instead of
