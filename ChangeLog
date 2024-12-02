@@ -1,3 +1,15 @@
+2024-12-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+5EFE instead of U-0002F890.
+	(U-00021A80): Modify structure.
+	(U-00021A83): Use "𢍏" instead of "⿱釆廾".
+	(U-00021A84): Use U+8005 instead of U+FA5B.
+	(U-00021CAF): Modify structure.
+	(U-00021CB1): Modify structure.
+	(U-00021CE1): Modify structure.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-24612): Fix structure.
+
 2024-11-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-0002445C): Modify structure; add an
