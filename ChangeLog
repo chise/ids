@@ -1,3 +1,19 @@
+2024-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020CEA): Use "𠯳" instead of "⿱勿口".
+	(U-00020CF6): Use "秃" instead of "⿱禾几".
+	(U-00020CFD): Use "䆑" instead of "⿱穴丁".
+	(U-00020D67): Use "⿸𮝾x" instead of "⿸厂⿱⿱工&CDP-8CC6;x".
+	(U-00020D77): Use "兖" instead of "⿱六允".
+	(U-00020D7A): Use "𱬷" instead of "⿱爫巴".
+	(U-00020DA1): Use "𥐧" instead of "⿱石廾".
+	(U-00020DD8): Use "秌" instead of "⿰火禾".
+	(U-00020DDD): Use "𱕻" instead of "⿴囗𠂭".
+	(U-000211F0): Use "兖" instead of "⿱六允".
+	(U-0002135F): Use "𥐧" instead of "⿱石廾".
+	(U-00021A86): Use U+7680 instead of UU+7680.
+	(U-00021C96): Use "𱕻" instead of "⿴囗𠂭".
+
 2024-12-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+5EFE instead of U-0002F890.
