@@ -1,3 +1,8 @@
+2024-12-12  WMJ  <wmjordan@users.noreply.github.com>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A6DE): Add IDS.
+	(U-0002A6DF): Add IDS.
+
 2024-12-11  WMJ  <wmjordan@users.noreply.github.com>
 
 	* IDS-UCS-Basic.txt (U+9FF0...U+9FFF): Add missing IDS entries for
