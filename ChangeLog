@@ -1,3 +1,34 @@
+2025-01-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021EF2): Modify structure.
+
+2024-12-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+344E): Use "𭗼" instead of "⿱巛山".
+
+2024-12-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A03A): Use "𪥤" instead of "⿱上女".
+	(U-0002A041): Use "𰗑" instead of "⿱又木".
+	(U-0002A061): Use "𡥉" instead of "⿱㐅⿸𠂇子".
+	(U-0002A066): Use "乕" instead of "⿸𠂆&CDP-89ED;".
+	(U-0002A06C): Use "𠤕" instead of "⿱匕矢".
+	(U-0002A076): Use U+8FC7 instead of CU+8FC7.
+	(U-0002A077): Use "𡶇" instead of "⿱必山".
+	(U-0002A09B): Use "芪" instead of "⿱艹氏".
+	(U-0002A0A8): Use "𡶇" instead of "⿱必山".
+	(U-0002A0B8): Use "叜" instead of "⿳宀⿱八𠆢又".
+	(U-0002A0CA): Use U+3687 instead of CU+3687.
+	(U-0002A118): Use "𠳮" instead of "⿱右冋".
+	(U-0002A130): Use "𮔀" instead of "⿱必虫".
+	(U-0002A149): Use "𣆫" instead of "⿱臼日".
+	(U-0002A151): Use "竟" instead of "⿳立日儿".
+	(U-0002A152): Use "𱰋" instead of "⿰米瓦".
+	(U-0002A5D0): Use "𭍳" instead of "⿴囗曾".
+
+	* ids-dump.el (ids-dump-ucs-ext-b-6): Use #x2A6DF instead of
+	#x2A6D6 as the end of the code range.
+
 2024-12-12  WMJ  <wmjordan@users.noreply.github.com>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A6DE): Add IDS.
