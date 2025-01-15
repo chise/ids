@@ -336,7 +336,7 @@
   (interactive "Fdump IDS-UCS-Ext-B-6 : ")
   (ids-dump-range "IDS-UCS-Ext-B-6.txt" filename
 		  #'ids-dump-insert-ccs-ranges 'ucs "U-%08X\t%c\t%s\n"
-		  '(#x2A000 . #x2A6D6)))
+		  '(#x2A000 . #x2A6DF)))
 
 ;;;###autoload
 (defun ids-dump-ucs-compat-supplement (filename)
