@@ -1,3 +1,11 @@
+2025-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-0002002E): Modify structure.
+
+2025-01-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A5D3): Use U+771F instead of JU+771F.
+
 2025-01-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021EF2): Modify structure.
