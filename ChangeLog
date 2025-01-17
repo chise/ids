@@ -1,3 +1,38 @@
+2025-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+4FB4): Modify structure.
+
+	* IDS-UCS-Ext-B-3.txt (U-000250E1): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-000250E5): Completed.
+
+2025-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026116): Modify structure.
+	(U-0002669D): Modify structure.
+	(U-000270C1): Use "栆" instead of "⿵&CDP-89AD;&CDP-8971;".
+	(U-000272BC): Modify structure.
+
+	* IDS-UCS-Ext-B-2.txt (U-00022C6F): Modify structure.
+	(U-000230F2): Fixed.
+	(U-0002316D): Modify structure.
+	(U-000235E0): Use U+51AB instead of BC-8971.
+
+	* IDS-UCS-Ext-B-1.txt (U-000205BC): Use U+51AB instead of BC-8971.
+	(U-000215EB): Ditto.
+	(U-000215ED): Ditto.
+	(U-00021E8E): Fixed.
+
+	* IDS-UCS-Basic.txt (U+4ED2): Use U+51AB instead of BC-8971.
+	(U+51AC): Ditto.
+	(U+56F3): Fixed.
+	(U+5934): Reverted.
+	(U+5BD2): Use U+51AB instead of BC-8971.
+	(U+5C3D): Ditto.
+	(U+67A3): Ditto.
+	(U+6806): Ditto.
+	(U+9FF1): Use "⿰𤣩x" instead of "⿰王x".
+
 2025-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-0002002E): Modify structure.
