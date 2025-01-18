@@ -1,3 +1,9 @@
+2025-01-13  WMJ <wmj@live.cn>
+
+	* IDS-UCS-Basic.txt, IDS-UCS-Ext-B-1.txt, IDS-UCS-Ext-B-2.txt,
+	IDS-UCS-Ext-B-3.txt, IDS-UCS-Ext-B-4.txt, IDS-UCS-Ext-B-5.txt:
+	Replace CDP-8AFC with U+4EBC.
+
 2025-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000266D1): Use U+4E11 instead of UU+4E11.
