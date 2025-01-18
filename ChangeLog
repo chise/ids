@@ -1,3 +1,10 @@
+2025-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000266D1): Use U+4E11 instead of UU+4E11.
+	(U-00026B8A): Ditto.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023D87): Use U+4E3D instead of CU+4E3D.
+
 2025-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+4FB4): Modify structure.
@@ -32,6 +39,11 @@
 	(U+67A3): Ditto.
 	(U+6806): Ditto.
 	(U+9FF1): Use "⿰𤣩x" instead of "⿰王x".
+
+2024-12-11  WMJ <wmjordan@users.noreply.github.com>
+
+	* IDS-UCS-Basic.txt: Add missing IDS entries for newly appended
+	characters in CJK Unified Ideograph.
 
 2025-01-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
