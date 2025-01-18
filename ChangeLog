@@ -1,3 +1,42 @@
+2025-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022E55): Use "⿱x𠍘" instead of
+	"⿳x亼&CDP-88A6;".
+	(U-00022E57): Use U+8FB6 instead of <CJK RADICAL WALK TWO>.
+	(U-000230F2): Fixed.
+	(U-00023105): Modify structure.
+	(U-0002310C): Use U-00027D26 instead of CU+27D26.
+	(U-00023AE8): Modify structure.
+
+2025-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00024E10): Modify structure.
+	(U-00024EF0): Modify structure.
+	(U-000250DF): Modify structure.
+
+	* IDS-UCS-Basic.txt (U+4F65): Modify structure.
+	(U+4FDE): Modify structure.
+	(U+50C9): Modify structure.
+	(U+516A): Modify structure.
+	(U+820D): Modify structure.
+
+2025-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000280AE): Modify structure.
+	(U-00028245): Use "𠓡" instead of "⿱亼丌".
+	(U-0002835A): Use "𦏾" instead of "⿱亼羽".
+	(U-000285E4): Modify structure.
+	(U-00028F36): Modify structure.
+	(U-00028F6D): Modify structure.
+	(U-0002997E): Modify structure.
+
+	* IDS-UCS-Ext-B-1.txt (U-00020380): Modify structure.
+	(U-00020498): Use "𭃂" instead of "⿻刀&CDP-8971;".
+	(U-000205B8): Use "仺" instead of "⿱亼匕".
+	(U-000206DB): Use "仺" instead of "⿱亼匕".
+	(U-000206F2): Modify structure.
+	(U-00021D0C): Modify structure.
+
 2025-01-13  WMJ <wmj@live.cn>
 
 	* IDS-UCS-Basic.txt, IDS-UCS-Ext-B-1.txt, IDS-UCS-Ext-B-2.txt,
