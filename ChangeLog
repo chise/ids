@@ -1,4 +1,11 @@
+2025-01-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-00028244): Use "𮉼" instead of "⿱丿𭁠".
+
 2025-01-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000206F0): Use U+518E instead of JU+518E.
+	(U-00021D0C): Use U-000201A2 instead of A-IWDSU+4EBA.
 
 	* IDS-UCS-Ext-B-2.txt (U-00022E55): Use "⿱x𠍘" instead of
 	"⿳x亼&CDP-88A6;".
@@ -36,6 +43,8 @@
 	(U-000206DB): Use "仺" instead of "⿱亼匕".
 	(U-000206F2): Modify structure.
 	(U-00021D0C): Modify structure.
+
+	* IDS-JIS-X0208-1990.txt: Various changes.
 
 2025-01-13  WMJ <wmj@live.cn>
 
