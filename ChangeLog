@@ -1,3 +1,7 @@
+2025-01-13  WMJ  <wmj@live.cn>
+
+	* IDS-UCS-Ext-B-5.txt: replace ⿱出𤆛 with 𤉐
+
 2025-01-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002865B): Use "衆" instead of "⿱血𫡑".
