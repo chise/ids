@@ -174,7 +174,7 @@ U+4EAB	享	⿱⿱亠口子
 U+4EAC	京	⿱⿱亠口小
 U+4EAD	亭	⿱⿳亠口冖丁
 U+4EAE	亮	⿱⿳亠口冖几
-U+4EAF	亯	⿱⿱亠口日
+U+4EAF	亯	⿱⿱亠口日	@apparent=⿱亠𠯭
 U+4EB0	亰	⿱𣅀小	@apparent=⿱亠𣌢
 U+4EB1	亱	⿱亠但
 U+4EB2	亲	⿱立木
