@@ -1,3 +1,11 @@
+2025-01-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+4EAF): Add an apparent field.
+
+2025-01-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt (U+2E501): Use U+8003 instead of JU+8003.
+
 2025-01-24  WMJ  <wmjordan@users.noreply.github.com>
 
 	* IDS-UCS-Ext-G.txt: Fix U+3016B
