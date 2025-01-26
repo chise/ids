@@ -2,6 +2,12 @@
 
 	* IDS-UCS-Basic.txt (U+4EAF): Add an apparent field.
 
+	* IDS-UCS-Ext-C.txt (U-0002A92B): Modify structure.
+	(U-0002A92F): Fixed.
+	(U-0002AD95): Use "𱐍" instead of "⿶凵米".
+
+	* IDS-UCS-Ext-B-1.txt (U-000214CC): Modify structure.
+
 2025-01-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2E501): Use U+8003 instead of JU+8003.
