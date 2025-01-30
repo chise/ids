@@ -1,3 +1,30 @@
+2025-01-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U+8980 instead of <CJK RADICAL WEST
+	ONE>.
+	(U-00020310): Modify structure.
+	(U-00020B69): Modify structure.
+	(U-00020DE4): Use U+80DE instead of JU+80DE.
+	(U-00020F4B): Use U+533F instead of CU+533F.
+	(U-0002107D): Use "𣗪" instead of "⿰木茶".
+	(U-000210BB): Use U+6176 instead of CU+6176.
+	(U-000210BC): Use "罵" instead of "⿱⺫馬".
+	(U-000210BD): Use "⿱x覃" instead of "⿳x⻃早".
+	(U-000210C2): Use "寫" instead of "⿱宀舃".
+	(U-0002119B): Modify structure.
+	(U-000213FD): Use U+7FD2 instead of UU+7FD2.
+	(U-000214B9): Modify structure.
+	(U-000214BA): Use U+7BC7 instead of CU+7BC7.
+	(U-000215AD): Use "𮉼" instead of "⿱丿𭁠".
+	(U-00021837): Use U+533F instead of CU+533F.
+	(U-0002185A): Use U+7742 instead of JU+7742.
+	(U-000218F9): Modify structure.
+	(U-000218FA): Use U+6167 instead of UU+6167.
+	(U-00021ACA): Modify structure.
+	(U-00021B25): Use U-0002D060 instead of MJ057001.
+	(U-00021BCD): Use U-00021552 instead of MJ033317.
+	(U-00021C66): Use "𨑭" instead of "⿺辶止".
+
 2025-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002236C): Modify structure; add an
