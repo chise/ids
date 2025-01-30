@@ -1,3 +1,8 @@
+2025-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002236C): Modify structure; add an
+	apparent field.
+
 2025-01-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002306C): Use "⿽" instead of "⿻".
