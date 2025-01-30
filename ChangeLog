@@ -25,6 +25,15 @@
 	(U-00021BCD): Use U-00021552 instead of MJ033317.
 	(U-00021C66): Use "𨑭" instead of "⿺辶止".
 
+2025-01-25  WMJ  <wmj@live.cn>
+
+	* replace sequence ⿶凵米 with counterpart characters
+
+	M	IDS-UCS-Basic.txt
+	M	IDS-UCS-Ext-B-1.txt
+	M	IDS-UCS-Ext-B-2.txt
+	M	IDS-UCS-Ext-C.txt
+
 2025-01-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002236C): Modify structure; add an
