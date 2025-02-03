@@ -1,3 +1,7 @@
+2025-02-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000240D1): Modify structure.
+
 2025-01-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+8980 instead of <CJK RADICAL WEST
