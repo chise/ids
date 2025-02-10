@@ -20696,7 +20696,7 @@ U+9ED5	黕	⿰黑冘
 U+9ED6	黖	⿰黑旡
 U+9ED7	黗	⿰黑屯
 U+9ED8	默	⿰黑犬
-U+9ED9	黙	⿱⿰&CDP-88D4;犬灬
+U+9ED9	黙	⿺黒犬	@apparent=⿱⿰里犬灬
 U+9EDA	黚	⿰黑甘
 U+9EDB	黛	⿱代黑
 U+9EDC	黜	⿰黑出
