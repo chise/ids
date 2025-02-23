@@ -1,3 +1,22 @@
+2025-02-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000293C1): Use "𣐂" instead of "⿱云木".
+	(U-000293C4): Use "韋" instead of "⿱夂田".
+	(U-000296B8): Use "尓" instead of "⿱𠂉小".
+	(U-000296BF): Use "叐" instead of "⿱丿友".
+	(U-000296D3): Use "𨑏" instead of "⿺辶卩".
+	(U-000296D6): Completed [temporary].
+	(U-000296D7): Use "𡚱" instead of "⿰女巳".
+	(U-000296EB): Use "𥎦" instead of "⿸厂矢".
+	(U-000296EC): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-00029717): Use "备" instead of "⿱夂田".
+	(U-0002989A): Use "叐" instead of "⿱丿友".
+	(U-000298A9): Use "㐀" instead of "⿱卝一".
+	(U-000298DB): Use "𡊥" instead of "⿱丿⿰土⿺⺃匕".
+	(U-000298EC): Use "叓" instead of "⿱𰀉又".
+	(U-000298F0): Use "䘚" instead of "⿱衣十".
+
 2025-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-D.txt (U-0002B793): Modify structure; preserve the
