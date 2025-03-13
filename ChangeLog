@@ -1,3 +1,15 @@
+2025-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt: Use U-0003002A instead of BC-89A6.
+	(U-0002011B): Modify structure.
+	(U-00020923): Modify structure.
+	(U-00020B73): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U-000219DE): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-000219EA): Use "圫" instead of "⿰土乇".
+	(U-000219EC): Use "㠩" instead of "⿱亾𫶧".
+
 2025-02-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-000293C1): Use "𣐂" instead of "⿱云木".
