@@ -1,3 +1,10 @@
+2025-03-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020912): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-00020917): Use U-00020915 instead of IU+20915.
+	(U-00020920): Use U-0002BA60 instead of GT-K05014.
+
 2025-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U-0003002A instead of BC-89A6.
