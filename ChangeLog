@@ -6,6 +6,9 @@
 	(U+2C76D): Use "⿴𦬇x" instead of "⿳艹x廾"; add an apparent
 	field.
 
+	* IDS-UCS-Ext-F.txt (U+2E509): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 	* IDS-UCS-Basic.txt (U+83BD): Use "⿴𦬠x" instead of "⿳艹x廾";
 	add an apparent field.
 	(U+841B): Modify structure; add an apparent field.
