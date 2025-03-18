@@ -1,3 +1,16 @@
+2025-03-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C767): Modify structure.
+	(U+2C76B): Modify structure.
+	(U+2C76C): Modify structure; add an apparent field.
+	(U+2C76D): Use "⿴𦬇x" instead of "⿳艹x廾"; add an apparent
+	field.
+
+	* IDS-UCS-Basic.txt (U+83BD): Use "⿴𦬠x" instead of "⿳艹x廾";
+	add an apparent field.
+	(U+841B): Modify structure; add an apparent field.
+	(U+844A): Use "⿴𦬠x" instead of "⿳艹x廾"; add an apparent field.
+
 2025-03-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020912): Modify structure; preserve the
