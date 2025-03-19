@@ -1,5 +1,17 @@
 2025-03-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-000261A5): Use "𮔉" instead of
+	"⿱⿱宀&CDP-85A7;虫".
+	(U-00026C53): Modify structure; add an apparent field.
+	(U-00026F96): Use "𮔉" instead of "⿱⿱宀&CDP-85A7;虫".
+	(U-00026F97): Use "⿱x䀆" instead of "⿳x&CDP-86B5;皿".
+	(U-00026F98): Use "𡨝" instead of "⿳宀火夕".
+	(U-00026F99): Use "𢱭" instead of "⿰扌⿱𠦃夲".
+	(U-00026FC0): Use "𮃔" instead of "⿰禾者".
+	(U-00026FD1): Use "⿴茻x" instead of "⿳艸x艸".
+	(U-00026FD4): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
 	* IDS-UCS-Ext-F.txt (U+2E508): Fixed.
 
 	* IDS-UCS-Ext-E.txt (U+2C767): Modify structure.
