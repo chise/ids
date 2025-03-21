@@ -1,3 +1,26 @@
+2025-03-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt (U+31F59): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+31F8C): Modify structure.
+	(U+31F8D): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+31F8E): Use "𱉥" instead of "⿰吉鸟".
+	(U+31F99): Modify structure.
+	(U+31F9F): Modify structure.
+	(U+31FA4): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+31FA9): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U+31FAC): Modify structure.
+	(U+31FAF): Use "⿱𦭝x" instead of "⿳艹罒x".
+	(U+31FB1): Modify structure.
+	(U+31FB2): Modify structure.
+	(U+31FBA): Modify structure.
+	(U+31FBC): Modify structure.
+	(U+31FC5): Modify structure.
+	(U+31FC7): Modify structure.
+
 2025-03-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000261A5): Use "𮔉" instead of
