@@ -1,3 +1,8 @@
+2025-03-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6702): Modify structure.
+	(U+83BD): Omit apparent field.
+
 2025-03-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt (U+31F59): Modify structure; preserve the
