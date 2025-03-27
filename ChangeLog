@@ -1,3 +1,7 @@
+2025-03-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-G.txt (U+30050): Modify structure.
+
 2025-03-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+6702): Modify structure.
