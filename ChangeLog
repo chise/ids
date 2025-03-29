@@ -1,3 +1,12 @@
+2025-03-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use "𱕻" instead of "⿴囗𠂭".
+	(U+2EBDB): Modify structure.
+	(U+2EBDC): Modify structure.
+	(U+2EBDD): Modify structure.
+	(U+2EBDE): Modify structure.
+	(U+2EBDF): Modify structure.
+
 2025-03-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-G.txt (U+30050): Modify structure.
