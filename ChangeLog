@@ -1,3 +1,35 @@
+2025-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt:
+	- Use "𰦫" instead of "⿱石双".
+	- Use "𱺵" instead of "⿱罒𪜀".
+	- Use "𰏤" instead of "⿱从开".
+	- Use "戶" instead of "户".
+	- Use "糸" instead of "糹".
+	- Use "言" instead of "訁".
+	(U+31706): Use "𰲛" instead of "⿸虎口".
+	(U+318C8): Use "门" instead of "⿻冂丨".
+	(U+318ED): Use "⿴林x" instead of "⿲木x木".
+	(U+318F4): Use "⿰x残" instead of "⿲x歹戋".
+	(U+318F6): Use "𱕻" instead of "⿴囗𠂭".
+	(U+318F8): Use "𱽗" instead of "⿱艹卢".
+	(U+318FE): Use "𭔰" instead of "⿰豆寸".
+	(U+31989): Use "𱤽" instead of "⿸厂止".
+	(U+319C5): Modify structure.
+	(U+319D7): Modify structure.
+	(U+31C2F): Use "𱏿" instead of "⿰冫口".
+	(U+31C61): Use "𰲛" instead of "⿸虎口".
+	(U+31E7E): Modify structure.
+	(U+31E87): Modify structure.
+	(U+31E8D): Use "⿴絲x" instead of "⿲糸x糸".
+	(U+31EF6): Modify structure.
+	(U+32066): Use "𰴨" instead of "⿱厶言".
+	(U+32067): Use "𱤽" instead of "⿸厂止".
+	(U+3206B): Use "𱖔" instead of "⿳山一王".
+	(U+3207B): Use "⿰x𰰎" instead of "⿲x𠦝舟".
+	(U+3207E): Modify structure.
+	(U+320FB): Modify structure.
+
 2025-03-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use "𱕻" instead of "⿴囗𠂭".
