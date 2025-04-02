@@ -1,5 +1,11 @@
 2025-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-H.txt (U+3136A): Completed [temporary].
+	(U+31E87): Use U+4E51 instead of A-IWDSU+4E51.
+	(U+32281): Use "𡬠" instead of "⿰&GT-K02400;寸".
+
+2025-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-H.txt:
 	- Use "𰦫" instead of "⿱石双".
 	- Use "𱺵" instead of "⿱罒𪜀".
