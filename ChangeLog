@@ -1,4 +1,22 @@
+2025-04-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Modify structure; preserve the previous IDS
+	as an apparent structure.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028B9F): Use U+6F22 instead of U+FA9A.
+	(U-00028BA4): Use "蒼" instead of "⿱艹倉".
+	(U-00028BB7): Modify substructure.
+	(U-00028BCD): Use "𰱃" instead of "⿱艹医".
+	(U-00028BFA): Modify substructure.
+	(U-00028C15): Modify substructure.
+
+	* IDS-UCS-Basic.txt (U+5750): Modify structure.
+	(U+7363): Modify structure.
+
 2025-04-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3CFA): Modify structure.
+	(U+4096): Modify structure.
 
 	* IDS-UCS-Ext-B-2.txt (U-00023D7A): Use "⿰x陁" instead of
 	"⿲x阝㐌".
