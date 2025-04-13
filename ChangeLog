@@ -1,3 +1,11 @@
+2025-04-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-C.txt (U-0002A703): Modify structure.
+	(U-0002A899): Modify substructure.
+	(U-0002A8A0): Use "𬞕" instead of "⿱艹阑".
+	(U-0002B1E1): Ditto.
+	(U-0002B1E7): Modify structure.
+
 2025-04-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Compat-Supplement.txt: Use "⿱𥫗x" instead of "⿱竹x".
