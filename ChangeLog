@@ -1,3 +1,16 @@
+2025-04-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt (U+31757): Use "𱏬" instead of "⿰𦚏兄".
+	(U+31758): Modify structure.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026243): Use "枼" instead of "⿱世木".
+	(U-00026954): Fixed.
+	(U-000270F0): Modify structure.
+	(U-000270F9): Use "枼" instead of "⿱世木".
+	(U-000270FC): Modify structure.
+	(U-000270FF): Use "聰" instead of "⿰耳悤".
+	(U-00027108): Use "尞" instead of "⿳𡗜日小".
+
 2025-04-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002A703): Modify structure.
