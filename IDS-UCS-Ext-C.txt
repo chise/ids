@@ -950,8 +950,8 @@ U-0002AAB3	𪪳	⿱公廾
 U-0002AAB4	𪪴	⿱𠬤廾
 U-0002AAB5	𪪵	⿱求廾
 U-0002AAB6	𪪶	⿱帝廾
-U-0002AAB7	𪪷	⿱粉廾
-U-0002AAB8	𪪸	⿳臼辰廾
+U-0002AAB7	𪪷	⿺𥸭分	@apparent=⿱粉廾
+U-0002AAB8	𪪸	⿴舁辰	@apparent=⿱臼𫸚
 U-0002AAB9	𪪹	⿳冖爵廾
 U-0002AABA	𪪺	⿰弓口
 U-0002AABB	𪪻	⿰弓丙
