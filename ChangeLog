@@ -1,3 +1,11 @@
+2025-04-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002219F): Fixed.
+	(U-00022471): Modify structure.
+	(U-00022472): Modify substructure.
+	(U-00022474): Modify structure.
+	(U-0002284C): Use "𡞔" instead of "⿱⿱毌&GT-K00627;女".
+
 2025-04-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021662): Modify structure; preserve the
