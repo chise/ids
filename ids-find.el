@@ -1,6 +1,6 @@
 ;;; ids-find.el --- search utility based on Ideographic-structures ;; -*- coding: utf-8-mcs-er -*-
 
-;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020, 2021, 2022, 2023
+;; Copyright (C) 2002, 2003, 2005, 2006, 2007, 2017, 2020, 2021, 2022, 2023, 2025
 ;;   MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo@kanji.zinbun.kyoto-u.ac.jp>
@@ -38,6 +38,8 @@
 	(ids-index-store-structure product ret))
       (when (setq ret (char-feature component 'ideographic-structure@apparent/rightmost))
 	(ids-index-store-structure product ret))
+      (when (setq ret (char-feature component 'ideographic-structure@apparent/outermost))
+	(ids-index-store-structure product ret))
       )
     ))
 
@@ -55,6 +57,8 @@
 	    ((setq ret (assq 'ideographic-structure@apparent/leftmost cell))
 	     (ids-index-store-structure product (cdr ret)))
 	    ((setq ret (assq 'ideographic-structure@apparent/rightmost cell))
+	     (ids-index-store-structure product (cdr ret)))
+	    ((setq ret (assq 'ideographic-structure@apparent/outermost cell))
 	     (ids-index-store-structure product (cdr ret)))
 	    ((setq ret (find-char cell))
 	     (ids-index-store-char product ret))
@@ -83,6 +87,11 @@
      (ids-index-store-structure c v)
      nil)
    'ideographic-structure@apparent/rightmost)
+  (map-char-attribute
+   (lambda (c v)
+     (ids-index-store-structure c v)
+     nil)
+   'ideographic-structure@apparent/outermost)
   (let (products ucs)
     (map-char-attribute
      (lambda (c v)
@@ -647,6 +656,9 @@
 		     (ideographic-structure-equal str structure))
 		(and (setq str
 			   (get-char-attribute pc 'ideographic-structure@apparent/rightmost))
+		     (ideographic-structure-equal str structure))
+		(and (setq str
+			   (get-char-attribute pc 'ideographic-structure@apparent/outermost))
 		     (ideographic-structure-equal str structure)))
 	(setq pl (cons pc pl))
 	))
@@ -1750,13 +1762,15 @@ COMPONENT can be a character or char-spec."
 			 (or (get-char-attribute enc 'ideographic-structure)
 			     (get-char-attribute enc 'ideographic-structure@apparent)
 			     (get-char-attribute enc 'ideographic-structure@apparent/leftmost)
-			     (get-char-attribute enc 'ideographic-structure@apparent/rightmost))
+			     (get-char-attribute enc 'ideographic-structure@apparent/rightmost)
+			     (get-char-attribute enc 'ideographic-structure@apparent/outermost))
 			 )
 			((consp enc)
 			 (or (cdr (assq 'ideographic-structure enc))
 			     (cdr (assq 'ideographic-structure@apparent enc))
 			     (cdr (assq 'ideographic-structure@apparent/leftmost enc))
-			     (cdr (assq 'ideographic-structure@apparent/rightmost enc)))
+			     (cdr (assq 'ideographic-structure@apparent/rightmost enc))
+			     (cdr (assq 'ideographic-structure@apparent/outermost enc)))
 			 )))
         ;; (setq enc-str
         ;;       (mapcar (lambda (cell)
