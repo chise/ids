@@ -1,3 +1,36 @@
+2025-04-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5160): Modify structure.
+	(U+8641): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
+	* ids-find.el (ids-index-store-char): Refer
+	`ideographic-structure@apparent/outermost'.
+	(ids-index-store-structure): Likewise.
+	(ids-update-index): Likewise.
+	(ideographic-structure-find-chars): Likewise.
+	(ideographic-structure-compare-functional-and-apparent): Likewise.
+
+	* IDS-UCS-Compat-Supplement.txt: Fix 2nd column.
+	(U-0002F822): Use "害" instead of "⿳宀丰口".
+	(U-0002F839): Use BC-88B6 instead of UU+4E29.
+	(U-0002F87B): Use U+5433-var-001 instead of U+5433.
+	(U-0002F889): Use "𧃰" instead of "⿳艹⿲止自巳⿱几夂".
+	(U-0002F8A7): Use "𮎰" instead of "⿱艹㠩".
+	(U-0002F8A9): Use "荒" instead of "⿱艹㐬".
+	(U-0002F8AA): Add IDS.
+	(U-0002F8EE): Modify substructure.
+	(U-0002F90B): Use U+8332 instead of UU+8332.
+	(U-0002F938): Use GT-K02522 instead of "⿳艹一八".
+	(U-0002F939): Use UU+5E77 instead of U+5E77.
+	(U-0002F93C): Add IDS.
+	(U-0002F95B): Use U+226A9-var-002 instead of "⿳爫⺕心".
+	(U-0002F961): Add IDS.
+	(U-0002F969): Add IDS.
+	(U-0002F9C3): Use "⿴行x" instead of "⿲彳x亍".
+	(U-0002F9CB): Add IDS.
+	(U-0002F9CD): Add IDS.
+
 2025-04-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-0002219F): Fixed.
