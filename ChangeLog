@@ -1,3 +1,9 @@
+2025-04-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): Implement
+	rule 1011: &U-i002+2FF1;⿰LR⿱AB -> ⿱⿲LARB.
+
 2025-04-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+5160): Modify structure.
