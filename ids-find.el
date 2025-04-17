@@ -879,8 +879,10 @@ COMPONENT can be a character or char-spec."
 (defun ideographic-structure-compare-functional-and-apparent (structure
 							      &optional char
 							      conversion-only)
-  (let (enc enc-str enc2-str enc3-str new-str new-str-c
-	    f-res a-res ret code)
+  (let (enc
+	enc-str
+	enc2 enc2-str enc3-str new-str new-str-c
+	f-res f-res2 a-res ret code)
     (cond
      ((eq (car structure) ?⿸)
       (setq enc (nth 1 structure))
@@ -1839,6 +1841,53 @@ COMPONENT can be a character or char-spec."
 		    813))
 	    )
 	   ))))
+      )
+     ((eq (get-char-attribute (car structure) '=ucs-itaiji-002) #x2FF1)
+      (setq enc (nth 1 structure)
+	    enc2 (nth 2 structure))
+      (when (and
+	     (setq enc-str
+		   (cond ((characterp enc)
+			  (get-char-attribute enc 'ideographic-structure)
+			  )
+			 ((consp enc)
+			  (cdr (assq 'ideographic-structure enc))
+			  )))
+	     (setq enc2-str
+		   (cond ((characterp enc2)
+			  (get-char-attribute enc2 'ideographic-structure)
+			  )
+			 ((consp enc2)
+			  (cdr (assq 'ideographic-structure enc2))
+			  ))))
+	(cond
+	 ((and (eq (car enc-str) ?⿰)
+	       (eq (car enc2-str) ?⿱))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)
+		  f-res2 (ids-find-chars-including-ids enc2-str))
+	    (if (< (length f-res)(length f-res2))
+		(setq f-res f-res2
+		      enc enc2)))
+	  (setq new-str (list ?⿲
+			      (nth 1 enc-str)
+			      (nth 1 enc2-str)
+			      (nth 2 enc-str)))
+	  (setq new-str-c
+		(if (setq ret (ideographic-structure-find-chars new-str))
+		    (car ret)
+		  (list (cons 'ideographic-structure new-str))))
+	  (if conversion-only
+	      (list ?⿱ new-str-c (nth 2 enc2-str))
+	      (setq a-res (ids-find-chars-including-ids new-str))
+	      (list enc
+		    f-res
+		    new-str-c
+		    a-res
+		    (list ?⿱ new-str-c (nth 2 enc-str))
+		    1011))
+	  )
+	  ))
       )
      ((eq (car structure) ?⿻)
       (setq enc (nth 1 structure))
