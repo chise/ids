@@ -1,3 +1,13 @@
+2025-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt (U+3213B): Modify structure.
+
+2025-04-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): Implement
+	rule 1141: &U-i001+2FF1;⿱AB⿰LR -> ⿱A⿲LBR.
+
 2025-04-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids-find.el
