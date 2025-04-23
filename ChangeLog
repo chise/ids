@@ -1,4 +1,46 @@
+2025-04-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+4AB2): Fixed.
+
+2025-04-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use U+5182 instead of <CJK RADICAL BOX>.
+	(U+2D02D): Modify structure.
+	(U+2E6E9): Modify substructure.
+
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U-00026951 instead of BC-8B56.
+	- Use U+722B instead of <CJK RADICAL PAW ONE>.
+	- Use U+5C23 instead of BC-8DEF.
+	(U-000207F3): Fixed.
+	(U-000213EA): Modify substructure.
+	(U-00021435): Use U+82F9 instead of CU+82F9.
+	(U-0002143C): Use "⿱x烾" instead of "⿳x炎土".
+	(U-00021445): Use "𤞣" instead of "⿰肙犬".
+	(U-00021505): Modify structure.
+	(U-0002150C): Modify structure.
+	(U-0002156F): Modify structure.
+	(U-00021578): Modify structure; omit apparent field.
+	(U-0002157B): Modify structure.
+	(U-0002157C): Modify structure.
+	(U-0002157D): Modify structure.
+	(U-0002157E): Modify structure.
+	(U-0002157F): Modify structure.
+	(U-00021580): Modify structure.
+	(U-00021582): Modify structure; preserve the previous IDS as an
+	apparent structure.
+	(U-000218FF): Modify substructure.
+	(U-00021B33): Use "寽" instead of "⿱爫寸".
+	(U-00021B4E): Use "𨕥" instead of "⿺辶𩠐".
+	(U-00021B51): Use "衟" instead of "⿻行𩠐".
+	(U-00021B52): Modify substructure.
+	(U-00021CF4): Use "芦" instead of "⿱廿尸".
+	(U-00021CF8): Modify structure.
+
 2025-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027C0D): Modify structure; omit
+	apparent field.
 
 	* IDS-UCS-Ext-H.txt (U+3213B): Modify structure.
 
