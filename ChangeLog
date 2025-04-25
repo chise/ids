@@ -1,5 +1,10 @@
 2025-04-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-0002696F): Modify structure.
+	(U-0002697A): Add IDS.
+	(U-0002697C): Modify structure; add an apparent field based on the
+	previous IDS.
+
 	* IDS-UCS-Ext-B-1.txt (U-00021433): Use U+9EC3 instead of CU+9EC3.
 	(U-0002143A): Use U+8404 instead of CU+8404.
 	(U-00021897): Modify structure.
