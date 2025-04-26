@@ -1,5 +1,11 @@
 2025-04-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00025416): Add an apparent field.
+
+	* IDS-UCS-Basic.txt (U+7363): Use U+7530 instead of A-compU+7530.
+
+2025-04-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Basic.txt (U+595A): Modify structure.
 	(U+5C37): Fixed.
 	(U+767C): Modify structure; add an apparent field based on the
