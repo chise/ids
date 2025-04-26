@@ -1,3 +1,20 @@
+2025-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2BA19): Modify substructure.
+	(U+2C2F8): Modify substructure.
+	(U+2C68F): Modify substructure.
+	(U+2CD1B): Modify substructure.
+
+	* IDS-UCS-Ext-B-4.txt (U-000279B6): Modify substructure.
+	(U-000279BB): Use "𠂞" instead of "⿳丿八丂".
+
+	* IDS-UCS-Ext-B-2.txt (U-00022472): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U-00022474): Likewise.
+
+	* IDS-UCS-Ext-H.txt (U+31C46): Modify structure.
+	(U+31E7E): Use "彑" instead of ⿱𠚤⼀".
+
 2025-04-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00025416): Add an apparent field.
