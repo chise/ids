@@ -12,6 +12,11 @@
 	previous IDS as an apparent structure.
 	(U-00022474): Likewise.
 
+	* IDS-UCS-Ext-B-1.txt (U-0002092B): Use "同" instead of
+	"⿵⿵冂一口".
+	(U-00021139): Modify structures.
+	(U-00021660): Modify structure; add an apparent field.
+
 	* IDS-UCS-Ext-H.txt (U+31C46): Modify structure.
 	(U+31E7E): Use "彑" instead of ⿱𠚤⼀".
 
