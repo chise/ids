@@ -3513,10 +3513,10 @@ U+5BB6	家	⿱宀豕
 U+5BB7	宷	⿱宀釆
 U+5BB8	宸	⿱宀辰
 U+5BB9	容	⿱宀谷
-U+5BBA	宺	⿳宀&CDP-8BE2;𫶧
-U+5BBB	宻	⿳宀&CDP-85A7;山
-U+5BBC	宼	⿱宀⿺元女
-U+5BBD	宽	⿳宀艹见
+U+5BBA	宺	⿱宀𠯚
+U+5BBB	宻	⿱⿱宀&CDP-85A7;山
+U+5BBC	宼	⿷完女
+U+5BBD	宽	⿱宀苋
 U+5BBE	宾	⿱宀兵
 U+5BBF	宿	⿱宀佰
 U+5BC0	寀	⿱宀采
