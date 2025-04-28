@@ -1,5 +1,11 @@
 2025-04-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2D0BC): Modify structure.
+
+	* IDS-UCS-Ext-B-2.txt (U-00023D9A): Modify structure; add an
+	apparent field based on the previous IDS.
+	(U-00023D9B): Modify structure.
+
 	* IDS-UCS-Basic.txt (U+5BBA): Use "⿱x𠯚" instead of "⿳x&CDP-8BE2;𫶧".
 	(U+5BBB): Modify structure.
 	(U+5BBC): Use "⿷完x" instead of "⿱宀⿺元x".
