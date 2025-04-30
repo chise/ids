@@ -1,5 +1,24 @@
 2025-04-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-1.txt:
+	- Use U-000322C4 instead of BC-87B5.
+	- Use "卥" instead of "⿱⺊⿴囗&CDP-89D5;".
+	(U-0002121D): Use "帛" instead of "⿱白巾".
+	(U-00021348): Use "帛" instead of "⿱白巾".
+	(U-0002134D): Use "𣥕" instead of "⿱止止".
+	(U-00021354): Use "𰏴" instead of "⿸广𢆉".
+	(U-00021359): Use "𱽐" instead of "⿱艹𲋄".
+	(U-000213AD): Use "统" instead of "⿰纟充".
+	(U-000213B1): Modify structure.
+	(U-000213B8): Modify structure.
+
+2025-04-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt: Use U-00020B9B instead of IU+20B9B.
+	(U-0002819A): Modify substructure.
+
+2025-04-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-0002964C): Use U-000322C4 instead of
 	BC-87B5.
 	(U-0002964F): Use "𡔷" instead of "⿰壴𠬢".
