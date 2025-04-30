@@ -1,3 +1,16 @@
+2025-04-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002964C): Use U-000322C4 instead of
+	BC-87B5.
+	(U-0002964F): Use "𡔷" instead of "⿰壴𠬢".
+
+	* IDS-UCS-Ext-E.txt: Use U-000322C4 instead of BC-87B5.
+	(U+2BFD5): Use "𱽐" instead of "⿱艹𲋄".
+	(U+2CD58): Use "𱽐" instead of "⿱艹𲋄".
+
+	* IDS-UCS-Ext-C.txt: Use U-000322C4 instead of BC-87B5.
+	(U-0002B5C6): Fixed.
+
 2025-04-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-G.txt (U+3016F): Use "𰀰" instead of "⿳⺄⺄⺄".
