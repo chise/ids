@@ -1,3 +1,10 @@
+2025-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021141): Use "&CDP-8DEB;" instead of
+	"⿱亠⿲刀丫𱍸".
+	(U-00021DB3): Use U-00031378 instead of BC-89CA.
+	(U-00021DBA): Use "𫥞" instead of "⿵⺇帀".
+
 2025-04-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt:
