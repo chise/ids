@@ -161,7 +161,7 @@ U+2CF4E	𬽎	⿱⿱⿱亠口冖戈
 U+2CF4F	𬽏	⿴衣央
 U+2CF50	𬽐	⿱⿱亠吅亡
 U+2CF51	𬽑	⿱亠臾
-U+2CF52	𬽒	⿱⿱亠⿲刀了&CDP-89CA;二
+U+2CF52	𬽒	⿱&U-i001+2FF1;⿱亠了⿰刀𱍸二
 U+2CF53	𬽓	⿰亭也
 U+2CF54	𬽔	⿰𣅀⿱山大
 U+2CF55	𬽕	⿻衣眔	@apparent=⿱亠眾
@@ -7433,9 +7433,9 @@ U+2EBB6	𮮶	⿰鼻也
 U+2EBB7	𮮷	⿰鼻糸
 U+2EBB8	𮮸	⿰鼻登
 U+2EBB9	𮮹	⿰鼻⿳士冖⿳田厶疋
-U+2EBBA	𮮺	⿱&U-i001+2FF1;⿱亠丫⿰尸&CDP-89CA;𠔼
-U+2EBBB	𮮻	⿱&U-i001+2FF1;⿱亠弓⿰刀&CDP-89CA;&CDP-89C6;
-U+2EBBC	𮮼	⿱&U-i001+2FF1;⿱亠丫⿰尸&CDP-89CA;日
+U+2EBBA	𮮺	⿱&U-i001+2FF1;⿱亠丫⿰尸𱍸𠔼
+U+2EBBB	𮮻	⿱&U-i001+2FF1;⿱亠弓⿰刀𱍸&CDP-89C6;
+U+2EBBC	𮮼	⿱&U-i001+2FF1;⿱亠丫⿰尸𱍸日
 U+2EBBD	𮮽	⿱止⿺𠃊𠈌
 U+2EBBE	𮮾	⿰歯匕
 U+2EBBF	𮮿	⿰齒寸
