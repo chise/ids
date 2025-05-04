@@ -1,3 +1,19 @@
+2025-05-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026356): Use U-00031378 instead of
+	BC-89CA.
+	(U-0002635A): Modify structure.
+	(U-00027671): Use "𫥞" instead of "⿵⺇帀".
+	(U-0002767E): Use "⿸𠆸x" instead of "⿰亻⿱攴x".
+	(U-00027A25): Use U-00031378 instead of BC-89CA.
+
+2025-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022064): Use U-00031378 instead of
+	BC-89CA.
+	(U-00023472): Use "𫥞" instead of "⿵⺇帀".
+	(U-00023CFD): Use "𫥞" instead of "⿵⺇帀".
+
 2025-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021141): Use "&CDP-8DEB;" instead of
