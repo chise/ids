@@ -1,11 +1,28 @@
 2025-05-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-4.txt (U-00027A24): Use U-0002D950 instead of
+	hanaJU+2D950.
+
+2025-05-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-4.txt (U-00026356): Use U-00031378 instead of
 	BC-89CA.
 	(U-0002635A): Modify structure.
 	(U-00027671): Use "𫥞" instead of "⿵⺇帀".
 	(U-0002767E): Use "⿸𠆸x" instead of "⿰亻⿱攴x".
 	(U-00027A25): Use U-00031378 instead of BC-89CA.
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A5C4): Completed [temporary]; use
+	U-00031378 instead of BC-89CA.
+
+2025-05-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025491): Use "𤯔" instead of "⿱一生".
+	(U-00025499): Use "犳" instead of "⿰犭勺".
+	(U-0002549B): Use U-00031378 instead of BC-89CA.
+
+	* IDS-UCS-Ext-F.txt: Use U-00031378 instead of BC-89CA.
+	(U+2CF52): Modify substructure.
 
 2025-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
