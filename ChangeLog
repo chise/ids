@@ -1,3 +1,8 @@
+2025-05-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-000289A4): Modify substructure.
+	(U-000289A8): Use "𫥞" instead of "⿵⺇帀".
+
 2025-05-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027A24): Use U-0002D950 instead of
@@ -101,6 +106,11 @@
 
 	* IDS-UCS-Ext-B-1.txt (U-000202DC): Modify structure; add an
 	apparent field.
+
+	* ids-find.el
+	(ideographic-structure-compare-functional-and-apparent): Accept
+	U+5927 (大), U+72AC (犬), U+5EFE (廾), A-compU+72AC, A-compU+7389
+	and A-compU+5EFE as B-component of ruke-813.
 
 2025-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
