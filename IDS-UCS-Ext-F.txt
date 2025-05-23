@@ -1534,7 +1534,7 @@ U+2D4AB	𭒫	⿰女數
 U+2D4AC	𭒬	⿰女⿱合南
 U+2D4AD	𭒭	⿰女䴡
 U+2D4AE	𭒮	⿰女蕳
-U+2D4AF	𭒯	⿱艹嬖
+U+2D4AF	𭒯	⿱薜女	@apparent=⿱艹嬖
 U+2D4B0	𭒰	⿰婁姿
 U+2D4B1	𭒱	⿱賏安
 U+2D4B2	𭒲	⿱宀嬰
