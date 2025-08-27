@@ -1,3 +1,12 @@
+2025-08-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023F53): Use "𮊿" instead of "⿱羽𠇍".
+	(U-00023F55): Use "𣓕" instead of "⿱林厹".
+	(U-00023F58): Use "椉" instead of "⿱亠桀".
+	(U-00023F5C): Use "䠶" instead of "⿰身矢".
+	(U-00023F96): Use "𦰀" instead of "⿱艹⿱圥夕".
+	(U-00023F9F): Use U+44E2 instead of C3-3E51.
+
 2025-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023ED4): Use "㶾" instead of
