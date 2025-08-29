@@ -1,3 +1,11 @@
+2025-08-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-23822): Fixed.
+	(SW-JIGUGE-23823): Fixed.
+	(SW-JIGUGE-38710): Use "⿰x&SW-JIGUGE-23822;" instead of "⿲x&SW-JIGUGE-34505;&SW-JIGUGE-23508;".
+	(SW-JIGUGE-38712): Modify structure.
+	(SW-JIGUGE-38714): Completed.
+
 2025-08-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023F53): Use "𮊿" instead of "⿱羽𠇍".
