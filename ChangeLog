@@ -1,5 +1,16 @@
 2025-08-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-JIS-X0208-1990.txt:
+	- Use UU+8D64 instead of U+8D64.
+	- Use UU+8FB0 instead of U+8FB0.
+	- Use UU+5384 instead of U+5384.
+	(J90-3A41): Use "&U-i002+2FF1;" instead of "⿻".
+	(J90-3D60): Modify structure.
+	(J90-403B): Modify structure.
+	(J90-447A): Use JU+5EF7 instead of UU+5EF7.
+	(J90-5E42): Use UU+80B4 instead of U+80B4.
+	(J90-6224): Modify structure.
+
 	* IDS-UCS-Basic.txt (U+6E96): Modify structure.
 
 2025-08-29  MORIOKA Tomohiko  <tomo.git@chise.org>
