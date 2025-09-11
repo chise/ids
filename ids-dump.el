@@ -353,6 +353,13 @@
 		  '(#x31350 . #x323AF)))
 
 ;;;###autoload
+(defun ids-dump-ucs-ext-j (filename)
+  (interactive "Fdump IDS-UCS-Ext-J : ")
+  (ids-dump-range "IDS-UCS-Ext-J.txt" filename
+		  #'ids-dump-insert-ccs-ranges 'ucs "U+%04X\t%c\t%s\n"
+		  '(#x323B0 . #x33479)))
+
+;;;###autoload
 (defun ids-dump-cns11643-1 (filename)
   (interactive "Fdump IDS-CNS-1 : ")
   (ids-dump-range "IDS-CNS-1.txt" filename
