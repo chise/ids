@@ -1,3 +1,22 @@
+2025-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-000200B9): Use "&U-i001+2FF1;x𠈌" instead of
+	"⿸⿹x仌仌".
+	(U-000201B0): Use "𲒞" instead of "⿵⺇丨".
+	(U-0002050C): Use "𠔁" instead of "⿱八八".
+	(U-0002098F): Use "&U-i002+2FF1;从十" instead of "⿻十从".
+	(U-00020990): Use "&U-i001+2FF1;十𠘬" instead of "⿻十𠘬".
+	(U-00021947): Use "𲓝" instead of "⿱十八".
+	(U-00021949): Use "𲓞" instead of "⿱㐅𠂇".
+
+	* IDS-UCS-Basic.txt: Use U-000324DC instead of BC-8D52.
+	(U+5352): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
+2025-09-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-dump.el (ids-dump-ucs-ext-j): New function.
+
 2025-08-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-JIS-X0208-1990.txt:
@@ -3511,7 +3530,7 @@
 	previous IDS.
 	(U-00025BA3): Use "⿱x𦊋" instead of "⿳x⿵冂㐅木".
 	(U-00025BA6): Use "㘠" instead of "⿴囗必".
-	(U-00025BAE): Use "𣐁" instead of "⿱&CDP-8D52;木".
+	(U-00025BAE): Use "𣐁" instead of "⿱𲓜木".
 	(U-00025BBF): Modify structure; add an apparent field.
 	(U-00025BC1): Use "徃" instead of "⿰彳生".
 	(U-00025BD0): Modify structure; add an apparent field.
@@ -8694,7 +8713,7 @@
 	(U-00028169): Use "𣅀" instead of "⿱亠日".
 	(U-0002817A): Use U+6562 instead of JU+6562.
 	(U-000281C7): Use "𮚏" instead of "⿳龷灬貝".
-	(U-000281C8): Use "𤴡" instead of "⿳&CDP-8D52;田⿱厶龰".
+	(U-000281C8): Use "𤴡" instead of "⿳𲓜田⿱厶龰".
 	(U-000281C9): Use "嶚" instead of "⿱山尞".
 	(U-000281CA): Use "𢕪" instead of "⿰彳喬".
 	(U-000281CC): Use "槭" instead of "⿰木戚".
@@ -10202,7 +10221,7 @@
 	(U-00021278): Use "𠙸" instead of "⿶凵厶".
 
 	* IDS-UCS-Ext-B-2.txt (U-00022DCE): Use "𦱧" instead of "⿱芔夲".
-	(U-00022DD0): Use "𤴡" instead of "⿳&CDP-8D52;由⿱厶龰".
+	(U-00022DD0): Use "𤴡" instead of "⿳𲓜由⿱厶龰".
 	(U-00022DD7): Use "聚" instead of "⿱取㐺".
 	(U-00022DE1): Use "𰀕" instead of "⿰丙丙".
 
@@ -12515,7 +12534,7 @@
 	(U-000221CA): Use "邵" instead of "⿰召⻏".
 	(U-000221D2): Use "𠧒" instead of "⿱⺊乙".
 	(U-000224B5): Use "𤌑" instead of "⿳⿻𦥑幺一火".
-	(U-00022DDF): Use "疐" instead of "⿳&CDP-8D52;田疋".
+	(U-00022DDF): Use "疐" instead of "⿳𲓜田疋".
 	(U-00022DE8): Use "搻" instead of "⿱合⿰手手".
 	(U-00022DFD): Use "槩" instead of "⿱既木".
 	(U-00022DFF): Use "𢧵" instead of "⿰雀戈".
@@ -12639,7 +12658,7 @@
 	(U-00022BEC): Use "㪅" instead of "⿱丙攴".
 	(U-00023533): Use "㡿" instead of "⿸广屰".
 	(U-00023575): Use U+82D3 instead of CU+82D3.
-	(U-0002357F): Use "⿴𣐁x" instead of "⿳&CDP-8D52;x木".
+	(U-0002357F): Use "⿴𣐁x" instead of "⿳𲓜x木".
 	(U-00023580): Use "㪅" instead of "⿱丙攴".
 	(U-0002358A): Use "𣧄" instead of "⿱巛歹".
 	(U-00023852): Use "勸" instead of "⿰雚力".
@@ -20291,7 +20310,7 @@
 	- Use "婴" instead of "⿱⿰贝贝女".
 	- Use "𦣲" instead of "⿱自𠦂".
 	- Use "鲁" instead of "⿱鱼日".
-	- Use "𤴡" instead of "⿳&CDP-8D52;田⿱厶龰".
+	- Use "𤴡" instead of "⿳𲓜田⿱厶龰".
 	- Use "點" instead of "⿰黑占".
 
 2005-02-01  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
