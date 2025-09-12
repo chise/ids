@@ -1,6 +1,6 @@
 ;;; ids-dump.el --- Dump utility of IDS-* files
 
-;; Copyright (C) 2002,2003,2004,2005,2009,2011,2019,2022,2024 MORIOKA Tomohiko
+;; Copyright (C) 2002,2003,2004,2005,2009,2011,2019,2022,2024,2025 MORIOKA Tomohiko
 
 ;; Author: MORIOKA Tomohiko <tomo.git@chise.org>
 ;; Keywords: IDS, IDC, Ideographs, UCS, Unicode
