@@ -1,3 +1,7 @@
+2025-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-J.txt: New file.
+
 2025-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002A718): Modify structure.
@@ -10494,7 +10498,7 @@
 	(U-000214E4): Use "䝿" instead of "⿱臾貝".
 	(U-000214EE): Use "嵬" instead of "⿱山鬼".
 	(U-000214F6): Use "𡂨" instead of "⿲吕臣吕".
-	(U-000214F7): Use "䭉" instead of "⿰飠&CDP-8CA9;".
+	(U-000214F7): Use "䭉" instead of "⿰飠𲺋".
 	(U-000214FD): Use "薰" instead of "⿱艹熏".
 	(U-00021500): Use "𪢶" instead of "⿱夂土".
 	(U-000215A2): Fixed.
@@ -20194,7 +20198,7 @@
 
 2005-02-07  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Basic.txt: Use "&CDP-8CA9;" instead of "⿱左⺼".
+	* IDS-UCS-Basic.txt: Use "𲺋" instead of "⿱左⺼".
 
 2005-02-06  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
