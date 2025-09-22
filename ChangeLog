@@ -2,6 +2,14 @@
 
 	* IDS-UCS-Ext-J.txt: New file.
 
+2025-09-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026E91): Use "𰚢" instead of "⿰咅毛".
+
+2025-09-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-A.txt (U+3750): Add an apparent field.
+
 2025-09-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002A718): Modify structure.
