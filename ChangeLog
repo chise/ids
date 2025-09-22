@@ -19,6 +19,8 @@
 
 2025-09-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* install-ids.el: Install IDS-UCS-Ext-J.txt.
+
 	* IDS-UCS-Ext-B-1.txt (U-000200B9): Use "&U-i001+2FF1;x𠈌" instead of
 	"⿸⿹x仌仌".
 	(U-000201B0): Use "𲒞" instead of "⿵⺇丨".
