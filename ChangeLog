@@ -1,3 +1,29 @@
+2025-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002855F): Use "𡕦" instead of
+	"⿳由儿夂".
+	(U-00028566): Use "𡨝" instead of "⿱宀⿳八𠆢夂".
+	(U-000289F4): Use "𫨈" instead of "⿸灰又".
+	(U-000289F6): Use "刼" instead of "⿰去刃".
+	(U-000289FE): Use "⿰x𢺸" instead of "⿲x支支".
+	(U-00028A0B): Use "炅" instead of "⿱日火".
+	(U-00028A10): Use "岱" instead of "⿱代山".
+	(U-00028A14): Use "肩" instead of "⿸戶月".
+	(U-00028A3F): Use "叜" instead of "⿱宀⿳八𠆢又".
+	(U-00028A42): Use "𥝻" instead of "⿰禾殳".
+	(U-00028A44): Use "昱" instead of "⿱日立".
+	(U-00029510): Use "昱" instead of "⿱日立".
+	(U-00029517): Use "娄" instead of "⿱米女".
+	(U-0002956B): Use "𭿃" instead of "⿱⿱&CDP-88DD;冖目".
+	(U-00029602): Use "㞑" instead of "⿸尸&CDP-85A9;".
+	(U-00029619): Use "𢍄" instead of "⿱囟廾".
+	(U-00029624): Use "曺" instead of "⿱𤰔曰".
+	(U-000296F9): Use "𲨔" instead of "⿹气土".
+	(U-000296FB): Modify structure.
+	(U-0002972E): Use "巸" instead of "⿰𦣝巳".
+	(U-00029768): Use "𦮃" instead of "⿱卝⿲&CDP-8BC5;丨匕".
+	(U-0002976F): Use "𡨝" instead of "⿳宀⿱八𠆢夕".
+
 2025-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-J.txt: New file.
