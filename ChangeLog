@@ -1,5 +1,14 @@
 2025-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids-dump.el (ids-dump-ucs-ext-c): New function.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028A43): Use U+6625 instead of JU+6625.
+	(U-00028A49): Use "奐" instead of "⿱&CDP-8CAF;大".
+	(U-00028A5D): Use "𫊞" instead of "⿸虍⺕".
+	(U-00028A61): Fixed.
+
+2025-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-0002855F): Use "𡕦" instead of
 	"⿳由儿夂".
 	(U-00028566): Use "𡨝" instead of "⿱宀⿳八𠆢夂".
@@ -23,6 +32,11 @@
 	(U-0002972E): Use "巸" instead of "⿰𦣝巳".
 	(U-00029768): Use "𦮃" instead of "⿱卝⿲&CDP-8BC5;丨匕".
 	(U-0002976F): Use "𡨝" instead of "⿳宀⿱八𠆢夕".
+
+	* IDS-UCS-Ext-B-3.txt (U-0002595C): Use "叐" instead of "⿱丿友".
+	(U-0002597F): Modify structure.
+	(U-000259B0): Modify structure.
+	(U-00025FC8): Use "叐" instead of "⿱丿友".
 
 2025-09-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -213,7 +227,7 @@
 	apparent field based on the previous IDS.
 	(U-00023D9B): Modify structure.
 
-	* IDS-UCS-Basic.txt (U+5BBA): Use "⿱x𠯚" instead of "⿳x&CDP-8BE2;𫶧".
+	* IDS-UCS-Basic.txt (U+5BBA): Use "⿱x𠯚" instead of "⿳x𬺣𫶧".
 	(U+5BBB): Modify structure.
 	(U+5BBC): Use "⿷完x" instead of "⿱宀⿺元x".
 	(U+5BBD): Use "⿱x苋" instead of "⿳x艹见".
@@ -12208,7 +12222,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-000229CA): Use "⿵𫼉木" instead of
 	"⿰⿸戶木戈".
-	(U-000229CC): Use "⿹或x" instead of "⿹戈⿱&CDP-8BE2;x".
+	(U-000229CC): Use "⿹或x" instead of "⿹戈⿱𬺣x".
 	(U-00022B84): Use "㦿" instead of "⿸戶木".
 	(U-000234B7): Ditto.
 	(U-000234C5): Ditto.
