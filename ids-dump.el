@@ -346,6 +346,13 @@
 		  '(#x2A700 . #x2B73F)))
 
 ;;;###autoload
+(defun ids-dump-ucs-ext-e (filename)
+  (interactive "Fdump IDS-UCS-Ext-E : ")
+  (ids-dump-range "IDS-UCS-Ext-E.txt" filename
+		  #'ids-dump-insert-ccs-ranges 'ucs "U+%04X\t%c\t%s\n"
+		  '(#x2B820 . #x2CEAD)))
+
+;;;###autoload
 (defun ids-dump-ucs-compat-supplement (filename)
   (interactive "Fdump IDS-UCS-Compat-Supplement : ")
   (ids-dump-range "IDS-UCS-Compat-Supplement.txt" filename
