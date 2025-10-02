@@ -5762,13 +5762,13 @@ U+2CE9F	𬺟	⿰龠见
 U+2CEA0	𬺠	⿰彔龠
 U+2CEA1	𬺡	⿰惠龠
 U+2CEA2	𬺢	⿱一八
-U+2CEA3	𬺣	⿱&A-IWDSU+53E3;&A-compU+4E00;
+U+2CEA3	𬺣	⿱口一
 U+2CEA4	𬺤	⿱亠公	@apparent=⿱六厶
 U+2CEA5	𬺥	⿱亠早
 U+2CEA6	𬺦	⿱⿱亠口吅	@apparent=⿱亠品
 U+2CEA7	𬺧	⿱䒑儿
-U+2CEA8	𬺨	⿱𠂊&A-IWDSU+5405;
-U+2CEA9	𬺩	⿱卜&A-compU+65E5;
+U+2CEA8	𬺨	⿱𠂊吅
+U+2CEA9	𬺩	⿱卜日
 U+2CEAA	𬺪	⿰犭罢
 U+2CEAB	𬺫	⿱山謢
 U+2CEAC	𬺬	⿰蠡瓜
