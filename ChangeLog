@@ -1,3 +1,10 @@
+2025-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2CEA3): Use U+53E3 instead of A-IWDSU+53E3;
+	use U+4E00 instead of A-compU+4E00.
+	(U+2CEA8): Use U+5405 instead of A-IWDSU+5405.
+	(U+2CEA9): Use U+65E5 instead of A-compU+65E5.
+
 2025-10-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2B92E): Use "𦥔" instead of "⿻𦥑丨".
