@@ -1,3 +1,87 @@
+2025-10-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2B92E): Use "𦥔" instead of "⿻𦥑丨".
+	(U+2B9B2): Use "𱒒" instead of "⿱口目".
+	(U+2BA4B): Use "𮮠" instead of "⿱龷㡀".
+	(U+2BA91): Use "𱙷" instead of "⿰子贝".
+	(U+2BC1F): Unified to one column.
+	(U+2BC43): Use "𭘍" instead of "⿰臣己".
+	(U+2BC62): Use "𰿚" instead of "⿵門夕".
+	(U+2BC66): Use "𰚋" instead of "⿱㲋丂".
+	(U+2BC7F): Use "𮯙" instead of "⿰齿可".
+	(U+2BCB2): Use "𳄔" instead of "⿰𠂤辛".
+	(U+2BCC8): Use "𭎃" instead of "⿰土冘".
+	(U+2BCE4): Modify structure.
+	(U+2BD05): Use "𰢅" instead of "⿰𤣩畐".
+	(U+2BDA4): Use "𰌱" instead of "⿱㞌𡥷".
+	(U+2BE13): Use "𦬰" instead of "⿱艹壬".
+	(U+2BE14): Use "𩑙" instead of "頊".
+	(U+2BE35): Use "𰆺" instead of "⿱乍又".
+	(U+2BE51): Use "刋" instead of "刊".
+	(U+2BE65): Use "𰨚" instead of "⿱𫝀禹".
+	(U+2BE72): Completed [temporary].
+	(U+2BF22): Use "𱤽" instead of "⿸厂止".
+	(U+2BF64): Use "𱪵" instead of "⿰火卢".
+	(U+2BFCF): Use "𭾱" instead of "⿱罒衣".
+	(U+2BFF7): Modify structure.
+	(U+2C015): Use "𰫝" instead of "⿰糸尹".
+	(U+2C089): Modify structure.
+	(U+2C0FD): Use "𰇩" instead of "⿱貝口".
+	(U+2C126): Use "𳁖" instead of "⿱𰀢見".
+	(U+2C131): Use "𱽷" instead of "⿱艹𪾋".
+	(U+2C13F): Use "𲹈" instead of "⿱𦍌取".
+	(U+2C172): Use "𱋾" instead of "⿱圥黾".
+	(U+2C18F): Use "⿵歮x" instead of "⿱止⿲止x止".
+	(U+2C195): Use "𭮁" instead of "⿰歹巳".
+	(U+2C1A6): Use "𰹲" instead of "⿱车口".
+	(U+2C204): Use "𭚫" instead of "⿰弓㐱".
+	(U+2C247): Use "𰭢" instead of "⿱羽夹".
+	(U+2C2C1): Use "𲥿" instead of "⿱𣦼木".
+	(U+2C2C8): Modify structure.
+	(U+2C2D5): Modify structure.
+	(U+2C2DC): Use "𮥿" instead of "⿱亠𨾴".
+	(U+2C340): Use "𳀮" instead of "⿴衣龷".
+	(U+2C44C): Use "𲐗" instead of "⿱𠆢亐".
+	(U+2C485): Use "囘" instead of "⿵⺆巳".
+	(U+2C488): Use "⿱𰃮x" instead of "⿳⺍冖x".
+	(U+2C520): Use "⿹𫩞x" instead of "⿰⿱台x⿹𠃌一".
+	(U+2C522): Use "⿱𫩠x" instead of "⿳龸口x".
+	(U+2C526): Use "𱦊" instead of "⿰氵执".
+	(U+2C53C): Use "𰁦" instead of "⿰亻攵".
+	(U+2C694): Use "𲐗" instead of "⿱𠆢亐".
+	(U+2C6EE): Modify structure.
+	(U+2C78F): Modify structure; use "𲰶" instead of "⿱田一".
+	(U+2C7B2): Use "𧇊" instead of "⿰虚亏".
+	(U+2C7BE): Use "𳈩" instead of "⿰阝𡘷".
+	(U+2C8AF): Use "𲂻" instead of "⿰贝贝".
+	(U+2C8B1): Use "𱻊" instead of "⿱𦍌又".
+	(U+2C9B4): Use "𮰉" instead of "⿱冯几".
+	(U+2C9C3): Use "𱅑" instead of "⿱龹马".
+	(U+2CA3F): Use "𲶺" instead of "⿰米云".
+	(U+2CA53): Use "𱤽" instead of "⿸厂止".
+	(U+2CA6C): Use "𮫴" instead of "⿰魚司".
+	(U+2CAA1): Use "𱢬" instead of "⿱無日".
+	(U+2CAE4): Use "𱺵" instead of "⿱罒𪜀".
+	(U+2CAFC): Modify structure.
+	(U+2CAFE): Use "𭆞" instead of "⿱&GT-K01085;氺".
+	(U+2CB07): Use "𮷛" instead of "⿱车⿰车车".
+	(U+2CB79): Use "𰭢" instead of "⿱羽夹".
+	(U+2CBE2): Use "𰫝" instead of "⿰糸尹".
+	(U+2CC45): Use "𰀾" instead of "⿺𠃊西".
+	(U+2CC67): Use "𱣀" instead of "⿱支木".
+	(U+2CCE7): Unified to one column.
+	(U+2CCF8): Use "⿱𰃮x" instead of "⿳⺍冖x".
+	(U+2CD6F): Use "𮥴" instead of "⿻一隶".
+	(U+2CDC2): Use "𲓞" instead of "⿱㐅十".
+	(U+2CDE0): Use "𰗕" instead of "⿱𱼀木".
+	(U+2CE15): Use "𲂻" instead of "⿰贝贝".
+	(U+2CE58): Use "𱅑" instead of "⿱龹马".
+	(U+2CEA2 ... U+2CEAD): Add IDSes.
+
+2025-09-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids-dump.el (ids-dump-ucs-ext-e): New function.
+
 2025-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-C.txt (U-0002A960): Use "赑" instead of
