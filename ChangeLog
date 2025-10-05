@@ -1,3 +1,8 @@
+2025-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022A42): Use "⿵戹x" instead of
+	"⿸户⿹⺄x".
+
 2025-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2CEA3): Use U+53E3 instead of A-IWDSU+53E3;
