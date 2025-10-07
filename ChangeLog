@@ -1,5 +1,8 @@
 2025-10-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2D9AC): Modify substructure.
+	(U+2D9AE): Modify structure.
+
 	* IDS-UCS-Ext-C.txt (U-0002AC54): Fixed.
 
 2025-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
