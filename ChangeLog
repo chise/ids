@@ -1,3 +1,22 @@
+2025-10-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt (U+31DA1): Modify structure.
+	(U+31F3F): Modify structure; use "𮯱" instead of "⿵丹丶".
+	(U+31F41): Use "將" instead of "⿰爿寽"; use "舟" instead of
+	"⿻𠔾丨".
+
+	* IDS-UCS-Ext-G.txt (U+30089): Fixed; use "𮯱" instead of
+	"⿵丹丶".
+
+	* IDS-UCS-Ext-B-5.txt (U-0002850D): Use "𱺵" instead of "⿱罒𪜀".
+	(U-00028C6A): Use "𮯱" instead of "⿵丹丶".
+
+	* IDS-UCS-Ext-B-4.txt (U-000262E6): Use "𱺵" instead of "⿱罒𪜀".
+
+2025-10-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-0002335F): Modify structure.
+
 2025-10-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt (U+314A1): Use "𱜢" instead of "⿱䒑巾".
