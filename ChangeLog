@@ -1,3 +1,9 @@
+2025-10-17  stephenmk  <stephenmk@users.noreply.github.com>
+
+	* IDS-UCS-Ext-B-3.txt: Fix `<CHARACTER>` for U-00025E44 in file
+	IDS-UCS-Ext-B-3.txt; The `<CHARACTER>` element was set to `𨤐`
+	(U-00028910) instead of 𥹄 (U-00025E44).
+
 2025-10-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-000218F9): Use <IDEOGRAPHIC DESCRIPTION
