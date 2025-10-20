@@ -1,5 +1,65 @@
 2025-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-0002406B): Use "兊" instead of "⿱八允".
+	(U-000240AD): Use "醉" instead of "⿰酉卒".
+	(U-000240FC): Use "⿸𣻟x" instead of "⿰氵⿱⿵戊臣x".
+	(U-00024128): Fixed.
+	(U-00024129): Fixed.
+	(U-0002416B): Use "𩆖" instead of "⿱霝令".
+	(U-0002416C): Use "𩱕" instead of "⿱兟鬲".
+	(U-000241A2): Use "仑" instead of "⿱𠆢匕".
+	(U-000241BF): Use "叏" instead of "⿱&CDP-89B3;又".
+	(U-000241C4): Use "闪" instead of "⿵门人".
+	(U-000241D7): Use "𮎛" instead of "⿱⺈巳".
+	(U-000241F7): Use U+8864 instead of <CJK RADICAL CLOTHES>.
+	(U-000241F9): Use "毕" instead of "⿱比十".
+	(U-00024214): Modify structure.
+	(U-00024224): Use "匈" instead of "⿹勹凶".
+	(U-000242B3): Use "𫨻" instead of "⿰&CDP-8C7A;殳".
+	(U-000242B5): Use U+537D instead of U-0002F830.
+	(U-000242BE): Use U+82DC instead of U-00025115.
+	(U-000242D3): Modify substructure.
+	(U-000242F3): Modify structure.
+	(U-00024361): Use "&U-i001+2FFB;乇𠈌" instead of "⿻乇⿰仌仌".
+	(U-0002438F): Use "眾" instead of "⿱皿𫡑".
+	(U-000244C8): Use U+85E5 instead of CU+85E5.
+	(U-0002450C): Use "𪺍" instead of "⿱爫⺕".
+	(U-00024540): Use "⿱𪺕x" instead of "⿳爫⿲幺幺幺x".
+	(U-0002454D): Use "⿱⿵𦃟呂x" instead of "⿳爫⿲糸呂糸x".
+	(U-00024594): Use "𮍏" instead of "⿵戊臣".
+	(U-00024693): Modify structure.
+	(U-000246D6): Use "𲨁" instead of "⿰赤殳".
+	(U-0002470B): Use "𧫏" instead of "⿱鬼言".
+	(U-0002470E): Use "龎" instead of "⿸厂龍".
+	(U-00024764): Use "戹" instead of "⿸戶乙".
+	(U-00024783): Use "岁" instead of "⿱山夕".
+	(U-00024785): Use "𠂢" instead of "⿸𠂆𧘇".
+	(U-0002478E): Use "𰗑" instead of "⿱又木".
+	(U-000247B7): Use "𡉣" instead of "⿱木土".
+	(U-000248AE): Use "㹜" instead of "⿰犬犬".
+	(U-000248B7): Use "韯" instead of "⿹𢦏韭".
+	(U-0002490F): Use "叏" instead of "⿱&CDP-89B3;又".
+	(U-0002495F): Fixed.
+	(U-00024A14): Use "𦊷" instead of "⿱⺫⿳一𠂈&CDP-8CC6;".
+	(U-00024A2A): Use "𲥿" instead of "⿱𣦼木".
+	(U-00024ADD): Modify structure.
+	(U-00024AE8): Use "𩱕" instead of "⿱兟鬲".
+	(U-00024B4D): Use "㒵" instead of "⿱白八".
+	(U-00024B58): Use "𱼧" instead of "⿰丿臣".
+	(U-00024BA3): Use "膚" instead of "⿸虍胃".
+	(U-00024C5D): Use "仝" instead of "⿱𠆢工".
+	(U-00024C66): Use "灮" instead of "⿱火儿".
+	(U-00024C6E): Completed [temporary].
+	(U-00024C70): Use "𠂢" instead of "⿸𠂆𧘇".
+	(U-00024C78): Use "𪵨" instead of "⿱厶水".
+	(U-00024C79): Use "𱰭" instead of "⿱𡿧田".
+	(U-00024C7F): Modify structure.
+	(U-0002566D): Use "𡉣" instead of "⿱木土".
+	(U-00025DEA): Use "㩥" instead of "⿰扌⿹𢦏韭".
+	(U-00025DF0): Use "瀐" instead of "⿰氵⿹𢦏韭".
+
+2025-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-5.txt (U-000294AC): Use "兊" instead of "⿱公儿".
 
 2025-10-17  stephenmk  <stephenmk@users.noreply.github.com>
