@@ -187,6 +187,7 @@ stored in the 3rd field may be regarded as functional structure.
 
 &U-i002+2FF1; <img src="https://glyphwiki.org/glyph/u2ff1-itaiji-002.50px.png" alt="U+2FF1-itaiji-002" title="U+2FF1-itaiji-002">x⿰yz = ⿺⿽xyz
 
+
 # License
 
 This package is free software; you can redistribute it and/or modify
