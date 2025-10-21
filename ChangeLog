@@ -1,5 +1,7 @@
 2025-10-17  stephenmk  <stephenmk@users.noreply.github.com>
 
+	* README.md: Add documentation for `&U-i002+2FF1;` IDC
+
 	* IDS-UCS-Ext-H.txt: Remove trailing <TAB> character from line for
 	U+31A37
 
