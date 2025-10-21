@@ -1,3 +1,12 @@
+2025-10-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+53DC): Modify structure; add an apparent
+	field.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-34819): Fixed.
+
+	* IDS-UCS-Ext-G.txt (U+3133F): Unified to one column.
+
 2025-10-17  stephenmk  <stephenmk@users.noreply.github.com>
 
 	* README.md: Add documentation for `&U-i002+2FF1;` IDC
