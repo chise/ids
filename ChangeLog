@@ -1,5 +1,13 @@
 2025-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-3.txt (U-00024221): Use "𡵉" instead of "⿱山兀".
+	(U-00024225): Use U+7680 instead of UU+7680.
+	(U-0002422B): Modify substructure.
+	(U-0002490E): Use U+7236 instead of g2-KU+7236.
+	(U-00024A29): Use U+7F9E instead of JU+7F9E.
+
+2025-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-3.txt (U-0002406B): Use "兊" instead of "⿱八允".
 	(U-000240AD): Use "醉" instead of "⿰酉卒".
 	(U-000240FC): Use "⿸𣻟x" instead of "⿰氵⿱⿵戊臣x".
