@@ -1,3 +1,11 @@
+2025-10-17  stephenmk  <stephenmk@users.noreply.github.com>
+
+	* IDS-UCS-Ext-H.txt: Remove trailing <TAB> character from line for
+	U+31A37
+
+	* IDS-UCS-Ext-G.txt: Use <TAB> separator between IDS elements for
+	U+3133F
+
 2025-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-00024221): Use "𡵉" instead of "⿱山兀".
