@@ -880,14 +880,14 @@ U+516D	六	⿱亠&GT-K00059;
 U+516E	兮	⿱八丂
 U+516F	兯	⿱丷𰆊
 U+5170	兰	⿱丷三
-U+5171	共	⿱卄&GT-K00264;	@apparent=⿱龷&GT-K00059;
+U+5171	共	⿱卄𬺢	@apparent=⿱龷&GT-K00059;
 U+5172	兲	⿱王八
 U+5173	关	⿱䒑大	@apparent=⿱丷天
-U+5174	兴	⿱𭕄&GT-K00264;
-U+5175	兵	⿱斤&GT-K00264;	@apparent=⿱丘八
-U+5176	其	⿱&CDP-88C8;&GT-K00264;	@apparent=⿱&CDP-8B72;&GT-K00059;
-U+5177	具	⿱目&GT-K00264;	@apparent=⿱&CDP-8BA5;&GT-K00059;
-U+5178	典	⿱&U-i001+20541;&GT-K00264;	@apparent=⿱&CDP-89E0;&GT-K00059;
+U+5174	兴	⿱𭕄𬺢
+U+5175	兵	⿱斤𬺢	@apparent=⿱丘八
+U+5176	其	⿱&CDP-88C8;𬺢	@apparent=⿱&CDP-8B72;&GT-K00059;
+U+5177	具	⿱目𬺢	@apparent=⿱&CDP-8BA5;&GT-K00059;
+U+5178	典	⿱&U-i001+20541;𬺢	@apparent=⿱&CDP-89E0;&GT-K00059;
 U+5179	兹	⿱䒑𢆶
 U+517A	兺	⿱分叱
 U+517B	养	⿱⿱䒑夫&CDP-89AB;
@@ -1499,7 +1499,7 @@ U+53D8	变	⿱亦又
 U+53D9	叙	⿰余又
 U+53DA	叚	⿰&CDP-8C7A;&CDP-8C79;
 U+53DB	叛	⿰半反
-U+53DC	叜	⿳宀火又
+U+53DC	叜	⿱灾又	@apparent=⿱宀𤆌
 U+53DD	叝	⿰去𠬝
 U+53DE	叞	⿰𫵖又
 U+53DF	叟	⿱𦥔又
