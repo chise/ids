@@ -1,3 +1,71 @@
+2025-10-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt:
+	- Use U+5F61 instead of <KANGXI RADICAL BRISTLE>.
+	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
+	- Use U+4E00 instead of <KANGXI RADICAL ONE>.
+	- Use U+722B instead of <CJK RADICAL PAW ONE>.
+	- Use U+706C instead of <CJK RADICAL FIRE>.
+	- Use U+4E3F instead of <KANGXI RADICAL SLASH>.
+	- Use U+7389 instead of <KANGXI RADICAL JADE>.
+	- Use U+76EE instead of <KANGXI RADICAL EYE>.
+	- Use U+77F3 instead of <KANGXI RADICAL STONE>.
+	(U+3190A): Use U+6728 instead of <KANGXI RADICAL TREE>.
+	(U+31982): Use U+5B50 instead of <KANGXI RADICAL CHILD>.
+	(U+319BF): Use U+5B80 instead of <KANGXI RADICAL ROOF>.
+	(U+319CC): Use U+6728 instead of <KANGXI RADICAL TREE>.
+	(U+319DD): Modify structure.
+	(U+31A1F): Modify substructure; use U+65B9 instead of <KANGXI
+	RADICAL SQUARE>.
+	(U+31A23): Modify structure.
+	(U+31A24): Modify substructure.
+	(U+31A25): Modify substructure; use U+53B6 instead of <KANGXI
+	RADICAL PRIVATE>.
+	(U+31A2B): Modify substructure.
+	(U+31A37): Use U+751F instead of <KANGXI RADICAL LIFE>.
+	(U+31A3E): Modify substructure.
+	(U+31A45): Use U+5341 instead of <KANGXI RADICAL TEN>.
+	(U+31A46): Modify structure.
+	(U+31A84): Modify structure.
+	(U+31A86): Modify substructure.
+	(U+31A8A): Modify substructure.
+	(U+31A8B): Modify substructure.
+	(U+31AE3): Use U+4E36 instead of <KANGXI RADICAL DOT>.
+	(U+31AF0): Modify structure.
+	(U+31AF6): Modify substructure.
+	(U+31B3E): Use "𥄃" instead of "⿱爫目".
+	(U+31B55): Modify substructure; use U+51F5 instead of <KANGXI
+	RADICAL OPEN BOX>.
+	(U+31B57): Modify structure.
+	(U+31B58): Modify structure.
+	(U+31BB2): Use U+7384 instead of <KANGXI RADICAL PROFOUND>.
+	(U+31BED): Modify structure.
+	(U+31BF7): Use U+6208 instead of <KANGXI RADICAL HALBERD>.
+	(U+31C03): Use U+5196 instead of <KANGXI RADICAL COVER>.
+	(U+31C32): Modify structure; add an apparent field based on the
+	previous IDS.
+	(U+31C90): Use U+76BF instead of <KANGXI RADICAL DISH>.
+	(U+31C91): Likewise.
+	(U+31CA8): Modify structure; use U+5C0F instead of <KANGXI RADICAL
+	SMALL>.
+	(U+31CB5): Use "𲞹" instead of "⿱⼂平".
+	(U+31CB6): Use U+793B instead of <CJK RADICAL SPIRIT TWO>.
+	(U+31CBB): Modify structure.
+	(U+31CC1): Modify structure.
+	(U+31D09): Use U+77F3 instead of <KANGXI RADICAL STONE>.
+	(U+31D23): Likewise.
+	(U+31ED1): Use U+7F8A instead of <KANGXI RADICAL SHEEP>.
+	(U+31EE9): Modify structure.
+	(U+31F43): Use U+821F instead of <KANGXI RADICAL BOAT>.
+	(U+32076): Use U+8A00 instead of <KANGXI RADICAL SPEECH>.
+	(U+3209A): Use U+8C37 instead of <KANGXI RADICAL VALLEY>.
+	(U+3209C): Likewise.
+	(U+320A9): Use U+6236 instead of <KANGXI RADICAL DOOR>; use U+8C9D
+	instead of <KANGXI RADICAL SHELL>.
+	(U+320FC): Use U+8DB3 instead of <KANGXI RADICAL FOOT>.
+	(U+321E8): Use U+91D1 instead of <KANGXI RADICAL GOLD>.
+	(U+32328): Use U+9B3C instead of <KANGXI RADICAL GHOST>.
+
 2025-10-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt (U+2DC9E): Modify substructure.
