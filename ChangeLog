@@ -1,3 +1,7 @@
+2025-10-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+704B): Use "⿸𣿕x" instead of "⿰氵⿸廌x".
+
 2025-10-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt:
@@ -23,7 +27,7 @@
 	RADICAL PRIVATE>.
 	(U+31A2B): Modify substructure.
 	(U+31A37): Use U+751F instead of <KANGXI RADICAL LIFE>.
-	(U+31A3E): Modify substructure.
+	(U+31A3E): Modify substructure.3
 	(U+31A45): Use U+5341 instead of <KANGXI RADICAL TEN>.
 	(U+31A46): Modify structure.
 	(U+31A84): Modify structure.
