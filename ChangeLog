@@ -1,5 +1,12 @@
 2025-10-26  stephenmk  <stephenmk@users.noreply.github.com>
 
+	* (U-000218D8 and others): Use U-0002B387 instead of ⿱&CDP-85F0;冡
+	M	IDS-UCS-Ext-B-1.txt
+	M	IDS-UCS-Ext-B-2.txt
+	M	IDS-UCS-Ext-B-4.txt
+
+2025-10-26  stephenmk  <stephenmk@users.noreply.github.com>
+
 	* (U+5518 and others): Use U+32CCA instead of "⿰石又"
 	M	IDS-UCS-Basic.txt
 	M	IDS-UCS-Ext-A.txt
