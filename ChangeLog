@@ -1,3 +1,14 @@
+2025-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A652): Fixed.
+
+	* IDS-UCS-Ext-B-5.txt (U-00028ABA): Fixed.
+	(U-00028EAD): Fixed.
+	(U-0002992A): Fixed.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026FBB): Use U+396F instead of CU+396F.
+	(U-0002778E): Likewise.
+
 2025-10-26  stephenmk  <stephenmk@users.noreply.github.com>
 
 	* (U-000218D8 and others): Use U-0002B387 instead of ⿱&CDP-85F0;冡
