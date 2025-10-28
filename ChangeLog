@@ -1,3 +1,13 @@
+2025-10-26  stephenmk  <stephenmk@users.noreply.github.com>
+
+	* (U+5518 and others): Use U+32CCA instead of "⿰石又"
+	M	IDS-UCS-Basic.txt
+	M	IDS-UCS-Ext-A.txt
+	M	IDS-UCS-Ext-B-2.txt
+	M	IDS-UCS-Ext-B-3.txt
+	M	IDS-UCS-Ext-B-4.txt
+	M	IDS-UCS-Ext-H.txt
+
 2025-10-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+704B): Use "⿸𣿕x" instead of "⿰氵⿸廌x".
