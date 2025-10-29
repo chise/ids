@@ -1,5 +1,7 @@
 2025-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-CDP.txt (CDP-8856): Use "&U-i001+2FF1;C⿰LR" instead of "⿸⿹CLR".
+
 	* IDS-UCS-Ext-B-6.txt (U-0002A652): Fixed.
 
 	* IDS-UCS-Ext-B-5.txt (U-00028ABA): Fixed.
