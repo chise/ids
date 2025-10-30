@@ -1,3 +1,7 @@
+2025-10-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt: Use U-0002CF09 instead of BC-88DA.
+
 2025-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-CDP.txt (CDP-8856): Use "&U-i001+2FF1;C⿰LR" instead of "⿸⿹CLR".
