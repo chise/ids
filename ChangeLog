@@ -1,3 +1,36 @@
+2025-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00020019): Use "𰀃" instead of "⿱一冂".
+	(U-0002009C): Use U-0003193B instead of BC-88B1.
+	(U-000200C3): Use "卮" instead of "⿸𠂋㔾".
+	(U-000200F0): Use "乆" instead of "⿰𠂈乀".
+	(U-000200F4): Use "育" instead of "⿱𠫓⺼".
+	(U-000200FE): Modify structure.
+	(U-00020102): Use <CJK RADICAL SECOND TWO> instead of U+4E5A.
+	(U-00020115): Use "𰁒" instead of "⿰了了".
+	(U-000201DD): Use "𠮡" instead of "⿱口二".
+	(U-000201FE): Use "𣎶" instead of "⿱木一".
+	(U-00020216): Use "𠔉" instead of "⿻夫八".
+	(U-00020271): Use "房" instead of "⿸戶方".
+	(U-00020278): Use "𦙟" instead of "⿱文月".
+	(U-000202AB): Modify structure.
+	(U-000202C3): Modify structure.
+	(U-000202CB): Modify substructure.
+	(U-000202D3): Use "⿱尒x" instead of "⿳𠆢小x".
+	(U-0002030F): Use "舛" instead of "⿰夕㐄".
+	(U-00020347): Use "𲥿" instead of "⿱𣦼木".
+	(U-0002038F): Use "肿" instead of "⿰月中".
+	(U-00020394): Use "犇" instead of "⿱牛⿰牛牛".
+	(U-000204A8): Use U+5145 instead of U+FA74.
+	(U-000204A9): Use U+5145 instead of U+FA74.
+	(U-00020644): Use "𬼈" instead of "⿶凵千".
+	(U-00020655): Use "𠰕" instead of "⿱出口".
+	(U-00020683): Modify structure.
+	(U-0002090E): Delete IDS; preserve the previous IDS as an apparent
+	structure.
+	(U-000211C9): Use "𠮡" instead of "⿱口二".
+	(U-00021D27): Modify structure.
+
 2025-10-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt: Use U-0003193B instead of BC-88B1.
