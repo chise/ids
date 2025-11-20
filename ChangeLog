@@ -1,3 +1,17 @@
+2025-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00022FA8): Modify structure.
+	(U-00022FAC): Use "𰞚" instead of "⿱&CDP-8BAE;灰".
+	(U-0002365C): Use "寉" instead of "⿱宀隹".
+	(U-00023660): Use U+7F52 instead of <CJK RADICAL EYE>; use U+7070
+	instead of U-0002F835.
+	(U-00023663): Use "㝠" instead of "⿳宀日六".
+	(U-00023664): Use "减" instead of "⿰冫咸".
+	(U-00023668): Use "𤿤" instead of "⿱竹皮".
+
+	* IDS-UCS-Ext-B-3.txt (U-0002587C): Fixed.
+	(U-000259C8): Fixed.
+
 2025-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020019): Use "𰀃" instead of "⿱一冂".
