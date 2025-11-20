@@ -1,5 +1,14 @@
 2025-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-J.txt (U+32CBB): Fixed.
+	(U+32CC0): Fixed.
+	(U+3314B): Fixed.
+
+	* IDS-UCS-Ext-B-3.txt (U-000259C5): Use U-00027D26 instead of
+	CU+27D26.
+
+2025-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* IDS-UCS-Ext-B-2.txt (U-00022FA8): Modify structure.
 	(U-00022FAC): Use "𰞚" instead of "⿱&CDP-8BAE;灰".
 	(U-0002365C): Use "寉" instead of "⿱宀隹".
