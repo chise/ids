@@ -1,3 +1,12 @@
+2025-11-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023465): Use "𦒱" instead of "⿱耂丁".
+	(U-00023486): Use U+58F2 instead of U+58F3.
+	(U-000234BA): Use "杘" instead of "⿸尸木".
+	(U-000234BB): Use "𲨔" instead of "⿹气土".
+	(U-000234C2): Use "备" instead of "⿱夂田".
+	(U-000234CD): Use "冐" instead of "⿱⺜⺼".
+
 2025-11-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-J.txt (U+32CBB): Fixed.
