@@ -1,3 +1,24 @@
+2025-12-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000225E5): Use "弌" instead of "⿹弋一".
+	(U-0002278E): Use U-00024C07 instead of IU+24C07.
+	(U-00022791): Use "𢀡" instead of "⿱左左".
+	(U-000235B8): Use "𲟆" instead of "⿸广辛".
+	(U-000235BE): Use U-00024C07 instead of IU+24C07.
+	(U-000235BF): Use "𧴮" instead of "⿹弋貝".
+	(U-000235C3): Use "㭬" instead of "⿰木豕".
+	(U-000235DA): Modify structure.
+	(U-000235DC): Modify structure.
+	(U-000235DF): Use "𥘾" instead of "⿱𡗜示".
+	(U-000235E2): Modify structure.
+	(U-000235E9): Use "荖" instead of "⿱艹老".
+	(U-000235F4): Use "𠧸" instead of "⿴占必".
+	(U-00023615): Use "𡨦" instead of "⿱宀帚".
+	(U-00023F1E): Modify structure.
+	(U-00023F21): Use "𡨦" instead of "⿱宀帚".
+	(U-00023F22): Use "䎆" instead of "⿱羽令".
+	(U-00023F24): Use "𥒐" instead of "⿱圭石".
+
 2025-11-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023465): Use "𦒱" instead of "⿱耂丁".
