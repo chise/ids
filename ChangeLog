@@ -1,3 +1,11 @@
+2025-12-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-00023617): Use U+533F instead of CU+533F.
+	(U-00023636): Use "夲" instead of "⿵大十".
+	(U-0002364A): Use "𮏄" instead of "⿱艹困".
+	(U-00023656): Use "𫁹" instead of "⿱竹匝".
+	(U-00023673): Modify structure.
+
 2025-12-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000225E5): Use "弌" instead of "⿹弋一".
