@@ -1,3 +1,12 @@
+2026-01-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-15502): Modify structure.
+	(SW-JIGUGE-15503): Modify structure.
+	(SW-JIGUGE-15507): Completed.
+
+	* IDS-UCS-Ext-B-5.txt (U-00029341): Use "𤰈" instead of
+	"⿱艹⿹勹用".
+
 2025-12-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023617): Use U+533F instead of CU+533F.
