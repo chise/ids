@@ -7,6 +7,9 @@
 	* IDS-UCS-Ext-B-5.txt (U-00029341): Use "𤰈" instead of
 	"⿱艹⿹勹用".
 
+	* IDS-UCS-Ext-B-3.txt (U-000247F6): Use "⿽肰x" instead of
+	"⿰⿱x月犬".
+
 2025-12-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00023617): Use U+533F instead of CU+533F.
