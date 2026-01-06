@@ -1,3 +1,10 @@
+2026-01-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-2.txt (U-000227E1): Use "𤰈" instead of
+	"⿱艹⿹勹用".
+	(U-000227EB): Use "㝠" instead of "⿳宀日六".
+	(U-000227ED): Use "𡨥" instead of "⿱宀⿺元攵".
+
 2026-01-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-15502): Modify structure.
