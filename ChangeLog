@@ -1,3 +1,14 @@
+2026-01-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U-00032E8B instead of BC-8CA9.
+	(U-000270DA): Use "膸" instead of "⿰⺼遀".
+	(U-00027C64): Fixed.
+	(U-00027C81): Use "𧱈" instead of "⿳彑八豕".
+	(U-00027C88): Use U+9040 instead of CU+9040.
+	(U-00027C95): Use "𧰷" instead of "⿰豕母".
+	(U-00027C97): Modify structure; add an apparent field based on the
+	previous IDS.
+
 2026-01-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-000227E1): Use "𤰈" instead of
