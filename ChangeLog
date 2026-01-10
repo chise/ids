@@ -1,3 +1,13 @@
+2026-01-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U+3687 instead of CU+3687.
+	(U-000265B3): Use "𦥚" instead of "⿱⿻臼丨丂".
+	(U-000265B6): Completed [temporary].
+	(U-000265B9): Use "𤇘" instead of "⿱夗灬".
+	(U-00026A5E): Use U+4FDE instead of UU+4FDE.
+	(U-000270DD): Use U+919C instead of JU+919C.
+	(U-00027C6C): Use U+4FDE instead of UU+4FDE.
+
 2026-01-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U-00032E8B instead of BC-8CA9.
