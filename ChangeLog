@@ -1,3 +1,10 @@
+2026-01-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-000270DC): Modify substructure.
+	(U-000270DF): Use U+7FFC instead of UU+7FFC.
+	(U-000270E2): Use "𧇽" instead of "⿸虍異".
+	(U-00027F2E): Use U+661C instead of UU+661C.
+
 2026-01-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U+3687 instead of CU+3687.
