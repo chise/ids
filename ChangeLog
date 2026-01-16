@@ -1,3 +1,10 @@
+2026-01-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026BDE): Modify structure.
+	(U-00026BED): Use "𲏘" instead of "⿺𠃊㠯".
+	(U-00026BF0): Modify structure.
+	(U-00026CC5): Use "𢈔" instead of "⿸广&CDP-89E7;".
+
 2026-01-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000270DC): Modify substructure.
