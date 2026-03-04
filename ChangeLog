@@ -1,3 +1,22 @@
+2026-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+8827): Modify structure; preserve the
+	previous IDS as an apparent structure.
+	(U+882B): Use "𭃤" instead of "⿰豸刂".
+	(U+8F61): Modify structure.
+
+2026-02-26  stephenmk  <stephenmk@users.noreply.github.com>
+
+	* IDS-UCS-Basic.txt (U+5C06): Use "𪧷" instead of "⿱夕寸"
+	(U+5C2D): Use "𠦄" instead of "⿱十卄"
+	(U+7363): Use "𲰶" instead of "⿱田一"
+	(U+7575): Use "𰢵" instead of "⿶凵田"
+	(U+7B8D): Use "㧜" instead of "⿰扌匝"
+	(U+8827): Use "𬒣" instead of "⿱石䖵"
+	(U+8F5F): Use "䡛" instead of "⿰車車"
+	
+	* IDS-UCS-Ext-B-2.txt (U-00022DE1): Use "𭫒" instead of "⿱𰀕木"
+
 2026-02-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020117): Use "⿵𱖆x" instead of
