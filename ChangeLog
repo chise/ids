@@ -1,5 +1,9 @@
 2026-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-B-2.txt (U-00022DDA): Modify structure.
+	(U-00022DDD): Use "𰢱" instead of "⿰用用".
+	(U-00022E2F): Use "⿶&CDP-8BA8;x" instead of "⿻&CDP-8BA8;x".
+
 	* IDS-UCS-Basic.txt (U+8827): Modify structure; preserve the
 	previous IDS as an apparent structure.
 	(U+882B): Use "𭃤" instead of "⿰豸刂".
