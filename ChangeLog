@@ -1,4 +1,21 @@
+2026-03-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026989): Modify structure; add an
+	apparent field based on the previous IDS.
+
+	* IDS-UCS-Ext-B-1.txt (U-000203E4): Modify structure.
+
+	* IDS-UCS-Ext-A.txt (U+3BEF): Modify structure.
+
+2026-03-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-44316): Modify structure.
+
 2026-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-JIS-X0208-1990.txt: Various changes.
+	(J90-3725): Modify structure.
+	(J90-5860): Add IDS.
 
 	* IDS-UCS-Ext-B-3.txt: Use "𠔽" instead of "⿵冂冂".
 	(U-00025317): Use "㓁" instead of "⿱冖八".
@@ -28,6 +45,13 @@
 	(U-00025D82): Use "箕" instead of "⿱竹其".
 
 2026-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-5.txt (U-0002861A): Use "⿱⿱𥄕冖x" instead of
+	"⿳卝目⿱冖x".
+	(U-00028622): Use "𦤝" instead of "⿳自穴⿵冂冂".
+	(U-00028651): Modify structure.
+	(U-00028662): Use "𥵸" instead of "⿳竹自⿱㓁⿵冂冂".
+	(U-00028666): Use "𩦛" instead of "⿰𡍮馬".
 
 	* IDS-UCS-Ext-B-2.txt (U-00022DDA): Modify structure.
 	(U-00022DDD): Use "𰢱" instead of "⿰用用".
