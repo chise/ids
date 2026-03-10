@@ -1,7 +1,33 @@
+2026-03-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025310): Use "𢞭" instead of "⿱留心".
+	(U-00025318): Modify structure.
+	(U-00025A38): Use "𲹧" instead of "⿰耒咼".
+	(U-00025D36): Modify structure.
+	(U-00025D3E): Use "㙛" instead of "⿰土尃".
+	(U-00025D92): Use "⿱x㷠" instead of "⿳x炎舛".
+	(U-00025D95): Modify structure.
+	(U-00025D96): Use "⿱x𦋺" instead of "⿳x⺫剡".
+	(U-00025D9A): Use "⿱𥮏x" instead of "⿳竹典x".
+	(U-00025D9F): Modify structure.
+	(U-00025DA0): Use "槮" instead of "⿰木參".
+	(U-00025DA4): Use "𲹧" instead of "⿰耒咼".
+	(U-00025DA5): Use "樋" instead of "⿰木通".
+	(U-00025DA7): Modify structure.
+	(U-00025DA8): Use "螂" instead of "⿰虫郎".
+	(U-00025DB6): Use "𰏮" instead of "⿰幸匊".
+	(U-00025DB8): Use "甎" instead of "⿰專瓦".
+	(U-00025DD3): Use "餒" instead of "⿰食妥".
+	(U-00025DE6): Modify structure.
+	(U-00025DE7): Use "濯" instead of "⿱羽隹".
+	(U-00025DF7): Modify substructure.
+	(U-00025DFB): Use "⿱x𩄲" instead of "⿳x雨迷".
+	(U-00025DFF): Use "𤳯" instead of "⿰甾庶".
+	(U-00025E0A): Use "顡" instead of "⿰豙頁".
+
 2026-03-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-4.txt (U-00026989): Modify structure; add an
-	apparent field based on the previous IDS.
+	* IDS-UCS-Basic.txt (U+885E): Use "𮧮" instead of "⿳𫝀口帀".
 
 	* IDS-UCS-Ext-B-1.txt (U-000203E4): Modify structure.
 
@@ -10,6 +36,9 @@
 2026-03-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-44316): Modify structure.
+
+	* IDS-UCS-Ext-B-4.txt (U-00026989): Modify structure; add an
+	apparent field based on the previous IDS.
 
 2026-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
