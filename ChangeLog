@@ -1,5 +1,8 @@
 2026-03-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Compat-Supplement.txt (U-0002F8B2): Modify structure;
+	preserve the previous IDS as an apparent structure.
+
 	* IDS-UCS-Ext-B-3.txt (U-00025310): Use "𢞭" instead of "⿱留心".
 	(U-00025318): Modify structure.
 	(U-00025A38): Use "𲹧" instead of "⿰耒咼".
