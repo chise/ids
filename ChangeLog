@@ -1,3 +1,17 @@
+2026-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-000244E2): Use "曩" instead of "⿱日襄".
+	(U-00025E01): Use U+96E3 instead of JU+96E3.
+	(U-00025E03): Modify substructure.
+	(U-00025E06): Use "臘" instead of "⿰月巤".
+	(U-00025E07): Modify structure.
+	(U-00025E0B): Use "⿱x𥽂" instead of "⿳x毀米".
+	(U-00025E0C): Use "䨇" instead of "⿰隻隻".
+	(U-00025E12): Use "⿱x曩" instead of "⿳x日襄".
+	(U-00025E16): Fixed.
+	(U-00025E18): Use "𱪘" instead of "⿰氵矍".
+	(U-00025E1E): Use "䶞" instead of "⿰齒其".
+
 2026-03-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Compat-Supplement.txt (U-0002F8B2): Modify structure;
