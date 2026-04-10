@@ -1,3 +1,17 @@
+2026-04-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-6.txt (U-0002A5C4): Modify structure.
+
+2026-03-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-3.txt (U-00025E0E): Use U+9A30 instead of JU+9A30.
+	(U-00025E0F): Modify structure.
+	(U-00025E66): Use "汛" instead of "⿰氵⿹⺄㐅".
+
+2026-03-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-06113): Completed.
+
 2026-03-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-3.txt (U-000244E2): Use "曩" instead of "⿱日襄".
