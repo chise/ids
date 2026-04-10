@@ -20809,7 +20809,7 @@ U+9F46	齆	⿰鼻邕
 U+9F47	齇	⿰鼻虘
 U+9F48	齈	⿰鼻農
 U+9F49	齉	⿰鼻囊
-U+9F4A	齊	⿱&CDP-8DEB;&CDP-89C6;
+U+9F4A	齊	&U-i001+2FF1;⿱亠丫⿱⿰刀𱍸&CDP-89C6;	@apparent=⿱&CDP-8DEB;&CDP-89C6;
 U+9F4B	齋	⿵齊小
 U+9F4C	齌	⿵齊火
 U+9F4D	齍	⿱齊皿
