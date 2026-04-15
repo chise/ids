@@ -1,3 +1,8 @@
+2026-04-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt: Use U+34C1 instead of <CJK RADICAL NET
+	FOUR>.
+
 2026-04-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-F.txt: Use U-00032ECB instead of U+8201-itaiji-001.
