@@ -1,3 +1,12 @@
+2026-04-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-F.txt: Use U-00032ECB instead of U+8201-itaiji-001.
+	(U+2EBBA): Modify structure.
+	(U+2EBBB): Modify structure.
+	(U+2EBBC): Modify structure.
+
+	* IDS-SW-JIGUGE.txt (SW-JIGUGE-42707): Completed.
+
 2026-04-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+9F4A): Modify structure; preserve the
