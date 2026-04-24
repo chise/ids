@@ -732,7 +732,7 @@ U+2BAF9	𫫹	⿰吞彦
 U+2BAFA	𫫺	⿰口聘
 U+2BAFB	𫫻	⿰口萱
 U+2BAFC	𫫼	⿰口罨
-U+2BAFD	𫫽	⿰䜭圣
+U+2BAFD	𫫽	⿸㕡土	@apparent=⿰䜭圣
 U+2BAFE	𫫾	⿰口频
 U+2BAFF	𫫿	⿰口鈴
 U+2BB00	𫬀	⿰口躲
