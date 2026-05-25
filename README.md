@@ -179,85 +179,107 @@ stored in the 3rd field may be regarded as functional structure.
 In many cases, apparent structures are automatically converted from
 functional structures by the following set of conversion rules:
 
-111: ⿸⿰LRB -> ⿰L⿱RB
+- 111: ⿸⿰LRB -> ⿰L⿱RB
+	e.g. 㫅:	⿸㫃亓 <-> ⿰方⿱&A-IWDSU+4EBA;亓
 
-112: ⿸⿲亻丨RB -> ⿰&CDP-8B7A;⿱RB
+- 112: ⿸⿲亻丨RB -> ⿰&CDP-8B7A;⿱RB
 
-121: ⿸⿱ATR -> ⿱A⿸TR if T is enc
+- 121: ⿸⿱ATR -> ⿱A⿸TR if T is enc
+	(T = 𠂇, 厂, 丆, 𠁣, &CDP-88E2;, &CDP-88AD;, <&A-CDP-8766;/&CDP-i001-8766;>, 尸, &U-i001+2E282;, ⿸XY, ...)
+	e.g. 亷:	⿸产&CDP-8CDE; <-> ⿱&A-compU+6587;⿸厂&CDP-8CDE;
 
-122: ⿸⿱ADR -> ⿱A⿰DR if D is non-enc
+- 122: ⿸⿱ADR -> ⿱A⿰DR if D is non-enc
+	e.g. 㝥:	⿸𪧇米 <-> ⿱宀⿰&A-IWDSU+723F;米
 
-131: ⿸⿸ELR -> ⿸E⿰LR if L = 彳
+- 131: ⿸⿸ELR -> ⿸E⿰LR if L = 彳
+	e.g. 屜:	⿸&U-i002+5C65;世 <-> ⿸尸⿰彳世
 
-132: ⿸⿸EAB -> ⿸E⿱AB	if A = non 彳
+- 132: ⿸⿸EAB -> ⿸E⿱AB	if A = non 彳
+	e.g. 㞙:	⿸尾水 <-> ⿸尸⿱毛水
 
-141: ⿸⿹⿱AMLR -> ⿱A⿲LMR
+- 141: ⿸⿹⿱AMLR -> ⿱A⿲LMR
+	e.g. 𭐱:	⿱⿸⿹首止&A-compU+5DF1;&A-compU+5902; <-> ⿱⿱䒑⿲止自&A-compU+5DF1;&A-compU+5902;
 
-210: ⿹⿰LRB -> ⿰⿱LBR
+- 210: ⿹⿰LRB -> ⿰⿱LBR
+	e.g. 㕡:	⿹𣦻&A-IWDSU+8C37; <-> ⿰⿱𣦵&A-IWDSU+8C37;又
 
-220: ⿹⿱ARL -> ⿱A⿰LR
+- 220: ⿹⿱ARL -> ⿱A⿰LR
+	e.g. 命:	⿹⿱&IWDS1-064;卩口 -> ⿱&IWDS1-064;⿰口卩
 
-310: ⿽⿺LRA -> ⿺⿱ALR
+- 310: ⿽⿺LRA -> ⿺⿱ALR
+	e.g. 㽔:	⿽甤&CDP-85F0; <-> ⿺⿱&CDP-85F0;豕生
 
-320: ⿽⿱ABL -> ⿱⿰LAB
+- 320: ⿽⿱ABL -> ⿱⿰LAB
+	e.g. 㭍:	⿽𣎽&A-IWDSU+4E8C; <-> ⿱⿰&A-IWDSU+4E8C;&A-IWDSU+4E03;木
 
-330: ⿽⿰LRA -> ⿰⿱ALR
+- 330: ⿽⿰LRA -> ⿰⿱ALR
+	e.g. 𭤁:	⿽𰕆白 -> ⿰⿱白方攴
 
-411: ⿴⿱AEM -> ⿱A⿴EM	if E=囗/彑/西/<&A-CDP-87A5;>
-
-412: ⿴⿱A凵M -> ⿱A⿶凵M
-
-413: ⿴⿱<𰃦>BM -> ⿱⿵<𰃦>MB
-
-414: ⿴⿱ABM -> ⿱A⿱MB
-
-415: ⿴⿳AEBC -> ⿱⿱A⿴ECB if E=囗 (⿳AEB=&U-i002+675F;)
-
-416: ⿴⿳AHBC -> ⿱⿱⿱AHCB if H=冖
-
-417: ⿴⿳A𰀪BC -> ⿱A⿸⿱C𰀪B
-
-421:  ⿴⿰AAC -> ⿲ACA
-
-422:  ⿴⿰LRC -> ⿰L⿰CR
-
-511: ⿶⿱⿰LRBA -> ⿱⿲LARB
-
-512: ⿶⿳⿰LRMBA -> ⿳⿲LARMB
-
-530: ⿶⿴⿰LRCA -> ⿲L⿱ACR
-
-601: ⿵⿱AKC -> ⿱A⿵KC	if K = 構え
-	例： 𧖔	⿵𨳌蟲 <-> ⿱𠄟⿵門蟲
-
-611: ⿵⿱A⿰LRC -> ⿱A⿲LCR
-
-612: ⿵⿳AM⿰LRC -> ⿳AM⿲LCR
-
-613: ⿵⿱A⿱M⿰LRC -> ⿳AM⿲LCR
-
-614: ⿵⿱A⿲LMRC -> ⿱A⿲L⿱MCR
-
-620: ⿵⿲AMRC -> ⿲A⿱MCR
-
-640: ⿵⿵EML -> ⿵E⿱ML
-
-710: ⿷⿺NAC -> ⿺N⿱AC
-
-720: ⿷⿸TLC - > ⿸T⿺LC
-
-730: ⿷⿱⿱AMBC -> ⿳A⿰MCB
-
-811: ⿺⿱𠃊BC -> ⿱⿺𠃊CB
-
-812: ⿺⿱木B丶 -> ⿱⿺木丶B
-
-813: ⿺⿱LBC -> ⿱⿰LCB if B is 灬/日/曰/心/𡈼/壬/王/&A-compU+7389;/一/𱥯/大/犬
+- 411: ⿴⿱AEM -> ⿱A⿴EM	if E=囗/彑/西/<&A-CDP-87A5;>
+	e.g. 卤:	⿴占㐅 <-> ⿱⺊⿴囗㐅
 
 
-1011: &U-i002+2FF1;⿰LR⿱AB -> ⿱⿲LARB
+- 412: ⿴⿱A凵M -> ⿱A⿶凵M
 
-1141: &U-i001+2FF1;⿱AB⿰LR -> ⿱A⿲LBR
+- 413: ⿴⿱<𰃦>BM -> ⿱⿵<𰃦>MB
+
+- 414: ⿴⿱ABM -> ⿱A⿱MB
+
+- 415: ⿴⿳AEBC -> ⿱⿱A⿴ECB if E=囗 (⿳AEB=&U-i002+675F;)
+
+- 416: ⿴⿳AHBC -> ⿱⿱⿱AHCB if H=冖
+
+- 417: ⿴⿳A𰀪BC -> ⿱A⿸⿱C𰀪B
+
+- 421:  ⿴⿰AAC -> ⿲ACA
+
+- 422:  ⿴⿰LRC -> ⿰L⿰CR
+
+- 511: ⿶⿱⿰LRBA -> ⿱⿲LARB
+	e.g. 䰞:	⿶𩰲者 <-> ⿱⿲弓者弓鬲
+
+- 512: ⿶⿳⿰LRMBA -> ⿳⿲LARMB
+
+- 530: ⿶⿴⿰LRCA -> ⿲L⿱ACR
+
+- 601: ⿵⿱AKC -> ⿱A⿵KC	if K = <character surround from above>
+	e.g. 𧖔:	⿵𨳌蟲 <-> ⿱𠄟⿵門蟲
+
+- 611: ⿵⿱A⿰LRC -> ⿱A⿲LCR
+	e.g. 嬴:	⿵&A-compU+23386;女 <-> ⿱吂⿲&A-compU+6708;女&A-IWDSU+51E1;
+
+- 612: ⿵⿳AM⿰LRC -> ⿳AM⿲LCR
+
+- 613: ⿵⿱A⿱M⿰LRC -> ⿳AM⿲LCR
+	e.g. 𡫙: ⿵⿱宀⿱⿰工工⿰又又仌 <-> ⿳宀⿰工工⿲又仌又
+
+- 614: ⿵⿱A⿲LMRC -> ⿱A⿲L⿱MCR
+	e.g. &U-i002+8D0F;(𬖊):	⿵⿱𠫓⿲月口凡貝 <-> ⿱𠫓⿲月員凡
+
+- 620: ⿵⿲AMRC -> ⿲A⿱MCR
+
+- 640: ⿵⿵EML -> ⿵E⿱ML
+	e.g. 開:	⿵閂廾 -> ⿵門开
+
+- 710: ⿷⿺NAC -> ⿺N⿱AC
+
+- 720: ⿷⿸TLC - > ⿸T⿺LC
+	e.g. 𣅦:	⿷仄日 -> ⿸厂⿺人日
+
+- 730: ⿷⿱⿱AMBC -> ⿳A⿰MCB
+	e.g. 寶:	⿷𡪓&A-IWDSU+7F36; -> ⿳宀珤貝
+
+- 811: ⿺⿱𠃊BC -> ⿱⿺𠃊CB
+
+- 812: ⿺⿱木B丶 -> ⿱⿺木丶B
+
+- 813: ⿺⿱LBC -> ⿱⿰LCB if B is 灬/日/曰/心/𡈼/壬/王/&A-compU+7389;/一/𱥯/大/犬 (B is not 豕/八/儿/龰/乂/又/&A-compU+590A;/⿺儿厶/夂/&CDP-8D46;/艮/&J97-5238;/巴/兀/&A-compU+51E0;/&CDP-8BCB;/元/兄/𫶧/电/电/⿰亻&CDP-89F3;/&A-IWDSU+4E03;/光/鬼/攴/𤴓/毛/龰/𠂡/&A-CDP-8661;/黽/乙/&CDP-85C0;/竜/&U-i004+592E;/風/更/𠃔/⿻尢丶/兒/𫀄/光/免/免)
+
+
+- 1011: &U-i002+2FF1;⿰LR⿱AB -> ⿱⿲LARB
+
+- 1141: &U-i001+2FF1;⿱AB⿰LR -> ⿱A⿲LBR
+	e.g. 𭐱:	⿱&U-i001+2FF1;首⿰止&A-compU+5DF1;&A-compU+5902; <-> ⿱⿱䒑⿲止自&A-compU+5DF1;&A-compU+5902;
 
 
 
