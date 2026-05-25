@@ -176,6 +176,90 @@ Each element means
 that the `<IDS>` represents an apparent structure.  Not that the `<IDS>`
 stored in the 3rd field may be regarded as functional structure.
 
+In many cases, apparent structures are automatically converted from
+functional structures by the following set of conversion rules:
+
+111: ⿸⿰LRB -> ⿰L⿱RB
+
+112: ⿸⿲亻丨RB -> ⿰&CDP-8B7A;⿱RB
+
+121: ⿸⿱ATR -> ⿱A⿸TR if T is enc
+
+122: ⿸⿱ADR -> ⿱A⿰DR if D is non-enc
+
+131: ⿸⿸ELR -> ⿸E⿰LR if L = 彳
+
+132: ⿸⿸EAB -> ⿸E⿱AB	if A = non 彳
+
+141: ⿸⿹⿱AMLR -> ⿱A⿲LMR
+
+210: ⿹⿰LRB -> ⿰⿱LBR
+
+220: ⿹⿱ARL -> ⿱A⿰LR
+
+310: ⿽⿺LRA -> ⿺⿱ALR
+
+320: ⿽⿱ABL -> ⿱⿰LAB
+
+330: ⿽⿰LRA -> ⿰⿱ALR
+
+411: ⿴⿱AEM -> ⿱A⿴EM	if E=囗/彑/西/<&A-CDP-87A5;>
+
+412: ⿴⿱A凵M -> ⿱A⿶凵M
+
+413: ⿴⿱<𰃦>BM -> ⿱⿵<𰃦>MB
+
+414: ⿴⿱ABM -> ⿱A⿱MB
+
+415: ⿴⿳AEBC -> ⿱⿱A⿴ECB if E=囗 (⿳AEB=&U-i002+675F;)
+
+416: ⿴⿳AHBC -> ⿱⿱⿱AHCB if H=冖
+
+417: ⿴⿳A𰀪BC -> ⿱A⿸⿱C𰀪B
+
+421:  ⿴⿰AAC -> ⿲ACA
+
+422:  ⿴⿰LRC -> ⿰L⿰CR
+
+511: ⿶⿱⿰LRBA -> ⿱⿲LARB
+
+512: ⿶⿳⿰LRMBA -> ⿳⿲LARMB
+
+530: ⿶⿴⿰LRCA -> ⿲L⿱ACR
+
+601: ⿵⿱AKC -> ⿱A⿵KC	if K = 構え
+	例： 𧖔	⿵𨳌蟲 <-> ⿱𠄟⿵門蟲
+
+611: ⿵⿱A⿰LRC -> ⿱A⿲LCR
+
+612: ⿵⿳AM⿰LRC -> ⿳AM⿲LCR
+
+613: ⿵⿱A⿱M⿰LRC -> ⿳AM⿲LCR
+
+614: ⿵⿱A⿲LMRC -> ⿱A⿲L⿱MCR
+
+620: ⿵⿲AMRC -> ⿲A⿱MCR
+
+640: ⿵⿵EML -> ⿵E⿱ML
+
+710: ⿷⿺NAC -> ⿺N⿱AC
+
+720: ⿷⿸TLC - > ⿸T⿺LC
+
+730: ⿷⿱⿱AMBC -> ⿳A⿰MCB
+
+811: ⿺⿱𠃊BC -> ⿱⿺𠃊CB
+
+812: ⿺⿱木B丶 -> ⿱⿺木丶B
+
+813: ⿺⿱LBC -> ⿱⿰LCB if B is 灬/日/曰/心/𡈼/壬/王/&A-compU+7389;/一/𱥯/大/犬
+
+
+1011: &U-i002+2FF1;⿰LR⿱AB -> ⿱⿲LARB
+
+1141: &U-i001+2FF1;⿱AB⿰LR -> ⿱A⿲LBR
+
+
 
 ## Extended IDC
 
