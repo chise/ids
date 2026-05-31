@@ -1,3 +1,11 @@
+2026-05-27  DavidSannier  <david.sannier@gmail.com>
+
+	* IDS-UCS-Basic.txt (U+5468): Add an apparent field.
+
+2026-05-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* README.md: Add F2A rules.
+
 2026-05-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt: Use "倝" instead of "⿰𠦝𠆢".
