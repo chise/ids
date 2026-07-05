@@ -1,3 +1,8 @@
+2026-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+4E09): Add IDS.
+	(U+89D2): Add an apparent IDS.
+
 2026-05-27  DavidSannier  <david.sannier@gmail.com>
 
 	* IDS-UCS-Basic.txt (U+5468): Add an apparent field.
@@ -69,11 +74,11 @@
 	(U-00025E06): Use "臘" instead of "⿰月巤".
 	(U-00025E07): Modify structure.
 	(U-00025E0B): Use "⿱x𥽂" instead of "⿳x毀米".
-	(U-00025E0C): Use "䨇" instead of "⿰隻隻".
+	(U-00025E0C): Use "𩁃" instead of "⿰隻隻".
 	(U-00025E12): Use "⿱x曩" instead of "⿳x日襄".
 	(U-00025E16): Fixed.
 	(U-00025E18): Use "𱪘" instead of "⿰氵矍".
-	(U-00025E1E): Use "䶞" instead of "⿰齒其".
+	(U-00025E1E): Use "𥸘" instead of "⿰齒其".
 
 2026-03-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -87,7 +92,7 @@
 	(U-00025D3E): Use "㙛" instead of "⿰土尃".
 	(U-00025D92): Use "⿱x㷠" instead of "⿳x炎舛".
 	(U-00025D95): Modify structure.
-	(U-00025D96): Use "⿱x𦋺" instead of "⿳x⺫剡".
+	(U-00025D96): Use "⿱x䉭" instead of "⿳x⺫剡".
 	(U-00025D9A): Use "⿱𥮏x" instead of "⿳竹典x".
 	(U-00025D9F): Modify structure.
 	(U-00025DA0): Use "槮" instead of "⿰木參".
@@ -101,7 +106,7 @@
 	(U-00025DE6): Modify structure.
 	(U-00025DE7): Use "濯" instead of "⿱羽隹".
 	(U-00025DF7): Modify substructure.
-	(U-00025DFB): Use "⿱x𩄲" instead of "⿳x雨迷".
+	(U-00025DFB): Use "⿱x𥷧" instead of "⿳x雨迷".
 	(U-00025DFF): Use "𤳯" instead of "⿰甾庶".
 	(U-00025E0A): Use "顡" instead of "⿰豙頁".
 
@@ -133,8 +138,8 @@
 	previous IDS.
 	(U-00025D38): Modify substructure.
 	(U-00025D40): Use "㬅" instead of "⿳日⺫方".
-	(U-00025D4E): Use "⿱x賃" instead of "⿳x任貝".
-	(U-00025D4F): Use "酫" instead of "⿰酉全".
+	(U-00025D4E): Use "⿱x𥵋" instead of "⿳x任貝".
+	(U-00025D4F): Use "𥴾" instead of "⿰酉全".
 	(U-00025D50): Modify structure; preserve the previous IDS as an
 	apparent structure.
 	(U-00025D51): Modify structure.
@@ -143,14 +148,14 @@
 	(U-00025D6D): Modify structure.
 	(U-00025D6E): Use "𦁤" instead of "⿰糸念".
 	(U-00025D70): Use "槅" instead of "⿰木鬲".
-	(U-00025D71): Use "𡙳" instead of "⿰㚔&GT-K02057;".
+	(U-00025D71): Use "𡙯" instead of "⿰㚔&GT-K02057;".
 	(U-00025D72): Modify structure.
 	(U-00025D74): Use "⿱x慜" instead of "⿳x敏心".
 	(U-00025D76): Use "⿱𥮏x" instead of "⿳竹典x".
 	(U-00025D77): Fixed.
 	(U-00025D78): Modify structure.
 	(U-00025D7A): Use "𱒃" instead of "⿱口小".
-	(U-00025D80): Use "䋲" instead of "⿰糸⿱口电".
+	(U-00025D80): Use "𥵻" instead of "⿰糸⿱口电".
 	(U-00025D82): Use "箕" instead of "⿱竹其".
 
 2026-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -177,7 +182,7 @@
 	(U+5C2D): Use "𠦄" instead of "⿱十卄"
 	(U+7363): Use "𲰶" instead of "⿱田一"
 	(U+7575): Use "𰢵" instead of "⿶凵田"
-	(U+7B8D): Use "㧜" instead of "⿰扌匝"
+	(U+7B8D): Use "拡" instead of "⿰扌匝"
 	(U+8827): Use "𬒣" instead of "⿱石䖵"
 	(U+8F5F): Use "䡛" instead of "⿰車車"
 	
@@ -248,9 +253,9 @@
 2026-01-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U+3687 instead of CU+3687.
-	(U-000265B3): Use "𦥚" instead of "⿱⿻臼丨丂".
+	(U-000265B3): Use "𡞲" instead of "⿱⿻臼丨丂".
 	(U-000265B6): Completed [temporary].
-	(U-000265B9): Use "𤇘" instead of "⿱夗灬".
+	(U-000265B9): Use "𤇗" instead of "⿱夗灬".
 	(U-00026A5E): Use U+4FDE instead of UU+4FDE.
 	(U-000270DD): Use U+919C instead of JU+919C.
 	(U-00027C6C): Use U+4FDE instead of UU+4FDE.
@@ -258,7 +263,7 @@
 2026-01-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt: Use U-00032E8B instead of BC-8CA9.
-	(U-000270DA): Use "膸" instead of "⿰⺼遀".
+	(U-000270DA): Use "膸" instead of "⿰⺼膸".
 	(U-00027C64): Fixed.
 	(U-00027C81): Use "𧱈" instead of "⿳彑八豕".
 	(U-00027C88): Use U+9040 instead of CU+9040.
@@ -300,11 +305,11 @@
 	(U-00022791): Use "𢀡" instead of "⿱左左".
 	(U-000235B8): Use "𲟆" instead of "⿸广辛".
 	(U-000235BE): Use U-00024C07 instead of IU+24C07.
-	(U-000235BF): Use "𧴮" instead of "⿹弋貝".
+	(U-000235BF): Use "槈" instead of "⿹弋貝".
 	(U-000235C3): Use "㭬" instead of "⿰木豕".
 	(U-000235DA): Modify structure.
 	(U-000235DC): Modify structure.
-	(U-000235DF): Use "𥘾" instead of "⿱𡗜示".
+	(U-000235DF): Use "𣗟" instead of "⿱𡗜示".
 	(U-000235E2): Modify structure.
 	(U-000235E9): Use "荖" instead of "⿱艹老".
 	(U-000235F4): Use "𠧸" instead of "⿴占必".
@@ -528,7 +533,7 @@
 	(U-00024128): Fixed.
 	(U-00024129): Fixed.
 	(U-0002416B): Use "𩆖" instead of "⿱霝令".
-	(U-0002416C): Use "𩱕" instead of "⿱兟鬲".
+	(U-0002416C): Use "𤅬" instead of "⿱兟鬲".
 	(U-000241A2): Use "仑" instead of "⿱𠆢匕".
 	(U-000241BF): Use "叏" instead of "⿱&CDP-89B3;又".
 	(U-000241C4): Use "闪" instead of "⿵门人".
@@ -562,10 +567,10 @@
 	(U-000248B7): Use "韯" instead of "⿹𢦏韭".
 	(U-0002490F): Use "叏" instead of "⿱&CDP-89B3;又".
 	(U-0002495F): Fixed.
-	(U-00024A14): Use "𦊷" instead of "⿱⺫⿳一𠂈&CDP-8CC6;".
+	(U-00024A14): Use "𦊸" instead of "⿱⺫⿳一𠂈&CDP-8CC6;".
 	(U-00024A2A): Use "𲥿" instead of "⿱𣦼木".
 	(U-00024ADD): Modify structure.
-	(U-00024AE8): Use "𩱕" instead of "⿱兟鬲".
+	(U-00024AE8): Use "𤅬" instead of "⿱兟鬲".
 	(U-00024B4D): Use "㒵" instead of "⿱白八".
 	(U-00024B58): Use "𱼧" instead of "⿰丿臣".
 	(U-00024BA3): Use "膚" instead of "⿸虍胃".
@@ -690,7 +695,7 @@
 	(U+2BCE4): Modify structure.
 	(U+2BD05): Use "𰢅" instead of "⿰𤣩畐".
 	(U+2BDA4): Use "𰌱" instead of "⿱㞌𡥷".
-	(U+2BE13): Use "𦬰" instead of "⿱艹壬".
+	(U+2BE13): Use "𫸓" instead of "⿱艹壬".
 	(U+2BE14): Use "𩑙" instead of "頊".
 	(U+2BE35): Use "𰆺" instead of "⿱乍又".
 	(U+2BE51): Use "刋" instead of "刊".
@@ -727,7 +732,7 @@
 	(U+2C694): Use "𲐗" instead of "⿱𠆢亐".
 	(U+2C6EE): Modify structure.
 	(U+2C78F): Modify structure; use "𲰶" instead of "⿱田一".
-	(U+2C7B2): Use "𧇊" instead of "⿰虚亏".
+	(U+2C7B2): Use "𧇉" instead of "⿰虚亏".
 	(U+2C7BE): Use "𳈩" instead of "⿰阝𡘷".
 	(U+2C8AF): Use "𲂻" instead of "⿰贝贝".
 	(U+2C8B1): Use "𱻊" instead of "⿱𦍌又".
@@ -827,17 +832,17 @@
 	- Use U-0002CEA3 instead of BC-8BE2.
 	(U-00020301): Modify structure.
 	(U-00020302): Use "&U-i002+2FF1;㸚x" instead of "⿻x⿰⿱乄乄⿱乄乄".
-	(U-0002030C): Use "𡨝" instead of "⿳宀⿱八𠆢夕".
+	(U-0002030C): Use "&U-i001+36EE;" instead of "⿳宀⿱八𠆢夕".
 	(U-0002050F): Use "⿱x𬺢" instead of "⿳x一八".
 	(U-00020510): Ditto.
-	(U-00020B8B): Use "𣥚" instead of "⿱夭止".
+	(U-00020B8B): Use "𠮋" instead of "⿱夭止".
 	(U-00020BAA): Use "𠃏" instead of "⿰𠄌⺃".
 
 2025-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-00028A63): Use U+76C6 instead of
 	GT-29425.
-	(U-00028A64): Use "𦥚" instead of "⿱⿻臼丨丂".
+	(U-00028A64): Use "𡞲" instead of "⿱⿻臼丨丂".
 
 2025-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -850,12 +855,12 @@
 
 2025-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-5.txt (U-0002855F): Use "𡕦" instead of
+	* IDS-UCS-Ext-B-5.txt (U-0002855F): Use "&A-CDP-i001-8CE6;" instead of
 	"⿳由儿夂".
-	(U-00028566): Use "𡨝" instead of "⿱宀⿳八𠆢夂".
+	(U-00028566): Use "&U-i001+36EE;" instead of "⿱宀⿳八𠆢夂".
 	(U-000289F4): Use "𫨈" instead of "⿸灰又".
 	(U-000289F6): Use "刼" instead of "⿰去刃".
-	(U-000289FE): Use "⿰x𢺸" instead of "⿲x支支".
+	(U-000289FE): Use "⿰x𢺼" instead of "⿲x支支".
 	(U-00028A0B): Use "炅" instead of "⿱日火".
 	(U-00028A10): Use "岱" instead of "⿱代山".
 	(U-00028A14): Use "肩" instead of "⿸戶月".
@@ -871,8 +876,8 @@
 	(U-000296F9): Use "𲨔" instead of "⿹气土".
 	(U-000296FB): Modify structure.
 	(U-0002972E): Use "巸" instead of "⿰𦣝巳".
-	(U-00029768): Use "𦮃" instead of "⿱卝⿲&CDP-8BC5;丨匕".
-	(U-0002976F): Use "𡨝" instead of "⿳宀⿱八𠆢夕".
+	(U-00029768): Use "荒" instead of "⿱卝⿲&CDP-8BC5;丨匕".
+	(U-0002976F): Use "&U-i001+36EE;" instead of "⿳宀⿱八𠆢夕".
 
 	* IDS-UCS-Ext-B-3.txt (U-0002595C): Use "叐" instead of "⿱丿友".
 	(U-0002597F): Modify structure.
@@ -907,7 +912,7 @@
 	(U-000201B0): Use "𲒞" instead of "⿵⺇丨".
 	(U-0002050C): Use "𠔁" instead of "⿱八八".
 	(U-0002098F): Use "&U-i002+2FF1;从十" instead of "⿻十从".
-	(U-00020990): Use "&U-i001+2FF1;十𠘬" instead of "⿻十𠘬".
+	(U-00020990): Use "&U-i001+2FF1;十&A-IWDSU+2062C;" instead of "⿻十&A-IWDSU+2062C;".
 	(U-00021947): Use "𲓝" instead of "⿱十八".
 	(U-00021949): Use "𲓞" instead of "⿱㐅𠂇".
 
@@ -938,7 +943,7 @@
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-23822): Fixed.
 	(SW-JIGUGE-23823): Fixed.
-	(SW-JIGUGE-38710): Use "⿰x&SW-JIGUGE-23822;" instead of "⿲x&SW-JIGUGE-34505;&SW-JIGUGE-23508;".
+	(SW-JIGUGE-38710): Use "⿰x&SW-JIGUGE5-23821;" instead of "⿲x&SW-JIGUGE5-34504;&SW-JIGUGE5-23507;".
 	(SW-JIGUGE-38712): Modify structure.
 	(SW-JIGUGE-38714): Completed.
 
@@ -948,7 +953,7 @@
 	(U-00023F55): Use "𣓕" instead of "⿱林厹".
 	(U-00023F58): Use "椉" instead of "⿱亠桀".
 	(U-00023F5C): Use "䠶" instead of "⿰身矢".
-	(U-00023F96): Use "𦰀" instead of "⿱艹⿱圥夕".
+	(U-00023F96): Use "𦯾" instead of "⿱艹⿱圥夕".
 	(U-00023F9F): Use U+44E2 instead of C3-3E51.
 
 2025-08-17  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -1160,7 +1165,7 @@
 	(U-000213EA): Modify substructure.
 	(U-00021435): Use U+82F9 instead of CU+82F9.
 	(U-0002143C): Use "⿱x烾" instead of "⿳x炎土".
-	(U-00021445): Use "𤞣" instead of "⿰肙犬".
+	(U-00021445): Use "𡐼" instead of "⿰肙犬".
 	(U-00021505): Modify structure.
 	(U-0002150C): Modify structure.
 	(U-0002156F): Modify structure.
@@ -1175,7 +1180,7 @@
 	apparent structure.
 	(U-000218FF): Modify substructure.
 	(U-00021B33): Use "寽" instead of "⿱爫寸".
-	(U-00021B4E): Use "𨕥" instead of "⿺辶𩠐".
+	(U-00021B4E): Use "𡭎" instead of "⿺辶𩠐".
 	(U-00021B51): Use "衟" instead of "⿻行𩠐".
 	(U-00021B52): Modify substructure.
 	(U-00021CF4): Use "芦" instead of "⿱廿尸".
@@ -1412,7 +1417,7 @@
 	(U-00026C53): Modify structure; add an apparent field.
 	(U-00026F96): Use "𮔉" instead of "⿱⿱宀&CDP-85A7;虫".
 	(U-00026F97): Use "⿱x䀆" instead of "⿳x&CDP-86B5;皿".
-	(U-00026F98): Use "𡨝" instead of "⿳宀火夕".
+	(U-00026F98): Use "&U-i001+36EE;" instead of "⿳宀火夕".
 	(U-00026F99): Use "𢱭" instead of "⿰扌⿱𠦃夲".
 	(U-00026FC0): Use "𮃔" instead of "⿰禾者".
 	(U-00026FD1): Use "⿴茻x" instead of "⿳艸x艸".
@@ -1460,7 +1465,7 @@
 	(U-000293C4): Use "韋" instead of "⿱夂田".
 	(U-000296B8): Use "尓" instead of "⿱𠂉小".
 	(U-000296BF): Use "叐" instead of "⿱丿友".
-	(U-000296D3): Use "𨑏" instead of "⿺辶卩".
+	(U-000296D3): Use "𨑐" instead of "⿺辶卩".
 	(U-000296D6): Completed [temporary].
 	(U-000296D7): Use "𡚱" instead of "⿰女巳".
 	(U-000296EB): Use "𥎦" instead of "⿸厂矢".
@@ -1495,7 +1500,7 @@
 	(U-00020B69): Modify structure.
 	(U-00020DE4): Use U+80DE instead of JU+80DE.
 	(U-00020F4B): Use U+533F instead of CU+533F.
-	(U-0002107D): Use "𣗪" instead of "⿰木茶".
+	(U-0002107D): Use "𡁽" instead of "⿰木茶".
 	(U-000210BB): Use U+6176 instead of CU+6176.
 	(U-000210BC): Use "罵" instead of "⿱⺫馬".
 	(U-000210BD): Use "⿱x覃" instead of "⿳x⻃早".
@@ -1512,7 +1517,7 @@
 	(U-00021ACA): Modify structure.
 	(U-00021B25): Use U-0002D060 instead of MJ057001.
 	(U-00021BCD): Use U-00021552 instead of MJ033317.
-	(U-00021C66): Use "𨑭" instead of "⿺辶止".
+	(U-00021C66): Use "迓" instead of "⿺辶止".
 
 2025-01-25  WMJ  <wmj@live.cn>
 
@@ -1556,7 +1561,7 @@
 
 2025-01-13  WMJ  <wmj@live.cn>
 
-	* IDS-UCS-Ext-B-5.txt: replace ⿱出𤆛 with 𤉐
+	* IDS-UCS-Ext-B-5.txt: replace ⿱出&A-IWDSU+2419B; with 𤉋
 
 2025-01-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -1605,7 +1610,7 @@
 
 	* IDS-UCS-Ext-B-5.txt (U-000280AE): Modify structure.
 	(U-00028245): Use "𠓡" instead of "⿱亼丌".
-	(U-0002835A): Use "𦏾" instead of "⿱亼羽".
+	(U-0002835A): Use "𦐀" instead of "⿱亼羽".
 	(U-000285E4): Modify structure.
 	(U-00028F36): Modify structure.
 	(U-00028F6D): Modify structure.
@@ -1645,7 +1650,7 @@
 
 	* IDS-UCS-Ext-B-4.txt (U-00026116): Modify structure.
 	(U-0002669D): Modify structure.
-	(U-000270C1): Use "栆" instead of "⿵&CDP-89AD;&CDP-8971;".
+	(U-000270C1): Use "枪" instead of "⿵&CDP-89AD;&CDP-8971;".
 	(U-000272BC): Modify structure.
 
 	* IDS-UCS-Ext-B-2.txt (U-00022C6F): Modify structure.
@@ -1730,15 +1735,15 @@
 
 	* IDS-UCS-Ext-B-1.txt (U-00020CEA): Use "𠯳" instead of "⿱勿口".
 	(U-00020CF6): Use "秃" instead of "⿱禾几".
-	(U-00020CFD): Use "䆑" instead of "⿱穴丁".
+	(U-00020CFD): Use "𥤦" instead of "⿱穴丁".
 	(U-00020D67): Use "⿸𮝾x" instead of "⿸厂⿱⿱工&CDP-8CC6;x".
 	(U-00020D77): Use "兖" instead of "⿱六允".
 	(U-00020D7A): Use "𱬷" instead of "⿱爫巴".
-	(U-00020DA1): Use "𥐧" instead of "⿱石廾".
+	(U-00020DA1): Use "𠶡" instead of "⿱石廾".
 	(U-00020DD8): Use "秌" instead of "⿰火禾".
 	(U-00020DDD): Use "𱕻" instead of "⿴囗𠂭".
 	(U-000211F0): Use "兖" instead of "⿱六允".
-	(U-0002135F): Use "𥐧" instead of "⿱石廾".
+	(U-0002135F): Use "𠶡" instead of "⿱石廾".
 	(U-00021A86): Use U+7680 instead of UU+7680.
 	(U-00021C96): Use "𱕻" instead of "⿴囗𠂭".
 
@@ -1789,13 +1794,13 @@
 
 2024-10-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-5.txt (U-000282FC): Use "⿸𨊤x" instead of
+	* IDS-UCS-Ext-B-5.txt (U-000282FC): Use "⿸轨x" instead of
 	"⿰車⿱𠆢x".
-	(U-00028315): Use "⿸𨊤x" instead of "⿰車⿱𠆢x".
-	(U-0002831D): Use "⿸𨊤x" instead of "⿰車⿱𠆢x".
-	(U-0002833A): Use "⿸𨊤x" instead of "⿰車⿱𠆢x".
-	(U-00028353): Use "⿸𨊤x" instead of "⿰車⿱𠆢x".
-	(U-000283E4): Use "⿸𨊤x" instead of "⿰車⿱𠆢x".
+	(U-00028315): Use "⿸轨x" instead of "⿰車⿱𠆢x".
+	(U-0002831D): Use "⿸轨x" instead of "⿰車⿱𠆢x".
+	(U-0002833A): Use "⿸轨x" instead of "⿰車⿱𠆢x".
+	(U-00028353): Use "⿸轨x" instead of "⿰車⿱𠆢x".
+	(U-000283E4): Use "⿸轨x" instead of "⿰車⿱𠆢x".
 
 2024-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -1829,7 +1834,7 @@
 
 2024-10-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-4.txt (U-00026F04): Use "𣁽" instead of
+	* IDS-UCS-Ext-B-4.txt (U-00026F04): Use "&A-IWDSU+9B41;" instead of
 	"⿺⿱甶儿斗".
 	(U-000270EA): Use "蔄" instead of "⿱艹問".
 	(U-000270EC): Use "𰘴" instead of "⿰木⿱𡗜炅".
@@ -1902,7 +1907,7 @@
 2024-09-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt (U-0002823D): Use U+5173 instead of CU+5173.
-	(U-0002824A): Use "𡗬" instead of "⿱比大".
+	(U-0002824A): Use "𡗫" instead of "⿱比大".
 
 	* IDS-UCS-Ext-B-4.txt (U-000261FD): Modify structure.
 	(U-00026204): Fixed.
@@ -1932,16 +1937,16 @@
 
 	* IDS-UCS-Ext-B-3.txt (U-00024E37): Use "帬" instead of "⿱君巾".
 	(U-00024E3D): Use "𢘻" instead of "⿱米心".
-	(U-00024E48): Use "𣑽" instead of "⿱林几".
-	(U-00024E4B): Use "𥞔" instead of "⿰禾民".
+	(U-00024E48): Use "㭝" instead of "⿱林几".
+	(U-00024E4B): Use "𤹍" instead of "⿰禾民".
 	(U-00024E4E): Use U-000221C1 instead of BC-8CE2.
-	(U-00024E51): Use "㑫" instead of "⿰亻念".
+	(U-00024E51): Use "㑪" instead of "⿰亻念".
 	(U-00024E57): Use U+7FC1 instead of MJ020661.
 
 2024-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-000208C5): Use U+859B instead of CU+859B.
-	(U-000208C8): Use "𠙳" instead of "⿱䜌几".
+	(U-000208C8): Use "𠙱" instead of "⿱䜌几".
 	(U-0002096C): Use U+820A instead of CU+820A.
 	(U-000209D1): Modify structure.
 	(U-000209D3): Use U+5203 instead of UU+5203.
@@ -2151,7 +2156,7 @@
 2024-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026034): Use U+8292 instead of CU+8292.
-	(U-0002603C): Use "𡶀" instead of "⿱山内".
+	(U-0002603C): Use "𡵶" instead of "⿱山内".
 	(U-00026058): Use "𭣤" instead of "⿰歹攵".
 	(U-0002606D): Use "𧆛" instead of "⿸虍又".
 
@@ -2179,11 +2184,11 @@
 	(U-00026113): Use "兜" instead of "⿱⿲&CDP-8CBD;白&CDP-8C78;几".
 	(U-00026115): Use U-00021326 instead of IU+21326.
 	(U-0002611A): Use "𨑢" instead of "⿺辵从".
-	(U-00026121): Use "𭦗" instead of "⿳日皿𠂊".
+	(U-00026121): Use "𭦗" instead of "⿳日皿刀".
 	(U-00026123): Use "袞" instead of "⿳⿱亠儿口𧘇".
 	(U-00027A43): Use U+449D instead of CU+449D.
 	(U-00027AD4): Use U-00021326 instead of IU+21326.
-	(U-00027F71): Use "𭦗" instead of "⿳日皿𠂊".
+	(U-00027F71): Use "𭦗" instead of "⿳日皿刀".
 	(U-00027F9B): Use U+84A6 instead of BC-8CB0.
 
 	* IDS-UCS-Ext-B-3.txt (U-00024692): Use "亰" instead of "⿱亠𣌢".
@@ -2244,13 +2249,13 @@
 	(U-000279E4): Use "关" instead of "⿱丷天".
 	(U-000279EB): Use "𡰱" instead of "⿸尸工".
 	(U-000279F3): Use "𡗢" instead of "⿱大㐄".
-	(U-000279F4): Use "㤀" instead of "⿱亾心".
+	(U-000279F4): Use "𢖽" instead of "⿱亾心".
 	(U-000279FC): Use "宐" instead of "⿱宀彑".
 	(U-00027A05): Modify structure.
 	(U-00027A07): Use "杘" instead of "⿸尸木".
 	(U-00027A0C): Use "𠀤" instead of "⿱⿰大大一".
 	(U-00027A0D): Use "伿" instead of "⿰亻只".
-	(U-00027A13): Use "𣅄" instead of "⿺廴日".
+	(U-00027A13): Use "㫗" instead of "⿺廴日".
 	(U-00027A41): Use "⿴沝x" instead of "⿲水x水".
 	(U-00027A45): Modify structure.
 	(U-00027A54): Use "𰏴" instead of "⿸广𢆉".
@@ -2263,7 +2268,7 @@
 	(U-00027F94): Use "感" instead of "⿵咸心".
 	(U-00027F98): Use "微" instead of "⿰彳𣁋".
 	(U-00027F9E): Use "𢧤" instead of "⿹&CDP-88A4;呈".
-	(U-00027F9F): Use "𥯄" instead of "⿱竹隹".
+	(U-00027F9F): Use "𥮿" instead of "⿱竹隹".
 
 	* IDS-UCS-Ext-B-3.txt (U-00024274): Use "𣄼" instead of "⿱一日".
 	(U-0002514F): Use "⿱x𣄼" instead of "⿳x一日".
@@ -2287,7 +2292,7 @@
 	(U+3DD7): Modify structure.
 	(U+3DDB): Use U+706C instead of <CJK RADICAL FIRE>.
 	(U+3DE9): Modify structure.
-	(U+3DEF): Use "𪢾" instead of "⿱火土".
+	(U+3DEF): Use "𡉾" instead of "⿱火土".
 	(U+3DF1): Use U+706C instead of <CJK RADICAL FIRE>.
 	(U+3E24): Use "⿴辡x" instead of "⿲辛x辛".
 
@@ -2347,7 +2352,7 @@
 	(U-00024163): Use U+4EB9 instead of UU+4EB9.
 	(U-000242C5): Modify structure.
 	(U-000242C7): Modify structure.
-	(U-000242C9): Use "𣆂" instead of "⿱日玄".
+	(U-000242C9): Use "𣆀" instead of "⿱日玄".
 	(U-000242CE): Use U+524D instead of UU+524D.
 	(U-000242DD): Use "𰮒" instead of "⿰月巨".
 	(U-00024307): Use "巸" instead of "⿰𦣞巳".
@@ -2377,13 +2382,13 @@
 	(U-00020175): Use U+5C07 instead of UU+5C07.
 	(U-00020184): Use "𮙸" instead of "⿸𠃜貝".
 	(U-0002022F): Use "𫷕" instead of "⿱干𠬞".
-	(U-000202B6): Use "⿸𠈫x" instead of "⿰亻⿱龹x".
-	(U-0002030D): Use "⿸𠈫x" instead of "⿰亻⿱龹x".
+	(U-000202B6): Use "⿸𠈖x" instead of "⿰亻⿱龹x".
+	(U-0002030D): Use "⿸𠈖x" instead of "⿰亻⿱龹x".
 	(U-00020313): Use U-00026BD1 instead of IU+26BD1.
 	(U-00020326): Use U+7D0D instead of UU+7D0D.
 	(U-0002033D): Use U+65C9 instead of UU+65C9.
 	(U-00020346): Use U+8389 instead of CU+8389.
-	(U-0002036A): Use "𤉄" instead of "⿱豕灬".
+	(U-0002036A): Use "𤈿" instead of "⿱豕灬".
 	(U-00020370): Use U+8DF1 instead of C2-4770.
 	(U-0002037F): Use U+8CAB instead of UU+8CAB.
 	(U-000203A3): Use U+4672 instead of UU+4672.
@@ -2440,7 +2445,7 @@
 	* IDS-UCS-Ext-B-2.txt: Use U+590F instead of CU+590F.
 	(U-000222C1): Use U+3C83 instead of UU+3C83.
 	(U-000222CB): Use U+5FAE instead of JU+5FAE.
-	(U-000222CD): Use "⿸𢈎x" instead of "⿸广⿱共x".
+	(U-000222CD): Use "⿸&A-IWDSU+2220E;x" instead of "⿸广⿱共x".
 	(U-000222CE): Use U+7981 instead of UU+7981.
 	(U-000228C4): Use U+904E instead of JU+904E.
 	(U-000238FD): Use "𨤾" instead of "⿳𠆢𬼖⿱⺌一".
@@ -2448,7 +2453,7 @@
 	(U-00023902): Use "枽" instead of "⿱⿳十卄一木".
 	(U-0002390F): Use "𰂙" instead of "⿳入一⿰舟刂".
 	(U-00023925): Use "䝱" instead of "⿱劦貝".
-	(U-0002392A): Use "𦑕" instead of "⿱羽金".
+	(U-0002392A): Use "𣤪" instead of "⿱羽金".
 
 
 2024-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -2464,7 +2469,7 @@
 	(U-000240C8): Fixed.
 	(U-000240D1): Use "㫗" instead of "⿱日子".
 	(U-00024DBF): Use "㫗" instead of "⿱日子".
-	(U-00024DC1): Use "𡉤" instead of "⿱不土".
+	(U-00024DC1): Use "𡄂" instead of "⿱不土".
 
 	* IDS-UCS-Ext-B-4.txt (U-0002660E): Use U+4ECE instead of
 	A-IWDSU+4ECE.
@@ -2503,7 +2508,7 @@
 	(U-000222B7): Modify structure.
 	(U-00022845): Confirmed.
 	(U-0002284C): Modify structure.
-	(U-00022853): Use "𤊱" instead of "⿱&CDP-8CAF;𤆛".
+	(U-00022853): Use "𤊥" instead of "⿱&CDP-8CAF;&A-IWDSU+2419B;".
 	(U-00023034): Completed.
 	(U-0002303A): Modify structure.
 	(U-0002303F): Modify structure.
@@ -2516,7 +2521,7 @@
 	(U-0002612D): Use U+900F instead of C1-5D60.
 	(U-00026132): Use "㝛" instead of "⿱宀⿰亻㐁".
 	(U-00026134): Use "斎" instead of "⿵斉小".
-	(U-00026136): Use "𠶋" instead of "⿰口芥".
+	(U-00026136): Use "𠶆" instead of "⿰口芥".
 	(U-0002616C): Use "𡙕" instead of "⿰㚔丮".
 	(U-00027B13): Use "𡙕" instead of "⿰㚔丮".
 	(U-00027B16): Modify structure.
@@ -2678,7 +2683,7 @@
 
 2024-08-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-5.txt (U-00028DB4): Use "𡍸" instead of "⿱品土".
+	* IDS-UCS-Ext-B-5.txt (U-00028DB4): Use "堖" instead of "⿱品土".
 	(U-00028DB5): Use "鄄" instead of "⿰垔⻏".
 	(U-00028DBE): Use "㢴" instead of "⿹弓⿴囗夊".
 	(U-00028DC4): Use "暏" instead of "⿰日者".
@@ -2694,7 +2699,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-00022177): Modify structure.
 	(U-00022186): Modify structure.
-	(U-00022E8D): Use "𧀨" instead of "⿱艹巤".
+	(U-00022E8D): Use "𢺍" instead of "⿱艹巤".
 	(U-00022EA5): Use U-00020B93 instead of IU+20B93.
 	(U-000230D5): Use "蕈" instead of "⿳艹⻃早".
 	(U-0002323A): Use U+8980 instead of <CJK RADICAL WEST ONE>.
@@ -2719,13 +2724,13 @@
 
 	* IDS-UCS-Ext-C.txt (U-0002B4D3): Modify structure.
 	(U-0002B4D5): Completed [temporary].
-	(U-0002B4DE): Use "𬄜" instead of "⿱林㐭".
+	(U-0002B4DE): Use "𣛰" instead of "⿱林㐭".
 
 	* IDS-UCS-Basic.txt (U+5D47): Use "⿸𮂱x" instead of "⿰禾⿱尤x".
 
 	* IDS-UCS-Ext-B-3.txt: Use "𡰱" instead of "⿸尸工".
 	(U-000248D9): Use "猪" instead of "⿰犭者".
-	(U-0002516C): Use "𠣓" instead of "⿹勹云".
+	(U-0002516C): Use "𠣒" instead of "⿹勹云".
 	(U-00025171): Completed.
 	(U-00025262): Completed.
 	(U-00025265): Use U+9006 instead of CU+9006.
@@ -2750,21 +2755,21 @@
 
 2024-08-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-2.txt (U-00022270): Use "𡋐" instead of "⿱吅土".
-	(U-00022271): Use "𤰻" instead of "⿱龷田".
+	* IDS-UCS-Ext-B-2.txt (U-00022270): Use "𡋍" instead of "⿱吅土".
+	(U-00022271): Use "𢉱" instead of "⿱龷田".
 	(U-0002227C): Completed.
 	(U-00022283): Use "𱖪" instead of "⿱夾土".
 	(U-000222B5): Use "𮮵" instead of "⿱白𤰞".
 	(U-000222B7): Use U-000215D7 instead of BC-8BE9.
 	(U-000222BA): Use "畱" instead of "⿱丣田".
-	(U-00022526): Use "𡱝" instead of "⿸尸羊".
+	(U-00022526): Use "𭏊" instead of "⿸尸羊".
 	(U-0002252D): Use "厗" instead of "⿸厂辛".
 	(U-00022532): Use "畱" instead of "⿱丣田".
 	(U-00022536): Use "䙷" instead of "⿱見寸".
 	(U-00022547): Use "𫢴" instead of "⿰亻&CDP-8BB0;".
-	(U-00022CE4): Use "𥥴" instead of "⿱穴衣".
+	(U-00022CE4): Use "𢳤" instead of "⿱穴衣".
 	(U-00022CE5): Use U+9020 instead of CU+9020.
-	(U-00022CE8): Use "𧉾" instead of "⿱𡗗虫".
+	(U-00022CE8): Use "𢳨" instead of "⿱𡗗虫".
 	(U-00023798): Use "匳" instead of "⿷匚僉".
 	(U-0002379C): Use "𡙹" instead of "⿱𡗗&CDP-88A6;".
 
@@ -2821,12 +2826,12 @@
 	(U-000296AC): Use "戹" instead of "⿸戶乙".
 	(U-00029D93): Use U-000215D7 instead of BC-8BE9.
 	(U-00029E17): Use U+623F instead of UU+623F.
-	(U-00029E37): Use "𥐧" instead of "⿱石廾".
+	(U-00029E37): Use "𠶡" instead of "⿱石廾".
 	(U-00029E46): Use "孨" instead of "⿱子⿰子子".
 	(U-00029E4B): Use "苐" instead of "⿱艹𢎨".
 	(U-00029E4C): Use "眔" instead of "⿱⺫水".
 	(U-00029E4F): Use "𤝡" instead of "⿰白犬".
-	(U-00029E59): Use "𩶓" instead of "⿱𡗗魚".
+	(U-00029E59): Use "鲅" instead of "⿱𡗗魚".
 	(U-00029E5A): Use "𱻲" instead of "⿰耒女".
 	(U-00029EBF): Use "竟" instead of "⿳立日儿".
 	(U-00029ECA): Use "𤭃" instead of "⿰而瓦".
@@ -2860,7 +2865,7 @@
 	(U-00028B1D): Use "𡎐" instead of "⿰坴丮".
 	(U-00028B24): Use "𪸿" instead of "⿱享灬".
 	(U-00028B2A): Modify structure.
-	(U-00028B2E): Use "㮊" instead of "⿲木予木".
+	(U-00028B2E): Use "楙" instead of "⿲木予木".
 	(U-00028B39): Use "衆" instead of "⿱⿱丿⺫𫡑".
 	(U-00028C01): Use U-00028FB4 instead of IU+28FB4.
 	(U-00028EC5): Use "⿸陖x" instead of "⿰阝⿱夋x".
@@ -2871,7 +2876,7 @@
 	(U-00029D7F): Completed.
 	(U-00029D9E): Use "𪜠" instead of "⿱亠凡".
 	(U-00029DA0): Use U+56D8 instead of HZK02-E47C.
-	(U-00029DCC): Use "𣎽" instead of "⿱匕木".
+	(U-00029DCC): Use "𠜀" instead of "⿱匕木".
 	(U-00029DEE): Use "𡿮" instead of "⿱𠫓巛".
 	(U-00029E0C): Use "䒚" instead of "⿱艹少".
 	(U-00029E1A): Use "芼" instead of "⿱艹毛".
@@ -2898,7 +2903,7 @@
 	(U-00028BAF): Use "𢧤" instead of "⿹&CDP-88A4;呈".
 	(U-00028BBA): Use "𥡞" instead of "⿱⿰𥝌尤旨".
 	(U-00028BC1): Use "樋" instead of "⿰木通".
-	(U-00028BD0): Use "𦧚" instead of "⿰舌舌".
+	(U-00028BD0): Use "𦧗" instead of "⿰舌舌".
 	(U-00028BD6): Use "𤕨" instead of "⿱𠆢&CDP-85AE;".
 	(U-00028BF1): Modify structure.
 	(U-00028BF4): Use "𧯞" instead of "⿰豆斤".
@@ -2907,7 +2912,7 @@
 	(U-00028C08): Use "擎" instead of "⿱敬手".
 	(U-00028C09): Modify structure.
 	(U-00028C16): Use "燹" instead of "⿱豩火".
-	(U-00028C19): Use "𧑿" instead of "⿱⿰糹糹虫".
+	(U-00028C19): Use "𧑸" instead of "⿱⿰糹糹虫".
 	(U-00028C38): Use "䜟" instead of "⿰言韯".
 	(U-00028C69): Use "友" instead of "⿸𠂇乂".
 	(U-00028C84): Modify structure.
@@ -2922,7 +2927,7 @@
 	(U-000299BB): Modify structure.
 	(U-000299C0): Use "𢧤" instead of "⿹&CDP-88A4;呈".
 	(U-000299CC): Use "騳" instead of "⿰馬馬".
-	(U-000299D2): Use "穒" instead of "⿱禾鳥".
+	(U-000299D2): Use "𥡼" instead of "⿱禾鳥".
 	(U-000299D5): Modify structure.
 	(U-000299D7): Use "𧹳" instead of "⿸倝赤".
 	(U-00029BE7): Use "𡬽" instead of "⿰票寸".
@@ -2965,20 +2970,20 @@
 	(U-000249F2): Modify structure.
 	(U-00024A1D): Modify structure.
 	(U-00024A37): Use "𰱅" instead of "⿱艹呆".
-	(U-00024AB0): Use "𣤓" instead of "⿰鹵欠".
+	(U-00024AB0): Use "歓" instead of "⿰鹵欠".
 	(U-00024AB4): Use "𤨝" instead of "⿻瑟人".
 	(U-000251C8): Use "囤" instead of "⿴囗屯".
 	(U-000251CE): Use "弥" instead of "⿰弓尔".
 
 2024-08-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-4.txt (U-000269BC): Use "𡨝" instead of
+	* IDS-UCS-Ext-B-4.txt (U-000269BC): Use "&U-i001+36EE;" instead of
 	"⿳宀&GT-K00859;夕".
 	(U-00026A3C): Use "吳" instead of "⿺夨口".
 	(U-00026A42): Use "𭻾" instead of "⿱𠂉疋".
 	(U-00026A47): Modify structure.
-	(U-00026A7A): Use "𣑦" instead of "⿱巩木".
-	(U-00026A81): Use "𡨝" instead of "⿳宀&GT-K00859;夕".
+	(U-00026A7A): Use "𠌖" instead of "⿱巩木".
+	(U-00026A81): Use "&U-i001+36EE;" instead of "⿳宀&GT-K00859;夕".
 	(U-00026A90): Confirmed.
 	(U-00026AA6): Confirmed.
 	(U-00026AAA): Use "𥭗" instead of "⿱竹夆".
@@ -2991,7 +2996,7 @@
 	(U+3162B): Modify structure.
 	(U+31C95): Modify structure.
 	(U+31C96): Modify structure.
-	(U+31C97): Use "⿹亪x" instead of "⿱亦⿹⺄x".
+	(U+31C97): Use "⿹亩x" instead of "⿱亦⿹⺄x".
 	(U+31C99): Likewise.
 	(U+31CA2): Modify structure.
 	(U+31D4A): Modify structure.
@@ -3011,7 +3016,7 @@
 	(U-00024286): Use "⿱x𬽄" instead of "⿳x亠火".
 	(U-00024A52): Use "棊" instead of "⿱其木".
 	(U-00024A57): Use "粟" instead of "⿱⻃米".
-	(U-00024A59): Use "𢜈" instead of "⿱玨心".
+	(U-00024A59): Use "𢛵" instead of "⿱玨心".
 	(U-00024B86): Use "虛" instead of "⿸虍业".
 	(U-00025856): Modify structure.
 	(U-00025858): Use "𤰇" instead of "⿱𠀗用".
@@ -3022,7 +3027,7 @@
 	(U-000258E1): Modify structure.
 	(U-00025C99): Modify structure.
 	(U-00025CA1): Use "窓" instead of "⿳穴厶心".
-	(U-00025CA3): Use "𧵆" instead of "⿰貝斤".
+	(U-00025CA3): Use "𧴿" instead of "⿰貝斤".
 	(U-00025CA4): Use "虚" instead of "⿸虍业".
 	(U-00025CA6): Modify structure.
 
@@ -3066,7 +3071,7 @@
 	(U-00026F5B): Use "⿱x𰍙" instead of "⿳x宀⿰衤殳".
 	(U-00026F5C): Use "⿱x窞" instead of "⿳x宀⿱分臼".
 	(U-00026F5D): Use "傫" instead of "⿰亻累".
-	(U-00026F61): Use "⿱x𠅸" instead of "⿳x&CDP-8C4D;老".
+	(U-00026F61): Use "⿱x𠅶" instead of "⿳x&CDP-8C4D;老".
 	(U-00026F62): Modify structure.
 	(U-00026F63): Use "歀" instead of "⿰柰欠".
 	(U-00026F64): Use "𮘌" instead of "⿰言𠂢".
@@ -3208,7 +3213,7 @@
 	(U-000269A7): Add an apparent field.
 	(U-00026C03): Modify structure; preserve the previous IDS as an
 	apparent structure.
-	(U-00026C08): Use "𠖼" instead of "⿱央&CDP-8971;".
+	(U-00026C08): Use "鿑" instead of "⿱央&CDP-8971;".
 	(U-00026C0A): Use "𪞐" instead of "⿱㓁子".
 	(U-00027185): Use "⿱x彎" instead of "⿳x亠彎".
 	(U-00027192): Modify structure.
@@ -3238,7 +3243,7 @@
 	(U-00020D59): Use "岺" instead of "⿱山令".
 	(U-00020D62): Use "𧹘" instead of "⿱龷灬".
 	(U-00021101): Use "廩" instead of "⿸广稟".
-	(U-00021102): Use "𡉤" instead of "⿱不土".
+	(U-00021102): Use "𡄂" instead of "⿱不土".
 	(U-00021105): Completed [temporary].
 	(U-00021108): Use "⿱x𠰣" instead of "⿳x必口".
 	(U-0002110A): Use "䀈" instead of "⿱旣皿".
@@ -3247,7 +3252,7 @@
 	(U-0002142B): Completed [temporary].
 	(U-000215D7): Don't use "?".
 	(U-00021827): Completed [temporary].
-	(U-00021838): Use "𦕓" instead of "⿱⿰工几耳".
+	(U-00021838): Use "聊" instead of "⿱⿰工几耳".
 	(U-0002183B): Confirmed.
 	(U-000218DA): Completed.
 	(U-000218DE): Use "聚" instead of "⿱取𫡑".
@@ -3266,7 +3271,7 @@
 	(U-00021CC8): Use "烾" instead of "⿱炎土".
 	(U-00021D6B): Completed.
 	(U-00021DC1): Modify structure; add an apparent field.
-	(U-00021DC3): Use "𠣓" instead of "⿹勹云".
+	(U-00021DC3): Use "𠣒" instead of "⿹勹云".
 	(U-00021DC8): Use "屾" instead of "⿰山山".
 	(U-00021DC9): Modify structure.
 	(U-00021DCA): Completed.
@@ -3323,7 +3328,7 @@
 	(U-00026C83): Modify structure; add an apparent field based on the
 	previous IDS.
 	(U-00027B83): Use "㷼" instead of "⿳廿&CDP-8D76;火".
-	(U-00027B89): Use "𦾓" instead of "⿱艹𠌶".
+	(U-00027B89): Use "薬" instead of "⿱艹𠌶".
 	(U-00027B8A): Use "⿴誩x" instead of "⿲言x言".
 	(U-00027B9C): Modify structure.
 
@@ -3346,8 +3351,8 @@
 	* IDS-UCS-Ext-F.txt (U+2D537): Modify structure.
 	(U+2EAEC): Modify structure.
 	(U+2EAED): Use "⿱𬎿x" instead of "⿳丷田x".
-	(U+2EAEE): Use "⿱𤰗x" instead of "⿳𠂉田x".
-	(U+2EAEF): Use "⿱𤰗x" instead of "⿳𠂉田x".
+	(U+2EAEE): Use "⿱𤰖x" instead of "⿳𠂉田x".
+	(U+2EAEF): Use "⿱𤰖x" instead of "⿳𠂉田x".
 	(U+2EAF2): Modify structure.
 	(U+2EB01): Completed.
 
@@ -3424,7 +3429,7 @@
 	(U-00026C07): Use "⿱x妟" instead of "⿳x日女".
 	(U-00026C09): Modify structure.
 	(U-00026C0C): Completed.
-	(U-00026C12): Use "佦" instead of "⿰亻石".
+	(U-00026C12): Use "佥" instead of "⿰亻石".
 	(U-00026C13): Fixed.
 	(U-00026C17): Use "𰅲" instead of "⿱世十".
 	(U-00026C19): Modify structure.
@@ -3546,10 +3551,10 @@
 	(U-00023FA7): Use "𫲪" instead of "⿱幽子".
 	(U-00023FAC): Use "䦎" instead of "⿵門元".
 	(U-00023FAE): Use "⿰x𣪍" instead of "⿲x⿸尸⿱兀几殳".
-	(U-00023FBB): Use "啫" instead of "⿰口者".
+	(U-00023FBB): Use "青" instead of "⿰口者".
 	(U-00023FCF): Use "𠹝" instead of "⿳林九口".
 	(U-00023FD1): Use "䢽" instead of "⿱共邑".
-	(U-00023FD4): Use "𨔶" instead of "⿺辶羍".
+	(U-00023FD4): Use "𨕙" instead of "⿺辶羍".
 	(U-00023FD7): Use "⿰x𢾕" instead of "⿲x⿱出方攵".
 	(U-00023FDA): Use "㮚" instead of "⿱𠧪木".
 	(U-00023FDB): Use "𦕾" instead of "⿰耳𠯑".
@@ -3561,7 +3566,7 @@
 	(U-00023FF7): Use "𫀄" instead of "⿵戊示".
 	(U-00023FFD): Use "賎" instead of "⿰貝㦮".
 	(U-00023FFE): Use "𪝣" instead of "⿰亻寄".
-	(U-00023FFF): Use "鈲" instead of "⿰金瓜".
+	(U-00023FFF): Use "㩕" instead of "⿰金瓜".
 
 2024-03-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -3573,8 +3578,8 @@
 2024-03-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use "宁" instead of "⿱宀丁".
-	(U-000207D7): Use "𢀛" instead of "⿱工口".
-	(U-000219F1): Use "𢀛" instead of "⿱工口".
+	(U-000207D7): Use "𡧰" instead of "⿱工口".
+	(U-000219F1): Use "𡧰" instead of "⿱工口".
 	(U-000219FC): Use "⿱穴x" instead of "⿳宀八x".
 
 2024-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -3660,7 +3665,7 @@
 	(U-0002A0DA): Use "𥘣" instead of "⿱止示".
 	(U-0002A0DC): Fixed.
 	(U-0002A0F0): Use "貟" instead of "⿱厶貝".
-	(U-0002A0F4): Use "𤔄" instead of "⿱爫可".
+	(U-0002A0F4): Use "𤔋" instead of "⿱爫可".
 	(U-0002A0F7): Fixed.
 	(U-0002A0F8): Use "枼" instead of "⿱世木".
 	(U-0002A103): Use "栞" instead of "⿱幵木".
@@ -3685,7 +3690,7 @@
 	(U-0002A362): Use "𣪊" instead of "⿰𡉉殳".
 	(U-0002A36B): Modify structure; add an apparent field based on the
 	previous IDS.
-	(U-0002A36D): Use "𧰮" instead of "⿱日豕".
+	(U-0002A36D): Use "豘" instead of "⿱日豕".
 	(U-0002A3CD): Use "⿰𰮋x" instead of "⿲月⿱八几x".
 	(U-0002A3E1): Use "䚵" instead of "⿰言斗".
 	(U-0002A485): Use "勑" instead of "⿰來力".
@@ -3693,7 +3698,7 @@
 	previous IDS.
 	(U-0002A488): Modify structure.
 	(U-0002A48C): Use "⿴衣x" instead of "⿳亠x𧘇".
-	(U-0002A48D): Use "⿱冧x" instead of "⿳冖林x".
+	(U-0002A48D): Use "⿱&A-compU+6797;x" instead of "⿳冖林x".
 	(U-0002A4F2): Use "⿱昷x" instead of "⿳日皿x".
 	(U-0002A4F6): Use "𭣩" instead of "⿰出攵".
 	(U-0002A501): Use "𢑑" instead of "⿱⺕⺕".
@@ -3701,7 +3706,7 @@
 	(U-0002A578): Use "⿹𣪊x" instead of "⿰⿱𡉉x殳".
 	(U-0002A61F): Use "𥃩" instead of "⿱目匕".
 	(U-0002A620): Use "𠇾" instead of "⿰亻⿱木一".
-	(U-0002A62B): Use "𡧧" instead of "⿳宀&CDP-8959;一".
+	(U-0002A62B): Use "𡧠" instead of "⿳宀&CDP-8959;一".
 	(U-0002A644): Use "𡯂" instead of "⿱八几".
 	(U-0002A646): Use "㞕" instead of "⿸尸⿱八⺼".
 	(U-0002A647): Use "㞕" instead of "⿸尸⿱八⺼".
@@ -3709,7 +3714,7 @@
 	(U-0002A656): Modify structure.
 	(U-0002A658): Use "斊" instead of "⿱文耳".
 	(U-0002A665): Use "禼" instead of "⿱卤禸".
-	(U-0002A66C): Use "𦧚" instead of "⿰舌舌".
+	(U-0002A66C): Use "𦧗" instead of "⿰舌舌".
 	(U-0002A671): Use "⿸𢊆x" instead of "⿸广⿱秝x".
 	(U-0002A69F): Use "⿴幵x" instead of "⿲干x干".
 	(U-0002A6A5): Use "龖" instead of "⿰龍龍".
@@ -3764,45 +3769,45 @@
 	(U-00028525): Use "𦘔" instead of "⿻聿彡".
 	(U-0002852A): Use "𠣞" instead of "⿹勹車".
 	(U-0002852B): Use "𭥨" instead of "⿳日儿夂".
-	(U-0002853A): Use "𢆔" instead of "⿱吅干".
+	(U-0002853A): Use "顸" instead of "⿱吅干".
 	(U-0002853B): Use "𮧯" instead of "⿳𫝀口巾".
 	(U-0002853C): Use "𪱿" instead of "⿰木⿱𠂉子".
 	(U-00028541): Use "𢈍" instead of "⿸广米".
 	(U-00028544): Use "屎" instead of "⿸尸米".
 	(U-00028548): Use "昺" instead of "⿱日丙".
-	(U-000286DD): Use "𡴇" instead of "⿱屮丰".
-	(U-000286DF): Use "𡴇" instead of "⿱山丰".
+	(U-000286DD): Use "𡴈" instead of "⿱屮丰".
+	(U-000286DF): Use "𡴈" instead of "⿱山丰".
 	(U-00028AAA): Use "荣" instead of "⿳艹冖木".
 	(U-00028AAB): Use "㳫" instead of "⿱水臼".
-	(U-00028ACE): Use "𤤴" instead of "⿰玉玉".
+	(U-00028ACE): Use "玨" instead of "⿰玉玉".
 	(U-00028AD3): Use "戜" instead of "⿹戈呈".
 	(U-00028AD6): Use "偒" instead of "⿰亻昜".
 	(U-00028ADD): Use "𮥶" instead of "⿱𠂉⿻隹一".
-	(U-00028AE8): Use "𤈿" instead of "⿱求灬".
-	(U-00028B7D): Use "𡻎" instead of "⿱崔乃".
+	(U-00028AE8): Use "𤈸" instead of "⿱求灬".
+	(U-00028B7D): Use "𡻌" instead of "⿱崔乃".
 	(U-00028B83): Use "𠨣" instead of "⿱卯亞".
 	(U-00028B85): Use "翜" instead of "⿱羽夾".
 	(U-00028DF5): Use "斵" instead of "⿰⿱卯亞斤".
-	(U-00028F6C): Use "𣚨" instead of "⿰𣏼𣏼".
-	(U-00028F6E): Use "𩐎" instead of "⿱敕韭".
+	(U-00028F6C): Use "𣚨" instead of "⿰&U-i003+4E47;&U-i003+4E47;".
+	(U-00028F6E): Use "䪣" instead of "⿱敕韭".
 	(U-00028F73): Use "蠶" instead of "⿱朁䖵".
 	(U-00028F81): Use "𨽾" instead of "⿰⿱上示隶".
 	(U-00028F84): Use "𪐗" instead of "⿱𡆧炎".
-	(U-000291B2): Use "𪏵" instead of "⿰黍勿".
+	(U-000291B2): Use "䵓" instead of "⿰黍勿".
 	(U-000291B3): Use "𧜣" instead of "⿰⻂鳥".
 	(U-000291BA): Use "䩭" instead of "⿰革奇".
 	(U-000291BD): Use "懜" instead of "⿰忄夢".
 	(U-000291C0): Use "⿱x⿶䢅罓" instead of "⿳x⿻𦥑⿵冂㐅辰".
 	(U-000291C3): Use "𢏝" instead of "⿰弜弓".
-	(U-000291C8): Use "䨇" instead of "⿰隻隻".
+	(U-000291C8): Use "𩁃" instead of "⿰隻隻".
 	(U-000291CC): Modify structure.
 	(U-000291CE): Modify structure.
 	(U-00029378): Fixed.
 	(U-0002937A): Use "嶲" instead of "⿱山雋".
 	(U-0002937B): Use "𩰵" instead of "⿰鬲亘".
-	(U-00029381): Use "𦾓" instead of "⿱艹𠌶".
+	(U-00029381): Use "薬" instead of "⿱艹𠌶".
 	(U-00029387): Use "𢋱" instead of "⿱出廌".
-	(U-0002938E): Use "𣡍" instead of "⿱⿰朿朿⿰朿朿".
+	(U-0002938E): Use "𣡌" instead of "⿱⿰朿朿⿰朿朿".
 	(U-0002938F): Modify structure.
 	(U-000293A2): Use "𠬢" instead of "⿱屮又".
 	(U-000293A9): Completed.
@@ -3838,14 +3843,14 @@
 2024-02-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000264C2): Modify structure.
-	(U-000267D9): Use "𤉄" instead of "⿱豕灬".
+	(U-000267D9): Use "𤈿" instead of "⿱豕灬".
 	(U-0002684C): Modify structure.
 	(U-0002686D): Modify structure.
 	(U-00026978): Modify structure.
 	(U-00026979): Use "𡘩" instead of "⿻𦥑大".
 	(U-0002697D): Use "&U-i001+2FF1;午𠬞" instead of "⿻午𠬞".
 	(U-00026980): Use "⿴⿱𦥑𦥑丨" instead of "⿻⿱𦥑𦥑丨".
-	(U-00026986): Use "⿱𡘑x" instead of "⿳臼大x".
+	(U-00026986): Use "⿱奖x" instead of "⿳臼大x".
 	(U-0002698A): Completed.
 	(U-0002698B): Modify structure.
 	(U-00026993): Modify structure.
@@ -3874,9 +3879,9 @@
 	(U-000274E9): Use "䝳" instead of "⿱𣦼貝".
 	(U-00027807): Fixed.
 	(U-000278F1): Use "𢦙" instead of "⿹戈幺".
-	(U-00027911): Use "⿱𡘑x" instead of "⿳臼大x".
+	(U-00027911): Use "⿱奖x" instead of "⿳臼大x".
 	(U-00027930): Use "⿰x㪷" instead of "⿲x豆斗".
-	(U-00027932): Use "𤉄" instead of "⿱豕灬".
+	(U-00027932): Use "𤈿" instead of "⿱豕灬".
 	(U-00027B6B): Use "𠆆" instead of "⿳⿱亠⿱口口卝干".
 	(U-00027B6C): Use "𥉁" instead of "⿱䀠夰".
 	(U-00027D8C): Modify structure.
@@ -3917,8 +3922,8 @@
 	(U-00024431): Use "㼲" instead of "⿰耎瓦".
 	(U-00024432): Use "⿱𮲡x" instead of "⿳日共x".
 	(U-00024BB5): Use "㼲" instead of "⿰耎瓦".
-	(U-00024BB7): Use "𩅸" instead of "⿱雨畱".
-	(U-00024BB8): Use "𩆞" instead of "⿱霝田".
+	(U-00024BB7): Use "𤮶" instead of "⿱雨畱".
+	(U-00024BB8): Use "𤮷" instead of "⿱霝田".
 	(U-00024BC9): Use U-00021BCE instead of BC-85C1.
 	(U-00024BCE): Use "⿸𢊆x" instead of "⿸广⿱秝x".
 	(U-00024BCF): Use "⿱x𡭕" instead of "⿳x一小".
@@ -4018,12 +4023,12 @@
 	(U-000258CD): Use "𫖻" instead of "⿱公風".
 	(U-000258D0): Use "暈" instead of "⿱日軍".
 	(U-000258D5): Use "兾" instead of "⿱丷異".
-	(U-0002598B): Use "㤋" instead of "⿰忄分".
+	(U-0002598B): Use "忿" instead of "⿰忄分".
 	(U-0002598D): Use "㫒" instead of "⿱日廾".
 	(U-00025996): Use "呌" instead of "⿰口斗".
 	(U-00025997): Use "𢗀" instead of "⿱口心".
 	(U-000259A4): Use "抺" instead of "⿰扌未".
-	(U-000259A5): Use "𠈣" instead of "⿺先人".
+	(U-000259A5): Use "𠈡" instead of "⿺先人".
 	(U-000259A6): Modify structure.
 	(U-000259AB): Use "呱" instead of "⿰口瓜".
 	(U-000259AC): Fixed.
@@ -4032,12 +4037,12 @@
 	(U-000259F3): Use "⿱⺸x" instead of "⿳卝干x".
 	(U-000259F4): Use "𱞩" instead of "⿰忄⿱彐⺢".
 	(U-000259FB): Use "𠁅" instead of "⿸&CDP-88BC;匆".
-	(U-000259FC): Use "㥥" instead of "⿰忄禺".
+	(U-000259FC): Use "愙" instead of "⿰忄禺".
 	(U-00025A2D): Modify structure.
 	(U-00025AE3): Confirmed.
 	(U-00025AE5): Use "乇" instead of "⿻二乚".
 	(U-00025AE7): Completed [temporary].
-	(U-00025AEE): Use "亇" instead of "⿱𠂉亅".
+	(U-00025AEE): Use "𠄐" instead of "⿱𠂉亅".
 	(U-00025D59): Use "⿱x罩" instead of "⿳x⺫卓".
 	(U-00025D60): Use "穀" instead of "⿰⿳士冖禾殳".
 	(U-00025D66): Use "𨲆" instead of "⿰镸肖".
@@ -4100,7 +4105,7 @@
 	(U-00020961): Modify structure.
 	(U-00020965): Use "雔" instead of "⿰隹隹".
 	(U-00020A28): Completed.
-	(U-00020A29): Use "⿱⿶𡘑xy" instead of "⿱⿻𦥑x⿱大y".
+	(U-00020A29): Use "⿱⿶奖xy" instead of "⿱⿻𦥑x⿱大y".
 	(U-00020A93): Use "䋈" instead of "⿱奴糸".
 	(U-00020A94): Use "𠭖" instead of "⿰⿱爫古又".
 	(U-00020A97): Use "䚿" instead of "⿰言欠".
@@ -4115,7 +4120,7 @@
 	(U-00020F45): Use "舂" instead of "⿱𡗗臼".
 	(U-00020F5A): Fixed.
 	(U-00020F5C): Use "啻" instead of "⿱帝口".
-	(U-00020F63): Use "㞚" instead of "⿸尸臿".
+	(U-00020F63): Use "嘮" instead of "⿸尸臿".
 	(U-00020F65): Use "䙵" instead of "⿱覀圭".
 	(U-00020F67): Use "𬛳" instead of "⿱至至".
 	(U-00020F68): Use "𡩘" instead of "⿱宀音".
@@ -4126,7 +4131,7 @@
 	(U-00020F7C): Use U+6B70 instead of JU+6B70.
 	(U-00020F80): Use "𰕎" instead of "⿰育攵".
 	(U-00020F81): Use "⿰x𡎐" instead of "⿲x坴丮".
-	(U-000212BD): Use "𡵄" instead of "⿱山&CDP-8972;".
+	(U-000212BD): Use "&A-IWDSU+21D00;" instead of "⿱山&CDP-8972;".
 	(U-00021517): Use "𠑲" instead of "⿰僉僉".
 	(U-00021518): Modify structure; preserve the previous IDS as an
 	apparent structure.
@@ -4140,7 +4145,7 @@
 	(U-0002185F): Use U+6B70 instead of JU+6B70.
 	(U-00021882): Use "𡎐" instead of "⿰坴丮".
 	(U-0002189B): Modify structure.
-	(U-000218A0): Use "𥦮" instead of "⿳穴口冋".
+	(U-000218A0): Use "𡢠" instead of "⿳穴口冋".
 	(U-000218A2): Use "虞" instead of "⿸虍吳".
 	(U-000218A4): Confirmed.
 	(U-000218E0): Use "𤲶" instead of "⿰男男".
@@ -4152,7 +4157,7 @@
 	(U-00021D2C): Use "艸" instead of "⿰屮屮".
 	(U-00021E56): Use "炏" instead of "⿰火火".
 	(U-00021E78): Use "⿱x怱" instead of "⿳x匆心".
-	(U-00021ECC): Use "𡷰" instead of "⿱山辰".
+	(U-00021ECC): Use "崁" instead of "⿱山辰".
 	(U-00021ECF): Use "𠦍" instead of "⿳人人十".
 
 2024-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -4408,7 +4413,7 @@
 	(U-00024231): Modify structure.
 	(U-00024233): Use "𥃫" instead of "⿰目又".
 	(U-00024235): Use "𠯭" instead of "⿱口日".
-	(U-00024238): Use "⿰x𠡉" instead of "⿲x古力".
+	(U-00024238): Use "⿰x労" instead of "⿲x古力".
 	(U-00024D9A): Use "圼" instead of "⿱日土".
 	(U-000254BD): Use "𢀜" instead of "⿰工丮".
 	(U-00025B63): Modify structure; preserve the previous IDS as an
@@ -4422,11 +4427,11 @@
 	(U-00025B7F): Completed [temporary].
 	(U-00025B80): Use "旳" instead of "⿰日勺".
 	(U-00025B82): Confirmed.
-	(U-00025B83): Use "𠇽" instead of "⿰亻匝".
+	(U-00025B83): Use "𠇺" instead of "⿰亻匝".
 	(U-00025B84): Use "𦘺" instead of "⿰月已".
-	(U-00025B85): Use "⿱x㺯" instead of "⿳x王大".
+	(U-00025B85): Use "⿱x𤣴" instead of "⿳x王大".
 	(U-00025B8C): Use "⿱x竿" instead of "⿳x竹于".
-	(U-00025B8D): Use "⿱x㸒" instead of "⿳x爫壬".
+	(U-00025B8D): Use "⿱x婬" instead of "⿳x爫壬".
 	(U-00025B8E): Use "⿴𥫠x" instead of "⿳竹x廾".
 	(U-00025B9E): Modify structure; add an apparent field based on the
 	previous IDS.
@@ -4454,11 +4459,11 @@
 	(U-00025C13): Modify structure.
 	(U-00025C15): Use "⿱x𦊁" instead of "⿳x⺫比".
 	(U-00025C16): Modify structure.
-	(U-00025C1A): Use "𦕈" instead of "⿰耳少".
+	(U-00025C1A): Use "&A2-DJT-08506;" instead of "⿰耳少".
 	(U-00025C21): Use "敇" instead of "⿰朿攵".
 	(U-00025C8F): Modify structure.
 	(U-00025C92): Modify structure.
-	(U-00025CB8): Use "𫂁" instead of "⿳竹日大".
+	(U-00025CB8): Use "𥮌" instead of "⿳竹日大".
 	(U-00025CB9): Modify structure.
 	(U-00025D41): Use "⿱x盝" instead of "⿳x录皿".
 	(U-00025D43): Use "⿱x盞" instead of "⿳x戔皿".
@@ -4546,7 +4551,7 @@
 	(U-00026A03): Use "𡉚" instead of "⿻㞢二".
 	(U-0002708C): Use "⿱x䑞" instead of "⿳x⿷匚炎舛".
 	(U-00027091): Modify structure.
-	(U-00027096): Use "⿱x𨨖" instead of "⿳x玨金".
+	(U-00027096): Use "⿱x錻" instead of "⿳x玨金".
 	(U-00027097): Use "⿹蕁x" instead of "⿱艹⿰x尋".
 	(U-0002709E): Use "𰟚" instead of "⿰幸炎".
 	(U-000270A2): Modify structure.
@@ -4555,7 +4560,7 @@
 	(U-000270B6): Use "𠌵" instead of "⿰亻鳥".
 	(U-000270BD): Use "𠦝" instead of "⿱十早".
 	(U-000270BF): Use "𦠤" instead of "⿰⺼惢".
-	(U-000270C2): Use "𪎷" instead of "⿰黃毛".
+	(U-000270C2): Use "䵊" instead of "⿰黃毛".
 
 2023-10-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -4584,7 +4589,7 @@
 	(U-000261D0): Use "𤌑" instead of "⿳⿻𦥑幺一火".
 	(U-000261DE): Use U+907A instead of C1-725C.
 	(U-000261E1): Completed [temporary].
-	(U-000261E3): Use "䝿" instead of "⿱臾貝".
+	(U-000261E3): Use "𡓊" instead of "⿱臾貝".
 
 	* IDS-UCS-Ext-B-3.txt (U-00024311): Modify structure.
 
@@ -4727,11 +4732,11 @@
 	(U-00020FC7): Use U+89E3 instead of JU+89E3.
 	(U-000211D4): Use "㚣" instead of "⿱女女".
 	(U-00021751): Use "𦘺" instead of "⿰月己".
-	(U-00021752): Use "𢗡" instead of "⿰忄攵".
+	(U-00021752): Use "𡝝" instead of "⿰忄攵".
 	(U-00021753): Modify structure.
 	(U-00021759): Use "佘" instead of "⿱入示".
 	(U-0002175F): Use "秊" instead of "⿱禾千".
-	(U-00021761): Use "𢏏" instead of "⿰弓尒".
+	(U-00021761): Use "𡝠" instead of "⿰弓尒".
 	(U-00021AB9): Use "𮊿" instead of "⿱羽𠇍".
 	(U-00021ABD): Use "䂓" instead of "⿰矢見".
 	(U-00021AC1): Use "𧠪" instead of "⿰尗見".
@@ -4828,7 +4833,7 @@
 	(U-0002776A): Use "𡬵" instead of "⿰⿱覀土寸".
 	(U-0002776B): Use "𭘧" instead of "⿱𠦜⿱冖巾".
 	(U-0002776D): Use "𮙺" instead of "⿱𡗜貝".
-	(U-0002776F): Use "⿴𧙿x" instead of "⿲衤x衣".
+	(U-0002776F): Use "⿴装x" instead of "⿲衤x衣".
 	(U-0002777B): Use "𦩎" instead of "⿰舟灷".
 	(U-00027780): Use "竪" instead of "⿱臤立".
 	(U-00027792): Fixed.
@@ -4837,7 +4842,7 @@
 	(U-000277A1): Use "𡡅" instead of "⿰女鳥".
 	(U-000277A4): Use "蒦" instead of "⿱艹隻".
 	(U-000277B0): Use "慼" instead of "⿱戚心".
-	(U-000277B1): Use "𪊘" instead of "⿸鹿𧘇".
+	(U-000277B1): Use "𪊔" instead of "⿸鹿𧘇".
 	(U-000277B4): Use "調" instead of "⿰言周".
 	(U-000277B9): Modify structure.
 	(U-000277BA): Modify structure.
@@ -4927,7 +4932,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-00022B56): Use U+4E5E instead of UU+4E5E.
 	(U-00023F2C): Use "𣇄" instead of "⿱日折".
-	(U-00023F30): Use "𢚸" instead of "⿱弄心".
+	(U-00023F30): Use "𢚬" instead of "⿱弄心".
 	(U-00023F3A): Use U-00021569 instead of IU+21569.
 	(U-00023F3B): Use "𩁹" instead of "⿱雨于".
 	(U-00023F3E): Use "聊" instead of "⿰耳卯".
@@ -4941,8 +4946,8 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-00022677): Use "𢀜" instead of "⿰工丮".
 	(U-00022678): Use "⿽㤅x" instead of "⿱⿰x旡心".
-	(U-00022B54): Use "𥤥" instead of "⿱穴七".
-	(U-00022B5A): Use "𥁀" instead of "⿱刀皿".
+	(U-00022B54): Use "𢭔" instead of "⿱穴七".
+	(U-00022B5A): Use "𢭚" instead of "⿱刀皿".
 	(U-00022B63): Completed.
 	(U-00022B64): Use "𢀜" instead of "⿰工丮".
 	(U-00022F7F): Modify structure.
@@ -4982,7 +4987,7 @@
 	(U-00028A77): Use "𫨻" instead of "⿰&CDP-8C7A;殳".
 	(U-00028A79): Use "⿱x𨥲" instead of "⿳x⿰工几金".
 	(U-00028A7B): Modify structure.
-	(U-00028A7E): Use "乼" instead of "⿱注乙".
+	(U-00028A7E): Use "𬇐" instead of "⿱注乙".
 	(U-00028CAC): Use "𭄶" instead of "⿱⿰矛攵力".
 	(U-00029177): Use U+751A instead of UU+751A.
 	(U-0002972F): Use "叜" instead of "⿳宀⿱八𠆢又".
@@ -5025,15 +5030,15 @@
 	(U-00028BCF): Use "㽓" instead of "⿱生⿰生生".
 	(U-00028E53): Use "𢁙" instead of "⿱夂巾".
 	(U-00028E56): Use "𢨩" instead of "⿸戶匕".
-	(U-00028E60): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
+	(U-00028E60): Use "⿸阶x" instead of "⿰阝⿱夂x".
 	(U-00028E71): Use "阩" instead of "⿰阝升".
-	(U-00028E72): Use "⿸𨸩x" instead of "⿰阝⿱⺙x".
+	(U-00028E72): Use "⿸阶x" instead of "⿰阝⿱⺙x".
 	(U-00028E76): Use "亝" instead of "⿱厽二".
 	(U-00028E8A): Modify structure.
-	(U-00028E93): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
-	(U-00028E9A): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
-	(U-00028E9B): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
-	(U-00028EBC): Use "⿸𨸩x" instead of "⿰阝⿱夂x".
+	(U-00028E93): Use "⿸阶x" instead of "⿰阝⿱夂x".
+	(U-00028E9A): Use "⿸阶x" instead of "⿰阝⿱夂x".
+	(U-00028E9B): Use "⿸阶x" instead of "⿰阝⿱夂x".
+	(U-00028EBC): Use "⿸阶x" instead of "⿰阝⿱夂x".
 	(U-00028EE6): Modify structure.
 	(U-00028EEC): Fixed.
 	(U-00028F4B): Modify structure.
@@ -5047,10 +5052,10 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-000225A5): Use U+9761 instead of JU+9761.
 	(U-00023565): Use "䂝" instead of "⿰石戈".
-	(U-00023568): Use "𤰺" instead of "⿱不田".
-	(U-00023570): Use "𤤤" instead of "⿰𤣩禾".
+	(U-00023568): Use "𣕨" instead of "⿱不田".
+	(U-00023570): Use "𣕰" instead of "⿰𤣩禾".
 	(U-00023574): Use U+70AD instead of JU+70AD.
-	(U-00023578): Use "𦭧" instead of "⿱艹匝".
+	(U-00023578): Use "𦭤" instead of "⿱艹匝".
 	(U-00023589): Use "穼" instead of "⿱穴木".
 
 	* IDS-UCS-Ext-B-3.txt (U-00024349): Use "訔" instead of "⿱山言".
@@ -5078,15 +5083,15 @@
 	(U-0002437E): Modify structure; preserve the previous IDS as an
 	apparent structure.
 	(U-00024383): Use "𥒐" instead of "⿱圭石".
-	(U-00024386): Use "𡍏" instead of "⿱𠧧土".
+	(U-00024386): Use "𡍏" instead of "⿱&A-GT-K01840;土".
 	(U-0002438F): Use "𫡑" instead of "⿲⿱丿人丨人".
 	(U-00024391): Use "𡕩" instead of "⿳囟八夊".
 	(U-000243AC): Use "𱑺" instead of "⿱炏又".
 	(U-000243C2): Use "焞" instead of "⿰火享".
 	(U-000243CD): Use "堹" instead of "⿰土重".
-	(U-000243CF): Use "𤲆" instead of "⿱田辰".
+	(U-000243CF): Use "𤏏" instead of "⿱田辰".
 	(U-000243F7): Use "𤍾" instead of "⿳林大火".
-	(U-0002528F): Use "𦒿" instead of "⿱老目".
+	(U-0002528F): Use "𥊏" instead of "⿱老目".
 	(U-00025299): Use "𡕩" instead of "⿳囟八夊".
 
 	* IDS-UCS-Ext-B-1.txt (U-00021B97): Modify structure; preserve the
@@ -5095,7 +5100,7 @@
 2023-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00020D84): Use "𡥚" instead of "⿰子可".
-	(U-00020D86): Use "𨑮" instead of "⿺辶什".
+	(U-00020D86): Use "﨤" instead of "⿺辶什".
 	(U-00020EC9): Use "适" instead of "⿺辶舌".
 	(U-00020ECC): Modify structure; preserve the previous IDS as an
 	apparent structure.
@@ -5152,7 +5157,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-0002390C): Use "⿹欼x" instead of
 	"⿰⿱叕x欠".
-	(U-00023915): Use "⿽𨠅x" instead of "⿰⿱x酉欠".
+	(U-00023915): Use "⿽𣤕x" instead of "⿰⿱x酉欠".
 	(U-0002391B): Use "猋" instead of "⿱犬㹜".
 	(U-0002391C): Use "⿹欼x" instead of "⿰⿱叕x欠".
 
@@ -5183,7 +5188,7 @@
 	(U-000250B9): Use "⿽䀁x" instead of "⿱⿰x有皿".
 	(U-000250C3): Use "㺒" instead of "⿰犭翏".
 
-	* IDS-UCS-Basic.txt (U+6B60): Use "⿽𨠅x" instead of "⿰⿱x酉欠".
+	* IDS-UCS-Basic.txt (U+6B60): Use "⿽𣤕x" instead of "⿰⿱x酉欠".
 
 	* IDS-UCS-Ext-F.txt (U+2D278): Use U+7957 instead of JU+7957.
 	(U+2D33D): Use U+5B3E instead of JU+5B3E.
@@ -5248,7 +5253,7 @@
 
 	* IDS-UCS-Ext-B-2.txt: Use U+590B instead of CU+590B.
 	(U-000235B1): Use "𭖨" instead of "⿱山夋".
-	(U-00023597): Use "迡" instead of "⿺辶尼".
+	(U-00023597): Use "𣖗" instead of "⿺辶尼".
 	(U-0002359E): Use "𱒢" instead of "⿱亦口".
 	(U-000235A5): Use "𢪿" instead of "⿱古手".
 	(U-000235AB): Use "㱿" instead of "⿰⿱士𠔼殳".
@@ -5262,7 +5267,7 @@
 	(U-00022C73): Use "𠣦" instead of "⿹勹⿱廿火".
 	(U-00022C74): Use "枽" instead of "⿳十龷木".
 	(U-00022C76): Use "𬔰" instead of "⿱竹心".
-	(U-00022CC1): Use "⿸䨾x" instead of "⿸广⿱非x".
+	(U-00022CC1): Use "⿸䨽x" instead of "⿸广⿱非x".
 	(U-000231B7): Use "𡉵" instead of "⿰土⿺⺃土".
 	(U-000231BB): Use "戼" instead of "⿰⿻㇇匸⿻&CDP-86E8;&CDP-8C78;".
 	(U-000231BD): Use "𤘖" instead of "⿰牜丁".
@@ -5311,10 +5316,10 @@
 	(U-00021682): Use "𡗛" instead of "⿱勹大".
 	(U-00021684): Use "㦸" instead of "⿰卓戈".
 	(U-0002168A): Use "⿱x𨾴" instead of "⿳x吅隹".
-	(U-0002168B): Use "⿱x𡙢" instead of "⿳x粉大".
+	(U-0002168B): Use "⿱x&U-i005+23B0B;" instead of "⿳x粉大".
 	(U-0002168E): Completed.
 	(U-00021696): Use U+5E1A instead of JU+5E1A.
-	(U-00021698): Use "𡗮" instead of "⿱爫大".
+	(U-00021698): Use "𡗭" instead of "⿱爫大".
 	(U-00021699): Use "⿱𭘧x" instead of "⿳𠦜⿱冖巾x"
 	(U-00021A0E): Use "⿱灾x" instead of "⿱宀⿱火x".
 	(U-00021A19): Modify structure.
@@ -5353,7 +5358,7 @@
 	[Wed, 19 Apr 2023 16:01:11 +0000]].
 
 	* IDS-UCS-Ext-B-1.txt (U-00021A21): Use "奂" instead of
-	"⿱𠂊⿻冂大" [suggested by Jaemin Chung [Sat, 15 Apr 2023 18:26:38
+	"⿱刀⿻冂大" [suggested by Jaemin Chung [Sat, 15 Apr 2023 18:26:38
 	+0000]].
 	(U-00021A23): Use "𤘴" instead of "⿰牜攴".
 
@@ -5372,7 +5377,7 @@
 	(U-000293F8): Modify structure.
 	(U-000293FE): Use "𠬢" instead of "⿱屮又".
 	(U-0002964F): Likewise.
-	(U-00029664): Use "⿹飌x" instead of "⿰⿱雚x風"; use "𧲏" instead
+	(U-00029664): Use "⿹飌x" instead of "⿰⿱雚x風"; use "䝒" instead
 	of "⿲豕豕豕".
 
 2023-04-10  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -5436,7 +5441,7 @@
 
 2023-02-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-4.txt (U-00026518): Use "𡬶" instead of
+	* IDS-UCS-Ext-B-4.txt (U-00026518): Use "㝷" instead of
 	"⿳⺕⿰工几寸".
 	(U-0002673C): Use U+38C7 instead of UU+38C7.
 	(U-00027BF5): Use U+5949 instead of JU+5949.
@@ -5470,16 +5475,16 @@
 	(U-000224B9): Use "𱤏" instead of "⿱林林".
 	(U-00022582): Use "𫎴" instead of "⿺走同".
 	(U-00022584): Modify structure.
-	(U-0002258C): Use "𡻷" instead of "⿱山戚".
+	(U-0002258C): Use "𡼄" instead of "⿱山戚".
 	(U-000232C0): Fixed.
 	(U-000232C5): Modify structure.
 	(U-0002348F): Completed.
 	(U-00023492): Use "⿰𣐀x" instead of "⿲木文x".
-	(U-000234F9): Use "⿰x𨚫" instead of "⿲x去阝".
+	(U-000234F9): Use "⿰x𣓹" instead of "⿲x去阝".
 	(U-0002382E): Modify structure; preserve the previous IDS as an
 	apparent structure.
 	(U-00023831): Use "簪" instead of "⿱竹朁".
-	(U-0002383C): Use "𨶪" instead of "⿵門翏".
+	(U-0002383C): Use "𣠼" instead of "⿵門翏".
 	(U-0002383D): Use "覇" instead of "⿱覀䩗".
 	(U-00023840): Modify structure.
 	(U-00023841): Use "⿰x𱌛" instead of "⿲x齒攵".
@@ -5504,11 +5509,11 @@
 
 	* IDS-UCS-Ext-A.txt (U+3675): Use "㙜" instead of "⿱高土".
 	(U+3DF8): Use "𬀽" instead of "⿱日&CDP-8BF8;".
-	(U+3DF9): Use "䓬" instead of "⿱艹卓".
+	(U+3DF9): Use "㷹" instead of "⿱艹卓".
 	(U+3DFA): Use "𢽶" instead of "⿰臽⺙".
 	(U+3DFC): Modify structure.
 	(U+3E00): Use "㙜" instead of "⿱高土".
-	(U+43FF): Use "𢼄" instead of "⿰户⺙".
+	(U+43FF): Use "啓" instead of "⿰户⺙".
 	(U+458D): Use U+6535 instead of <CJK RADICAL RAP>.
 
 	* IDS-UCS-Basic.txt (U+5B0A): Modify structure.
@@ -5599,12 +5604,12 @@
 
 	* IDS-UCS-Ext-B-3.txt:
 	- Use "灰" instead of "⿸厂火".
-	- Use "𥐧" instead of "⿱石廾".
+	- Use "𠶡" instead of "⿱石廾".
 	- Use U+590C instead of CU+590C.
 	(U-00025E90): Use "听" instead of "⿰口斤".
 	(U-00025E97): Completed.
 
-	* IDS-SW-JIGUGE.txt: Use "⿸&SW-JIGUGE-30316;x" instead of "⿱&SW-JIGUGE-30316;x".
+	* IDS-SW-JIGUGE.txt: Use "⿸&SW-JIGUGE5-30315;x" instead of "⿱&SW-JIGUGE5-30315;x".
 	(SW-JIGUGE-00323): Modify structure.
 	(SW-JIGUGE-03522): Completed [temporary].
 	(SW-JIGUGE-03912): Completed.
@@ -5683,8 +5688,8 @@
 	(SW-JIGUGE-30023): Completed.
 	(SW-JIGUGE-30101): Completed.
 	(SW-JIGUGE-30107): Completed.
-	(SW-JIGUGE-30209): Use SW-JIGUGE-04221[&SW-JIGUGE-04221;] instead of
-	SW-JIGUGE-41104[&SW-JIGUGE-41104;].
+	(SW-JIGUGE-30209): Use SW-JIGUGE-04221[&SW-JIGUGE5-04220;] instead of
+	SW-JIGUGE-41104[&SW-JIGUGE4-04220;].
 	(SW-JIGUGE-30301): Completed.
 	(SW-JIGUGE-30311): Completed [temporary].
 	(SW-JIGUGE-30316): Completed.
@@ -5919,7 +5924,7 @@
 	(U-00026BA8): Modify structure.
 	(U-00026BF9): Use "沁" instead of "⿰氵心".
 	(U-00026BFB): Use "汶" instead of "⿰氵文".
-	(U-00026BFE): Use "𤣥" instead of "⿱亠&CDP-895C;".
+	(U-00026BFE): Use "&BUCS+7384;" instead of "⿱亠&CDP-895C;".
 	(U-00026C02): Use "𤆎" instead of "⿰扌火".
 	(U-00026C86): Use "⿱芉x" instead of "⿳艹干x".
 	(U-00026C88): Use "⿴𦬠x" instead of "⿱⿱艹x廾".
@@ -5927,11 +5932,11 @@
 	(U-00027058): Use "㜦" instead of "⿰女尋".
 	(U-00027059): Use U+990A instead of JU+990A.
 	(U-0002712A): Completed.
-	(U-0002712B): Use "緐" instead of "⿰毎系".
+	(U-0002712B): Use "綛" instead of "⿰毎系".
 	(U-00027194): Modify structure.
 	(U-00027196): Fixed.
 	(U-0002719A): Use "𪄿" instead of "⿰𦰩鳥".
-	(U-000271B1): Use "夻" instead of "⿱大口".
+	(U-000271B1): Use "㚑" instead of "⿱大口".
 	(U-000271B3): Use "丠" instead of "⿱北一".
 	(U-000271C5): Use "𠕾" instead of "⿱冖日".
 	(U-000271C6): Use "𣏽" instead of "⿰木攴".
@@ -6033,7 +6038,7 @@
 	(U-00026399): Use "&U-i002+2FF1;吅人" instead of "⿺⿻人口口".
 	(U-000263D9): Use "𧵩" instead of "⿱朿貝".
 	(U-000263DD): Modify structure.
-	(U-000263DE): Use "⿵𦟀x" instead of "⿳亡口⿲月x丮".
+	(U-000263DE): Use "⿵𡣍x" instead of "⿳亡口⿲月x丮".
 	(U-000263E0): Fixed.
 	(U-000263E1): Modify structure.
 	(U-000263E4): Use "𠾳" instead of "⿱可⿰可可".
@@ -6075,7 +6080,7 @@
 	(U-00026C3E): Use "㚿" instead of "⿰女包".
 	(U-00026C5E): Use "⿱x𡴋" instead of "⿳x屮母".
 	(U-00026C5F): Modify structure.
-	(U-00026C68): Use "𢏏" instead of "⿰弓尒".
+	(U-00026C68): Use "𡝠" instead of "⿰弓尒".
 	(U-00026C6B): Modify structure.
 	(U-00026C6C): Modify structure.
 	(U-00026CBF): Completed.
@@ -6088,7 +6093,7 @@
 	(U-00026E3B): Modify structure; preserve the previous IDS as an
 	apparent structure.
 	(U-00026E70): Modify structure.
-	(U-00026E7A): Use "⿱x𧴻" instead of "⿳x文貝".
+	(U-00026E7A): Use "⿱x𦹰" instead of "⿳x文貝".
 	(U-00026ECF): Modify structure.
 	(U-00026ED2): Use "⿱莫x" instead of "⿳艹日⿵大x".
 	(U-00026F1E): Use "⿱x畬" instead of "⿳x余田".
@@ -6139,7 +6144,7 @@
 	(U-00027B73): Use "𠾳" instead of "⿱可⿰可可".
 	(U-00027C9E): Use "𧱔" instead of "⿰⺼⿱豕巾".
 	(U-00027C9F): Use "祘" instead of "⿰示示".
-	(U-00027F07): Use "𣱹" instead of "⿱𠂊⺢".
+	(U-00027F07): Use "𣱹" instead of "⿱刀⺢".
 	(U-00027F23): Use "帛" instead of "⿱白巾".
 	(U-00027F27): Fixed.
 
@@ -6159,15 +6164,15 @@
 
 2022-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-2.txt (U-00022933): Use "䝿" instead of "⿱臾貝".
+	* IDS-UCS-Ext-B-2.txt (U-00022933): Use "𡓊" instead of "⿱臾貝".
 	(U-00022934): Modify structure.
 	(U-00022936): Use "𭮰" instead of "⿰⿱士𠔼𪠲"; use "⿱x怘"
 	instead of "⿳x古心".
-	(U-000237DE): Use "𦻳" instead of "⿱艹朁".
+	(U-000237DE): Use "𣟞" instead of "⿱艹朁".
 	(U-000237E0): Use "縣" instead of "⿰県系".
 	(U-000237E2): Use U-000237E2 instead of UU+7BDA.
 	(U-000237E5): Use "𢡃" instead of "⿱立患".
-	(U-000237E8): Use "䝿" instead of "⿱臾貝".
+	(U-000237E8): Use "𡓊" instead of "⿱臾貝".
 
 2022-10-04  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -6376,7 +6381,7 @@
 	(U-00029323): Use "羙" instead of "⿱𦍌火".
 	(U-000299FB): Use U+5B9B instead of UU+5B9B.
 
-	* IDS-UCS-Ext-B-2.txt (U-000226AC): Use "𡉤" instead of "⿱不土".
+	* IDS-UCS-Ext-B-2.txt (U-000226AC): Use "𡄂" instead of "⿱不土".
 	(U-000226AD): Use "汖" instead of "⿱山水".
 	(U-00022AC2): Fixed.
 	(U-00022AC7): Use "⿸𢩱x" instead of "⿰扌⿱才x".
@@ -6385,8 +6390,8 @@
 
 2022-09-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-3.txt (U-0002486F): Use "舃" instead of "⿱臼𤆛".
-	(U-000248A7): Use "⿱x舃" instead of "⿳x臼𤆛".
+	* IDS-UCS-Ext-B-3.txt (U-0002486F): Use "舃" instead of "⿱臼&A-IWDSU+2419B;".
+	(U-000248A7): Use "⿱x舃" instead of "⿳x臼&A-IWDSU+2419B;".
 
 	* IDS-UCS-Ext-B-1.txt (U-00021225): Use U+8457 instead of CU+8457.
 	(U-00021227): Modify structure.
@@ -6400,11 +6405,11 @@
 	(U-00020673): Use "䜌" instead of "⿲糹言糹".
 	(U-00020DF5): Use "紂" instead of "⿰糹寸".
 	(U-00020DF6): Use "㚅" instead of "⿳夂一生".
-	(U-00020DF7): Use "𤤋" instead of "⿱夭玉".
+	(U-00020DF7): Use "𠷷" instead of "⿱夭玉".
 	(U-00020F28): Use "⿴㗊x" instead of "⿳吅x吅".
 	(U-00020F96): Ditto.
 	(U-000210C1): Use "⿰x靚" instead of "⿲x青見".
-	(U-000210C2): Use "⿱x舃" instead of "⿳x臼𤆛".
+	(U-000210C2): Use "⿱x舃" instead of "⿳x臼&A-IWDSU+2419B;".
 	(U-000210C8): Use "緙" instead of "⿰糹革".
 	(U-00021139): Use "⿵㗊x" instead of "⿲吕x吕"; preserve the
 	previous IDS as an apparent structure.
@@ -6416,7 +6421,7 @@
 	(U-000214E9): Modify structure.
 	(U-000216A3): Completed.
 	(U-000216A5): Use "奐" instead of "⿱&CDP-8CAF;大".
-	(U-000217B2): Use "𦥚" instead of "⿱⿻臼丨丂".
+	(U-000217B2): Use "𡞲" instead of "⿱⿻臼丨丂".
 	(U-000217B4): Use "苹" instead of "⿱艹平".
 	(U-000217B5): Use "奐" instead of "⿱&CDP-8CAF;大".
 	(U-000217D8): Use "⿴奻x" instead of "⿲女x女".
@@ -6503,7 +6508,7 @@
 	previous IDS.
 	(U-00024269): Use "𠛱" instead of "⿰⿱巛夕刂".
 	(U-0002426E): Use "㕻" instead of "⿱丶否".
-	(U-00024270): Use "𢼄" instead of "⿰戶⺙".
+	(U-00024270): Use "啓" instead of "⿰戶⺙".
 	(U-00024274): Modify structure.
 	(U-00024275): Use "呴" instead of "⿰口句".
 	(U-000242D4): Modify structure.
@@ -6568,8 +6573,8 @@
 	(U-00023F78): Use "窖" instead of "⿱穴告".
 	(U-00023F81): Use "萁" instead of "⿱艹其".
 	(U-00023F84): Use "臮" instead of "⿱自𫡑".
-	(U-00023F86): Use "𢉳" instead of "⿸广若".
-	(U-00023FB0): Use "𣷚" instead of "⿱夾⺢".
+	(U-00023F86): Use "𢉐" instead of "⿸广若".
+	(U-00023FB0): Use "𮎟" instead of "⿱夾⺢".
 
 2022-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -6638,7 +6643,7 @@
 2022-08-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-000206F7): Modify structure.
-	(U-00020700): Use "𣎽" instead of "⿱七木".
+	(U-00020700): Use "𠜀" instead of "⿱七木".
 	(U-000208A7): Modify structure; preserve the previous IDS as an
 	apparent structure.
 	(U-000208A8): Completed.
@@ -6670,7 +6675,7 @@
 	(U-00025ACF): Use "竟" instead of "⿳立日儿"; use U+590F instead
 	of CU+590F.
 	(U-00025AD1): Use "悤" instead of "⿱囪心".
-	(U-00025AD2): Use "𢜊" instead of "⿳工目心".
+	(U-00025AD2): Use "𢜈" instead of "⿳工目心".
 	(U-00025AD3): Fixed.
 	(U-00025AD5): Modify structure.
 
@@ -6693,7 +6698,7 @@
 	(U-00020E78): Use "衾" instead of "⿱今衣".
 	(U-00020E7B): Use "朕" instead of "⿰⺼关".
 	(U-00020E87): Modify structure.
-	(U-00020E88): Use "𦮴" instead of "⿱艹年".
+	(U-00020E88): Use "𦮨" instead of "⿱艹年".
 	(U-00020E8A): Use "茸" instead of "⿱艹耳".
 	(U-00020E91): Use "𥬇" instead of "⿱竹犬".
 	(U-00020E94): Use "𰢱" instead of "⿰用用".
@@ -6717,7 +6722,7 @@
 	(U-00020E76): Use "砰" instead of "⿰石平".
 	(U-00020E77): Use "娥" instead of "⿰女我".
 	(U-00021007): Use U+8463 instead of CU+8463.
-	(U-00021E1B): Use "欦" instead of "⿰今欠".
+	(U-00021E1B): Use "𣢑" instead of "⿰今欠".
 
 2022-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -6731,7 +6736,7 @@
 	(U-00021031): Use U+865F instead of JU+865F.
 	(U-00021C8C): Use "𡰱" instead of "⿸尸工".
 	(U-00021C98): Modify structure.
-	(U-00021C9B): Use "𢓤" instead of "⿰彳夅".
+	(U-00021C9B): Use "徔" instead of "⿰彳夅".
 	(U-00021C9D): Use "𡰱" instead of "⿸尸工".
 	(U-00021C9E): Use "𠒁" instead of "⿸𡰤几".
 	(U-00021F77): Modify structure.
@@ -6755,7 +6760,7 @@
 	apparent structure.
 	(U-00021F77): Use "𠀘" instead of "⿰阜⿱兀兀".
 	(U-00021F78): Use U+396F instead of CU+396F.
-	(U-00021F81): Use "𣻢" instead of "⿰氵通".
+	(U-00021F81): Use "𡾁" instead of "⿰氵通".
 	(U-00021F83): Modify structure.
 
 2022-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -6770,7 +6775,7 @@
 	(U-0002270A): Use "⿱x𪫩" instead of "⿳x目心"; preserve the
 	previous IDS as an apparent structure.
 	(U-00022857): Use U+840C instead of CU+840C.
-	(U-00022861): Use "𢜊" instead of "⿳工目心".
+	(U-00022861): Use "𢜈" instead of "⿳工目心".
 	(U-0002298F): Add IDS.
 	(U-00022992): Add IDS.
 	(U-00022994): Use "⿽戈x" instead of "⿶戈x".
@@ -6797,11 +6802,11 @@
 	(U-000205F2): Use "𰮤" instead of "⿰&R-HD-JA-376E;龹".
 	(U-00021040): Use "⿰x𣣻" instead of "⿲x圅欠".
 	(U-00021041): Modify structure.
-	(U-00021042): Use "遟" instead of "⿺辶屖".
+	(U-00021042): Use "𧭋" instead of "⿺辶屖".
 	(U-00021045): Use "𭀰" instead of "⿱免免".
 	(U-00021048): Use "辡" instead of "⿰辛辛".
 	(U-0002104A): Use "𡠺" instead of "⿱⿰火火安".
-	(U-0002104C): Use "⿰x䯉" instead of "⿲x骨欠".
+	(U-0002104C): Use "⿰x骯" instead of "⿲x骨欠".
 	(U-0002104D): Modify structure.
 	(U-0002163C): Add IDS.
 	(U-00021E2D): Completed.
@@ -6874,7 +6879,7 @@
 	(U-00025D14): Fixed.
 	(U-00025DAB): Fixed.
 	(U-00025ECD): Use "𣆊" instead of "⿱𠀐日".
-	(U-00025ECE): Use "𡋍" instead of "⿵共土".
+	(U-00025ECE): Use "𡋈" instead of "⿵共土".
 	(U-00025ED2): Use "⿴𥹫x" instead of "⿰米⿰x米".
 	(U-00025EF9): Use U+8336 instead of UU+8336.
 
@@ -6882,7 +6887,7 @@
 
 	* IDS-UCS-Ext-B-1.txt (U-00020C55): Use "兊" instead of "⿱八允".
 	(U-00021301): Use "𠛜" instead of "⿰丼刂".
-	(U-00021307): Use "𥐛" instead of "⿰石刀".
+	(U-00021307): Use "𡌇" instead of "⿰石刀".
 	(U-0002130C): Use "𨸢" instead of "⿰阝斤".
 	(U-0002130D): Modify structure.
 	(U-00021312): Use "𢒈" instead of "⿰井彡".
@@ -6890,13 +6895,13 @@
 	(U-0002170E): Use "兊" instead of "⿱八允".
 	(U-0002170F): Completed.
 	(U-00021710): Use "戍" instead of "⿻戊丶".
-	(U-00021711): Use "⿱𣅂x" instead of "⿳日亠x".
+	(U-00021711): Use "⿱𡜐x" instead of "⿳日亠x".
 	(U-00021716): Use "旨" instead of "⿱匕日".
 	(U-00021717): Use "𭥎" instead of "⿱厶日".
 	(U-00021718): Use "⿴奻x" instead of "⿲女x女".
 	(U-00021719): Use "⿰x邜" instead of "⿲x夕阝".
 	(U-0002173F): Use "亩" instead of "⿱亠田".
-	(U-00021745): Use "芕" instead of "⿱艹夕".
+	(U-00021745): Use "𡝅" instead of "⿱艹夕".
 	(U-00021748): Use "⿴奻x" instead of "⿲女x女".
 	(U-0002174B): Ditto.
 	(U-0002174F): Use "𡧍" instead of "⿱宀丏".
@@ -6904,7 +6909,7 @@
 	(U-00021A9E): Use "𠮢" instead of "⿱又口".
 	(U-00021AAC): Use "𦕬" instead of "⿰耳⿰夕阝".
 	(U-00021AAE): Use "𫸚" instead of "⿱辰廾".
-	(U-00021AB0): Use "䎜" instead of "⿰老老".
+	(U-00021AB0): Use "𮋛" instead of "⿰老老".
 	(U-00021AB3): Fixed.
 	(U-00021DD2): Use "⿱丠x" instead of "⿱北⿱一x".
 
@@ -6919,7 +6924,7 @@
 
 	* IDS-UCS-Ext-B-3.txt:
 	- Use U+8449 instead of CU+8449.
-	- Use "𥞫" instead of "⿱禾米".
+	- Use "𥞤" instead of "⿱禾米".
 	(U-0002415E): Fixed.
 	(U-000243F9): Use "僃" instead of "⿰亻⿱卝⿹勹用".
 	(U-000243FA): Use "𢾕" instead of "⿰⿱出方攵".
@@ -7007,7 +7012,7 @@
 	(U-000210FB): Use "䔲" instead of "⿱艹登".
 	(U-00021196): Use "蘸" instead of "⿱艹醮".
 	(U-00021359): Fixed.
-	(U-00021475): Use "葻" instead of "⿱艹風".
+	(U-00021475): Use "𡑵" instead of "⿱艹風".
 	(U-00021477): Use "葢" instead of "⿳艹太皿".
 	(U-00021ADA): Use "𡨾" instead of "⿱宀垔".
 	(U-00021CF5): Use "𫇰" instead of "⿱艹旧".
@@ -7054,7 +7059,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-00022C8E): Use "𦨚" instead of "⿰舟犬".
 	(U-00022C95): Use "𤼩" instead of "⿱癶矢".
-	(U-00022C97): Use "𦊎" instead of "⿱⺫示".
+	(U-00022C97): Use "𦊳" instead of "⿱⺫示".
 	(U-00022C98): Use "𥥍" instead of "⿱穴𡗜".
 	(U-00022CA6): Use "聀" instead of "⿰耳戈".
 	(U-00022CAF): Use "浹" instead of "⿰氵夾".
@@ -7075,7 +7080,7 @@
 	(U-000290C4): Use "尨" instead of "⿻龙𰀪" [suggested by Jaemin
 	Chung [2022-05-15 05:14:40 +0000]].
 	(U-000290C5): Completed.
-	(U-000290C6): Use "𢗝" instead of "⿰忄互".
+	(U-000290C6): Use "怃" instead of "⿰忄互".
 	(U-00029DE1): Use "玖" instead of "⿰𤣩久".
 	(U-00029DE2): Use "𢪛" instead of "⿰扌攵".
 	(U-00029DE5): Use "𬁟" instead of "⿱日寸".
@@ -7209,8 +7214,8 @@
 	Jaemin Chung [2022-05-03 08:42:24 +0000]].
 	(U-00024BF5): Use "⿱𤇾x" instead of "⿳炏冖x" [suggested by
 	Jaemin Chung [2022-05-03 08:42:24 +0000]].
-	(U-00024BFD): Use "𤯳" instead of "⿺⿱丙攴生".
-	(U-000258E6): Use "遟" instead of "⿺辶屖".
+	(U-00024BFD): Use "𤯲" instead of "⿺⿱丙攴生".
+	(U-000258E6): Use "𧭋" instead of "⿺辶屖".
 	(U-0002590D): Use "邉" instead of "⿺辶⿳自穴口".
 	(U-00025CBC): Use "𠊳" instead of "⿰亻⿱丙攴".
 	(U-00025CBD): Use "𥭭" instead of "⿱竹坐".
@@ -7238,7 +7243,7 @@
 	(U-00027422): Fixed [suggested by Jaemin Chung [Sun, 1 May 2022
 	04:35:35 +0000]].
 	(U-00027435): Use "㪷" instead of "⿰豆斗".
-	(U-00027437): Use "𢉉" instead of "⿸广⿱𡗜土".
+	(U-00027437): Use "㢐" instead of "⿸广⿱𡗜土".
 
 2022-05-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -7300,7 +7305,7 @@
 	(U-00021783): Use "㚖" instead of "⿱白大".
 	(U-0002182D): Confirmed.
 	(U-00021875): Modify structure.
-	(U-00021ACE): Use "𢾟" instead of "⿰⿱白木⺙".
+	(U-00021ACE): Use "𡫎" instead of "⿰⿱白木⺙".
 	(U-00021EFD): Use "園" instead of "⿴囗⿳土𠂈&CDP-8CC6;".
 	(U-00021F28): Use "𣓏" instead of "⿱林木".
 	(U-00021F86): Use "頟" instead of "⿰各頁".
@@ -7351,15 +7356,15 @@
 	- Use U+5316 instead of JU+5316.
 	- Use "𠧒" instead of "⿱⺊乙".
 	- Use U+6BB9 instead of JU+6BB9.
-	(U-00028594): Use "𡝼" instead of "⿸尸⿱氺女".
+	(U-00028594): Use "&A-GT-K04055;" instead of "⿸尸⿱氺女".
 	(U-00028648): Modify structure.
 	(U-0002879D): Fixed.
-	(U-0002879E): Use "𥂀" instead of "⿱朋皿".
+	(U-0002879E): Use "𥂂" instead of "⿱朋皿".
 	(U-00028CCF): Use U-0002011E instead of U+4E8C as the upper
 	component; preserve the previous IDS as an apparent structure.
 	(U-00028D19): Fixed.
 	(U-0002935E): Fixed.
-	(U-00029360): Use "𨔶" instead of "⿺辶⿱大羊".
+	(U-00029360): Use "𨕙" instead of "⿺辶⿱大羊".
 	(U-00029828): Use "秇" instead of "⿰禾丸".
 
 	* IDS-UCS-Ext-B-2.txt:
@@ -7406,7 +7411,7 @@
 	- Use U+9FB9 instead of BC-8BFA.
 	(U-00028107): Modify structure.
 	(U-00028190): Modify structure.
-	(U-00028191): Use "𥭽" instead of "⿱竹足".
+	(U-00028191): Use "简" instead of "⿱竹足".
 	(U-0002828F): Use "誊" instead of "⿱龹言".
 	(U-000283D0): Modify structure.
 	(U-000285A9): Use "眷" instead of "⿱龹目".
@@ -7421,7 +7426,7 @@
 	(U-0002906D): Use "奞" instead of "⿱大隹".
 	(U-000294A3): Use "㕂" instead of "⿸厂今".
 	(U-000295A9): Use "𠕀" instead of "⿵冂又".
-	(U-00029829): Use "⿰x𢼂" instead of "⿲x⿱㐅㐅⺙".
+	(U-00029829): Use "⿰x𠶂" instead of "⿲x⿱㐅㐅⺙".
 	(U-000299AD): Fixed.
 	(U-00029ADC): Use "𢌿" instead of "⿱田廾".
 
@@ -7478,7 +7483,7 @@
 	(SW-JIGUGE-14224): Completed.
 	(SW-JIGUGE-14412): Completed.
 	(SW-JIGUGE-14516): Completed.
-	(SW-JIGUGE-14720): Use "&SW-JIGUGE-42315;" instead of "⿰&SW-JIGUGE-41719;&SW-JIGUGE-47806;".
+	(SW-JIGUGE-14720): Use "&SW-JIGUGE5-42314;" instead of "⿰&SW-JIGUGE5-41718;&A-SW-JIGUGE-00412;".
 	(SW-JIGUGE-14907): Fixed.
 	(SW-JIGUGE-15801): Fixed.
 	(SW-JIGUGE-16704): Completed.
@@ -7502,7 +7507,7 @@
 	(SW-JIGUGE-19505): Completed.
 	(SW-JIGUGE-19510): Completed.
 	(SW-JIGUGE-19611): Completed.
-	(SW-JIGUGE-20002): Use "⿴&SW-JIGUGE-19913;x" instead of "⿲&SW-JIGUGE-18300;x&SW-JIGUGE-18300;".
+	(SW-JIGUGE-20002): Use "⿴&A-SW-JIGUGE-00514;x" instead of "⿲&SW-JIGUGE5-18210;x&SW-JIGUGE5-18210;".
 	(SW-JIGUGE-20612): Completed.
 	(SW-JIGUGE-20614): Fixed.
 	(SW-JIGUGE-23906): Completed.
@@ -7609,14 +7614,14 @@
 
 2022-03-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-2.txt (U-0002217F): Use "𣚨" instead of "⿰𣏼𣏼".
+	* IDS-UCS-Ext-B-2.txt (U-0002217F): Use "𣚨" instead of "⿰&U-i003+4E47;&U-i003+4E47;".
 	(U-00022182): Use "㓱" instead of "⿰俞刂".
 	(U-00022441): Use U+856D instead of CU+856D.
 	(U-00022E30): Use "㬜" instead of "⿱臸日".
 	(U-00022E33): Use U+856D instead of CU+856D.
-	(U-00022E41): Use "錿" instead of "⿰金虎".
+	(U-00022E41): Use "錼" instead of "⿰金虎".
 	(U-00022E51): Use "䆸" instead of "⿱穴登".
-	(U-00022E5A): Use "䯹" instead of "⿱髟𠬶".
+	(U-00022E5A): Use "𩬻" instead of "⿱髟𠬶".
 	(U-00022E5E): Use "𢩠" instead of "⿸户睘".
 	(U-00022E5F): Modify structure.
 	(U-00022E60): Fixed.
@@ -7625,7 +7630,7 @@
 	(U-00022E78): Use "叢" instead of "⿱丵取".
 	(U-00022E79): Use "藍" instead of "⿱艹監".
 	(U-00022E7B): Use "𩔇" instead of "⿰皇頁".
-	(U-00022E8C): Use "𣚨" instead of "⿰𣏼𣏼".
+	(U-00022E8C): Use "𣚨" instead of "⿰&U-i003+4E47;&U-i003+4E47;".
 	(U-00023829): Use "藍" instead of "⿱艹監".
 
 2022-03-20  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -7637,7 +7642,7 @@
 	(U-0002211C): Use "圅" instead of "⿱龴⿴囗𢆉".
 	(U-0002211D): Use "帛" instead of "⿱白巾".
 	(U-000223D8): Use "⿴幵x" instead of "⿲干x干".
-	(U-000223DF): Use "𠫣" instead of "⿱厶内".
+	(U-000223DF): Use "𠫡" instead of "⿱厶内".
 	(U-000223F6): Fixed.
 	(U-000223FA): Use "⿴弜x" instead of "⿲弓x弓".
 	(U-00022401): Likewise.
@@ -7675,7 +7680,7 @@
 	apparent structure.
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A407): Use "㤐" instead of "⿱占心".
-	(U-0002A411): Use "𡼁" instead of "⿱山离".
+	(U-0002A411): Use "𡼀" instead of "⿱山离".
 	(U-0002A412): Use "𪏰" instead of "⿱黍日".
 	(U-0002A413): Use "𬃷" instead of "⿱束束".
 	(U-0002A415): Use "⿱x𪏽" instead of "⿳x黍甘".
@@ -7747,7 +7752,7 @@
 	(U-00022BB8): Use "奌" instead of "⿱占大".
 	(U-00022BBB): Use U+82A9 instead of CU+82A9.
 	(U-00022BC0): Use "&U-i001+2FFB;乇北" instead of "⿻乇北".
-	(U-00022BC4): Use "𢼄" instead of "⿰戶攵".
+	(U-00022BC4): Use "啓" instead of "⿰戶攵".
 	(U-00022BC8): Use "𡴋" instead of "⿱山母".
 	(U-00023488): Use "𭖒" instead of "⿱山主".
 	(U-000234DE): Use "𦙚" instead of "⿰龵月".
@@ -7760,10 +7765,10 @@
 	(U-00023D07): Use "厌" instead of "⿸厂犬".
 	(U-00023DCF): Use U+82A9 instead of CU+82A9.
 	(U-00023DD4): Use U+623F instead of CU+623F.
-	(U-00023DD9): Use "𢼄" instead of "⿰戶攵".
+	(U-00023DD9): Use "啓" instead of "⿰戶攵".
 	(U-00023DE5): Use "⿰x𦙚" instead of "⿲x龵月".
 	(U-00023DEA): Use "𭖒" instead of "⿱山主".
-	(U-00023DEE): Use "𥐧" instead of "⿱石廾".
+	(U-00023DEE): Use "𠶡" instead of "⿱石廾".
 	(U-00023E03): Use U-00026B38 instead of CU+26B38.
 	(U-00023E04): Use U+661D instead of JU+661D.
 	(U-00023FEE): Use U+8475 instead of CU+8475.
@@ -7788,8 +7793,8 @@
 	(U-000229C7): Modify structure; add an apparent field based on the
 	previous IDS.
 	(U-00022BA3): Fixed.
-	(U-00022BC9): Use "𤓻" instead of "⿱爫天".
-	(U-00022BCC): Use "𢪘" instead of "⿱分手".
+	(U-00022BC9): Use "𤓷" instead of "⿱爫天".
+	(U-00022BCC): Use "抟" instead of "⿱分手".
 	(U-00022C0E): Use "⿱丗x" instead of "⿱卅⿱一x".
 	(U-00022ED0): Use U+7F8C instead of JU+7F8C.
 	(U-00022F20): Fixed.
@@ -7902,23 +7907,23 @@
 	(U-00028373): Use "䍃" instead of "⿱爫缶".
 	(U-00028402): Modify structure.
 	(U-00028404): Modify structure.
-	(U-000284EE): Use "㸒" instead of "⿱爫壬".
+	(U-000284EE): Use "婬" instead of "⿱爫壬".
 	(U-000287CF): Use "𤎭" instead of "⿱炎㐭".
 	(U-000287D0): Use "㙶" instead of "⿱&CDP-8BAA;堂".
 	(U-000287D5): Use "㬜" instead of "⿱臸日".
 	(U-000287D7): Use "蔿" instead of "⿱艹爲".
 	(U-000287E5): Use "𰘾" instead of "⿱磊木".
 	(U-000287E7): Modify structure.
-	(U-00028B87): Use "葻" instead of "⿱艹風".
+	(U-00028B87): Use "𡑵" instead of "⿱艹風".
 	(U-00028D62): Use "𰥍" instead of "⿱目大".
 	(U-00028D63): Fixed.
-	(U-00028E84): Use "㸒" instead of "⿱爫壬".
+	(U-00028E84): Use "婬" instead of "⿱爫壬".
 	(U-00028E86): Use "𰥍" instead of "⿱目大".
 	(U-00028F30): Use "⿸隓x" instead of "⿰阝⿳左左土x".
 	(U-00028F32): Use "𬝑" instead of "⿳艹𠆢镸".
-	(U-00028F63): Use "𦾈" instead of "⿱艹喿".
+	(U-00028F63): Use "攙" instead of "⿱艹喿".
 	(U-00028F6A): Use "⿴𱀝x" instead of "⿲阜x阜".
-	(U-00028F75): Use "㸂" instead of "⿱遂火".
+	(U-00028F75): Use "燧" instead of "⿱遂火".
 	(U-0002993B): Use "𠂕" instead of "⿱丿夫".
 	(U-00029963): Use "䍃" instead of "⿱爫缶".
 	(U-00029978): Use "𫇮" instead of "⿱艹戉".
@@ -7968,7 +7973,7 @@
 	(U-000245D5): Modify structure.
 	(U-000254FC): Use "𭩢" instead of "⿱巨木".
 	(U-00025520): Use U-000200A2 instead of IU+200A2.
-	(U-00025827): Use "𡱝" instead of "⿸尸羊".
+	(U-00025827): Use "𭏊" instead of "⿸尸羊".
 	(U-0002589D): Use U-000200A2 instead of IU+200A2.
 	(U-00025AC0): Use "𬴳" instead of "⿳一吅⿵𦉪丅".
 
@@ -8066,7 +8071,7 @@
 	(U-00026C6D): Use "⿴𦬇x" instead of "⿳艹x廾".
 	(U-00026CB9): Use U+591C instead of UU+591C.
 	(U-00026CE3): Use U+8340 instead of CU+8340.
-	(U-00026DFC): Use "⿴𦬱x" instead of "⿳艹x升".
+	(U-00026DFC): Use "⿴𦬮x" instead of "⿳艹x升".
 	(U-000272B2): Use U+5168 instead of CU+5168.
 
 	* IDS-UCS-Ext-B-3.txt:
@@ -8093,7 +8098,7 @@
 	(U-0002453C): Use "𭶰" instead of "⿱爫貝".
 	(U-00024548): Completed.
 	(U-00024564): Add IDS.
-	(U-00024804): Use "𤔄" instead of "⿱爫可".
+	(U-00024804): Use "𤔋" instead of "⿱爫可".
 	(U-00024D0B): Modify structure.
 	(U-00024F67): Use U+534C instead of BC-89D3.
 	(U-00024F6B): Use "⿱㚖x" instead of "⿳白大x".
@@ -8109,7 +8114,7 @@
 	* IDS-UCS-Ext-F.txt: Replace some glyph-grained components with
 	abstract characters.
 	(U+2CEE0): Unified to one column.
-	(U+2D779): Use "寽" instead of "⿱⿴𠂊冫寸".
+	(U+2D779): Use "寽" instead of "⿱⿴刀冫寸".
 
 	* IDS-UCS-Ext-B-1.txt: Use U+5340 instead of CU+5340.
 	(U-0002038D): Use U+82B1 instead of CU+82B1.
@@ -8158,7 +8163,7 @@
 	- Use U-0002CF16 instead of MJ056865.
 	(U-0002618A): Use "旧" instead of "⿰丨日".
 	(U-00026195): Use "⿴絲x" instead of "⿲糸x糸".
-	(U-00026198): Use "𤾇" instead of "⿱白兒".
+	(U-00026198): Use "皙" instead of "⿱白兒".
 	(U-0002619B): Use "𡕰" instead of "⿳𠚍八夊".
 	(U-0002619C): Use "聚" instead of "⿱取㐺".
 	(U-000261A5): Modify structure.
@@ -8171,7 +8176,7 @@
 	(U-000264ED): Use "匆" instead of "⿻勿乀".
 	(U-00026565): Fixed.
 	(U-0002656C): Use "邜" instead of "⿰夕阝".
-	(U-00026625): Use "𠶶" instead of "⿰⿱丶𡰪戈".
+	(U-00026625): Use "𥐧" instead of "⿰⿱丶𡰪戈".
 	(U-00026626): Use "啟" instead of "⿰⿱丶𡰪⺙".
 	(U-00026628): Modify structure; preserve the previous IDS as an
 	apparent structure.
@@ -8193,18 +8198,18 @@
 	(U-00026C5C): Use "䄪" instead of "⿰禾勺".
 	(U-00026C5D): Use "𠛱" instead of "⿰⿱巛夕刂".
 	(U-00026CAE): Use "兊" instead of "⿱八允".
-	(U-00026CBB): Confirmed; use "㸒" instead of "⿱爫壬".
+	(U-00026CBB): Confirmed; use "婬" instead of "⿱爫壬".
 	(U-00026CBC): Use "妬" instead of "⿰女石".
 	(U-00026CD5): Modify structure; preserve the previous IDS as an
 	apparent structure.
 	(U-00026CD6): Use "苘" instead of "⿱艹冋".
-	(U-00026CE1): Use "𤓿" instead of "⿳爫巳又".
+	(U-00026CE1): Use "𤔂" instead of "⿳爫巳又".
 	(U-00026CEB): Use "𮂸" instead of "⿰禾欠".
 	(U-00026CEC): Use "𡇞" instead of "⿴囗合".
 	(U-00026CED): Use "𫐣" instead of "⿺⻎丙".
 	(U-00026CEE): Use U+82DC instead of CU+82DC.
 	(U-00026CEF): Use "𦬸" instead of "⿱艹术".
-	(U-00026CF0): Use "㧁" instead of "⿸戶去".
+	(U-00026CF0): Use "&U-i001+22A42;" instead of "⿸戶去".
 	(U-00026D07): Use "荣" instead of "⿳艹冖木".
 	(U-00026D0D): Use "虵" instead of "⿰虫也".
 	(U-00026D5D): Use "⿴𦬠x" instead of "⿳艹x廾".
@@ -8216,13 +8221,13 @@
 	(U-00026DD0): Use "匆" instead of "⿻勿乀".
 	(U-00026DD1): Use "𬓥" instead of "⿰禾&CDP-8CE7;".
 	(U-00026DE9): Use "砭" instead of "⿰石乏".
-	(U-00026DF7): Use "𨒨" instead of "⿺⻎亥".
+	(U-00026DF7): Use "迷" instead of "⿺⻎亥".
 	(U-00026E45): Use "婉" instead of "⿰女宛".
 	(U-00026E47): Use "𫐩" instead of "⿺⻎坐".
 	(U-00026E48): Use "⿴𦬠x" instead of "⿳艹x廾".
 	(U-00026E63): Use "𠣯" instead of "⿹勹苗".
 	(U-00026E6B): Use "㹿" instead of "⿰犭卓".
-	(U-00026E71): Use "𧵆" instead of "⿰貝斤".
+	(U-00026E71): Use "𧴿" instead of "⿰貝斤".
 	(U-00026E76): Use "梖" instead of "⿰木貝".
 	(U-00026F21): Modify structure; add an apparent field based on the
 	previous IDS.
@@ -8272,14 +8277,14 @@
 	(U-000278E5): Use "兊" instead of "⿱八允".
 	(U-0002797B): Modify structure; preserve the previous IDS as an
 	apparent structure.
-	(U-00027A1E): Use "𡗮" instead of "⿱爫大".
+	(U-00027A1E): Use "𡗭" instead of "⿱爫大".
 	(U-00027A58): Use "𦏲" instead of "⿰&CDP-8877;&CDP-8877;".
 	(U-00027A96): Use "𢦶" instead of "⿹戈⿱工八".
 	(U-00027B2F): Use "寋" instead of "⿱𡨄巳".
 	(U-00027B36): Use "𦏲" instead of "⿰&CDP-8877;&CDP-8877;".
 	(U-00027B3A): Use "蒂" instead of "⿱艹帝".
-	(U-00027B40): Use "䇷" instead of "⿱竹別".
-	(U-00027B46): Use "𠎤" instead of "⿳亼吅𠕁".
+	(U-00027B40): Use "&A2-DJT-08442;" instead of "⿱竹別".
+	(U-00027B46): Use "僲" instead of "⿳亼吅𠕁".
 	(U-00027B4C): Use "⿰x㼲" instead of "⿲x耎瓦".
 	(U-00027B4D): Use "聚" instead of "⿱取㐺".
 	(U-00027CD7): Use "夿" instead of "⿱大巴".
@@ -8421,7 +8426,7 @@
 	(SW-JIGUGE-30602): Completed.
 	(SW-JIGUGE-30603): Completed.
 	(SW-JIGUGE-31904): Completed.
-	(SW-JIGUGE-34931): Use "&SW-JIGUGE-41717;" instead of "⿰&SW-JIGUGE-41714;&SW-JIGUGE-51602;".
+	(SW-JIGUGE-34931): Use "&SW-JIGUGE5-41716;" instead of "⿰&SW-JIGUGE4-01009;&R-CHISE-HDIC-KTBS0307;".
 	(SW-JIGUGE-41715): Completed.
 	(SW-JIGUGE-41717): Completed.
 	(SW-JIGUGE-41718): Completed.
@@ -8572,7 +8577,7 @@
 	(U-00021375): Use U+9656 instead of CU+9656.
 	(U-000213E3): Use "臭" instead of "⿱自犬".
 	(U-000213E5): Use "哲" instead of "⿱折口".
-	(U-000213E8): Use "𤽤" instead of "⿱此白".
+	(U-000213E8): Use "𡏨" instead of "⿱此白".
 	(U-000213EB): Use "𭩶" instead of "⿱列木".
 	(U-00021981): Use U+5F56 instead of UU+5F56.
 	(U-00021C03): Use U+4343 instead of JU+4343.
@@ -8605,7 +8610,7 @@
 	(U-00025C37): Use "⿱x㽜" instead of "⿳x夗田".
 	(U-00025C38): Use "⿱x晉" instead of "⿳x亚日".
 	(U-00025C39): Use "㬵" instead of "⿰月交".
-	(U-00025C43): Use "𨓜" instead of "⿺辶免".
+	(U-00025C43): Use "篹" instead of "⿺辶免".
 	(U-00025C47): Use "⿱x䎡" instead of "⿳x而火".
 	(U-00025C49): Use "狼" instead of "⿰犭良".
 	(U-00025C4B): Use "⿱x鿄" instead of "⿳x㲽木".
@@ -8689,7 +8694,7 @@
 	(U-000209A8): Use U-000206A3 instead of MJ031236.
 	(U-00020A7F): Use U-0002DEBE instead of MJ058090.
 	(U-00020D3B): Use "陁" instead of "⿰阝㐌".
-	(U-00020DB4): Use "𨸲" instead of "⿰阝市".
+	(U-00020DB4): Use "附" instead of "⿰阝市".
 	(U-00020DB5): Use U-000206A3 instead of MJ031236.
 	(U-00020DB6): Use U+542F instead of JU+542F.
 	(U-00020DB7): Use "⿴咅x" instead of "⿳立x口"; add an apparent
@@ -8725,7 +8730,7 @@
 	(U-000266E2): Use "囯" instead of "⿴囗王".
 	(U-00026BD7): Use "⿱芉x" instead of "⿳艹干x".
 	(U-00026CF1): Use "⿱x𣅼" instead of "⿳x日甲".
-	(U-00026CF4): Use "⿱x𢍆" instead of "⿳x㓞廾".
+	(U-00026CF4): Use "⿱x&U-i001+22344;" instead of "⿳x㓞廾".
 	(U-00026DBD): Use "系" instead of "⿱丿糸".
 	(U-000270FE): Use "𰤷" instead of "⿱田皿".
 	(U-0002715F): Modify structure; add an apparent field based on the
@@ -8736,7 +8741,7 @@
 	(U-00027238): Modify a component.
 	(U-00027385): Modify structure.
 	(U-00027388): Use "㓨" instead of "⿰夾刂".
-	(U-00027389): Use "𦍑" instead of "⿻羌丶".
+	(U-00027389): Use "羑" instead of "⿻羌丶".
 	(U-0002738E): Use "咠" instead of "⿱口耳".
 	(U-00027393): Use "𧈸" instead of "⿱夊虫".
 	(U-000273A4): Use "孫" instead of "⿰子⿱丿糸".
@@ -8748,7 +8753,7 @@
 	(U-00027BC8): Use "𡭴" instead of "⿱小𣌢".
 	(U-00027BCB): Use "閕" instead of "⿵門牙".
 	(U-00027C57): Use "𥃩" instead of "⿱目匕".
-	(U-00027CF3): Use "𢍆" instead of "⿱㓞廾".
+	(U-00027CF3): Use "&U-i001+22344;" instead of "⿱㓞廾".
 	(U-00027ED8): Use U+34DE instead of UU+34DE.
 	(U-00027F06): Use "系" instead of "⿱丿糸".
 
@@ -8761,7 +8766,7 @@
 	(U-000247D0): Use "契" instead of "⿱㓞犬".
 	(U-000247D3): Use "䒥" instead of "⿱艹帀".
 	(U-000247DB): Use "兔" instead of "⿺免丶".
-	(U-000247FB): Use "𢍆" instead of "⿱㓞廾".
+	(U-000247FB): Use "&U-i001+22344;" instead of "⿱㓞廾".
 	(U-00024E1E): Ditto.
 	(U-00024E36): Use U-00024C07 instead of IU+24C07.
 	(U-000256AA): Modify structure.
@@ -8787,7 +8792,7 @@
 	- Use "气" instead of "⿳𠂉一乙".
 	(U-00025081): Modify structure; preserve the previous IDS as an
 	apparent structure.
-	(U-00025083): Use "𢓤" instead of "⿰彳夅".
+	(U-00025083): Use "徔" instead of "⿰彳夅".
 	(U-00025437): Use "匁" instead of "⿻勹乂".
 	(U-00025438): Use "允" instead of "⿱厶儿".
 	(U-00025116): Use "𰅭" instead of "⿱八十".
@@ -8801,7 +8806,7 @@
 
 	* IDS-UCS-Ext-B-1.txt:
 	- Use U+4491 instead of GT-39640.
-	- Use "夻" instead of "⿱大口".
+	- Use "㚑" instead of "⿱大口".
 	(U-00020214): Fixed.
 	(U-000202A7): Use "並" instead of "⿱䒑&CDP-8D6B;".
 	(U-000202AF): Modify structure.
@@ -8837,8 +8842,8 @@
 	(U-0002A1FE): Use "䴡" instead of "⿸严⿱&CDP-88B4;比".
 	(U-0002A200): Use "𠾧" instead of "⿱吅禺".
 	(U-0002A208): Use "頼" instead of "⿰束頁".
-	(U-0002A20E): Use "賴" instead of "⿰束⿱𠂊貝".
-	(U-0002A211): Use "𩃮" instead of "⿱雨易".
+	(U-0002A20E): Use "賴" instead of "⿰束⿱刀貝".
+	(U-0002A211): Use "𩃰" instead of "⿱雨易".
 	(U-0002A213): Use "𥱩" instead of "⿱竹⿰幸人".
 	(U-0002A3EF): Use U-000206A3 instead of BC-8DC9.
 	(U-0002A4B8): Modify structure.
@@ -8850,7 +8855,7 @@
 	* IDS-UCS-Ext-B-5.txt (U-0002863B): Use "𥰟" instead of "⿱竹袁".
 	(U-00028643): Use U+4343 instead of JU+4343.
 	(U-00029012): Use "𮂸" instead of "⿰禾欠".
-	(U-00029013): Use "𤔄" instead of "⿱爫可".
+	(U-00029013): Use "𤔋" instead of "⿱爫可".
 	(U-00029018): Use U+4343 instead of JU+4343.
 
 	* IDS-UCS-Ext-B-2.txt:
@@ -8940,7 +8945,7 @@
 	(U-00027444): Use "衆" instead of "⿱血乑".
 	(U-00027447): Use "棃" instead of "⿱𥝢木".
 	(U-0002744E): Use "𧈡" instead of "⿱又虫".
-	(U-00027804): Use "𩊐" instead of "⿰革耳".
+	(U-00027804): Use "鞆" instead of "⿰革耳".
 	(U-00027938): Fixed.
 	(U-00027CFA): Use "𰙩" instead of "⿱⿰刃刃止".
 
@@ -8963,7 +8968,7 @@
 	* IDS-UCS-Basic.txt (U+58F4): Add an apparent field.
 
 	* IDS-UCS-Ext-B-4.txt: Use U+8336 instead of UU+8336.
-	(U-0002615B): Use "𡬶" instead of "⿳⺕⿰工凡寸".
+	(U-0002615B): Use "㝷" instead of "⿳⺕⿰工凡寸".
 	(U-0002615D): Use U+7740 instead of JU+7740.
 	(U-00026386): Use U+5BFD instead of BC-8BC3.
 	(U-00027232): Use U+5342 instead of CU+5342.
@@ -8980,7 +8985,7 @@
 	(U-00020236): Use U+5C8C instead of JU+5C8C.
 	(U-00020424): Use U+8922 instead of C2-5A45.
 	(U-000204C5): Use "𦯕" instead of "⿱艹宋".
-	(U-00020651): Use "㱑" instead of "⿱止夕".
+	(U-00020651): Use "㱐" instead of "⿱止夕".
 	(U-00020652): Modify structure.
 	(U-00020653): Fixed.
 	(U-0002093E): Use U+541F instead of UU+541F.
@@ -8994,7 +8999,7 @@
 	(U-00020E28): Use "俚" instead of "⿰亻里".
 	(U-00020E2B): Use U+594F instead of JU+594F.
 	(U-000210B4): Use U+84EE instead of CU+84EE.
-	(U-00021399): Use Use "㱑" instead of "⿱止夕".
+	(U-00021399): Use Use "㱐" instead of "⿱止夕".
 	(U-0002139A): Use U+6241 instead of CU+6241.
 	(U-000214B4): Completed.
 	(U-0002153F): Use U+594F instead of JU+594F.
@@ -9017,7 +9022,7 @@
 	(U-00020236): Use U+5C8C instead of JU+5C8C.
 	(U-00020424): Use U+8922 instead of C2-5A45.
 	(U-000204C5): Use "𦯕" instead of "⿱艹宋".
-	(U-00020651): Use "㱑" instead of "⿱止夕".
+	(U-00020651): Use "㱐" instead of "⿱止夕".
 	(U-00020652): Modify structure.
 	(U-00020653): Fixed.
 	(U-0002093E): Use U+541F instead of UU+541F.
@@ -9031,7 +9036,7 @@
 	(U-00020E28): Use "俚" instead of "⿰亻里".
 	(U-00020E2B): Use U+594F instead of JU+594F.
 	(U-000210B4): Use U+84EE instead of CU+84EE.
-	(U-00021399): Use Use "㱑" instead of "⿱止夕".
+	(U-00021399): Use Use "㱐" instead of "⿱止夕".
 	(U-0002139A): Use U+6241 instead of CU+6241.
 	(U-000214B4): Completed.
 	(U-0002153F): Use U+594F instead of JU+594F.
@@ -9050,7 +9055,7 @@
 	- Use U+5950 instead of CU+5950.
 	(U-00026254): Use "𪩡" instead of "⿱巛巴".
 	(U-00026385): Modify structure.
-	(U-000264C8): Use "䎜" instead of "⿰老老".
+	(U-000264C8): Use "𮋛" instead of "⿰老老".
 	(U-000264CB): Ditto.
 	(U-000267BF): Use U-00020B2A instead of IU+20B2A.
 	(U-000267FB): Use U+533F instead of CU+533F.
@@ -9154,7 +9159,7 @@
 	* IDS-UCS-Ext-B-5.txt:
 	- Use U+8511 instead of CU+8511.
 	- Use "𥽘" instead of "⿰米蔑".
-	(U-000288F0): Use "䗍" instead of "⿱彖虫".
+	(U-000288F0): Use "蝝" instead of "⿱彖虫".
 	(U-000288F9): Use "㯥" instead of "⿰東東".
 	(U-00028901): Use "𡽽" instead of "⿳山𡆧炎".
 	(U-0002890A): Use "𩰥" instead of "⿳爫⺫⿰鬯又".
@@ -9169,10 +9174,10 @@
 	(U-00029EB6): Use "欵" instead of "⿰𠤕欠".
 	(U-00029134): Use "俸" instead of "⿰亻奉".
 	(U-0002979A): Use "旣" instead of "⿰⿱白匕旡".
-	(U-00029E9A): Use "𥘾" instead of "⿱𡗜示".
+	(U-00029E9A): Use "𣗟" instead of "⿱𡗜示".
 	(U-00029EA3): Use "晁" instead of "⿱日兆".
 	(U-00029EA5): Use "芻" instead of "⿱&CDP-8D65;&CDP-8D65;".
-	(U-00029EA7): Use "⿰x𤈜" instead of "⿲x火至".
+	(U-00029EA7): Use "⿰x𤈓" instead of "⿲x火至".
 	(U-00029EA8): Use "俸" instead of "⿰亻奉".
 	(U-00029EAB): Use "隽" instead of "⿱隹乃".
 	(U-00029EB6): Use "欵" instead of "⿰𠤕欠".
@@ -9195,7 +9200,7 @@
 
 2021-08-04  ColtMa  <mumchristmas@gmail.com>
 
-	* IDS-UCS-Ext-A.txt (U+34B1 (㒱)): Fix: ⿰入夕 --> ⿱入夕
+	* IDS-UCS-Ext-A.txt (U+34B1 (𠓟)): Fix: ⿰入夕 --> ⿱入夕
 
 2021-08-04  ColtMa  <mumchristmas@gmail.com>
 
@@ -9293,7 +9298,7 @@
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
-	* IDS-UCS-Basic.txt (U+8E52 (蹒)): Fix: ⿰𧾷䓣 --> ⿰𧾷𬜯
+	* IDS-UCS-Basic.txt (U+8E52 (蹒)): Fix: ⿰𧾷滿 --> ⿰𧾷𬜯
 
 2021-07-30  ColtMa  <mumchristmas@gmail.com>
 
@@ -9473,9 +9478,9 @@
 
 2021-07-29  ColtMa  <mumchristmas@gmail.com>
 
-	* IDS-UCS-Basic.txt: Fix: *replace '⿳𠂊冂大' with '奂'
-	(U+6DA3 (涣)):	⿰氵⿳𠂊冂大 -->
-	(U+7115 (焕)):	⿰火⿳𠂊冂大 -->
+	* IDS-UCS-Basic.txt: Fix: *replace '⿳刀冂大' with '奂'
+	(U+6DA3 (涣)):	⿰氵⿳刀冂大 -->
+	(U+7115 (焕)):	⿰火⿳刀冂大 -->
 
 2021-07-29  ColtMa  <mumchristmas@gmail.com>
 
@@ -9507,7 +9512,7 @@
 
 2021-07-29  ColtMa  <mumchristmas@gmail.com>
 
-	* IDS-UCS-Basic.txt (U+629B (抛)): fix: ⿰扌𡯄 --> ⿰扌𠠵 (u20835)
+	* IDS-UCS-Basic.txt (U+629B (抛)): fix: ⿰扌𡯄 --> ⿰扌&A-IWDSU+21BC4; (u20835)
 
 2021-07-02  ColtMa  <mumchristmas@gmail.com>
 
@@ -9547,7 +9552,7 @@
 	(U-00026631): Use U+535C instead of UU+535C.
 	(U-00026699): Modify structure.
 	(U-00026C91): Use "⿱x沗" instead of "⿳x天水".
-	(U-00026C94): Use "𢺸" instead of "⿰支支".
+	(U-00026C94): Use "𢺼" instead of "⿰支支".
 	(U-00026C97): Completed.
 	(U-00026C99): Completed.
 	(U-00026C9C): Use "芯" instead of "⿱艹心".
@@ -9570,7 +9575,7 @@
 	(U-00020DED): Completed.
 	(U-00020DF2): Use "吋" instead of "⿰口寸".
 	(U-000212BC): Use U+5DE9 instead of CU+5DE9.
-	(U-000213F7): Use "𡬶" instead of "⿳⺕⿰工几寸".
+	(U-000213F7): Use "㝷" instead of "⿳⺕⿰工几寸".
 	(U-0002153D): Use "吋" instead of "⿰口寸".
 	(U-00021739): Use U+90AA instead of G-JU+90AA.
 	(U-00021A65): Use U+7FC1 instead of MJ020661.
@@ -9611,7 +9616,7 @@
 	* IDS-UCS-Ext-B-5.txt:
 	- Use U+4EA0 instead of JU+4EA0.
 	- Use U+4491 instead of GT-39640.
-	- Use "䝿" instead of "⿱臾貝".
+	- Use "𡓊" instead of "⿱臾貝".
 	(U-00028169): Use "𣅀" instead of "⿱亠日".
 	(U-0002817A): Use U+6562 instead of JU+6562.
 	(U-000281C7): Use "𮚏" instead of "⿳龷灬貝".
@@ -9619,7 +9624,7 @@
 	(U-000281C9): Use "嶚" instead of "⿱山尞".
 	(U-000281CA): Use "𢕪" instead of "⿰彳喬".
 	(U-000281CC): Use "槭" instead of "⿰木戚".
-	(U-000281E0): Use "㕓" instead of "⿸厂墨".
+	(U-000281E0): Use "厳" instead of "⿸厂墨".
 	(U-000281EA): Use "⿰x顀" instead of "⿲x隹頁".
 	(U-000281ED): Modify structure.
 	(U-00028324): Modify structure.
@@ -9645,7 +9650,7 @@
 	(U-000299DD): Fixed.
 	(U-00029F5F): Use "𰏒" instead of "⿰巾巾".
 	(U-00029F60): Use "䳒" instead of "⿹𢦏鳥".
-	(U-00029F66): Use "㕓" instead of "⿸厂墨".
+	(U-00029F66): Use "厳" instead of "⿸厂墨".
 
 	* IDS-UCS-Ext-B-2.txt: Use U+84CB instead of CU+84CB.
 	(U-000228CD): Use "僃" instead of "⿰亻⿱艹⿹勹用".
@@ -9871,7 +9876,7 @@
 2021-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt: Use U+5C6F instead of JU+5C6F.
-	(U-0002011D): Use "𤊱" instead of "⿱&CDP-8CAF;&CDP-8C40;".
+	(U-0002011D): Use "𤊥" instead of "⿱&CDP-8CAF;&CDP-8C40;".
 	(U-00020122): Use "囘" instead of "⿵冂巳".
 	(U-00021AF3): Use "⿳x㠭y" instead of "⿱x⿳⿰工工⿰工工y".
 	(U-00021AF2): Use U+5BB3 instead of JU+5BB3.
@@ -9905,7 +9910,7 @@
 	(U-00023780): Use "𮧊" instead of "⿱面且".
 	(U-00023787): Use "⿴誩x" instead of "⿲言x言".
 	(U-0002379B): Modify structure.
-	(U-000237AD): Use "𡕷" instead of "⿳&GT-K03322;目夊".
+	(U-000237AD): Use "𡕶" instead of "⿳&GT-K03322;目夊".
 	(U-000237AE): Use "𬕟" instead of "⿱竹⿺⻎市".
 	(U-000237B1): Use "𠾂" instead of "⿱⿵來一回".
 	(U-00023D01): Completed.
@@ -9948,7 +9953,7 @@
 	(U-00028D8B): Use "𥙊" instead of "⿱癶示".
 	(U-00028D95): Use "𭭋" instead of "⿰⺶欠".
 	(U-00028D96): Use "𣴠" instead of "⿰氵𠯑".
-	(U-00028D9A): Use "𢇅" instead of "⿱𢆶卝".
+	(U-00028D9A): Use "𡠑" instead of "⿱𢆶卝".
 	(U-00028D9C): Use "㪷" instead of "⿰豆斗".
 	(U-00028D9E): Use "𣪏" instead of "⿰⿱彐月殳".
 	(U-00029408): Fixed.
@@ -10042,14 +10047,14 @@
 	(U-00023485): Use "𠯌" instead of "⿱㐅右".
 	(U-00023486): Use U+58F3 instead of JU+58F3.
 	(U-0002349D): Fixed.
-	(U-00023768): Use "𩾯" instead of "⿰氵鳥".
+	(U-00023768): Use "䲫" instead of "⿰氵鳥".
 	(U-0002376A): Use U-00021B20 instead of IU+21B20; modify
 	structure.
 	(U-0002385B): Use "匶" instead of "⿷匚舊".
 	(U-0002385F): Modify structure.
 	(U-00023866): Modify structure.
 	(U-00023878): Use U-00021B20 instead of IU+21B20.
-	(U-0002387A): Use "⿴𤳳x" instead of "⿳⿰田田x⿰田田"; use "𣑩"
+	(U-0002387A): Use "⿴𤳳x" instead of "⿳⿰田田x⿰田田"; use "𣑟"
 	instead of "⿰木回".
 	(U-00023905): Use "⿰x欢" instead of "⿲x又欠".
 	(U-000239FD): Use "𭗼" instead of "⿱巛山".
@@ -10060,7 +10065,7 @@
 	(U-00023CF6): Use "㔻" instead of "⿱不十".
 	(U-00023CF8): Use "兇" instead of "⿱凶儿".
 	(U-00023CFA): Use "𭗼" instead of "⿱巛山".
-	(U-00023D93): Use "𠧧" instead of "⿱⺊⿴囗夕".
+	(U-00023D93): Use "&A-GT-K01840;" instead of "⿱⺊⿴囗夕".
 
 2021-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -10092,7 +10097,7 @@
 	(U-000202C7): Modify structure.
 	(U-000202CA): Use "甭" instead of "⿱不用".
 	(U-000202CD): Use "𭥨" instead of "⿱⿱日儿夊".
-	(U-000202D5): Use "𣑦" instead of "⿱⿰工几木".
+	(U-000202D5): Use "𠌖" instead of "⿱⿰工几木".
 	(U-000202DE): Use "⿰x虵" instead of "⿲x虫也".
 	(U-000202F9): Use "⿸侚x" instead of "⿰亻⿱旬x".
 	(U-00020305): Use "茤" instead of "⿱艹多".
@@ -10117,7 +10122,7 @@
 	(U-0002242E): Likewise.
 	(U-0002242F): Modify structure.
 	(U-00022432): Use "⿴弜x" instead of "⿲弓x弓".
-	(U-00022435): Use "⿰x𧪎" instead of "⿲x言⿱厶虫".
+	(U-00022435): Use "⿰x谚" instead of "⿲x言⿱厶虫".
 	(U-00022437): Use "⿴弜x" instead of "⿲弓x弓".
 	(U-00022439): Likewise.
 	(U-0002243A): Likewise.
@@ -10138,7 +10143,7 @@
 	(U-00023310): Fixed.
 	(U-00023311): Modify structure.
 	(U-00023466): Use U+5DE9 instead of CU+5DE9.
-	(U-00023467): Use "𣏉" instead of "⿱刃木".
+	(U-00023467): Use "𣏅" instead of "⿱刃木".
 	(U-000235EA): Use U+8336 instead of CU+8336.
 	(U-000238AC): Use "㕂" instead of "⿸厂今".
 	(U-000238F3): Use U+4343 instead of JU+4343.
@@ -10291,13 +10296,13 @@
 	- Use U+706C instead of <CJK RADICAL FIRE>.
 	- Use "㲎" instead of "⿰毛毛".
 	(U-00022101): Fixed.
-	(U-00022250): Use "𤆬" instead of "⿱毛灬".
+	(U-00022250): Use "𤆫" instead of "⿱毛灬".
 	(U-000222D5): Modify structure.
 	(U-000222F5): Use U+83CC instead of CU+83CC.
 	(U-0002256D): Use U+6562 instead of JU+6562.
 	(U-00022869): Use U+7B49 instead of CU+7B49.
 	(U-000228B4): Use U+715E instead of JU+715E.
-	(U-00022BC1): Use "𤆬" instead of "⿱毛灬".
+	(U-00022BC1): Use "𤆫" instead of "⿱毛灬".
 	(U-00022BC2): Use "兔" instead of "⿻免丶".
 	(U-00022D12): Fixed.
 	(U-00022D8B): Use U-000229DC instead of IU+229DC.
@@ -10305,7 +10310,7 @@
 	(U-00022E76): Use "闗" instead of "⿵門⿱𢆶灬".
 	(U-00022EA6): Completed.
 	(U-00022EA7): Use "𮊵" instead of "⿳亡⺫⿲月羊卂".
-	(U-00023027): Use "⿹㪔隹x" instead of "⿰⿱林x攴".
+	(U-00023027): Use "⿹𢴻隹x" instead of "⿰⿱林x攴".
 	(U-0002329F): Use U+6562 instead of JU+6562.
 	(U-00023381): Modify structure.
 	(U-00023557): Use "𭅒" instead of "⿱䒑老".
@@ -10351,7 +10356,7 @@
 	(U-000209F9): Use "占" instead of "⿱⺊口".
 	(U-000209FC): Modify structure.
 	(U-000209FD): Modify structure.
-	(U-000209FE): Use "𠧧" instead of "⿱⺊⿴囗夂".
+	(U-000209FE): Use "&A-GT-K01840;" instead of "⿱⺊⿴囗夂".
 	(U-000209FF): Modify structure.
 	(U-00020A06): Modify structure.
 	(U-00021AFE): Fixed.
@@ -10472,9 +10477,9 @@
 	* IDS-UCS-Ext-B-2.txt: Use U+6B70 instead of JU+6B70.
 	(U-00022941): Modify structure.
 	(U-00022D8C): Use "𬕍" instead of "⿱竹沙".
-	(U-00023052): Use "𣁁" instead of "⿱𠆢文".
+	(U-00023052): Use "𡷁" instead of "⿱𠆢文".
 	(U-000230C8): Use U+8457 instead of CU+8457.
-	(U-000236A5): Use "𦱀" instead of "⿱艹育".
+	(U-000236A5): Use "菫" instead of "⿱艹育".
 	(U-000236A7): Use "𭈹" instead of "⿰号⿸⺁&CDP-89ED;".
 	(U-000236A8): Modify structure.
 	(U-000236AF): Modify structure.
@@ -10491,7 +10496,7 @@
 	(U-000236D7): Use "笿" instead of "⿱竹各".
 	(U-000236D8): Use "⿰x䠶" instead of "⿲x身矢".
 	(U-000236DE): Use "淾" instead of "⿱金水".
-	(U-000236E2): Use "𡲤" instead of "⿺尾且".
+	(U-000236E2): Use "𡲢" instead of "⿺尾且".
 	(U-000236EF): Use "盜" instead of "⿱㳄皿".
 	(U-000236F0): Use U+8457 instead of CU+8457.
 	(U-000236F3): Use "⿱x𣔵" instead of "⿳x㲋木".
@@ -10521,11 +10526,11 @@
 2021-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-04225): Completed.
-	(SW-JIGUGE-04411): Use "&U-i001+2FFB;&SW-JIGUGE-34002;&SW-JIGUGE-04402;" instead of "⿷⿹&SW-JIGUGE-34002;&SW-JIGUGE-03701;&SW-JIGUGE-03701;".
+	(SW-JIGUGE-04411): Use "&U-i001+2FFB;&SW-JIGUGE5-34001;&SW-JIGUGE5-04401;" instead of "⿷⿹&SW-JIGUGE5-34001;&SW-JIGUGE5-03700;&SW-JIGUGE5-03700;".
 	(SW-JIGUGE-05430): Completed.
 	(SW-JIGUGE-05708): Completed [temporary].
 	(SW-JIGUGE-05709): Completed [temporary].
-	(SW-JIGUGE-08012): Use "&U-i001+2FF1;&SW-JIGUGE-08006;&SW-JIGUGE-08103;" instead of "⿻&SW-JIGUGE-08006;&SW-JIGUGE-08103;".
+	(SW-JIGUGE-08012): Use "&U-i001+2FF1;&SW-JIGUGE5-08005;&SW-JIGUGE5-08102;" instead of "⿻&SW-JIGUGE5-08005;&SW-JIGUGE5-08102;".
 	(SW-JIGUGE-16003): Completed.
 	(SW-JIGUGE-16006): Fixed [temporary].
 	(SW-JIGUGE-16008): Fixed [temporary].
@@ -10627,10 +10632,10 @@
 	(SW-JIGUGE-40210): Completed.
 	(SW-JIGUGE-45624): Fixed.
 	(SW-JIGUGE-45625): Fixed.
-	(SW-JIGUGE-46319): Use "&ZOB-2918;" instead of "&SW-JIGUGE-35908;" temporary.
+	(SW-JIGUGE-46319): Use "&ZOB-2918;" instead of "&SW-JIGUGE5-35907;" temporary.
 	(SW-JIGUGE-47522): Completed.
 	(SW-JIGUGE-47805): Completed.
-	(SW-JIGUGE-49402): Use "&ZOB-2918;" instead of "&SW-JIGUGE-35908;" temporary.
+	(SW-JIGUGE-49402): Use "&ZOB-2918;" instead of "&SW-JIGUGE5-35907;" temporary.
 
 	* IDS-UCS-Ext-B-2.txt (U-00022C01): Use "𨊢" instead of
 	"⿳𤰔一厶".
@@ -10641,8 +10646,8 @@
 	(U-00022C12): Use "𦚉" instead of "⿱𡗜⺼".
 	(U-00022C15): Use "㢴" instead of "⿹弓⿴囗夂".
 	(U-00022C23): Use "炢" instead of "⿰火术".
-	(U-00022C2F): Use "栆" instead of "⿱&CDP-89AD;&CDP-8971;".
-	(U-00022C3B): Use "𦥚" instead of "⿱⿻臼丨丂".
+	(U-00022C2F): Use "枪" instead of "⿱&CDP-89AD;&CDP-8971;".
+	(U-00022C3B): Use "𡞲" instead of "⿱⿻臼丨丂".
 	(U-00022FA2): Use "𡥞" instead of "⿱&CDP-8BB8;子".
 	(U-00023DFC): Use "𨊢" instead of "⿳𤰔一厶".
 
@@ -10869,7 +10874,7 @@
 2021-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-2.txt (U-00022F64): Modify structure.
-	(U-00022FE8): Use "⿹㪔x" instead of "⿰⿱林x攴".
+	(U-00022FE8): Use "⿹𢴻x" instead of "⿰⿱林x攴".
 	(U-00022FE9): Use "𦲆" instead of "⿳卝干句".
 	(U-00022FEB): Use "𭣴" instead of "⿰束攴".
 	(U-00022FF1): Use "⿹𢽳x" instead of "⿰⿱林x攵".
@@ -11018,7 +11023,7 @@
 	(U-0002860A): Use "𥈪" instead of "⿱䀠开".
 	(U-00028614): Use "誩" instead of "⿰言言".
 
-	* IDS-UCS-Basic.txt (U+8219): Use "𦧚" instead of "⿰舌舌".
+	* IDS-UCS-Basic.txt (U+8219): Use "𦧗" instead of "⿰舌舌".
 	(U+821B): Add IDS.
 	(U+821D): Modify structure.
 	(U+8CF7): Use "⿱&GT-K07262;x" instead of "⿳&CDP-88D9;冖x".
@@ -11029,7 +11034,7 @@
 	(SW-JIGUGE-03713): Completed [temporary].
 	(SW-JIGUGE-03821): Completed.
 	(SW-JIGUGE-04016): Completed.
-	(SW-JIGUGE-04913): Use "&U-i001+2FF1;x&SW-JIGUGE-08103;" instead of "⿶&SW-JIGUGE-08103;x"; add an apparent
+	(SW-JIGUGE-04913): Use "&U-i001+2FF1;x&SW-JIGUGE5-08102;" instead of "⿶&SW-JIGUGE5-08102;x"; add an apparent
 	structure.
 	(SW-JIGUGE-05112): Completed [temporary].
 	(SW-JIGUGE-05114): Completed.
@@ -11074,7 +11079,7 @@
 	(U-00020B78): Use "𰶵" instead of "⿱止貝".
 	(U-00020BCF): Use "气" instead of "⿳𠂉一乙".
 	(U-00020C3E): Use "凥" instead of "⿸尸几".
-	(U-00021118): Use "𨪆" instead of "⿰金竒".
+	(U-00021118): Use "錡" instead of "⿰金竒".
 	(U-0002125B): Use "气" instead of "⿳𠂉一乙".
 	(U-00021261): Completed.
 	(U-0002128C): Use "夳" instead of "⿱大二".
@@ -11085,23 +11090,23 @@
 
 2021-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-3.txt: Use "䝿" instead of "⿱臾貝".
+	* IDS-UCS-Ext-B-3.txt: Use "𡓊" instead of "⿱臾貝".
 	(U-000240C6): Use "寰" instead of "⿱宀睘".
-	(U-000240C9): Use "𠪾" instead of "⿸厂⿱秝心".
-	(U-000240D2): Use "𧇩" instead of "⿸虍⿳一&GT-K00859;目".
+	(U-000240C9): Use "㕓" instead of "⿸厂⿱秝心".
+	(U-000240D2): Use "𧇨" instead of "⿸虍⿳一&GT-K00859;目".
 	(U-000240DC): Use "遼" instead of "⿺辶尞".
 	(U-000240DD): Use "曆" instead of "⿸厂⿱秝日".
 	(U-000240E3): Modify structure.
 	(U-000240E6): Use "蕳" instead of "⿱艹間".
 	(U-000240EF): Modify structure.
 	(U-00024101): Use "蟄" instead of "⿱執虫".
-	(U-0002410A): Use "㕓" instead of "⿸厂墨".
-	(U-00024114): Use "⿰x𡾃" instead of "⿲x⿱山雀戈".
-	(U-00024115): Use "⿰氵𣄣" instead of "⿰汸與".
+	(U-0002410A): Use "厳" instead of "⿸厂墨".
+	(U-00024114): Use "⿰x㠞" instead of "⿲x⿱山雀戈".
+	(U-00024115): Use "⿰氵𣄢" instead of "⿰汸與".
 	(U-0002411C): Use "⿰x䊩" instead of "⿲x米番".
 	(U-0002411D): Modify structure.
 	(U-0002411E): Use "𫲓" instead of "⿳亡⺫⿲月女凡".
-	(U-0002411F): Use "𪊿" instead of "⿸鹿谷".
+	(U-0002411F): Use "𪊼" instead of "⿸鹿谷".
 	(U-00024120): Use "薲" instead of "⿱艹賓".
 	(U-00024121): Use "䦰" instead of "⿵門亀".
 	(U-00024179): Use "𡚤" instead of "⿱⿱⺫大⿰⿱⺫大⿱⺫大".
@@ -11150,7 +11155,7 @@
 	(SW-JIGUGE-04025): Modify structure; preserve the previous IDS as
 	an apparent structure.
 	(SW-JIGUGE-04318): Completed [temporary].
-	(SW-JIGUGE-04504): Use "&SW-JIGUGE-35507;" instead of "⿱⿱&SW-JIGUGE-35506;&SW-JIGUGE-20604;&SW-JIGUGE-17501;".
+	(SW-JIGUGE-04504): Use "&SW-JIGUGE5-35506;" instead of "⿱⿱&SW-JIGUGE5-35505;&SW-JIGUGE5-20603;&SW-JIGUGE5-17500;".
 	(SW-JIGUGE-07332): Completed.
 	(SW-JIGUGE-07911): Completed.
 	(SW-JIGUGE-09610): Fixed [temporary].
@@ -11194,7 +11199,7 @@
 	(U-00027C15): Use "盗" instead of "⿱次皿".
 	(U-00027C16): Use "㐬" instead of "⿱𠫓𫶧".
 	(U-00027C1D): Use "盗" instead of "⿱次皿".
-	(U-00027C24): Use "⿰x䨇" instead of "⿲x隻隻".
+	(U-00027C24): Use "⿰x𩁃" instead of "⿲x隻隻".
 	(U-00027C33): Modify structure.
 	(U-00027C3A): Modify structure.
 
@@ -11266,7 +11271,7 @@
 	(U-00028028): Use "𡿪" instead of "⿱巛夕".
 	(U-00028030): Use "冰" instead of "⿰冫水".
 	(U-00028058): Use "扯" instead of "⿰扌止".
-	(U-00028060): Use "𡉼" instead of "⿱升土".
+	(U-00028060): Use "𡉸" instead of "⿱升土".
 	(U-000280EE): Use "𭩶" instead of "⿱列木".
 	(U-00028240): Use "𡗢" instead of "⿱大㐄".
 	(U-0002824D): Use "㒵" instead of "⿱白八".
@@ -11276,7 +11281,7 @@
 	(U-00028302): Use "㞷" instead of "⿱山王".
 	(U-0002830A): Use "宐" instead of "⿱宀彑".
 	(U-00028313): Use "㒵" instead of "⿱白八".
-	(U-00028316): Use "𡕙" instead of "⿱夂月".
+	(U-00028316): Use "𡕗" instead of "⿱夂月".
 	(U-00028331): Use "𫏵" instead of "⿱氶車".
 	(U-00028357): Fixed.
 	(U-0002835F): Use "𣆊" instead of "⿱𠀐日".
@@ -11296,7 +11301,7 @@
 	(U-0002843C): Use "㖖" instead of "⿱辛口".
 	(U-000286C2): Use "𤆌" instead of "⿱火又".
 	(U-000286C6): Use "丠" instead of "⿱北一".
-	(U-000286D8): Use "𡉼" instead of "⿱升土".
+	(U-000286D8): Use "𡉸" instead of "⿱升土".
 	(U-000286D9): Completed.
 	(U-00028732): Completed.
 	(U-000288B3): Use "㫖" instead of "⿱上日".
@@ -11323,7 +11328,7 @@
 	(U-00028E64): Use "䖝" instead of "⿱丿虫".
 	(U-00028F05): Use "崟" instead of "⿱山金".
 	(U-00028F07): Modify structure.
-	(U-00028F08): Use "𥥭" instead of "⿱穴𠮷".
+	(U-00028F08): Use "𥥬" instead of "⿱穴𠮷".
 	(U-00028F2D): Use "寋" instead of "⿱𡨄巳".
 	(U-00028FC1): Fixed.
 	(U-000292B2): Use "𡉵" instead of "⿰土⿺⺃土".
@@ -11347,9 +11352,9 @@
 	(U+2E785): Completed.
 
 	* IDS-UCS-Ext-B-4.txt (U-000265FB): Use "𮞬" instead of "⿺辶品".
-	(U-000265FD): Use "𤷭" instead of "⿸疒的".
+	(U-000265FD): Use "𤷡" instead of "⿸疒的".
 	(U-00026609): Use "銽" instead of "⿰金𠯑".
-	(U-0002660B): Use "䝿" instead of "⿱⿻𦥑人貝".
+	(U-0002660B): Use "𡓊" instead of "⿱⿻𦥑人貝".
 
 	* IDS-UCS-Basic.txt: Use "𭔰" instead of "⿰豆寸".
 	(U+806E): Use U-000221C1 instead of BC-8CE2.
@@ -11370,13 +11375,13 @@
 	(U-0002023D): Use "𠑾" instead of "⿸⿱⺈尸几".
 	(U-00020247): Use "𬉸" instead of "⿱火口".
 	(U-0002058D): Modify structure.
-	(U-00020C67): Use "𠇊" instead of "⿰亻𧘇".
+	(U-00020C67): Use "𠇈" instead of "⿰亻𧘇".
 	(U-00020C72): Use "𢑑" instead of "⿱彐彐".
 	(U-00020C75): Use "𠮚" instead of "⿴口丶".
 	(U-000210D0): Use "⿰x幝" instead of "⿲x巾單".
-	(U-000210E0): Use "㰯" instead of "⿰豆欠".
+	(U-000210E0): Use "欲" instead of "⿰豆欠".
 	(U-000210E8): Use "憙" instead of "⿱喜心".
-	(U-000210EA): Use "䝿" instead of "⿱臾貝".
+	(U-000210EA): Use "𡓊" instead of "⿱臾貝".
 	(U-0002111A): Use "⿸⿹䇂日日" instead of BC-8549.
 	(U-0002111E): Use "𢑑" instead of "⿱彐彐".
 	(U-00021131): Use "蹙" instead of "⿱戚足".
@@ -11386,7 +11391,7 @@
 	(U-00021154): Modify structure.
 	(U-0002115D): Modify structure.
 	(U-00021163): Use "簫" instead of "⿱竹肅".
-	(U-000214E4): Use "䝿" instead of "⿱臾貝".
+	(U-000214E4): Use "𡓊" instead of "⿱臾貝".
 	(U-000214EE): Use "嵬" instead of "⿱山鬼".
 	(U-000214F6): Use "𡂨" instead of "⿲吕臣吕".
 	(U-000214F7): Use "䭉" instead of "⿰飠𲺋".
@@ -11412,7 +11417,7 @@
 	* IDS-UCS-Ext-B-3.txt: Use "𮊿" instead of "⿱羽𠇍".
 	(U-00024164): Use "⿰x镾" instead of "⿲x镸爾".
 	(U-0002457F): Use "𡉵" instead of "⿰土⿺⺃土".
-	(U-00025A10): Use "𠞖" instead of "⿰貢刂".
+	(U-00025A10): Use "&U-i005+2896B;" instead of "⿰貢刂".
 	(U-00025A2A): Modify structure.
 	(U-00025C85): Modify structure.
 
@@ -11518,7 +11523,7 @@
 	(U-00026ED5): Use "隐" instead of "⿰⻏急".
 	(U-00026ED6): Use "絢" instead of "⿰糹旬".
 	(U-00026ED9): Use "聑" instead of "⿰耳耳".
-	(U-00026EED): Use "㴠" instead of "⿰氵凾".
+	(U-00026EED): Use "𣹍" instead of "⿰氵凾".
 	(U-00026EF1): Use "⿱x雯" instead of "⿳x雨文".
 	(U-00026EF2): Use "揾" instead of "⿰扌昷".
 	(U-00026EF9): Modify structure.
@@ -11574,7 +11579,7 @@
 
 2021-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Basic.txt (U+5DE4): Reverted; use "⿱&A-IWDSU+5DDB;龱" instead of
+	* IDS-UCS-Basic.txt (U+5DE4): Reverted; use "⿱侃龱" instead of
 	A-cgnU+21FFA.
 	(U+7985): Reverted.
 
@@ -11582,7 +11587,7 @@
 
 	* IDS-UCS-Basic.txt: Fix:
 	(U+590D	复): ⿱𭥍[A-compU+590A] --> ⿱𭥍夂
-	(U+5DE4	巤): ⿱&A-U-i002+21FFA;&CDP-8D46; --> ⿱巛&CDP-8D46;
+	(U+5DE4	巤): ⿱𡿳&CDP-8D46; --> ⿱巛&CDP-8D46;
 	(U+7985	禅): ⿰示[A-compU+5358] --> ⿰示单
 	(U+9EBB	麻): ⿸广[A-compU+6797] --> ⿸广林
 	(U+9FA8	龨): ⿷[A-compU+531A]隹 --> ⿷匚隹
@@ -11590,7 +11595,7 @@
 2021-06-11  ColtMa  <mumchristmas@gmail.com>
 
 	* IDS-UCS-Ext-A.txt: Fix:
-	(U+3460	㑠): ⿰亻⿱⿰刂又土 --> ⿰亻坚
+	(U+3460	𠉒): ⿰亻⿱⿰刂又土 --> ⿰亻坚
 	(U+3D34	㴴): ⿰氵⿺𠃊⿳火一火 --> ⿰氵⿱⿺𠃊火⿺𠃊火
 	(U+435E	䍞): ⿰网或 --> ⿱网或
 
@@ -11602,7 +11607,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-0002283E): Use "𦧗" instead of "⿰自舌".
 	(U-00022841): Use "翕" instead of "⿱合羽".
-	(U-00022851): Use "㪙" instead of "⿰果攵".
+	(U-00022851): Use "敤" instead of "⿰果攵".
 	(U-00022858): Modify structure.
 	(U-00022FF4): Use "翕" instead of "⿱合羽".
 
@@ -11627,7 +11632,7 @@
 	(U-0002A1DD): Modify structure.
 	(U-0002A1DE): Use "皷" instead of "⿰壴皮".
 	(U-0002A1E1): Use U+84A6 instead of BC-8CB0.
-	(U-0002A1E2): Use "𥮗" instead of "⿱竹匊".
+	(U-0002A1E2): Use "箕" instead of "⿱竹匊".
 	(U-0002A4E8): Use U+7680 instead of UU+7680.
 	(U-0002A4FE): Use "𢾕" instead of "⿰⿱出方攵".
 	(U-0002A50F): Use "皷" instead of "⿰壴皮".
@@ -11705,10 +11710,10 @@
 2021-06-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt:
-	- Use "⿰&SW-JIGUGE-04412;x" instead of "⿺&SW-JIGUGE-04412;x" or "{⿰/⿺}&SW-JIGUGE-04412;x".
-	- Use "⿵&SW-JIGUGE-24601;x" instead of "⿱&SW-JIGUGE-24601;x" [with a few exceptions].
-	- Use "⿵&SW-JIGUGE-24909;x" instead of "⿱&SW-JIGUGE-24909;x" [with a few exceptions].
-	- Use "⿵&SW-JIGUGE-25705;x" instead of "⿱&SW-JIGUGE-25705;x" [with a few exceptions].
+	- Use "⿰&SW-JIGUGE5-04411;x" instead of "⿺&SW-JIGUGE5-04411;x" or "{⿰/⿺}&SW-JIGUGE5-04411;x".
+	- Use "⿵&SW-JIGUGE5-24600;x" instead of "⿱&SW-JIGUGE5-24600;x" [with a few exceptions].
+	- Use "⿵&SW-JIGUGE5-24908;x" instead of "⿱&SW-JIGUGE5-24908;x" [with a few exceptions].
+	- Use "⿵&SW-JIGUGE5-25704;x" instead of "⿱&SW-JIGUGE5-25704;x" [with a few exceptions].
 	(SW-JIGUGE-00320): Completed [temporary].
 	(SW-JIGUGE-00417): Completed [temporary].
 	(SW-JIGUGE-00504): Completed [temporary].
@@ -11762,7 +11767,7 @@
 	(SW-JIGUGE-09923): Completed [temporary].
 	(SW-JIGUGE-10919): Completed.
 	(SW-JIGUGE-11000): Fixed.
-	(SW-JIGUGE-11003): Use "⿴&SW-JIGUGE-51202;x" instead of "⿲&SW-JIGUGE-51106;x&SW-JIGUGE-51106;".
+	(SW-JIGUGE-11003): Use "⿴&SW-JIGUGE5-51201;x" instead of "⿲&SW-JIGUGE5-51105;x&SW-JIGUGE5-51105;".
 	(SW-JIGUGE-11030): Completed.
 	(SW-JIGUGE-11101): Completed.
 	(SW-JIGUGE-11102): Completed.
@@ -12070,7 +12075,7 @@
 
 	* IDS-UCS-Basic.txt (U+6EAC): Use "羗" instead of "⿷羌厶".
 	(U+6F80): Use "歰" instead of "⿱⿰刃刃𣥖".
-	(U+7361): Use "舄" instead of "⿱臼𤆛".
+	(U+7361): Use "舄" instead of "⿱臼&A-IWDSU+2419B;".
 	(U+8BBA): Use "仑" instead of "⿱𠆢匕".
 	(U+9B1B): Use "龱" instead of "⿴囗㐅"; modify structure.
 
@@ -12473,7 +12478,7 @@
 
 	* IDS-UCS-Ext-B-1.txt (U-00020C81): Completed.
 	(U-00020C84): Use "邜" instead of "⿰夕⻏".
-	(U-000212C7): Use "𠖲" instead of "⿰冫分".
+	(U-000212C7): Use "㓇" instead of "⿰冫分".
 	(U-000212C8): Use "𫥁" instead of "⿰冫斤".
 	(U-000212CF): Completed.
 	(U-000212D3): Use "邜" instead of "⿰夕⻏".
@@ -12527,7 +12532,7 @@
 	(SW-JIGUGE-00713): Completed.
 	(SW-JIGUGE-01019): Completed.
 	(SW-JIGUGE-01215): Fixed.
-	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE-01215;x" instead of "⿲&SW-JIGUGE-00601;x&SW-JIGUGE-00601;".
+	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE5-01214;x" instead of "⿲&SW-JIGUGE5-00600;x&SW-JIGUGE5-00600;".
 	(SW-JIGUGE-01502): Fixed.
 	(SW-JIGUGE-01503): Completed.
 	(SW-JIGUGE-01506): Completed [temporary].
@@ -12554,7 +12559,7 @@
 	(SW-JIGUGE-06128): Completed.
 	(SW-JIGUGE-06401): Completed [temporary].
 	(SW-JIGUGE-07302): Completed.
-	(SW-JIGUGE-07503): Use "⿴&SW-JIGUGE-45811;x" instead of "⿲&SW-JIGUGE-44807;x&SW-JIGUGE-44807;".
+	(SW-JIGUGE-07503): Use "⿴&SW-JIGUGE5-45810;x" instead of "⿲&SW-JIGUGE5-44806;x&SW-JIGUGE5-44806;".
 	(SW-JIGUGE-07601): Completed.
 	(SW-JIGUGE-07631): Completed.
 	(SW-JIGUGE-07802): Completed.
@@ -12677,7 +12682,7 @@
 	(U-0002687B): Use "凴" instead of "⿱馮几".
 	(U-00026FB2): Use "⿱x兾" instead of "⿳x丷異".
 	(U-00026FB3): Use "㼲" instead of "⿰耎瓦".
-	(U-00026FB4): Use "緐" instead of "⿰每系".
+	(U-00026FB4): Use "綛" instead of "⿰每系".
 	(U-00026FBD): Use "遝" instead of "⿺⻎⿱⺫氺".
 	(U-00026FC3): Use "𨲆" instead of "⿰镸肖".
 	(U-00026FC5): Use "⿱x凴" instead of "⿳x馮几".
@@ -12729,10 +12734,10 @@
 	(U-00022688): Modify structure.
 	(U-00022689): Use "𥃩" instead of "⿱目匕".
 	(U-000226E2): Use "𠄭" instead of "⿳一舟一".
-	(U-000226E6): Use "𣢊" instead of "⿰勿欠".
+	(U-000226E6): Use "𣢉" instead of "⿰勿欠".
 	(U-000226EB): Modify structure.
-	(U-0002279B): Use "𠣬" instead of "⿱旬兮".
-	(U-000227A2): Use "⿸𢈏x" instead of "⿸广⿳肀八x".
+	(U-0002279B): Use "𠣤" instead of "⿱旬兮".
+	(U-000227A2): Use "⿸𢈎x" instead of "⿸广⿳肀八x".
 	(U-000227A4): Use "刅" instead of "⿰刃丶".
 	(U-000227AA): Use "𤝵" instead of "⿰犭⿱屮王".
 	(U-000227AB): Use "㑥" instead of "⿰亻易".
@@ -12744,7 +12749,7 @@
 	(U-000227F8): Use "𦘕" instead of "⿱聿⿱𠔿一".
 	(U-000227F9): Use "辱" instead of "⿸辰寸".
 	(U-000227FC): Use "梦" instead of "⿱林夕".
-	(U-00022812): Use "𥹙" instead of "⿰米召".
+	(U-00022812): Use "𢠒" instead of "⿰米召".
 	(U-000228E1): Use "𣘐" instead of "⿰来来".
 	(U-00022953): Modify structure.
 	(U-00022965): Use "爕" instead of "⿱⿲火言火火".
@@ -12752,12 +12757,12 @@
 	(U-00022CD6): Use "⿰x𢛢" instead of "⿲x忄⿳一舟一".
 	(U-000234AA): Use "𡇆" instead of "⿴囗⿱巳一".
 	(U-000234AE): Use "𡉣" instead of "⿱木土".
-	(U-000235BC): Use "𠣬" instead of "⿱旬兮".
+	(U-000235BC): Use "𠣤" instead of "⿱旬兮".
 	(U-0002362D): Use "𧆥" instead of "⿸虍甲".
 	(U-0002362F): Modify structure.
 	(U-00023630): Use "⿰x𢛢" instead of "⿲x忄⿳一舟一".
-	(U-00023645): Use "𠶶" instead of "⿰启戈".
-	(U-00023651): Use "𡘽" instead of "⿱林大".
+	(U-00023645): Use "𥐧" instead of "⿰启戈".
+	(U-00023651): Use "𡘬" instead of "⿱林大".
 	(U-00023652): Completed.
 	(U-0002373B): Use "辱" instead of "⿸辰寸".
 	(U-00023D35): Use "𡇆" instead of "⿴囗⿱巳一".
@@ -12766,7 +12771,7 @@
 	(U-00023D3E): Use "⿰x𬽲" instead of "⿲x亻㐌".
 	(U-00023D43): Modify structure.
 	(U-00023D48): Use "𡧎" instead of "⿱宀丐".
-	(U-00023E6F): Use "𠣬" instead of "⿱旬兮".
+	(U-00023E6F): Use "𠣤" instead of "⿱旬兮".
 
 2021-05-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -12776,7 +12781,7 @@
 	(SW-JIGUGE-00713): Completed.
 	(SW-JIGUGE-01019): Completed.
 	(SW-JIGUGE-01215): Fixed.
-	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE-01215;x" instead of "⿲&SW-JIGUGE-00601;x&SW-JIGUGE-00601;".
+	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE5-01214;x" instead of "⿲&SW-JIGUGE5-00600;x&SW-JIGUGE5-00600;".
 	(SW-JIGUGE-01502): Fixed.
 	(SW-JIGUGE-01503): Fixed.
 	(SW-JIGUGE-02008): Completed.
@@ -12955,7 +12960,7 @@
 	(U-00024408): Completed.
 	(U-0002440E): Use "简" instead of "⿱竹⿱丶⿵冂日".
 	(U-00024425): Use "荧" instead of "⿳艹冖火".
-	(U-0002443E): Use "慐" instead of "⿱貢心".
+	(U-0002443E): Use "𰑟" instead of "⿱貢心".
 	(U-0002444B): Modify structure.
 	(U-0002445E): Use U+84EE instead of CU+84EE.
 	(U-00024470): Use "鮎" instead of "⿰⿳⺈田大占".
@@ -12964,16 +12969,16 @@
 	(U-000244AB): Fixed [use "𣋓" instead of "⿳日𠂹丂"].
 	(U-000244AE): Use "𨺵" instead of "⿰𨸏㒸".
 	(U-000244B2): Use "𢋨" instead of "⿸广⿱黒土".
-	(U-000244B6): Use "𦾈" instead of "⿱艹喿".
+	(U-000244B6): Use "攙" instead of "⿱艹喿".
 	(U-000244B7): Use "薟" instead of "⿱艹僉".
-	(U-000244B8): Use "鎾" instead of "⿰金昷".
+	(U-000244B8): Use "𤒸" instead of "⿰金昷".
 	(U-000244D8): Use U+52F8 instead of CU+52F8.
 	(U-000244EB): Use "𨽡" instead of "⿻𨺅㒸".
 	(U-000245D2): Use "㫄" instead of "⿱亠⿹勹方".
 	(U-000245D4): Use "𨐌" instead of "⿱立𰀁".
 	(U-000245D9): Use "㡿" instead of "⿸广屰".
 	(U-00024E7C): Use "彪" instead of "⿺虎彡".
-	(U-0002526C): Use "𥆁" instead of "⿰目列".
+	(U-0002526C): Use "着" instead of "⿰目列".
 	(U-000254DB): Completed.
 	(U-000254EF): Use "㫄" instead of "⿱亠⿹勹方".
 	(U-000258BE): Use "𤋱" instead of "⿱重灬".
@@ -13026,7 +13031,7 @@
 	(U-0002A536): Use "僜" instead of "⿰亻登".
 	(U-0002A53B): Use U+6535 instead of <CJK RADICAL RAP>.
 	(U-0002A54E): Use U+5B82 instead of "⿱宀几".
-	(U-0002A68D): Use "𪙹" instead of "⿰齒齒".
+	(U-0002A68D): Use "𪙼" instead of "⿰齒齒".
 	(U-0002A68E): Ditto.
 	(U-0002A68F): Use U+9F7F instead of <CJK RADICAL C-SIMPLIFIED
 	TOOTH>.
@@ -13227,7 +13232,7 @@
 	* IDS-UCS-Ext-B-3.txt (U-000240BD): Use "𣊡" instead of
 	"⿱日⿰糸糸".
 	(U-0002572E): Use "麏" instead of "⿸鹿君".
-	(U-00025FF4): Use "𣎽" instead of "⿱七木".
+	(U-00025FF4): Use "𠜀" instead of "⿱七木".
 
 	* IDS-UCS-Ext-B-5.txt: Use U+5EE3 instead of CU+5EE3.
 	(U-00028400): Modify structure.
@@ -13419,7 +13424,7 @@
 	(U-00024070): Modify structure.
 	(U-00024076): Use "𤕨" instead of "⿱𠆢&CDP-85AE;".
 	(U-00024079): Use "䦝" instead of "⿵門赤".
-	(U-0002407C): Use "⿰x𥻊" instead of "⿲x𠤕⿱又米".
+	(U-0002407C): Use "⿰x糊" instead of "⿲x𠤕⿱又米".
 	(U-0002407D): Use "䁝" instead of "⿱𤇾目".
 	(U-00024088): Fixed.
 	(U-00024462): Use U+8525 instead of CU+8525.
@@ -13462,7 +13467,7 @@
 	(U-0002A67B): Ditto.
 
 	* IDS-UCS-Ext-B-4.txt: Use "𢧵" instead of "⿰雀戈".
-	(U-000275F5): Use "𠅋" instead of "⿱玄十".
+	(U-000275F5): Use "亪" instead of "⿱玄十".
 
 	* IDS-UCS-Basic.txt (U+5DC0): Use "𢧵" instead of "⿰雀戈".
 
@@ -13480,23 +13485,23 @@
 	- Use "𢑑" instead of "⿱彐彐".	
 	(U-00026026): Use "帋" instead of "⿱氏巾".
 	(U-00026031): Completed.
-	(U-000260B0): Use "&U-i003+6BB5;" instead of "⿰&CDP-8CE4;⿱匕又".
+	(U-000260B0): Use "&A-U-i003+6BB5;" instead of "⿰&CDP-8CE4;⿱匕又".
 	(U-000260B7): Fixed.
 	(U-000260B8): Use U+8FEB instead of JC3-67B4.
 	(U-000261A1): Use "㲜" instead of "⿰炎毛".
-	(U-000261A3): Use "遟" instead of "⿺辶屖".
-	(U-00026304): Use "𦚋" instead of "⿱罒月".
-	(U-00026306): Use "龱" instead of "⿴囗㐅"; use "&A-CDP-8850;" instead of
+	(U-000261A3): Use "𧭋" instead of "⿺辶屖".
+	(U-00026304): Use "𦚍" instead of "⿱罒月".
+	(U-00026306): Use "龱" instead of "⿴囗㐅"; use "&g2-GT-K07262;" instead of
 	"⿻臼木".
-	(U-0002630C): Use "⿱x𤲅" instead of "⿳x共电".
+	(U-0002630C): Use "⿱x𤱿" instead of "⿳x共电".
 	(U-00026313): Use "㲜" instead of "⿰炎毛".
-	(U-00026338): Use "𩵢" instead of "⿰魚欠".
+	(U-00026338): Use "魦" instead of "⿰魚欠".
 	(U-0002633B): Use "𦌔" instead of "⿱罒巽".
 	(U-00026346): Use "𦇏" instead of "⿰糸瞏".
 	(U-00026380): Use "㕦" instead of "⿱口大".
 	(U-00026D1C): Use "⿱x𰑓" instead of "⿳x𣫬心".
 	(U-00026DAC): Use "陖" instead of "⿰⻏夋".
-	(U-00026F80): Use "𠣻" instead of "⿰𡘆包".
+	(U-00026F80): Use "𠣺" instead of "⿰𡘆包".
 	(U-00027107): Use "𢖍" instead of "⿻行魚".
 	(U-0002756D): Use "藍" instead of "⿱艹監".
 	(U-0002757B): Use "龐" instead of "⿸广龍".
@@ -13504,7 +13509,7 @@
 	(U-000275F5): Fixed.
 	(U-00027722): Use U+60A4 instead of BC-8BDD.
 	(U-00027A19): Use "𡉵" instead of "⿰土⿺⺃土".
-	(U-00027B4B): Use "遟" instead of "⿺辶屖".
+	(U-00027B4B): Use "𧭋" instead of "⿺辶屖".
 
 	* IDS-UCS-Ext-B-2.txt: Use "⿴行x" instead of "⿻行x".
 	(U-00022585): Use "訔" instead of "⿱山言".
@@ -13565,9 +13570,9 @@
 	(U-0002358A): Use "𣧄" instead of "⿱巛歹".
 	(U-00023852): Use "勸" instead of "⿰雚力".
 	(U-00023853): Use "籃" instead of "⿱竹監".
-	(U-00023857): Use "𣛕" instead of "⿰果果".
+	(U-00023857): Use "𣛑" instead of "⿰果果".
 	(U-00023870): Use "⿱x𣡗" instead of "⿳x果⿰果果".
-	(U-0002387E): Use "𣛕" instead of "⿰果果".
+	(U-0002387E): Use "𣛑" instead of "⿰果果".
 	(U-00023A26): Use U-0002D7F2 instead of hanaJU+2D7F2.
 	(U-00023A2F): Use "昏" instead of "⿱氏日".
 	(U-00023A38): Use "𣧄" instead of "⿱巛歹".
@@ -13587,7 +13592,7 @@
 	(U-00021151): Use "顒" instead of "⿰禺頁".
 	(U-00021FC5): Ditto.
 	(U-00021FD0): Use U+9761 instead of JU+9761.
-	(U-00021FD1): Use "䚬" instead of "⿰角粦".
+	(U-00021FD1): Use "𧤿" instead of "⿰角粦".
 
 2020-10-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -13601,10 +13606,10 @@
 	- Use "𡷈" instead of "⿱山⿰山山".
 	(U-000221ED): Completed.
 	(U-000221EF): Use "仅" instead of "⿰亻又".
-	(U-00022244): Use "欦" instead of "⿰今欠".
+	(U-00022244): Use "𣢑" instead of "⿰今欠".
 	(U-0002226C): Use "垔" instead of "⿱覀土".
 	(U-00022282): Use "𭍠" instead of "⿱龶回".
-	(U-00022288): Use "𡨝" instead of "⿳宀&GT-K00859;夕".
+	(U-00022288): Use "&U-i001+36EE;" instead of "⿳宀&GT-K00859;夕".
 	(U-00022290): Use "𰲚" instead of "⿸⺁⿸虍人".
 	(U-00022291): Use "𤰇" instead of "⿱𠀗用".
 	(U-000222A0): Use "⿸麻x" instead of "⿸广⿱林x".
@@ -13631,7 +13636,7 @@
 	(U-00028F45): Completed.
 	(U-00029F2A): Use "𩺰" instead of "⿱魚魚".
 	(U-00029F30): Use "慈" instead of "⿳艹𢆶心".
-	(U-00029F32): Use "慐" instead of "⿱貢心".
+	(U-00029F32): Use "𰑟" instead of "⿱貢心".
 	(U-00029F3A): Use "蒼" instead of "⿱艹倉".
 
 	* IDS-UCS-Ext-B-1.txt (U-000207EC): Use "筫" instead of "⿱竹貝".
@@ -13680,8 +13685,8 @@
 	- Use "㷠" instead of "⿱炎舛".
 	- Use "穿" instead of "⿱穴牙".
 	(U-00024165): Use "𩰥" instead of "⿳爫⺫⿰鬯又".
-	(U-0002442F): Use "𠎤" instead of "⿳亼吅𠕁".
-	(U-000244C1): Use "𨶒" instead of "⿵門舀".
+	(U-0002442F): Use "僲" instead of "⿳亼吅𠕁".
+	(U-000244C1): Use "𠑐" instead of "⿵門舀".
 	(U-000244C5): Use "𪐗" instead of "⿱𡆧炎"; use "𡱂" instead of
 	"⿸尸⿱兀几".
 	(U-000244CD): Use "鏖" instead of "⿸鹿金".
@@ -13695,18 +13700,18 @@
 	(U-000252EA): Use "微" instead of "⿰彳𣁋".
 	(U-000252EF): Use "詧" instead of "⿱⿰𱼀&CDP-8C4E;言".
 	(U-000252F1): Use "䀄" instead of "⿱宓皿".
-	(U-000252FA): Use "𡩹" instead of "⿳宀爫臼".
+	(U-000252FA): Use "𡩴" instead of "⿳宀爫臼".
 	(U-000252FB): Use "𧵽" instead of "⿱网貝".
-	(U-00025309): Use "𠎤" instead of "⿳亼吅𠕁".
+	(U-00025309): Use "僲" instead of "⿳亼吅𠕁".
 	(U-00025A12): Use "𠭥" instead of "⿰祟又".
 	(U-00025A13): Use "鈘" instead of "⿰金支".
-	(U-00025A14): Use "䎜" instead of "⿰老老".
+	(U-00025A14): Use "𮋛" instead of "⿰老老".
 	(U-00025A16): Use "䂓" instead of "⿰矢見".
 	(U-00025A1C): Use "弆" instead of "⿱去廾".
 	(U-00025A29): Use "奥" instead of "⿱⿱丿⿵冂米大".
 	(U-00025A2B): Use "𪓑" instead of "⿱丿黽".
 	(U-00025A41): Use "𥱩" instead of "⿱竹⿰幸人".
-	(U-00025A4A): Use "𦓈" instead of "⿱老⿰老老".
+	(U-00025A4A): Use "𦓄" instead of "⿱老⿰老老".
 	(U-00025A4B): Use "⿱x鼀" instead of "⿳x圥黽".
 	(U-00025A50): Use "𧸇" instead of "⿳圥囧貝".
 
@@ -13780,7 +13785,7 @@
 
 	* IDS-UCS-Ext-B-3.txt (U-000240C0): Use "隷" instead of "⿰𰧭隶".
 	(U-00024109): Use "𭄘" instead of "⿰⿱丣金刂".
-	(U-00024ABD): Use "𧇖" instead of "⿸虍⿱&GT-K00859;目".
+	(U-00024ABD): Use "𤪽" instead of "⿸虍⿱&GT-K00859;目".
 	(U-00024ABE): Use "㻺" instead of "⿸厤玉".
 	(U-000259E0): Use "⿱x⿱𡖅y" instead of "⿳x⿰夕匕y".
 	(U-00025DBE): Use "隷" instead of "⿰𰧭隶".
@@ -13806,7 +13811,7 @@
 	(U-000263CE): Fixed; use "善" instead of "⿱⺷⿱䒑口".
 	(U-0002658E): Use "𢦟" instead of "⿹戈今".
 	(U-000265E6): Use "𨥌" instead of "⿰金氏".
-	(U-000265EB): Use "𦲸" instead of "⿱艹雨".
+	(U-000265EB): Use "鿤" instead of "⿱艹雨".
 	(U-0002661F): Use "𢻻" instead of "⿰戶攴".
 	(U-000266D0): Use "𠂬" instead of "⿸𠂆巴".
 	(U-00026736): Use "㫄" instead of "⿱亠⿹勹方".
@@ -13818,7 +13823,7 @@
 	(U-000268BB): Use "⿸䧹x" instead of "⿸广⿱倠x".
 	(U-00026A84): Use "𦤃" instead of "⿱自王".
 	(U-00026AAE): Fixed.
-	(U-00026AB6): Use "䗍" instead of "⿱彖虫".
+	(U-00026AB6): Use "蝝" instead of "⿱彖虫".
 	(U-00026F67): Use "䅎" instead of "⿰禾秀".
 	(U-00026F70): Use "茅" instead of "⿱艹矛".
 	(U-00026F72): Use "⿱x裘" instead of "⿳x求衣".
@@ -13838,7 +13843,7 @@
 	(U-00027A8B): Use "苾" instead of "⿱艹必".
 	(U-00027A90): Use "苹" instead of "⿱艹平".
 	(U-00027A99): Use "峲" instead of "⿱山利".
-	(U-00027AB1): Use "𠣬" instead of "⿱旬兮".
+	(U-00027AB1): Use "𠣤" instead of "⿱旬兮".
 	(U-00027AB4): Use "⿰x𤝵" instead of "⿲x犭⿱山王".
 	(U-00027AB7): Use "𠀠" instead of "⿴廿㐅".
 	(U-00027ABB): Use "竝" instead of "⿰立立".
@@ -13898,7 +13903,7 @@
 	* IDS-UCS-Ext-B-2.txt (U-00022826): Use U-00026C29 instead of
 	BC-8BD3.
 	(U-00022827): Use "𡕩" instead of "⿳囟八夂".
-	(U-000228E7): Use "𧇊" instead of "⿰虚亏".
+	(U-000228E7): Use "𧇉" instead of "⿰虚亏".
 	(U-000228F1): Use "𣗥" instead of "⿰束束".
 	(U-00022D01): Use U-00026C29 instead of BC-8BD3.
 	(U-000237EE): Fixed; use "𡕩" instead of "⿳囟八夂".
@@ -13981,12 +13986,12 @@
 	character.  Otherwise, use char-spec format instead of parsed-IDS
 	format.
 
-	* IDS-UCS-Ext-B-4.txt (U-00026030): Use "𡉤" instead of "⿱不土".
+	* IDS-UCS-Ext-B-4.txt (U-00026030): Use "𡄂" instead of "⿱不土".
 	(U-00026054): Use "㤁" instead of "⿱天心".
 	(U-00026065): Completed.
-	(U-00026068): Use "栆" instead of "⿱&CDP-89AD;&CDP-8971;".
+	(U-00026068): Use "枪" instead of "⿱&CDP-89AD;&CDP-8971;".
 	(U-00026070): Use "𢍁" instead of "⿱由廾".
-	(U-00026096): Use "𢍉" instead of "⿱甶廾".
+	(U-00026096): Use "&BUCS+8201;" instead of "⿱甶廾".
 	(U-00026098): Use "𭩢" instead of "⿱巨木".
 	(U-000260A5): Use "泵" instead of "⿱石水".
 	(U-000260AF): Use "𫥎" instead of "⿱⿳⺈𫩏𠆢&CDP-8971;".
@@ -14001,7 +14006,7 @@
 	(U-00026E2E): Use "减" instead of "⿰冫咸".
 	(U-00026E34): Use "戜" instead of "⿹戈呈".
 	(U-00026E35): Use "䖏" instead of "⿸虍匆".
-	(U-0002706F): Fixed; use "𦂱" instead of "⿰糸風".
+	(U-0002706F): Fixed; use "𦂯" instead of "⿰糸風".
 	(U-0002772E): Use "㝡" instead of "⿱宀取".
 	(U-00027F6E): Use "戜" instead of "⿹戈呈".
 	(U-00027F73): Use "𮥶" instead of "⿳𠂉&CDP-88F1;&CDP-8965;".
@@ -14141,7 +14146,7 @@
 	(U-00024FB6): Use "𮚋" instead of "⿱⿰旡旡貝".
 	(U-000256D5): Use "𰲚" instead of "⿸𠂆⿸虍人".
 	(U-000258F6): Use "𮚋" instead of "⿱⿰旡旡貝".
-	(U-000259FE): Use "𣢾" instead of "⿰𥘈欠".
+	(U-000259FE): Use "𣢽" instead of "⿰𥘈欠".
 	(U-00025C3D): Use "𰲚" instead of "⿸𠂆⿸虍人".
 
 2020-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -14151,7 +14156,7 @@
 	(U+9896): Ditto.
 
 	* IDS-UCS-Ext-B-2.txt (U-000238BE): Use "𥘈" instead of "⿱匕示".
-	(U-00023903): Use "𣢾" instead of "⿰⿱匕示欠".
+	(U-00023903): Use "𣢽" instead of "⿰⿱匕示欠".
 	(U-00023A91): Use "𥘈" instead of "⿱匕示".
 
 2020-09-02  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -14314,7 +14319,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-000222D2): Use "蒦" instead of "⿱艹隻".
 	(U-000222D3): Use "𡏳" instead of "⿳廿&CDP-85B2;土".
-	(U-000222D6): Use "𨐚" instead of "⿰君辛".
+	(U-000222D6): Use "𢋖" instead of "⿰君辛".
 	(U-0002330F): Use "蒦" instead of "⿱艹隻".
 
 2020-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -14365,7 +14370,7 @@
 	* IDS-UCS-Ext-B-4.txt:
 	- Use "叀" instead of "⿱𤰔厶".
 	- Use "𣏋" instead of "⿱𠫓木".
-	- Use "𣏼" instead of "⿱廿木".
+	- Use "&U-i003+4E47;" instead of "⿱廿木".
 	- Use "朶" instead of "⿱乃木".
 	- Use U+8864 instead of <CJK RADICAL CLOTHES>.
 	(U-00026047): Use "𫝹" instead of "⿱⿵𠆢二心".
@@ -14398,10 +14403,10 @@
 
 	* IDS-UCS-Ext-B-5.txt:
 	- Use "弃" instead of "⿱𠫓廾".
-	- Use "𣏼" instead of "⿱廿木".
+	- Use "&U-i003+4E47;" instead of "⿱廿木".
 	- Use U+8FB6 instead of <CJK RADICAL SIMPLIFIED WALK>.
 	- Use "𠚪" instead of "⿰刀刀".
-	- Use "𠘬" instead of "⿰几几".
+	- Use "&A-IWDSU+2062C;" instead of "⿰几几".
 	- Use "双" instead of "⿰又又".
 	- Use "㚘" instead of "⿰夫夫".
 	- Use "歨" instead of "⿱止龰".
@@ -14412,7 +14417,7 @@
 	(U-0002844E): Use "𰛄" instead of "⿰㇇亅".
 	(U-00028458): Completed.
 	(U-00028486): Use "宂" instead of "⿱宀几".
-	(U-000284A2): Use "&A-CDP-8845;" instead of "⿱𠂈&CDP-8CC6;".
+	(U-000284A2): Use "&IWDS1-293;" instead of "⿱𠂈&CDP-8CC6;".
 	(U-000284AF): Use "𡴂" instead of "⿰屮𡳾".
 	(U-000284B0): Use "㜽" instead of "⿱巛子".
 	(U-000284CA): Use "𦔮" instead of "耴".
@@ -14463,17 +14468,17 @@
 	(U-00025B93): Use "㳎" instead of "⿰氵弁".
 	(U-00025B94): Use "叀" instead of "⿱𤰔厶".
 
-	* IDS-UCS-Ext-B-2.txt (U-0002217F): Use "𣏼" instead of "⿱廿木".
+	* IDS-UCS-Ext-B-2.txt (U-0002217F): Use "&U-i003+4E47;" instead of "⿱廿木".
 	(U-000223FB): Completed [temporary].
 	(U-000223FD): Completed.
-	(U-00022E8C): Use "𣏼" instead of "⿱廿木".
+	(U-00022E8C): Use "&U-i003+4E47;" instead of "⿱廿木".
 	(U-000234E7): Use "⿱叀x" instead of "⿳𤰔厶x".
 	(U-00023643): Use "𢉙" instead of "⿸广⿱廿火".
 	(U-000236A2): Use "𰺿" instead of "⿺辶⿱𤰔厶".
 	(U-00023DA3): Use "叀" instead of "⿱𤰔厶".
-	(U-00023DDE): Use "𣏼" instead of "⿱廿木".
+	(U-00023DDE): Use "&U-i003+4E47;" instead of "⿱廿木".
 
-	* IDS-UCS-Ext-B-1.txt (U-0002188C): Use "𥦴" instead of
+	* IDS-UCS-Ext-B-1.txt (U-0002188C): Use "𥦱" instead of
 	"⿱穴⿳&CDP-865E;𠃊八".
 	(U-00021891): Use "⿱罬x" instead of "⿳⺫叕x".
 
@@ -14510,7 +14515,7 @@
 2020-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A458): Use "𣏋" instead of "⿱𠫓木".
-	(U-0002A45E): Use "𣏼" instead of "⿱廿木".
+	(U-0002A45E): Use "&U-i003+4E47;" instead of "⿱廿木".
 
 	* IDS-UCS-Ext-B-2.txt (U-00022104): Use "⿱㞢x" instead of
 	"⿳屮一x".
@@ -14586,7 +14591,7 @@
 	* IDS-UCS-Basic.txt (U+8745): Use "𭑈" instead of "⿰天天".
 	(U+883A): Ditto.
 
-	* IDS-UCS-Ext-B-3.txt (U-00024637): Use "𠘬" instead of "⿰几几".
+	* IDS-UCS-Ext-B-3.txt (U-00024637): Use "&A-IWDSU+2062C;" instead of "⿰几几".
 	(U-000253AB): Use "𠚪" instead of "⿰刀刀".
 	(U-000254A2): Use "刕" instead of "⿱刀⿰刀刀".
 	(U-000257AE): Ditto.
@@ -14611,7 +14616,7 @@
 	* IDS-UCS-Ext-F.txt (U+2D020): Completed.
 	(U+2D023): Likewise.
 	(U+2D025): Likewise.
-	(U+2D029): Use "㸒" instead of "⿱爫王".
+	(U+2D029): Use "婬" instead of "⿱爫王".
 	(U+2DDAC): Likewise.
 	(U+2E3F8): Completed.
 	(U+2E469): Completed.
@@ -14646,7 +14651,7 @@
 2020-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-1.txt (U-00021E4E): Use "𡇌" instead of "⿴囗目".
-	(U-00021E51): Use "㸒" instead of "⿱爫王".
+	(U-00021E51): Use "婬" instead of "⿱爫王".
 
 	* IDS-UCS-Ext-B-3.txt (U-00025584): Use "羡" instead of "⿱𦍌次".
 
@@ -14693,7 +14698,7 @@
 
 2020-07-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-4.txt (U-00027BA0): Use "黁" instead of "⿸麻香".
+	* IDS-UCS-Ext-B-4.txt (U-00027BA0): Use "讞" instead of "⿸麻香".
 
 	* IDS-UCS-Ext-B-2.txt (U-000224BA): Use "靡" instead of "⿸麻非".
 	(U-00023842): Ditto.
@@ -14730,7 +14735,7 @@
 
 	* IDS-UCS-Ext-B-2.txt (U-00022312): Use "𪋘" instead of
 	"⿱⿰丙丙鹿".
-	(U-00022571): Use "𣥶" instead of "⿳止日少".
+	(U-00022571): Use "僋" instead of "⿳止日少".
 
 2020-07-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -14787,7 +14792,7 @@
 	(U-000276C5): Fixed.
 	(U-00027708): Use "𰮤" instead of "⿰⺼龹".
 	(U-00027738): Completed.
-	(U-00027BA8): Use "𧞻" instead of "⿻衣𤕦".
+	(U-00027BA8): Use "襲" instead of "⿻衣𤕦".
 
 	* IDS-UCS-Ext-A.txt (U+3B1A): Fixed.
 	(U+3BD9): Use "⿰x𰕎" instead of "⿲x育攵".
@@ -14923,7 +14928,7 @@
 
 2020-06-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-A.txt (U+38F8): Use "㽔" instead of "⿺⿱&CDP-85F0;豕生".
+	* IDS-UCS-Ext-A.txt (U+38F8): Use "㣸" instead of "⿺⿱&CDP-85F0;豕生".
 	(U+3D8B): Likewise.
 
 2020-06-14  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -15021,7 +15026,7 @@
 
 	* IDS-UCS-Basic.txt (U+60A4): Use "⿱囱x" instead of
 	"⿳丿⿴口タx".
-	(U+6F9A): Use "粵" instead of "⿱⿵𰃦米丂".
+	(U+6F9A): Use "噢" instead of "⿱⿵𰃦米丂".
 
 2020-05-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -15049,14 +15054,14 @@
 	(U-00020626): Use "䖝" instead of "⿱丿虫".
 	(U-0002066C): Likewise; use "𢆶" instead of "⿰幺幺".
 	(U-00020B3E): Use "𢆶" instead of "⿰幺幺".
-	(U-00020DBD): Use "𢇂" instead of "⿱𢆶廾".
+	(U-00020DBD): Use "幽" instead of "⿱𢆶廾".
 	(U-00020E7F): Use "𡌥" instead of "⿳一𢆶土".
 	(U-000211DF): Use "𢆶" instead of "⿰幺幺".
 	(U-00021325): Use "⿱𫠩x" instead of "⿳一⿰幺幺x".
 	(U-000213C0): Use "𡌥" instead of "⿳一⿰幺幺土".
 	(U-0002145C): Use "𢆶" instead of "⿰幺幺".
-	(U-00021658): Use "⿱x𢇂" instead of "⿳x⿰幺幺廾".
-	(U-00021812): Use "𢇅" instead of "⿱⿰幺幺卝".
+	(U-00021658): Use "⿱x幽" instead of "⿳x⿰幺幺廾".
+	(U-00021812): Use "𡠑" instead of "⿱⿰幺幺卝".
 	(U-0002195D): Use "𢆶" instead of "⿰幺幺".
 
 2020-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -15064,7 +15069,7 @@
 	* IDS-UCS-Ext-B-4.txt (U-000267A5): Use "𡌥" instead of
 	"⿳一⿰幺幺土".
 	(U-00026C73): Use "𢆶" instead of "⿰幺幺".
-	(U-0002790B): Use "𢇂" instead of "⿱⿰幺幺廾".
+	(U-0002790B): Use "幽" instead of "⿱⿰幺幺廾".
 	(U-00027C01): Use "𡌥" instead of "⿳一⿰幺幺土".
 
 	* IDS-UCS-Ext-C.txt (U-0002A706): Use "𫠩" instead of "⿱一𢆶".
@@ -15100,24 +15105,24 @@
 	(U+89C8): Ditto.
 	(U+9274): Ditto.
 
-	* IDS-UCS-Ext-B-5.txt (U-000287E9): Use "𪉷" instead of "⿱鹵𣆪".
+	* IDS-UCS-Ext-B-5.txt (U-000287E9): Use "𪉷" instead of "⿱鹵曺".
 	(U-000287EC): Ditto.
 	(U-0002890C): Ditto.
 	(U-00028C33): Ditto.
 	(U-000299E4): Ditto.
 	(U-00029F76): Ditto.
 
-	* IDS-UCS-Ext-B-3.txt (U-00024166): Use "𪉷" instead of "⿱鹵𣆪".
+	* IDS-UCS-Ext-B-3.txt (U-00024166): Use "𪉷" instead of "⿱鹵曺".
 	(U-000244E0): Ditto.
 	(U-00025357): Ditto.
 	(U-00025738): Ditto.
 	(U-00025F81): Ditto.
 
-	* IDS-UCS-Ext-B-2.txt (U-00023863): Use "𪉷" instead of "⿱鹵𣆪".
+	* IDS-UCS-Ext-B-2.txt (U-00023863): Use "𪉷" instead of "⿱鹵曺".
 
-	* IDS-UCS-Ext-B-1.txt (U-0002117F): Use "𪉷" instead of "⿱鹵𣆪".
+	* IDS-UCS-Ext-B-1.txt (U-0002117F): Use "𪉷" instead of "⿱鹵曺".
 	(U-00021930): Fixed.
-	(U-00021932): Use "𪉷" instead of "⿱鹵𣆪".
+	(U-00021932): Use "𪉷" instead of "⿱鹵曺".
 
 2020-04-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -15128,7 +15133,7 @@
 	(U-0002073D): Use "⿱㐅杀" instead of "⿱⿱㐅㐅木".
 	(U-00020B10): Use "⿵𠫼x" instead of "⿱厽⿻&CDP-8BF5;⿱二x".
 	(U-00020B18): Ditto.
-	(U-00020D82): Use "⿰x𢼂" instead of "⿲x⿱㐅㐅⺙".
+	(U-00020D82): Use "⿰x𠶂" instead of "⿲x⿱㐅㐅⺙".
 	(U-000210CE): Use "樊" instead of "⿱⿲木⿱㐅㐅木大".
 	(U-0002163B): Use "𬼆" instead of "⿱㐅㐅".
 	(U-000217C2): Use U+5203 instead of U+2F81E.
@@ -15383,7 +15388,7 @@
 	* IDS-UCS-Ext-B-2.txt (U-00022FE1): Use "⿹⿰𣦵攴x" instead of
 	"⿰⿱𣦵x攴".
 
-	* IDS-UCS-Ext-A.txt (U+3561): Use "⿹𣦻&A-IWDSU+8C37;" instead of "⿰䜭又".
+	* IDS-UCS-Ext-A.txt (U+3561): Use "⿹𣦻&A-IWDSU+4FD7;" instead of "⿰䜭又".
 	(U+3562): Use "⿹𣦻x" instead of "⿰⿱𣦵x又".
 	(U+4AA5): Use "⿸㕢x" instead of "⿰⿱𣦵貝⿱又x".
 
@@ -15463,7 +15468,7 @@
 2020-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026FC7): Use "𫑨" instead of "⿰魚阝".
-	(U-00026FC8): Fixed; use "𠎤" instead of "⿱⿵亼吅𠕁".
+	(U-00026FC8): Fixed; use "僲" instead of "⿱⿵亼吅𠕁".
 
 2020-03-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -15512,18 +15517,18 @@
 
 	* IDS-UCS-Compat-Supplement.txt (U-0002F9D6): Add IDS.
 
-	* IDS-UCS-Ext-C.txt (U-0002B06F): Use "⿸𥪴x" instead of
+	* IDS-UCS-Ext-C.txt (U-0002B06F): Use "⿸𭯄x" instead of
 	"⿰章⿱夅x".
 
-	* IDS-UCS-Ext-B-4.txt (U-000275DB): Use "𥪴" instead of "⿰章夅".
+	* IDS-UCS-Ext-B-4.txt (U-000275DB): Use "𭯄" instead of "⿰章夅".
 
-	* IDS-UCS-Ext-B-2.txt (U-00023AE1): Use "𥪴" instead of "⿰章夅".
+	* IDS-UCS-Ext-B-2.txt (U-00023AE1): Use "𭯄" instead of "⿰章夅".
 
-	* IDS-UCS-Ext-A.txt (U+4917): Use "𥪴" instead of "⿰章夅".
+	* IDS-UCS-Ext-A.txt (U+4917): Use "𭯄" instead of "⿰章夅".
 
-	* IDS-UCS-Basic.txt (U+7AF7): Use "⿸𥪴x" instead of "⿰章⿱夅x".
+	* IDS-UCS-Basic.txt (U+7AF7): Use "⿸𭯄x" instead of "⿰章⿱夅x".
 
-	* IDS-UCS-Ext-B-3.txt (U-00025AD4): Use "⿸𥪴x" instead of
+	* IDS-UCS-Ext-B-3.txt (U-00025AD4): Use "⿸𭯄x" instead of
 	"⿰章⿱夅x".
 
 2020-02-08  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -15689,7 +15694,7 @@
 
 2020-01-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-1.txt (U-000214A9): Use "⿴⿳士冖&A-IWDSU+6728;咎" instead of
+	* IDS-UCS-Ext-B-1.txt (U-000214A9): Use "⿴⿳士冖𬽬咎" instead of
 	"⿳⿱士冖⿰夂卜呆".
 
 	* IDS-UCS-Ext-B-2.txt (U-00022187): Use "槖" instead of
@@ -15750,19 +15755,19 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-6.txt (U-0002A244) 𪉄: fixed
+	* IDS-UCS-Ext-B-6.txt (U-0002A244) 𫠔: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-5.txt (U-000294CC) 𩓌: fixed
+	* IDS-UCS-Ext-B-5.txt (U-000294CC) 颖: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-5.txt (U-00028C36) 𨰶: fixed
+	* IDS-UCS-Ext-B-5.txt (U-00028C36) 𨰳: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-5.txt (U-00028BA5) 𨮥: fixed
+	* IDS-UCS-Ext-B-5.txt (U-00028BA5) 𨮟: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15782,11 +15787,11 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-000275FE) 𧗾: fixed
+	* IDS-UCS-Ext-B-4.txt (U-000275FE) 衡: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-000274AC) 𧒬: fixed
+	* IDS-UCS-Ext-B-4.txt (U-000274AC) 蠎: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15794,15 +15799,15 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-0002718D) 𧆍: fixed
+	* IDS-UCS-Ext-B-4.txt (U-0002718D) 𧆋: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-0002713F) 𧄿: fixed
+	* IDS-UCS-Ext-B-4.txt (U-0002713F) 虀: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-00027105) 𧄅: fixed
+	* IDS-UCS-Ext-B-4.txt (U-00027105) 𧃿: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15814,19 +15819,19 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-00026DC7) 𦷇: fixed
+	* IDS-UCS-Ext-B-4.txt (U-00026DC7) 𦶽: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-00026D4A) 𦵊: fixed
+	* IDS-UCS-Ext-B-4.txt (U-00026D4A) 𦵆: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-00026C0F) 𦰏: fixed
+	* IDS-UCS-Ext-B-4.txt (U-00026C0F) 𦰉: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-4.txt (U-00026BAA) 𦮪: fixed
+	* IDS-UCS-Ext-B-4.txt (U-00026BAA) 𦮨: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15834,7 +15839,7 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-00020613) 𠘓: fixed
+	* IDS-UCS-Ext-B-1.txt (U-00020613) 𠘅: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15842,11 +15847,11 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-3.txt (U-00025091) 𥂑: fixed
+	* IDS-UCS-Ext-B-3.txt (U-00025091) 盤: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-3.txt (U-00024EE1) 𤻡: fixed
+	* IDS-UCS-Ext-B-3.txt (U-00024EE1) 𤻢: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15854,7 +15859,7 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-3.txt (U-00024E7A) 𤹺: fixed
+	* IDS-UCS-Ext-B-3.txt (U-00024E7A) 𤹲: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15862,7 +15867,7 @@
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-3.txt (U-00024A96) 𤪖: fixed
+	* IDS-UCS-Ext-B-3.txt (U-00024A96) 㼅: fixed
 
 2020-01-13  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15902,7 +15907,7 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-2.txt (U-00023432) 𣐲: fixed
+	* IDS-UCS-Ext-B-2.txt (U-00023432) &U-i005+77DB;: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15914,15 +15919,15 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-2.txt (U-0002300B) 𣀋: fixed
+	* IDS-UCS-Ext-B-2.txt (U-0002300B) &A-GT-K04926;: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-2.txt (U-00022E81) 𢺁: fixed
+	* IDS-UCS-Ext-B-2.txt (U-00022E81) 𢹻: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-2.txt (U-00022596) 𢖖: fixed
+	* IDS-UCS-Ext-B-2.txt (U-00022596) 𢖕: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -15981,7 +15986,7 @@
 
 2020-01-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-1.txt (U-00020316): Use "𣑦" instead of "⿱巩木".
+	* IDS-UCS-Ext-B-1.txt (U-00020316): Use "𠌖" instead of "⿱巩木".
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -16001,7 +16006,7 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-00021571) 𡕱: fixed
+	* IDS-UCS-Ext-B-1.txt (U-00021571) &A-GT-K03030;: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -16009,7 +16014,7 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-000211D9) 𡇙: fixed
+	* IDS-UCS-Ext-B-1.txt (U-000211D9) &U-i001+2D35E;: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -16017,7 +16022,7 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-0002112E) 𡄮: fixed
+	* IDS-UCS-Ext-B-1.txt (U-0002112E) &A-IWDSU+934A;: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -16025,11 +16030,11 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-00021085) 𡂅: fixed
+	* IDS-UCS-Ext-B-1.txt (U-00021085) 𡁱: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-00021065) 𡁥: fixed
+	* IDS-UCS-Ext-B-1.txt (U-00021065) 𡁠: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -16053,15 +16058,15 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-000208E2) 𠣢: fixed
+	* IDS-UCS-Ext-B-1.txt (U-000208E2) 𠣣: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-00020881) 𠢁: fixed
+	* IDS-UCS-Ext-B-1.txt (U-00020881) &A-U-i002+5377;: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-000207F2) 𠟲: fixed
+	* IDS-UCS-Ext-B-1.txt (U-000207F2) &A-IWDSU+7CB5;: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
@@ -16073,11 +16078,11 @@
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-00020316) 𠌖: fixed
+	* IDS-UCS-Ext-B-1.txt (U-00020316) 𠌔: fixed
 
 2020-01-12  ZAN DoYe  <zandoye@gmail.com>
 
-	* IDS-UCS-Ext-B-1.txt (U-00020176) 𠅶: fixed
+	* IDS-UCS-Ext-B-1.txt (U-00020176) 𠅵: fixed
 
 2020-01-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -16126,7 +16131,7 @@
 
 2019-09-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-F.txt (U+2D8F2): Use BC-8B5E instead of "⿴𠂊⺀".
+	* IDS-UCS-Ext-F.txt (U+2D8F2): Use BC-8B5E instead of "⿴刀⺀".
 	(U+2DC57): Likewise.
 	(U+2E6F7): Likewise; completed.
 
@@ -16180,7 +16185,7 @@
 
 	* IDS-UCS-Ext-B-2.txt:
 	- Use U+6535 instead of <CJK RADICAL RAP>.
-	- Use "𢼂" instead of "⿰⿱㐅㐅⺙".
+	- Use "𠶂" instead of "⿰⿱㐅㐅⺙".
 	(U-00022574): Use "𠦝" instead of "⿳十日十".
 	(U-00022F75): Use "冐" instead of "⿱日⺼".
 	(U-0002300B): Completed.
@@ -16359,18 +16364,18 @@
 2019-05-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00026244): Fixed.
-	(U-0002624B): Use "𧆠" instead of "⿸虍手".
+	(U-0002624B): Use "𤨇" instead of "⿸虍手".
 	(U-0002624C): Likewise.
 	(U-000271F5): Likewise.
 	(U-00027AC5): Likewise.
 
-	* IDS-UCS-Ext-B-3.txt (U-00024A07): Use "𧆠" instead of "⿸虍手".
+	* IDS-UCS-Ext-B-3.txt (U-00024A07): Use "𤨇" instead of "⿸虍手".
 	(U-00024A08): Completed.
 
-	* IDS-UCS-Ext-B-1.txt (U-00021148): Use "鎼" instead of
+	* IDS-UCS-Ext-B-1.txt (U-00021148): Use "𡅈" instead of
 	"⿰金⿸虍手".
 
-	* IDS-UCS-Basic.txt (U+93BC): Use "𧆠" instead of "⿸虍手".
+	* IDS-UCS-Basic.txt (U+93BC): Use "𤨇" instead of "⿸虍手".
 
 2019-05-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -16507,11 +16512,11 @@
 
 2019-04-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-5.txt (U-000293FD): Use "𠬤" instead of "⿱又𠀆".
+	* IDS-UCS-Ext-B-5.txt (U-000293FD): Use "𠬠" instead of "⿱又𠀆".
 
-	* IDS-UCS-Ext-B-3.txt (U-00024762): Use "𠬤" instead of "⿱又𠀆".
+	* IDS-UCS-Ext-B-3.txt (U-00024762): Use "𠬠" instead of "⿱又𠀆".
 
-	* IDS-UCS-Basic.txt: Use "𠬤" instead of "⿱又𠀆".
+	* IDS-UCS-Basic.txt: Use "𠬠" instead of "⿱又𠀆".
 
 2019-04-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -16658,21 +16663,21 @@
 
 2018-10-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-5.txt (U-0002851C): Use "𠜊" instead of
+	* IDS-UCS-Ext-B-5.txt (U-0002851C): Use "𠗛" instead of
 	"⿰⿱巛𠔼刂".
 	(U-00029603): Likewise.
 
-	* IDS-UCS-Ext-B-2.txt (U-00023D84): Use "𠜊" instead of
+	* IDS-UCS-Ext-B-2.txt (U-00023D84): Use "𠗛" instead of
 	"⿰⿱巛𠔼刂".
 	(U-00023D85): Use "㞐" instead of "⿸尸立".
 
 2018-10-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-4.txt (U-00027335): Use "𠜊" instead of
+	* IDS-UCS-Ext-B-4.txt (U-00027335): Use "𠗛" instead of
 	"⿰⿱巛𠔼刂".
 	(U-000276B2): Ditto.
 
-	* IDS-UCS-Ext-B-3.txt (U-000257F8): Use "𠜊" instead of
+	* IDS-UCS-Ext-B-3.txt (U-000257F8): Use "𠗛" instead of
 	"⿰⿱巛𠔼刂".
 
 2018-10-04  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -16841,7 +16846,7 @@
 	- Use "⿱𫲽x" instead of "⿳宀心x" or "⿱宀⿱心x".
 	- Use "⿱寍x" instead of "⿱宀⿳心皿x".
 	- Use GT-K00876 instead of "⿱⺊冂".
-	- Use "𦓈" instead of "⿱老⿰老老".
+	- Use "𦓄" instead of "⿱老⿰老老".
 	(U-00020A07): Use "叒" instead of "⿱又⿰又又".
 
 2017-12-01  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -16990,8 +16995,8 @@
 	* IDS-UCS-Basic.txt (U+7588): Use "⿴㽬x" instead of "⿲畐x畐".
 	(U+8C61): Use GT-K02380 instead of "⿱⺈𫩏".
 
-	* IDS-UCS-Ext-E.txt (U+2C29F): Use GT-K02380 instead of "⿱𠂊𫩏".
-	(U+2CAB9): Use "𭯍" instead of "⿳𠂊𫩏比".
+	* IDS-UCS-Ext-E.txt (U+2C29F): Use GT-K02380 instead of "⿱刀𫩏".
+	(U+2CAB9): Use "𭯍" instead of "⿳刀𫩏比".
 	(U+2CAF9): Ditto.
 
 	* IDS-UCS-Ext-B-2.txt (U-00023800): Use U+7676-itaiji-004 instead
@@ -17072,14 +17077,14 @@
 	- Use "卆" instead of "⿱九十".
 	- Use "𢆶" instead of "⿰幺幺".
 	(U-00024B73): Use "𡇟" instead of "⿴囗⿰幺幺".
-	(U-00025212): Use "𢇂" instead of "⿱⿰幺幺廾".
+	(U-00025212): Use "幽" instead of "⿱⿰幺幺廾".
 	(U-0002560D): Completed.
 	(U-0002561D): Use "冈" instead of "⿵⺆㐅".
 	(U-00025653): Fixed.
 	(U-0002565B): Completed.
 	(U-000256EA): Use "𢉖" instead of "⿸&CDP-8D56;⿰厶厶".
 	(U-000256F6): Use "善" instead of "⿳𦍌䒑口".
-	(U-0002570A): Use "粵" instead of "粤".
+	(U-0002570A): Use "噢" instead of "粤".
 	(U-0002570C): Use "奧" instead of "⿱⿵𰃦釆大".
 	(U-00025722): Fixed.
 
@@ -17229,7 +17234,7 @@
 2017-07-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-5.txt: Use U+72AD instead of <CJK RADICAL DOG>.
-	(U-000291E5): Use "𫉬" instead of "⿱艹⿰⺨隻".
+	(U-000291E5): Use "䨼" instead of "⿱艹⿰⺨隻".
 
 	* IDS-UCS-Ext-B-4.txt: Use U+72AD instead of <CJK RADICAL DOG>.
 	(U-00026DC8): Use "狹" instead of "⿰⺨夾".
@@ -17275,14 +17280,14 @@
 	- Use "竝" instead of "⿰立立".
 	- Use "畱" instead of [⿱ BC-89B6 田].
 	(U-0002859B): Use "𩁹" instead of "⿱⻗于".
-	(U-000285D2): Use "𨑳" instead of "⿺辶𡈼".
+	(U-000285D2): Use "﨤" instead of "⿺辶𡈼".
 	(U-00029080): Fixed.
 	(U-000290CA): Completed.
 	(U-000290CD): Use "㳂" instead of "⿰氵公".
 	(U-000290DE): Use "𢨯" instead of "⿰戶戶".
 	(U-00029167): Fixed.
-	(U-0002916F): Use "䎜" instead of "⿰老老".
-	(U-000291C7): Use "𦓈" instead of "⿱老⿰老老".
+	(U-0002916F): Use "𮋛" instead of "⿰老老".
+	(U-000291C7): Use "𦓄" instead of "⿱老⿰老老".
 	(U-000291D3): Use "𤴐" instead of "⿳⿰田田⿰回回⿰田田".
 
 	* IDS-UCS-Ext-B-3.txt:
@@ -17432,7 +17437,7 @@
 	(U-000280AD): Use "毒" instead of "⿱龶母".
 	(U-00028148): Use "𦰧" instead of "⿳龷厶木".
 	(U-00028209): Use "𡖂" instead of "⿱卝夒".
-	(U-00028D7F): Use "𢇂" instead of "⿱⿰幺幺廾".
+	(U-00028D7F): Use "幽" instead of "⿱⿰幺幺廾".
 	(U-00028ECB): Use "𡌥" instead of "⿳一⿰幺幺土".
 	(U-00029706): Use "𢆻" instead of "⿱⿰幺幺几".
 
@@ -17447,7 +17452,7 @@
 	(U-00027FCF): Use "𭅲" instead of "⿴㔾丶".
 
 	* IDS-UCS-Basic.txt: Use U-00027FB7 instead of <CJK RADICAL FOOT>.
-	(U+8E6E): Use "䙴" instead of "⿳覀大巳".
+	(U+8E6E): Use "僊" instead of "⿳覀大巳".
 
 2017-07-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -17669,7 +17674,7 @@
 	- Use GT-K00877 instead of "⿱⺊冖".
 	(U-00026AC6): Fixed.
 	(U-000270DC): Use GT-K03322 instead of "⿱⺈⺫".
-	(U-00027203): Use "𧇖" instead of "⿸虍⿳八𠆢目".
+	(U-00027203): Use "𤪽" instead of "⿸虍⿳八𠆢目".
 	(U-0002759A): Use "㯱" instead of "⿱⿱𰀉冖⿱缶木".
 	(U-00027895): Use U+777F-itaiji-001 instead of "⿳⿱⺊冖⿱八𠆢目".
 	(U-00027E29): Use A-IWDSU+777F instead of "⿱⺊⿸厂⿱⿳一八𠆢目".
@@ -17686,7 +17691,7 @@
 	- Use GT-K00859 instead of "⿱八𠆢".
 	- Use GT-K00877 instead of "⿱⺊冖".
 	- Use GT-K03322 instead of "⿱⺈⺫".
-	(U-00024039): Use "𥈠" instead of "⿱⺊⿸&CDP-88E2;⿳一⿱八𠆢目".
+	(U-00024039): Use "&g2-HD-TK-01063040;" instead of "⿱⺊⿸&CDP-88E2;⿳一⿱八𠆢目".
 	(U-00024A45): Use "䜭" instead of "⿱⺊⿳冖一谷".
 	(U-00024A77): Use "𫳤" instead of "⿳宀⿳一八𠆢目".
 	(U-00025304): Use GT-K01554 instead of "⿱⿱⺊冖一".
@@ -17734,7 +17739,7 @@
 
 	* IDS-UCS-Ext-F.txt: Use GT-K00724 instead of "⿺𠃊口".
 	(U+2D42C): Use GT-K03322 instead of "⿱⺈罒".
-	(U+2D44F): Use (⿱ GT-K03322 大) instead of "⿱𠂊𦉼".
+	(U+2D44F): Use (⿱ GT-K03322 大) instead of "⿱刀𦉼".
 	(U+2D693): Completed.
 	(U+2D6C4): Completed.
 	(U+2D7E9): Completed.
@@ -18038,7 +18043,7 @@
 	(U-00020A98): Use "𣪏" instead of "⿰⿱彐⺼殳".
 	(U-00020ECC): Fixed.
 	(U-00020F7A): Use "𡋑" instead of "⿻土⿰口口".
-	(U-00021070): Use "𦂝" instead of "⿰糹⿱⿺𠃊口⺼".
+	(U-00021070): Use "𦁘" instead of "⿰糹⿱⿺𠃊口⺼".
 	(U-000210DF): Use BC-88A5 instead of "⿻土吅"; fixed.
 	(U-000210EB): Use "𠪘" instead of "⿸厂⿰⿱彐⺼殳".
 	(U-0002115C): Use "𧬉" instead of "⿱𣅽⿱大言".
@@ -18057,7 +18062,7 @@
 	- Use "𦙃" instead of "⿱⿺𠃊口⺼".
 	(U-0002405C): Use BC-8DEB instead of "⿲刀丫𬼗".
 	(U-00024161): Use "𩕍" instead of "⿰⿱自𠦂頁".
-	(U-0002416D): Use "𧞻" instead of "⿳⿱亠吅⿰&CDP-86C9;爻𧘇".
+	(U-0002416D): Use "襲" instead of "⿳⿱亠吅⿰&CDP-86C9;爻𧘇".
 	(U-0002426F): Use "𧢲" instead of "⿱⺈⿵冂⿱人人".
 	(U-000244CA): Use "𧬉" instead of "⿳日出⿵大言".
 	(U-00024B25): Fixed.
@@ -18127,7 +18132,7 @@
 
 	* IDS-UCS-Ext-B-2.txt: Use "𣥏" instead of "⿱止𧘇".
 	(U-0002228C): Use "脊" instead of "⿱&CDP-88D2;⺼".
-	(U-000239B2): Use "𣦒" instead of "⿳止&CDP-88D2;⺼".
+	(U-000239B2): Use "歴" instead of "⿳止&CDP-88D2;⺼".
 
 	* IDS-UCS-Ext-B-4.txt:
 	- Use "仌" instead "⿱人人".
@@ -18173,7 +18178,7 @@
 2017-03-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+7319): Fixed.
-	(U+76EB): Use "⿱𨠭x" instead of "⿳合酉x".
+	(U+76EB): Use "⿱𨠫x" instead of "⿳合酉x".
 	(U+775C): Fixed.
 
 2017-03-09  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -18220,7 +18225,7 @@
 	- Use U+6C35 instead of <CJK RADICAL WATER ONE>.
 	- Use U-000248E9 instead of <CJK RADICAL JADE>.
 	- Use "䀠" instead of "⿰目目".
-	(U+3659): Use "浝" instead of "⿰⺡尨".
+	(U+3659): Use "㙙" instead of "⿰⺡尨".
 	(U+4A30): Use "㴖" instead of "⿰⺡革".
 
 	* IDS-UCS-Basic.txt:
@@ -18247,7 +18252,7 @@
 	(U+5BE1): Use "𪟊" instead of "⿱&CDP-8DE0;分".
 	(U+5C6C): Change structure.
 	(U+5D90): Fixed.
-	(U+5E42): Use "𠖇" instead of "⿱冖旲".
+	(U+5E42): Use "𠖊" instead of "⿱冖旲".
 	(U+5ECF): Use "𣪘" instead of "⿰皀殳".
 	(U+64DE): Fixed.
 	(U+65C1): Use "&CDP-8BEC;" instead of "⿳亠丷冖".
@@ -18328,7 +18333,7 @@
 	(U-00024157): Use "𦝠" instead of "⿳亡口⿰月卂".
 	(U-0002417B): Use "𩫖" instead of "⿻𠅠回".
 	(U-0002517F): Use "执" instead of "⿰⺘丸".
-	(U-000256C6): Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U-000256C6): Use "傂" instead of "⿱帚又".
 	(U-00025CAC): Use "𫞕" instead of "⿻氏丶".
 	(U-00025DCB): Use "𰕣" instead of "⿰單斤".
 
@@ -18339,7 +18344,7 @@
 	- Use "㘝" instead of "⿴囗又".
 	- Use "&GT-K11083;" instead of "⿻𦥑囟".
 	- Use "⿱䔘x" instead of "⿳艹⿰缶且x".
-	(U-000260CC): Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U-000260CC): Use "傂" instead of "⿱帚又".
 	(U-000260CD): Use "𢍍" instead of "⿱囱廾".
 	(U-00026E6D): Use "𭤨" instead of "⿸⿰方𠂉".
 	(U-00026EAD): Use "㑴" instead of "⿰⺅⿱帚又".
@@ -18357,7 +18362,7 @@
 2017-02-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt:
-	- Use "⿵𣎆x" instead of "⿱吂⿲月x凡".
+	- Use "⿵嬴x" instead of "⿱吂⿲月x凡".
 	- Use "⿸𭤨x" instead of "⿰方⿱𠂉x"
 	(U+2BD69): Use U+9B32-itaiji-001 instead of "⿳一&CDP-89CC;&CDP-8BDC;".
 	(U+2C022): Use CB04718 instead of "⿰米舀".
@@ -18388,13 +18393,13 @@
 	(U-00028B40): Use U+9B32-itaiji-001 instead of "⿳一&CDP-89CC;&CDP-8BDC;".
 	(U-000290E2): Use MJ057538 instead of "⿱从戈".
 	(U-000291D1): Use "𩫖" instead of "⿳&CDP-8BAA;回⿱⿶凵口丨".
-	(U-0002993F): Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U-0002993F): Use "傂" instead of "⿱帚又".
 	(U-00029AD6): Use "𠯃" instead of "⿱⿶凵口丨".
 	(U-00029AEE): Use "𩫖" instead of "⿱高⿱⿶凵口丨".
 	(U-00029C3D): Use U+9B32-itaiji-001 instead of "⿳一&CDP-89CC;&CDP-8BDC;".
 
 	* IDS-UCS-Ext-A.txt: Use "𭤨" instead of "⿰方𠂉".
-	(U+3474): Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	(U+3474): Use "傂" instead of "⿱帚又".
 	(U+34A8): Use "𠨧" instead of "⿳⿻𦥑囟大㔾".
 	(U+4889): Use "&GT-K11083;" instead of "⿻𦥑囟".
 
@@ -18412,7 +18417,7 @@
 	* IDS-UCS-Ext-B-2.txt:
 	- Use "𤐫" instead of "⿳⿻𦥑囟一火".
 	- Use "𭤨" instead of "⿰方𠂉".
-	- Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	- Use "傂" instead of "⿱帚又".
 	(U-0002284D): Use "鬲" instead of "⿳一&CDP-89CC;⿵𦉪丅".
 	(U-00022864): Use "&U-i002+9B32;" instead of "⿳一&CDP-89CC;⿵𦉪干".
 	(U-000230F3): Use "㘝" instead of "⿴囗又".
@@ -18425,12 +18430,12 @@
 
 2017-02-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-B-1.txt: Use "&A-U-i001+20B36;" instead of "⿱帚又".
+	* IDS-UCS-Ext-B-1.txt: Use "傂" instead of "⿱帚又".
 	(U-00020510): Use GT-K01370 instead of "一" + BC-89CC.
 	(U-0002068F): Use "&CDP-8856;" instead of "⿻千从".
 	(U-00020DA9): Use "𫞕" instead of "⿻氏丶".
 	(U-00021AA2): Use "㑴" instead of "⿰⺅⿱帚又".
-	(U-00021ACF): Use "𣹰" instead of "⿰⺡⿱帚又".
+	(U-00021ACF): Use "满" instead of "⿰⺡⿱帚又".
 
 2017-02-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -18528,7 +18533,7 @@
 
 	* IDS-UCS-Ext-B-1.txt: Use "堇" instead of "⿱廿&CDP-88BA;".
 	(U-00020403): Use "⿸翛x" instead of "⿸⿰&CDP-8B7A;夂⿱羽x".
-	(U-00020405): Use "𦖑" instead of "⿰耳宜".
+	(U-00020405): Use "𦖜" instead of "⿰耳宜".
 
 	* IDS-UCS-Ext-B-6.txt (U-0002A1FC): Use "堇" instead of "⿱廿&CDP-88BA;".
 
@@ -18658,12 +18663,12 @@
 	- Use <CJK RADICAL MOUND TWO> instead of U+961D as left component.
 	(J90-3070): Use "𱬹" instead of "⿱爫旧".
 	(J90-322B): Add IDS.
-	(J90-323A): Use "𢚩" instead of "⿳爫彐心".
+	(J90-323A): Use "悭" instead of "⿳爫彐心".
 	(J90-3249): Use "𪟊" instead of "⿱&CDP-8DE0;分".
-	(J90-3275): Use "&U-i004+8931;" instead of "⿳十⺫衣".
+	(J90-3275): Use "&A-U-i004+8931;" instead of "⿳十⺫衣".
 	(J90-327B): Likewise.
 	(J90-3354): Use <CJK RADICAL CITY> instead of U+961D.
-	(J90-373C): Use "𢼄" instead of "⿰戸攵".
+	(J90-373C): Use "啓" instead of "⿰戸攵".
 	(J90-3747): Use "曷" instead of "⿱日匂".
 
 2016-10-19  MORIOKA Tomohiko  <tomo.git@chise.org>
@@ -18705,7 +18710,7 @@
 
 	* IDS-UCS-Ext-E.txt (U+2C75C): Use "𭭇" instead of "⿰朿欠".
 
-	* IDS-UCS-Basic.txt (U+8D56): Use "负" instead of "⿱𠂊贝".
+	* IDS-UCS-Basic.txt (U+8D56): Use "负" instead of "⿱刀贝".
 
 2016-09-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
@@ -18725,7 +18730,7 @@
 	(U-00022D1D): Use "𦰟" instead of "⿱卄阮".
 	(U-00022FEF): Use "⿱艹畀" instead of "⿳卄田丌".
 	(U-00023300): Fixed.
-	(U-00023733): Use "葻" instead of "⿱卄風".
+	(U-00023733): Use "𡑵" instead of "⿱卄風".
 	(U-00023758): Use "⿱艹逄" instead of "⿱卄⿺辶夅".
 	(U-0002378E): Use "蓝" instead of "⿱卄监".
 	(U-000237C3): Use "⿱⿳艹⺫冖歹" instead of "⿳卄⺫⿱冖歹".
@@ -19061,16 +19066,16 @@
 
 2015-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
-	* IDS-UCS-Ext-E.txt (U+2C899): Use "⿵𣎆角" instead of "⿱吂⿰𦛲凡.
+	* IDS-UCS-Ext-E.txt (U+2C899): Use "⿵嬴角" instead of "⿱吂⿰𦛲凡.
 
 2015-01-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-000261FD): Use "⿵⿳亡口⿰⺼月x" instead
 	of "⿳亡口⿲⺼x月".
-	(U-0002713F): Use "⿵𣎆x" instead of "⿱亡口⿲⺼x凡".
+	(U-0002713F): Use "⿵嬴x" instead of "⿱亡口⿲⺼x凡".
 	(U-0002718D): Use "⿵𦝠x" instead of "⿱亡口⿲⺼x卂".
 
-	* IDS-UCS-Ext-B-5.txt (U-000283E9): Use "𣎆" instead of
+	* IDS-UCS-Ext-B-5.txt (U-000283E9): Use "嬴" instead of
 	"⿳亡口⿰⺼凡".
 	(U-00028B5E): Likewise.
 	(U-00029F0A): Likewise.
@@ -19244,7 +19249,7 @@
 
 	* IDS-JIS-X0208-1990.txt:
 	- Use "⿰女" instead of "⿰女".
-	- Use "⿰釒" instead of "⿰金".
+	- Use "⿰金" instead of "⿰金".
 	- Modify some components.
 	- Avoid IVS.
 	(J90-317C): Fixed.
@@ -19800,7 +19805,7 @@
 	(U-00020106): Fixed (reported by KANOU Hiroki at 2009-01-20 12:26
 	<mixi-msg:id=df72941679c2f7f68f2e178a6529df65>).
 	(U-000202FF): Use "𡋲" instead of "⿱丣土".
-	(U-00020300): Use "𤔍" instead of "⿱爫⿳龴乛小".
+	(U-00020300): Use "𠌀" instead of "⿱爫⿳龴乛小".
 
 2009-01-15  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
@@ -19929,7 +19934,7 @@
 	(M-17924): Add IDS.
 	(M-17934): Add IDS.
 	(M-17939): Add IDS.
-	(M-20923): Use "𡵄" instead of "⿱山𠀆".
+	(M-20923): Use "&A-IWDSU+21D00;" instead of "⿱山𠀆".
 
 	* IDS-UCS-Ext-A.txt (U+45F4): Fixed.
 
@@ -20399,7 +20404,7 @@
 	IDS.
 	(U-00020293): Compact IDS.
 	(U-0002091D): Use "⿵龸" instead of "⿱⺌⿵冖" to compact IDS.
-	(U-00020920): Use "&J97-5079;" instead of "⿱⺌⿵冖口" to compact IDS.
+	(U-00020920): Use "𠊷" instead of "⿱⺌⿵冖口" to compact IDS.
 	(U-00021777): Use "龸" instead of "⿱⺌冖" to compact IDS.
 	(U-00021B75): Likewise.
 	(U-00021B9D): Likewise.
@@ -20470,9 +20475,9 @@
 
 	* IDS-UCS-Ext-B-4.txt:
 	- Modify some IDSs.
-	- Use "⿵𣎆" instead of "⿵𦝠".
+	- Use "⿵嬴" instead of "⿵𦝠".
 	(U-00026760): Modify IDS.
-	(U-000268BC): Use "⿵𦟀x" instead of "⿳亡口⿲月x丮".
+	(U-000268BC): Use "⿵𡣍x" instead of "⿳亡口⿲月x丮".
 	(U-0002714B): Compact IDS.
 	(U-00027182): Compact IDS.
 	(U-00027183): Compact IDS.
@@ -20481,8 +20486,8 @@
 
 	* IDS-UCS-Basic.txt:
 	- Modify some IDSs.
-	- Use "⿵𣎆" instead of "⿵𦝠".
-	(U+5B34): Use "⿵𣎆x" instead of "⿳亡口⿲月x凡".
+	- Use "⿵嬴" instead of "⿵𦝠".
+	(U+5B34): Use "⿵嬴x" instead of "⿳亡口⿲月x凡".
 	(U+6BC0): Use "⿹⿰臼殳土" instead of "⿰⿱臼土殳".
 	(U+6BC1): Use "⿹⿰臼殳x" instead of "⿰⿱臼x殳".
 
@@ -20495,9 +20500,9 @@
 	(U-00023AB7): Use "⿹⿰臼殳x" instead of "⿰⿱臼x殳".
 	(U-00023ACF): Likewise.
 
-	* IDS-UCS-Ext-B-1.txt (U-00021CF4): Use "⿵𣎆" instead of "⿻𦝠".
+	* IDS-UCS-Ext-B-1.txt (U-00021CF4): Use "⿵嬴" instead of "⿻𦝠".
 
-	* IDS-UCS-Ext-A.txt (U+41D4): Use "⿵𣎆" instead of "⿻𦝠".
+	* IDS-UCS-Ext-A.txt (U+41D4): Use "⿵嬴" instead of "⿻𦝠".
 	(U+42A8): Use "⿵𦝠米" instead of "⿱吂⿲⺼米几".
 
 	* IDS-UCS-Ext-B-5.txt: Modify some IDSs.
@@ -20769,12 +20774,12 @@
 
 2005-04-30  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
 
-	* IDS-UCS-Basic.txt: Use "⿸𠩵" instead of "⿸厂⿱林".
+	* IDS-UCS-Basic.txt: Use "⿸&U-i011+864E;" instead of "⿸厂⿱林".
 	(U+5175): Modify IDS.
 
 	* IDS-JIS-X0208-1990.txt:
 	- Add/modify/fix some IDSs.
-	- Use "⿸𠩵" instead of "⿸厂⿱林".
+	- Use "⿸&U-i011+864E;" instead of "⿸厂⿱林".
 
 	* IDS-HZK04.txt: Complete/modify/fix some IDSs.
 
@@ -21134,7 +21139,7 @@
 	- Use "敄" instead of "⿰矛攵".
 	- Use "啬" instead of "⿱&CDP-8A65;回".
 	- Use "䧘" instead of "⿰阝彖".
-	- Use "㕓" instead of "⿸厂墨".
+	- Use "厳" instead of "⿸厂墨".
 	- Use "𤳳" instead of "⿱⿰田田⿰田田".
 	- Use "𦋹" instead of "⿱⺫⿰⺫⺫".
 	- Use "奻" instead of "⿰女女".
@@ -21145,7 +21150,7 @@
 	- Use "麽" instead of "⿸麻么".
 	- Use "孖" instead of "⿰子子".
 	- Use "孨" instead of "⿱子⿰子子".
-	- Use "𤫲" instead of "⿰瓜瓜".
+	- Use "㼋" instead of "⿰瓜瓜".
 	- Use "珎" instead of "⿰⺩尔".
 	- Use "𢕪" instead of "⿰彳喬".
 	- Use "归" instead of "⿰刂彐".
@@ -21182,7 +21187,7 @@
 	- Use "寻" instead of "⿱彐寸".
 	- Use "贯" instead of "⿱毌贝".
 	- Use "厽" instead of "⿱厶厸".
-	- Use "𤫲" instead of "⿰瓜瓜".
+	- Use "㼋" instead of "⿰瓜瓜".
 	- Use "昬" instead of "⿱民日".
 	- Use "𣬉" instead of "⿱囟比".
 
@@ -21210,7 +21215,7 @@
 	- Use "爱" instead of "⿱&CDP-8BB8;友".
 	- Use "戞" instead of "⿱&CDP-8CD4;戈".
 	- Use "婴" instead of "⿱⿰贝贝女".
-	- Use "𦣲" instead of "⿱自𠦂".
+	- Use "臨" instead of "⿱自𠦂".
 	- Use "鲁" instead of "⿱鱼日".
 	- Use "𤴡" instead of "⿳𲓜田⿱厶龰".
 	- Use "點" instead of "⿰黑占".
@@ -21227,7 +21232,7 @@
 	- Use "熈" instead of "⿱⿲丿臣巳灬".
 	- Use "⿰⿱山己" instead of "⿰⿱山己".
 	- Use "⿰己" instead of "⿰己".
-	- Use "𢀖" instead of "⿱&CDP-89E1;工".
+	- Use "𠇹" instead of "⿱&CDP-89E1;工".
 	- Use "朶" instead of "⿱乃木".
 	- Use "岁" instead of "⿱山夕".
 	- Use "贳" instead of "⿱世贝".
@@ -21251,7 +21256,7 @@
 
 	* IDS-UCS-Basic.txt (U+4EB7): Fixed.
 	(U+5700): Modify IDS.
-	- Use U+3749 (㝉) instead of "⿱宀一".
+	- Use U+3749 (𡦹) instead of "⿱宀一".
 	- Use U+516B instead of UU+516B.
 
 2005-01-31  MORIOKA Tomohiko  <tomo@kanji.zinbun.kyoto-u.ac.jp>
