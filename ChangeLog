@@ -1,3 +1,10 @@
+2026-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+4E0B): Add IDS.
+	(U+5F51): Use A-U+5915-itaiji-003 instead of U+5915-itaiji-003.
+	(U+5F56): Likewise.
+	(U+81EA): Add an apparent IDS.
+
 2026-06-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+4E09): Add IDS.
