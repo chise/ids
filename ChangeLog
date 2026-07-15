@@ -1,3 +1,10 @@
+2026-07-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+5360): Use U+53E3[mouth] instead of
+	U+56D7[enclosure] as the bottom component.
+	(U+53D7): Modify structure.
+	(U+80B2): Use "⿱𠫓x" instead of "⿳亠厶x".
+
 2026-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+4E0B): Add IDS.
