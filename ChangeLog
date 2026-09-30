@@ -1,3 +1,12 @@
+2026-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027153): Use "竆" instead of "⿱穴躳".
+
+2026-09-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-E.txt (U+2C77D): Modify structure; preserve the
+	previous IDS as an apparent structure.
+
 2026-07-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-03405): Modify structure.
@@ -8463,7 +8472,7 @@
 	(SW-JIGUGE-30602): Completed.
 	(SW-JIGUGE-30603): Completed.
 	(SW-JIGUGE-31904): Completed.
-	(SW-JIGUGE-34931): Use "&SW-JIGUGE5-41716;" instead of "⿰&SW-JIGUGE4-01009;&R-CHISE-HDIC-KTBS0307;".
+	(SW-JIGUGE-34931): Use "&SW-JIGUGE5-41716;" instead of "⿰𽃍&R-CHISE-HDIC-KTBS0307;".
 	(SW-JIGUGE-41715): Completed.
 	(SW-JIGUGE-41717): Completed.
 	(SW-JIGUGE-41718): Completed.
@@ -12569,7 +12578,7 @@
 	(SW-JIGUGE-00713): Completed.
 	(SW-JIGUGE-01019): Completed.
 	(SW-JIGUGE-01215): Fixed.
-	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE5-01214;x" instead of "⿲&SW-JIGUGE5-00600;x&SW-JIGUGE5-00600;".
+	(SW-JIGUGE-01218): Use "⿴𽄋x" instead of "⿲𽁧x𽁧".
 	(SW-JIGUGE-01502): Fixed.
 	(SW-JIGUGE-01503): Completed.
 	(SW-JIGUGE-01506): Completed [temporary].
@@ -12818,7 +12827,7 @@
 	(SW-JIGUGE-00713): Completed.
 	(SW-JIGUGE-01019): Completed.
 	(SW-JIGUGE-01215): Fixed.
-	(SW-JIGUGE-01218): Use "⿴&SW-JIGUGE5-01214;x" instead of "⿲&SW-JIGUGE5-00600;x&SW-JIGUGE5-00600;".
+	(SW-JIGUGE-01218): Use "⿴𽄋x" instead of "⿲𽁧x𽁧".
 	(SW-JIGUGE-01502): Fixed.
 	(SW-JIGUGE-01503): Fixed.
 	(SW-JIGUGE-02008): Completed.
