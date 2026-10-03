@@ -1,3 +1,13 @@
+2026-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-H.txt (U+321E9): Use "⿴沝x" instead of "⿲水x水".
+
+	* IDS-UCS-Ext-B-4.txt (U-00027145): Use "䞈" instead of "⿰貝爲".
+	(U-00027148): Use "𥣞" instead of "⿰禾翟".
+	(U-00027149): Use "𥨪" instead of "⿱穴⿰身邑".
+	(U-00027150): Use "潡" instead of "⿰氵敦".
+	(U-00027152): Use "⿴沝x" instead of "⿲水x水".
+
 2026-09-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027153): Use "竆" instead of "⿱穴躳".
