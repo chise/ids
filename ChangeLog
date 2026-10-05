@@ -1,3 +1,10 @@
+2026-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00026D64): Use "𲜡" instead of "⿱宀㝴".
+	(U-00026D68): Use "𣁋" instead of "⿰𡵉攵".
+	(U-00026D6A): Fixed.
+	(U-00026D72): Use "⿱x⿱帚又" instead of "⿳x帚又".
+
 2026-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-H.txt (U+321E9): Use "⿴沝x" instead of "⿲水x水".
@@ -10582,7 +10589,7 @@
 2021-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-04225): Completed.
-	(SW-JIGUGE-04411): Use "&U-i001+2FFB;&SW-JIGUGE5-34001;&SW-JIGUGE5-04401;" instead of "⿷⿹&SW-JIGUGE5-34001;&SW-JIGUGE5-03700;&SW-JIGUGE5-03700;".
+	(SW-JIGUGE-04411): Use "&U-i001+2FFB;&SW-JIGUGE5-34001;&SW-JIGUGE5-04401;" instead of "⿷⿹&SW-JIGUGE5-34001;𽍳𽍳".
 	(SW-JIGUGE-05430): Completed.
 	(SW-JIGUGE-05708): Completed [temporary].
 	(SW-JIGUGE-05709): Completed [temporary].
