@@ -1,3 +1,7 @@
+2026-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6B25): Use "曰" instead of "日".
+
 2026-09-17  Laurance  <60111599+LLaurance@users.noreply.github.com>
 
 	* IDS-UCS-Ext-D.txt (U+2B81E): Add.
