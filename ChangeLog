@@ -1,3 +1,8 @@
+2026-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021620): Modify structure.
+	(U-00021628): Modify structure.
+
 2026-10-05  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+6B25): Use "曰" instead of "日".
@@ -10597,7 +10602,7 @@
 2021-08-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt (SW-JIGUGE-04225): Completed.
-	(SW-JIGUGE-04411): Use "&U-i001+2FFB;&SW-JIGUGE5-34001;&SW-JIGUGE5-04401;" instead of "⿷⿹&SW-JIGUGE5-34001;𽍳𽍳".
+	(SW-JIGUGE-04411): Use "&U-i001+2FFB;&SW-JIGUGE5-34001;𽑈" instead of "⿷⿹&SW-JIGUGE5-34001;𽍳𽍳".
 	(SW-JIGUGE-05430): Completed.
 	(SW-JIGUGE-05708): Completed [temporary].
 	(SW-JIGUGE-05709): Completed [temporary].
@@ -11781,7 +11786,7 @@
 2021-06-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-SW-JIGUGE.txt:
-	- Use "⿰&SW-JIGUGE5-04411;x" instead of "⿺&SW-JIGUGE5-04411;x" or "{⿰/⿺}&SW-JIGUGE5-04411;x".
+	- Use "⿰𽑒x" instead of "⿺𽑒x" or "{⿰/⿺}𽑒x".
 	- Use "⿵&SW-JIGUGE5-24600;x" instead of "⿱&SW-JIGUGE5-24600;x" [with a few exceptions].
 	- Use "⿵&SW-JIGUGE5-24908;x" instead of "⿱&SW-JIGUGE5-24908;x" [with a few exceptions].
 	- Use "⿵&SW-JIGUGE5-25704;x" instead of "⿱&SW-JIGUGE5-25704;x" [with a few exceptions].
