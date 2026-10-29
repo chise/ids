@@ -1,5 +1,11 @@
 2026-10-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* IDS-UCS-Ext-F.txt (U+2D42C): Modify structure.
+	(U+2DCA6): Modify substructure.
+	(U+2DCA7): Modify substructure.
+	(U+2E246): Modify substructure.
+	(U+2E8C8): Modify substructure.
+
 	* IDS-UCS-Ext-B-1.txt (U-00021620): Modify structure.
 	(U-00021628): Modify structure.
 
