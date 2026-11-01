@@ -1,3 +1,8 @@
+2026-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Basic.txt (U+6881): Modify structure; add an apparent
+	field based on the previous IDS.
+
 2026-10-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-E.txt (U+2C0BE): Use "⿽⿱刅木x" instead of
