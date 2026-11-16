@@ -1,3 +1,16 @@
+2026-11-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-4.txt (U-00027EC2): Use "𣥚" instead of "⿱夭止".
+	(U-00027FAB): Fixed.
+	(U-00027FAD): Modify structure; preserve the previous IDS as an
+	apparent structure.
+
+	* IDS-UCS-Basic.txt (U+5EF6): Modify structure; add an apparent
+	field based on the previous IDS.
+
+	* IDS-UCS-Ext-B-1.txt (U-00021CB4): Modify structure.
+	(U-00021CC9): Modify structure.
+
 2026-10-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Basic.txt (U+6881): Modify structure; add an apparent
