@@ -1,3 +1,10 @@
+2026-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* IDS-UCS-Ext-B-1.txt (U-00021CCF): Use "𡱜" instead of "⿸尸兆".
+	(U-00021CD0): Use "𢔃" instead of "⿰彳⿱舟夂".
+	(U-00021CD9): Modify structure.
+	(U-00021CDA): Modify structure.
+
 2026-11-11  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* IDS-UCS-Ext-B-4.txt (U-00027EC2): Use "𣥚" instead of "⿱夭止".
@@ -5796,8 +5803,8 @@
 	(SW-JIGUGE-30023): Completed.
 	(SW-JIGUGE-30101): Completed.
 	(SW-JIGUGE-30107): Completed.
-	(SW-JIGUGE-30209): Use SW-JIGUGE-04221[&SW-JIGUGE5-04220;] instead of
-	SW-JIGUGE-41104[&SW-JIGUGE4-04220;].
+	(SW-JIGUGE-30209): Use SW-JIGUGE-04221[𽐠] instead of
+	SW-JIGUGE-41104[𽐠].
 	(SW-JIGUGE-30301): Completed.
 	(SW-JIGUGE-30311): Completed [temporary].
 	(SW-JIGUGE-30316): Completed.
